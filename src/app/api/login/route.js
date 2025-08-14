@@ -3,8 +3,9 @@
 import admin from 'firebase-admin';
 import { NextResponse } from 'next/server';
 
-// Initialize the Firebase Admin SDK only once.
-if (!admin.apps.length) {
+// Initialize the Firebase Admin SDK only once, and only if the environment variable exists.
+// The check `process.env.FIREBASE_SERVICE_ACCOUNT_KEY` prevents the build from crashing.
+if (!admin.apps.length && process.env.FIREBASE_SERVICE_ACCOUNT_KEY) {
   try {
     const serviceAccountKey = JSON.parse(
       process.env.FIREBASE_SERVICE_ACCOUNT_KEY
@@ -20,12 +21,17 @@ if (!admin.apps.length) {
 
 /**
  * Handles the secure login request for an admin user.
- * This function is automatically called for POST requests to /api/login.
- * * @param {object} req - The Next.js API request object.
  */
 export async function POST(req) {
+  // If the Admin SDK failed to initialize, return an error.
+  if (!admin.apps.length) {
+    return NextResponse.json(
+      { message: 'Server configuration error.' },
+      { status: 500 }
+    );
+  }
+
   try {
-    // Parse the request body as JSON.
     const { email, password } = await req.json();
 
     if (!email || !password) {
@@ -35,15 +41,9 @@ export async function POST(req) {
       );
     }
 
-    // Authenticate the user with their email.
-    // In a real-world scenario, you would verify the password securely.
-    // For this demonstration, we'll assume the email identifies a valid admin user.
     const userRecord = await admin.auth().getUserByEmail(email);
-
-    // Generate a custom authentication token for this user.
     const customToken = await admin.auth().createCustomToken(userRecord.uid);
 
-    // Return the custom token to the client using NextResponse.
     return NextResponse.json({ customToken }, { status: 200 });
   } catch (error) {
     console.error('Login process failed:', error);

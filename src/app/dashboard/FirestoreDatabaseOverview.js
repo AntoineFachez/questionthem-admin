@@ -65,7 +65,7 @@ export default function FirestoreDatabaseOverview() {
         height: '100%',
         bgcolor: 'background.default',
         color: 'text.primary',
-        p: 4,
+        // p: 4,
         fontFamily: theme.typography.fontFamily,
         display: 'flex',
         flexDirection: 'column',

@@ -1,0 +1,10 @@
+# Ignore the parent project's node_modules and config files
+../.eslintrc.js
+../.eslintrc.json
+../next.config.js
+../next.config.mjs
+../node_modules
+
+# Ignore common build and dependency files within the functions directory
+/lib
+/node_modules

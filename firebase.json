@@ -1,17 +1,12 @@
 {
-  "functions": [
-    {
-      "source": "functions",
-      "codebase": "default",
-      "predeploy": [
-        "npm --prefix \"$RESOURCE_DIR\" run lint",
-        "npm --prefix \"$RESOURCE_DIR\" run build"
-      ]
-    }
-  ],
   "apphosting": {
-    "backendId": "questionthem-admin",
+    "backendId": "questionthem-functions",
+    "site": "questionthem-admin",
     "rootDir": "/",
+    "runConfig": {
+      "maxInstances": 5,
+      "minInstances": 0
+    },
     "ignore": [
       "node_modules",
       ".git",
@@ -20,8 +15,9 @@
       "functions"
     ]
   },
-  "hosting": {
-    "site": "questionthem-admin",
-    "public": "public"
+  "emulators": {
+    "hosting": {
+      "port": 5001
+    }
   }
 }
