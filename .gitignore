@@ -20,6 +20,7 @@
 # production
 /build
 /node_scripts
+/data
 
 # misc
 .DS_Store

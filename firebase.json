@@ -1,6 +1,6 @@
 {
   "apphosting": {
-    "backendId": "questionthem-functions",
+    "backendId": "questionthem-admin",
     "site": "questionthem-admin",
     "rootDir": "/",
     "runConfig": {
