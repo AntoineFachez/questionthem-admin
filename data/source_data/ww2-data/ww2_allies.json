@@ -1,0 +1,738 @@
+[
+  {
+    "country_EN": "Afghanistan",
+    "ISO_A2_EH": "AF",
+    "side": "neutral",
+    "function": "",
+    "weight": "",
+    "notes": null
+  },
+  {
+    "country_EN": "Andorra",
+    "ISO_A2_EH": "AD",
+    "side": "neutral",
+    "function": "",
+    "weight": "",
+    "notes": null
+  },
+  {
+    "country_EN": "Argentina",
+    "ISO_A2_EH": "AR",
+    "side": "Ally",
+    "function": "Co-Belligerent",
+    "weight": " ",
+    "notes": "Stayed neutral for most of the war. Did not sign the Declaration of United Nations, but did declare war on Germany."
+  },
+  {
+    "country_EN": "Australia",
+    "ISO_A2_EH": "AU",
+    "side": "Ally",
+    "function": "",
+    "weight": "",
+    "notes": null
+  },
+  {
+    "country_EN": "Belgium",
+    "ISO_A2_EH": "BE",
+    "side": "Ally",
+    "function": "",
+    "weight": "",
+    "notes": null
+  },
+  {
+    "country_EN": "Bhutan",
+    "ISO_A2_EH": "BT",
+    "side": "neutral",
+    "function": "",
+    "weight": "",
+    "notes": null
+  },
+  {
+    "country_EN": "Bolivia",
+    "ISO_A2_EH": "BO",
+    "side": "Ally",
+    "function": "",
+    "weight": "",
+    "notes": null
+  },
+  {
+    "country_EN": "Brazil",
+    "ISO_A2_EH": "BR",
+    "side": "Ally",
+    "function": "",
+    "weight": "",
+    "notes": null
+  },
+  {
+    "country_EN": "Bulgaria",
+    "ISO_A2_EH": "BG",
+    "side": "both",
+    "function": "",
+    "weight": "",
+    "notes": "Bulgaria was part of the Axis powers from 1941-1944, then switched sides to the Allies in 1944. "
+  },
+  {
+    "country_EN": "Burma",
+    "ISO_A2_EH": "MM",
+    "side": "Axis",
+    "function": "Bilateral Pact",
+    "weight": "(Ba Maw government)",
+    "notes": "Not a legitimate government. (Modern Myanmar)"
+  },
+  {
+    "country_EN": "Cambodia",
+    "ISO_A2_EH": "KH",
+    "side": "Axis",
+    "function": "(Kampuchea)",
+    "weight": "Puppet State",
+    "notes": "Japanese puppet state which existed for roughly five months in mid-1945"
+  },
+  {
+    "country_EN": "Canada",
+    "ISO_A2_EH": "CA",
+    "side": "Ally",
+    "function": "",
+    "weight": "",
+    "notes": null
+  },
+  {
+    "country_EN": "Chile",
+    "ISO_A2_EH": "CL",
+    "side": "Ally",
+    "function": "",
+    "weight": "",
+    "notes": "Declared war on Japan"
+  },
+  {
+    "country_EN": "China",
+    "ISO_A2_EH": "CN",
+    "side": "Ally",
+    "function": "",
+    "weight": "",
+    "notes": "At war with Japan since 1937 (Refers to Republic of China during WWII)"
+  },
+  {
+    "country_EN": "Colombia",
+    "ISO_A2_EH": "CO",
+    "side": "Ally",
+    "function": "",
+    "weight": "",
+    "notes": null
+  },
+  {
+    "country_EN": "Costa Rica",
+    "ISO_A2_EH": "CR",
+    "side": "Ally",
+    "function": "",
+    "weight": "",
+    "notes": null
+  },
+  {
+    "country_EN": "Croatia",
+    "ISO_A2_EH": "HR",
+    "side": "Axis",
+    "function": "Puppet State",
+    "weight": "",
+    "notes": "(Refers to WWII Independent State of Croatia)"
+  },
+  {
+    "country_EN": "Cuba",
+    "ISO_A2_EH": "CU",
+    "side": "Ally",
+    "function": "",
+    "weight": "",
+    "notes": null
+  },
+  {
+    "country_EN": "Czechoslovakia",
+    "ISO_A2_EH": "N/A",
+    "side": "Ally",
+    "function": "(govt. in exile)",
+    "weight": "",
+    "notes": "Government in Exile (No single modern ISO code; split into CZ and SK)"
+  },
+  {
+    "country_EN": "Denmark",
+    "ISO_A2_EH": "DK",
+    "side": "both",
+    "function": "",
+    "weight": "",
+    "notes": "Did not join Axis and supplied only volunteer troops, but was occupied by Germany through much of the war."
+  },
+  {
+    "country_EN": "Dominican Republic",
+    "ISO_A2_EH": "DO",
+    "side": "Ally",
+    "function": "",
+    "weight": "",
+    "notes": null
+  },
+  {
+    "country_EN": "Ecuador",
+    "ISO_A2_EH": "EC",
+    "side": "Ally",
+    "function": "",
+    "weight": "",
+    "notes": null
+  },
+  {
+    "country_EN": "Egypt",
+    "ISO_A2_EH": "EG",
+    "side": "Ally",
+    "function": "",
+    "weight": "",
+    "notes": null
+  },
+  {
+    "country_EN": "El Salvador",
+    "ISO_A2_EH": "SV",
+    "side": "Ally",
+    "function": "",
+    "weight": "",
+    "notes": null
+  },
+  {
+    "country_EN": "Estonia",
+    "ISO_A2_EH": "EE",
+    "side": "neutral",
+    "function": "",
+    "weight": "",
+    "notes": null
+  },
+  {
+    "country_EN": "Ethiopia",
+    "ISO_A2_EH": "ET",
+    "side": "Ally",
+    "function": "",
+    "weight": "",
+    "notes": null
+  },
+  {
+    "country_EN": "Finland",
+    "ISO_A2_EH": "FI",
+    "side": "both",
+    "function": "",
+    "weight": "",
+    "notes": "Finland fought alongside Russia and against Russia in the Continuation War, 1941-1944, but did not join the Axis. Finland did not officially declare war on Germany until 3 March 1945, but made the declaration retroactive. "
+  },
+  {
+    "country_EN": "France",
+    "ISO_A2_EH": "FR",
+    "side": "Ally",
+    "function": "",
+    "weight": "",
+    "notes": null
+  },
+  {
+    "country_EN": "Germany",
+    "ISO_A2_EH": "DE",
+    "side": "Axis",
+    "function": "",
+    "weight": "Major Power",
+    "notes": null
+  },
+  {
+    "country_EN": "Greece",
+    "ISO_A2_EH": "GR",
+    "side": "Ally",
+    "function": "",
+    "weight": "",
+    "notes": null
+  },
+  {
+    "country_EN": "Greece",
+    "ISO_A2_EH": "GR",
+    "side": "Axis",
+    "function": "(Hellenic States)",
+    "weight": "Puppet State",
+    "notes": "Ruled by Germany/Italy. Existed May 1941 to fall 1944."
+  },
+  {
+    "country_EN": "Guatemala",
+    "ISO_A2_EH": "GT",
+    "side": "Ally",
+    "function": "",
+    "weight": "",
+    "notes": null
+  },
+  {
+    "country_EN": "Haiti",
+    "ISO_A2_EH": "HT",
+    "side": "Ally",
+    "function": "",
+    "weight": "",
+    "notes": null
+  },
+  {
+    "country_EN": "Honduras",
+    "ISO_A2_EH": "HN",
+    "side": "Ally",
+    "function": "",
+    "weight": "",
+    "notes": null
+  },
+  {
+    "country_EN": "Hungary",
+    "ISO_A2_EH": "HU",
+    "side": "Axis",
+    "function": "",
+    "weight": "Minor Power",
+    "notes": null
+  },
+  {
+    "country_EN": "Iceland",
+    "ISO_A2_EH": "IS",
+    "side": "neutral",
+    "function": "",
+    "weight": "",
+    "notes": null
+  },
+  {
+    "country_EN": "India",
+    "ISO_A2_EH": "IN",
+    "side": "Axis",
+    "function": "(Azad Hind)",
+    "weight": "Puppet State",
+    "notes": "Insurgent military movement allied with Axis"
+  },
+  {
+    "country_EN": "India",
+    "ISO_A2_EH": "IN",
+    "side": "Ally",
+    "function": "(British-controlled)",
+    "weight": "",
+    "notes": null
+  },
+  {
+    "country_EN": "Iran",
+    "ISO_A2_EH": "IR",
+    "side": "Ally",
+    "function": "",
+    "weight": "",
+    "notes": "Planned to remain neutral, but was occupied by both sides and eventually joined Allies."
+  },
+  {
+    "country_EN": "Iraq",
+    "ISO_A2_EH": "IQ",
+    "side": "both",
+    "function": "",
+    "weight": "",
+    "notes": "Neutral government overthrown by coup in 1941. New regime supported Axis and fought against Britain, but was overthrown by Britain. Original government restored and supported the Allies "
+  },
+  {
+    "country_EN": "Ireland",
+    "ISO_A2_EH": "IE",
+    "side": "neutral",
+    "function": "",
+    "weight": "",
+    "notes": null
+  },
+  {
+    "country_EN": "Italy",
+    "ISO_A2_EH": "IT",
+    "side": "both",
+    "function": "",
+    "weight": "",
+    "notes": "Originally one of the major Axis powers, Italy left the Axis once its dictatorial ruler, Benito Mussolini, was removed. Although Italy did not join the Allies, it did declare war on Germany, making it a co-belligerent which fought alongside the Allies. "
+  },
+  {
+    "country_EN": "Japan",
+    "ISO_A2_EH": "JP",
+    "side": "Axis",
+    "function": "",
+    "weight": "Major Power",
+    "notes": null
+  },
+  {
+    "country_EN": "Laos",
+    "ISO_A2_EH": "LA",
+    "side": "Axis",
+    "function": "",
+    "weight": "Puppet State",
+    "notes": "Ruled by Japan"
+  },
+  {
+    "country_EN": "Latvia",
+    "ISO_A2_EH": "LV",
+    "side": "neutral",
+    "function": "",
+    "weight": "",
+    "notes": null
+  },
+  {
+    "country_EN": "Lebanon",
+    "ISO_A2_EH": "LB",
+    "side": "Ally",
+    "function": "",
+    "weight": "",
+    "notes": null
+  },
+  {
+    "country_EN": "Liberia",
+    "ISO_A2_EH": "LR",
+    "side": "Ally",
+    "function": "",
+    "weight": "",
+    "notes": null
+  },
+  {
+    "country_EN": "Liechtenstein",
+    "ISO_A2_EH": "LI",
+    "side": "neutral",
+    "function": "",
+    "weight": "",
+    "notes": null
+  },
+  {
+    "country_EN": "Lithuania",
+    "ISO_A2_EH": "LT",
+    "side": "neutral",
+    "function": "",
+    "weight": "",
+    "notes": null
+  },
+  {
+    "country_EN": "Luxembourg",
+    "ISO_A2_EH": "LU",
+    "side": "Ally",
+    "function": "",
+    "weight": "",
+    "notes": null
+  },
+  {
+    "country_EN": "Manchukuo",
+    "ISO_A2_EH": "N/A",
+    "side": "Axis",
+    "function": "",
+    "weight": "Puppet State",
+    "notes": "Japanese puppet state in China. Ceased to exist after Russian invasion in 1945. (No modern ISO code)"
+  },
+  {
+    "country_EN": "Mexico",
+    "ISO_A2_EH": "MX",
+    "side": "Ally",
+    "function": "",
+    "weight": "",
+    "notes": null
+  },
+  {
+    "country_EN": "Monaco",
+    "ISO_A2_EH": "MC",
+    "side": "neutral",
+    "function": "",
+    "weight": "",
+    "notes": null
+  },
+  {
+    "country_EN": "Mongolia",
+    "ISO_A2_EH": "MN",
+    "side": "Ally",
+    "function": "",
+    "weight": "",
+    "notes": "Declared war on Japan"
+  },
+  {
+    "country_EN": "Mongolia",
+    "ISO_A2_EH": "MN",
+    "side": "Axis",
+    "function": "(Mengjiang)",
+    "weight": "Puppet State",
+    "notes": "Ruled by Japan (Geographic area part of modern MN and CN)"
+  },
+  {
+    "country_EN": "Nepal",
+    "ISO_A2_EH": "NP",
+    "side": "Ally",
+    "function": "",
+    "weight": "",
+    "notes": null
+  },
+  {
+    "country_EN": "Netherlands",
+    "ISO_A2_EH": "NL",
+    "side": "Ally",
+    "function": "",
+    "weight": "",
+    "notes": null
+  },
+  {
+    "country_EN": "New Zealand",
+    "ISO_A2_EH": "NZ",
+    "side": "Ally",
+    "function": "",
+    "weight": "",
+    "notes": null
+  },
+  {
+    "country_EN": "Nicaragua",
+    "ISO_A2_EH": "NI",
+    "side": "Ally",
+    "function": "",
+    "weight": "",
+    "notes": null
+  },
+  {
+    "country_EN": "Norway",
+    "ISO_A2_EH": "NO",
+    "side": "Ally",
+    "function": "",
+    "weight": "",
+    "notes": null
+  },
+  {
+    "country_EN": "Oman",
+    "ISO_A2_EH": "OM",
+    "side": "Ally",
+    "function": "",
+    "weight": "",
+    "notes": null
+  },
+  {
+    "country_EN": "Panama",
+    "ISO_A2_EH": "PA",
+    "side": "Ally",
+    "function": "",
+    "weight": "",
+    "notes": null
+  },
+  {
+    "country_EN": "Paraguay",
+    "ISO_A2_EH": "PY",
+    "side": "Ally",
+    "function": "",
+    "weight": "",
+    "notes": null
+  },
+  {
+    "country_EN": "Peru",
+    "ISO_A2_EH": "PE",
+    "side": "Ally",
+    "function": "",
+    "weight": "",
+    "notes": null
+  },
+  {
+    "country_EN": "Philippines",
+    "ISO_A2_EH": "PH",
+    "side": "Ally",
+    "function": "",
+    "weight": "",
+    "notes": "(Commonwealth of the Philippines)"
+  },
+  {
+    "country_EN": "Philippines",
+    "ISO_A2_EH": "PH",
+    "side": "Axis",
+    "function": "(Second Republic)",
+    "weight": "Puppet State",
+    "notes": "Ruled by Japan"
+  },
+  {
+    "country_EN": "Poland",
+    "ISO_A2_EH": "PL",
+    "side": "Ally",
+    "function": "",
+    "weight": "",
+    "notes": null
+  },
+  {
+    "country_EN": "Portugal",
+    "ISO_A2_EH": "PT",
+    "side": "neutral",
+    "function": "",
+    "weight": "",
+    "notes": null
+  },
+  {
+    "country_EN": "Romania",
+    "ISO_A2_EH": "RO",
+    "side": "Ally",
+    "function": "",
+    "weight": "",
+    "notes": "Originally an Axis power, Romania surrendered to Russia in 1944 and subsequently became an Allied participant. "
+  },
+  {
+    "country_EN": "San Marino",
+    "ISO_A2_EH": "SM",
+    "side": "neutral",
+    "function": "",
+    "weight": "",
+    "notes": null
+  },
+  {
+    "country_EN": "Saudi Arabia",
+    "ISO_A2_EH": "SA",
+    "side": "Ally",
+    "function": "",
+    "weight": "",
+    "notes": "Neutral through most of the war, but supported Allies with oil, hosted an Allied air base, and declared war on Germany and Japan in 1945."
+  },
+  {
+    "country_EN": "Slovakia",
+    "ISO_A2_EH": "SK",
+    "side": "Axis",
+    "function": "",
+    "weight": "Minor Power",
+    "notes": "(Refers to WWII Slovak Republic)"
+  },
+  {
+    "country_EN": "South Africa",
+    "ISO_A2_EH": "ZA",
+    "side": "Ally",
+    "function": "",
+    "weight": "",
+    "notes": null
+  },
+  {
+    "country_EN": "South Korea",
+    "ISO_A2_EH": "KR",
+    "side": "Ally",
+    "function": "(provisional govt.)",
+    "weight": "",
+    "notes": "(Provisional Government of the Republic of Korea)"
+  },
+  {
+    "country_EN": "Soviet Union",
+    "ISO_A2_EH": "N/A",
+    "side": "both",
+    "function": "",
+    "weight": "Major Power",
+    "notes": "Helped Germany invade Poland before eventually joining the Allies. (No single modern ISO code)"
+  },
+  {
+    "country_EN": "Spain",
+    "ISO_A2_EH": "ES",
+    "side": "neutral",
+    "function": "",
+    "weight": "",
+    "notes": "Officially neutral, but sent volunteer soldiers to fight for Germany against Russia (and only Russia)"
+  },
+  {
+    "country_EN": "Sweden",
+    "ISO_A2_EH": "SE",
+    "side": "neutral",
+    "function": "",
+    "weight": "",
+    "notes": null
+  },
+  {
+    "country_EN": "Switzerland",
+    "ISO_A2_EH": "CH",
+    "side": "neutral",
+    "function": "",
+    "weight": "",
+    "notes": null
+  },
+  {
+    "country_EN": "Syria",
+    "ISO_A2_EH": "SY",
+    "side": "Ally",
+    "function": "",
+    "weight": "",
+    "notes": null
+  },
+  {
+    "country_EN": "Thailand",
+    "ISO_A2_EH": "TH",
+    "side": "Axis",
+    "function": "Bilateral Pact",
+    "weight": "",
+    "notes": null
+  },
+  {
+    "country_EN": "Tibet",
+    "ISO_A2_EH": "N/A",
+    "side": "neutral",
+    "function": "",
+    "weight": "",
+    "notes": "(No separate ISO code; administered by China)"
+  },
+  {
+    "country_EN": "Turkey",
+    "ISO_A2_EH": "TR",
+    "side": "both",
+    "function": "",
+    "weight": "",
+    "notes": "Entered a friendship agreement with Germany in 1941, but did not send troops and declared war on Germany in 1945."
+  },
+  {
+    "country_EN": "United Kingdom",
+    "ISO_A2_EH": "GB",
+    "side": "Ally",
+    "function": "",
+    "weight": "",
+    "notes": null
+  },
+  {
+    "country_EN": "United States",
+    "ISO_A2_EH": "US",
+    "side": "Ally",
+    "function": "",
+    "weight": "",
+    "notes": "Declared war on Japan on Dec 8, 1941, war on U.S. declared by Germany and Italy Dec 11, 1941"
+  },
+  {
+    "country_EN": "Uruguay",
+    "ISO_A2_EH": "UY",
+    "side": "Ally",
+    "function": "",
+    "weight": "",
+    "notes": null
+  },
+  {
+    "country_EN": "Vatican City",
+    "ISO_A2_EH": "VA",
+    "side": "neutral",
+    "function": "",
+    "weight": "",
+    "notes": null
+  },
+  {
+    "country_EN": "Venezuela",
+    "ISO_A2_EH": "VE",
+    "side": "Ally",
+    "function": "",
+    "weight": "",
+    "notes": null
+  },
+  {
+    "country_EN": "Vichy France",
+    "ISO_A2_EH": "N/A",
+    "side": "Axis",
+    "function": "",
+    "weight": "Puppet State",
+    "notes": "Illegitimate puppet government (Use FR for France)"
+  },
+  {
+    "country_EN": "Vietnam",
+    "ISO_A2_EH": "VN",
+    "side": "Axis",
+    "function": "(Empire of Vietnam)",
+    "weight": "Puppet State",
+    "notes": "Ruled by Japan"
+  },
+  {
+    "country_EN": "Vietnam",
+    "ISO_A2_EH": "VN",
+    "side": "Ally",
+    "function": "(Viet Minh)",
+    "weight": "",
+    "notes": null
+  },
+  {
+    "country_EN": "Yemen",
+    "ISO_A2_EH": "YE",
+    "side": "neutral",
+    "function": "",
+    "weight": "",
+    "notes": "(Refers to Mutawakkilite Kingdom of Yemen)"
+  },
+  {
+    "country_EN": "Yugoslavia",
+    "ISO_A2_EH": "N/A",
+    "side": "Ally",
+    "function": "",
+    "weight": "",
+    "notes": "Joined Axis out of fear of invasion, but two days later a government coup prevented ratification of the agreement. (No single modern ISO code; split into BA, HR, MK, ME, RS, SI, XK)"
+  }
+]

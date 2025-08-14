@@ -1,0 +1,240 @@
+[
+  {
+    "typeGroup": "Aid & Development",
+    "TYPES": [
+      "Children's Rights",
+      "Development",
+      "Development Aid",
+      "Developing Countries",
+      "Food Security",
+      "Humanitarian Aid",
+      "Least Developed Countries",
+      "Medical Humanitarian Aid",
+      "Nutrition",
+      "Poverty Reduction",
+      "Refugees",
+      "Sustainable Development"
+    ]
+  },
+  {
+    "typeGroup": "Cooperation & Integration",
+    "TYPES": [
+      "Cooperation",
+      "Dialogue",
+      "Economic Cooperation",
+      "Economic Integration",
+      "International Cooperation",
+      "Political Cooperation",
+      "Security Cooperation",
+      "Technical Cooperation"
+    ]
+  },
+  {
+    "typeGroup": "Crime & Law Enforcement",
+    "TYPES": [
+      "Chemical Weapons",
+      "Crime Control",
+      "Disarmament",
+      "Law Enforcement",
+      "Police Cooperation",
+      "War Crimes"
+    ]
+  },
+  {
+    "typeGroup": "Culture & Social Affairs",
+    "TYPES": [
+      "Communication",
+      "Culture",
+      "Education",
+      "Entertainment",
+      "Social"
+    ]
+  },
+  {
+    "typeGroup": "Democracy & Human Rights",
+    "TYPES": ["Democracy", "Human Rights", "Rule of Law"]
+  },
+  {
+    "typeGroup": "Economy & Finance",
+    "TYPES": [
+      "Banking",
+      "Business",
+      "Currency",
+      "Economic",
+      "Economic Development",
+      "Economic Union",
+      "Economy",
+      "Emerging Economies",
+      "Finance",
+      "Financial Stability",
+      "Investment",
+      "Investment Disputes",
+      "Investment Guarantee",
+      "Islamic Finance",
+      "Monetary Cooperation",
+      "Monetary Union",
+      "Policy Analysis",
+      "Private Sector"
+    ]
+  },
+  {
+    "typeGroup": "Energy & Resources",
+    "TYPES": [
+      "Agriculture",
+      "Energy",
+      "Energy Policy",
+      "Nuclear Energy",
+      "Petroleum",
+      "Water Resources"
+    ]
+  },
+  {
+    "typeGroup": "Environment & Climate",
+    "TYPES": [
+      "Climate",
+      "Climate Change",
+      "Environment",
+      "Marine Pollution",
+      "Meteorology",
+      "Nature Conservation"
+    ]
+  },
+  {
+    "typeGroup": "Geographic Focus - Africa",
+    "TYPES": [
+      "Africa",
+      "Central Africa",
+      "East Africa",
+      "Eastern Africa",
+      "Southern Africa",
+      "West Africa"
+    ]
+  },
+  {
+    "typeGroup": "Geographic Focus - Americas",
+    "TYPES": [
+      "Americas",
+      "Caribbean",
+      "Central America",
+      "Latin America",
+      "North America",
+      "South America"
+    ]
+  },
+  {
+    "typeGroup": "Geographic Focus - Asia-Pacific",
+    "TYPES": [
+      "Asia",
+      "Asia-Pacific",
+      "Australia",
+      "Melanesia",
+      "New Zealand",
+      "Papua New Guinea",
+      "South Asia",
+      "South Pacific",
+      "Southeast Asia"
+    ]
+  },
+  {
+    "typeGroup": "Geographic Focus - Europe/Eurasia",
+    "TYPES": [
+      "Baltic Sea",
+      "Black Sea",
+      "Eurasia",
+      "Europe",
+      "Mediterranean",
+      "Post-Soviet"
+    ]
+  },
+  {
+    "typeGroup": "Geographic Focus - Other",
+    "TYPES": [
+      "Arab League",
+      "Arab States",
+      "Arabian Gulf",
+      "Commonwealth",
+      "Islamic World",
+      "Turkic States"
+    ]
+  },
+  {
+    "typeGroup": "Governance & Politics",
+    "TYPES": ["Governance", "Political", "Political Union", "Politics"]
+  },
+  {
+    "typeGroup": "Health",
+    "TYPES": ["HIV/AIDS", "Health", "Health Policy", "Public Health"]
+  },
+  {
+    "typeGroup": "Infrastructure & Transport",
+    "TYPES": [
+      "Civil Aviation",
+      "Logistics",
+      "Maritime",
+      "Operational Services",
+      "Postal Services",
+      "Project Management",
+      "Shipping",
+      "Transportation"
+    ]
+  },
+  {
+    "typeGroup": "Law & Justice",
+    "TYPES": [
+      "Arbitration",
+      "Dispute Resolution",
+      "International Justice",
+      "International Law",
+      "International Trade Law"
+    ]
+  },
+  {
+    "typeGroup": "Organizational Type/Scope",
+    "TYPES": [
+      "ASEAN",
+      "Bilateral",
+      "Continental",
+      "European Union",
+      "Global",
+      "Humanitarian Affairs",
+      "NATO",
+      "NGO",
+      "Regional",
+      "United Nations",
+      "World Bank Group",
+      "World Health Organization"
+    ]
+  },
+  {
+    "typeGroup": "Science & Technology",
+    "TYPES": [
+      "Creativity",
+      "Information Technology",
+      "Innovation",
+      "Intellectual Property",
+      "Science",
+      "Technology",
+      "Telecommunications"
+    ]
+  },
+  {
+    "typeGroup": "Security & Defence",
+    "TYPES": [
+      "Military Alliance",
+      "Peace and Security",
+      "Political Risk Insurance",
+      "Safety",
+      "Security"
+    ]
+  },
+  {
+    "typeGroup": "Trade",
+    "TYPES": [
+      "Customs Union",
+      "Free Trade Area",
+      "Single Market",
+      "Trade",
+      "Trade Bloc"
+    ]
+  }
+]

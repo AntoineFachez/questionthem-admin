@@ -1,0 +1,37 @@
+[{
+  "legislative_body_id": "leg_usa_congress_118",
+  "name": "118th United States Congress",
+  "governing_body_name": "United States of America",
+  "iso_a3":"USA",
+   "branch_type": "Bicameral",
+  "session_start_date": "2023-01-03",
+  "session_end_date": "2025-01-03",
+  "sub_bodies": [
+    {
+      "body_name": "Senate",
+      "leadership": [
+        {
+          "person_id": "uuid-for-chuck-schumer",
+          "title": "Majority Leader"
+        },
+        {
+          "person_id": "uuid-for-mitch-mcconnell",
+          "title": "Minority Leader"
+        }
+      ],
+      "majority_party": "Democratic Party",
+      "total_seats": 100
+    },
+    {
+      "body_name": "House of Representatives",
+      "leadership": [
+        {
+          "person_id": "uuid-for-mike-johnson",
+          "title": "Speaker of the House"
+        }
+      ],
+      "majority_party": "Republican Party",
+      "total_seats": 435
+    }
+  ]
+}]

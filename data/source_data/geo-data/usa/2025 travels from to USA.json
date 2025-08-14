@@ -1,0 +1,677 @@
+[
+  {
+    "Year": 2025,
+    "Month Number": 3,
+    "Month": "March",
+    "Foreign Originating": 4540667,
+    "Foreign Returning": 4708418,
+    "US Citizen Originating": 6557399,
+    "US Citizen Returning\r": 6739342
+  },
+  {
+    "Year": 2025,
+    "Month Number": 2,
+    "Month": "February",
+    "Foreign Originating": 4115637,
+    "Foreign Returning": 4170631,
+    "US Citizen Originating": 4912048,
+    "US Citizen Returning\r": 5036802
+  },
+  {
+    "Year": 2025,
+    "Month Number": 1,
+    "Month": "January",
+    "Foreign Originating": 4848091,
+    "Foreign Returning": 5236859,
+    "US Citizen Originating": 4970681,
+    "US Citizen Returning\r": 6434329
+  },
+  {
+    "Year": 2024,
+    "Month Number": 12,
+    "Month": "December",
+    "Foreign Originating": 5432140,
+    "Foreign Returning": 5508230,
+    "US Citizen Originating": 6642383,
+    "US Citizen Returning\r": 5650862
+  },
+  {
+    "Year": 2024,
+    "Month Number": 11,
+    "Month": "November",
+    "Foreign Originating": 4454626,
+    "Foreign Returning": 4952968,
+    "US Citizen Originating": 5281072,
+    "US Citizen Returning\r": 5206402
+  },
+  {
+    "Year": 2024,
+    "Month Number": 10,
+    "Month": "October",
+    "Foreign Originating": 4983113,
+    "Foreign Returning": 5105172,
+    "US Citizen Originating": 5421907,
+    "US Citizen Returning\r": 5836487
+  },
+  {
+    "Year": 2024,
+    "Month Number": 9,
+    "Month": "September",
+    "Foreign Originating": 4875682,
+    "Foreign Returning": 4937469,
+    "US Citizen Originating": 5492682,
+    "US Citizen Returning\r": 5837673
+  },
+  {
+    "Year": 2024,
+    "Month Number": 8,
+    "Month": "August",
+    "Foreign Originating": 5750460,
+    "Foreign Returning": 5774248,
+    "US Citizen Originating": 6309221,
+    "US Citizen Returning\r": 7475923
+  },
+  {
+    "Year": 2024,
+    "Month Number": 7,
+    "Month": "July",
+    "Foreign Originating": 5519399,
+    "Foreign Returning": 5184331,
+    "US Citizen Originating": 7644297,
+    "US Citizen Returning\r": 8388614
+  },
+  {
+    "Year": 2024,
+    "Month Number": 6,
+    "Month": "June",
+    "Foreign Originating": 4695670,
+    "Foreign Returning": 4735124,
+    "US Citizen Originating": 8278595,
+    "US Citizen Returning\r": 7556228
+  },
+  {
+    "Year": 2024,
+    "Month Number": 5,
+    "Month": "May",
+    "Foreign Originating": 4998276,
+    "Foreign Returning": 5295694,
+    "US Citizen Originating": 6737379,
+    "US Citizen Returning\r": 6172724
+  },
+  {
+    "Year": 2024,
+    "Month Number": 4,
+    "Month": "April",
+    "Foreign Originating": 4899277,
+    "Foreign Returning": 4865465,
+    "US Citizen Originating": 5572076,
+    "US Citizen Returning\r": 6176782
+  },
+  {
+    "Year": 2024,
+    "Month Number": 3,
+    "Month": "March",
+    "Foreign Originating": 5028217,
+    "Foreign Returning": 4778399,
+    "US Citizen Originating": 6456102,
+    "US Citizen Returning\r": 6391869
+  },
+  {
+    "Year": 2024,
+    "Month Number": 2,
+    "Month": "February",
+    "Foreign Originating": 4323391,
+    "Foreign Returning": 4284762,
+    "US Citizen Originating": 4931487,
+    "US Citizen Returning\r": 4952302
+  },
+  {
+    "Year": 2024,
+    "Month Number": 1,
+    "Month": "January",
+    "Foreign Originating": 4766958,
+    "Foreign Returning": 5085742,
+    "US Citizen Originating": 4659080,
+    "US Citizen Returning\r": 6028038
+  },
+  {
+    "Year": 2023,
+    "Month Number": 12,
+    "Month": "December",
+    "Foreign Originating": 5225743,
+    "Foreign Returning": 5221210,
+    "US Citizen Originating": 6153699,
+    "US Citizen Returning\r": 5118298
+  },
+  {
+    "Year": 2023,
+    "Month Number": 11,
+    "Month": "November",
+    "Foreign Originating": 4323584,
+    "Foreign Returning": 4730367,
+    "US Citizen Originating": 4971489,
+    "US Citizen Returning\r": 5081012
+  },
+  {
+    "Year": 2023,
+    "Month Number": 10,
+    "Month": "October",
+    "Foreign Originating": 4802583,
+    "Foreign Returning": 4947657,
+    "US Citizen Originating": 5036375,
+    "US Citizen Returning\r": 5659172
+  },
+  {
+    "Year": 2023,
+    "Month Number": 9,
+    "Month": "September",
+    "Foreign Originating": 4734366,
+    "Foreign Returning": 4627289,
+    "US Citizen Originating": 5361459,
+    "US Citizen Returning\r": 5488826
+  },
+  {
+    "Year": 2023,
+    "Month Number": 8,
+    "Month": "August",
+    "Foreign Originating": 5465332,
+    "Foreign Returning": 5410511,
+    "US Citizen Originating": 5769557,
+    "US Citizen Returning\r": 6965791
+  },
+  {
+    "Year": 2023,
+    "Month Number": 7,
+    "Month": "July",
+    "Foreign Originating": 5093986,
+    "Foreign Returning": 4753744,
+    "US Citizen Originating": 7168848,
+    "US Citizen Returning\r": 7911418
+  },
+  {
+    "Year": 2023,
+    "Month Number": 6,
+    "Month": "June",
+    "Foreign Originating": 4242765,
+    "Foreign Returning": 4203675,
+    "US Citizen Originating": 7601997,
+    "US Citizen Returning\r": 6813843
+  },
+  {
+    "Year": 2023,
+    "Month Number": 5,
+    "Month": "May",
+    "Foreign Originating": 4420385,
+    "Foreign Returning": 4713412,
+    "US Citizen Originating": 6047493,
+    "US Citizen Returning\r": 5685648
+  },
+  {
+    "Year": 2023,
+    "Month Number": 4,
+    "Month": "April",
+    "Foreign Originating": 4578991,
+    "Foreign Returning": 4426714,
+    "US Citizen Originating": 5271376,
+    "US Citizen Returning\r": 5623952
+  },
+  {
+    "Year": 2023,
+    "Month Number": 3,
+    "Month": "March",
+    "Foreign Originating": 4297735,
+    "Foreign Returning": 4099572,
+    "US Citizen Originating": 5662286,
+    "US Citizen Returning\r": 5691256
+  },
+  {
+    "Year": 2023,
+    "Month Number": 2,
+    "Month": "February",
+    "Foreign Originating": 3617537,
+    "Foreign Returning": 3540017,
+    "US Citizen Originating": 4262419,
+    "US Citizen Returning\r": 4352628
+  },
+  {
+    "Year": 2023,
+    "Month Number": 1,
+    "Month": "January",
+    "Foreign Originating": 4042751,
+    "Foreign Returning": 4322085,
+    "US Citizen Originating": 4289832,
+    "US Citizen Returning\r": 5417214
+  },
+  {
+    "Year": 2022,
+    "Month Number": 12,
+    "Month": "December",
+    "Foreign Originating": 4383609,
+    "Foreign Returning": 4403193,
+    "US Citizen Originating": 5461213,
+    "US Citizen Returning\r": 4544432
+  },
+  {
+    "Year": 2022,
+    "Month Number": 11,
+    "Month": "November",
+    "Foreign Originating": 3681261,
+    "Foreign Returning": 4055261,
+    "US Citizen Originating": 4396369,
+    "US Citizen Returning\r": 4527182
+  },
+  {
+    "Year": 2022,
+    "Month Number": 10,
+    "Month": "October",
+    "Foreign Originating": 4099300,
+    "Foreign Returning": 4145095,
+    "US Citizen Originating": 4409939,
+    "US Citizen Returning\r": 4823993
+  },
+  {
+    "Year": 2022,
+    "Month Number": 9,
+    "Month": "September",
+    "Foreign Originating": 3912896,
+    "Foreign Returning": 3852874,
+    "US Citizen Originating": 4596103,
+    "US Citizen Returning\r": 4776526
+  },
+  {
+    "Year": 2022,
+    "Month Number": 8,
+    "Month": "August",
+    "Foreign Originating": 4494840,
+    "Foreign Returning": 4482871,
+    "US Citizen Originating": 4941273,
+    "US Citizen Returning\r": 6175657
+  },
+  {
+    "Year": 2022,
+    "Month Number": 7,
+    "Month": "July",
+    "Foreign Originating": 4256790,
+    "Foreign Returning": 3960824,
+    "US Citizen Originating": 6246102,
+    "US Citizen Returning\r": 6761233
+  },
+  {
+    "Year": 2022,
+    "Month Number": 6,
+    "Month": "June",
+    "Foreign Originating": 3532927,
+    "Foreign Returning": 3565212,
+    "US Citizen Originating": 6368099,
+    "US Citizen Returning\r": 5633930
+  },
+  {
+    "Year": 2022,
+    "Month Number": 5,
+    "Month": "May",
+    "Foreign Originating": 3586937,
+    "Foreign Returning": 3769071,
+    "US Citizen Originating": 4865598,
+    "US Citizen Returning\r": 4547457
+  },
+  {
+    "Year": 2022,
+    "Month Number": 4,
+    "Month": "April",
+    "Foreign Originating": 3620601,
+    "Foreign Returning": 3492844,
+    "US Citizen Originating": 4098816,
+    "US Citizen Returning\r": 4238337
+  },
+  {
+    "Year": 2022,
+    "Month Number": 3,
+    "Month": "March",
+    "Foreign Originating": 2891467,
+    "Foreign Returning": 2804452,
+    "US Citizen Originating": 4064617,
+    "US Citizen Returning\r": 4136776
+  },
+  {
+    "Year": 2022,
+    "Month Number": 2,
+    "Month": "February",
+    "Foreign Originating": 2159719,
+    "Foreign Returning": 2059187,
+    "US Citizen Originating": 2780138,
+    "US Citizen Returning\r": 2768462
+  },
+  {
+    "Year": 2022,
+    "Month Number": 1,
+    "Month": "January",
+    "Foreign Originating": 2297976,
+    "Foreign Returning": 2560780,
+    "US Citizen Originating": 2451568,
+    "US Citizen Returning\r": 3427143
+  },
+  {
+    "Year": 2021,
+    "Month Number": 12,
+    "Month": "December",
+    "Foreign Originating": 2961261,
+    "Foreign Returning": 3109323,
+    "US Citizen Originating": 3806456,
+    "US Citizen Returning\r": 3110132
+  },
+  {
+    "Year": 2021,
+    "Month Number": 11,
+    "Month": "November",
+    "Foreign Originating": 2386605,
+    "Foreign Returning": 2325762,
+    "US Citizen Originating": 2922586,
+    "US Citizen Returning\r": 3042638
+  },
+  {
+    "Year": 2021,
+    "Month Number": 10,
+    "Month": "October",
+    "Foreign Originating": 2004798,
+    "Foreign Returning": 1888181,
+    "US Citizen Originating": 2660699,
+    "US Citizen Returning\r": 2799089
+  },
+  {
+    "Year": 2021,
+    "Month Number": 9,
+    "Month": "September",
+    "Foreign Originating": 1880901,
+    "Foreign Returning": 1685527,
+    "US Citizen Originating": 2442932,
+    "US Citizen Returning\r": 2708408
+  },
+  {
+    "Year": 2021,
+    "Month Number": 8,
+    "Month": "August",
+    "Foreign Originating": 2285225,
+    "Foreign Returning": 1972080,
+    "US Citizen Originating": 3008119,
+    "US Citizen Returning\r": 3885490
+  },
+  {
+    "Year": 2021,
+    "Month Number": 7,
+    "Month": "July",
+    "Foreign Originating": 2003171,
+    "Foreign Returning": 1907322,
+    "US Citizen Originating": 3741455,
+    "US Citizen Returning\r": 3690861
+  },
+  {
+    "Year": 2021,
+    "Month Number": 6,
+    "Month": "June",
+    "Foreign Originating": 1677295,
+    "Foreign Returning": 1670204,
+    "US Citizen Originating": 3062053,
+    "US Citizen Returning\r": 2798564
+  },
+  {
+    "Year": 2021,
+    "Month Number": 5,
+    "Month": "May",
+    "Foreign Originating": 1539631,
+    "Foreign Returning": 1495398,
+    "US Citizen Originating": 2172584,
+    "US Citizen Returning\r": 2125630
+  },
+  {
+    "Year": 2021,
+    "Month Number": 4,
+    "Month": "April",
+    "Foreign Originating": 1195001,
+    "Foreign Returning": 1084334,
+    "US Citizen Originating": 1644043,
+    "US Citizen Returning\r": 1860562
+  },
+  {
+    "Year": 2021,
+    "Month Number": 3,
+    "Month": "March",
+    "Foreign Originating": 985267,
+    "Foreign Returning": 850768,
+    "US Citizen Originating": 1567802,
+    "US Citizen Returning\r": 1521142
+  },
+  {
+    "Year": 2021,
+    "Month Number": 2,
+    "Month": "February",
+    "Foreign Originating": 642523,
+    "Foreign Returning": 621728,
+    "US Citizen Originating": 930610,
+    "US Citizen Returning\r": 977938
+  },
+  {
+    "Year": 2021,
+    "Month Number": 1,
+    "Month": "January",
+    "Foreign Originating": 1070106,
+    "Foreign Returning": 912401,
+    "US Citizen Originating": 1031897,
+    "US Citizen Returning\r": 1705730
+  },
+  {
+    "Year": 2020,
+    "Month Number": 12,
+    "Month": "December",
+    "Foreign Originating": 973030,
+    "Foreign Returning": 1234202,
+    "US Citizen Originating": 1673471,
+    "US Citizen Returning\r": 1233071
+  },
+  {
+    "Year": 2020,
+    "Month Number": 11,
+    "Month": "November",
+    "Foreign Originating": 758332,
+    "Foreign Returning": 852429,
+    "US Citizen Originating": 1113967,
+    "US Citizen Returning\r": 1123877
+  },
+  {
+    "Year": 2020,
+    "Month Number": 10,
+    "Month": "October",
+    "Foreign Originating": 660548,
+    "Foreign Returning": 663964,
+    "US Citizen Originating": 938350,
+    "US Citizen Returning\r": 929802
+  },
+  {
+    "Year": 2020,
+    "Month Number": 9,
+    "Month": "September",
+    "Foreign Originating": 527379,
+    "Foreign Returning": 533384,
+    "US Citizen Originating": 669826,
+    "US Citizen Returning\r": 713192
+  },
+  {
+    "Year": 2020,
+    "Month Number": 8,
+    "Month": "August",
+    "Foreign Originating": 511611,
+    "Foreign Returning": 555222,
+    "US Citizen Originating": 650173,
+    "US Citizen Returning\r": 743896
+  },
+  {
+    "Year": 2020,
+    "Month Number": 7,
+    "Month": "July",
+    "Foreign Originating": 364117,
+    "Foreign Returning": 509035,
+    "US Citizen Originating": 564682,
+    "US Citizen Returning\r": 550151
+  },
+  {
+    "Year": 2020,
+    "Month Number": 6,
+    "Month": "June",
+    "Foreign Originating": 192553,
+    "Foreign Returning": 296440,
+    "US Citizen Originating": 176949,
+    "US Citizen Returning\r": 233242
+  },
+  {
+    "Year": 2020,
+    "Month Number": 5,
+    "Month": "May",
+    "Foreign Originating": 78337,
+    "Foreign Returning": 192614,
+    "US Citizen Originating": 54368,
+    "US Citizen Returning\r": 107630
+  },
+  {
+    "Year": 2020,
+    "Month Number": 4,
+    "Month": "April",
+    "Foreign Originating": 54031,
+    "Foreign Returning": 176627,
+    "US Citizen Originating": 32144,
+    "US Citizen Returning\r": 110285
+  },
+  {
+    "Year": 2020,
+    "Month Number": 3,
+    "Month": "March",
+    "Foreign Originating": 1960896,
+    "Foreign Returning": 2946059,
+    "US Citizen Originating": 1844726,
+    "US Citizen Returning\r": 3053096
+  },
+  {
+    "Year": 2020,
+    "Month Number": 2,
+    "Month": "February",
+    "Foreign Originating": 4470729,
+    "Foreign Returning": 4448720,
+    "US Citizen Originating": 3902937,
+    "US Citizen Returning\r": 4155775
+  },
+  {
+    "Year": 2020,
+    "Month Number": 1,
+    "Month": "January",
+    "Foreign Originating": 5274405,
+    "Foreign Returning": 5520357,
+    "US Citizen Originating": 4073096,
+    "US Citizen Returning\r": 5218812
+  },
+  {
+    "Year": 2019,
+    "Month Number": 12,
+    "Month": "December",
+    "Foreign Originating": 5628117,
+    "Foreign Returning": 5718816,
+    "US Citizen Originating": 5257209,
+    "US Citizen Returning\r": 4504442
+  },
+  {
+    "Year": 2019,
+    "Month Number": 11,
+    "Month": "November",
+    "Foreign Originating": 4835308,
+    "Foreign Returning": 5181174,
+    "US Citizen Originating": 4227689,
+    "US Citizen Returning\r": 4292965
+  },
+  {
+    "Year": 2019,
+    "Month Number": 10,
+    "Month": "October",
+    "Foreign Originating": 5393398,
+    "Foreign Returning": 5513397,
+    "US Citizen Originating": 4404215,
+    "US Citizen Returning\r": 4733914
+  },
+  {
+    "Year": 2019,
+    "Month Number": 9,
+    "Month": "September",
+    "Foreign Originating": 5351576,
+    "Foreign Returning": 5388223,
+    "US Citizen Originating": 4495170,
+    "US Citizen Returning\r": 4831304
+  },
+  {
+    "Year": 2019,
+    "Month Number": 8,
+    "Month": "August",
+    "Foreign Originating": 6280655,
+    "Foreign Returning": 6453677,
+    "US Citizen Originating": 5314894,
+    "US Citizen Returning\r": 6437264
+  },
+  {
+    "Year": 2019,
+    "Month Number": 7,
+    "Month": "July",
+    "Foreign Originating": 6061680,
+    "Foreign Returning": 5650643,
+    "US Citizen Originating": 6461868,
+    "US Citizen Returning\r": 7112767
+  },
+  {
+    "Year": 2019,
+    "Month Number": 6,
+    "Month": "June",
+    "Foreign Originating": 5273670,
+    "Foreign Returning": 5329655,
+    "US Citizen Originating": 6894114,
+    "US Citizen Returning\r": 6318143
+  },
+  {
+    "Year": 2019,
+    "Month Number": 5,
+    "Month": "May",
+    "Foreign Originating": 5485565,
+    "Foreign Returning": 5748857,
+    "US Citizen Originating": 5558268,
+    "US Citizen Returning\r": 5228631
+  },
+  {
+    "Year": 2019,
+    "Month Number": 4,
+    "Month": "April",
+    "Foreign Originating": 5717068,
+    "Foreign Returning": 5425225,
+    "US Citizen Originating": 4747002,
+    "US Citizen Returning\r": 5181909
+  },
+  {
+    "Year": 2019,
+    "Month Number": 3,
+    "Month": "March",
+    "Foreign Originating": 5201971,
+    "Foreign Returning": 5252795,
+    "US Citizen Originating": 5379974,
+    "US Citizen Returning\r": 5500247
+  },
+  {
+    "Year": 2019,
+    "Month Number": 2,
+    "Month": "February",
+    "Foreign Originating": 4665469,
+    "Foreign Returning": 4644446,
+    "US Citizen Originating": 3917628,
+    "US Citizen Returning\r": 4005304
+  },
+  {
+    "Year": 2019,
+    "Month Number": 1,
+    "Month": "January",
+    "Foreign Originating": 5277728,
+    "Foreign Returning": 5509406,
+    "US Citizen Originating": 3971515,
+    "US Citizen Returning\r": 5116545
+  }
+]

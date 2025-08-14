@@ -1,0 +1,421 @@
+[{
+  "administration_id": "adm_usa_biden_46",
+  "name": "The Biden Administration",
+  "governing_body_name": "United States of America",
+  "iso_a3": "USA",
+  "leader_person_id": "uuid-for-joe-biden",
+  "leader_title": "President",
+  "term_identifier": "46th U.S. President",
+  "term_start_date": "2021-01-20",
+  "term_end_date": "2025-01-20",
+  "political_party": "Democratic Party",
+  "key_officials": [
+    {
+      "person_id": "uuid-for-kamala-harris",
+      "role": "Vice President",
+      "start_date": "2021-01-20",
+      "end_date": "2025-01-20",
+      "reason": "Served full term; first female Vice President."
+    },
+    {
+      "person_id": "uuid-for-antony-blinken",
+      "role": "Secretary of State",
+      "start_date": "2021-01-26",
+      "end_date": "2025-01-20",
+      "reason": "Served full term; ended with the administration."
+    },
+    {
+      "person_id": "uuid-for-janet-yellen",
+      "role": "Secretary of the Treasury",
+      "start_date": "2021-01-25",
+      "end_date": "2025-01-20",
+      "reason": "Served full term; first woman to hold the position."
+    },
+    {
+      "person_id": "uuid-for-lloyd-austin",
+      "role": "Secretary of Defense",
+      "start_date": "2021-01-22",
+      "end_date": "2025-01-20",
+      "reason": "Served full term; first African American Secretary of Defense."
+    },
+    {
+      "person_id": "uuid-for-merrick-garland",
+      "role": "Attorney General",
+      "start_date": "2021-03-11",
+      "end_date": "2025-01-20",
+      "reason": "Served full term; ended with the administration."
+    },
+    {
+      "person_id": "uuid-for-deb-haaland",
+      "role": "Secretary of the Interior",
+      "start_date": "2021-03-16",
+      "end_date": "2025-01-20",
+      "reason": "Served full term; first Native American to serve as a cabinet secretary."
+    },
+    {
+      "person_id": "uuid-for-pete-buttigieg",
+      "role": "Secretary of Transportation",
+      "start_date": "2021-02-03",
+      "end_date": "2025-01-20",
+      "reason": "Served full term; first openly gay cabinet member confirmed by the Senate."
+    }
+  ]
+},
+{
+  "administration_id": "adm_usa_trump_45",
+  "name": "The Trump Administration",
+  "governing_body_name": "United States of America",
+  "iso_a3": "USA",
+  "leader_person_id": "uuid-for-donald-trump",
+  "leader_title": "President",
+  "term_identifier": "45th U.S. President",
+  "term_start_date": "2017-01-20",
+  "term_end_date": "2021-01-20",
+  "political_party": "Republican Party",
+  "key_officials": [ 
+    {
+        "person_id": "uuid-for-rex-tillerson",
+        "role": "Secretary of State",
+        "state_of_origin": "",
+        "confirmation_vote": "51-45",
+      "announced_date": "",
+      "confirmed_date": "2017-02-01",
+      
+      "start_date": "2017-02-01",
+      "end_date": "2018-03-31",
+      "reason": "Fired by President Trump due to policy disagreements."
+    },
+    {
+      "person_id": "uuid-for-steven-mnuchin",
+      "role": "Secretary of the Treasury",
+      "start_date": "2017-02-13",
+      "end_date": "2021-01-20",
+      "reason": "Served full term; ended with the administration."
+    },
+    {
+      "person_id": "uuid-for-james-mattis",
+      "role": "Secretary of Defense",
+      "start_date": "2017-01-20",
+      "end_date": "2019-01-01",
+      "reason": "Resigned in protest over President Trump's foreign policy decisions, particularly the withdrawal of troops from Syria."
+    },
+    {
+      "person_id": "uuid-for-jeff-sessions",
+      "role": "Attorney General",
+      "start_date": "2017-02-09",
+      "end_date": "2018-11-07",
+      "reason": "Forced to resign after repeated public criticism from President Trump for recusing himself from the investigation into Russian interference in the 2016 election."
+    },
+    {
+      "person_id": "uuid-for-william-barr",
+      "role": "Attorney General",
+      "start_date": "2019-02-14",
+      "end_date": "2020-12-23",
+      "reason": "Resigned, stating a desire to spend more time with family, following public disagreement with President Trump's claims of election fraud."
+    },
+    {
+      "person_id": "uuid-for-betsy-devos",
+      "role": "Secretary of Education",
+      "start_date": "2017-02-07",
+      "end_date": "2021-01-08",
+      "reason": "Resigned following the January 6th attack on the U.S. Capitol."
+    },
+    {
+      "person_id": "uuid-for-sean-spicer",
+      "role": "White House Press Secretary",
+      "start_date": "2017-01-20",
+      "end_date": "2017-07-21",
+      "reason": "Resigned in protest of the appointment of Anthony Scaramucci as Communications Director."
+    },
+    {
+      "person_id": "uuid-for-sarah-huckabee-sanders",
+      "role": "White House Press Secretary",
+      "start_date": "2017-07-26",
+      "end_date": "2019-07-01",
+      "reason": "Resigned, stating a desire to return to her home state of Arkansas."
+    },
+    {
+      "person_id": "uuid-for-kayleigh-mcenany",
+      "role": "White House Press Secretary",
+      "start_date": "2020-04-07",
+      "end_date": "2021-01-20",
+      "reason": "Served until the end of the administration's term."
+    },
+    {
+      "person_id": "uuid-for-anthony-scaramucci",
+      "role": "White House Communications Director",
+      "start_date": "2017-07-21",
+      "end_date": "2017-07-31",
+      "reason": "Fired after just 10 days at the request of new Chief of Staff John Kelly, following a controversial, expletive-laden interview."
+    }
+  ]
+}, 
+
+{
+  "administration_id": "adm_usa_trump_47",
+  "name": "The Trump Administration (47th Presidency)",
+  "governing_body_name": "United States of America",
+  "iso_a3": "USA",
+  "leader_person_id": "uuid-for-donald-trump-47th",
+  "leader_title": "President",
+  "term_identifier": "47th U.S. President",
+  "term_start_date": "2025-01-20",
+  "term_end_date": "2029-01-20",
+  "political_party": "Republican Party",
+  "key_officials": [
+    {
+      "person_id": "uuid-for-brooke-rollins",
+      "role": "Secretary of Agriculture",
+      "state_of_origin": "TX",
+      "confirmation_vote": "72-28",
+      "announced_date": "2024-11-23",
+      "confirmed_date": "2025-02-13",
+      "start_date": "2025-02-13",
+      "end_date": "2029-01-20",
+      "reason": ""
+    },
+    {
+      "person_id": "uuid-for-pamela-bondi",
+      "role": "Attorney General",
+      "state_of_origin": "FL",
+      "confirmation_vote": "54-46",
+      "announced_date": "2024-11-21",
+      "confirmed_date": "2025-02-04",
+      "start_date": "2025-02-04",
+      "end_date": "2029-01-20",
+      "reason": ""
+    },
+    {
+      "person_id": "uuid-for-howard-lutnick",
+      "role": "Secretary of Commerce",
+      "state_of_origin": "NY",
+      "confirmation_vote": "51-45",
+      "announced_date": "2024-11-19",
+      "confirmed_date": "2025-02-18",
+      "start_date": "2025-02-18",
+      "end_date": "2029-01-20",
+      "reason": ""
+    },
+    {
+      "person_id": "uuid-for-pete-hegseth",
+      "role": "Secretary of Defense",
+      "state_of_origin": "TN",
+      "confirmation_vote": "51-50",
+      "announced_date": "2024-11-12",
+      "confirmed_date": "2025-01-24",
+      "start_date": "2025-01-24",
+      "end_date": "2029-01-20",
+      "reason": ""
+    },
+    {
+      "person_id": "uuid-for-linda-mcmahon",
+      "role": "Secretary of Education",
+      "state_of_origin": "CT",
+      "confirmation_vote": "51-45",
+      "announced_date": "2024-11-19",
+      "confirmed_date": "2025-03-03",
+      "start_date": "2025-03-03",
+      "end_date": "2029-01-20",
+      "reason": ""
+    },
+    {
+      "person_id": "uuid-for-christopher-wright",
+      "role": "Secretary of Energy",
+      "state_of_origin": "CO",
+      "confirmation_vote": "52-48",
+      "announced_date": "2024-11-19",
+      "confirmed_date": "2025-02-13",
+      "start_date": "2025-02-13",
+      "end_date": "2029-01-20",
+      "reason": ""
+    },
+    {
+      "person_id": "uuid-for-robert-f-kennedy-jr",
+      "role": "Secretary of Health and Human Services",
+      "state_of_origin": "CA",
+      "confirmation_vote": "",
+      "announced_date": "",
+      "confirmed_date": "",
+      "start_date": "2025-01-20",
+      "end_date": "2029-01-20",
+      "reason": ""
+    },
+    {
+      "person_id": "uuid-for-kristi-noem",
+      "role": "Secretary of Homeland Security",
+      "state_of_origin": "SD",
+      "confirmation_vote": "59-34",
+      "announced_date": "2024-11-12",
+      "confirmed_date": "2025-01-25",
+      "start_date": "2025-01-25",
+      "end_date": "2029-01-20",
+      "reason": ""
+    },
+    {
+      "person_id": "uuid-for-scott-turner",
+      "role": "Secretary of Housing and Urban Development",
+      "state_of_origin": "TX",
+      "confirmation_vote": "55-44",
+      "announced_date": "2024-11-22",
+      "confirmed_date": "2025-02-05",
+      "start_date": "2025-02-05",
+      "end_date": "2029-01-20",
+      "reason": ""
+    },
+    {
+      "person_id": "uuid-for-douglas-burgum",
+      "role": "Secretary of the Interior",
+      "state_of_origin": "ND",
+      "confirmation_vote": "80-17",
+      "announced_date": "2024-11-14",
+      "confirmed_date": "2025-01-30",
+      "start_date": "2025-01-30",
+      "end_date": "2029-01-20",
+      "reason": ""
+    },
+    {
+      "person_id": "uuid-for-lori-chavez-deremer",
+      "role": "Secretary of Labor",
+      "state_of_origin": "OR",
+      "confirmation_vote": "67-32",
+      "announced_date": "2024-11-22",
+      "confirmed_date": "2025-03-10",
+      "start_date": "2025-03-10",
+      "end_date": "2029-01-20",
+      "reason": ""
+    },
+    {
+      "person_id": "uuid-for-marco-rubio",
+      "role": "Secretary of State",
+      "state_of_origin": "FL",
+      "confirmation_vote": "99-0",
+      "announced_date": "2024-11-13",
+      "confirmed_date": "2025-01-20",
+      "start_date": "2025-01-20",
+      "end_date": "2029-01-20",
+      "reason": ""
+    },
+    {
+      "person_id": "uuid-for-sean-duffy",
+      "role": "Secretary of Transportation",
+      "state_of_origin": "WI",
+      "confirmation_vote": "77-22",
+      "announced_date": "2024-11-18",
+      "confirmed_date": "2025-01-28",
+      "start_date": "2025-01-28",
+      "end_date": "2029-01-20",
+      "reason": ""
+    },
+    {
+      "person_id": "uuid-for-scott-bessent",
+      "role": "Secretary of the Treasury",
+      "state_of_origin": "SC",
+      "confirmation_vote": "68-29",
+      "announced_date": "2024-11-22",
+      "confirmed_date": "2025-01-27",
+      "start_date": "2025-01-27",
+      "end_date": "2029-01-20",
+      "reason": ""
+    },
+    {
+      "person_id": "uuid-for-douglas-collins",
+      "role": "Secretary of Veterans Affairs",
+      "state_of_origin": "GA",
+      "confirmation_vote": "77-23",
+      "announced_date": "2024-11-14",
+      "confirmed_date": "2025-02-04",
+      "start_date": "2025-02-04",
+      "end_date": "2029-01-20",
+      "reason": ""
+    },
+    {
+      "person_id": "uuid-for-lee-zeldin",
+      "role": "Administrator of the Environmental Protection Agency",
+      "state_of_origin": "NY",
+      "confirmation_vote": "",
+      "announced_date": "",
+      "confirmed_date": "",
+      "start_date": "2025-01-20",
+      "end_date": "2029-01-20",
+      "reason": ""
+    },
+    {
+      "person_id": "uuid-for-kelly-loeffler",
+      "role": "Administrator of the Small Business Administration",
+      "state_of_origin": "GA",
+      "confirmation_vote": "",
+      "announced_date": "",
+      "confirmed_date": "",
+      "start_date": "2025-01-20",
+      "end_date": "2029-01-20",
+      "reason": ""
+    },
+    {
+      "person_id": "uuid-for-john-ratcliffe",
+      "role": "Director of the Central Intelligence Agency",
+      "state_of_origin": "TX",
+      "confirmation_vote": "",
+      "announced_date": "",
+      "confirmed_date": "2025-01-23",
+      "start_date": "2025-01-23",
+      "end_date": "2029-01-20",
+      "reason": ""
+    },
+    {
+      "person_id": "uuid-for-tulsi-gabbard",
+      "role": "Director of National Intelligence",
+      "state_of_origin": "HI",
+      "confirmation_vote": "",
+      "announced_date": "",
+      "confirmed_date": "",
+      "start_date": "2025-01-20",
+      "end_date": "2029-01-20",
+      "reason": ""
+    },
+    {
+      "person_id": "uuid-for-russell-vought",
+      "role": "Director of the Office of Management and Budget",
+      "state_of_origin": "VA",
+      "confirmation_vote": "",
+      "announced_date": "",
+      "confirmed_date": "",
+      "start_date": "2025-01-20",
+      "end_date": "2029-01-20",
+      "reason": ""
+    },
+    {
+      "person_id": "uuid-for-jamieson-greer",
+      "role": "United States Trade Representative",
+      "state_of_origin": "MD",
+      "confirmation_vote": "",
+      "announced_date": "",
+      "confirmed_date": "",
+      "start_date": "2025-01-20",
+      "end_date": "2029-01-20",
+      "reason": ""
+    },
+    {
+      "person_id": "uuid-for-elise-stefanik",
+      "role": "Representative of the United States of America to the United Nations",
+      "state_of_origin": "NY",
+      "confirmation_vote": "",
+      "announced_date": "",
+      "confirmed_date": "",
+      "start_date": "2025-01-20",
+      "end_date": "2029-01-20",
+      "reason": ""
+    },
+    {
+      "person_id": "uuid-for-karoline-leavitt",
+      "role": "White House Press Secretary",
+      "state_of_origin": "",
+      "confirmation_vote": "N/A",
+      "announced_date": "",
+      "confirmed_date": "N/A",
+      "start_date": "2025-01-20",
+      "end_date": "2029-01-20",
+      "reason": ""
+    }
+  ]
+}
+]

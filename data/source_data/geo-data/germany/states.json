@@ -1,0 +1,97 @@
+[
+  {
+    "iso_3166_country_code_alpha_2": "DE",
+    "iso_3166_subdivision_code": "BW",
+    "state_DE": "Baden-Württemberg"
+  },
+  {
+    "country_EN": "Germany",
+    "iso_3166_country_code_alpha_2": "DE",
+    "iso_3166_subdivision_code": "BY",
+    "state_DE": "Bayern"
+  },
+  {
+    "country_EN": "Germany",
+    "iso_3166_country_code_alpha_2": "DE",
+    "iso_3166_subdivision_code": "BE",
+    "state_DE": "Berlin"
+  },
+  {
+    "country_EN": "Germany",
+    "iso_3166_country_code_alpha_2": "DE",
+    "iso_3166_subdivision_code": "BB",
+    "state_DE": "Brandenburg"
+  },
+  {
+    "country_EN": "Germany",
+    "iso_3166_country_code_alpha_2": "DE",
+    "iso_3166_subdivision_code": "HB",
+    "state_DE": "Bremen"
+  },
+  {
+    "country_EN": "Germany",
+    "iso_3166_country_code_alpha_2": "DE",
+    "iso_3166_subdivision_code": "HH",
+    "state_DE": "Hamburg"
+  },
+  {
+    "country_EN": "Germany",
+    "iso_3166_country_code_alpha_2": "DE",
+    "iso_3166_subdivision_code": "HE",
+    "state_DE": "Hessen"
+  },
+  {
+    "country_EN": "Germany",
+    "iso_3166_country_code_alpha_2": "DE",
+    "iso_3166_subdivision_code": "MV",
+    "state_DE": "Mecklenburg-Vorpommern"
+  },
+  {
+    "country_EN": "Germany",
+    "iso_3166_country_code_alpha_2": "DE",
+    "iso_3166_subdivision_code": "NI",
+    "state_DE": "Niedersachsen"
+  },
+  {
+    "country_EN": "Germany",
+    "iso_3166_country_code_alpha_2": "DE",
+    "iso_3166_subdivision_code": "NW",
+    "state_DE": "Nordrhein-Westfalen"
+  },
+  {
+    "country_EN": "Germany",
+    "iso_3166_country_code_alpha_2": "DE",
+    "iso_3166_subdivision_code": "RP",
+    "state_DE": "Rheinland-Pfalz"
+  },
+  {
+    "country_EN": "Germany",
+    "iso_3166_country_code_alpha_2": "DE",
+    "iso_3166_subdivision_code": "SL",
+    "state_DE": "Saarland"
+  },
+  {
+    "country_EN": "Germany",
+    "iso_3166_country_code_alpha_2": "DE",
+    "iso_3166_subdivision_code": "SN",
+    "state_DE": "Sachsen"
+  },
+  {
+    "country_EN": "Germany",
+    "iso_3166_country_code_alpha_2": "DE",
+    "iso_3166_subdivision_code": "ST",
+    "state_DE": "Sachsen-Anhalt"
+  },
+  {
+    "country_EN": "Germany",
+    "iso_3166_country_code_alpha_2": "DE",
+    "iso_3166_subdivision_code": "SH",
+    "state_DE": "Schleswig-Holstein"
+  },
+  {
+    "country_EN": "Germany",
+    "iso_3166_country_code_alpha_2": "DE",
+    "iso_3166_subdivision_code": "TH",
+    "state_DE": "Thüringen"
+  }
+]

@@ -1,0 +1,261 @@
+[
+  {
+    "country_EN": "Saudi Arabia",
+    "city_EN": "Riyadh",
+    "Locale": "Riyadh",
+    "Remarks": "Met with King Salman bin Abdel Aziz Al-Saud. Signed military sales agreement. Met with leaders of the Gulf Cooperation Council.",
+    "date": { "start": "2017-05-20", "end": "2017-05-20" }
+  },
+  {
+    "country_EN": "Israel",
+    "city_EN": "Jerusalem",
+    "Locale": "Jerusalem",
+    "Remarks": "Met with President Reuven Rivlin and Prime Minister Benjamin Netanyahu. Visited the Western Wall and Yad Vashem.",
+    "date": { "start": "2017-05-22", "end": "2017-05-23" }
+  },
+  {
+    "country_EN": "Palestinian Authority",
+    "city_EN": "Bethlehem",
+    "Locale": "Bethlehem",
+    "Remarks": "Met with President Mahmoud Abbas.",
+    "date": { "start": "2017-05-23", "end": "2017-05-23" }
+  },
+  {
+    "country_EN": "Italy",
+    "city_EN": "Rome",
+    "Locale": "Rome",
+    "Remarks": "Met with Prime Minister Paolo Gentiloni.",
+    "date": { "start": "2017-05-23", "end": "2017-05-24" }
+  },
+  {
+    "country_EN": "Vatican City",
+    "city_EN": "Vatican City",
+    "Locale": "Vatican City",
+    "Remarks": "Met with Pope Francis and Secretary of State Cardinal Pietro Parolin.",
+    "date": { "start": "2017-05-24", "end": "2017-05-24" }
+  },
+  {
+    "country_EN": "Belgium",
+    "city_EN": "Brussels",
+    "Locale": "Brussels",
+    "Remarks": "Attended a NATO Summit Meeting.",
+    "date": { "start": "2017-05-24", "end": "2017-05-25" }
+  },
+  {
+    "country_EN": "Italy",
+    "city_EN": "Taormina, Sigonella",
+    "Locale": "Taormina, Sigonella",
+    "Remarks": " Attended the G–7 Summit Meeting. Stopped at NAS Sigonella while returning to the United States.",
+    "date": { "start": "2017-05-25", "end": "2017-05-27" }
+  },
+  {
+    "country_EN": "Poland",
+    "city_EN": "Warsaw",
+    "Locale": "Warsaw",
+    "Remarks": "Met with President Andrzej Duda, delivered a public address, and addressed the Three Seas Summit.",
+    "date": { "start": "2017-07-05", "end": "2017-07-06" }
+  },
+  {
+    "country_EN": "Germany",
+    "city_EN": "Hamburg",
+    "Locale": "Hamburg",
+    "Remarks": "Attended the G–20 Summit.",
+    "date": { "start": "2017-07-06", "end": "2017-07-08" }
+  },
+  {
+    "country_EN": "France",
+    "city_EN": "Paris",
+    "Locale": "Paris",
+    "Remarks": "Official visit. Met with President Emmanuel Macron. Commemorated Bastille Day and the entry of the United States into World War I.",
+    "date": { "start": "2017-07-13", "end": "2017-07-14" }
+  },
+  {
+    "country_EN": "Japan",
+    "city_EN": "Kawagoe",
+    "Locale": "Kawagoe",
+    "Remarks": "Met with Prime Minister Shinzō Abe and Emperor Akihito.",
+    "date": { "start": "2017-11-05", "end": "2017-11-06" }
+  },
+  {
+    "country_EN": "Japan",
+    "city_EN": "Tokyo",
+    "Locale": "Tokyo",
+    "Remarks": "Met with Prime Minister Shinzō Abe and Emperor Akihito.",
+    "date": { "start": "2017-11-06", "end": "2017-11-07" }
+  },
+  {
+    "country_EN": "Republic of Korea",
+    "city_EN": "Osan",
+    "Locale": " Osan",
+    "Remarks": "Met with President Moon Jae-in. Visited U.S. Military personnel at Garrisons Humphreys and Yongsan.",
+    "date": { "start": "2017-11-07", "end": "2017-11-07" }
+  },
+  {
+    "country_EN": "Republic of Korea",
+    "city_EN": "Seoul",
+    "Locale": " Seoul",
+    "Remarks": "Met with President Moon Jae-in. Visited U.S. Military personnel at Garrisons Humphreys and Yongsan.",
+    "date": { "start": "2017-11-08", "end": "2017-11-08" }
+  },
+  {
+    "country_EN": "People’s Republic of China",
+    "city_EN": "Beijing",
+    "Locale": " Beijing",
+    "Remarks": "Met with President Xi Jinping. State Dinner.",
+    "date": { "start": "2017-11-08", "end": "2017-11-10" }
+  },
+  {
+    "country_EN": "Vietnam",
+    "city_EN": "Danang",
+    "Locale": "Danang",
+    "Remarks": "Attended the APEC Economic Leaders Meeting. Met with President Tran Dai Quang.",
+    "date": { "start": "2017-11-10", "end": "2017-11-11" }
+  },
+  {
+    "country_EN": "Vietnam",
+    "city_EN": "Hanoi",
+    "Locale": "Hanoi",
+    "Remarks": "Attended the APEC Economic Leaders Meeting. Met with President Tran Dai Quang.",
+    "date": { "start": "2017-11-11", "end": "2017-11-12" }
+  },
+  {
+    "country_EN": "Philippines",
+    "city_EN": "Manila",
+    "Locale": "Manila",
+    "Remarks": "Met with President Rodrigo Duterte and attended the 31st ASEAN Summit Meeting.",
+    "date": { "start": "2017-11-12", "end": "2017-11-14" }
+  },
+  {
+    "country_EN": "Switzerland",
+    "city_EN": "Davos",
+    "Locale": "Davos",
+    "Remarks": "Attended the 2018 World Economic Forum.",
+    "date": { "start": "2018-01-24", "end": "2018-01-26" }
+  },
+  {
+    "country_EN": "Canada",
+    "city_EN": "Charlevoix",
+    "Locale": "Charlevoix",
+    "Remarks": "Attended the G–7 meetings.",
+    "date": { "start": "2018-06-09", "end": "2018-06-09" }
+  },
+  {
+    "country_EN": "Singapore",
+    "city_EN": "Singapore",
+    "Locale": "Singapore",
+    "Remarks": "Participated in the summit with North Korean leader Kim Jong-un and bilateral events with Singaporean Prime Minister Lee Hsien Loong.",
+    "date": { "start": "2018-06-10", "end": "2018-06-13" }
+  },
+  {
+    "country_EN": "Belgium",
+    "city_EN": "Brussels",
+    "Locale": "Brussels",
+    "Remarks": "Attended NATO Summit Meeting.",
+    "date": { "start": "2018-07-10", "end": "2018-07-12" }
+  },
+  {
+    "country_EN": "United Kingdom",
+    "city_EN": "London",
+    "Locale": "London",
+    "Remarks": "Met with Queen Elizabeth II and Prime Minister Theresa May.",
+    "date": { "start": "2018-07-12", "end": "2018-07-13" }
+  },
+  {
+    "country_EN": "Finland",
+    "city_EN": "Helsinki",
+    "Locale": "Helsinki",
+    "Remarks": "Bilateral meeting with Russian President Vladimir Putin.",
+    "date": { "start": "2018-07-16", "end": "2018-07-16" }
+  },
+  {
+    "country_EN": "France",
+    "city_EN": "Paris",
+    "Locale": "Paris",
+    "Remarks": "Commemorated the 100th anniversary of the end of the WWI and met with French President Emmanuel Macron.",
+    "date": { "start": "2018-11-10", "end": "2018-11-12" }
+  },
+  {
+    "country_EN": "Argentina",
+    "city_EN": "Buenos Aires",
+    "Locale": "Buenos Aires",
+    "Remarks": "Participated in the G–20 Leaders’ Summit.",
+    "date": { "start": "2018-11-29", "end": "2018-12-01" }
+  },
+  {
+    "country_EN": "Vietnam",
+    "city_EN": "Hanoi",
+    "Locale": "Hanoi",
+    "Remarks": "Attended the second North Korea-U.S. summit.",
+    "date": { "start": "2019-02-27", "end": "2019-02-28" }
+  },
+  {
+    "country_EN": "Japan",
+    "city_EN": "Tokyo",
+    "Locale": "Tokyo",
+    "Remarks": "State Visit following the enthronement of Emperor Naruhito.",
+    "date": { "start": "2019-05-25", "end": "2019-05-28" }
+  },
+  {
+    "country_EN": "United Kingdom",
+    "city_EN": "London",
+    "Locale": "London",
+    "Remarks": "State Visit.",
+    "date": { "start": "2019-06-03", "end": "2019-06-05" }
+  },
+  {
+    "country_EN": "France",
+    "city_EN": "Caen",
+    "Locale": "Colleville-sur-Mer",
+    "Remarks": "Attended remembrance ceremony on the 75th Anniversary of D-Day.",
+    "date": { "start": "2019-06-06", "end": "2019-06-06" }
+  },
+  {
+    "country_EN": "Japan",
+    "city_EN": "Osaka",
+    "Locale": "Osaka",
+    "Remarks": "Participated in the G–20 Leaders’ Summit.",
+    "date": { "start": "2019-06-28", "end": "2019-06-30" }
+  },
+  {
+    "country_EN": "South Korea",
+    "city_EN": "Seoul",
+    "Locale": " Seoul",
+    "Remarks": "Met with President Moon Jae-in, and crossed briefly into North Korean territory where he was photographed with and spoke to Chairman Kim Jong-un.",
+    "date": { "start": "2019-06-30", "end": "2019-06-30" }
+  },
+  {
+    "country_EN": "France",
+    "city_EN": "Biarritz",
+    "Locale": "Biarritz",
+    "Remarks": "Attended the G–7 Summit Meeting.",
+    "date": { "start": "2019-08-24", "end": "2019-08-26" }
+  },
+  {
+    "country_EN": "Afghanistan",
+    "city_EN": "Bagram",
+    "Locale": "Bagram",
+    "Remarks": "Visited U.S. troops at Bagram Airfield.",
+    "date": { "start": "2019-11-28", "end": "2019-11-28" }
+  },
+  {
+    "country_EN": "United Kingdom",
+    "city_EN": "London",
+    "Locale": "London",
+    "Remarks": "Led U.S. delegation to attend the NATO Leaders Meeting.",
+    "date": { "start": "2019-12-03", "end": "2019-12-04" }
+  },
+  {
+    "country_EN": "Switzerland",
+    "city_EN": "Davos",
+    "Locale": "Davos",
+    "Remarks": "Attended the 2020 World Economic Forum.",
+    "date": { "start": "2020-01-21", "end": "2020-01-22" }
+  },
+  {
+    "country_EN": "India",
+    "city_EN": "New Delhi",
+    "Locale": "New Delhi",
+    "Remarks": "Met with Prime Minister Narendra Modi.",
+    "date": { "start": "2020-02-24", "end": "2020-02-25" }
+  }
+]

@@ -1,0 +1,1911 @@
+{
+  "type": "FeatureCollection",
+  "dataSet": "ne_110m_admin_0_countries",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "country_EN": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Afghanistan",
+        "ISO_A2_EH": "AF",
+        "reciprocal_tariff_by_the_US": 10,
+        "ISO_A3": "AFG"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Albania",
+        "ISO_A2_EH": "AL",
+        "reciprocal_tariff_by_the_US": 10,
+        "ISO_A3": "ALB"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Algeria",
+        "ISO_A2_EH": "DZ",
+        "reciprocal_tariff_by_the_US": 30,
+        "ISO_A3": "DZA"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Andorra",
+        "ISO_A2_EH": "AD",
+        "reciprocal_tariff_by_the_US": 10,
+        "ISO_A3": "AND"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Angola",
+        "ISO_A2_EH": "AO",
+        "reciprocal_tariff_by_the_US": 32,
+        "ISO_A3": "AGO"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Anguilla",
+        "ISO_A2_EH": "AI",
+        "reciprocal_tariff_by_the_US": 10,
+        "ISO_A3": "AIA"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Antigua and Barbuda",
+        "ISO_A2_EH": "AG",
+        "reciprocal_tariff_by_the_US": 10,
+        "ISO_A3": "ATG"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Argentina",
+        "ISO_A2_EH": "AR",
+        "reciprocal_tariff_by_the_US": 10,
+        "ISO_A3": "ARG"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Armenia",
+        "ISO_A2_EH": "AM",
+        "reciprocal_tariff_by_the_US": 10,
+        "ISO_A3": "ARM"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Aruba",
+        "ISO_A2_EH": "AW",
+        "reciprocal_tariff_by_the_US": 10,
+        "ISO_A3": "ABW"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Australia",
+        "ISO_A2_EH": "AU",
+        "reciprocal_tariff_by_the_US": 10,
+        "ISO_A3": "AUS"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Azerbaijan",
+        "ISO_A2_EH": "AZ",
+        "reciprocal_tariff_by_the_US": 10,
+        "ISO_A3": "AZE"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Bahamas",
+        "ISO_A2_EH": "BS",
+        "reciprocal_tariff_by_the_US": 10,
+        "ISO_A3": "BHS"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Bahrain",
+        "ISO_A2_EH": "BH",
+        "reciprocal_tariff_by_the_US": 10,
+        "ISO_A3": "BHR"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Bangladesh",
+        "ISO_A2_EH": "BD",
+        "reciprocal_tariff_by_the_US": 37,
+        "ISO_A3": "BGD"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Barbados",
+        "ISO_A2_EH": "BB",
+        "reciprocal_tariff_by_the_US": 10,
+        "ISO_A3": "BRB"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Belize",
+        "ISO_A2_EH": "BZ",
+        "reciprocal_tariff_by_the_US": 10,
+        "ISO_A3": "BLZ"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Benin",
+        "ISO_A2_EH": "BJ",
+        "reciprocal_tariff_by_the_US": 10,
+        "ISO_A3": "BEN"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Bermuda",
+        "ISO_A2_EH": "BM",
+        "reciprocal_tariff_by_the_US": 10,
+        "ISO_A3": "BMU"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Bhutan",
+        "ISO_A2_EH": "BT",
+        "reciprocal_tariff_by_the_US": 10,
+        "ISO_A3": "BTN"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Bolivia",
+        "ISO_A2_EH": "BO",
+        "reciprocal_tariff_by_the_US": 10,
+        "ISO_A3": "BOL"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Bosnia and Herzegovina",
+        "ISO_A2_EH": "BA",
+        "reciprocal_tariff_by_the_US": 35,
+        "ISO_A3": "BIH"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Botswana",
+        "ISO_A2_EH": "BW",
+        "reciprocal_tariff_by_the_US": 37,
+        "ISO_A3": "BWA"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Brazil",
+        "ISO_A2_EH": "BR",
+        "reciprocal_tariff_by_the_US": 10,
+        "ISO_A3": "BRA"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "British Indian Ocean Territory",
+        "ISO_A2_EH": "IO",
+        "reciprocal_tariff_by_the_US": 10,
+        "ISO_A3": "IOT"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "British Virgin Islands",
+        "ISO_A2_EH": "VG",
+        "reciprocal_tariff_by_the_US": 10,
+        "ISO_A3": "VGB"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Brunei",
+        "ISO_A2_EH": "BN",
+        "reciprocal_tariff_by_the_US": 24,
+        "ISO_A3": "BRN"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Burundi",
+        "ISO_A2_EH": "BI",
+        "reciprocal_tariff_by_the_US": 10,
+        "ISO_A3": "BDI"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Cabo Verde",
+        "ISO_A2_EH": "CV",
+        "reciprocal_tariff_by_the_US": 10,
+        "ISO_A3": "CPV"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Cambodia",
+        "ISO_A2_EH": "KH",
+        "reciprocal_tariff_by_the_US": 49,
+        "ISO_A3": "KHM"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Cameroon",
+        "ISO_A2_EH": "CM",
+        "reciprocal_tariff_by_the_US": 11,
+        "ISO_A3": "CMR"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Cayman Islands",
+        "ISO_A2_EH": "KY",
+        "reciprocal_tariff_by_the_US": 10,
+        "ISO_A3": "CYM"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Central African Republic",
+        "ISO_A2_EH": "CF",
+        "reciprocal_tariff_by_the_US": 10,
+        "ISO_A3": "CAF"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Chad",
+        "ISO_A2_EH": "TD",
+        "reciprocal_tariff_by_the_US": 13,
+        "ISO_A3": "TCD"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Chile",
+        "ISO_A2_EH": "CL",
+        "reciprocal_tariff_by_the_US": 10,
+        "ISO_A3": "CHL"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "China",
+        "ISO_A2_EH": "CN",
+        "reciprocal_tariff_by_the_US": 34,
+        "ISO_A3": "CHN"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Christmas Island",
+        "ISO_A2_EH": "CX",
+        "reciprocal_tariff_by_the_US": 10,
+        "ISO_A3": "CXR"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Cocos (Keeling) Islands",
+        "ISO_A2_EH": "CC",
+        "reciprocal_tariff_by_the_US": 10,
+        "ISO_A3": "CCK"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Colombia",
+        "ISO_A2_EH": "CO",
+        "reciprocal_tariff_by_the_US": 10,
+        "ISO_A3": "COL"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Comoros",
+        "ISO_A2_EH": "KM",
+        "reciprocal_tariff_by_the_US": 10,
+        "ISO_A3": "COM"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Cook Islands",
+        "ISO_A2_EH": "CK",
+        "reciprocal_tariff_by_the_US": 10,
+        "ISO_A3": "COK"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Costa Rica",
+        "ISO_A2_EH": "CR",
+        "reciprocal_tariff_by_the_US": 10,
+        "ISO_A3": "CRI"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Côte d’Ivoire",
+        "ISO_A2_EH": "CI",
+        "reciprocal_tariff_by_the_US": 21,
+        "ISO_A3": "CIV"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Curacao",
+        "ISO_A2_EH": "CW",
+        "reciprocal_tariff_by_the_US": 10,
+        "ISO_A3": "CUW"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Democratic Republic of the Congo",
+        "ISO_A2_EH": "CD",
+        "reciprocal_tariff_by_the_US": 11,
+        "ISO_A3": "COD"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Djibouti",
+        "ISO_A2_EH": "DJ",
+        "reciprocal_tariff_by_the_US": 10,
+        "ISO_A3": "DJI"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Dominica",
+        "ISO_A2_EH": "DM",
+        "reciprocal_tariff_by_the_US": 10,
+        "ISO_A3": "DMA"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Dominican Republic",
+        "ISO_A2_EH": "DO",
+        "reciprocal_tariff_by_the_US": 10,
+        "ISO_A3": "DOM"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Ecuador",
+        "ISO_A2_EH": "EC",
+        "reciprocal_tariff_by_the_US": 10,
+        "ISO_A3": "ECU"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Egypt",
+        "ISO_A2_EH": "EG",
+        "reciprocal_tariff_by_the_US": 10,
+        "ISO_A3": "EGY"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "El Salvador",
+        "ISO_A2_EH": "SV",
+        "reciprocal_tariff_by_the_US": 10,
+        "ISO_A3": "SLV"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Equatorial Guinea",
+        "ISO_A2_EH": "GQ",
+        "reciprocal_tariff_by_the_US": 13,
+        "ISO_A3": "GNQ"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Eritrea",
+        "ISO_A2_EH": "ER",
+        "reciprocal_tariff_by_the_US": 10,
+        "ISO_A3": "ERI"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Eswatini (Swaziland)",
+        "ISO_A2_EH": "SZ",
+        "reciprocal_tariff_by_the_US": 10,
+        "ISO_A3": "SWZ"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Ethiopia",
+        "ISO_A2_EH": "ET",
+        "reciprocal_tariff_by_the_US": 10,
+        "ISO_A3": "ETH"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Austria",
+        "ISO_A2_EH": "AT",
+        "reciprocal_tariff_by_the_US": 20,
+        "ISO_A3": "AUT"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Belgium",
+        "ISO_A2_EH": "BE",
+        "reciprocal_tariff_by_the_US": 20,
+        "ISO_A3": "BEL"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Bulgaria",
+        "ISO_A2_EH": "BG",
+        "reciprocal_tariff_by_the_US": 20,
+        "ISO_A3": "BGR"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Croatia",
+        "ISO_A2_EH": "HR",
+        "reciprocal_tariff_by_the_US": 20,
+        "ISO_A3": "HRV"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Cyprus",
+        "ISO_A2_EH": "CY",
+        "reciprocal_tariff_by_the_US": 20,
+        "ISO_A3": "CYP"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Czech Republic",
+        "ISO_A2_EH": "CZ",
+        "reciprocal_tariff_by_the_US": 20,
+        "ISO_A3": "CZE"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Denmark",
+        "ISO_A2_EH": "DK",
+        "reciprocal_tariff_by_the_US": 20,
+        "ISO_A3": "DNK"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Estonia",
+        "ISO_A2_EH": "EE",
+        "reciprocal_tariff_by_the_US": 20,
+        "ISO_A3": "EST"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Finland",
+        "ISO_A2_EH": "FI",
+        "reciprocal_tariff_by_the_US": 20,
+        "ISO_A3": "FIN"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "France",
+        "ISO_A2_EH": "FR",
+        "reciprocal_tariff_by_the_US": 20,
+        "ISO_A3": "FRA"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Germany",
+        "ISO_A2_EH": "DE",
+        "reciprocal_tariff_by_the_US": 20,
+        "ISO_A3": "DEU"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Greece",
+        "ISO_A2_EH": "GR",
+        "reciprocal_tariff_by_the_US": 20,
+        "ISO_A3": "GRC"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Hungary",
+        "ISO_A2_EH": "HU",
+        "reciprocal_tariff_by_the_US": 20,
+        "ISO_A3": "HUN"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Ireland",
+        "ISO_A2_EH": "IE",
+        "reciprocal_tariff_by_the_US": 20,
+        "ISO_A3": "IRL"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Italy",
+        "ISO_A2_EH": "IT",
+        "reciprocal_tariff_by_the_US": 20,
+        "ISO_A3": "ITA"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Latvia",
+        "ISO_A2_EH": "LV",
+        "reciprocal_tariff_by_the_US": 20,
+        "ISO_A3": "LVA"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Lithuania",
+        "ISO_A2_EH": "LT",
+        "reciprocal_tariff_by_the_US": 20,
+        "ISO_A3": "LTU"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Luxembourg",
+        "ISO_A2_EH": "LU",
+        "reciprocal_tariff_by_the_US": 20,
+        "ISO_A3": "LUX"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Malta",
+        "ISO_A2_EH": "MT",
+        "reciprocal_tariff_by_the_US": 20,
+        "ISO_A3": "MLT"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Netherlands",
+        "ISO_A2_EH": "NL",
+        "reciprocal_tariff_by_the_US": 20,
+        "ISO_A3": "NLD"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Poland",
+        "ISO_A2_EH": "PL",
+        "reciprocal_tariff_by_the_US": 20,
+        "ISO_A3": "POL"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Portugal",
+        "ISO_A2_EH": "PT",
+        "reciprocal_tariff_by_the_US": 20,
+        "ISO_A3": "PRT"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Romania",
+        "ISO_A2_EH": "RO",
+        "reciprocal_tariff_by_the_US": 20,
+        "ISO_A3": "ROU"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Slovakia",
+        "ISO_A2_EH": "SK",
+        "reciprocal_tariff_by_the_US": 20,
+        "ISO_A3": "SVK"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Slovenia",
+        "ISO_A2_EH": "SI",
+        "reciprocal_tariff_by_the_US": 20,
+        "ISO_A3": "SVN"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Spain",
+        "ISO_A2_EH": "ES",
+        "reciprocal_tariff_by_the_US": 20,
+        "ISO_A3": "ESP"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Sweden",
+        "ISO_A2_EH": "SE",
+        "reciprocal_tariff_by_the_US": 20,
+        "ISO_A3": "SWE"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Falkland Islands",
+        "ISO_A2_EH": "FK",
+        "reciprocal_tariff_by_the_US": 41,
+        "ISO_A3": "FLK"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Fiji",
+        "ISO_A2_EH": "FJ",
+        "reciprocal_tariff_by_the_US": 32,
+        "ISO_A3": "FJI"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "French Guiana",
+        "ISO_A2_EH": "GF",
+        "reciprocal_tariff_by_the_US": 10,
+        "ISO_A3": "GUF"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "French Polynesia",
+        "ISO_A2_EH": "PF",
+        "reciprocal_tariff_by_the_US": 10,
+        "ISO_A3": "PYF"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Gabon",
+        "ISO_A2_EH": "GA",
+        "reciprocal_tariff_by_the_US": 10,
+        "ISO_A3": "GAB"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Gambia",
+        "ISO_A2_EH": "GM",
+        "reciprocal_tariff_by_the_US": 10,
+        "ISO_A3": "GMB"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Georgia",
+        "ISO_A2_EH": "GE",
+        "reciprocal_tariff_by_the_US": 10,
+        "ISO_A3": "GEO"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Ghana",
+        "ISO_A2_EH": "GH",
+        "reciprocal_tariff_by_the_US": 10,
+        "ISO_A3": "GHA"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Gibraltar",
+        "ISO_A2_EH": "GI",
+        "reciprocal_tariff_by_the_US": 10,
+        "ISO_A3": "GIB"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Grenada",
+        "ISO_A2_EH": "GD",
+        "reciprocal_tariff_by_the_US": 10,
+        "ISO_A3": "GRD"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Guadaloupe",
+        "ISO_A2_EH": "GP",
+        "reciprocal_tariff_by_the_US": 10,
+        "ISO_A3": "GLP"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Guatemala",
+        "ISO_A2_EH": "GT",
+        "reciprocal_tariff_by_the_US": 10,
+        "ISO_A3": "GTM"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Guinea-Bissau",
+        "ISO_A2_EH": "GW",
+        "reciprocal_tariff_by_the_US": 10,
+        "ISO_A3": "GNB"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Guinea",
+        "ISO_A2_EH": "GN",
+        "reciprocal_tariff_by_the_US": 10,
+        "ISO_A3": "GIN"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Guyana",
+        "ISO_A2_EH": "GY",
+        "reciprocal_tariff_by_the_US": 38,
+        "ISO_A3": "GUY"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Haiti",
+        "ISO_A2_EH": "HT",
+        "reciprocal_tariff_by_the_US": 10,
+        "ISO_A3": "HTI"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Heard and McDonald Islands",
+        "ISO_A2_EH": "HM",
+        "reciprocal_tariff_by_the_US": 10,
+        "ISO_A3": "HMD"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Honduras",
+        "ISO_A2_EH": "HN",
+        "reciprocal_tariff_by_the_US": 10,
+        "ISO_A3": "HND"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Iceland",
+        "ISO_A2_EH": "IS",
+        "reciprocal_tariff_by_the_US": 10,
+        "ISO_A3": "ISL"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "India",
+        "ISO_A2_EH": "IN",
+        "reciprocal_tariff_by_the_US": 26,
+        "ISO_A3": "IND"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Indonesia",
+        "ISO_A2_EH": "ID",
+        "reciprocal_tariff_by_the_US": 32,
+        "ISO_A3": "IDN"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Iran",
+        "ISO_A2_EH": "IR",
+        "reciprocal_tariff_by_the_US": 10,
+        "ISO_A3": "IRN"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Iraq",
+        "ISO_A2_EH": "IQ",
+        "reciprocal_tariff_by_the_US": 39,
+        "ISO_A3": "IRQ"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Israel",
+        "ISO_A2_EH": "IL",
+        "reciprocal_tariff_by_the_US": 17,
+        "ISO_A3": "ISR"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Jamaica",
+        "ISO_A2_EH": "JM",
+        "reciprocal_tariff_by_the_US": 10,
+        "ISO_A3": "JAM"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Japan",
+        "ISO_A2_EH": "JP",
+        "reciprocal_tariff_by_the_US": 24,
+        "ISO_A3": "JPN"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Jordan",
+        "ISO_A2_EH": "JO",
+        "reciprocal_tariff_by_the_US": 20,
+        "ISO_A3": "JOR"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Kazakhstan",
+        "ISO_A2_EH": "KZ",
+        "reciprocal_tariff_by_the_US": 27,
+        "ISO_A3": "KAZ"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Kenya",
+        "ISO_A2_EH": "KE",
+        "reciprocal_tariff_by_the_US": 10,
+        "ISO_A3": "KEN"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Kiribati",
+        "ISO_A2_EH": "KI",
+        "reciprocal_tariff_by_the_US": 10,
+        "ISO_A3": "KIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Kosovo",
+        "ISO_A2_EH": "XK",
+        "reciprocal_tariff_by_the_US": 10,
+        "ISO_A3": "-99"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Kuwait",
+        "ISO_A2_EH": "KW",
+        "reciprocal_tariff_by_the_US": 10,
+        "ISO_A3": "KWT"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Kyrgystan",
+        "ISO_A2_EH": "KG",
+        "reciprocal_tariff_by_the_US": 10,
+        "ISO_A3": "KGZ"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Laos",
+        "ISO_A2_EH": "LA",
+        "reciprocal_tariff_by_the_US": 48,
+        "ISO_A3": "LAO"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Lebanon",
+        "ISO_A2_EH": "LB",
+        "reciprocal_tariff_by_the_US": 10,
+        "ISO_A3": "LBN"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Lesotho",
+        "ISO_A2_EH": "LS",
+        "reciprocal_tariff_by_the_US": 50,
+        "ISO_A3": "LSO"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Liberia",
+        "ISO_A2_EH": "LR",
+        "reciprocal_tariff_by_the_US": 10,
+        "ISO_A3": "LBR"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Libya",
+        "ISO_A2_EH": "LY",
+        "reciprocal_tariff_by_the_US": 31,
+        "ISO_A3": "LBY"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Lichtenstein",
+        "ISO_A2_EH": "LI",
+        "reciprocal_tariff_by_the_US": 37,
+        "ISO_A3": "LIE"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Madagascar",
+        "ISO_A2_EH": "MG",
+        "reciprocal_tariff_by_the_US": 47,
+        "ISO_A3": "MDG"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Malawi",
+        "ISO_A2_EH": "MW",
+        "reciprocal_tariff_by_the_US": 17,
+        "ISO_A3": "MWI"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Malaysia",
+        "ISO_A2_EH": "MY",
+        "reciprocal_tariff_by_the_US": 24,
+        "ISO_A3": "MYS"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Maldives",
+        "ISO_A2_EH": "MV",
+        "reciprocal_tariff_by_the_US": 10,
+        "ISO_A3": "MDV"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Mali",
+        "ISO_A2_EH": "ML",
+        "reciprocal_tariff_by_the_US": 10,
+        "ISO_A3": "MLI"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Marshall Islands",
+        "ISO_A2_EH": "MH",
+        "reciprocal_tariff_by_the_US": 10,
+        "ISO_A3": "MHL"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Martinique",
+        "ISO_A2_EH": "MQ",
+        "reciprocal_tariff_by_the_US": 10,
+        "ISO_A3": "MTQ"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Mauritania",
+        "ISO_A2_EH": "MR",
+        "reciprocal_tariff_by_the_US": 10,
+        "ISO_A3": "MRT"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Mauritius",
+        "ISO_A2_EH": "MU",
+        "reciprocal_tariff_by_the_US": 40,
+        "ISO_A3": "MUS"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Mayotte",
+        "ISO_A2_EH": "YT",
+        "reciprocal_tariff_by_the_US": 10,
+        "ISO_A3": "MYT"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Micronesia",
+        "ISO_A2_EH": "FM",
+        "reciprocal_tariff_by_the_US": 10,
+        "ISO_A3": "FSM"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Moldova",
+        "ISO_A2_EH": "MD",
+        "reciprocal_tariff_by_the_US": 31,
+        "ISO_A3": "MDA"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Monaco",
+        "ISO_A2_EH": "MC",
+        "reciprocal_tariff_by_the_US": 10,
+        "ISO_A3": "MCO"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Mongolia",
+        "ISO_A2_EH": "MN",
+        "reciprocal_tariff_by_the_US": 10,
+        "ISO_A3": "MNG"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Montenegro",
+        "ISO_A2_EH": "ME",
+        "reciprocal_tariff_by_the_US": 10,
+        "ISO_A3": "MNE"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Montserrat",
+        "ISO_A2_EH": "MS",
+        "reciprocal_tariff_by_the_US": 10,
+        "ISO_A3": "MSR"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Morocco",
+        "ISO_A2_EH": "MA",
+        "reciprocal_tariff_by_the_US": 10,
+        "ISO_A3": "MAR"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Mozambique",
+        "ISO_A2_EH": "MZ",
+        "reciprocal_tariff_by_the_US": 16,
+        "ISO_A3": "MOZ"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Myanmar (Burma)",
+        "ISO_A2_EH": "MM",
+        "reciprocal_tariff_by_the_US": 44,
+        "ISO_A3": "MMR"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Namibia",
+        "ISO_A2_EH": "NA",
+        "reciprocal_tariff_by_the_US": 21,
+        "ISO_A3": "NAM"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Nauru",
+        "ISO_A2_EH": "NR",
+        "reciprocal_tariff_by_the_US": 30,
+        "ISO_A3": "NRU"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Nepal",
+        "ISO_A2_EH": "NP",
+        "reciprocal_tariff_by_the_US": 10,
+        "ISO_A3": "NPL"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "New Zealand",
+        "ISO_A2_EH": "NZ",
+        "reciprocal_tariff_by_the_US": 10,
+        "ISO_A3": "NZL"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Nicaragua",
+        "ISO_A2_EH": "NI",
+        "reciprocal_tariff_by_the_US": 18,
+        "ISO_A3": "NIC"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Niger",
+        "ISO_A2_EH": "NE",
+        "reciprocal_tariff_by_the_US": 10,
+        "ISO_A3": "NER"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Nigeria",
+        "ISO_A2_EH": "NG",
+        "reciprocal_tariff_by_the_US": 14,
+        "ISO_A3": "NGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Norfolk Island",
+        "ISO_A2_EH": "NF",
+        "reciprocal_tariff_by_the_US": 29,
+        "ISO_A3": "NFK"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "North Macedonia",
+        "ISO_A2_EH": "MK",
+        "reciprocal_tariff_by_the_US": 33,
+        "ISO_A3": "MKD"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Norway",
+        "ISO_A2_EH": "NO",
+        "reciprocal_tariff_by_the_US": 15,
+        "ISO_A3": "NOR"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Oman",
+        "ISO_A2_EH": "OM",
+        "reciprocal_tariff_by_the_US": 10,
+        "ISO_A3": "OMN"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Pakistan",
+        "ISO_A2_EH": "PK",
+        "reciprocal_tariff_by_the_US": 29,
+        "ISO_A3": "PAK"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Panama",
+        "ISO_A2_EH": "PA",
+        "reciprocal_tariff_by_the_US": 10,
+        "ISO_A3": "PAN"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Papua New Guinea",
+        "ISO_A2_EH": "PG",
+        "reciprocal_tariff_by_the_US": 10,
+        "ISO_A3": "PNG"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Paraguay",
+        "ISO_A2_EH": "PY",
+        "reciprocal_tariff_by_the_US": 10,
+        "ISO_A3": "PRY"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Peru",
+        "ISO_A2_EH": "PE",
+        "reciprocal_tariff_by_the_US": 10,
+        "ISO_A3": "PER"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Philippines",
+        "ISO_A2_EH": "PH",
+        "reciprocal_tariff_by_the_US": 17,
+        "ISO_A3": "PHL"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Qatar",
+        "ISO_A2_EH": "QA",
+        "reciprocal_tariff_by_the_US": 10,
+        "ISO_A3": "QAT"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Republic of the Congo",
+        "ISO_A2_EH": "CG",
+        "reciprocal_tariff_by_the_US": 10,
+        "ISO_A3": "COG"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Reunion",
+        "ISO_A2_EH": "RE",
+        "reciprocal_tariff_by_the_US": 37,
+        "ISO_A3": "REU"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Rwanda",
+        "ISO_A2_EH": "RW",
+        "reciprocal_tariff_by_the_US": 10,
+        "ISO_A3": "RWA"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Saint Helena",
+        "ISO_A2_EH": "SH",
+        "reciprocal_tariff_by_the_US": 10,
+        "ISO_A3": "SHN"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Saint Kitts and Nevis",
+        "ISO_A2_EH": "KN",
+        "reciprocal_tariff_by_the_US": 10,
+        "ISO_A3": "KNA"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Saint Lucia",
+        "ISO_A2_EH": "LC",
+        "reciprocal_tariff_by_the_US": 10,
+        "ISO_A3": "LCA"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Saint Maarten",
+        "ISO_A2_EH": "SX",
+        "reciprocal_tariff_by_the_US": 10,
+        "ISO_A3": "SXM"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Saint Pierre and Miquelon",
+        "ISO_A2_EH": "PM",
+        "reciprocal_tariff_by_the_US": 50,
+        "ISO_A3": "SPM"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Saint Vicent and the Grenadines",
+        "ISO_A2_EH": "VC",
+        "reciprocal_tariff_by_the_US": 10,
+        "ISO_A3": "VCT"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Samoa",
+        "ISO_A2_EH": "WS",
+        "reciprocal_tariff_by_the_US": 10,
+        "ISO_A3": "WSM"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "San Marino",
+        "ISO_A2_EH": "SM",
+        "reciprocal_tariff_by_the_US": 10,
+        "ISO_A3": "SMR"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "São Tomé and Príncipe",
+        "ISO_A2_EH": "ST",
+        "reciprocal_tariff_by_the_US": 10,
+        "ISO_A3": "STP"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Saudi Arabia",
+        "ISO_A2_EH": "SA",
+        "reciprocal_tariff_by_the_US": 10,
+        "ISO_A3": "SAU"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Senegal",
+        "ISO_A2_EH": "SN",
+        "reciprocal_tariff_by_the_US": 10,
+        "ISO_A3": "SEN"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Serbia",
+        "ISO_A2_EH": "RS",
+        "reciprocal_tariff_by_the_US": 37,
+        "ISO_A3": "SRB"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Sierra Leone",
+        "ISO_A2_EH": "SL",
+        "reciprocal_tariff_by_the_US": 10,
+        "ISO_A3": "SLE"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Singapore",
+        "ISO_A2_EH": "SG",
+        "reciprocal_tariff_by_the_US": 10,
+        "ISO_A3": "SGP"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Solomon Islands",
+        "ISO_A2_EH": "SB",
+        "reciprocal_tariff_by_the_US": 10,
+        "ISO_A3": "SLB"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "South Africa",
+        "ISO_A2_EH": "ZA",
+        "reciprocal_tariff_by_the_US": 30,
+        "ISO_A3": "ZAF"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "South Korea",
+        "ISO_A2_EH": "KR",
+        "reciprocal_tariff_by_the_US": 25,
+        "ISO_A3": "KOR"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "South Sudan",
+        "ISO_A2_EH": "SS",
+        "reciprocal_tariff_by_the_US": 10,
+        "ISO_A3": "SSD"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Sri Lanka",
+        "ISO_A2_EH": "LK",
+        "reciprocal_tariff_by_the_US": 44,
+        "ISO_A3": "LKA"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Sudan",
+        "ISO_A2_EH": "SD",
+        "reciprocal_tariff_by_the_US": 10,
+        "ISO_A3": "SDN"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Suriname",
+        "ISO_A2_EH": "SR",
+        "reciprocal_tariff_by_the_US": 10,
+        "ISO_A3": "SUR"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Svalbard and Jan Mayen",
+        "ISO_A2_EH": "SJ",
+        "reciprocal_tariff_by_the_US": 10,
+        "ISO_A3": "SJM"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Switzerland",
+        "ISO_A2_EH": "CH",
+        "reciprocal_tariff_by_the_US": 31,
+        "ISO_A3": "CHE"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Syria",
+        "ISO_A2_EH": "SY",
+        "reciprocal_tariff_by_the_US": 41,
+        "ISO_A3": "SYR"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Taiwan",
+        "ISO_A2_EH": "TW",
+        "reciprocal_tariff_by_the_US": 32,
+        "ISO_A3": "TWN"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Tajikistan",
+        "ISO_A2_EH": "TJ",
+        "reciprocal_tariff_by_the_US": 10,
+        "ISO_A3": "TJK"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Tanzania",
+        "ISO_A2_EH": "TZ",
+        "reciprocal_tariff_by_the_US": 10,
+        "ISO_A3": "TZA"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Thailand",
+        "ISO_A2_EH": "TH",
+        "reciprocal_tariff_by_the_US": 26,
+        "ISO_A3": "THA"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Timor-Leste",
+        "ISO_A2_EH": "TL",
+        "reciprocal_tariff_by_the_US": 10,
+        "ISO_A3": "TLS"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Togo",
+        "ISO_A2_EH": "TG",
+        "reciprocal_tariff_by_the_US": 10,
+        "ISO_A3": "TGO"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Tokelu",
+        "ISO_A2_EH": "TK",
+        "reciprocal_tariff_by_the_US": 10,
+        "ISO_A3": "TKL"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Tonga",
+        "ISO_A2_EH": "TO",
+        "reciprocal_tariff_by_the_US": 10,
+        "ISO_A3": "TON"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Trinidad and Tobago",
+        "ISO_A2_EH": "TT",
+        "reciprocal_tariff_by_the_US": 10,
+        "ISO_A3": "TTO"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Tunisia",
+        "ISO_A2_EH": "TN",
+        "reciprocal_tariff_by_the_US": 28,
+        "ISO_A3": "TUN"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Turkey",
+        "ISO_A2_EH": "TR",
+        "reciprocal_tariff_by_the_US": 10,
+        "ISO_A3": "TUR"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Turkmenistan",
+        "ISO_A2_EH": "TM",
+        "reciprocal_tariff_by_the_US": 10,
+        "ISO_A3": "TKM"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Turks and Caicos Islands",
+        "ISO_A2_EH": "TC",
+        "reciprocal_tariff_by_the_US": 10,
+        "ISO_A3": "TCA"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Tuvalu",
+        "ISO_A2_EH": "TV",
+        "reciprocal_tariff_by_the_US": 10,
+        "ISO_A3": "TUV"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Uganda",
+        "ISO_A2_EH": "UG",
+        "reciprocal_tariff_by_the_US": 10,
+        "ISO_A3": "UGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Ukraine",
+        "ISO_A2_EH": "UA",
+        "reciprocal_tariff_by_the_US": 10,
+        "ISO_A3": "UKR"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "United Arab Emirates",
+        "ISO_A2_EH": "AE",
+        "reciprocal_tariff_by_the_US": 10,
+        "ISO_A3": "ARE"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "United Kingdom",
+        "ISO_A2_EH": "GB",
+        "reciprocal_tariff_by_the_US": 10,
+        "ISO_A3": "GBR"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Uruguay",
+        "ISO_A2_EH": "UY",
+        "reciprocal_tariff_by_the_US": 10,
+        "ISO_A3": "URY"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Uzbekistan",
+        "ISO_A2_EH": "UZ",
+        "reciprocal_tariff_by_the_US": 10,
+        "ISO_A3": "UZB"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Vanuatu",
+        "ISO_A2_EH": "VU",
+        "reciprocal_tariff_by_the_US": 22,
+        "ISO_A3": "VUT"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Venezuela",
+        "ISO_A2_EH": "VE",
+        "reciprocal_tariff_by_the_US": 15,
+        "ISO_A3": "VEN"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Vietnam",
+        "ISO_A2_EH": "VN",
+        "reciprocal_tariff_by_the_US": 46,
+        "ISO_A3": "VNM"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Yemen",
+        "ISO_A2_EH": "YE",
+        "reciprocal_tariff_by_the_US": 10,
+        "ISO_A3": "YEM"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Zambia",
+        "ISO_A2_EH": "ZM",
+        "reciprocal_tariff_by_the_US": 17,
+        "ISO_A3": "ZMB"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country_EN": "Zimbabwe",
+        "ISO_A2_EH": "ZW",
+        "reciprocal_tariff_by_the_US": 18,
+        "ISO_A3": "ZWE"
+      }
+    }
+  ]
+}

@@ -1,0 +1,1025 @@
+[
+  {
+    "IGO": "ADB",
+    "TYPES": ["Regional", "Social", "Economy", "Finance"],
+    "organization": "Asian Development Bank",
+    "subTitle": "",
+    "description": "A regional development bank established in 1966, headquartered in Manila, Philippines. It aims to achieve a prosperous, inclusive, resilient, and sustainable Asia and the Pacific, while sustaining efforts to eradicate extreme poverty by providing loans, technical assistance, grants, and equity investments."
+  },
+  {
+    "IGO": "AfDB",
+    "TYPES": ["Regional", "Finance", "Economy", "Development"],
+    "organization": "African Development Bank",
+    "subTitle": "",
+    "description": "A multilateral development finance institution established in 1964, headquartered in Abidjan, Côte d'Ivoire. Its objective is to spur sustainable economic development and social progress in its regional member countries, contributing to poverty reduction."
+  },
+  {
+    "IGO": "AFTA",
+    "TYPES": ["Regional", "Trade", "Economy", "ASEAN"],
+    "organization": "ASEAN Free Trade Area",
+    "subTitle": "",
+    "description": "An agreement by the member states of the Association of Southeast Asian Nations (ASEAN) supporting local manufacturing and promoting free trade within the region by eliminating tariffs for goods, services, and investments among members."
+  },
+  {
+    "IGO": "APEC",
+    "TYPES": ["Regional", "Economy", "Social", "Trade", "Asia-Pacific"],
+    "organization": "Asia-Pacific Economic Cooperation",
+    "subTitle": "",
+    "description": "A regional economic forum established in 1989 to leverage the growing interdependence of the Asia-Pacific. Its 21 member economies aim to create greater prosperity by promoting balanced, inclusive, sustainable, innovative and secure growth and by accelerating regional economic integration."
+  },
+  {
+    "IGO": "APTA",
+    "TYPES": ["Regional", "Economy", "Trade", "Asia-Pacific"],
+    "organization": "Asia-Pacific Trade Agreement",
+    "subTitle": "(Formerly Bangkok Agreement)",
+    "description": "The oldest preferential trade agreement among countries in the Asia-Pacific region, aimed at promoting economic development through the adoption of mutually beneficial trade liberalization measures. Members include Bangladesh, China, India, Laos, Mongolia, South Korea, and Sri Lanka."
+  },
+  {
+    "IGO": "ASEAN",
+    "TYPES": [
+      "Regional",
+      "Political",
+      "Economic",
+      "Security",
+      "Southeast Asia"
+    ],
+    "organization": "Association of Southeast Asian Nations",
+    "subTitle": "",
+    "description": "A regional intergovernmental organization comprising ten Southeast Asian countries that promotes economic, political, and security cooperation among its members and with other Asian countries."
+  },
+  {
+    "IGO": "AU",
+    "TYPES": [
+      "Continental",
+      "Security",
+      "Economy",
+      "Social",
+      "Political",
+      "Africa"
+    ],
+    "organization": "African Union",
+    "subTitle": "",
+    "description": "A continental union consisting of 55 member states located on the continent of Africa. It aims to promote unity, solidarity, peace, security, democracy, and sustainable development across Africa."
+  },
+  {
+    "IGO": "BAFTA",
+    "TYPES": ["Entertainment", "NGO"],
+    "organization": "British Academy of Film and Television Arts",
+    "subTitle": "",
+    "description": "An independent arts charity supporting, developing, and promoting the art forms of the moving image – film, television, and games – in the United Kingdom. (Note: This is an NGO/Charity, not an IGO)."
+  },
+  {
+    "IGO": "BANGKOK",
+    "TYPES": ["City", "ASEAN Declaration"],
+    "organization": "(Not an IGO Acronym)",
+    "subTitle": "",
+    "description": "Refers to the capital city of Thailand. Often associated with the 'Bangkok Declaration' which established ASEAN in 1967, but it is not an organization itself."
+  },
+  {
+    "IGO": "BIS",
+    "TYPES": ["Global", "Finance", "Banking", "Monetary Cooperation"],
+    "organization": "Bank for International Settlements",
+    "subTitle": "",
+    "description": "An international financial institution owned by member central banks that seeks to foster international monetary and financial cooperation and serves as a bank for central banks. Established in 1930, it is the world's oldest international financial organization."
+  },
+  {
+    "IGO": "BIMSTEC",
+    "TYPES": [
+      "Regional",
+      "Economic Cooperation",
+      "South Asia",
+      "Southeast Asia"
+    ],
+    "organization": "Bay of Bengal Initiative for Multi-Sectoral Technical and Economic Cooperation",
+    "subTitle": "",
+    "description": "A regional multilateral organization comprising Bangladesh, Bhutan, India, Myanmar, Nepal, Sri Lanka and Thailand. BIMSTEC aims to foster economic and technical cooperation among these South Asian and Southeast Asian countries along the coast of the Bay of Bengal."
+  },
+  {
+    "IGO": "BRICS",
+    "TYPES": [
+      "Global",
+      "Emerging Economies",
+      "Economy",
+      "Political",
+      "Development"
+    ],
+    "organization": "BRICS",
+    "subTitle": "",
+    "description": "An intergovernmental grouping originally comprising Brazil, Russia, India, China, and South Africa, which has expanded to include Egypt, Ethiopia, Iran, and the UAE. It aims to enhance cooperation and influence of major emerging economies in the global order."
+  },
+  {
+    "IGO": "BSEC",
+    "TYPES": ["Regional", "Economy", "Political", "Black Sea"],
+    "organization": "Organization of the Black Sea Economic Cooperation",
+    "subTitle": "",
+    "description": "A regional international organization focusing on multilateral political and economic initiatives aimed at fostering cooperation, peace, stability, and prosperity among 13 member states in the Black Sea region."
+  },
+  {
+    "IGO": "CACM",
+    "TYPES": ["Regional", "Economy", "Trade", "Central America"],
+    "organization": "Central American Common Market",
+    "subTitle": "(Mercado Común Centroamericano)",
+    "description": "An organization established in 1960 to facilitate regional economic integration and development through free trade among its members: Costa Rica, El Salvador, Guatemala, Honduras, and Nicaragua."
+  },
+  {
+    "IGO": "CAN",
+    "TYPES": ["Regional", "Economy", "Social", "Trade", "South America"],
+    "organization": "Andean Community",
+    "subTitle": "(Comunidad Andina)",
+    "description": "A customs union comprising the South American countries of Bolivia, Colombia, Ecuador, and Peru. It aims to achieve sustainable, comprehensive development through economic and social integration."
+  },
+  {
+    "IGO": "CARICOM",
+    "TYPES": ["Regional", "Economic Integration", "Caribbean"],
+    "organization": "Caribbean Community and Common Market",
+    "subTitle": "",
+    "description": "An organization of fifteen Caribbean nations and dependencies whose main objective is to promote economic integration and cooperation among its members, coordinate foreign policy, and ensure benefits are equitably shared."
+  },
+  {
+    "IGO": "CBSS",
+    "TYPES": ["add information"],
+    "organization": "add information",
+    "subTitle": "add information",
+    "description": "add information"
+  },
+  {
+    "IGO": "CEFTA",
+    "TYPES": ["Regional", "Trade", "Europe"],
+    "organization": "Central European Free Trade Agreement",
+    "subTitle": "",
+    "description": "A trade agreement between non-EU countries in Central and Southeastern Europe (currently Albania, Bosnia and Herzegovina, Moldova, Montenegro, North Macedonia, Serbia, and UNMIK/Kosovo) designed to facilitate their eventual accession to the European Union."
+  },
+  {
+    "IGO": "CEMAC",
+    "TYPES": ["Regional", "Economy", "Currency", "Central Africa"],
+    "organization": "Economic and Monetary Community of Central Africa",
+    "subTitle": "(Communauté Économique et Monétaire de l'Afrique Centrale)",
+    "description": "An organization comprising six Central African countries (Cameroon, Central African Republic, Chad, Republic of the Congo, Equatorial Guinea, Gabon) aimed at promoting economic integration, sharing a common currency (Central African CFA franc)."
+  },
+  {
+    "IGO": "CER",
+    "TYPES": ["Regional", "Trade", "Australia", "New Zealand"],
+    "organization": "Australia–New Zealand Closer Economic Relations Trade Agreement",
+    "subTitle": "",
+    "description": "A comprehensive bilateral free trade agreement between Australia and New Zealand, recognized as one of the world's most effective FTAs, aiming to create a single economic market."
+  },
+  {
+    "IGO": "CIS",
+    "TYPES": ["Regional", "Economy", "Political", "Security", "Post-Soviet"],
+    "organization": "Commonwealth of Independent States",
+    "subTitle": "",
+    "description": "A regional intergovernmental organization formed following the dissolution of the Soviet Union in 1991. It encourages cooperation in economic, political, and military affairs among member states (current membership includes several post-Soviet republics)."
+  },
+  {
+    "IGO": "CoE",
+    "TYPES": ["Regional", "Human Rights", "Democracy", "Rule of Law", "Europe"],
+    "organization": "Council of Europe",
+    "subTitle": "",
+    "description": "An international organization founded in 1949 focused on promoting human rights, democracy, and the rule of law in Europe. It has 46 member states and is distinct from the European Union (EU)."
+  },
+  {
+    "IGO": "CoN",
+    "TYPES": ["Global", "Political", "Social", "Economic", "Commonwealth"],
+    "organization": "Commonwealth of Nations",
+    "subTitle": "",
+    "description": "A political association of 56 member states, mostly former territories of the British Empire. It promotes democracy, human rights, good governance, the rule of law, individual liberty, egalitarianism, free trade, multilateralism, and world peace."
+  },
+  {
+    "IGO": "COMESA",
+    "TYPES": [
+      "Regional",
+      "Economy",
+      "Trade",
+      "Eastern Africa",
+      "Southern Africa"
+    ],
+    "organization": "Common Market for Eastern and Southern Africa",
+    "subTitle": "",
+    "description": "A regional economic community in Africa with 21 member states stretching from Tunisia to Eswatini. It aims to achieve sustainable economic and social progress through increased co-operation and integration in all fields of development."
+  },
+  {
+    "IGO": "CPTPP",
+    "TYPES": ["Regional", "Trade", "Asia-Pacific"],
+    "organization": "Comprehensive and Progressive Agreement for Trans-Pacific Partnership",
+    "subTitle": "",
+    "description": "A free trade agreement between 11 countries (plus the UK pending ratification) around the Pacific Rim: Australia, Brunei, Canada, Chile, Japan, Malaysia, Mexico, New Zealand, Peru, Singapore, and Vietnam. It evolved from the TPP."
+  },
+  {
+    "IGO": "CSTO",
+    "TYPES": [
+      "Regional",
+      "Military Alliance",
+      "Security",
+      "Eurasia",
+      "Post-Soviet"
+    ],
+    "organization": "Collective Security Treaty Organization",
+    "subTitle": "",
+    "description": "An intergovernmental military alliance in Eurasia among six post-Soviet states: Armenia, Belarus, Kazakhstan, Kyrgyzstan, Russia, and Tajikistan. It focuses on collective defense and regional security."
+  },
+  {
+    "IGO": "EAC",
+    "TYPES": [
+      "Regional",
+      "Economic Integration",
+      "Political Cooperation",
+      "East Africa"
+    ],
+    "organization": "East African Community",
+    "subTitle": "",
+    "description": "A regional intergovernmental organization of 8 Partner States (Burundi, DR Congo, Kenya, Rwanda, Somalia, South Sudan, Tanzania, Uganda) aiming to deepen economic, political, social, and cultural integration."
+  },
+  {
+    "IGO": "EAEC",
+    "TYPES": ["Regional", "Nuclear Energy", "Europe"],
+    "organization": "European Atomic Energy Community",
+    "subTitle": "(Euratom)",
+    "description": "An international organization established by the Euratom Treaty in 1957 to create a specialist market for nuclear power in Europe, develop nuclear energy, and distribute it to member states while ensuring nuclear safety and security. Legally distinct from but governed by EU institutions."
+  },
+  {
+    "IGO": "EBRD",
+    "TYPES": ["Regional", "Finance", "Development", "Europe", "Central Asia"],
+    "organization": "European Bank for Reconstruction and Development",
+    "subTitle": "",
+    "description": "An international financial institution established in 1991 to help build market economies and democracies in countries from central Europe to central Asia and the southern and eastern Mediterranean."
+  },
+  {
+    "IGO": "EC",
+    "TYPES": ["Regional", "Governance", "European Union"],
+    "organization": "European Commission",
+    "subTitle": "",
+    "description": "The executive branch of the European Union, responsible for proposing legislation, implementing decisions, upholding EU treaties, and managing the day-to-day business of the EU."
+  },
+  {
+    "IGO": "ECO",
+    "TYPES": [
+      "Regional",
+      "Economy",
+      "Technical Cooperation",
+      "Culture",
+      "Eurasia"
+    ],
+    "organization": "Economic Cooperation Organization",
+    "subTitle": "",
+    "description": "A Eurasian political and economic intergovernmental organization founded in 1985 by Iran, Pakistan, and Turkey (now 10 members) to promote economic, technical, and cultural cooperation among member states."
+  },
+  {
+    "IGO": "ECOWAS",
+    "TYPES": ["Regional", "Political Union", "Economic Union", "West Africa"],
+    "organization": "Economic Community of West African States",
+    "subTitle": "",
+    "description": "A regional political and economic union of fifteen countries located in West Africa, established in 1975. Its main goal is to achieve collective self-sufficiency for its member states by creating a single large trading bloc and facilitating free movement."
+  },
+  {
+    "IGO": "EEA",
+    "TYPES": ["Regional", "Economic Integration", "Europe", "Single Market"],
+    "organization": "European Economic Area",
+    "subTitle": "",
+    "description": "Established in 1994, the EEA agreement allows Iceland, Liechtenstein, and Norway (EFTA members) to participate fully in the EU's Single Market, guaranteeing free movement of goods, capital, services, and people."
+  },
+  {
+    "IGO": "EFTA",
+    "TYPES": ["Regional", "Trade", "Economic Integration", "Europe"],
+    "organization": "European Free Trade Association",
+    "subTitle": "",
+    "description": "An intergovernmental organization set up in 1960 for the promotion of free trade and economic integration between its four member states: Iceland, Liechtenstein, Norway, and Switzerland."
+  },
+  {
+    "IGO": "EU",
+    "TYPES": ["Regional", "Political Union", "Economic Union", "Europe"],
+    "organization": "European Union",
+    "subTitle": "",
+    "description": "A political and economic union of 27 member states located primarily in Europe, governing common economic, social, and security policies through a system of supranational institutions."
+  },
+  {
+    "IGO": "FAO",
+    "TYPES": [
+      "Global",
+      "Food Security",
+      "Agriculture",
+      "Nutrition",
+      "United Nations"
+    ],
+    "organization": "Food and Agriculture Organization of the United Nations",
+    "subTitle": "",
+    "description": "A specialized agency of the UN that leads international efforts to defeat hunger, improve nutrition and food security, and promote sustainable management and utilization of natural resources."
+  },
+  {
+    "IGO": "GATT",
+    "TYPES": [
+      "Global",
+      "Economy",
+      "Trade",
+      "Tariffs",
+      "Trade Agreement",
+      "Historical"
+    ],
+    "organization": "General Agreement on Tariffs and Trade",
+    "subTitle": "",
+    "description": "The General Agreement on Tariffs and Trade was an international legal agreement signed in 1947 aimed at promoting international trade by reducing or eliminating trade barriers such as tariffs and quotas. Although technically an agreement, it functioned as a de facto international organization. It was superseded by the World Trade Organization (WTO) in 1995, but its principles and updated text (GATT 1994) remain a core part of the WTO agreements governing trade in goods."
+  },
+  {
+    "IGO": "G7",
+    "TYPES": [
+      "Global",
+      "Economy",
+      "Political",
+      "International Security",
+      "Energy"
+    ],
+    "organization": "Group of Seven",
+    "subTitle": "",
+    "description": "An informal intergovernmental political forum consisting of Canada, France, Germany, Italy, Japan, the United Kingdom, and the United States; the European Union is a 'non-enumerated member'. Discusses global economic governance, international security, and energy policy."
+  },
+  {
+    "IGO": "G20",
+    "TYPES": [
+      "Global",
+      "Economy",
+      "Finance",
+      "Climate Change",
+      "Sustainable Development"
+    ],
+    "organization": "Group of Twenty",
+    "subTitle": "",
+    "description": "The premier international forum for global economic cooperation, comprising 19 countries plus the European Union and the African Union. Addresses major issues related to the global economy, financial stability, climate change mitigation, and sustainable development."
+  },
+  {
+    "IGO": "G24",
+    "TYPES": ["Global", "Finance", "Development", "Developing Countries"],
+    "organization": "Intergovernmental Group of Twenty-Four on International Monetary Affairs and Development",
+    "subTitle": "",
+    "description": "A group established in 1971 to coordinate the positions of developing countries on international monetary and development finance issues and to ensure their interests are represented in negotiations on international monetary matters (within IMF/World Bank context)."
+  },
+  {
+    "IGO": "GAFTA",
+    "TYPES": ["Regional", "Trade", "Arab League"],
+    "organization": "Greater Arab Free Trade Area",
+    "subTitle": "",
+    "description": "A pan-Arab free trade zone established in 1997 by the Arab League to facilitate and develop trade among Arab states by reducing customs duties and non-tariff barriers."
+  },
+  {
+    "IGO": "GCC",
+    "TYPES": ["Regional", "Political Union", "Economic Union", "Arabian Gulf"],
+    "organization": "Cooperation Council for the Arab States of the Gulf (Gulf Cooperation Council)",
+    "subTitle": "",
+    "description": "A regional, intergovernmental political and economic union comprising Bahrain, Kuwait, Oman, Qatar, Saudi Arabia, and the United Arab Emirates. Established in 1981."
+  },
+  {
+    "IGO": "GSTP",
+    "TYPES": ["Global", "Trade", "Developing Countries", "United Nations"],
+    "organization": "Global System of Trade Preferences among Developing Countries",
+    "subTitle": "",
+    "description": "A preferential trade agreement signed in 1988 under UNCTAD, involving developing countries, aimed at increasing South-South trade through the exchange of tariff concessions."
+  },
+  {
+    "IGO": "GUAM",
+    "TYPES": [
+      "Regional",
+      "Democracy",
+      "Economic Development",
+      "Security",
+      "Europe"
+    ],
+    "organization": "GUAM Organization for Democracy and Economic Development",
+    "subTitle": "",
+    "description": "A regional organization established in 1997 by four post-Soviet states: Georgia, Ukraine, Azerbaijan, and Moldova. It aims to promote cooperation on democratic values, economic development, security, and European integration."
+  },
+  {
+    "IGO": "HELCOM",
+    "TYPES": ["Regional", "Environment", "Baltic Sea"],
+    "organization": "Baltic Marine Environment Protection Commission",
+    "subTitle": "(Helsinki Commission)",
+    "description": "The governing body of the Convention on the Protection of the Marine Environment of the Baltic Sea Area (Helsinki Convention). HELCOM works to protect the marine environment of the Baltic Sea from all sources of pollution and to ensure safe maritime traffic."
+  },
+  {
+    "IGO": "IAEA",
+    "TYPES": [
+      "Global",
+      "Nuclear Energy",
+      "Safety",
+      "Security",
+      "United Nations"
+    ],
+    "organization": "International Atomic Energy Agency",
+    "subTitle": "",
+    "description": "An independent international organization within the United Nations system, established in 1957. It serves as the global center for cooperation in the nuclear field, promoting the safe, secure, and peaceful use of nuclear technologies."
+  },
+  {
+    "IGO": "IBRD",
+    "TYPES": [
+      "Global",
+      "Development",
+      "Finance",
+      "Poverty Reduction",
+      "World Bank Group"
+    ],
+    "organization": "International Bank for Reconstruction and Development",
+    "subTitle": "",
+    "description": "The original institution of the World Bank Group, established in 1944. It is a global development cooperative owned by 189 member countries, providing loans, guarantees, risk management products, and advisory services to middle-income and creditworthy low-income countries."
+  },
+  {
+    "IGO": "ICAO",
+    "TYPES": [
+      "Global",
+      "Civil Aviation",
+      "Transportation",
+      "Safety",
+      "Security",
+      "United Nations"
+    ],
+    "organization": "International Civil Aviation Organization",
+    "subTitle": "",
+    "description": "A specialized agency of the United Nations established in 1944. It manages the administration and governance of the Convention on International Civil Aviation (Chicago Convention) and works to achieve the sustainable growth of the global civil aviation system."
+  },
+  {
+    "IGO": "ICC",
+    "TYPES": ["Global", "International Justice", "War Crimes", "Human Rights"],
+    "organization": "International Criminal Court",
+    "subTitle": "",
+    "description": "An intergovernmental organization and international tribunal seated in The Hague, Netherlands. Established by the Rome Statute (1998), it investigates and prosecutes individuals accused of genocide, war crimes, crimes against humanity, and the crime of aggression."
+  },
+  {
+    "IGO": "ICJ",
+    "TYPES": [
+      "Global",
+      "International Law",
+      "Dispute Resolution",
+      "United Nations"
+    ],
+    "organization": "International Court of Justice",
+    "subTitle": "",
+    "description": "The principal judicial organ of the United Nations (UN), located in The Hague, Netherlands. Established in 1945, it settles legal disputes submitted by states and gives advisory opinions on legal questions referred by UN organs and agencies."
+  },
+  {
+    "IGO": "ICSID",
+    "TYPES": [
+      "Global",
+      "Investment Disputes",
+      "Arbitration",
+      "World Bank Group"
+    ],
+    "organization": "International Centre for Settlement of Investment Disputes",
+    "subTitle": "",
+    "description": "An international arbitration institution established in 1966 for legal dispute resolution and conciliation between international investors and States. It is part of the World Bank Group."
+  },
+  {
+    "IGO": "IDA",
+    "TYPES": [
+      "Global",
+      "Development",
+      "Finance",
+      "Poverty Reduction",
+      "Least Developed Countries",
+      "World Bank Group"
+    ],
+    "organization": "International Development Association",
+    "subTitle": "",
+    "description": "Part of the World Bank Group established in 1960. It is the fund for the poorest countries, providing grants and zero-to-low-interest loans (credits) to help the world's 74 poorest countries invest in their futures and improve lives."
+  },
+  {
+    "IGO": "IDB",
+    "TYPES": [
+      "Regional",
+      "Development",
+      "Finance",
+      "Latin America",
+      "Caribbean"
+    ],
+    "organization": "Inter-American Development Bank",
+    "subTitle": "",
+    "description": "Established in 1959, the IDB is the leading source of development financing for Latin America and the Caribbean. It aims to reduce poverty and inequality and promote sustainable growth."
+  },
+  {
+    "IGO": "IFC",
+    "TYPES": [
+      "Global",
+      "Private Sector",
+      "Development",
+      "Finance",
+      "World Bank Group"
+    ],
+    "organization": "International Finance Corporation",
+    "subTitle": "",
+    "description": "A member of the World Bank Group, established in 1956. It is the largest global development institution focused exclusively on the private sector in developing countries, offering investment, advisory, and asset management services."
+  },
+  {
+    "IGO": "IMF",
+    "TYPES": [
+      "Global",
+      "Finance",
+      "Monetary Cooperation",
+      "Financial Stability"
+    ],
+    "organization": "International Monetary Fund",
+    "subTitle": "",
+    "description": "An international organization headquartered in Washington, D.C., consisting of 190 countries working to foster global monetary cooperation, secure financial stability, facilitate international trade, promote high employment and sustainable economic growth, and reduce poverty."
+  },
+  {
+    "IGO": "IMO",
+    "TYPES": [
+      "Global",
+      "Maritime",
+      "Shipping",
+      "Safety",
+      "Security",
+      "Marine Pollution",
+      "United Nations"
+    ],
+    "organization": "International Maritime Organization",
+    "subTitle": "",
+    "description": "A specialized agency of the United Nations responsible for measures to improve the safety and security of international shipping and to prevent marine pollution from ships."
+  },
+  {
+    "IGO": "INTERPOL",
+    "TYPES": [
+      "Global",
+      "Law Enforcement",
+      "Crime Control",
+      "Police Cooperation"
+    ],
+    "organization": "International Criminal Police Organization",
+    "subTitle": "",
+    "description": "An intergovernmental organization with 196 member countries, facilitating worldwide police cooperation and crime control. It enables police around the world to work together to make the world a safer place."
+  },
+  {
+    "IGO": "IsDB",
+    "TYPES": ["Global", "Development", "Finance", "Islamic Finance"],
+    "organization": "Islamic Development Bank",
+    "subTitle": "",
+    "description": "A multilateral development finance institution established in 1975, headquartered in Jeddah, Saudi Arabia. It focuses on fostering the economic development and social progress of member countries and Muslim communities in accordance with Sharia law."
+  },
+  {
+    "IGO": "ITU",
+    "TYPES": [
+      "Global",
+      "Telecommunications",
+      "Information Technology",
+      "United Nations"
+    ],
+    "organization": "International Telecommunication Union",
+    "subTitle": "",
+    "description": "A specialized agency of the United Nations responsible for matters related to information and communication technologies. Founded in 1865, it allocates global radio spectrum, develops technical standards, and strives to improve access to ICTs worldwide."
+  },
+  {
+    "IGO": "IUCN",
+    "TYPES": [
+      "Global",
+      "Nature Conservation",
+      "Environment",
+      "Sustainable Development"
+    ],
+    "organization": "International Union for Conservation of Nature",
+    "subTitle": "",
+    "description": "An international organization working for nature conservation and sustainable use of natural resources. It involves both government and civil society organizations and is known for compiling the IUCN Red List of Threatened Species. (Note: Hybrid NGO/IGO membership structure)."
+  },
+  {
+    "IGO": "LAIA",
+    "TYPES": ["Regional", "Economic Integration", "Trade", "Latin America"],
+    "organization": "Latin American Integration Association",
+    "subTitle": "(Asociación Latinoamericana de Integración - ALADI)",
+    "description": "An intergovernmental organization based in Montevideo, established by the 1980 Montevideo Treaty. It aims to promote economic and social integration among its 13 member countries in Latin America, with the long-term goal of establishing a common market."
+  },
+  {
+    "IGO": "LAS",
+    "TYPES": ["Regional", "Political", "Economic", "Arab States"],
+    "organization": "League of Arab States (Arab League)",
+    "subTitle": "",
+    "description": "A regional organization of Arab states in and around North Africa, the Horn of Africa, and Arabia. Formed in Cairo in 1945, it aims to strengthen ties among member states, coordinate policies, and promote common interests."
+  },
+  {
+    "IGO": "MERCOSUR",
+    "TYPES": [
+      "Regional",
+      "Trade Bloc",
+      "Economic Integration",
+      "South America"
+    ],
+    "organization": "Southern Common Market",
+    "subTitle": "(Mercado Común del Sur)",
+    "description": "A South American trade bloc established in 1991. Its full members are Argentina, Brazil, Paraguay, and Uruguay (Venezuela suspended; Bolivia in accession). It promotes free trade, the fluid movement of goods, people, and currency."
+  },
+  {
+    "IGO": "MIGA",
+    "TYPES": [
+      "Global",
+      "Investment Guarantee",
+      "Political Risk Insurance",
+      "Developing Countries",
+      "World Bank Group"
+    ],
+    "organization": "Multilateral Investment Guarantee Agency",
+    "subTitle": "",
+    "description": "A member of the World Bank Group established in 1988. It promotes cross-border investment in developing countries by providing political risk insurance (guarantees) to investors and lenders."
+  },
+  {
+    "IGO": "MSF",
+    "TYPES": ["Global", "Medical Humanitarian Aid", "NGO"],
+    "organization": "Médecins Sans Frontières",
+    "subTitle": "(Doctors Without Borders)",
+    "description": "An international, independent, medical humanitarian organization founded in 1971 that provides emergency medical aid to people affected by conflict, epidemics, disasters, or exclusion from healthcare. (Note: This is an NGO)."
+  },
+  {
+    "IGO": "MSG",
+    "TYPES": ["Regional", "Economic Cooperation", "Melanesia"],
+    "organization": "Melanesian Spearhead Group",
+    "subTitle": "",
+    "description": "An intergovernmental organization, founded in 1986, composed of Fiji, Papua New Guinea, Solomon Islands, Vanuatu, and the Kanak and Socialist National Liberation Front (FLNKS) of New Caledonia. It promotes economic cooperation and solidarity among Melanesian countries."
+  },
+  {
+    "IGO": "NAFTA",
+    "TYPES": ["Regional", "Trade Bloc", "North America", "Historical"],
+    "organization": "North American Free Trade Agreement",
+    "subTitle": "",
+    "description": "An agreement signed by Canada, Mexico, and the United States that created a trilateral trade bloc in North America. It went into effect in 1994 and eliminated most tariffs on trade between the three countries. (Note: Replaced by the United States-Mexico-Canada Agreement - USMCA - effective July 1, 2020)."
+  },
+  {
+    "IGO": "NATO",
+    "TYPES": [
+      "Regional",
+      "Military Alliance",
+      "Security",
+      "North America",
+      "Europe"
+    ],
+    "organization": "North Atlantic Treaty Organization",
+    "subTitle": "",
+    "description": "An intergovernmental military alliance between 32 member states – 30 European and 2 North American. Established in 1949, it constitutes a system of collective security, whereby its independent member states agree to mutual defence in response to an attack by any external party."
+  },
+  {
+    "IGO": "OAPEC",
+    "TYPES": ["Regional", "Energy Policy", "Petroleum", "Arab States"],
+    "organization": "Organization of Arab Petroleum Exporting Countries",
+    "subTitle": "",
+    "description": "A multi-governmental organization headquartered in Kuwait, established in 1968. It coordinates energy policies among oil-producing Arab nations and aims to safeguard cooperation in the oil industry."
+  },
+  {
+    "IGO": "OAS",
+    "TYPES": ["Regional", "Political Cooperation", "Americas"],
+    "organization": "Organization of American States",
+    "subTitle": "",
+    "description": "A continental organization founded in 1948 for the purposes of regional solidarity and cooperation among its member states within the Americas. Headquartered in Washington, D.C., it brings together leaders to address hemispheric issues like democracy, human rights, security, and development."
+  },
+  {
+    "IGO": "OCHA",
+    "TYPES": [
+      "Global",
+      "Humanitarian Affairs",
+      "Emergency Response",
+      "United Nations"
+    ],
+    "organization": "United Nations Office for the Coordination of Humanitarian Affairs",
+    "subTitle": "",
+    "description": "The part of the United Nations Secretariat responsible for bringing together humanitarian actors to ensure a coherent response to emergencies. OCHA ensures there is a framework within which each actor can contribute to the overall response effort."
+  },
+  {
+    "IGO": "OCT",
+    "TYPES": ["Territories", "European Union"],
+    "organization": "Overseas Countries and Territories",
+    "subTitle": "",
+    "description": "Refers to territories constitutionally linked to an EU Member State (Denmark, France, Netherlands) but not part of the EU itself. They benefit from association agreements offering preferential trade status and funding. (Note: This is a status/category, not an IGO)."
+  },
+  {
+    "IGO": "OECD",
+    "TYPES": ["Global", "Economy", "Development", "Policy Analysis"],
+    "organization": "Organisation for Economic Co-operation and Development",
+    "subTitle": "",
+    "description": "An intergovernmental organization with 38 member countries, founded in 1961 to stimulate economic progress and world trade. It provides a forum for governments to compare policy experiences, seek answers to common problems, identify good practices, and coordinate policies."
+  },
+  {
+    "IGO": "OIC",
+    "TYPES": ["Global", "Islamic World", "Political", "Economic", "Social"],
+    "organization": "Organisation of Islamic Cooperation",
+    "subTitle": "",
+    "description": "The second largest intergovernmental organization after the UN, with 57 member states spread over four continents. Established in 1969, it is the collective voice of the Muslim world, aiming to safeguard interests and promote international peace and harmony."
+  },
+  {
+    "IGO": "OPCW",
+    "TYPES": ["Global", "Chemical Weapons", "Disarmament", "Security"],
+    "organization": "Organisation for the Prohibition of Chemical Weapons",
+    "subTitle": "",
+    "description": "An intergovernmental organization and the implementing body for the Chemical Weapons Convention (CWC), which entered into force in 1997. Headquartered in The Hague, it oversees the global endeavor to permanently eliminate chemical weapons."
+  },
+  {
+    "IGO": "OPEC",
+    "TYPES": ["Global", "Petroleum", "Energy Policy", "Economy"],
+    "organization": "Organization of the Petroleum Exporting Countries",
+    "subTitle": "",
+    "description": "An intergovernmental organization of 13 oil-exporting developing nations, founded in 1960. It coordinates and unifies the petroleum policies of its member countries to ensure the stabilization of oil markets."
+  },
+  {
+    "IGO": "OSCE",
+    "TYPES": [
+      "Regional",
+      "Security",
+      "Human Rights",
+      "Democracy",
+      "Europe",
+      "Asia",
+      "North America"
+    ],
+    "organization": "Organization for Security and Co-operation in Europe",
+    "subTitle": "",
+    "description": "The world's largest regional security-oriented intergovernmental organization with 57 participating States from Europe, Central Asia, and North America. Its mandate includes arms control, human rights, freedom of the press, and fair elections."
+  },
+  {
+    "IGO": "OTS",
+    "TYPES": [
+      "Regional",
+      "Political Cooperation",
+      "Economic Cooperation",
+      "Turkic States"
+    ],
+    "organization": "Organization of Turkic States",
+    "subTitle": "",
+    "description": "An intergovernmental organization comprising prominent independent Turkic countries (Azerbaijan, Kazakhstan, Kyrgyzstan, Turkey, Uzbekistan) plus observer states. Founded in 2009, it promotes comprehensive cooperation between Turkic-speaking states."
+  },
+  {
+    "IGO": "PAHO",
+    "TYPES": ["Regional", "Health", "Americas", "World Health Organization"],
+    "organization": "Pan American Health Organization",
+    "subTitle": "",
+    "description": "The specialized international health agency for the Americas. It serves as the Regional Office for the Americas of the World Health Organization (WHO) and the health agency of the Inter-American System. Works to improve health and living standards in the region."
+  },
+  {
+    "IGO": "PAN-ARAB",
+    "TYPES": ["Concept", "Arab Nationalism", "Regional"],
+    "organization": "(Concept/Adjective)",
+    "subTitle": "",
+    "description": "Refers to Pan-Arabism, an ideology advocating the political, cultural, and socioeconomic unification of Arab nations. Also used as an adjective for entities spanning the Arab world (e.g., Pan-Arab Games, GAFTA). Not an organization itself."
+  },
+  {
+    "IGO": "PATCRA",
+    "TYPES": ["Bilateral", "Trade", "Australia", "Papua New Guinea"],
+    "organization": "Papua New Guinea Australia Trade and Commercial Relations Agreement",
+    "subTitle": "",
+    "description": "A bilateral free trade agreement signed between Australia and Papua New Guinea in 1977 (revised as PATCRA II in 1991) aiming to facilitate trade and economic relations between the two countries."
+  },
+  {
+    "IGO": "PfP",
+    "TYPES": ["Regional", "Security Cooperation", "NATO"],
+    "organization": "Partnership for Peace",
+    "subTitle": "",
+    "description": "A North Atlantic Treaty Organization (NATO) program aimed at creating trust and cooperation between NATO and other states in Europe and the former Soviet Union; 18 states are members. (Note: A NATO program, not an independent IGO)."
+  },
+
+  {
+    "IGO": "SAARC",
+    "TYPES": ["Regional", "Economic Cooperation", "South Asia"],
+    "organization": "South Asian Association for Regional Cooperation",
+    "subTitle": "",
+    "description": "A regional intergovernmental organization and geopolitical union of states in South Asia, founded in 1985. Its member states are Afghanistan, Bangladesh, Bhutan, India, the Maldives, Nepal, Pakistan, and Sri Lanka. Promotes economic and regional integration."
+  },
+  {
+    "IGO": "SACU",
+    "TYPES": ["Regional", "Customs Union", "Southern Africa"],
+    "organization": "Southern African Customs Union",
+    "subTitle": "",
+    "description": "An intergovernmental organization linking Botswana, Eswatini (formerly Swaziland), Lesotho, Namibia, and South Africa in a customs union. Established in 1910, it is the world's oldest existing customs union."
+  },
+  {
+    "IGO": "SADC",
+    "TYPES": [
+      "Regional",
+      "Economic Cooperation",
+      "Political Cooperation",
+      "Security Cooperation",
+      "Southern Africa"
+    ],
+    "organization": "Southern African Development Community",
+    "subTitle": "",
+    "description": "A regional intergovernmental organization headquartered in Gaborone, Botswana. Established in 1992 (succeeding SADCC), it aims to achieve socio-economic cooperation, integration, and political/security cooperation among 16 Southern African states."
+  },
+  {
+    "IGO": "SAPTA",
+    "TYPES": ["Regional", "Trade", "South Asia", "Historical"],
+    "organization": "SAARC Preferential Trading Arrangement",
+    "subTitle": "",
+    "description": "An agreement signed in 1993 by SAARC members to promote regional trade through gradual reduction of tariffs. (Note: Largely superseded by the South Asian Free Trade Area - SAFTA, which came into force in 2006)."
+  },
+  {
+    "IGO": "SCO",
+    "TYPES": [
+      "Regional",
+      "Security",
+      "Economic Cooperation",
+      "Political Cooperation",
+      "Eurasia"
+    ],
+    "organization": "Shanghai Cooperation Organisation",
+    "subTitle": "",
+    "description": "A Eurasian political, economic, international security and defence organization established in 2001. Members include China, India, Iran, Kazakhstan, Kyrgyzstan, Pakistan, Russia, Tajikistan, and Uzbekistan. Focuses on regional security, counter-terrorism, and economic cooperation."
+  },
+  {
+    "IGO": "SPARTECA",
+    "TYPES": ["Regional", "Trade", "Economic Cooperation", "South Pacific"],
+    "organization": "South Pacific Regional Trade and Economic Co-operation Agreement",
+    "subTitle": "",
+    "description": "A non-reciprocal trade agreement established in 1981 allowing Forum Island Countries (FICs) duty-free and unrestricted access to the markets of Australia and New Zealand for specified products."
+  },
+  {
+    "IGO": "TRIPARTITE",
+    "TYPES": ["Regional", "Free Trade Area", "Africa"],
+    "organization": "Tripartite Free Trade Area (TFTA)",
+    "subTitle": "",
+    "description": "An African free trade agreement framework signed in 2015 between the Common Market for Eastern and Southern Africa (COMESA), Southern African Development Community (SADC), and the East African Community (EAC). Aims to create a larger integrated market across these regions."
+  },
+  {
+    "IGO": "Trans-Pacific SEP",
+    "TYPES": ["Regional", "Trade", "Asia-Pacific", "Historical"],
+    "organization": "Trans-Pacific Strategic Economic Partnership Agreement (TPSEP or P4)",
+    "subTitle": "",
+    "description": "A free trade agreement signed in 2005 between Brunei, Chile, New Zealand, and Singapore. It served as a precursor to the negotiations for the Trans-Pacific Partnership (TPP) and the subsequent CPTPP."
+  },
+  {
+    "IGO": "UEMOA",
+    "TYPES": ["Regional", "Economic Union", "Monetary Union", "West Africa"],
+    "organization": "West African Economic and Monetary Union",
+    "subTitle": "(Union Économique et Monétaire Ouest Africaine)",
+    "description": "An organization of eight, mainly French-speaking, West African states established in 1994. It aims to promote economic integration among countries that share the CFA franc as a common currency."
+  },
+  {
+    "IGO": "UfM",
+    "TYPES": ["Regional", "Dialogue", "Cooperation", "Mediterranean"],
+    "organization": "Union for the Mediterranean",
+    "subTitle": "",
+    "description": "An intergovernmental organization established in 2008, bringing together the 27 EU Member States and 15 countries from the Southern and Eastern Mediterranean. It aims to promote dialogue, cooperation, and regional projects."
+  },
+  {
+    "IGO": "UN",
+    "TYPES": ["Global", "Political", "Security", "International Cooperation"],
+    "organization": "United Nations",
+    "subTitle": "",
+    "description": "An intergovernmental organization established in 1945. Its mission is to maintain international peace and security, develop friendly relations among nations, achieve international cooperation, and serve as a center for harmonizing national actions. It currently has 193 member states."
+  },
+  {
+    "IGO": "UNAIDS",
+    "TYPES": ["Global", "Health", "HIV/AIDS", "United Nations"],
+    "organization": "Joint United Nations Programme on HIV/AIDS",
+    "subTitle": "",
+    "description": "The main advocate for global action on the HIV/AIDS epidemic. It leads, strengthens and supports an expanded response aimed at preventing transmission, providing care, reducing vulnerability, and alleviating the impact of the epidemic. It is a joint venture of multiple UN System agencies."
+  },
+  {
+    "IGO": "UNCTAD",
+    "TYPES": [
+      "Global",
+      "Trade",
+      "Development",
+      "Finance",
+      "Technology",
+      "Investment",
+      "United Nations"
+    ],
+    "organization": "United Nations Conference on Trade and Development",
+    "subTitle": "",
+    "description": "Established in 1964, it is the UN's focal point for trade and development, and interrelated issues in finance, technology, investment, and sustainable development. It aims to help developing countries benefit from the global economy more fairly and effectively."
+  },
+  {
+    "IGO": "UNESCO",
+    "TYPES": [
+      "Global",
+      "Education",
+      "Science",
+      "Culture",
+      "Communication",
+      "United Nations"
+    ],
+    "organization": "United Nations Educational, Scientific and Cultural Organization",
+    "subTitle": "",
+    "description": "A specialized agency of the UN founded in 1945. Its purpose is to contribute to peace and security by promoting international collaboration through education, science, culture, and communication."
+  },
+  {
+    "IGO": "UNEP",
+    "TYPES": [
+      "Global",
+      "Environment",
+      "Sustainable Development",
+      "United Nations"
+    ],
+    "organization": "United Nations Environment Programme",
+    "subTitle": "",
+    "description": "The leading global environmental authority within the UN system, established in 1972. UNEP coordinates environmental activities, assists countries in implementing environmentally sound policies, and promotes sustainable development."
+  },
+  {
+    "IGO": "UNHCR",
+    "TYPES": ["Global", "Refugees", "Humanitarian Aid", "United Nations"],
+    "organization": "United Nations High Commissioner for Refugees",
+    "subTitle": "(UN Refugee Agency)",
+    "description": "A UN agency mandated to protect and support refugees at the request of a government or the UN itself and assists in their voluntary repatriation, local integration, or resettlement. Established in 1950."
+  },
+  {
+    "IGO": "UNICEF",
+    "TYPES": [
+      "Global",
+      "Children's Rights",
+      "Humanitarian Aid",
+      "Development Aid",
+      "United Nations"
+    ],
+    "organization": "United Nations Children's Fund",
+    "subTitle": "",
+    "description": "A UN agency established in 1946 responsible for providing humanitarian and developmental aid to children worldwide. It works in over 190 countries and territories."
+  },
+  {
+    "IGO": "UNIDO",
+    "TYPES": [
+      "Global",
+      "Industrial Development",
+      "Sustainable Development",
+      "United Nations"
+    ],
+    "organization": "United Nations Industrial Development Organization",
+    "subTitle": "",
+    "description": "A specialized agency of the UN headquartered in Vienna, Austria. Its mandate is to promote and accelerate inclusive and sustainable industrial development (ISID) in developing countries and economies in transition."
+  },
+  {
+    "IGO": "UNOPS",
+    "TYPES": [
+      "Global",
+      "Project Management",
+      "Operational Services",
+      "United Nations"
+    ],
+    "organization": "United Nations Office for Project Services",
+    "subTitle": "",
+    "description": "An operational arm of the United Nations, dedicated to implementing projects for the UN System, international financial institutions, governments, and other partners worldwide, often in challenging environments."
+  },
+  {
+    "IGO": "UPU",
+    "TYPES": ["Global", "Postal Services", "Logistics", "United Nations"],
+    "organization": "Universal Postal Union",
+    "subTitle": "",
+    "description": "Established in 1874 and now a specialized agency of the UN, the UPU coordinates postal policies among member nations and facilitates a worldwide postal system."
+  },
+  {
+    "IGO": "WAEMU",
+    "TYPES": ["Regional", "Economic Union", "Monetary Union", "West Africa"],
+    "organization": "West African Economic and Monetary Union",
+    "subTitle": "(Union Économique et Monétaire Ouest Africaine - UEMOA)",
+    "description": "An organization of eight, mainly French-speaking, West African states established in 1994. It aims to promote economic integration among countries that share the CFA franc as a common currency. (Same entity as UEMOA)."
+  },
+  {
+    "IGO": "WEF",
+    "TYPES": ["Global", "Economy", "Business", "Political", "NGO"],
+    "organization": "World Economic Forum",
+    "subTitle": "",
+    "description": "An international non-governmental organization based in Switzerland. It engages business, political, academic, and other leaders of society to shape global, regional, and industry agendas. Best known for its annual meeting in Davos. (Note: An NGO/Foundation)."
+  },
+  {
+    "IGO": "WHA",
+    "TYPES": [
+      "Global",
+      "Health Policy",
+      "Governance",
+      "World Health Organization"
+    ],
+    "organization": "World Health Assembly",
+    "subTitle": "",
+    "description": "The forum through which the World Health Organization (WHO) is governed by its 194 member states. It is the world's highest health policy setting body and is composed of health ministers from member states. (Note: A governing body of WHO, not an independent organization)."
+  },
+  {
+    "IGO": "WHO",
+    "TYPES": ["Global", "Health", "Public Health", "United Nations"],
+    "organization": "World Health Organization",
+    "subTitle": "",
+    "description": "A specialized agency of the United Nations established in 1948, responsible for international public health. Its main objective is 'the attainment by all peoples of the highest possible level of health'."
+  },
+  {
+    "IGO": "WIPO",
+    "TYPES": [
+      "Global",
+      "Intellectual Property",
+      "Innovation",
+      "Creativity",
+      "United Nations"
+    ],
+    "organization": "World Intellectual Property Organization",
+    "subTitle": "",
+    "description": "A specialized agency of the United Nations established in 1967. It is dedicated to developing a balanced and accessible international intellectual property (IP) system, rewarding creativity, stimulating innovation, and contributing to economic development."
+  },
+  {
+    "IGO": "WMO",
+    "TYPES": [
+      "Global",
+      "Meteorology",
+      "Climate",
+      "Water Resources",
+      "United Nations"
+    ],
+    "organization": "World Meteorological Organization",
+    "subTitle": "",
+    "description": "A specialized agency of the United Nations established in 1950. It is the UN system's authoritative voice on the state and behavior of the Earth's atmosphere, its interaction with the oceans, the climate it produces, and the resulting distribution of water resources."
+  },
+  {
+    "IGO": "WTO",
+    "TYPES": [
+      "Global",
+      "Trade",
+      "International Trade Law",
+      "Dispute Resolution"
+    ],
+    "organization": "World Trade Organization",
+    "subTitle": "",
+    "description": "An intergovernmental organization established in 1995 that regulates and facilitates international trade between nations. It deals with the global rules of trade, ensuring that trade flows as smoothly, predictably, and freely as possible."
+  }
+]

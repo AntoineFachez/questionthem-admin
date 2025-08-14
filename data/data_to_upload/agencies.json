@@ -1,0 +1,205 @@
+[
+  {
+    "agency_id": "agcy-fl-oag",
+    "agency_name": "Florida Office of the Attorney General",
+    "acronym": "OAG",
+    "jurisdiction": "Florida",
+    "agency_type": "Attorney General Office",
+    "coords": null
+  },
+  {
+    "agency_id": "agcy-ny-ag",
+    "agency_name": "New York Attorney General Office",
+    "acronym": " OAG",
+    "jurisdiction": "New York",
+    "agency_type": "Attorney General Office",
+    "coords": null
+  },
+  {
+    "agency_id": "agcy-irs-01",
+    "agency_name": "Internal Revenue Service",
+    "acronym": "IRS",
+    "jurisdiction": "Federal",
+    "agency_type": "Regulatory Body / Tax Agency",
+    "coords": null
+  },
+  {
+    "agency_id": "ag_ntsb_usa",
+    "agency_name": "National Transportation Safety Board",
+    "acronym": "NTSB",
+    "jurisdiction": "United States",
+    "agency_type": "Federal Investigative Agency",
+    "coords": null
+  },
+
+  {
+    "agency_id": "a_nys_bar",
+    "agency_name": "New York State Bar Association Disciplinary Committee",
+    "acronym": "NYSBA",
+    "jurisdiction": "New York City",
+    "agency_type": "Disciplinary",
+    "coords": null
+  },
+  {
+    "agency_id": "a_nys_court",
+    "agency_name": "New York Supreme Court, Appellate Division",
+    "acronym": "NYSC",
+    "jurisdiction": "New York City"
+  },
+  {
+    "agency_id": "agcy-fl-coe",
+    "agency_name": "Florida Commission on Ethics",
+    "acronym": "COE",
+    "jurisdiction": "Florida",
+    "agency_type": "Ethics Commission",
+    "coords": null
+  },
+  {
+    "agency_id": "a5a6b7c8-d9e0-1f2a-3b4c-5d6e7f8a9b0c",
+    "agency_name": "U.S. Office of Alien Property Custodian",
+    "acronym": "OAP",
+    "jurisdiction": "United States",
+    "agency_type": "Government Agency",
+    "coords": null
+  },
+  {
+    "agency_id": "a_senate_psi",
+    "agency_name": "U.S. Senate Permanent Subcommittee on Investigations",
+    "acronym": "PSI"
+  },
+  {
+    "agency_id": "a_usarmy",
+    "agency_name": "U.S. Army",
+    "acronym": "USA"
+  },
+  {
+    "agency_id": "agcy-doj-01",
+    "agency_name": "Department of Justice",
+    "acronym": "DOJ",
+    "jurisdiction": "Federal",
+    "agency_type": "Law Enforcement / Attorney General Office",
+    "coords": null
+  },
+  {
+    "agency_id": "agcy-dhs-01",
+    "agency_name": "Department of Homeland Security (DHS)",
+    "jurisdiction": "Federal",
+    "agency_type": "Executive Department / Security Agency",
+    "coords": null
+  },
+  {
+    "agency_id": "agcy-ice-01",
+    "agency_name": "Immigration and Customs Enforcement (ICE)",
+    "jurisdiction": "Federal",
+    "agency_type": "Law Enforcement Agency (under DHS)",
+    "coords": null
+  },
+  {
+    "agency_id": "agcy-ice-01",
+    "agency_name": "U.S. Immigration and Customs Enforcement",
+    "acronym": "ICE",
+    "jurisdiction": "Federal",
+    "agency_type": "Law Enforcement Agency",
+    "coords": null
+  },
+  {
+    "agency_id": "agcy-dhs-01",
+    "agency_name": "U.S. Department of Homeland Security",
+    "acronym": "DHS",
+    "jurisdiction": "Federal",
+    "agency_type": "Executive Department",
+    "coords": null
+  },
+  {
+    "agency_id": "agcy-courts-01",
+    "agency_name": "U.S. Federal Courts",
+    "acronym": "",
+    "jurisdiction": "Federal",
+    "agency_type": "Judicial Branch",
+    "coords": null
+  },
+  {
+    "agency_id": "agcy-state-ags-01",
+    "agency_name": "State Attorneys General",
+    "acronym": "",
+    "jurisdiction": "State (Multiple)",
+    "agency_type": "Attorney General Office Group",
+    "coords": null
+  },
+  {
+    "agency_id": "agcy-hhs-01",
+    "agency_name": "U.S. Department of Health and Human Services",
+    "acronym": "HHS",
+    "jurisdiction": "Federal",
+    "agency_type": "Executive Department",
+    "coords": null
+  },
+  {
+    "agency_id": "a_nih_cc",
+    "agency_name": "National Institutes of Health (NIH) Clinical Center",
+    "acronym": "NIHCC"
+  },
+  {
+    "agency_id": "agcy-nih-01",
+    "agency_name": "National Institutes of Health",
+    "acronym": "NIH",
+    "jurisdiction": "Federal",
+    "agency_type": "Research Agency (under HHS)",
+    "coords": { "lat": 39.0009, "lng": -77.1029 }
+  },
+  {
+    "agency_id": "agcy-fda-01",
+    "agency_name": "U.S. Food and Drug Administration",
+    "acronym": "FDA",
+    "jurisdiction": "Federal",
+    "agency_type": "Regulatory Agency (under HHS)",
+    "coords": null
+  },
+  {
+    "agency_id": "agcy-acl-01",
+    "agency_name": "Administration for Community Living",
+    "acronym": "ACL",
+    "jurisdiction": "Federal",
+    "agency_type": "Agency (under HHS)",
+    "coords": null
+  },
+  {
+    "agency_id": "agcy-niosh-01",
+    "agency_name": "National Institute for Occupational Safety and Health",
+    "acronym": "NIOSH",
+    "jurisdiction": "Federal",
+    "agency_type": "Research Agency (under CDC/HHS)",
+    "coords": null
+  },
+  {
+    "agency_id": "agcy-msha-01",
+    "agency_name": "Mine Safety and Health Administration",
+    "acronym": "MSHA",
+    "jurisdiction": "Federal",
+    "agency_type": "Regulatory Agency (under Dept. of Labor)",
+    "coords": null
+  },
+  {
+    "agency_id": "agcy-noaa-01",
+    "agency_name": "National Oceanic and Atmospheric Administration",
+    "acronym": "NOAA",
+    "jurisdiction": "Federal",
+    "agency_type": "Scientific Agency (under Dept. of Commerce)",
+    "coords": null
+  },
+  {
+    "agency_id": "agcy-nws-01",
+    "agency_name": "National Weather Service",
+    "acronym": "NWS",
+    "jurisdiction": "Federal",
+    "agency_type": "Service Agency (under NOAA)",
+    "coords": null
+  },
+  {
+    "agency_id": "a_ntsb",
+    "agency_name": "National Transportation Safety Board",
+    "acronym": "NTSB",
+
+    "current_status": [{ "state": "Active", "start_Date": null }]
+  }
+]

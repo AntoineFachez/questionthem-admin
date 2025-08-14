@@ -1,0 +1,1452 @@
+[
+  {
+    "entityName": "Event",
+    "description": "Represents a specific occurrence or happening, which can range from historical moments and natural disasters to personal milestones. It connects people, locations, and other entities over a defined period.",
+    "fields": {
+      "event_id": {
+        "type": "string",
+        "description": "A unique UUID to identify the event.",
+        "is_required": true
+      },
+      "event_name": {
+        "type": "string",
+        "description": "The primary, most common name for the event.",
+        "is_required": true
+      },
+      "event_type": {
+        "type": "string",
+        "description": "A high-level category for the event, such as 'Historical', 'Political', 'Cultural', 'Natural Disaster', or 'Personal Milestone'."
+      },
+      "alternative_names": {
+        "type": "array",
+        "description": "An array of other common names, aliases, or translations for the event."
+      },
+      "event_summary": {
+        "type": "string",
+        "description": "A brief, one or two-sentence overview of the event."
+      },
+      "start_date": {
+        "type": "timestamp",
+        "description": "The start date of the event in 'yyyy-mm-dd' format.",
+        "is_required": true
+      },
+      "end_date": {
+        "type": "timestamp",
+        "description": "The end date of the event in 'yyyy-mm-dd' format, if applicable."
+      },
+      "duration": {
+        "type": "string",
+        "description": "The total duration of the event, e.g., '3 days', '2 hours'. Can be calculated from start/end dates."
+      },
+      "background_context": {
+        "type": "string",
+        "description": "A detailed narrative of the circumstances and factors leading up to the event."
+      },
+      "consequences_impact": {
+        "type": "string",
+        "description": "The short-term and long-term effects, outcomes, and impact of the event."
+      },
+      "category_tags": {
+        "type": "array",
+        "description": "A list of descriptive tags for fine-grained classification, e.g., ['Conflict', 'Economic Crisis']."
+      },
+      "priority": {
+        "type": "string",
+        "description": "An assessment of the event's importance or impact, e.g., 'High', 'Medium', 'Low'."
+      }
+    },
+    "relationships": {
+      "primary_location": {
+        "type": "reference",
+        "targetEntity": "Location",
+        "description": "A reference to the main location where the event occurred."
+      },
+      "people_involved": {
+        "type": "array_of_objects",
+        "description": "An array of objects detailing each person's involvement in the event.",
+        "objectSchema": {
+          "person_id": { "type": "reference", "targetEntity": "Person" },
+          "role": { "type": "string" },
+          "specific_actions": { "type": "array" },
+          "relationship_to_event": { "type": "string" }
+        }
+      },
+      "organizations_involved": {
+        "type": "array_of_objects",
+        "description": "An array of objects detailing each organization's involvement.",
+        "objectSchema": {
+          "organization_id": {
+            "type": "reference",
+            "targetEntity": "Organization"
+          },
+          "role": { "type": "string" },
+          "specific_actions": { "type": "array" }
+        }
+      },
+      "related_events": {
+        "type": "array_of_objects",
+        "description": "Links to other events that are causally or contextually related.",
+        "objectSchema": {
+          "event_id": { "type": "reference", "targetEntity": "Event" },
+          "relation_type": {
+            "type": "string",
+            "description": "e.g., 'Cause', 'Consequence', 'Precursor'"
+          }
+        }
+      },
+      "sources": {
+        "type": "array_of_references",
+        "targetEntity": "Source",
+        "description": "A list of references to primary or secondary sources that document the event."
+      },
+      "media_gallery": {
+        "type": "array_of_references",
+        "targetEntity": "Media",
+        "description": "A collection of references to related media items like articles, videos, and images."
+      }
+    },
+    "metadata": {
+      "created_by_user_id": {
+        "type": "reference",
+        "targetEntity": "User",
+        "description": "The user who created this event entry."
+      },
+      "created_at": {
+        "type": "timestamp",
+        "description": "The timestamp when this event entry was created.",
+        "is_required": true
+      },
+      "last_modified_at": {
+        "type": "timestamp",
+        "description": "The timestamp of the last modification to this entry."
+      }
+    }
+  },
+{
+  "entityName": "Person",
+  "description": "Represents an individual person, capturing their biographical details, relationships, and life events. This is a central node in the knowledge graph.",
+  "fields": {
+    "person_id": {
+      "type": "string",
+      "description": "A unique UUID to identify the person.",
+      "is_required": true
+    },
+    "name": {
+      "type": "string",
+      "description": "The person's full, primary display name.",
+      "is_required": true
+    },
+    "person_name_long": {
+      "type": "string",
+      "description": "The person's full name, including middle name(s)."
+    },
+    "person_name_short": {
+      "type": "string",
+      "description": "A shortened, common version of the person's name."
+    },
+    "person_initials": {
+      "type": "string",
+      "description": "The initials of the person's name."
+    },
+    "first_name": {
+      "type": "string",
+      "description": "The person's given first name."
+    },
+    "middle_name": {
+      "type": "string",
+      "description": "The person's middle name."
+    },
+    "last_name": {
+      "type": "string",
+      "description": "The person's family name or surname."
+    },
+    "nick_names": {
+      "type": "array",
+      "description": "An array of common nicknames or aliases for the person."
+    },
+    "neé_name": {
+      "type": "string",
+      "description": "A person's birth surname, especially for married women."
+    },
+    "current_status": {
+      "type": "array_of_objects",
+      "description": "An array representing the person's current or historical state (e.g., Born, Deceased).",
+      "objectSchema": {
+        "state": { "type": "string" },
+        "start_Date": { "type": "timestamp" }
+      }
+    },
+    "biography_summary": {
+      "type": "string",
+      "description": "A brief summary of the person's life, achievements, and significance."
+    }
+  },
+  "relationships": {
+    "spouses": {
+      "type": "array_of_objects",
+      "description": "An array detailing marital relationships.",
+      "objectSchema": {
+        "name": { "type": "string" },
+        "person_id": { "type": "reference", "targetEntity": "Person" },
+        "marriage_date": { "type": "timestamp" },
+        "divorce_date": { "type": "timestamp" },
+        "end_reason": {
+          "type": "string",
+          "description": "e.g., 'Divorce', 'Death of Spouse'"
+        },
+        "children_with_spouse": {
+          "type": "array_of_objects",
+          "objectSchema": {
+            "name": { "type": "string" },
+            "person_id": { "type": "reference", "targetEntity": "Person" }
+          }
+        },
+        "notes": { "type": "string" }
+      }
+    },
+    "earlyLife": {
+      "type": "array_of_objects",
+      "description": "A chronological history of key events in the person's early life.",
+      "objectSchema": {
+        "type": { "type": "string" },
+        "date": { "type": "timestamp" },
+        "start_date": { "type": "timestamp" },
+        "end_date": { "type": "timestamp" },
+        "location": {
+          "type": "object",
+          "objectSchema": {
+            "city": { "type": "string" },
+            "state_province": { "type": "string" },
+            "country": { "type": "string" }
+          }
+        },
+        "description": { "type": "string" }
+      }
+    },
+    "educations": {
+      "type": "array_of_objects",
+      "description": "A history of the person's formal education.",
+      "objectSchema": {
+        "institution_name": { "type": "string" },
+        "degree": { "type": "string" },
+        "field_of_study": { "type": "string" },
+        "start_date": { "type": "timestamp" },
+        "end_date": { "type": "timestamp" },
+        "graduation_date": { "type": "timestamp" },
+        "honors": { "type": "string" },
+        "location": {
+          "type": "object",
+          "objectSchema": {
+            "city": { "type": "string" },
+            "state_province": { "type": "string" },
+            "country": { "type": "string" }
+          }
+        },
+        "notes": { "type": "string" }
+      }
+    },
+    "career_history": {
+      "type": "array_of_objects",
+      "description": "A history of the person's professional career.",
+      "objectSchema": {
+        "organization": { "type": "string" },
+        "position": { "type": "string" },
+        "start_date": { "type": "timestamp" },
+        "end_date": { "type": "timestamp" },
+        "responsibilities": { "type": "array" },
+        "industry": { "type": "string" },
+        "notes": { "type": "string" }
+      }
+    },
+    "parents": {
+      "type": "array_of_objects",
+      "description": "A list of references to this person's parents.",
+      "objectSchema": {
+        "name": { "type": "string" },
+        "person_id": { "type": "reference", "targetEntity": "Person" }
+      }
+    },
+    "children": {
+      "type": "array_of_objects",
+      "description": "A list of references to this person's children.",
+      "objectSchema": {
+        "name": { "type": "string" },
+        "person_id": { "type": "reference", "targetEntity": "Person" }
+      }
+    },
+    "siblings": {
+      "type": "array_of_objects",
+      "description": "A list of references to this person's siblings.",
+      "objectSchema": {
+        "name": { "type": "string" },
+        "person_id": { "type": "reference", "targetEntity": "Person" }
+      }
+    },
+    "contact_info": {
+      "type": "object",
+      "description": "A collection of contact details for the person.",
+      "objectSchema": {
+        "email": { "type": "string" },
+        "phone_numbers": { "type": "array_of_objects" },
+        "addresses": { "type": "array_of_objects" },
+        "social_media_profiles": { "type": "array_of_objects" }
+      }
+    },
+    "skills": {
+      "type": "array",
+      "description": "A list of skills the person possesses."
+    },
+    "awards_and_recognitions": {
+      "type": "array",
+      "description": "A list of notable awards and recognitions the person has received."
+    },
+    "controversies": {
+      "type": "array_of_objects",
+      "description": "An array of controversies or notable disputes involving the person.",
+      "objectSchema": {
+        "messenger": { "type": "string" },
+        "messenger_id": { "type": "string" },
+        "content": { "type": "string" },
+        "event_id": { "type": "string" }
+      }
+    },
+    "assets": {
+      "type": "array_of_objects",
+      "description": "A list of assets owned or associated with the person.",
+      "objectSchema": {
+        "owner_type": { "type": "string" },
+        "owner_id": { "type": "string" },
+        "start_date": { "type": "timestamp" },
+        "end_date": { "type": "timestamp" },
+        "buy_price": { "type": "number" },
+        "sell_price": { "type": "number" },
+        "coords": {
+          "type": "array_of_objects",
+          "objectSchema": {
+            "lat": { "type": "number" },
+            "lng": { "type": "number" }
+          }
+        }
+      }
+    },
+    "metadata": {
+      "type": "object",
+      "description": "Metadata about the record itself.",
+      "objectSchema": {
+        "created_by_user_id": { "type": "string" },
+        "created_at": { "type": "timestamp" },
+        "last_modified_at": { "type": "timestamp" }
+      }
+    }
+  }
+},
+  {
+    "entityName": "Agency",
+    "description": "Represents an agency, which could be a governmental body, a specific department, or an organization with a defined purpose and operational scope.",
+    "fields": {
+      "agency_id": {
+        "type": "string",
+        "description": "A unique UUID to identify the agency.",
+        "is_required": true
+      },
+      "agency_name": {
+        "type": "string",
+        "description": "The official name of the agency.",
+        "is_required": true
+      },
+      "start_date": {
+        "type": "timestamp",
+        "description": "The date the agency was founded or established."
+      },
+      "end_date": {
+        "type": "timestamp",
+        "description": "The date the agency was dissolved, if applicable."
+      },
+      "priority": {
+        "type": "string",
+        "description": "An internal priority rating for this entity, e.g., 'High', 'Medium', 'Low'."
+      },
+      "coords": {
+        "type": "geopoint",
+        "description": "The geographic coordinates of the agency's primary headquarters."
+      },
+      "description": {
+        "type": "string",
+        "description": "A detailed description of the agency's mission, history, and scope."
+      },
+      "wikipedia": {
+        "type": "string",
+        "description": "A URL to the agency's Wikipedia page."
+      }
+    },
+    "relationships": {
+      "people_involved": {
+        "type": "array_of_objects",
+        "description": "A list of key people associated with the agency and their roles.",
+        "objectSchema": {
+          "person_id": { "type": "reference", "targetEntity": "Person" },
+          "reason_of_involvement": {
+            "type": "string",
+            "description": "e.g., 'Director', 'Founder', 'Key Operative'"
+          }
+        }
+      },
+      "companies_involved": {
+        "type": "array_of_objects",
+        "description": "A list of companies that have interacted with or are related to the agency.",
+        "objectSchema": {
+          "company_id": { "type": "reference", "targetEntity": "Company" },
+          "head_office_id": { "type": "reference", "targetEntity": "Location" },
+          "involved_branch_id": {
+            "type": "reference",
+            "targetEntity": "Location"
+          },
+          "reason_of_involvement": {
+            "type": "string",
+            "description": "e.g., 'Contractor', 'Partner', 'Under Investigation'"
+          }
+        }
+      },
+      "agencies_involved": {
+        "type": "array_of_objects",
+        "description": "A list of agencies that have interacted with or are related to the agency.",
+        "objectSchema": {
+          "agency_id": { "type": "reference", "targetEntity": "Agency" },
+          "head_office_id": { "type": "reference", "targetEntity": "Location" },
+          "involved_branch_id": {
+            "type": "reference",
+            "targetEntity": "Location"
+          },
+          "reason_of_involvement": {
+            "type": "string",
+            "description": "e.g., 'Contractor', 'Partner', 'Under Investigation'"
+          }
+        }
+      },
+      "organizations_involved": {
+        "type": "array_of_objects",
+        "description": "A list of organizations that have interacted with or are related to the agency.",
+        "objectSchema": {
+          "agency_id": { "type": "reference", "targetEntity": "Organization" },
+          "head_office_id": { "type": "reference", "targetEntity": "Location" },
+          "involved_branch_id": {
+            "type": "reference",
+            "targetEntity": "Location"
+          },
+          "reason_of_involvement": {
+            "type": "string",
+            "description": "e.g., 'Contractor', 'Partner', 'Under Investigation'"
+          }
+        }
+      },
+      "controversies": {
+        "type": "array_of_references",
+        "targetEntity": "Event",
+        "description": "A list of references to controversial events involving the agency."
+      },
+
+      "assets": {
+        "type": "array_of_references",
+        "targetEntity": "Asset",
+        "description": "A list of references to significant assets owned by the agency."
+      },
+      "contact_info": {
+        "type": "object",
+        "description": "A collection of contact details for the agency.",
+        "objectSchema": {
+          "email": { "type": "string" },
+          "phone_numbers": { "type": "array_of_objects" },
+          "addresses": { "type": "array_of_objects" }
+        }
+      }
+    },
+    "metadata": {
+      "created_by_user_id": {
+        "type": "reference",
+        "targetEntity": "User",
+        "description": "The user who created this agency entry."
+      },
+      "created_at": {
+        "type": "timestamp",
+        "description": "The timestamp when this agency entry was created.",
+        "is_required": true
+      },
+      "last_modified_at": {
+        "type": "timestamp",
+        "description": "The timestamp of the last modification to this entry."
+      }
+    }
+  },
+  {
+  "entityName": "Company",
+  "description": "Represents a commercial business or corporation. It captures details about its operations, history, key personnel, and relationships with other entities.",
+  "fields": {
+    "company_id": {
+      "type": "string",
+      "description": "A unique UUID to identify the company.",
+      "is_required": true
+    },
+    "company_name": {
+      "type": "string",
+      "description": "The legal or common name of the company.",
+      "is_required": true
+    },
+    "start_date": {
+      "type": "timestamp",
+      "description": "The date of the company's incorporation or founding."
+    },
+    "end_date": {
+      "type": "timestamp",
+      "description": "The date the company was dissolved or ceased operations, if applicable."
+    },
+    "priority": {
+      "type": "string",
+      "description": "An internal priority rating for this entity, e.g., 'High', 'Medium', 'Low'."
+    },
+    "coords": {
+      "type": "geopoint",
+      "description": "The geographic coordinates of the company's headquarters."
+    },
+    "description": {
+      "type": "string",
+      "description": "A summary of the company's business, mission, and history."
+    },
+    "wikipedia": {
+      "type": "string",
+      "description": "A URL to the company's Wikipedia page."
+    },
+    "holding": {
+      "type": "reference",
+      "targetEntity": "Company",
+      "description": "A reference to the parent or holding company, if any."
+    }
+  },
+  "relationships": {
+    "head_offices": {
+      "type": "array_of_objects",
+      "description": "A list of the company's head office locations.",
+      "objectSchema": {
+        "head_office_id": { "type": "string" },
+        "coords": { "type": "geopoint" },
+        "head_office_manager": {
+          "type": "reference",
+          "targetEntity": "Person"
+        },
+        "branch_offices": { "type": "array" }
+      }
+    },
+    "people_involved": {
+      "type": "array_of_objects",
+      "description": "A list of key individuals associated with the company.",
+      "objectSchema": {
+        "person_id": { "type": "reference", "targetEntity": "Person" },
+        "reason_of_involvement": {
+          "type": "string",
+          "description": "e.g., 'Founder', 'CEO', 'Shareholder', 'Board Member'"
+        }
+      }
+    },
+    "companies_involved": {
+      "type": "array_of_objects",
+      "description": "Describes relationships with other companies.",
+      "objectSchema": {
+        "company_id": { "type": "reference", "targetEntity": "Company" },
+        "company_name": { "type": "string" },
+        "reason_of_involvement": {
+          "type": "string",
+          "description": "e.g., 'Subsidiary', 'Partner', 'Supplier', 'Competitor'"
+        }
+      }
+    },
+    "company_history": {
+      "type": "array_of_objects",
+      "description": "A timeline of significant periods or phases in the company's history.",
+      "objectSchema": {
+        "start_date": { "type": "timestamp" },
+        "end_date": { "type": "timestamp" },
+        "industry": { "type": "string" },
+        "notes": { "type": "string" }
+      }
+    },
+    "controversies": {
+      "type": "array_of_objects",
+      "description": "A list of controversies and their details involving the company.",
+      "objectSchema": {
+        "messenger": { "type": "string" },
+        "messenger_id": { "type": "string" },
+        "content": { "type": "string" },
+        "event_id": { "type": "reference", "targetEntity": "Event" }
+      }
+    },
+    "assets": {
+      "type": "array_of_objects",
+      "description": "A list of significant assets owned by the company.",
+      "objectSchema": {
+        "owner_type": { "type": "string" },
+        "owner_id": { "type": "string" },
+        "start_date": { "type": "timestamp" },
+        "end_date": { "type": "timestamp" },
+        "buy_price": { "type": "number" },
+        "sell_price": { "type": "number" },
+        "coords": { "type": "array_of_geopoints" }
+      }
+    },
+    "contact_info": {
+      "type": "object",
+      "description": "A collection of contact details for the company.",
+      "objectSchema": {
+        "urls": {
+          "type": "array_of_objects",
+          "objectSchema": {
+            "type": { "type": "string" },
+            "url": { "type": "string" }
+          }
+        },
+        "email": { "type": "string" },
+        "phone_numbers": {
+          "type": "array_of_objects",
+          "objectSchema": {
+            "type": { "type": "string" },
+            "number": { "type": "string" }
+          }
+        },
+        "addresses": { "type": "array_of_objects" },
+        "social_media_profiles": { "type": "string" }
+      }
+    }
+  },
+  "metadata": {
+    "created_by_user_id": {
+      "type": "reference",
+      "targetEntity": "User",
+      "description": "The user who created this company entry."
+    },
+    "created_at": {
+      "type": "timestamp",
+      "description": "The timestamp when this company entry was created.",
+      "is_required": true
+    },
+    "last_modified_at": {
+      "type": "timestamp",
+      "description": "The timestamp of the last modification to this entry."
+    }
+  }
+},
+  {
+    "entityName": "Story",
+    "description": "Represents a narrative arc or a collection of related scripts, similar to a TV show season that contains multiple episodes. It serves to group scripts into a larger, coherent whole.",
+    "fields": {
+      "story_id": {
+        "type": "string",
+        "description": "A unique UUID to identify the story.",
+        "is_required": true
+      },
+      "story_name": {
+        "type": "string",
+        "description": "The title or name of the story.",
+        "is_required": true
+      },
+      "priority": {
+        "type": "string",
+        "description": "An internal priority rating for this story, e.g., 'High', 'Medium', 'Low'."
+      },
+      "description": {
+        "type": "string",
+        "description": "A summary of the overall narrative or theme of the story."
+      }
+    },
+    "relationships": {
+      "scripts": {
+        "type": "array_of_references",
+        "targetEntity": "Script",
+        "description": "An ordered list of references to the scripts that make up this story."
+      }
+    },
+    "metadata": {
+      "created_by_user_id": {
+        "type": "reference",
+        "targetEntity": "User",
+        "description": "The user who created this story entry."
+      },
+      "created_at": {
+        "type": "timestamp",
+        "description": "The timestamp when this story entry was created.",
+        "is_required": true
+      },
+      "last_modified_at": {
+        "type": "timestamp",
+        "description": "The timestamp of the last modification to this entry."
+      }
+    }
+  },
+{
+  "entityName": "Script",
+  "description": "Represents a single narrative unit or 'episode' within a larger Story. A script groups together specific events and defines the geographical area where they take place.",
+  "fields": {
+    "script_id": {
+      "type": "string",
+      "description": "A unique UUID to identify the script.",
+      "is_required": true
+    },
+    "script_name": {
+      "type": "string",
+      "description": "The title or name of the script.",
+      "is_required": true
+    },
+    "priority": {
+      "type": "string",
+      "description": "An internal priority rating for this script, e.g., 'High', 'Medium', 'Low'."
+    },
+    "description": {
+      "type": "string",
+      "description": "A summary of the events and narrative covered in this script."
+    },
+    "target_length": {
+      "type": "object",
+      "description": "The desired final length of the output, whether it's a video or a written article.",
+      "objectSchema": {
+        "value": {
+          "type": "number",
+          "description": "The numerical value of the target length."
+        },
+        "unit": {
+          "type": "string",
+          "description": "The unit of measurement, e.g., 'seconds', 'minutes', 'words'."
+        }
+      }
+    },
+    "latLngBounds": {
+      "type": "object",
+      "description": "The geographical bounding box that contains all events within this script.",
+      "objectSchema": {
+        "north": { "type": "number" },
+        "south": { "type": "number" },
+        "west": { "type": "number" },
+        "east": { "type": "number" }
+      }
+    }
+  },
+  "relationships": {
+    "stories": {
+      "type": "array_of_objects",
+      "description": "A list of the parent stories this script belongs to.",
+      "objectSchema": {
+        "story_id": {
+          "type": "reference",
+          "targetEntity": "Story",
+          "description": "A reference to a parent story."
+        }
+      }
+    },
+    "events": {
+      "type": "array_of_references",
+      "targetEntity": "Event",
+      "description": "A list of references to all the events that occur within this script."
+    }
+  },
+  "metadata": {
+    "created_by_user_id": {
+      "type": "reference",
+      "targetEntity": "User",
+      "description": "The user who created this script entry."
+    },
+    "created_at": {
+      "type": "timestamp",
+      "description": "The timestamp when this script entry was created.",
+      "is_required": true
+    },
+    "last_modified_at": {
+      "type": "timestamp",
+      "description": "The timestamp of the last modification to this entry."
+    }
+  }
+}
+,
+{
+  "entityName": "Video",
+  "description": "Represents a video media asset. It contains metadata about its production, publication, and content, and links to the narrative elements (stories, scripts, events) it portrays.",
+  "fields": {
+    "video_id": {
+      "type": "string",
+      "description": "A unique UUID to identify the video.",
+      "is_required": true
+    },
+    "video_name": {
+      "type": "string",
+      "description": "The title of the video.",
+      "is_required": true
+    },
+    "completed_timeStamp": {
+      "type": "timestamp",
+      "description": "The timestamp when the final version of the video was completed."
+    },
+    "first_publish_timeStamp": {
+      "type": "timestamp",
+      "description": "The timestamp when the video was first made public on any platform."
+    },
+    "private": {
+      "type": "boolean",
+      "description": "Indicates if the video is private (true) or publicly accessible (false)."
+    },
+    "length": {
+      "type": "string",
+      "description": "The duration of the video, formatted as 'HH:mm:ss' or in total seconds."
+    },
+    "description": {
+      "type": "string",
+      "description": "A detailed, long-form description of the video's content."
+    },
+    "summary": {
+      "type": "string",
+      "description": "A brief, one or two-sentence summary of the video."
+    },
+    "topics": {
+      "type": "array",
+      "description": "A list of keywords or topics covered in the video."
+    }
+  },
+  "relationships": {
+    "stories": {
+      "type": "array_of_references",
+      "targetEntity": "Story",
+      "description": "A list of the overarching stories this video is part of."
+    },
+    "scripts": {
+      "type": "array_of_references",
+      "targetEntity": "Script",
+      "description": "A list of the specific scripts or 'episodes' this video represents."
+    },
+    "owner": {
+      "type": "reference",
+      "description": "A polymorphic reference to the entity that owns the video's account (e.g., a Person, Company, or Agency).",
+      "targetEntities": ["Person", "Company", "Agency", "Organization"]
+    },
+    "cut_downs": {
+      "type": "array_of_references",
+      "targetEntity": "Video",
+      "description": "A list of references to shorter versions or cut-downs of this video."
+    },
+    "video_segments": {
+      "type": "array_of_objects",
+      "description": "A list of time-segmented narrative beats within the video, linked directly to events and entities.",
+      "objectSchema": {
+        "time_period": {
+          "type": "object",
+          "description": "The start and end times of the segment.",
+          "objectSchema": {
+            "start_time": {
+              "type": "string",
+              "description": "The start timestamp of the segment, e.g., '00:00:00'"
+            },
+            "end_time": {
+              "type": "string",
+              "description": "The end timestamp of the segment, e.g., '00:00:52'"
+            }
+          }
+        },
+        "event_id": {
+          "type": "reference",
+          "targetEntity": "Event",
+          "description": "A direct reference to the event discussed or shown in this segment."
+        },
+        "entities_involved": {
+          "type": "array_of_polymorphic_references",
+          "description": "A list of people, companies, or other entities featured or discussed in this segment.",
+          "targetEntities": ["Person", "Company", "Agency", "Organization"]
+        },
+        "description": {
+          "type": "string",
+          "description": "A brief summary of what happens in this specific segment."
+        }
+      }
+    },
+    "crew": {
+      "type": "array_of_objects",
+      "description": "A list of crew members and their roles in creating the video.",
+      "objectSchema": {
+        "person_id": { "type": "reference", "targetEntity": "Person" },
+        "role": {
+          "type": "string",
+          "description": "e.g., 'Director', 'Editor', 'Producer'"
+        }
+      }
+    }
+  },
+  "metadata": {
+    "created_by_user_id": {
+      "type": "reference",
+      "targetEntity": "User",
+      "description": "The user who created this video entry."
+    },
+    "created_at": {
+      "type": "timestamp",
+      "description": "The timestamp when this video entry was created.",
+      "is_required": true
+    },
+    "last_modified_at": {
+      "type": "timestamp",
+      "description": "The timestamp of the last modification to this entry."
+    }
+  }
+},
+{
+  "entityName": "Location",
+  "description": "Represents a specific physical location, including its address and geographic coordinates. It serves as a central point of reference for events, companies, and people.",
+  "fields": {
+    "location_id": {
+      "type": "string",
+      "description": "A unique UUID to identify the location.",
+      "is_required": true
+    },
+    "name": {
+      "type": "string",
+      "description": "A common name for the location, e.g., 'Eiffel Tower', 'Acme Corp Headquarters'."
+    },
+    "coords": {
+      "type": "geopoint",
+      "description": "The precise geographic coordinates (latitude and longitude).",
+      "is_required": true
+    },
+    "address": {
+      "type": "object",
+      "description": "The structured postal address.",
+      "objectSchema": {
+        "street": { "type": "string" },
+        "city": { "type": "string" },
+        "state_province": { "type": "string" },
+        "zip_code": { "type": "string" },
+        "country": { "type": "string" }
+      }
+    }
+  },
+  "relationships": {
+    "landmarks": {
+      "type": "array_of_references",
+      "targetEntity": "Location",
+      "description": "A list of other significant locations or landmarks found within this location."
+    },
+    "events": {
+      "type": "array_of_references",
+      "targetEntity": "Event",
+      "description": "A list of references to historical or ongoing events that took place at this location."
+    }
+  },
+  "metadata": {
+    "created_by_user_id": {
+      "type": "reference",
+      "targetEntity": "User",
+      "description": "The user who created this video entry."
+    },
+    "created_at": {
+      "type": "timestamp",
+      "description": "The timestamp when this video entry was created.",
+      "is_required": true
+    },
+    "last_modified_at": {
+      "type": "timestamp",
+      "description": "The timestamp of the last modification to this entry."
+    }
+  }
+}
+,
+  {
+    "entityName": "User",
+    "description": "Represents a user account in the system. An account allows a 'Person' to interact with the platform as a creator, contributor, or consumer. A single Person can have multiple User accounts.",
+    "fields": {
+      "user_id": {
+        "type": "string",
+        "description": "A unique UUID to identify the user account.",
+        "is_required": true
+      },
+      "username": {
+        "type": "string",
+        "description": "The unique, public-facing username for the account.",
+        "is_required": true
+      },
+      "email": {
+        "type": "string",
+        "description": "The unique email address used for login and notifications.",
+        "is_required": true
+      },
+      "password_hash": {
+        "type": "string",
+        "description": "A securely hashed version of the user's password. Never store plain text.",
+        "is_required": true
+      },
+      "profile_picture_url": {
+        "type": "string",
+        "description": "A URL to the user's profile picture."
+      },
+      "last_login_at": {
+        "type": "timestamp",
+        "description": "The timestamp of the user's last login."
+      },
+      "account_status": {
+        "type": "string",
+        "description": "The status of the account, e.g., 'active', 'suspended', 'deactivated'."
+      }
+    },
+    "relationships": {
+      "person_id": {
+        "type": "reference",
+        "targetEntity": "Person",
+        "description": "A reference to the Person entity this user account belongs to.",
+        "is_required": true
+      },
+      "created_stories": {
+        "type": "array_of_references",
+        "targetEntity": "Story",
+        "description": "A list of stories created by this user."
+      },
+      "created_scripts": {
+        "type": "array_of_references",
+        "targetEntity": "Script",
+        "description": "A list of scripts created by this user."
+      },
+      "contributions": {
+        "type": "array_of_objects",
+        "description": "A log of contributions made by the user to various entities.",
+        "objectSchema": {
+          "entity_id": { "type": "string" },
+          "entity_type": {
+            "type": "string",
+            "description": "e.g., 'Event', 'Person', 'Location'"
+          },
+          "contribution_type": {
+            "type": "string",
+            "description": "e.g., 'edit', 'add_source', 'verify'"
+          },
+          "timestamp": { "type": "timestamp" }
+        }
+      },
+      "watch_history": {
+        "type": "array_of_objects",
+        "description": "A history of videos watched by the user.",
+        "objectSchema": {
+          "video_id": { "type": "reference", "targetEntity": "Video" },
+          "watched_at": { "type": "timestamp" },
+          "progress_seconds": { "type": "number" }
+        }
+      },
+      "bookmarks": {
+        "type": "array_of_references",
+        "description": "A list of references to bookmarked items like stories, events, or videos.",
+        "targetEntities": ["Story", "Event", "Video", "Person"]
+      }
+    },
+    "metadata": {
+      "created_at": {
+        "type": "timestamp",
+        "description": "The timestamp when the user account was created.",
+        "is_required": true
+      }
+    }
+  },
+  {
+    "entityName": "Source",
+    "description": "Represents a piece of evidence or a document from which information is derived. It underpins the entire knowledge graph by providing verifiability and provenance for facts about people, events, and other entities.",
+    "fields": {
+      "source_id": {
+        "type": "string",
+        "description": "A unique UUID to identify the source document.",
+        "is_required": true
+      },
+      "title": {
+        "type": "string",
+        "description": "The title of the source, such as the headline of an article, the title of a book, or a caption for an image.",
+        "is_required": true
+      },
+      "source_type": {
+        "type": "string",
+        "description": "The category of the source, e.g., 'Book', 'News Article', 'Academic Paper', 'Government Record', 'Interview Transcript', 'Image', 'Video'.",
+        "is_required": true
+      },
+      "publication_date": {
+        "type": "timestamp",
+        "description": "The date when the source was published or created."
+      },
+      "url": {
+        "type": "string",
+        "description": "A direct URL to the source if it is available online."
+      },
+      "author_creator": {
+        "type": "string",
+        "description": "The name of the person, people, or organization that created the source."
+      },
+      "publisher": {
+        "type": "string",
+        "description": "The publisher of the source, such as a newspaper, publishing house, or journal."
+      },
+      "snippet": {
+        "type": "string",
+        "description": "A short, relevant quote, excerpt, or summary from the source that supports a fact in the knowledge graph."
+      },
+      "language": {
+        "type": "string",
+        "description": "The primary language of the source, using ISO 639-1 codes like 'en' for English."
+      }
+    },
+    "relationships": {
+      "author_person_id": {
+        "type": "reference",
+        "targetEntity": "Person",
+        "description": "A reference to the author's 'Person' entity, if they exist in the knowledge graph."
+      },
+      "mentioned_entities": {
+        "type": "array_of_references",
+        "description": "A list of references to all entities (People, Events, Companies, etc.) that are mentioned in this source.",
+        "targetEntities": ["Person", "Event", "Company", "Agency", "Location"]
+      }
+    },
+    "metadata": {
+      "created_by_user_id": {
+        "type": "reference",
+        "targetEntity": "User",
+        "description": "The user who added this source to the system."
+      },
+      "created_at": {
+        "type": "timestamp",
+        "description": "The timestamp when this source was added to the system.",
+        "is_required": true
+      },
+      "last_modified_at": {
+        "type": "timestamp",
+        "description": "The timestamp of the last modification to this entry."
+      }
+    }
+  },
+  {
+    "entityName": "Asset",
+    "description": "Represents a tangible or intangible item of value, such as real estate, artwork, a vehicle, or a financial instrument. Its key feature is its 'provenance', which is a detailed history of its ownership.",
+    "fields": {
+      "asset_id": {
+        "type": "string",
+        "description": "A unique UUID to identify the asset.",
+        "is_required": true
+      },
+      "name": {
+        "type": "string",
+        "description": "A descriptive name for the asset, e.g., 'Mona Lisa', '123 Main St, Anytown', '1965 Ford Mustang'.",
+        "is_required": true
+      },
+      "asset_type": {
+        "type": "string",
+        "description": "The category of the asset, e.g., 'Artwork', 'Real Estate', 'Vehicle', 'Financial Instrument', 'Intellectual Property'.",
+        "is_required": true
+      },
+      "description": {
+        "type": "string",
+        "description": "A detailed description of the asset, including its condition, history, and unique features."
+      },
+      "creation_date": {
+        "type": "timestamp",
+        "description": "The date the asset was created, manufactured, or otherwise came into being."
+      }
+    },
+    "relationships": {
+      "current_owner": {
+        "type": "reference",
+        "description": "A direct, polymorphic reference to the current owner (Person, Company, etc.) for quick access.",
+        "targetEntities": ["Person", "Company", "Organization", "Agency"]
+      },
+      "current_location": {
+        "type": "reference",
+        "targetEntity": "Location",
+        "description": "A reference to the asset's current physical location, if applicable."
+      },
+      "provenance_history": {
+        "type": "array_of_objects",
+        "description": "An ordered list of ownership records that forms the asset's provenance.",
+        "objectSchema": {
+          "owner_id": {
+            "type": "reference",
+            "targetEntities": ["Person", "Company", "Organization"]
+          },
+          "start_date": {
+            "type": "timestamp",
+            "description": "The date this ownership period began."
+          },
+          "end_date": {
+            "type": "timestamp",
+            "description": "The date this ownership period ended. Null for the current owner."
+          },
+          "acquisition_type": {
+            "type": "string",
+            "description": "How the asset was acquired, e.g., 'Purchase', 'Inheritance', 'Creation', 'Gift'."
+          },
+          "notes": {
+            "type": "string",
+            "description": "Specific details about this period of ownership."
+          }
+        }
+      }
+    },
+    "metadata": {
+      "created_by_user_id": {
+        "type": "reference",
+        "targetEntity": "User",
+        "description": "The user who added this asset to the system."
+      },
+      "created_at": {
+        "type": "timestamp",
+        "description": "The timestamp when this asset was added to the system.",
+        "is_required": true
+      },
+      "last_modified_at": {
+        "type": "timestamp",
+        "description": "The timestamp of the last modification to this entry."
+      }
+    }
+  },
+  {
+    "entityName": "Concept",
+    "description": "Represents an abstract idea, theme, or topic that connects other entities. It acts as the semantic glue of the knowledge graph, allowing for deeper understanding and inference.",
+    "fields": {
+      "concept_id": {
+        "type": "string",
+        "description": "A unique UUID to identify the concept.",
+        "is_required": true
+      },
+      "name": {
+        "type": "string",
+        "description": "The primary name of the concept, e.g., 'Cold War', 'Impressionism'.",
+        "is_required": true
+      },
+      "aliases": {
+        "type": "array",
+        "description": "An array of alternative names or search terms for the concept, e.g., ['Cold War Era']."
+      },
+      "description": {
+        "type": "string",
+        "description": "A detailed, encyclopedic description of the concept, explaining what it is."
+      }
+    },
+    "relationships": {
+      "parent_concept": {
+        "type": "reference",
+        "targetEntity": "Concept",
+        "description": "A reference to a broader concept, creating a hierarchy (e.g., 'Cubism' is a child of 'Modern Art')."
+      },
+      "related_concepts": {
+        "type": "array_of_references",
+        "targetEntity": "Concept",
+        "description": "A list of references to other concepts that are related but not hierarchical (e.g., 'Cold War' is related to 'The Space Race')."
+      }
+    },
+    "metadata": {
+      "created_by_user_id": {
+        "type": "reference",
+        "targetEntity": "User"
+      },
+      "created_at": {
+        "type": "timestamp",
+        "is_required": true
+      }
+    }
+  },{
+  "entityName": "Administration",
+  "description": "Represents a political or governmental administration, capturing details about its leaders, key officials, and term of service.",
+  "fields": {
+    "administration_id": {
+      "type": "string",
+      "description": "A unique UUID to identify the administration.",
+      "is_required": true
+    },
+    "name": {
+      "type": "string",
+      "description": "The common name of the administration (e.g., 'The Biden Administration').",
+      "is_required": true
+    },
+    "governing_body_name": {
+      "type": "string",
+      "description": "The name of the country or body the administration governs (e.g., 'United States of America')."
+    },
+    "iso_a3": {
+      "type": "string",
+      "description": "The ISO 3166-1 alpha-3 code for the country (e.g., 'USA')."
+    },
+    "leader_title": {
+      "type": "string",
+      "description": "The official title of the administration's leader (e.g., 'President')."
+    },
+    "term_identifier": {
+      "type": "string",
+      "description": "A unique identifier for the term (e.g., '46th U.S. President')."
+    },
+    "term_start_date": {
+      "type": "timestamp",
+      "description": "The start date of the term.",
+      "is_required": true
+    },
+    "term_end_date": {
+      "type": "timestamp",
+      "description": "The end date of the term."
+    },
+    "political_party": {
+      "type": "string",
+      "description": "The political party of the administration's leader."
+    }
+  },
+  "relationships": {
+    "leader_person_id": {
+      "type": "reference",
+      "targetEntity": "Person",
+      "description": "A reference to the person who leads the administration."
+    },
+    "key_officials": {
+      "type": "array_of_objects",
+      "description": "An array of objects detailing the key officials and their roles.",
+      "objectSchema": {
+        "person_id": {
+          "type": "reference",
+          "targetEntity": "Person"
+        },
+        "role": {
+          "type": "string"
+        },
+        "start_date": {
+          "type": "timestamp"
+        },
+        "end_date": {
+          "type": "timestamp"
+        },
+        "reason": {
+          "type": "string",
+          "description": "A brief note on their involvement, such as 'Served full term' or 'First woman to hold the position'."
+        }
+      }
+    }
+  },
+  "metadata": {
+    "created_by_user_id": {
+      "type": "reference",
+      "targetEntity": "User",
+      "description": "The user who created this entry."
+    },
+    "created_at": {
+      "type": "timestamp",
+      "description": "The timestamp when this entry was created.",
+      "is_required": true
+    },
+    "last_modified_at": {
+      "type": "timestamp",
+      "description": "The timestamp of the last modification to this entry."
+    }
+  }
+},{
+  "entityName": "Article",
+  "description": "Represents a piece of written reporting (e.g., a news article, blog post, or long-form essay). It contains metadata about its publication and content, and links to the narrative elements and entities it discusses.",
+  "fields": {
+    "article_id": {
+      "type": "string",
+      "description": "A unique UUID to identify the article.",
+      "is_required": true
+    },
+    "title": {
+      "type": "string",
+      "description": "The headline or title of the article.",
+      "is_required": true
+    },
+    "author": {
+      "type": "string",
+      "description": "The name of the author or journalist."
+    },
+    "publication_date": {
+      "type": "timestamp",
+      "description": "The date and time when the article was published."
+    },
+    "url": {
+      "type": "string",
+      "description": "A direct URL to the article online."
+    },
+    "publisher": {
+      "type": "string",
+      "description": "The publisher of the article, e.g., 'The New York Times', 'BBC News'."
+    },
+    "full_text_content": {
+      "type": "string",
+      "description": "The complete text of the article. This is the source for all narrative segments.",
+      "is_required": true
+    },
+    "summary": {
+      "type": "string",
+      "description": "A brief, one or two-sentence summary of the article's main points."
+    },
+    "language": {
+      "type": "string",
+      "description": "The primary language of the article, using ISO 639-1 codes like 'en' for English."
+    },
+    "word_count": {
+      "type": "number",
+      "description": "The total number of words in the article."
+    }
+  },
+  "relationships": {
+    "stories": {
+      "type": "array_of_references",
+      "targetEntity": "Story",
+      "description": "A list of the overarching stories this article is part of."
+    },
+    "scripts": {
+      "type": "array_of_references",
+      "targetEntity": "Script",
+      "description": "A list of the specific scripts this article represents."
+    },
+    "mentioned_entities": {
+      "type": "array_of_references",
+      "description": "A list of references to all entities (People, Events, Companies, etc.) mentioned in this article.",
+      "targetEntities": ["Person", "Event", "Company", "Agency", "Organization", "Location"]
+    },
+    "narrative_beats": {
+      "type": "array_of_objects",
+      "description": "A list of text-based segments that represent distinct narrative beats or key events within the article, linked directly to entities.",
+      "objectSchema": {
+        "text_span": {
+          "type": "object",
+          "description": "The start and end position of the text segment within the 'full_text_content'.",
+          "objectSchema": {
+            "start_index": {
+              "type": "number",
+              "description": "The starting character index of the segment."
+            },
+            "end_index": {
+              "type": "number",
+              "description": "The ending character index of the segment."
+            }
+          }
+        },
+        "event_id": {
+          "type": "reference",
+          "targetEntity": "Event",
+          "description": "A direct reference to the event discussed or described in this segment."
+        },
+        "entities_involved": {
+          "type": "array_of_polymorphic_references",
+          "description": "A list of people, companies, or other entities featured or discussed in this specific segment.",
+          "targetEntities": ["Person", "Company", "Agency", "Organization", "Location"]
+        },
+        "segment_summary": {
+          "type": "string",
+          "description": "A brief summary of the content of this narrative beat."
+        }
+      }
+    }
+  },
+  "metadata": {
+    "created_by_user_id": {
+      "type": "reference",
+      "targetEntity": "User",
+      "description": "The user who added this article entry to the system."
+    },
+    "created_at": {
+      "type": "timestamp",
+      "description": "The timestamp when this article entry was created.",
+      "is_required": true
+    },
+    "last_modified_at": {
+      "type": "timestamp",
+      "description": "The timestamp of the last modification to this entry."
+    }
+  }
+}
+]

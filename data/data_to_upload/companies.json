@@ -1,0 +1,809 @@
+[
+  {
+    "company_id": "e3f4a5b6-c7d8-e9f0-a1b2-c3d4e5f6a7b8",
+    "holding_id": null,
+    "headoffice_id": null,
+    "branch_id": null,
+    "holding_name": "The Trump Organization",
+    "headoffice_name": "The Trump Organization",
+    "acronym": "T",
+    "branch_name": null,
+    "coords": { "lat": 40.7625, "lng": -73.974167 },
+    "current_status": [{ "state": "Operational", "start_Date": null }]
+  },
+  {
+    "company_id": "c1d2e3f4-a5b6-c7d8-e9f0-a1b2c3d4e5f6",
+    "holding_id": "h1d2e3f4-a5b6-c7d8-e9f0-a1b2c3d4e5f6",
+    "headoffice_id": "e1d2e3f4-a5b6-c7d8-e9f0-a1b2c3d4e5f6",
+    "branch_id": "b1d2e3f4-a5b6-c7d8-e9f0-a1b2c3d4e5f6",
+    "holding_name": "Industrial and Commercial Bank of China",
+    "headoffice_name": "Industrial and Commercial Bank of China (USA) NA",
+    "acronym": "ICBC",
+    "branch_name": "Industrial and Commercial Bank of China, New York Branch (Trump Tower)",
+    "coords": { "lat": 40.7625, "lng": -73.974167 }
+  },
+  {
+    "company_id": "c_arctic_hotel",
+    "headoffice_name": "Arctic Restaurant and Hotel",
+    "acronym": "ARH"
+  },
+  {
+    "company_id": "c_trump_plaza",
+    "headoffice_name": "Trump Plaza Hotel and Casino",
+    "acronym": "TPHC",
+    "current_status": [
+      { "state": "Operational", "start_Date": null },
+      { "state": "Permanently Closed", "start_Date": "2014" },
+      { "state": "Demolished", "start_Date": "2021" }
+    ]
+  },
+
+  {
+    "company_id": "o_studio54",
+    "headoffice_name": "Studio 54",
+    "acronym": "S54"
+  },
+  {
+    "company_id": "c_cohn_firm",
+    "holding_name": "Various Cohn Law Firms (e.g., Saxe, Bacon & Bolan)",
+    "headoffice_name": "Various Cohn Law Firms (e.g., Saxe, Bacon & Bolan)",
+    "acronym": "SBB"
+  },
+
+  {
+    "company_id": "comp-tu-01",
+    "holding_id": null,
+    "headoffice_id": null,
+    "branch_id": null,
+    "holding_name": "Trump University LLC",
+    "headoffice_name": "Trump University",
+    "acronym": "TU",
+    "branch_name": "The Trump Entrepreneur Institute",
+    "coords": null
+  },
+  {
+    "company_id": "d2e3f4a5-b6c7-d8e9-f0a1-b2c3d4e5f6a7",
+    "holding_id": "e3f4a5b6-c7d8-e9f0-a1b2-c3d4e5f6a7b8",
+    "headoffice_id": null,
+    "branch_id": null,
+    "holding_name": "The Trump Organization",
+    "headoffice_name": "Trump International Hotel Washington, D.C.",
+    "acronym": "TTO",
+    "branch_name": "Trump International Hotel Washington, D.C.",
+    "coords": { "lat": 38.8965, "lng": -77.0261 }
+  },
+  {
+    "company_id": "f4a5b6c7-d8e9-f0a1-b2c3-d4e5f6a7b8c9",
+    "holding_id": null,
+    "headoffice_id": null,
+    "branch_id": null,
+    "holding_name": "Walgreens Boots Alliance",
+    "headoffice_name": "Walgreens Boots Alliance",
+    "acronym": "WBA",
+    "branch_name": null,
+    "coords": null
+  },
+  {
+    "company_id": "a5b6c7d8-e9f0-a1b2-c3d4-e5f6a7b8c9d0",
+    "holding_id": "f4a5b6c7-d8e9-f0a1-b2c3-d4e5f6a7b8c9",
+    "headoffice_id": null,
+    "branch_id": null,
+    "holding_name": "Walgreens Boots Alliance",
+    "headoffice_name": "Duane Reade",
+    "acronym": "WBA",
+    "branch_name": "Duane Reade",
+    "coords": { "lat": 40.7063, "lng": -74.0101 }
+  },
+  {
+    "company_id": "b6c7d8e9-f0a1-b2c3-d4e5-f6a7b8c9d0e1",
+    "holding_id": null,
+    "headoffice_id": null,
+    "branch_id": null,
+    "holding_name": "Rite Aid",
+    "headoffice_name": "Rite Aid",
+    "acronym": "RA",
+    "branch_name": null,
+    "coords": null
+  },
+  {
+    "company_id": "c7d8e9f0-a1b2-c3d4-e5f6-a7b8c9d0e1f2",
+    "holding_id": null,
+    "headoffice_id": null,
+    "branch_id": null,
+    "holding_name": "Capital One",
+    "headoffice_name": "Capital One",
+    "acronym": "COF",
+    "branch_name": "Capital One",
+    "coords": null
+  },
+  {
+    "company_id": "d8e9f0a1-b2c3-d4e5-f6a7-b8c9d0e1f2a3",
+    "holding_id": null,
+    "headoffice_id": null,
+    "branch_id": null,
+    "holding_name": "Bank of America",
+    "headoffice_name": "Bank of America",
+    "acronym": "BofA",
+    "branch_name": "Bank of America",
+    "coords": { "lat": 37.7922, "lng": -122.4037 }
+  },
+  {
+    "company_id": "e9f0a1b2-c3d4-e5f6-a7b8-c9d0e1f2a3b4",
+    "holding_id": null,
+    "headoffice_id": null,
+    "branch_id": null,
+    "holding_name": "UBS",
+    "headoffice_name": "UBS",
+    "acronym": "UBS",
+    "branch_name": "UBS",
+    "coords": null
+  },
+  {
+    "company_id": "f0a1b2c3-d4e5-f6a7-b8c9-d0e1f2a3b4c5",
+    "holding_id": null,
+    "headoffice_id": null,
+    "branch_id": null,
+    "holding_name": "Barclays",
+    "headoffice_name": "Barclays",
+    "acronym": "BCS",
+    "branch_name": "Barclays",
+    "coords": null
+  },
+  {
+    "company_id": "a1b2c3d4-e5f6-a7b8-c9d0-e1f2a3b4c5d6",
+    "holding_id": null,
+    "headoffice_id": null,
+    "branch_id": null,
+    "holding_name": "JPMorgan Chase",
+    "headoffice_name": "JPMorgan Chase",
+    "acronym": "JPM",
+    "branch_name": "JPMorgan Chase",
+    "coords": null
+  },
+  {
+    "company_id": "b2c3d4e5-f6a7-b8c9-d0e1-f2a3b4c5d6e7",
+    "holding_id": null,
+    "headoffice_id": null,
+    "branch_id": null,
+    "holding_name": "Deutsche Bank",
+    "headoffice_name": "Deutsche Bank",
+    "acronym": "DB",
+    "branch_name": null,
+    "coords": null
+  },
+  {
+    "company_id": "c3d4e5f6-a7b8-c9d0-e1f2-a3b4c5d6e7f8",
+    "holding_id": null,
+    "headoffice_id": null,
+    "branch_id": null,
+    "holding_name": "GNC",
+    "headoffice_name": "GNC",
+    "acronym": "GNC",
+    "branch_name": "GNC",
+    "coords": null
+  },
+  {
+    "company_id": "d4e5f6a7-b8c9-d0e1-f2a3-b4c5d6e7f8a9",
+    "holding_id": null,
+    "headoffice_id": null,
+    "branch_id": null,
+    "holding_name": "Nike",
+    "headoffice_name": "Nike",
+    "acronym": "NKE",
+    "branch_name": "Nike",
+    "coords": null
+  },
+  {
+    "company_id": "e5f6a7b8-c9d0-e1f2-a3b4-c5d6e7f8a9b0",
+    "holding_id": null,
+    "headoffice_id": null,
+    "branch_id": null,
+    "holding_name": "Starbucks",
+    "headoffice_name": "Starbucks",
+    "acronym": "SBUX",
+    "branch_name": "Starbucks",
+    "coords": null
+  },
+  {
+    "company_id": "f6a7b8c9-d0e1-f2a3-b4c5-d6e7f8a9b0c1",
+    "holding_id": null,
+    "headoffice_id": null,
+    "branch_id": null,
+    "holding_name": "Microsoft",
+    "headoffice_name": "Microsoft",
+    "acronym": "MSFT",
+    "branch_name": "Microsoft",
+    "coords": null
+  },
+  {
+    "company_id": "a7b8c9d0-e1f2-a3b4-c5d6-e7f8a9b0c1d2",
+    "holding_id": null,
+    "headoffice_id": null,
+    "branch_id": null,
+    "holding_name": "Columbia University",
+    "headoffice_name": "Columbia University",
+    "acronym": "CU",
+    "branch_name": "Columbia University",
+    "coords": { "lat": 40.8075, "lng": -73.9626 }
+  },
+  {
+    "company_id": "b8c9d0e1-f2a3-b4c5-d6e7-f8a9b0c1d2e3",
+    "holding_id": null,
+    "headoffice_id": null,
+    "branch_id": null,
+    "holding_name": "U.S. Postal Service",
+    "headoffice_name": "U.S. Postal Service",
+    "acronym": "USPS",
+    "branch_name": "U.S. Postal Service",
+    "coords": null
+  },
+  {
+    "company_id": "c9d0e1f2-a3b4-c5d6-e7f8-a9b0c1d2e3f4",
+    "holding_id": null,
+    "headoffice_id": null,
+    "branch_id": null,
+    "holding_name": "Gucci",
+    "headoffice_name": "Gucci",
+    "acronym": "GG",
+    "branch_name": "Gucci",
+    "coords": { "lat": 40.7625, "lng": -73.974167 }
+  },
+  {
+    "company_id": "d0e1f2a3-b4c5-d6e7-f8a9-b0c1d2e3f4a5",
+    "holding_id": null,
+    "headoffice_id": null,
+    "branch_id": null,
+    "holding_name": "AXA",
+    "headoffice_name": "AXA",
+    "acronym": "AXA",
+    "branch_name": "AXA (Tenant in NYC Skyscraper)",
+    "coords": null
+  },
+  {
+    "company_id": "e1f2a3b4-c5d6-e7f8-a9b0-c1d2e3f4a5b6",
+    "holding_id": null,
+    "headoffice_id": null,
+    "branch_id": null,
+    "holding_name": "Lululemon Athletica",
+    "headoffice_name": "Lululemon",
+    "acronym": "LULU",
+    "branch_name": "Lululemon",
+    "coords": null
+  },
+  {
+    "company_id": "f2a3b4c5-d6e7-f8a9-b0c1-d2e3f4a5b6c7",
+    "holding_id": null,
+    "headoffice_id": null,
+    "branch_id": null,
+    "holding_name": "Pret A Manger",
+    "headoffice_name": "Pret A Manger",
+    "acronym": "PAM",
+    "branch_name": "Pret A Manger",
+    "coords": null
+  },
+
+  {
+    "company_id": "c_trump_castle",
+    "headoffice_name": "Trump Castle Hotel & Casino",
+    "acronym": "TCHC",
+    "current_status": [
+      { "state": "Operational", "start_Date": null },
+      { "state": "Rebranded/Defunct", "start_Date": "2011" }
+    ]
+  },
+  {
+    "company_id": "c_trump_taj",
+    "headoffice_name": "Trump Taj Mahal Casino Resort",
+    "acronym": "TTMCR",
+    "current_status": [
+      { "state": "Operational", "start_Date": null },
+      { "state": "Permanently Closed", "start_Date": "2016" },
+      { "state": "Rebranded/Sold", "start_Date": "2018" }
+    ]
+  },
+  {
+    "company_id": "c_paramount_av",
+    "headoffice_name": "Paramount Aviation",
+    "acronym": "PA",
+    "current_status": [{ "state": "Operational", "start_Date": null }]
+  },
+  {
+    "company_id": "c_caesars_world",
+    "headoffice_name": "Caesars World",
+    "acronym": "CW",
+    "current_status": [
+      { "state": "Operational", "start_Date": null },
+      { "state": "Merged/Rebranded", "start_Date": null }
+    ]
+  },
+  {
+    "company_id": "c_golden_nugget",
+    "headoffice_name": "Golden Nugget",
+    "acronym": "GN",
+    "current_status": [{ "state": "Operational", "start_Date": null }]
+  },
+  {
+    "company_id": "c_sands_ac",
+    "headoffice_name": "Sands Hotel and Casino (Atlantic City)",
+    "acronym": "SHC",
+    "current_status": [
+      { "state": "Operational", "start_Date": null },
+      { "state": "Permanently Closed", "start_Date": "2006" },
+      { "state": "Demolished", "start_Date": "2007" }
+    ]
+  },
+  {
+    "company_id": "c_grossingers",
+    "headoffice_name": "Grossinger's Catskill Resort Hotel",
+    "acronym": "GCRH",
+    "current_status": [
+      { "state": "Operational", "start_Date": null },
+      { "state": "Permanently Closed", "start_Date": "1986" }
+    ]
+  },{
+  "company_id": "a1b2c3d4-e5f6-7890-1234-567890abcdef",
+  "company_name": "40 WALL STREET LLC",
+  "start_date": "2012-11-22",
+  "end_date": null,
+  "priority": null,
+  "coords": {
+    "lat": 40.706944,
+    "lng": -74.009722
+  },
+  "description": "40 WALL STREET LLC is the operational entity responsible for the management and leasing of the Class-A office space within the iconic 72-story skyscraper located at 40 Wall Street in New York City, also known as The Trump Building. It offers approximately 1.3 million square feet of rentable office space with flexible floorplans and emphasizes 'superior Trump Management' and 'white-glove concierge services' to attract high-profile tenants in the Financial District. [1, 2]",
+  "holding": "The Trump Organization, Inc.",
+  "people_involved":[
+    {
+      "person_id": "p002-george-ohrstrom",
+      "name": "George L. Ohrstrom",
+      "first_name": "George",
+      "middle_name": "L.",
+      "last_name": "Ohrstrom",
+      "reason_of_involvement": "Banker who initiated the concept for the skyscraper and began acquiring land in 1928. [1, 6]"
+    },
+    {
+      "person_id": "p003-h-craig-severance",
+      "name": "H. Craig Severance",
+      "first_name": "H.",
+      "middle_name": "Craig",
+      "last_name": "Severance",
+      "reason_of_involvement": "Lead architect of the 40 Wall Street skyscraper. [1, 3, 6]"
+    },
+    {
+      "person_id": "p004-yasuo-matsui",
+      "name": "Yasuo Matsui",
+      "first_name": "Yasuo",
+      "middle_name": null,
+      "last_name": "Matsui",
+      "reason_of_involvement": "Associate architect of the 40 Wall Street skyscraper. [1, 3, 6]"
+    },
+    {
+      "person_id": "p005-myles-fennon",
+      "name": "Myles Fennon",
+      "first_name": "Myles",
+      "middle_name": null,
+      "last_name": "Fennon",
+      "reason_of_involvement": "Leasing contact for 40 Wall Street. [7]"
+    },
+    {
+      "person_id": "p006-jonathan-fein",
+      "name": "Jonathan Fein",
+      "first_name": "Jonathan",
+      "middle_name": null,
+      "last_name": "Fein",
+      "reason_of_involvement": "Sr. Director at Cushman & Wakefield, a leasing contact for 40 Wall Street. [8]"
+    },
+    {
+      "person_id": "p007-ferdinand-marcos",
+      "name": "Ferdinand Marcos",
+      "first_name": "Ferdinand",
+      "middle_name": null,
+      "last_name": "Marcos",
+      "reason_of_involvement": "Former dictator of the Philippines who owned the building in the 1980s. [2, 5, 9]"
+    },
+    {
+      "person_id": "p008-eric-schneiderman",
+      "name": "Eric Schneiderman",
+      "first_name": "Eric",
+      "middle_name": null,
+      "last_name": "Schneiderman",
+      "reason_of_involvement": "New York Attorney General who filed a $40 million lawsuit against Trump University in 2013. [10]"
+    },
+    {
+      "person_id": "p009-letitia-james",
+      "name": "Letitia James",
+      "first_name": "Letitia",
+      "middle_name": null,
+      "last_name": "James",
+      "reason_of_involvement": "New York Attorney General who filed a civil fraud lawsuit against Donald Trump and his business entities, including 40 Wall Street, in September 2022. [9, 11, 12]"
+    },
+    {
+      "person_id": "p010-allen-weisselberg",
+      "name": "Allen Weisselberg",
+      "first_name": "Allen",
+      "middle_name": null,
+      "last_name": "Weisselberg",
+      "reason_of_involvement": "Longtime Trump Organization Chief Financial Officer, involved in financial discussions related to 40 Wall Street. [12]"
+    },
+    {
+      "person_id": "p011-donald-trump-jr",
+      "name": "Donald Trump Jr.",
+      "first_name": "Donald",
+      "middle_name": null,
+      "last_name": "Trump Jr.",
+      "reason_of_involvement": "Executive Vice President of The Trump Organization, involved in the company's operations and financial statements. [4, 12, 13]"
+    },
+    {
+      "person_id": "p012-eric-trump",
+      "name": "Eric Trump",
+      "first_name": "Eric",
+      "middle_name": null,
+      "last_name": "Trump",
+      "reason_of_involvement": "Executive Vice President of The Trump Organization, involved in the company's operations and financial statements. [4, 13]"
+    },
+    {
+      "person_id": "p013-ivanka-trump",
+      "name": "Ivanka Trump",
+      "first_name": "Ivanka",
+      "middle_name": null,
+      "last_name": "Trump",
+      "reason_of_involvement": "Involved in the Trump Organization and its financial statements. [13]"
+    },
+    {
+      "person_id": "p014-donald-bender",
+      "name": "Donald Bender",
+      "first_name": "Donald",
+      "middle_name": null,
+      "last_name": "Bender",
+      "reason_of_involvement": "Longtime Trump accountant who testified in the New York civil fraud trial. [13]"
+    },
+    {
+      "person_id": "p015-jeff-mcconney",
+      "name": "Jeff McConney",
+      "first_name": "Jeff",
+      "middle_name": null,
+      "last_name": "McConney",
+      "reason_of_involvement": "Former Trump Organization controller who testified in the New York civil fraud trial. [13]"
+    }
+  ],
+  "head_offices": [
+    {
+      "head_office_id": "ho001-40wallstreet",
+      "coords": {
+        "lat": 40.706944,
+        "lng": -74.009722
+      },
+      "head_office_manager": {
+        "person_id": null
+      },
+      "branch_offices": null
+    }
+  ],
+  "companies_involved":[
+    {
+      "company_id": "c002-40wallstreet-holdings-corp",
+      "company_name": "40 Wall Street Holdings Corp.",
+      "reason_of_involvement": "Direct owner of the 40 Wall Street building. [1]"
+     
+    },
+    {
+      "company_id": "c003-40wallstreet-development-llc",
+      "company_name": "40 Wall Street Development LLC",
+      "reason_of_involvement": "Owns 99.9% of 40 Wall Street LLC. [14]"
+     
+    },
+    {
+      "company_id": "c004-40wallstreet-member-corp",
+      "company_name": "40 Wall Street Member Corp.",
+      "reason_of_involvement": "Indirectly holds the remaining 0.1% interest in 40 Wall Street LLC. [14]"
+     
+    },
+    {
+      "company_id": "c005-36wallstreet-corporation",
+      "company_name": "36 Wall Street Corporation",
+      "reason_of_involvement": "Corporate entity under which banker George L. Ohrstrom began acquiring land for the skyscraper in 1928. [1]"
+    },
+    {
+      "company_id": "c006-starrett-corporation",
+      "company_name": "Starrett Corporation",
+      "reason_of_involvement": "Builders of the 40 Wall Street skyscraper (formerly Starrett Brothers). [1, 6]"
+    },
+    {
+      "company_id": "c007-manhattan-company",
+      "company_name": "Manhattan Company",
+      "reason_of_involvement": "Primary tenant when the building was completed and opened in 1930. [1, 5]"
+    },
+    {
+      "company_id": "c008-resnicks",
+      "company_name": "The Resnicks",
+      "reason_of_involvement": "New York real estate family who briefly owned 40 Wall Street in partnership with Citibank after Ferdinand Marcos. [2, 5]"
+    },
+    {
+      "company_id": "c009-citibank",
+      "company_name": "Citibank",
+      "reason_of_involvement": "Partnered with the Resnicks in a brief ownership period of 40 Wall Street. [2, 5]"
+    },
+    {
+      "company_id": "c010-kinson-company",
+      "company_name": "Kinson Company",
+      "reason_of_involvement": "Hong Kong-based group that briefly owned 40 Wall Street before Donald Trump's acquisition. [2, 5]"
+    },
+    {
+      "company_id": "c011-deutsche-bank",
+      "company_name": "Deutsche Bank",
+      "reason_of_involvement": "Past high-profile tenant of 40 Wall Street. [15]"
+    },
+    {
+      "company_id": "c012-manufactures-hanover-trust-company",
+      "company_name": "Manufactures Hanover's Trust Company",
+      "reason_of_involvement": "Past high-profile tenant of 40 Wall Street. [15]"
+    },
+    {
+      "company_id": "c013-toronto-dominion-bank",
+      "company_name": "Toronto Dominion Bank",
+      "reason_of_involvement": "Past high-profile tenant of 40 Wall Street. [15]"
+    },
+    {
+      "company_id": "c014-loeb-rhodes-co",
+      "company_name": "Loeb, Rhodes & Co.",
+      "reason_of_involvement": "Past high-profile tenant of 40 Wall Street. [15]"
+    },
+    {
+      "company_id": "c015-bache-co",
+      "company_name": "Bache & Co.",
+      "reason_of_involvement": "Past high-profile tenant of 40 Wall Street. [15]"
+    },
+    {
+      "company_id": "c016-western-union",
+      "company_name": "Western Union",
+      "reason_of_involvement": "Past high-profile tenant of 40 Wall Street. [15]"
+    },
+    {
+      "company_id": "c017-westinghouse-electric-corporation",
+      "company_name": "Westinghouse Electric Corporation",
+      "reason_of_involvement": "Past high-profile tenant of 40 Wall Street. [15]"
+    },
+    {
+      "company_id": "c018-capital-one",
+      "company_name": "Capital One",
+      "reason_of_involvement": "Lender that held the mortgage on 40 Wall Street and raised concerns about the Trump Organization's property valuations, declining to refinance the loan in 2015. [9, 12]"
+    },
+    {
+      "company_id": "c019-cushman-wakefield",
+      "company_name": "Cushman & Wakefield",
+      "reason_of_involvement": "Independent appraisers who assessed the value of 40 Wall Street for Capital One, with valuations significantly lower than Trump's. [12]"
+    },
+    {
+      "company_id": "c020-wells-fargo",
+      "company_name": "Wells Fargo",
+      "reason_of_involvement": "Loan manager for the 'Wells Fargo Commercial Mortgage Trust 2015-LC22' that placed 40 Wall Street on a mortgage watchlist. [11]"
+    },
+    {
+      "company_id": "c021-jay-suites",
+      "company_name": "Jay Suites",
+      "reason_of_involvement": "Co-working space provider and tenant within 40 Wall Street. [16, 17]"
+    }
+  ],
+  "company_history":[
+    {
+      "start_date": "1929-05-00",
+      "end_date": "1930-05-01",
+      "industry": "Construction",
+      "notes": "Construction of the skyscraper commenced in May 1929 and was topped out by November 13, 1929. The building was completed on May 1, 1930. [1]"
+    },
+    {
+      "start_date": "1930-05-26",
+      "end_date": "1944-00-00",
+      "industry": "Commercial Real Estate",
+      "notes": "Building officially opened on May 26, 1930. Faced low tenancy rates due to the Great Depression and did not achieve full occupancy until 1944. [1, 6]"
+    },
+    {
+      "start_date": "1946-00-00",
+      "end_date": "1946-00-00",
+      "industry": "N/A",
+      "notes": "An army transport plane crashed into the building's 58th floor, resulting in five fatalities. [1, 6]"
+    },
+    {
+      "start_date": "1980-00-00",
+      "end_date": "1995-00-00",
+      "industry": "Commercial Real Estate",
+      "notes": "Owned by Ferdinand Marcos in the 1980s, leading to disarray and neglect. Subsequently had brief, unsuccessful tenures under the Resnicks (with Citibank) and the Kinson Company. By 1992, it was 89% vacant and '100% run down'. [2, 6, 5, 9]"
+    },
+    {
+      "start_date": "1995-00-00",
+      "end_date": null,
+      "industry": "Commercial Real Estate",
+      "notes": "Donald J. Trump acquired the leasehold for the building in 1995 for a debated price (less than $8 million to $1 million). Over $200 million was invested in restorations. [1, 3, 5, 9, 15]"
+    },
+    {
+      "start_date": "1998-00-00",
+      "end_date": null,
+      "industry": "N/A",
+      "notes": "The Trump Building was designated a landmark by the New York City Landmarks Preservation Committee. [2, 5]"
+    },
+    {
+      "start_date": "2010-00-00",
+      "end_date": null,
+      "industry": "Education (via Trump University)",
+      "notes": "New York Education Department demanded Trump University cease using the term 'university' due to lack of accreditation. [10]"
+    },
+    {
+      "start_date": "2012-11-22",
+      "end_date": null,
+      "industry": "Corporate Operations",
+      "notes": "40 WALL STREET LLC was incorporated as a Limited Liability Company. [18]"
+    },
+    {
+      "start_date": "2013-00-00",
+      "end_date": null,
+      "industry": "Legal",
+      "notes": "New York Attorney General Eric Schneiderman filed a $40 million lawsuit against Trump University, alleging fraud and deception. [10]"
+    },
+    {
+      "start_date": "2015-00-00",
+      "end_date": null,
+      "industry": "Commercial Real Estate Finance",
+      "notes": "A $160 million mortgage was secured on the building. Capital One declined to refinance the building's loan due to skepticism regarding Trump Organization's valuations. [11, 12]"
+    },
+    {
+      "start_date": "2022-09-21",
+      "end_date": null,
+      "industry": "Legal",
+      "notes": "New York Attorney General Letitia James filed a civil fraud lawsuit against Donald Trump and his business entities, including 40 Wall Street, alleging 'grossly inflated' property values. [11, 12, 19]"
+    },
+    {
+      "start_date": "2022-00-00",
+      "end_date": null,
+      "industry": "Commercial Real Estate Finance",
+      "notes": "Bloomberg News reported that 40 Wall Street was placed on a mortgage watchlist by Wells Fargo due to an 18% vacancy rate and an 11% increase in operating costs. [5, 11]"
+    },
+    {
+      "start_date": "2023-10-02",
+      "end_date": null,
+      "industry": "Legal",
+      "notes": "The civil fraud trial initiated by the New York Attorney General began. [13]"
+    },
+    {
+      "start_date": "2024-02-00",
+      "end_date": null,
+      "industry": "Legal",
+      "notes": "Verdict in the civil fraud trial found Donald Trump and his companies liable to pay $354.8 million in disgorgement for financial fraud. [13]"
+    }
+  ],
+  "contact_info": {
+    "urls": [
+      {
+        "type": "b2b",
+        "url": "https://40wallstreet.com/"
+      },
+      {
+        "type": "holding",
+        "url": "https://www.trump.com/commercial-real-estate-portfolio/40-wall-street"
+      }
+    ],
+    "email": "myles.fennon@trumporg.com",
+    "phone_numbers": [
+      {
+        "type": "leasing",
+        "number": "(212) 836-3220"
+      },
+      {
+        "type": "leasing",
+        "number": "+1 (212) 709-0706 x330706"
+      },
+      {
+        "type": "general",
+        "number": "(212) 300-3494"
+      }
+    ],
+    "addresses":"",
+    "social_media_profiles":""
+  },
+  "controversies":[
+    {
+      "messenger": "New York Attorney General Letitia James",
+      "messenger_id": "452564/2022",
+      "content": "Civil fraud lawsuit alleging Donald Trump, his business entities, and family members engaged in a scheme to 'grossly inflate' his personal net worth and the value of properties, including 40 Wall Street, to mislead lenders, insurers, and tax authorities. Valuations were significantly higher than independent appraisals (e.g., Trump's $601.8M vs. Capital One's $200M in 2010). [9, 11, 12, 19]",
+      "event_id": "People of the State of New York v. Donald J. Trump, et al."
+    },
+    {
+      "messenger": "Wells Fargo (loan manager), Bloomberg News",
+      "messenger_id": "Wells Fargo Commercial Mortgage Trust 2015-LC22",
+      "content": "40 Wall Street was placed on a mortgage watchlist due to an 18% vacancy rate and an 11% increase in operating costs since the $160 million mortgage was taken out in 2015, leading to a declining debt service coverage ratio (DSCR). [5, 11]",
+      "event_id": "Mortgage Watchlist Placement"
+    },
+    {
+      "messenger": "Bloomberg News",
+      "messenger_id": null,
+      "content": "Since Donald Trump acquired the building, it has reportedly become home to a notable number of 'frauds, thieves, boiler rooms and penny-stock schemers.' [15, 11]",
+      "event_id": "Tenant Conduct Concerns"
+    },
+    {
+      "messenger": "Historical Records",
+      "messenger_id": null,
+      "content": "An army transport plane, lost in fog, tragically crashed into the building's 58th floor, resulting in five fatalities. [1, 6]",
+      "event_id": "1946 Plane Crash"
+    },
+    {
+      "messenger": "Historical Records",
+      "messenger_id": null,
+      "content": "The building was famously embroiled in a 'Race into the Sky' with the Chrysler Building during its construction, both vying for the title of the world's tallest building. [1, 6]"
+    }
+  ],
+  "assets":[
+        {
+          "owner_type": "Corporation",
+          "owner_id": "c005-36wallstreet-corporation",
+          "start_date": "1928-00-00",
+          "end_date": null,
+          "buy_price": null,
+          "sell_price": null,
+          "coords": [
+            {
+              "lat": 40.706944,
+              "lng": -74.009722
+            }
+          ]
+        },
+        {
+          "owner_type": "Individual",
+          "owner_id": "p007-ferdinand-marcos",
+          "start_date": "1980-00-00",
+          "end_date": "1995-00-00",
+          "buy_price": null,
+          "sell_price": null,
+          "coords": [
+            {
+              "lat": 40.706944,
+              "lng": -74.009722
+            }
+          ]
+        },
+        {
+          "owner_type": "Corporation",
+          "owner_id": "c008-resnicks",
+          "start_date": "1980-00-00",
+          "end_date": "1995-00-00",
+          "buy_price": null,
+          "sell_price": null,
+          "coords": [
+            {
+              "lat": 40.706944,
+              "lng": -74.009722
+            }
+          ]
+        },
+        {
+          "owner_type": "Corporation",
+          "owner_id": "c010-kinson-company",
+          "start_date": "1980-00-00",
+          "end_date": "1995-00-00",
+          "buy_price": null,
+          "sell_price": null,
+          "coords": [
+            {
+              "lat": 40.706944,
+              "lng": -74.009722
+            }
+          ]
+        },
+        {
+          "owner_type": "Individual",
+          "owner_id": "p001-donald-trump",
+          "start_date": "1995-00-00",
+          "end_date": null,
+          "buy_price": 1000000,
+          "sell_price": null,
+          "coords": [
+            {
+              "lat": 40.706944,
+              "lng": -74.009722
+            }
+          ]
+        }
+      ]
+    
+  ,
+  "wikipedia": "https://en.wikipedia.org/wiki/40_Wall_Street"
+}
+]

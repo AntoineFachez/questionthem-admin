@@ -1,0 +1,167 @@
+[{
+  "organization_id": "org_catholic_church",
+  "name": "Catholic Church",
+  "type": "Religious Organization",
+  "description": "The largest Christian church, with over 1.3 billion baptized Catholics worldwide as of 2019.",
+  "wikipedia": "https://en.wikipedia.org/wiki/Catholic_Church"
+},
+
+
+  {
+    "organization_id": "org-crew-01",
+    "organization_name": "Citizens for Responsibility and Ethics in Washington",
+    "acronym": " CREW",
+    "organization_type": "Advocacy Group / Watchdog",
+    "coords": null
+  },
+  {
+    "organization_id": "org-tf-01",
+    "organization_name": "Donald J. Trump Foundation",
+    "organization_type": "Private Foundation (501(c)(3))",
+    "acronym": "DJTF",
+    "coords": null
+  },
+  {
+    "organization_id": "org-ajfa-01",
+    "organization_name": "And Justice for All",
+    "organization_type": "Political Group",
+    "acronym": "AJFA",
+    "coords": null
+  },
+  {
+    "organization_id": "o_catholic_arch_ny",
+    "organization_name": "Roman Catholic Archdiocese of New York",
+    "acronym": "RCANY"
+  },
+  {
+    "organization_id": "org-uconn-01",
+    "organization_name": "University of Connecticut",
+    "organization_type": "University",
+    "acronym": "UConn",
+    "coords": { "lat": 41.8079, "lng": -72.254 }
+  },
+  {
+    "organization_id": "org-unlv-01",
+    "organization_name": "University of Nevada, Las Vegas",
+    "organization_type": "University",
+    "acronym": "UNLV",
+    "coords": { "lat": 36.1066, "lng": -115.1437 }
+  },
+
+  {
+    "organization_id": "org-syr-01",
+    "organization_name": "Syracuse University",
+    "organization_type": "University",
+    "acronym": "SU",
+    "coords": { "lat": 43.0392, "lng": -76.1351 }
+  },
+  {
+    "organization_id": "org-udel-01",
+    "organization_name": "University of Delaware",
+    "organization_type": "University",
+    "acronym": "UD",
+    "coords": { "lat": 39.679, "lng": -75.7513 }
+  },
+  {
+    "organization_id": "org-harvard-01",
+    "organization_name": "Harvard University",
+    "organization_type": "University",
+    "acronym": "",
+    "coords": { "lat": 42.377, "lng": -71.1167 }
+  },
+  {
+    "organization_id": "org-ksu-01",
+    "organization_name": "Kennesaw State University",
+    "organization_type": "University",
+    "acronym": "KSU",
+    "coords": { "lat": 34.0384, "lng": -84.5821 }
+  },
+  {
+    "organization_id": "org-iu-01",
+    "organization_name": "Indiana University Bloomington",
+    "organization_type": "University",
+    "acronym": "IU",
+    "coords": { "lat": 39.1653, "lng": -86.5264 }
+  },
+  {
+    "organization_id": "org-asu-01",
+    "organization_name": "Arizona State University",
+    "organization_type": "University",
+    "acronym": "ASU",
+    "coords": { "lat": 33.4242, "lng": -111.9281 }
+  },
+  {
+    "organization_id": "org-wvu-01",
+    "organization_name": "West Virginia University",
+    "organization_type": "University",
+    "acronym": "WVU",
+    "coords": { "lat": 39.636, "lng": -79.9543 }
+  },
+  {
+    "organization_id": "org-uiowa-01",
+    "organization_name": "University of Iowa",
+    "organization_type": "University",
+    "acronym": "UI",
+    "coords": { "lat": 41.6628, "lng": -91.5388 }
+  },
+  {
+    "organization_id": "org-rutgers-01",
+    "organization_name": "Rutgers University",
+    "organization_type": "University",
+    "acronym": "",
+    "coords": { "lat": 40.5008, "lng": -74.4474 }
+  },
+  {
+    "organization_id": "org-uwmadison-01",
+    "organization_name": "University of Wisconsin-Madison",
+    "organization_type": "University",
+    "acronym": "UW-Madison",
+    "coords": { "lat": 43.0766, "lng": -89.4125 }
+  },
+  {
+    "organization_id": "org-utrgv-01",
+    "organization_name": "University of Texas Rio Grande Valley",
+    "organization_type": "University",
+    "acronym": "UTRGV",
+    "coords": { "lat": 26.2283, "lng": -97.7563 }
+  },
+  {
+    "organization_id": "org-gannon-01",
+    "organization_name": "Gannon University",
+    "organization_type": "University",
+    "acronym": "",
+    "coords": { "lat": 42.13, "lng": -80.0873 }
+  },
+  {
+    "organization_id": "org-purdue-01",
+    "organization_name": "Purdue University",
+    "organization_type": "University",
+    "acronym": "",
+    "coords": { "lat": 40.4237, "lng": -86.9212 }
+  },
+  {
+    "organization_id": "org-ucberkeley-01",
+    "organization_name": "University of California, Berkeley",
+    "organization_type": "University",
+    "acronym": "UC Berkeley",
+    "coords": { "lat": 37.8719, "lng": -122.2585 }
+  },
+  {
+    "organization_id": "org-aila-01",
+    "organization_name": "American Immigration Lawyers Association",
+    "organization_type": "Professional Association / Advocacy Group",
+    "acronym": "AILA",
+    "coords": null
+  },
+  {
+    "organization_id": "o_casino_assoc_ac",
+    "organization_name": "Casino Association of Atlantic City",
+    "role": "Source of commentary",
+    "current_status": [
+     
+      { "state": "Active", "start_Date": null },
+      { "state": "Rebranded", "start_Date": null }
+    ]
+  }
+
+]

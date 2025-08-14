@@ -1,0 +1,245 @@
+[
+  {
+    "IGO": "G24",
+    "COUNTRY_EN": "Algeria",
+    "ISO_A3": "DZA",
+    "status": "Member State",
+    "joinDate": null,
+    "leftDate": null,
+    "membershipNotes": "Region I: Africa"
+  },
+  {
+    "IGO": "G24",
+    "COUNTRY_EN": "Democratic Republic of Congo",
+    "ISO_A3": "COD",
+    "status": "Member State",
+    "joinDate": null,
+    "leftDate": null,
+    "membershipNotes": "Region I: Africa"
+  },
+  {
+    "IGO": "G24",
+    "COUNTRY_EN": "Côte d'Ivoire",
+    "ISO_A3": "CIV",
+    "status": "Member State",
+    "joinDate": null,
+    "leftDate": null,
+    "membershipNotes": "Region I: Africa"
+  },
+  {
+    "IGO": "G24",
+    "COUNTRY_EN": "Egypt",
+    "ISO_A3": "EGY",
+    "status": "Member State",
+    "joinDate": null,
+    "leftDate": null,
+    "membershipNotes": "Region I: Africa"
+  },
+  {
+    "IGO": "G24",
+    "COUNTRY_EN": "Ethiopia",
+    "ISO_A3": "ETH",
+    "status": "Member State",
+    "joinDate": null,
+    "leftDate": null,
+    "membershipNotes": "Region I: Africa"
+  },
+  {
+    "IGO": "G24",
+    "COUNTRY_EN": "Gabon",
+    "ISO_A3": "GAB",
+    "status": "Member State",
+    "joinDate": null,
+    "leftDate": null,
+    "membershipNotes": "Region I: Africa"
+  },
+  {
+    "IGO": "G24",
+    "COUNTRY_EN": "Ghana",
+    "ISO_A3": "GHA",
+    "status": "Member State",
+    "joinDate": null,
+    "leftDate": null,
+    "membershipNotes": "Region I: Africa"
+  },
+  {
+    "IGO": "G24",
+    "COUNTRY_EN": "Kenya",
+    "ISO_A3": "KEN",
+    "status": "Member State",
+    "joinDate": null,
+    "leftDate": null,
+    "membershipNotes": "Region I: Africa"
+  },
+  {
+    "IGO": "G24",
+    "COUNTRY_EN": "Morocco",
+    "ISO_A3": "MAR",
+    "status": "Member State",
+    "joinDate": null,
+    "leftDate": null,
+    "membershipNotes": "Region I: Africa"
+  },
+  {
+    "IGO": "G24",
+    "COUNTRY_EN": "Nigeria",
+    "ISO_A3": "NGA",
+    "status": "Member State",
+    "joinDate": null,
+    "leftDate": null,
+    "membershipNotes": "Region I: Africa"
+  },
+  {
+    "IGO": "G24",
+    "COUNTRY_EN": "South Africa",
+    "ISO_A3": "ZAF",
+    "status": "Member State",
+    "joinDate": null,
+    "leftDate": null,
+    "membershipNotes": "Region I: Africa"
+  },
+  {
+    "IGO": "G24",
+    "COUNTRY_EN": "India",
+    "ISO_A3": "IND",
+    "status": "Member State",
+    "joinDate": null,
+    "leftDate": null,
+    "membershipNotes": "Region II: Asia"
+  },
+  {
+    "IGO": "G24",
+    "COUNTRY_EN": "Iran (Islamic Republic of)",
+    "ISO_A3": "IRN",
+    "status": "Member State",
+    "joinDate": null,
+    "leftDate": null,
+    "membershipNotes": "Region II: Asia"
+  },
+  {
+    "IGO": "G24",
+    "COUNTRY_EN": "Lebanon",
+    "ISO_A3": "LBN",
+    "status": "Member State",
+    "joinDate": null,
+    "leftDate": null,
+    "membershipNotes": "Region II: Asia"
+  },
+  {
+    "IGO": "G24",
+    "COUNTRY_EN": "Pakistan",
+    "ISO_A3": "PAK",
+    "status": "Member State",
+    "joinDate": null,
+    "leftDate": null,
+    "membershipNotes": "Region II: Asia"
+  },
+  {
+    "IGO": "G24",
+    "COUNTRY_EN": "Philippines",
+    "ISO_A3": "PHL",
+    "status": "Member State",
+    "joinDate": null,
+    "leftDate": null,
+    "membershipNotes": "Region II: Asia"
+  },
+  {
+    "IGO": "G24",
+    "COUNTRY_EN": "Sri Lanka",
+    "ISO_A3": "LKA",
+    "status": "Member State",
+    "joinDate": null,
+    "leftDate": null,
+    "membershipNotes": "Region II: Asia"
+  },
+  {
+    "IGO": "G24",
+    "COUNTRY_EN": "Syrian Arab Republic",
+    "ISO_A3": "SYR",
+    "status": "Member State",
+    "joinDate": null,
+    "leftDate": null,
+    "membershipNotes": "Region II: Asia"
+  },
+  {
+    "IGO": "G24",
+    "COUNTRY_EN": "Argentina",
+    "ISO_A3": "ARG",
+    "status": "Member State",
+    "joinDate": null,
+    "leftDate": null,
+    "membershipNotes": "Region III: Latin America & Caribbean"
+  },
+  {
+    "IGO": "G24",
+    "COUNTRY_EN": "Brazil",
+    "ISO_A3": "BRA",
+    "status": "Member State",
+    "joinDate": null,
+    "leftDate": null,
+    "membershipNotes": "Region III: Latin America & Caribbean"
+  },
+  {
+    "IGO": "G24",
+    "COUNTRY_EN": "Colombia",
+    "ISO_A3": "COL",
+    "status": "Member State",
+    "joinDate": null,
+    "leftDate": null,
+    "membershipNotes": "Region III: Latin America & Caribbean"
+  },
+  {
+    "IGO": "G24",
+    "COUNTRY_EN": "Ecuador",
+    "ISO_A3": "ECU",
+    "status": "Member State",
+    "joinDate": null,
+    "leftDate": null,
+    "membershipNotes": "Region III: Latin America & Caribbean"
+  },
+  {
+    "IGO": "G24",
+    "COUNTRY_EN": "Guatemala",
+    "ISO_A3": "GTM",
+    "status": "Member State",
+    "joinDate": null,
+    "leftDate": null,
+    "membershipNotes": "Region III: Latin America & Caribbean"
+  },
+  {
+    "IGO": "G24",
+    "COUNTRY_EN": "Mexico",
+    "ISO_A3": "MEX",
+    "status": "Member State",
+    "joinDate": null,
+    "leftDate": null,
+    "membershipNotes": "Region III: Latin America & Caribbean"
+  },
+  {
+    "IGO": "G24",
+    "COUNTRY_EN": "Peru",
+    "ISO_A3": "PER",
+    "status": "Member State",
+    "joinDate": null,
+    "leftDate": null,
+    "membershipNotes": "Region III: Latin America & Caribbean"
+  },
+  {
+    "IGO": "G24",
+    "COUNTRY_EN": "Trinidad and Tobago",
+    "ISO_A3": "TTO",
+    "status": "Member State",
+    "joinDate": null,
+    "leftDate": null,
+    "membershipNotes": "Region III: Latin America & Caribbean"
+  },
+  {
+    "IGO": "G24",
+    "COUNTRY_EN": "Venezuela (Bolivarian Republic of)",
+    "ISO_A3": "VEN",
+    "status": "Member State",
+    "joinDate": null,
+    "leftDate": null,
+    "membershipNotes": "Region III: Latin America & Caribbean"
+  }
+]

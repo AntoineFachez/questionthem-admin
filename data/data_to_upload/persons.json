@@ -1,0 +1,1784 @@
+[
+  {
+    "person_id": "per_kaelen_voss",
+    "name": "Kaelen Voss",
+    "first_name": "Kaelen",
+    "last_name": "Voss",
+    "biography_summary": "A reclusive but brilliant digital archivist known for his work in non-linear data sequencing and his advocacy for 'data-fossils'—encryption methods that are beautiful but obsolete.",
+    "birth_date": "1981-07-15T00:00:00Z",
+    "contact_info": {
+      "email": "kaelen.voss@cyphernet.org"
+    }
+  },
+  {
+    "person_id": "a164ca85-671f-422b-8493-a61898882bfb",
+    "name": "Friedrich Trump",
+    "initials": "FT",
+    "first_name": "Friedrich",
+    "last_Name": "Trump"
+  },
+  {
+    "person_id": "25ac2b23-573e-4b84-807e-32af48d4d06c",
+    "name": "Elisabeth Christ Trump",
+    "initials": "ECT",
+    "first_name": "Elisabeth",
+    "middle_name": "",
+    "last_Name": "Christ Trump"
+  },
+  {
+    "person_id": "dcb481e5-49d4-4f38-b1b3-87a4034d0092",
+    "name": "Mary Anne MacLeod",
+    "initials": "MAM",
+    "first_name": "Mary Anne",
+    "middle_name": "Anne",
+    "last_Name": "MacLeod"
+  },
+  {
+    "person_id": "0bd24586-e2cf-4df9-93f1-561e460868b1",
+    "name": "Fred Trump",
+    "initials": "FT",
+    "first_name": "Fred",
+    "last_Name": "Trump"
+  },
+  {
+    "person_id": "25ac2b23-e2cf-498e-93f1-a61898882bfb",
+    "name": "Roy Cohn",
+    "initials": "RC",
+    "current_status": [
+      { "state": "Born", "start_Date": "1927-02-20" },
+      { "state": "Deceased", "start_Date": "1986-08-02" }
+    ],
+    "first_name": "Roy",
+    "last_Name": "Cohn"
+  },
+  {
+    "person_id": "p_jlgage_prop",
+    "name": "J. L. Gage",
+    "initials": "JLG",
+    "current_status": [
+      { "state": "Born", "start_Date": null },
+      { "state": "Deceased", "start_Date": null }
+    ]
+  },
+  {
+    "person_id": "p_mrsgage_host",
+    "name": "Mrs. Gage",
+    "initials": "MrG",
+    "first_name": "Mr",
+    "middle_name": "",
+    "last_Name": "Gage",
+    "current_status": [
+      { "state": "Born", "start_Date": null },
+      { "state": "Deceased", "start_Date": null }
+    ]
+  },
+  {
+    "person_id": "p_albertcohn",
+    "name": "Albert C. Cohn",
+    "initials": "ACB",
+    "first_name": "Albert",
+    "middle_name": "C",
+    "last_Name": "Cohn",
+    "current_status": [
+      { "state": "Born", "start_Date": null },
+      { "state": "Deceased", "start_Date": null }
+    ]
+  },
+  {
+    "person_id": "p_doramarcus",
+    "name": "Dora Marcus Cohn",
+    "initials": "DMC",
+    "first_name": "Dora",
+    "middle_name": "Marcus",
+    "last_Name": "Cohn"
+  },
+  {
+    "person_id": "p_jrosenberg",
+    "name": "Julius Rosenberg",
+    "initials": "JR",
+    "first_name": "Julius",
+    "middle_name": "",
+    "last_Name": "Rosenberg"
+  },
+  {
+    "person_id": "p_erosenberg",
+    "name": "Ethel Rosenberg",
+    "initials": "ER",
+    "first_name": "Ethel",
+    "middle_name": "",
+    "last_Name": "Rosenberg"
+  },
+  {
+    "person_id": "p_jedgarhoover",
+    "name": "J. Edgar Hoover",
+    "initials": "JEH",
+    "first_name": "J.",
+    "middle_name": "Edgar",
+    "last_Name": "Hoover"
+  },
+  {
+    "person_id": "p_jmccarthy",
+    "name": "Joseph McCarthy",
+    "initials": "JM",
+    "first_name": "Joseph",
+    "middle_name": "",
+    "last_Name": "McCarthy"
+  },
+  {
+    "person_id": "p_mobfigures",
+    "name": "Various Mafia Figures (e.g., Genovese, Gambino families)",
+    "initials": "VMF",
+    "first_name": "Various",
+    "middle_name": "Mafia",
+    "last_Name": "Figures"
+  },
+  {
+    "person_id": "p_cardinalspellman",
+    "name": "Cardinal Francis Spellman",
+    "initials": "CFS",
+    "first_name": "Cardinal",
+    "middle_name": "Francis",
+    "last_Name": "Spellman"
+  },
+  {
+    "person_id": "p_gsteinbrenner",
+    "name": "George Steinbrenner",
+    "initials": "GS",
+    "first_name": "George",
+    "middle_name": "",
+    "last_Name": "Steinbrenner"
+  },
+  {
+    "person_id": "p_awarhol",
+    "name": "Andy Warhol",
+    "initials": "AW",
+    "first_name": "Andy",
+    "middle_name": "",
+    "last_Name": "Warhol"
+  },
+  {
+    "person_id": "p_bwalters",
+    "name": "Barbara Walters",
+    "initials": "BW",
+    "first_name": "Barbara",
+    "middle_name": "",
+    "last_Name": "Walters"
+  },
+  {
+    "person_id": "p_rreagan",
+    "name": "Ronald Reagan",
+    "initials": "RR",
+    "first_name": "Ronald",
+    "middle_name": "",
+    "last_Name": "Reagan"
+  },
+  {
+    "person_id": "p_gdschine",
+    "name": "G. David Schine",
+    "initials": "GDS",
+    "first_name": "G.",
+    "middle_name": "David",
+    "last_Name": "Schine"
+  },
+  {
+    "person_id": "p_jwelch",
+    "name": "Joseph N. Welch",
+    "initials": "JNW",
+    "first_name": "Joseph",
+    "middle_name": "N.",
+    "last_Name": "Welch"
+  },
+  {
+    "person_id": "pers-pb-01",
+    "name": "Pam Bondi",
+    "initials": "PB",
+    "first_name": "Pam",
+    "last_Name": "Bondi"
+  },
+  {
+    "person_id": "p1a2b3c4-d5e6-7f8a-9b0c-1d2e3f4a5b6d",
+    "name": "John G. Trump",
+    "initials": "JGT",
+    "first_name": "John",
+    "last_Name": "Trump"
+  },
+  {
+    "person_id": "p7e8f9a0-b1c2-3d4e-5f6a-7b8c9d0e1f2a",
+    "name": "Nikola Tesla",
+    "initials": "NT",
+    "first_name": "Nikola",
+    "last_Name": "Tesla"
+  },
+  {
+    "person_id": "pers-es-01",
+    "name": "Eric Schneiderman",
+    "initials": "ES",
+    "first_name": "Eric",
+    "last_Name": "Schneiderman"
+  },
+  {
+    "person_id": "pers-nb-01",
+    "name": "Noah Bookbinder",
+    "initials": "NB",
+    "first_name": "Noah",
+    "last_Name": "Bookbinder"
+  },
+  {
+    "person_id": "d54ffc3a-332f-498e-9aca-9aafb5bf780e",
+    "name": "Donald J. Trump",
+    "person_name_long": "Donald John Trump",
+    "person_name_short": "Donald Trump",
+    "person_initials": "DJT",
+    "first_name": "Donald",
+    "middle_name": "John",
+    "nick_names": ["The Donald"],
+    "last_name": "Trump",
+    "neé_name": null,
+    "current_status": [
+      {
+        "state": "Born",
+        "start_Date": "1946-06-14"
+      }
+    ],
+    "biography_summary": "Donald John Trump is an American businessman, media personality, and politician who served as the 45th U.S. president from 2017 to 2021 and is currently serving as the 47th U.S. president since 2025. Born in Queens, New York, he followed in his father's footsteps into real estate development, eventually taking over the family business and renaming it the Trump Organization. He built a global brand that included hotels, casinos, and golf courses, and gained further fame as a television personality. He entered politics with his 2016 presidential campaign, winning the election as a Republican. He is the second president to serve non-consecutive terms.",
+    "spouses": [
+      {
+        "name": "Ivana Zelníčková",
+        "person_id": "5f94281b-426d-fda6-b911-a28d5650814c",
+        "marriage_date": "1977-04-07",
+        "divorce_date": "1992-03-22",
+        "end_reason": "Divorce",
+        "children_with_spouse": [
+          {
+            "name": "Donald Trump Jr.",
+            "person_id": "donald-trump-jr-uuid"
+          },
+          {
+            "name": "Ivanka Trump",
+            "person_id": "5f94281b-fda6-426d-b911-a28d5650814c"
+          },
+          {
+            "name": "Eric Trump",
+            "person_id": "3e4f5a6b-7c8d-9e0f-a1b2c3d4e5f6a8"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Marla Maples",
+        "person_id": "cbd48421-5966-4f0f-af7a-c2a58e5a7c92",
+        "marriage_date": "1993-12-19",
+        "divorce_date": "1999-06-08",
+        "end_reason": "Divorce",
+        "children_with_spouse": [
+          {
+            "name": "Tiffany Trump",
+            "person_id": "tiffany-trump-uuid"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Melania Knauss",
+        "person_id": "230d78ae-73c6-4609-ac77-d676ff8d6d03",
+        "marriage_date": "2005-01-22",
+        "divorce_date": null,
+        "end_reason": null,
+        "children_with_spouse": [
+          {
+            "name": "Barron Trump",
+            "person_id": "barron-trump-uuid"
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "earlyLife": [
+      {
+        "type": "Birth",
+        "date": "1946-06-14",
+        "location": {
+          "city": "Queens",
+          "state_province": "New York",
+          "country": "USA"
+        },
+        "description": "Born at Jamaica Hospital in Queens, New York."
+      },
+      {
+        "type": "Childhood",
+        "start_date": "1946-06-14",
+        "end_date": "1959-09-01",
+        "location": {
+          "city": "Queens",
+          "state_province": "New York",
+          "country": "USA"
+        },
+        "description": "Grew up in Jamaica Estates, Queens, in a wealthy family."
+      },
+      {
+        "type": "Significant Event",
+        "date": "1959-09-01",
+        "description": "At age 13, his parents sent him to the New York Military Academy to correct behavioral issues."
+      }
+    ],
+    "educations": [
+      {
+        "institution_name": "New York Military Academy",
+        "degree": null,
+        "field_of_study": null,
+        "start_date": "1959",
+        "end_date": "1964",
+        "graduation_date": null,
+        "honors": null,
+        "location": {
+          "city": "Cornwall-on-Hudson",
+          "state_province": "New York",
+          "country": "USA"
+        },
+        "notes": "Attended for secondary school."
+      },
+      {
+        "institution_name": "Fordham University",
+        "degree": null,
+        "field_of_study": null,
+        "start_date": "1964",
+        "end_date": "1966",
+        "graduation_date": null,
+        "honors": null,
+        "location": {
+          "city": "New York",
+          "state_province": "New York",
+          "country": "USA"
+        },
+        "notes": "Attended for two years before transferring."
+      },
+      {
+        "institution_name": "The Wharton School of the University of Pennsylvania",
+        "degree": "Bachelor of Science",
+        "field_of_study": "Economics",
+        "start_date": "1966",
+        "end_date": "1968",
+        "graduation_date": "1968",
+        "honors": null,
+        "location": {
+          "city": "Philadelphia",
+          "state_province": "Pennsylvania",
+          "country": "USA"
+        },
+        "notes": "Graduated with a degree in economics."
+      }
+    ],
+    "contact_info": {
+      "email": null,
+      "phone_numbers": [],
+      "addresses": [],
+      "social_media_profiles": []
+    },
+    "career_history": [
+      {
+        "organization": "Elizabeth Trump & Son / The Trump Organization",
+        "position": "President",
+        "start_date": "1968",
+        "end_date": "2017",
+        "responsibilities": [
+          "Led a major expansion of the family real estate business from middle-class housing into luxury projects in Manhattan and beyond",
+          "Oversaw the construction and development of numerous high-profile properties, including Trump Tower and various hotels and golf courses"
+        ],
+        "industry": "Real Estate Development",
+        "notes": "Took over the family business from his father, renaming it 'The Trump Organization' in 1971."
+      },
+      {
+        "organization": "NBC",
+        "position": "Host and Producer of The Apprentice",
+        "start_date": "2004",
+        "end_date": "2015",
+        "responsibilities": [
+          "Hosted the reality television series 'The Apprentice' and 'The Celebrity Apprentice'",
+          "Gained widespread public recognition as a television personality"
+        ],
+        "industry": "Television",
+        "notes": null
+      },
+      {
+        "organization": "U.S. Federal Government",
+        "position": "45th President of the United States",
+        "start_date": "2017-01-20",
+        "end_date": "2021-01-20",
+        "responsibilities": [
+          "Head of state and head of government of the United States",
+          "Commander-in-chief of the U.S. Armed Forces"
+        ],
+        "industry": "Politics/Government",
+        "notes": "Served one term, succeeded by Joe Biden."
+      },
+      {
+        "organization": "U.S. Federal Government",
+        "position": "47th President of the United States",
+        "start_date": "2025-01-20",
+        "end_date": null,
+        "responsibilities": [
+          "Head of state and head of government of the United States",
+          "Commander-in-chief of the U.S. Armed Forces"
+        ],
+        "industry": "Politics/Government",
+        "notes": "Second non-consecutive term."
+      }
+    ],
+    "skills": [],
+    "awards_and_recognitions": [],
+    "parents": [
+      {
+        "name": "Fred C. Trump",
+        "person_id": "0bd24586-e2cf-4df9-93f1-561e460868b1"
+      },
+      {
+        "name": "Mary Anne MacLeod Trump",
+        "person_id": "dcb481e5-49d4-4f38-b1b3-87a4034d0092"
+      }
+    ],
+    "children": [
+      {
+        "name": "Donald Trump Jr.",
+        "person_id": "4f5a6b7c-8d9e-0f1a-b2c3d4e5f6a7b9"
+      },
+      {
+        "name": "Ivanka Trump",
+        "person_id": "5f94281b-fda6-426d-b911-a28d5650814c"
+      },
+      {
+        "name": "Eric Trump",
+        "person_id": "3e4f5a6b-7c8d-9e0f-a1b2c3d4e5f6a8"
+      },
+      {
+        "name": "Tiffany Trump",
+        "person_id": "tiffany-trump-uuid"
+      },
+      {
+        "name": "Barron Trump",
+        "person_id": "barron-trump-uuid"
+      }
+    ],
+    "siblings": [
+      {
+        "name": "Maryanne Trump Barry",
+        "person_id": "maryanne-trump-barry-uuid"
+      },
+      {
+        "name": "Fred Trump Jr.",
+        "person_id": "fred-trump-jr-uuid"
+      },
+      {
+        "name": "Elizabeth Trump Grau",
+        "person_id": "elizabeth-trump-grau-uuid"
+      },
+      {
+        "name": "Robert Trump",
+        "person_id": "robert-trump-uuid"
+      }
+    ]
+  },
+  {
+    "person_id": "fc3ad54f-498e-332f-9aca-9aafb5bf780e",
+    "name": "Marie L. Trump",
+    "initials": "MLT",
+    "first_name": "Marie",
+    "last_Name": "Trump"
+  },
+  {
+    "person_id": "5f94281b-426d-fda6-b911-a28d5650814c",
+    "name": "Ivana Trump",
+    "initials": "IT",
+    "first_name": "Ivana",
+    "last_Name": "Trump"
+  },
+  {
+    "person_id": "5f94281b-fda6-426d-b911-a28d5650814c",
+    "name": "Ivanka Trump",
+    "initials": "IT",
+    "first_name": "Ivanka",
+    "last_Name": "Trump"
+  },
+  {
+    "person_id": "2ce4b1b9-33d0-443b-a7f3-93b543e8a35b",
+    "name": "Michael Cohen",
+    "initials": "MC",
+    "first_name": "Michael",
+    "last_Name": "Cohen"
+  },
+  {
+    "person_id": "f92389c9-65d4-4a7b-a3fa-c4a2f47a1653",
+    "name": "Stormy Daniels",
+    "initials": "SGC",
+    "first_name": "Stephanie",
+    "last_Name": "Gregory Clifford"
+  },
+  {
+    "person_id": "230d78ae-73c6-4609-ac77-d676ff8d6d03",
+    "name": "Melania Trump",
+    "initials": "MT",
+    "first_name": "Melania",
+    "last_Name": "Trump"
+  },
+  {
+    "person_id": "cbd48421-5966-4f0f-af7a-c2a58e5a7c92",
+    "name": "Marla Maples",
+    "initials": "MM",
+    "first_name": "Marla",
+    "last_Name": "Maples"
+  },
+  {
+    "person_id": "d1de71e0-542d-494d-a2b1-00860e6c8d0a",
+    "name": "Jeffrey Epstein",
+    "initials": "JE",
+    "first_name": "Jeffrey",
+    "last_Name": "Epstein"
+  },
+  {
+    "person_id": "e6bfe037-a681-405e-81ec-2b421075c09d",
+    "name": "Rudy Guiliani",
+    "initials": "RG",
+    "first_name": "Rudy",
+    "last_Name": "Guiliani"
+  },
+  {
+    "person_id": "4b5c6d7e-8f9a-0b1c-2d3e-f4a5b6c7d8e9",
+    "name": "David Nahmad",
+    "initials": "DN",
+    "first_name": "David",
+    "last_Name": "Nahmad"
+  },
+  {
+    "person_id": "5c6d7e8f-9a0b-1c2d-3e4f-a5b6c7d8e9f0",
+    "name": "Ernie Garcia",
+    "initials": "EG",
+    "first_name": "Ernie",
+    "last_Name": "Garcia"
+  },
+  {
+    "person_id": "6d7e8f9a-0b1c-2d3e-4f5a-b6c7d8e9f0a1",
+    "name": "Charles Keating",
+    "initials": "CK",
+    "first_name": "Charles",
+    "last_Name": "Keating"
+  },
+  {
+    "person_id": "7e8f9a0b-1c2d-3e4f-5a6b-c7d8e9f0a1b2",
+    "name": "Paul Manafort",
+    "initials": "PM",
+    "first_name": "Paul",
+    "last_Name": "Manafort"
+  },
+  {
+    "person_id": "8f9a0b1c-2d3e-4f5a-6b7c-d8e9f0a1b2c3",
+    "name": "Jose Maria Marin",
+    "initials": "JMM",
+    "first_name": "Jose Maria",
+    "last_Name": "Marin"
+  },
+  {
+    "person_id": "9a0b1c2d-3e4f-5a6b-7c8d-e9f0a1b2c3d4",
+    "name": "Susetta Mion",
+    "initials": "SM",
+    "first_name": "Susetta",
+    "last_Name": "Mion"
+  },
+  {
+    "person_id": "1c2d3e4f-5a6b-7c8d-9e0f-a1b2c3d4e5f6",
+    "name": "Andrew Lloyd Webber",
+    "initials": "ALW",
+    "first_name": "Andrew",
+    "last_Name": "Lloyd Webber"
+  },
+  {
+    "person_id": "2d3e4f5a-6b7c-8d9e-0f1a-b2c3d4e5f6a7",
+    "name": "Jean-Claude Duvalier",
+    "initials": "JCD",
+    "first_name": "Jean-Claude",
+    "last_Name": "Duvalier"
+  },
+  {
+    "person_id": "6cb38473-520f-4b38-accb-905d0e52fdf3",
+    "name": "Matt Gaetz",
+    "initials": "MG",
+    "first_name": "Matt",
+    "last_Name": "Gaetz"
+  },
+  {
+    "person_id": "c78ae857-fed7-4c38-b38d-5b74a6395c7a",
+    "name": "Steven Banon",
+    "initials": "SB",
+    "first_name": "Steven",
+    "last_Name": "Banon"
+  },
+  {
+    "person_id": "b2c3d4e5-f6a7-8901-2345-67890abcdef0",
+    "name": "Der Scutt",
+    "initials": "DS",
+    "first_name": "Der",
+    "last_Name": "Scutt"
+  },
+  {
+    "person_id": "c3d4e5f6-a7b8-9012-3456-7890abcdef01",
+    "name": "Bruce Willis",
+    "initials": "BW",
+    "first_name": "Bruce",
+    "last_Name": "Willis"
+  },
+  {
+    "person_id": "d4e5f6a7-b8c9-0123-4567-890abcdef012",
+    "name": "Juan Beckmann Vidal",
+    "initials": "JBV",
+    "first_name": "Juan",
+    "last_Name": "Beckmann Vidal"
+  },
+  {
+    "person_id": "e5f6a7b8-c9d0-1234-5678-90abcdef0123",
+    "name": "Hillel Nahmad",
+    "initials": "HN",
+    "first_name": "Hillel",
+    "last_Name": "Nahmad"
+  },
+  {
+    "person_id": "f6a7b8c9-d0e1-2345-6789-0abcdef01234",
+    "name": "Vincent Gallo",
+    "initials": "VG",
+    "first_name": "Vincent",
+    "last_Name": "Gallo"
+  },
+  {
+    "person_id": "1a2b3c4d-5e6f-7a8b-9c0d-e1f2a3b4c5d6",
+    "name": "Paul Goldberger",
+    "initials": "PG",
+    "first_name": "Paul",
+    "last_Name": "Goldberger"
+  },
+  {
+    "person_id": "2b3c4d5e-6f7a-8b9c-0d1e-f2a3b4c5d6e7",
+    "name": "Jonathan Greenberg",
+    "initials": "JF",
+    "first_name": "Jonathan",
+    "last_Name": "Greenberg"
+  },
+  {
+    "person_id": "4d5e6f7a-8b9c-0d1e-2f3a-b4c5d6e7f8a9",
+    "name": "Prince Charles",
+    "initials": "PC",
+    "first_name": "Charles",
+    "last_Name": ""
+  },
+  {
+    "person_id": "5e6f7a8b-9c0d-1e2f-3a4b-c5d6e7f8a9b0",
+    "name": "Princess Diana",
+    "initials": "PD",
+    "first_name": "Diana",
+    "last_Name": ""
+  },
+  {
+    "person_id": "6f7a8b9c-0d1e-2f3a-4b5c-d6e7f8a9b0c1",
+    "name": "Johnny Carson",
+    "initials": "JC",
+    "first_name": "Johnny",
+    "last_Name": "Carson"
+  },
+  {
+    "person_id": "7a8b9c0d-1e2f-3a4b-5c6d-e7f8a9b0c1d2",
+    "name": "Sophia Loren",
+    "initials": "SL",
+    "first_name": "Sophia",
+    "last_Name": "Loren"
+  },
+  {
+    "person_id": "8b9c0d1e-2f3a-4b5c-6d7e-f8a9b0c1d2e3",
+    "name": "Wayne Barrett",
+    "initials": "WB",
+    "first_name": "Wayne",
+    "last_Name": "Barrett"
+  },
+  {
+    "person_id": "3e4f5a6b-7c8d-9e0f-a1b2c3d4e5f6a8",
+    "name": "Eric Trump",
+    "initials": "ET",
+    "first_name": "Eric",
+    "last_Name": "Trump"
+  },
+  {
+    "person_id": "4f5a6b7c-8d9e-0f1a-b2c3d4e5f6a7b9",
+    "name": "Donald Trump Jr.",
+    "initials": "DTJ",
+    "first_name": "Donald",
+    "last_Name": "Trump Jr."
+  },
+  {
+    "person_id": "pers-rfkjr-01",
+    "name": "Robert F. Kennedy Jr.",
+    "initials": "RFK",
+    "first_name": "Robert F.",
+    "middle_name": null,
+    "last_name": "Kennedy Jr."
+  },
+  {
+    "person_id": "5a6b7c8d-9e0f-a1b2-c3d4-e5f6a7b8c9d0",
+    "name": "Alexander Hamilton",
+    "initials": "AH",
+    "first_name": "Alexander",
+    "last_Name": "Hamilton"
+  },
+  {
+    "person_id": "6b7c8d9e-0f1a-b2c3-d4e5-f6a7b8c9d0e1",
+    "name": "Walter Shaub",
+    "initials": "WS",
+    "first_name": "Walter",
+    "last_Name": "Shaub"
+  },
+  {
+    "person_id": "7c8d9e0f-1a2b-3c4d-5e6f-a7b8c9d0e1f2",
+    "name": "Alan Garten",
+    "initials": "AG",
+    "first_name": "Alan",
+    "last_Name": "Garten"
+  },
+  {
+    "person_id": "8d9e0f1a-2b3c-4d5e-6f7a-b8c9d0e1f2a3",
+    "name": "Maureen Ohlhausen",
+    "initials": "MO",
+    "first_name": "Maureen",
+    "last_Name": "Ohlhausen"
+  },
+  {
+    "person_id": "9e0f1a2b-3c4d-5e6f-7a8b-c9d0e1f2a3b4",
+    "name": "Sheri Dillon",
+    "initials": "SD",
+    "first_name": "Sheri",
+    "last_Name": "Dillon"
+  },
+  {
+    "person_id": "0f1a2b3c-4d5e-6f7a-8b9c-d0e1f2a3b4c5",
+    "name": "Emin Agalarov",
+    "initials": "EA",
+    "first_name": "Emin",
+    "last_Name": "Agalarov"
+  },
+  {
+    "person_id": "1a2b3c4d-5e6f-7a8b-9c0d-e1f2a3b4c5d6e7",
+    "name": "Rupert Murdoch",
+    "initials": "RM",
+    "first_name": "Rupert",
+    "last_Name": "Murdoch"
+  },
+  {
+    "person_id": "9c0d1e2f-3a4b-5c6d-7e8f-a9b0c1d2e3f4",
+    "name": "Jose Felix Diaz",
+    "initials": "JFD",
+    "first_name": "Jose Felix",
+    "last_Name": "Diaz"
+  },
+  {
+    "person_id": "0d1e2f3a-4b5c-6d7e-8f9a-b0c1d2e3f4a5",
+    "name": "Shinzo Abe",
+    "initials": "SA",
+    "first_name": "Shinzo",
+    "last_Name": "Abe"
+  },
+  {
+    "person_id": "1e2f3a4b-5c6d-7e8f-9a0b-c1d2e3f4a5b6",
+    "name": "Joe Biden",
+    "initials": "JB",
+    "first_name": "Joe",
+    "last_Name": "Biden"
+  },
+  {
+    "person_id": "2f3a4b5c-6d7e-8f9a-0b1c-d2e3f4a5b6c7",
+    "name": "Wendy Maitland",
+    "initials": "WM",
+    "first_name": "Wendy",
+    "last_Name": "Maitland"
+  },
+  {
+    "person_id": "3a4b5c6d-7e8f-9a0b-1c2d-e3f4a5b6c7d8",
+    "name": "Steve Witkoff",
+    "initials": "SW",
+    "first_name": "Steve",
+    "last_Name": "Witkoff"
+  },
+  {
+    "person_id": "a7b8c9d0-e1f2-3456-7890-bcdef0123456",
+    "name": "Guido Lombardi",
+    "initials": "GL",
+    "first_name": "Guido",
+    "last_Name": "Lombardi"
+  },
+  {
+    "person_id": "b8c9d0e1-f2a3-4567-8901-cdef01234567",
+    "name": "Steven Spielberg",
+    "initials": "SS",
+    "first_name": "Steven",
+    "last_Name": "Spielberg"
+  },
+  {
+    "person_id": "c9d0e1f2-a3b4-5678-9012-def012345678",
+    "name": "Michael Jackson",
+    "initials": "MJ",
+    "first_name": "Michael",
+    "last_Name": "Jackson"
+  },
+  {
+    "person_id": "d0e1f2a3-b4c5-6d7e-8f9a-0b1c2d3e4f5a",
+    "name": "Adnan Khashoggi",
+    "initials": "AK",
+    "first_name": "Adnan",
+    "last_Name": "Khashoggi"
+  },
+  {
+    "person_id": "0c436048-c4b9-4317-8d1e-1964c877433b",
+    "name": "Jack Smith",
+    "initials": "JS",
+    "first_name": "Jack",
+    "last_Name": "Smith"
+  },
+  {
+    "person_id": "b694ad2e-f1cf-4524-a18e-dd1fa00f5651",
+    "name": "Fanni Willis",
+    "initials": "FW",
+    "first_name": "Fanni",
+    "last_Name": "Willis"
+  },
+  {
+    "person_id": "677caa0c-04f8-4371-a98f-4cbd0ea2a067",
+    "name": "Alvin Bragg",
+    "initials": "AB",
+    "first_name": "Alvin",
+    "last_Name": "Bragg"
+  },
+  {
+    "person_id": "c940103e-c0ea-422d-8467-3c58567ef8f1",
+    "name": "Billy Bush",
+    "initials": "BB",
+    "first_name": "Billy",
+    "last_Name": "Bush"
+  },
+  {
+    "person_id": "59f6bfd8-ee6e-495a-83a0-ef8da81bdc79",
+    "name": "E Jean Carroll",
+    "initials": "EJC",
+    "first_name": "E Jean",
+    "last_Name": "Carroll"
+  },
+  {
+    "person_id": "cfef1717-762e-4b9b-bc3c-97a53581c2ef",
+    "name": "Laeticia James",
+    "initials": "LJ",
+    "first_name": "Laeticia",
+    "last_Name": "James"
+  },
+  {
+    "person_id": "5f42648d-4dae-4ead-9a34-e0360e03f464",
+    "name": "Aileen Cannon",
+    "initials": "AC",
+    "first_name": "Aileen",
+    "last_Name": "Cannon"
+  },
+  {
+    "person_id": "fd0ec94f-f96f-4559-ba26-9c85ab088fc4",
+    "name": "Kim Jong Un",
+    "initials": "KJU",
+    "first_name": "Jong Un",
+    "last_Name": "Kim"
+  },
+  {
+    "person_id": "addf23fe-3f24-4a05-b740-6f6133cd3ff5",
+    "name": "Wladimir Putin",
+    "initials": "WP",
+    "first_name": "Wladimir",
+    "last_Name": "Putin"
+  },
+  {
+    "person_id": "cc04be5b-59b0-44db-8a18-9acf210c9dd6",
+    "name": "Pete Hegseth",
+    "initials": "PH",
+    "first_name": "Pete",
+    "last_Name": "Hegseth"
+  },
+  {
+    "person_id": "dffb877f-af07-4209-8ca1-5f58ba733529",
+    "name": "Alex Jones",
+    "initials": "AJ",
+    "first_name": "Alex",
+    "last_Name": "Jones",
+    "wikipedia_url": ""
+  },
+  {
+    "person_id": "affe6dea-ddea-4003-a1a8-d7ff76447b48",
+    "name": "Sean Hannity",
+    "initials": "SH",
+    "first_name": "Sean",
+    "last_Name": "Hannity"
+  },
+  {
+    "person_id": "c71efbfa-ff48-47ca-bb3a-114fb620c736",
+    "name": "Kash Patel",
+    "initials": "KP",
+    "first_name": "Kash",
+    "last_Name": "Patel"
+  },
+  {
+    "person_id": "90945883-cca2-4fc6-9cd0-79e81b12e866",
+    "name": "John Eastman",
+    "initials": "JE",
+    "first_name": "John",
+    "last_Name": "Eastman"
+  },
+  {
+    "person_id": "f9fc6ee9-4f78-4d58-941b-a1fbc611a00d",
+    "name": "Sidney Powell",
+    "initials": "SP",
+    "first_name": "Sidney",
+    "last_Name": "Powell"
+  },
+  {
+    "person_id": "4138e7e4-1368-4bc3-a0ca-011c0022d447",
+    "name": "Brad Raffensberger",
+    "initials": "BR",
+    "first_name": "Brad",
+    "last_Name": "Raffensberger"
+  },
+ {
+    "person_id": "8a1a7f4e-2e4a-4b9e-8c6d-1f3a2b5c8d7e",
+    "name": "Daniel Bouaziz",
+    "initials": "DB",
+    "first_name": "Daniel",
+    "last_Name": "Bouaziz",
+    "wikipedia_url": ""
+  },
+  {
+    "person_id": "c3b2a1f0-9e8d-4c7b-a6f5-e4d3c2b1a0f9",
+    "name": "Sophia Baratashvili",
+    "initials": "SB",
+    "first_name": "Sophia",
+    "last_Name": "Baratashvili",
+    "wikipedia_url": ""
+  },
+  {
+    "person_id": "d1e0f9c8-7b6a-4e5d-9c8b-a0f9e8d7c6b5",
+    "name": "Howie Carr",
+    "initials": "HC",
+    "first_name": "Howie",
+    "last_Name": "Carr",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Howie_Carr"
+  },
+  {
+    "person_id": "f9e8d7c6-b5a4-4d3c-8b2a-1f0e9d8c7b6a",
+    "name": "Kathy Carr",
+    "initials": "KC",
+    "first_name": "Kathy",
+    "last_Name": "Carr",
+    "wikipedia_url": ""
+  },
+  {
+    "person_id": "a0f9e8d7-c6b5-4a4d-b3c2-a1f0e9d8c7b6",
+    "name": "Gil Cohen",
+    "initials": "GC",
+    "first_name": "Gil",
+    "last_Name": "Cohen",
+    "wikipedia_url": ""
+  },
+  {
+    "person_id": "b1a0f9e8-d7c6-4b5a-a4d3-c2b1a0f9e8d7",
+    "name": "Paul Gervais",
+    "initials": "PG",
+    "first_name": "Paul",
+    "last_Name": "Gervais",
+    "wikipedia_url": ""
+  },
+  {
+    "person_id": "e9d8c7b6-a5f4-4e3d-b2c1-a0f9e8d7c6b5",
+    "name": "Jean Doyen De Montaillou",
+    "initials": "JDM",
+    "first_name": "Jean",
+    "last_Name": "Doyen De Montaillou",
+    "wikipedia_url": ""
+  },
+  {
+    "person_id": "f8e7d6c5-b4a3-4d2c-a1b0-f9e8d7c6b5a4",
+    "name": "Michel Kovner",
+    "initials": "MK",
+    "first_name": "Michel",
+    "last_Name": "Kovner",
+    "wikipedia_url": ""
+  },
+  {
+    "person_id": "0d9c8b7a-6f5e-4d3c-b2a1-f0e9d8c7b6a5",
+    "name": "Robert Falk",
+    "initials": "RF",
+    "first_name": "Robert",
+    "last_Name": "Falk",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Robert_Falk"
+  },
+  {
+    "person_id": "1c8b7a6f-5e4d-4c3b-a2b1-f0e9d8c7b6a5",
+    "name": "Susan Falk",
+    "initials": "SF",
+    "first_name": "Susan",
+    "last_Name": "Falk",
+    "wikipedia_url": ""
+  },
+  {
+    "person_id": "8b3f4c6e-1d5g-4h7j-8k9l-2m4n6p8r0t1u",
+    "name": "Diane Lokey Farb",
+    "initials": "DLF",
+    "first_name": "Diane",
+    "last_Name": "Farb",
+    "wikipedia_url": ""
+  },
+  {
+    "person_id": "a1b2c3d4-e5f6-4a7b-8c9d-0e1f2a3b4c5d",
+    "name": "Carol Glazer",
+    "initials": "CG",
+    "first_name": "Carol",
+    "last_Name": "Glazer",
+    "wikipedia_url": ""
+  },
+  {
+    "person_id": "f0e9d8c7-b6a5-4f3e-a2b1-c0d9e8f7a6b5",
+    "name": "John Colamarino",
+    "initials": "JC",
+    "first_name": "John",
+    "last_Name": "Colamarino",
+    "wikipedia_url": ""
+  },
+  {
+    "person_id": "5a4b3c2d-1e0f-4d9c-8b7a-6f5e4d3c2b1a",
+    "name": "Andrew Greenbaum",
+    "initials": "AG",
+    "first_name": "Andrew",
+    "last_Name": "Greenbaum",
+    "wikipedia_url": ""
+  },
+  {
+    "person_id": "c9d8e7f6-a5b4-4c3d-b2a1-f0e9d8c7b6a5",
+    "name": "Myrna Haft",
+    "initials": "MH",
+    "first_name": "Myrna",
+    "last_Name": "Haft",
+    "wikipedia_url": ""
+  },
+  {
+    "person_id": "4d3c2b1a-0f9e-4a8b-7c6d-5e4f3a2b1c0d",
+    "name": "Gerald Herz",
+    "initials": "GH",
+    "first_name": "Gerald",
+    "last_Name": "Herz",
+    "wikipedia_url": ""
+  },
+  {
+    "person_id": "e7f6a5b4-c3d2-4e1f-a0b9-d8c7b6a5f4e3",
+    "name": "Isabelle Herz",
+    "initials": "IH",
+    "first_name": "Isabelle",
+    "last_Name": "Herz",
+    "wikipedia_url": ""
+  },
+  {
+    "person_id": "2b1a0f9e-8d7c-4b6a-5f4e-3d2c1b0a9f8e",
+    "name": "Thomas Hutchison",
+    "initials": "TH",
+    "first_name": "Thomas",
+    "last_Name": "Hutchison",
+    "wikipedia_url": ""
+  },
+  {
+    "person_id": "a5b4c3d2-e1f0-4a9b-8c7d-6e5f4a3b2c1d",
+    "name": "Deanne Hutchison",
+    "initials": "DH",
+    "first_name": "Deanne",
+    "last_Name": "Hutchison",
+    "wikipedia_url": ""
+  },
+  {
+    "person_id": "f9e8d7c6-b5a4-4d3c-b2a1-f0e9d8c7b6a5",
+    "name": "Simon Isaacs",
+    "initials": "SI",
+    "first_name": "Simon",
+    "last_Name": "Isaacs",
+    "wikipedia_url": ""
+  },
+  {
+    "person_id": "4c3b2a1f-0e9d-4c8b-7a6f-5e4d3c2b1a0f",
+    "name": "Tiffany Isaacs",
+    "initials": "TI",
+    "first_name": "Tiffany",
+    "last_Name": "Isaacs",
+    "wikipedia_url": ""
+  },
+  {
+    "person_id": "e7f6a5b4-c3d2-4e1f-a0b9-d8c7b6a5f4e3",
+    "name": "Paula Leed",
+    "initials": "PL",
+    "first_name": "Paula",
+    "last_Name": "Leed",
+    "wikipedia_url": ""
+  },
+  {
+    "person_id": "2b1a0f9e-8d7c-4b6a-5f4e-3d2c1b0a9f8e",
+    "name": "Richard Aron",
+    "initials": "RA",
+    "first_name": "Richard",
+    "last_Name": "Aron",
+    "wikipedia_url": ""
+  },
+  {
+    "person_id": "a5b4c3d2-e1f0-4a9b-8c7d-6e5f4a3b2c1d",
+    "name": "Arthur Levine",
+    "initials": "AL",
+    "first_name": "Arthur",
+    "last_Name": "Levine",
+    "wikipedia_url": ""
+  },
+  {
+    "person_id": "f9e8d7c6-b5a4-4d3c-b2a1-f0e9d8c7b6a5",
+    "name": "Arlene Levine",
+    "initials": "AL",
+    "first_name": "Arlene",
+    "last_Name": "Levine",
+    "wikipedia_url": ""
+  },
+  {
+    "person_id": "4c3b2a1f-0e9d-4c8b-7a6f-5e4d3c2b1a0f",
+    "name": "Steven Michael",
+    "initials": "SM",
+    "first_name": "Steven",
+    "last_Name": "Michael",
+    "wikipedia_url": ""
+  },
+  {
+    "person_id": "e7f6a5b4-c3d2-4e1f-a0b9-d8c7b6a5f4e3",
+    "name": "Anand Patel",
+    "initials": "AP",
+    "first_name": "Anand",
+    "last_Name": "Patel",
+    "wikipedia_url": ""
+  },
+  {
+    "person_id": "2b1a0f9e-8d7c-4b6a-5f4e-3d2c1b0a9f8e",
+    "name": "Mina Patel",
+    "initials": "MP",
+    "first_name": "Mina",
+    "last_Name": "Patel",
+    "wikipedia_url": ""
+  },
+  {
+    "person_id": "a5b4c3d2-e1f0-4a9b-8c7d-6e5f4a3b2c1d",
+    "name": "Mica Mosbacher",
+    "initials": "MM",
+    "first_name": "Mica",
+    "last_Name": "Mosbacher",
+    "wikipedia_url": ""
+  },
+  {
+    "person_id": "f9e8d7c6-b5a4-4d3c-b2a1-f0e9d8c7b6a5",
+    "name": "Thomas Peterffy",
+    "initials": "TP",
+    "first_name": "Thomas",
+    "last_Name": "Peterffy",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Thomas_Peterffy"
+  },
+  {
+    "person_id": "4c3b2a1f-0e9d-4c8b-7a6f-5e4d3c2b1a0f",
+    "name": "Lawrence Rolnick",
+    "initials": "LR",
+    "first_name": "Lawrence",
+    "last_Name": "Rolnick",
+    "wikipedia_url": ""
+  },
+ 
+
+  {
+    "person_id": "1a2b3c4d-5e6f-4a7b-8c9d-0e1f2a3b4c5d",
+    "name": "Kimberly Sorrentino",
+    "initials": "KS",
+    "first_name": "Kimberly",
+    "last_Name": "Sorrentino",
+    "wikipedia_url": ""
+  },
+  {
+    "person_id": "f0e9d8c7-b6a5-4f3e-a2b1-c0d9e8f7a6b5",
+    "name": "John Sites",
+    "initials": "JS",
+    "first_name": "John",
+    "last_Name": "Sites",
+    "wikipedia_url": ""
+  },
+  {
+    "person_id": "5a4b3c2d-1e0f-4d9c-8b7a-6f5e4d3c2b1a",
+    "name": "Cindy Sites",
+    "initials": "CS",
+    "first_name": "Cindy",
+    "last_Name": "Sites",
+    "wikipedia_url": ""
+  },
+  {
+    "person_id": "c9d8e7f6-a5b4-4c3d-b2a1-f0e9d8c7b6a5",
+    "name": "Carolyn Sakolsky",
+    "initials": "CS",
+    "first_name": "Carolyn",
+    "last_Name": "Sakolsky",
+    "wikipedia_url": ""
+  },
+  {
+    "person_id": "4d3c2b1a-0f9e-4a8b-7c6d-5e4f3a2b1c0d",
+    "name": "Frederick Rustmann",
+    "initials": "FR",
+    "first_name": "Frederick",
+    "last_Name": "Rustmann",
+    "wikipedia_url": ""
+  },
+  {
+    "person_id": "e7f6a5b4-c3d2-4e1f-a0b9-d8c7b6a5f4e3",
+    "name": "Marc Solomon",
+    "initials": "MS",
+    "first_name": "Marc",
+    "last_Name": "Solomon",
+    "wikipedia_url": ""
+  },
+  {
+    "person_id": "2b1a0f9e-8d7c-4b6a-5f4e-3d2c1b0a9f8e",
+    "name": "Cathy Solomon",
+    "initials": "CS",
+    "first_name": "Cathy",
+    "last_Name": "Solomon",
+    "wikipedia_url": ""
+  },
+  {
+    "person_id": "a5b4c3d2-e1f0-4a9b-8c7d-6e5f4a3b2c1d",
+    "name": "Robert Zelman",
+    "initials": "RZ",
+    "first_name": "Robert",
+    "last_Name": "Zelman",
+    "wikipedia_url": ""
+  },
+  {
+    "person_id": "f9e8d7c6-b5a4-4d3c-b2a1-f0e9d8c7b6a5",
+    "name": "Jennifer Zelman",
+    "initials": "JZ",
+    "first_name": "Jennifer",
+    "last_Name": "Zelman",
+    "wikipedia_url": ""
+  },
+  {
+    "person_id": "4c3b2a1f-0e9d-4c8b-7a6f-5e4d3c2b1a0f",
+    "name": "Carlos Arredondo",
+    "initials": "CA",
+    "first_name": "Carlos",
+    "last_Name": "Arredondo",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Carlos_Arredondo"
+  },
+  {
+    "person_id": "d2c1b0a9-f8e7-4b6a-5f4e-3d2c1b0a9f8e",
+    "name": "Mari Arredondo",
+    "initials": "MA",
+    "first_name": "Mari",
+    "last_Name": "Arredondo",
+    "wikipedia_url": ""
+  },
+  {
+    "person_id": "e1f0a9b8-c7d6-4e5f-a4b3-c2d1e0a9b8c7",
+    "name": "Carlin Axelrod",
+    "initials": "CA",
+    "first_name": "Carlin",
+    "last_Name": "Axelrod",
+    "wikipedia_url": ""
+  },
+  {
+    "person_id": "b0a9f8e7-d6c5-4b4a-9f8e-7d6c5b4a3f2e",
+    "name": "Brenda Axelrod",
+    "initials": "BA",
+    "first_name": "Brenda",
+    "last_Name": "Axelrod",
+    "wikipedia_url": ""
+  },
+  {
+    "person_id": "a9b8c7d6-e5f4-4a3b-8c7d-6e5f4a3b2c1d",
+    "name": "Robert Berg",
+    "initials": "RB",
+    "first_name": "Robert",
+    "last_Name": "Berg",
+    "wikipedia_url": ""
+  },
+  {
+    "person_id": "f8e7d6c5-b4a3-4d2c-a1b0-f9e8d7c6b5a4",
+    "name": "Theodore Berman",
+    "initials": "TB",
+    "first_name": "Theodore",
+    "last_Name": "Berman",
+    "wikipedia_url": ""
+  },
+  {
+    "person_id": "0d9c8b7a-6f5e-4d3c-b2a1-f0e9d8c7b6a5",
+    "name": "Debbie Berman",
+    "initials": "DB",
+    "first_name": "Debbie",
+    "last_Name": "Berman",
+    "wikipedia_url": ""
+  },
+  {
+    "person_id": "1c8b7a6f-5e4d-4c3b-a2b1-f0e9d8c7b6a5",
+    "name": "Raul Bernal-Mora",
+    "initials": "RBM",
+    "first_name": "Raul",
+    "last_Name": "Bernal-Mora",
+    "wikipedia_url": ""
+  },
+  {
+    "person_id": "2b7a6f5e-4d3c-4b2a-91f0-e9d8c7b6a5f4",
+    "name": "Julia Shen",
+    "initials": "JS",
+    "first_name": "Julia",
+    "last_Name": "Shen",
+    "wikipedia_url": ""
+  },
+  {
+    "person_id": "3a6f5e4d-3c2b-4a1f-8e7d-6c5b4a3f2e1d",
+    "name": "Richard Brudner",
+    "initials": "RB",
+    "first_name": "Richard",
+    "last_Name": "Brudner",
+    "wikipedia_url": ""
+  },
+  {
+    "person_id": "4b5a4f3e-2d1c-4b0a-7f6e-5d4c3b2a1f0e",
+    "name": "Roberta Brudner",
+    "initials": "RB",
+    "first_name": "Roberta",
+    "last_Name": "Brudner",
+    "wikipedia_url": ""
+  }
+ ,
+ {
+    "person_id": "a1b2c3d4-e5f6-4a7b-8c9d-0e1f2a3b4c5d",
+    "name": "Frank Foti",
+    "initials": "FF",
+    "first_name": "Frank",
+    "last_Name": "Foti",
+    "wikipedia_url": ""
+  },
+  {
+    "person_id": "f0e9d8c7-b6a5-4f3e-a2b1-c0d9e8f7a6b5",
+    "name": "Christine Foti",
+    "initials": "CF",
+    "first_name": "Christine",
+    "last_Name": "Foti",
+    "wikipedia_url": ""
+  },
+  {
+    "person_id": "5a4b3c2d-1e0f-4d9c-8b7a-6f5e4d3c2b1a",
+    "name": "Thomas Fuchs",
+    "initials": "TF",
+    "first_name": "Thomas",
+    "last_Name": "Fuchs",
+    "wikipedia_url": ""
+  },
+  {
+    "person_id": "c9d8e7f6-a5b4-4c3d-b2a1-f0e9d8c7b6a5",
+    "name": "Kathleen Fuchs",
+    "initials": "KF",
+    "first_name": "Kathleen",
+    "last_Name": "Fuchs",
+    "wikipedia_url": ""
+  },
+  {
+    "person_id": "4d3c2b1a-0f9e-4a8b-7c6d-5e4f3a2b1c0d",
+    "name": "Joseph Hankin",
+    "initials": "JH",
+    "first_name": "Joseph",
+    "last_Name": "Hankin",
+    "wikipedia_url": ""
+  },
+  {
+    "person_id": "e7f6a5b4-c3d2-4e1f-a0b9-d8c7b6a5f4e3",
+    "name": "Carole Hankin",
+    "initials": "CH",
+    "first_name": "Carole",
+    "last_Name": "Hankin",
+    "wikipedia_url": ""
+  },
+  {
+    "person_id": "2b1a0f9e-8d7c-4b6a-5f4e-3d2c1b0a9f8e",
+    "name": "Joel Hirsch",
+    "initials": "JH",
+    "first_name": "Joel",
+    "last_Name": "Hirsch",
+    "wikipedia_url": ""
+  },
+  {
+    "person_id": "a5b4c3d2-e1f0-4a9b-8c7d-6e5f4a3b2c1d",
+    "name": "Cynthia Hirsch",
+    "initials": "CH",
+    "first_name": "Cynthia",
+    "last_Name": "Hirsch",
+    "wikipedia_url": ""
+  },
+  {
+    "person_id": "f9e8d7c6-b5a4-4d3c-b2a1-f0e9d8c7b6a5",
+    "name": "Mark Holloway",
+    "initials": "MH",
+    "first_name": "Mark",
+    "last_Name": "Holloway",
+    "wikipedia_url": ""
+  },
+  {
+    "person_id": "4c3b2a1f-0e9d-4c8b-7a6f-5e4d3c2b1a0f",
+    "name": "Tricia Holloway",
+    "initials": "TH",
+    "first_name": "Tricia",
+    "last_Name": "Holloway",
+    "wikipedia_url": ""
+  },
+  {
+    "person_id": "d2c1b0a9-f8e7-4b6a-5f4e-3d2c1b0a9f8e",
+    "name": "Richard Horowitz",
+    "initials": "RH",
+    "first_name": "Richard",
+    "last_Name": "Horowitz",
+    "wikipedia_url": ""
+  },
+  {
+    "person_id": "e1f0a9b8-c7d6-4e5f-a4b3-c2d1e0a9b8c7",
+    "name": "Heidi Horowitz",
+    "initials": "HH",
+    "first_name": "Heidi",
+    "last_Name": "Horowitz",
+    "wikipedia_url": ""
+  },
+  {
+    "person_id": "b0a9f8e7-d6c5-4b4a-9f8e-7d6c5b4a3f2e",
+    "name": "Glenn Kaplan",
+    "initials": "GK",
+    "first_name": "Glenn",
+    "last_Name": "Kaplan",
+    "wikipedia_url": ""
+  },
+  {
+    "person_id": "a9b8c7d6-e5f4-4a3b-8c7d-6e5f4a3b2c1d",
+    "name": "Susan Kaplan",
+    "initials": "SK",
+    "first_name": "Susan",
+    "last_Name": "Kaplan",
+    "wikipedia_url": ""
+  },
+  {
+    "person_id": "f8e7d6c5-b4a3-4d2c-a1b0-f9e8d7c6b5a4",
+    "name": "Harvey Kroiz",
+    "initials": "HK",
+    "first_name": "Harvey",
+    "last_Name": "Kroiz",
+    "wikipedia_url": ""
+  },
+  {
+    "person_id": "0d9c8b7a-6f5e-4d3c-b2a1-f0e9d8c7b6a5",
+    "name": "Barbara Kroiz",
+    "initials": "BK",
+    "first_name": "Barbara",
+    "last_Name": "Kroiz",
+    "wikipedia_url": ""
+  },
+  {
+    "person_id": "1c8b7a6f-5e4d-4c3b-a2b1-f0e9d8c7b6a5",
+    "name": "Laetitia Koch",
+    "initials": "LK",
+    "first_name": "Laetitia",
+    "last_Name": "Koch",
+    "wikipedia_url": ""
+  },
+  {
+    "person_id": "2b7a6f5e-4d3c-4b2a-91f0-e9d8c7b6a5f4",
+    "name": "Clifford Lane",
+    "initials": "CL",
+    "first_name": "Clifford",
+    "last_Name": "Lane",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Clifford_Lane"
+  },
+  {
+    "person_id": "3a6f5e4d-3c2b-4a1f-8e7d-6c5b4a3f2e1d",
+    "name": "Randi Lane",
+    "initials": "RL",
+    "first_name": "Randi",
+    "last_Name": "Lane",
+    "wikipedia_url": ""
+  },
+  {
+    "person_id": "4b5a4f3e-2d1c-4b0a-7f6e-5d4c3b2a1f0e",
+    "name": "Urs Ledermann",
+    "initials": "UL",
+    "first_name": "Urs",
+    "last_Name": "Ledermann",
+    "wikipedia_url": ""
+  },
+  {
+    "person_id": "5c4d3e2f-1c0b-4c9a-6e5d-4c3b2a1f0e9d",
+    "name": "Anna Maria Ledermann",
+    "initials": "AML",
+    "first_name": "Anna Maria",
+    "last_Name": "Ledermann",
+    "wikipedia_url": ""
+  },
+  {
+    "person_id": "6d3c2b1a-0f9e-4a8b-7c6d-5e4f3a2b1c0d",
+    "name": "Lloyd Miller",
+    "initials": "LM",
+    "first_name": "Lloyd",
+    "last_Name": "Miller",
+    "wikipedia_url": ""
+  },
+  {
+    "person_id": "7e2f1a0b-9e8d-4b7a-6f5e-4d3c2b1a0f9e",
+    "name": "Susan Miller",
+    "initials": "SM",
+    "first_name": "Susan",
+    "last_Name": "Miller",
+    "wikipedia_url": ""
+  },
+  {
+    "person_id": "8f1a0b9e-8d7c-4a6f-5e4d-3c2b1a0f9e8d",
+    "name": "Mitchell Ritten Quain",
+    "initials": "MRQ",
+    "first_name": "Mitchell Ritten",
+    "last_Name": "Quain",
+    "wikipedia_url": ""
+  },
+  {
+    "person_id": "9a0b9e8d-7c6b-4f5e-4d3c-2b1a0f9e8d7c",
+    "name": "Philip Nicozi",
+    "initials": "PN",
+    "first_name": "Philip",
+    "last_Name": "Nicozi",
+    "wikipedia_url": ""
+  },
+  {
+    "person_id": "a9b8c7d6-e5f4-4a3b-8c7d-6e5f4a3b2c1d",
+    "name": "Laetitia Ritten Quain",
+    "initials": "LRQ",
+    "first_name": "Laetitia",
+    "last_Name": "Ritten Quain",
+    "wikipedia_url": ""
+  },
+  {
+    "person_id": "b8c7d6e5-f4a3-4d2c-a1b0-f9e8d7c6b5a4",
+    "name": "Edward Robinson",
+    "initials": "ER",
+    "first_name": "Edward",
+    "last_Name": "Robinson",
+    "wikipedia_url": ""
+  },
+  {
+    "person_id": "c7d6e5f4-a3b2-4c1b-b0a9-e8d7c6b5a4f3",
+    "name": "Deborah Robinson",
+    "initials": "DR",
+    "first_name": "Deborah",
+    "last_Name": "Robinson",
+    "wikipedia_url": ""
+  },
+  {
+    "person_id": "d6e5f4a3-b2a1-4b0a-a9f8-d7c6b5a4f3e2",
+    "name": "Martin Schlossberg",
+    "initials": "MS",
+    "first_name": "Martin",
+    "last_Name": "Schlossberg",
+    "wikipedia_url": ""
+  },
+  {
+    "person_id": "e5f4a3b2-a1b0-4a9f-9e8d-7c6b5a4f3e2d",
+    "name": "Andrea Schlossberg",
+    "initials": "AS",
+    "first_name": "Andrea",
+    "last_Name": "Schlossberg",
+    "wikipedia_url": ""
+  },
+  {
+    "person_id": "f4a3b2a1-b0a9-49f8-e7d6-c5b4a3f2e1d0",
+    "name": "Ira Schneider",
+    "initials": "IS",
+    "first_name": "Ira",
+    "last_Name": "Schneider",
+    "wikipedia_url": ""
+  },
+  {
+    "person_id": "03b2a1b0-a9f8-48e7-d6c5-b4a3f2e1d0c9",
+    "name": "Whitney Schneider",
+    "initials": "WS",
+    "first_name": "Whitney",
+    "last_Name": "Schneider",
+    "wikipedia_url": ""
+  },
+  {
+    "person_id": "12a1b0a9-f8e7-47d6-c5b4-a3f2e1d0c9b8",
+    "name": "Martin Schneider",
+    "initials": "MS",
+    "first_name": "Martin",
+    "last_Name": "Schneider",
+    "wikipedia_url": ""
+  },
+  {
+    "person_id": "21b0a9f8-e7d6-46c5-b4a3-f2e1d0c9b8a7",
+    "name": "Audrey Schneider",
+    "initials": "AS",
+    "first_name": "Audrey",
+    "last_Name": "Schneider",
+    "wikipedia_url": ""
+  },
+  {
+    "person_id": "30a9f8e7-d6c5-45b4-a3f2-e1d0c9b8a7b6",
+    "name": "Robert Shalam",
+    "initials": "RS",
+    "first_name": "Robert",
+    "last_Name": "Shalam",
+    "wikipedia_url": ""
+  },
+  {
+    "person_id": "49f8e7d6-c5b4-44a3-f2e1-d0c9b8a7b6c5",
+    "name": "Jane Shalam",
+    "initials": "JS",
+    "first_name": "Jane",
+    "last_Name": "Shalam",
+    "wikipedia_url": ""
+  },
+  {
+    "person_id": "58e7d6c5-b4a3-43f2-e1d0-c9b8a7b6c5d4",
+    "name": "Gary Talamico",
+    "initials": "GT",
+    "first_name": "Gary",
+    "last_Name": "Talamico",
+    "wikipedia_url": ""
+  },
+  {
+    "person_id": "67d6c5b4-a3b2-42e1-d0c9-b8a7b6c5d4e3",
+    "name": "Linda Talamico",
+    "initials": "LT",
+    "first_name": "Linda",
+    "last_Name": "Talamico",
+    "wikipedia_url": ""
+  },
+  {
+    "person_id": "76c5b4a3-b2a1-41d0-c9b8-a7b6c5d4e3f2",
+    "name": "Jeffrey Weiss",
+    "initials": "JW",
+    "first_name": "Jeffrey",
+    "last_Name": "Weiss",
+    "wikipedia_url": ""
+  },
+  {
+    "person_id": "85b4a3b2-a1b0-40c9-b8a7-b6c5d4e3f2a1",
+    "name": "Judith Weiss",
+    "initials": "JW",
+    "first_name": "Judith",
+    "last_Name": "Weiss",
+    "wikipedia_url": ""
+  },
+  {
+    "person_id": "p_shyde_exec",
+    "name": "Stephen Hyde",
+    "first_name": "Stephen",
+    "last_name": "Hyde",
+    "details": "Age 43. CEO of Trump Plaza and Trump Castle Hotel & Casino.",
+    "current_status": [
+      { "state": "Born", "start_Date": null },
+      { "state": "Deceased", "start_Date": "1989-10-10" }
+    ]
+  },
+  {
+    "person_id": "p_metess_exec",
+    "name": "Mark Grossinger Etess",
+    "first_name": "Mark",
+    "last_name": "Etess",
+    "details": "Age 38. President and COO of the upcoming Trump Taj Mahal.",
+    "current_status": [
+      { "state": "Born", "start_Date": null },
+      { "state": "Deceased", "start_Date": "1989-10-10" }
+    ]
+  },
+  {
+    "person_id": "p_jbenanav_exec",
+    "name": "Jonathan Benanav",
+    "first_name": "Jonathan",
+    "last_name": "Benanav",
+    "details": "Executive Vice President of Trump Plaza.",
+    "current_status": [
+      { "state": "Born", "start_Date": null },
+      { "state": "Deceased", "start_Date": "1989-10-10" }
+    ]
+  },
+  {
+    "person_id": "p_pilot_unknown",
+    "name": "Unknown Pilot",
+    "current_status": [
+      { "state": "Born", "start_Date": null },
+      { "state": "Deceased", "start_Date": "1989-10-10" }
+    ]
+  },
+  {
+    "person_id": "p_copilot_unknown",
+    "name": "Unknown Co-pilot",
+    "current_status": [
+      { "state": "Born", "start_Date": null },
+      { "state": "Deceased", "start_Date": "1989-10-10" }
+    ]
+  },
+  {
+    "person_id": "p_fghiorsi_ntsb",
+    "name": "Frank Ghiorsi",
+    "first_name": "Frank",
+    "last_name": "Ghiorsi",
+    "current_status": [
+      { "state": "Born", "start_Date": null },
+      { "state": "Deceased", "start_Date": "2017" }
+    ]
+  },
+  {
+    "person_id": "p_tmurray_witness",
+    "name": "Tom Murray",
+    "first_name": "Tom",
+    "last_name": "Murray",
+    "current_status": [
+      { "state": "Born", "start_Date": null },
+      { "state": "Living", "start_Date": null }
+    ]
+  },
+  {
+    "person_id": "p_dgardener_assoc",
+    "name": "David Gardener",
+    "first_name": "David",
+    "last_name": "Gardener",
+    "current_status": [
+      { "state": "Born", "start_Date": null },
+      { "state": "Living", "start_Date": null }
+    ]
+  },
+  {
+    "person_id": "p_mrumbolz_comment",
+    "name": "Michael Rumbolz",
+    "first_name": "Michael",
+    "last_name": "Rumbolz",
+    "current_status": [
+      { "state": "Born", "start_Date": null },
+      { "state": "Living", "start_Date": null }
+    ]
+  },
+  {
+    "person_id": "p_hcamacho_boxer",
+    "name": "Hector Camacho",
+    "first_name": "Hector",
+    "last_name": "Camacho",
+    "current_status": [
+      { "state": "Born", "start_Date": null },
+      { "state": "Deceased", "start_Date": "2012" }
+    ]
+  },
+  {
+    "person_id": "p_vpazienza_boxer",
+    "name": "Vinny Pazienza",
+    "first_name": "Vinny",
+    "last_name": "Pazienza",
+    "current_status": [
+      { "state": "Born", "start_Date": null },
+      { "state": "Living", "start_Date": null }
+    ]
+  }
+]

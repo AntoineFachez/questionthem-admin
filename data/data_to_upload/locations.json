@@ -1,0 +1,226 @@
+[{
+  "location_id": "loc_bishopric_of_constance",
+  "name": "Bishopric of Constance",
+  "address": {
+    "city": "Konstanz",
+    "state_province": "Baden-Württemberg",
+    "country": "Germany"
+  },
+  "coords": {
+    "lat": 47.6603,
+    "lng": 9.1758
+  },
+  "description": "A former ecclesiastical principality of the Holy Roman Empire."
+},{
+  "location_id": "loc_treppenviertel_blankenese",
+  "name": "Treppenviertel, Blankenese",
+  "address": {
+    "city": "Hamburg",
+    "state_province": "Hamburg",
+    "country": "Germany",
+    "zip_code": "22587"
+  },
+  "coords": {
+    "lat": 53.559,
+    "lng": 9.808
+  },
+  "description": "A unique hillside neighborhood in Hamburg, characterized by its winding staircases (over 5,000 steps), narrow pedestrian-only alleyways, and historic fishermen's houses overlooking the Elbe river."
+},
+{
+  "location_id": "loc_white_house_dc",
+  "name": "The White House",
+  "address": {
+    "street": "1600 Pennsylvania Avenue NW",
+    "city": "Washington",
+    "state_province": "D.C.",
+    "country": "USA",
+    "zip_code": "20500"
+  },
+  "coords": {
+    "lat": 38.8977,
+    "lng": -77.0365
+  },
+  "description": "The official residence and principal workplace of the President of the United States."
+},
+
+{
+  "location_id": "loc_trump_tower_nyc",
+  "name": "Trump Tower",
+  "address": {
+    "street": "725 Fifth Avenue",
+    "city": "New York",
+    "state_province": "NY",
+    "country": "USA",
+    "zip_code": "10022"
+  },
+  "coords": {
+    "lat": 40.7625,
+    "lng": -73.9738
+  },
+  "description": "A 58-story mixed-use skyscraper that served as the headquarters for The Trump Organization and the primary residence of Donald Trump before his presidency."
+},{
+  "location_id": "loc_trump_golf_bedminster",
+  "name": "Trump National Golf Club Bedminster",
+  "address": {
+    "street": "900 Lamington Road",
+    "city": "Bedminster",
+    "state_province": "NJ",
+    "country": "USA",
+    "zip_code": "07921"
+  },
+  "coords": {
+    "lat": 40.6766,
+    "lng": -74.6568
+  },
+  "description": "A private golf club and estate owned by Donald Trump, often used as a presidential retreat and sometimes referred to as his 'villa'."
+},{
+  "location_id": "loc_mary_macleod_home_tong",
+  "name": "Mary Anne MacLeod's Childhood Home",
+  "address": {
+    "street": "3 Tong",
+    "city": "Tong, Isle of Lewis",
+    "state_province": "Scotland",
+    "country": "United Kingdom",
+    "zip_code": "HS2 0HS"
+  },
+  "coords": {
+    "lat": 58.239,
+    "lng": -6.342
+  },
+  "description": "The birthplace and childhood home of Mary Anne MacLeod, the mother of Donald Trump, in the village of Tong on the Isle of Lewis."
+},{
+  "location_id": "loc_arctic_hotel_bennett",
+  "name": "Site of the New Arctic Restaurant and Hotel",
+  "address": {
+    "city": "Bennett",
+    "state_province": "British Columbia",
+    "country": "Canada"
+  },
+  "coords": {
+    "lat": 59.873,
+    "lng": -134.904
+  },
+  "description": "The historical site in the ghost town of Bennett where Friedrich Trump, Donald Trump's grandfather, operated his first hotel and restaurant during the Klondike Gold Rush."
+},{
+"location_id": "loc_trump_ancestral_home_kallstadt",
+"name": "Trump Ancestral Home",
+"address": {
+"street": "Freinsheimer Strasse 20",
+"city": "Kallstadt",
+"state_province": "Rhineland-Palatinate",
+"country": "Germany",
+"zip_code": "67169"
+},
+"coords": {
+"lat": 49.4893,
+"lng": 8.1768
+},
+"description": "The modest home of Donald Trump's grandparents, Friedrich and Elisabetha Trump, in the German wine village of Kallstadt. The house, where his grandfather was born, has become a point of interest for tourists."
+},{
+  "location_id": "loc_epstein_villa_palm_beach",
+  "name": "Jeffrey Epstein's Former Palm Beach Villa",
+  "address": {
+    "street": "360 El Brillo Way",
+    "city": "Palm Beach",
+    "state_province": "Florida",
+    "country": "USA",
+    "zip_code": "33480"
+  },
+  "coords": {
+    "lat": 26.7135,
+    "lng": -80.0394
+  },
+  "description": "The site of Jeffrey Epstein's former waterfront mansion in Palm Beach. The original house at 358 El Brillo Way was demolished in 2021, and the address was changed to 360 El Brillo Way to distance the property from its infamous past. The lot has since been redeveloped."
+},{
+  "location_id": "loc_epstein_townhouse_nyc",
+  "name": "Jeffrey Epstein's Former NYC Townhouse (The Herbert N. Straus House)",
+  "address": {
+    "street": "9 East 71st Street",
+    "city": "New York",
+    "state_province": "NY",
+    "country": "USA",
+    "zip_code": "10021"
+  },
+  "coords": {
+    "lat": 40.7712,
+    "lng": -73.9663
+  },
+  "description": "This 28,000-square-foot mansion on the Upper East Side was Jeffrey Epstein's primary residence and the center of his financial and social operations in New York City. Functioning as both a home and an office, it was the location where he hosted many powerful and influential individuals."
+},{
+  "location_id": "loc_j_epstein_co_nyc",
+  "name": "Former Office of J. Epstein & Co.",
+  "address": {
+    "street": "457 Madison Avenue",
+    "city": "New York",
+    "state_province": "NY",
+    "country": "USA",
+    "zip_code": "10022"
+  },
+  "coords": {
+    "lat": 40.7583,
+    "lng": -73.9744
+  },
+  "description": "This was the official business address for Jeffrey Epstein's financial management firm, J. Epstein & Co. The office was located within the historic Villard Houses, a landmarked complex which now forms part of the Lotte New York Palace Hotel. This location is distinct from his residential townhouse."
+},{
+  "location_id": "loc_hard_rock_ac",
+  "name": "Hard Rock Hotel & Casino Atlantic City (Formerly Trump Taj Mahal)",
+  "address": {
+    "street": "1000 Boardwalk",
+    "city": "Atlantic City",
+    "state_province": "NJ",
+    "country": "USA",
+    "zip_code": "08401"
+  },
+  "coords": {
+    "lat": 39.3587,
+    "lng": -74.4198
+  },
+  "description": "Originally opened as the Trump Taj Mahal in 1990, this iconic casino resort on the Atlantic City Boardwalk was known for its opulent design. After closing in 2016, it was purchased, extensively renovated, and reopened in 2018 as the Hard Rock Hotel & Casino Atlantic City, with a new rock-and-roll theme."
+},{
+  "location_id": "loc_trump_helo_crash_1989",
+  "name": "Site of the 1989 Trump Organization Helicopter Crash",
+  "address": {
+    "street": "Garden State Parkway (Southbound, near mile marker 72)",
+    "city": "Forked River (Lacey Township)",
+    "state_province": "NJ",
+    "country": "USA",
+    "zip_code": "08731"
+  },
+  "coords": {
+    "lat": 39.8355,
+    "lng": -74.1892
+  },
+  "description": "The site where a helicopter crashed on October 10, 1989, killing three top executives of the Trump Organization—Steven Hyde, Mark Grossinger Etess, and Jonathan Benanav—along with two crew members. The helicopter went down in a wooded median of the Garden State Parkway while returning from Atlantic City to New York City."
+},{
+  "location_id": "loc_manhattan_criminal_court",
+  "name": "Manhattan Criminal Courthouse",
+  "address": {
+    "street": "100 Centre Street",
+    "city": "New York",
+    "state_province": "NY",
+    "country": "USA",
+    "zip_code": "10013"
+  },
+  "coords": {
+    "lat": 40.7163,
+    "lng": -74.0018
+  },
+  "description": "The location of the New York County Criminal Court. This building was the site of the first-ever criminal trial of a former U.S. president, where Donald Trump faced charges."
+},{
+  "location_id": "loc_mar_a_lago_palm_beach",
+  "name": "Mar-a-Lago",
+  "address": {
+    "street": "1100 S Ocean Blvd",
+    "city": "Palm Beach",
+    "state_province": "FL",
+    "country": "USA",
+    "zip_code": "33480"
+  },
+  "coords": {
+    "lat": 26.6775,
+    "lng": -80.0370
+  },
+  "description": "A resort and National Historic Landmark in Palm Beach, Florida. The estate has been owned by Donald Trump since 1985 and has served as his primary residence. During his presidency, it was often referred to as the 'Winter White House'."
+}
+
+]

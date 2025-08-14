@@ -1,0 +1,308 @@
+[
+  {
+    "state": "California",
+    "nationalPopularVoteProgressAttained": "Enacted into law",
+    "nationalPopularVoteElectoralVotes": 54,
+    "nationalPopularVoteNotes": "National Popular Vote bill was enacted into law in 2011"
+  },
+  {
+    "state": "Texas",
+    "nationalPopularVoteProgressAttained": "Introduced, but still awaiting hearings",
+    "nationalPopularVoteElectoralVotes": 40,
+    "nationalPopularVoteNotes": "Introduced in House 2011, 2017, 2023 and in Senate 2021"
+  },
+  {
+    "state": "Florida",
+    "nationalPopularVoteProgressAttained": "Introduced, but still awaiting hearings",
+    "nationalPopularVoteElectoralVotes": 30,
+    "nationalPopularVoteNotes": "Introduced six times from 2011-2021, but failed in committee each time. It was introduced for a seventh time in 2023"
+  },
+  {
+    "state": "New York",
+    "nationalPopularVoteProgressAttained": "Enacted into law",
+    "nationalPopularVoteElectoralVotes": 28,
+    "nationalPopularVoteNotes": "National Popular Vote bill was enacted into law in 2016"
+  },
+  {
+    "state": "Illinois",
+    "nationalPopularVoteProgressAttained": "Enacted into law",
+    "nationalPopularVoteElectoralVotes": 19,
+    "nationalPopularVoteNotes": "National Popular Vote bill was enacted into law in 2008"
+  },
+  {
+    "state": "Pennsylvania",
+    "nationalPopularVoteProgressAttained": "In committee hearings",
+    "nationalPopularVoteElectoralVotes": 19,
+    "nationalPopularVoteNotes": "Introduced 2011, 2017, 2020"
+  },
+  {
+    "state": "Ohio",
+    "nationalPopularVoteProgressAttained": "In committee hearings",
+    "nationalPopularVoteElectoralVotes": 17,
+    "nationalPopularVoteNotes": "Introduced 2017 and 2019"
+  },
+  {
+    "state": "Georgia",
+    "nationalPopularVoteProgressAttained": "In committee hearings",
+    "nationalPopularVoteElectoralVotes": 16,
+    "nationalPopularVoteNotes": "Unanimously approved by House committee in 2016"
+  },
+  {
+    "state": "North Carolina",
+    "nationalPopularVoteProgressAttained": "Passed one legislative chamber",
+    "nationalPopularVoteElectoralVotes": 16,
+    "nationalPopularVoteNotes": "Passed Senate in 2007. Reintroduced 2017, 2019. Introduced in House 2023"
+  },
+  {
+    "state": "Michigan",
+    "nationalPopularVoteProgressAttained": "Passed one legislative chamber",
+    "nationalPopularVoteElectoralVotes": 15,
+    "nationalPopularVoteNotes": "Passed House in 2008, introduced in Senate 2018 and reintroduced in House 2018 & 2023"
+  },
+  {
+    "state": "New Jersey",
+    "nationalPopularVoteProgressAttained": "Enacted into law",
+    "nationalPopularVoteElectoralVotes": 14,
+    "nationalPopularVoteNotes": "National Popular Vote bill was enacted into law in 2008"
+  },
+  {
+    "state": "Virginia",
+    "nationalPopularVoteProgressAttained": "Passed one legislative chamber",
+    "nationalPopularVoteElectoralVotes": 13,
+    "nationalPopularVoteNotes": "Passed House in February 2020, Introduced in Senate 2009, 2020, & 2021"
+  },
+  {
+    "state": "Washington",
+    "nationalPopularVoteProgressAttained": "Enacted into law",
+    "nationalPopularVoteElectoralVotes": 12,
+    "nationalPopularVoteNotes": "National Popular Vote bill was enacted into law in 2009"
+  },
+  {
+    "state": "Arizona",
+    "nationalPopularVoteProgressAttained": "Passed one legislative chamber",
+    "nationalPopularVoteElectoralVotes": 11,
+    "nationalPopularVoteNotes": "Passed House in 2016"
+  },
+  {
+    "state": "Massachusetts",
+    "nationalPopularVoteProgressAttained": "Enacted into law",
+    "nationalPopularVoteElectoralVotes": 11,
+    "nationalPopularVoteNotes": "National Popular Vote bill was enacted into law in 2010"
+  },
+  {
+    "state": "Tennessee",
+    "nationalPopularVoteProgressAttained": "In committee hearings",
+    "nationalPopularVoteElectoralVotes": 11,
+    "nationalPopularVoteNotes": "Introduced in House 2007 & 2016 and in Senate 2011 & 2016"
+  },
+  {
+    "state": "Colorado",
+    "nationalPopularVoteProgressAttained": "Enacted into law",
+    "nationalPopularVoteElectoralVotes": 10,
+    "nationalPopularVoteNotes": "National Popular Vote bill was enacted into law in 2019. A subsequent referendum forced a popular vote on the law in 2020. Voters supported the law"
+  },
+  {
+    "state": "Maryland",
+    "nationalPopularVoteProgressAttained": "Enacted into law",
+    "nationalPopularVoteElectoralVotes": 10,
+    "nationalPopularVoteNotes": "National Popular Vote bill was enacted into law in 2007. A bill (SB852) which arguably undermined the agreement was deemed unfavorable during committee analysis in 2019, and a new bill (HB202) supporting the agreement was introduced in 2021"
+  },
+  {
+    "state": "Missouri",
+    "nationalPopularVoteProgressAttained": "In committee hearings",
+    "nationalPopularVoteElectoralVotes": 10,
+    "nationalPopularVoteNotes": "Approved by House committee in 2016 - Bill has had a hearing (but not necessarily a vote) in at least one legislative committee"
+  },
+  {
+    "state": "Wisconsin",
+    "nationalPopularVoteProgressAttained": "In committee hearings",
+    "nationalPopularVoteElectoralVotes": 10,
+    "nationalPopularVoteNotes": "Introduced to House 2008, 2019, & 2021 and to Senate 2023"
+  },
+  {
+    "state": "Alabama",
+    "nationalPopularVoteProgressAttained": "In committee hearings",
+    "nationalPopularVoteElectoralVotes": 9,
+    "nationalPopularVoteNotes": "Introduced in the Senate in 2011"
+  },
+  {
+    "state": "South Carolina",
+    "nationalPopularVoteProgressAttained": "Introduced, but still awaiting hearings",
+    "nationalPopularVoteElectoralVotes": 9,
+    "nationalPopularVoteNotes": "Introduced in House 2011, 2017, 2019, 2023"
+  },
+  {
+    "state": "Kentucky",
+    "nationalPopularVoteProgressAttained": "In committee hearings",
+    "nationalPopularVoteElectoralVotes": 8,
+    "nationalPopularVoteNotes": "Introduced in House in 2009"
+  },
+  {
+    "state": "Louisiana",
+    "nationalPopularVoteProgressAttained": "In committee hearings",
+    "nationalPopularVoteElectoralVotes": 8,
+    "nationalPopularVoteNotes": "Introduced in House in 2006 and 2011, approved by committee 2012, but rejected on house floor."
+  },
+  {
+    "state": "Oregon",
+    "nationalPopularVoteProgressAttained": "Enacted into law",
+    "nationalPopularVoteElectoralVotes": 8,
+    "nationalPopularVoteNotes": "National Popular Vote bill was enacted into law in 2019"
+  },
+  {
+    "state": "Connecticut",
+    "nationalPopularVoteProgressAttained": "Enacted into law",
+    "nationalPopularVoteElectoralVotes": 7,
+    "nationalPopularVoteNotes": "National Popular Vote bill was enacted into law in 2018"
+  },
+  {
+    "state": "Oklahoma",
+    "nationalPopularVoteProgressAttained": "Passed one legislative chamber",
+    "nationalPopularVoteElectoralVotes": 7,
+    "nationalPopularVoteNotes": "Passed Senate in 2014, introduced in House 2015 and 2021"
+  },
+  {
+    "state": "Arkansas",
+    "nationalPopularVoteProgressAttained": "Passed one legislative chamber",
+    "nationalPopularVoteElectoralVotes": 6,
+    "nationalPopularVoteNotes": "Passed House in 2007 and 2009"
+  },
+  {
+    "state": "Iowa",
+    "nationalPopularVoteProgressAttained": "Introduced, but still awaiting hearings",
+    "nationalPopularVoteElectoralVotes": 6,
+    "nationalPopularVoteNotes": "Introduced in House in 2021, but has not yet had a hearing"
+  },
+  {
+    "state": "Kansas",
+    "nationalPopularVoteProgressAttained": "Introduced, but still awaiting hearings",
+    "nationalPopularVoteElectoralVotes": 6,
+    "nationalPopularVoteNotes": "Introduced in House in 2021 and Senate 2011, 2017 & 2019, but has not had a hearing since 2012"
+  },
+  {
+    "state": "Minnesota",
+    "nationalPopularVoteProgressAttained": "Passed one legislative chamber",
+    "nationalPopularVoteElectoralVotes": 6,
+    "nationalPopularVoteNotes": "Passed House in 2019, introduced in Senate 2021 & 2023"
+  },
+  {
+    "state": "Mississippi",
+    "nationalPopularVoteProgressAttained": "Introduced, but still awaiting hearings",
+    "nationalPopularVoteElectoralVotes": 6,
+    "nationalPopularVoteNotes": "Introduced in House 2018, 2019, 2023 and in Senate 2021"
+  },
+  {
+    "state": "Nevada",
+    "nationalPopularVoteProgressAttained": "Passed but vetoed",
+    "nationalPopularVoteElectoralVotes": 6,
+    "nationalPopularVoteNotes": "Bill passed both legislative chambers, but was vetoed (2019). Reworked and reintroduced in March 2023"
+  },
+  {
+    "state": "Utah",
+    "nationalPopularVoteProgressAttained": "In committee hearings",
+    "nationalPopularVoteElectoralVotes": 6,
+    "nationalPopularVoteNotes": "Introduced in House 2007, 2011, & 2018 and in Senate 2011, 2012, & 2021"
+  },
+  {
+    "state": "Nebraska",
+    "nationalPopularVoteProgressAttained": "In committee hearings",
+    "nationalPopularVoteElectoralVotes": 5,
+    "nationalPopularVoteNotes": "Bill has had a hearing (but not necessarily a vote) in at least one legislative committee"
+  },
+  {
+    "state": "New Mexico",
+    "nationalPopularVoteProgressAttained": "Enacted into law",
+    "nationalPopularVoteElectoralVotes": 5,
+    "nationalPopularVoteNotes": "National Popular Vote bill was enacted into law in 2019"
+  },
+  {
+    "state": "Hawaii",
+    "nationalPopularVoteProgressAttained": "Enacted into law",
+    "nationalPopularVoteElectoralVotes": 4,
+    "nationalPopularVoteNotes": "National Popular Vote bill was enacted into law in 2008"
+  },
+  {
+    "state": "Idaho",
+    "nationalPopularVoteProgressAttained": "Introduced, but still awaiting hearings",
+    "nationalPopularVoteElectoralVotes": 4,
+    "nationalPopularVoteNotes": "Introduced in House in 2017 and 2019, but has not yet had a hearing"
+  },
+  {
+    "state": "Indiana",
+    "nationalPopularVoteProgressAttained": "Introduced, but still awaiting hearings",
+    "nationalPopularVoteElectoralVotes": 4,
+    "nationalPopularVoteNotes": "Introduced in House in 2007 and Senate 2017 & 2019, but has not yet had a hearing"
+  },
+  {
+    "state": "Maine",
+    "nationalPopularVoteProgressAttained": "Passed one legislative chamber",
+    "nationalPopularVoteElectoralVotes": 4,
+    "nationalPopularVoteNotes": "Passed Maine Senate in 2008 and 2019, failed in House in 2019"
+  },
+  {
+    "state": "Montana",
+    "nationalPopularVoteProgressAttained": "In committee hearings",
+    "nationalPopularVoteElectoralVotes": 4,
+    "nationalPopularVoteNotes": "Introduced in Senate in 2011 and House in 2017"
+  },
+  {
+    "state": "New Hampshire",
+    "nationalPopularVoteProgressAttained": "In committee hearings",
+    "nationalPopularVoteElectoralVotes": 4,
+    "nationalPopularVoteNotes": "Introduced in House in 2017 and 2019"
+  },
+  {
+    "state": "Rhode Island",
+    "nationalPopularVoteProgressAttained": "Enacted into law",
+    "nationalPopularVoteElectoralVotes": 4,
+    "nationalPopularVoteNotes": "National Popular Vote bill was enacted into law in 2013"
+  },
+  {
+    "state": "West Virginia",
+    "nationalPopularVoteProgressAttained": "In committee hearings",
+    "nationalPopularVoteElectoralVotes": 4,
+    "nationalPopularVoteNotes": "Introduced to House 2011, 2020, & 2021 and Senate 2011"
+  },
+  {
+    "state": "Wyoming",
+    "nationalPopularVoteProgressAttained": "Introduced, but still awaiting hearings",
+    "nationalPopularVoteElectoralVotes": 4,
+    "nationalPopularVoteNotes": "A 2011 survey of Wyoming voters showed 69% support for the idea that the President of the United States should be the candidate who gets the most votes across all 50 states"
+  },
+  {
+    "state": "Alaska",
+    "nationalPopularVoteProgressAttained": "In committee hearings",
+    "nationalPopularVoteElectoralVotes": 3,
+    "nationalPopularVoteNotes": "Approved by House committee in 2017, in-process in Senate committee 2023"
+  },
+  {
+    "state": "Delaware",
+    "nationalPopularVoteProgressAttained": "Enacted into law",
+    "nationalPopularVoteElectoralVotes": 3,
+    "nationalPopularVoteNotes": "National Popular Vote bill was enacted into law in 2019"
+  },
+  {
+    "state": "District of Columbia",
+    "nationalPopularVoteProgressAttained": "Enacted into law",
+    "nationalPopularVoteElectoralVotes": 3,
+    "nationalPopularVoteNotes": "National Popular Vote bill was enacted into law in 2010"
+  },
+  {
+    "state": "North Dakota",
+    "nationalPopularVoteProgressAttained": "In committee hearings",
+    "nationalPopularVoteElectoralVotes": 3,
+    "nationalPopularVoteNotes": "Bill has had a hearing (but not necessarily a vote) in at least one legislative committee"
+  },
+  {
+    "state": "South Dakota",
+    "nationalPopularVoteProgressAttained": "In committee hearings",
+    "nationalPopularVoteElectoralVotes": 3,
+    "nationalPopularVoteNotes": "Introduced 2011"
+  },
+  {
+    "state": "Vermont",
+    "nationalPopularVoteProgressAttained": "Enacted into law",
+    "nationalPopularVoteElectoralVotes": 3,
+    "nationalPopularVoteNotes": "National Popular Vote bill was enacted into law in 2011"
+  }
+]

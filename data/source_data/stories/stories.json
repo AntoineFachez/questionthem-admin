@@ -1,0 +1,1603 @@
+[
+  {
+    "persons": [
+      {
+        "basics": {
+          "personId": "3c27c522-438f-496b-9940-b9c6c890172c",
+          "date": { "start": "1946-06-14", "end": "2023-10-01" },
+          "gender": "male",
+          "personLabelColor": "#ff7900",
+          "personImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Donald_Trump_official_portrait.jpg/440px-Donald_Trump_official_portrait.jpg",
+          "coords": { "lat": 40.7128, "lng": -74.006 },
+          "personName": "Donald J. Trump",
+          "personDescription": "Donald John Trump served as the 45th President of the United States from January 20, 2017, to January 20, 2021. Known for his unique communication style, Trump's speeches often featured direct and unfiltered language that resonated with his base of supporters. His speeches combined populist rhetoric, patriotic themes, and a focus on economic growth and America-first policies. Trump's unconventional approach to communication was a defining feature of his political career and sparked both strong support and criticism."
+        },
+        "stories": [{ "storyId": "6496d8d1-496b-4c4a-b225-024847270b10" }]
+      },
+      {
+        "basics": {
+          "personId": "9b087307-9958-435f-9940-b9c6c890172c",
+          "date": { "start": "1874-11-30", "end": "1965-01-24" },
+          "gender": "male",
+          "personLabelColor": "#0000ff",
+          "personImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Sir_Winston_Churchill_-_19086236948.jpg/440px-Sir_Winston_Churchill_-_19086236948.jpg",
+          "coords": { "lat": 51.5029, "lng": 1.2139 },
+          "personName": "Winston Churchill",
+          "personDescription": "Sir Winston Leonard Spencer-Churchill (November 30, 1874 – January 24, 1965) was a British statesman, army officer, and writer. He served as Prime Minister of the United Kingdom during two critical periods in history: from 1940 to 1945 during World War II and again from 1951 to 1955. Churchill is best known for his leadership during the war and his famous speeches that inspired the British people."
+        }
+      },
+      {
+        "basics": {
+          "personId": "6496d8d1-b2e6-496b-b225-4a8b6b5ceea9",
+          "date": { "start": "1889-04-20", "end": "1945-04-30" },
+          "gender": "male",
+          "personLabelColor": "#000000",
+          "personImageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Hitler_portrait_crop.jpg",
+          "coords": { "lat": 48.153, "lng": 13.26 },
+          "personName": "Adolf Hitler",
+          "personDescription": "Adolf Hitler (April 20, 1889 – April 30, 1945) was a German politician and leader of the Nazi Party. He rose to power as Chancellor of Germany in 1933 and later Führer in 1934. Hitler's aggressive foreign policies and expansionist ambitions led to the outbreak of World War II in 1939. His regime implemented the Holocaust and other atrocities during the war."
+        }
+      },
+      {
+        "basics": {
+          "personId": "2be3302b-e34a-4348-8627-c63d1f62608e",
+          "date": { "start": "1878-12-18", "end": "1953-03-05" },
+          "gender": "male",
+          "personLabelColor": "#ff0000",
+          "personImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Joseph_Stalin%2C_1950_%28cropped%29.jpg/440px-Joseph_Stalin%2C_1950_%28cropped%29.jpg",
+          "coords": { "lat": 43.6532, "lng": 42.2631 },
+          "personName": "Joseph Stalin",
+          "personDescription": "Joseph Vissarionovich Stalin (born Ioseb Besarionis dzе Jughashvili; December 18, 1878 – March 5, 1953) was a Georgian revolutionary and Soviet politician who led the Soviet Union from the mid-1920s until his death in 1953. As the General Secretary of the Communist Party of the Soviet Union, he oversaw the industrialization, collectivization, and purges that characterized his rule."
+        }
+      },
+      {
+        "basics": {
+          "personId": "3c27c522-e34a-435f-9940-4a8b6b5ceea9",
+          "date": { "start": "1882-01-30", "end": "1945-04-12" },
+          "gender": "male",
+          "personLabelColor": "#008000",
+          "personImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/FDR_1944_Color_Portrait.jpg/440px-FDR_1944_Color_Portrait.jpg",
+          "coords": { "lat": 41.7856, "lng": -73.9269 },
+          "personName": "Franklin D. Roosevelt",
+          "personDescription": "Franklin Delano Roosevelt (January 30, 1882 – April 12, 1945) was an American statesman and politician who served as the 32nd President of the United States from 1933 until his death in 1945. He led the country through the Great Depression and World War II, and his New Deal policies had a profound impact on American society."
+        }
+      },
+      {
+        "basics": {
+          "personId": "3c27c522-7f03-450c-b537-9b3c7e07a172",
+          "date": { "start": "1917-05-29", "end": "1963-11-22" },
+          "gender": "male",
+          "personLabelColor": "#000080",
+          "personImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/John_F._Kennedy%2C_White_House_color_photo_portrait.jpg/440px-John_F._Kennedy%2C_White_House_color_photo_portrait.jpg",
+          "coords": { "lat": 42.3601, "lng": -71.0589 },
+          "personName": "John F. Kennedy",
+          "personDescription": "John Fitzgerald Kennedy (May 29, 1917 – November 22, 1963), commonly known as JFK, was an American politician who served as the 35th President of the United States from 1961 until his assassination in 1963. Kennedy's presidency marked a pivotal period of the Cold War, and he played a significant role in advancing civil rights and space exploration. One of his most notable achievements was initiating the Apollo 11 Project, which successfully landed the first humans on the Moon in 1969."
+        }
+      },
+      {
+        "basics": {
+          "personId": "f5c3e7a0-5ac3-438f-bb36-af54e20f315d",
+          "date": { "start": "1901-04-29", "end": "1989-01-07" },
+          "gender": "male",
+          "personLabelColor": "#9ACD32",
+          "personImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Hirohito_in_dress_uniform.jpg/440px-Hirohito_in_dress_uniform.jpg",
+          "coords": { "lat": 35.6895, "lng": 139.6917 },
+          "personName": "Emperor Hirohito",
+          "personDescription": "Emperor Hirohito (April 29, 1901 – January 7, 1989) was the Emperor of Japan from 1926 to 1989. He reigned during a period of significant political and social change, including Japan's involvement in World War II. Hirohito's role and responsibility during the war remain subjects of historical debate."
+        }
+      },
+      {
+        "basics": {
+          "personId": "3c27c522-438f-bb36-b9c6c890172c",
+          "date": { "start": "1884-06-18", "end": "1970-10-10" },
+          "gender": "male",
+          "personLabelColor": "#FFC0CB",
+          "personImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/%C3%89douard_Daladier.jpg/440px-%C3%89douard_Daladier.jpg",
+          "coords": { "lat": 44.0321, "lng": 5.0256 },
+          "personName": "Édouard Daladier",
+          "role": "Prime Minister of France",
+          "personDescription": "Édouard Daladier (June 18, 1884 – October 10, 1970) was a French Radical-Socialist politician and the Prime Minister of France at the outbreak of World War II. He is best known for his role in the Munich Agreement and his efforts to avert the conflict, although the agreement ultimately failed to prevent the war. Daladier's leadership during the early years of the war had a significant impact on France's wartime strategy."
+        }
+      },
+      {
+        "basics": {
+          "personId": "a305ebfd-9f9b-4b2c-a7b5-43a218f87e76",
+          "date": { "start": "1883-07-29", "end": "1945-04-28" },
+          "gender": "male",
+          "personLabelColor": "#fafad2",
+          "personImageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/67/Mussolini_biografia.jpg",
+          "coords": { "lat": 44.4964, "lng": 11.3465 },
+          "personName": "Benito Mussolini",
+          "role": "Prime Minister of Italy",
+          "personDescription": "Benito Amilcare Andrea Mussolini (July 29, 1883 – April 28, 1945) was an Italian fascist politician and dictator who ruled Italy from 1922 to 1943. He founded the National Fascist Party and later became the Prime Minister of Italy. Mussolini formed alliances with Nazi Germany and Imperial Japan, leading Italy into World War II on the side of the Axis powers. His aggressive foreign policies and authoritarian rule led to Italy's defeat in the war and his downfall."
+        }
+      },
+      {
+        "basics": {
+          "personId": "83c57657-0dea-4abc-953b-2def20e9c4b3",
+          "date": { "start": "1930-08-05", "end": "2012-08-25" },
+          "gender": "male",
+          "personLabelColor": "#ffff00",
+          "personImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Neil_Armstrong_pose.jpg/440px-Neil_Armstrong_pose.jpg",
+          "coords": { "lat": 40.7128, "lng": -74.006 },
+          "personName": "Neil Armstrong",
+          "role": "American astronaut, first person to walk on the Moon",
+          "personDescription": "Neil Alden Armstrong (August 5, 1930 – August 25, 2012) was an American astronaut and aeronautical engineer who became the first person to walk on the Moon. He was the spacecraft commander of Apollo 11, the first successful manned mission to the Moon. Armstrong's iconic words upon setting foot on the Moon's surface, 'That's one small step for [a] man, one giant leap for mankind,' became a historic moment in human exploration."
+        }
+      },
+      {
+        "basics": {
+          "personId": "355dd102-a7f2-4820-b9ad-54214ec01ee5",
+          "date": { "start": "1930-01-20", "end": "2023-08-20" },
+          "gender": "male",
+          "personLabelColor": "#808080",
+          "personImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Buzz_Aldrin.jpg/440px-Buzz_Aldrin.jpg",
+          "coords": { "lat": 39.5501, "lng": -105.7821 },
+          "personName": "Buzz Aldrin",
+          "role": "American astronaut, joined Armstrong on the Moon's surface",
+          "personDescription": "Edwin Eugene 'Buzz' Aldrin Jr. (born January 20, 1930) is an American former astronaut, engineer, and fighter pilot. He was the Lunar Module Pilot on Apollo 11, the first successful manned mission to the Moon. On July 20, 1969, he joined Neil Armstrong on the Moon's surface, becoming the second person to walk on the Moon. Aldrin's work on Apollo 11 contributed significantly to the success of the mission and its historic achievement."
+        }
+      },
+      {
+        "basics": {
+          "personId": "f2a64e9f-b804-4f07-9bc7-ef71923a4d60",
+          "date": { "start": "1930-10-31", "end": "2021-04-28" },
+          "gender": "male",
+          "personLabelColor": "#00ffff",
+          "personImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Michael_Collins_%28S69-31742%2C_restoration%29.jpg/440px-Michael_Collins_%28S69-31742%2C_restoration%29.jpg",
+          "coords": { "lat": 38.9072, "lng": -77.0375 },
+          "personName": "Michael Collins",
+          "role": "American astronaut, piloted the Apollo 11 Command Module around the Moon while Armstrong and Aldrin were on the surface",
+          "personDescription": "Michael Collins (born October 31, 1930) is an American retired astronaut and test pilot. He served as the Command Module Pilot for the Apollo 11 mission, which was the first mission to successfully land humans on the Moon. While Neil Armstrong and Buzz Aldrin explored the lunar surface, Collins remained in the Command Module, piloting it around the Moon. Collins played a critical role in the success of the Apollo 11 mission and its safe return to Earth."
+        }
+      },
+      {
+        "basics": {
+          "personId": "5d86efcc-5e46-4bbd-837b-10c9f81c7f9a",
+          "date": { "start": "1906-10-07", "end": "1992-03-27" },
+          "gender": "male",
+          "personLabelColor": "#008080",
+          "personImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/James_E._Webb%2C_official_NASA_photo%2C_1966.jpg/440px-James_E._Webb%2C_official_NASA_photo%2C_1966.jpg",
+          "coords": { "lat": 35.2271, "lng": -80.8431 },
+          "personName": "James E. Webb",
+          "personDescription": "James Edwin Webb (October 7, 1906 – March 27, 1992) was an American government official who served as the second administrator of NASA from 1961 to 1968. He played a crucial role in the success of the Apollo program, including the historic Apollo 11 Moon landing in 1969. Webb's leadership laid the foundation for NASA's future achievements, such as the James Webb Space Telescope (JWST), a powerful space observatory set to launch in the future. The JWST is expected to revolutionize our understanding of the universe by studying distant galaxies, stars, and exoplanets."
+        }
+      },
+      {
+        "basics": {
+          "personId": "d6f89284-87c4-4f6a-95ea-eb64a792ac6a",
+          "date": { "start": "1908-08-27", "end": "1973-01-22" },
+          "gender": "male",
+          "personLabelColor": "#006400",
+          "personImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Lyndon_B._Johnson%2C_White_House_photo_portrait%2C_1969.jpg/440px-Lyndon_B._Johnson%2C_White_House_photo_portrait%2C_1969.jpghttps://upload.wikimedia.org/wikipedia/commons/c/c3/37_Lyndon_Johnson_3x4.jpg",
+          "coords": { "lat": 30.14, "lng": -98.3952 },
+          "personName": "Lyndon B. Johnson",
+          "personDescription": "Lyndon Baines Johnson served as the 36th President of the United States from November 22, 1963, after the assassination of John F. Kennedy, to January 20, 1969. Johnson's presidency was marked by significant achievements such as the passage of civil rights legislation, the establishment of Medicare and Medicaid, and the escalation of the Vietnam War. His communication style was often seen as pragmatic and focused on achieving legislative goals. Johnson's speeches emphasized the importance of social progress and the need to address pressing issues facing the nation."
+        }
+      }
+    ]
+  },
+  {
+    "stories": [
+      {
+        "basics": {
+          "storyId": "6496d8d1-496b-4c4a-b225-4a8b6b5ceea9",
+          "storyName": "Civilization since 1800",
+          "storyDescription": "How the human civilizaion developed in the late modern period",
+          "storyLabelColor": "#dda5ef",
+          "storyImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/World_1898_empires_colonies_territory.png/1024px-World_1898_empires_colonies_territory.png",
+          "date": { "start": "1800-01-01", "end": "2023-08-20" },
+          "coords": { "lat": 0, "lng": 0 }
+        },
+        "dataSets": [
+          {
+            "dataSetName": "population",
+            "dataSetKeys": ["POP_EST"],
+            "dataSetUrl": "world-data"
+          },
+          {
+            "dataSetName": "gdpPerCapita",
+            "dataSetUrl": "world-data",
+            "dataSetKeys": ["GDP_MD_EST", "POP_EST"]
+          }
+        ],
+        "persons": [
+          {
+            "personId": "6496d8d1-b2e6-4348-bae7-c63d1f62608e",
+            "personName": "Donald J. Trump",
+            "role": "45th President of the United States"
+          },
+          {
+            "personId": "9b087307-9958-435f-9940-b9c6c890172c",
+            "personName": "Winston Churchill",
+            "role": "Prime Minister of the United Kingdom during the war",
+            "personLabelColor": "green"
+          },
+          {
+            "personId": "3c27c522-7f03-450c-b537-9b3c7e07a172",
+            "personName": "John F. Kennedy",
+            "role": "President of the United States"
+          }
+        ],
+        "events": [{}]
+      },
+      {
+        "basics": {
+          "storyId": "6496d8d1-496b-4c4a-b225-024847270b10",
+          "storyName": "Presidency Donald J. Trump's",
+          "storyDescription": "Donald J. Trump served as the 45th President of the United States.",
+          "storyLabelColor": "#ffa500",
+          "storyImageUrl": "https://images.unsplash.com/photo-1580128660010-fd027e1e587a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzMDA0MjB8MHwxfHNlYXJjaHw5fHxQcmVzaWRlbmN5JTIwRG9uYWxkJTIwSi4lMjBUcnVtcCUyN3N8ZW58MHx8fHwxNjkyODEzNTAxfDA&ixlib=rb-4.0.3&q=80&w=400",
+          "date": { "start": "2017-01-20", "end": "2021-01-20" },
+          "coords": { "lat": 38.9072, "lng": -77.0369 }
+        },
+        "dataSets": [
+          {
+            "dataSetName": "travelsDuringPresidency",
+            "dataSetUrl": "trump-data"
+          },
+          {
+            "dataSetName": "golfingDuringPresidency",
+            "dataSetUrl": "trump-data"
+          },
+          {
+            "dataSetName": "leakedFinalPresidentialTime",
+            "dataSetUrl": "trump-data"
+          }
+        ],
+        "persons": [
+          {
+            "personId": "6496d8d1-b2e6-4348-bae7-c63d1f62608e",
+            "personName": "Donald J. Trump",
+            "role": "45th President of the United States"
+          }
+        ],
+        "events": [{}]
+      },
+      {
+        "basics": {
+          "storyId": "d91cc57d-657d-4c4a-bae7-024847270b10",
+          "storyName": "World War II",
+          "storyDescription": "World War II, also known as the Second World War, was a global conflict that lasted from 1939 to 1945. It involved most of the world's nations, including the major powers organized into two opposing military alliances: the Allies and the Axis. The war resulted in widespread destruction, loss of life, and significant geopolitical changes, including the founding of the United Nations.",
+          "storyLabelColor": "#000000",
+          "storyImageUrl": "https://images.unsplash.com/photo-1560103212-a64db589185d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzMDA0MjB8MHwxfHNlYXJjaHw1fHxXb3JsZCUyMFdhciUyMElJfGVufDB8fHx8MTY5MjgxNzY2Mnww&ixlib=rb-4.0.3&q=80&w=400",
+          "date": { "start": "1939-09-01", "end": "1945-09-02" },
+          "coords": { "lat": 52.6, "lng": 13.405 }
+        },
+        "dataSets": [
+          { "dataSetName": "alliesAxisNeutral", "dataSetUrl": "ww2-data" }
+        ],
+        "persons": [
+          {
+            "personId": "9b087307-9958-435f-9940-b9c6c890172c",
+            "personName": "Winston Churchill",
+            "role": "Prime Minister of the United Kingdom during the war",
+            "personLabelColor": "green"
+          },
+          {
+            "personId": "6496d8d1-b2e6-496b-b225-4a8b6b5ceea9",
+            "personName": "Adolf Hitler",
+            "role": "German politician and leader of the Nazi Party",
+            "personLabelColor": "red"
+          },
+          {
+            "personId": "2be3302b-e34a-4348-8627-c63d1f62608e",
+            "personName": "Joseph Stalin",
+            "role": "Russian leader who made the anti-fascist alliance with the US and UK"
+          },
+          {
+            "personId": "8771149e-657d-4348-8627-4a8b6b5ceea9",
+            "personName": "Prescott Bush",
+            "role": "Prescott Sheldon Bush (May 15, 1895 – October 8, 1972) was an American banker and politician https://www.theguardian.com/world/2004/sep/25/usa.secondworldwar"
+          }
+        ],
+        "relationships": [
+          {
+            "source": "9b087307-9958-435f-9940-b9c6c890172c",
+            "target": "6496d8d1-b2e6-496b-b225-4a8b6b5ceea9",
+            "weight": 3
+          },
+          {
+            "source": "2be3302b-e34a-4348-8627-c63d1f62608e",
+            "target": "6496d8d1-b2e6-496b-b225-4a8b6b5ceea9",
+            "weight": -4
+          },
+          {
+            "source": "2be3302b-e34a-4348-8627-c63d1f62608e",
+            "target": "9b087307-9958-435f-9940-b9c6c890172c",
+            "weight": 5
+          },
+          {
+            "source": "8771149e-657d-4348-8627-4a8b6b5ceea9",
+            "target": "6496d8d1-b2e6-496b-b225-4a8b6b5ceea9",
+            "weight": -1,
+            "storyDescription": "In the case of Prescott Bush and Adolf Hitler, Prescott Bush's involvement in financial and business activities that may have indirectly supported Nazi Germany during World War II could be considered a negative association, given the implications of supporting a regime responsible for significant atrocities."
+          }
+        ],
+        "events": [{}]
+      },
+      {
+        "basics": {
+          "storyId": "8771149e-781c-4524-955d-32065b100bb1",
+          "storyName": "Chernobyl Disaster",
+          "storyDescription": "The Chernobyl Disaster was a catastrophic nuclear accident that occurred on April 26, 1986, at the Chernobyl Nuclear Power Plant in Pripyat, Ukraine. It is considered the worst nuclear disaster in history, releasing a significant amount of radioactive materials into the environment and causing widespread health and environmental impacts.",
+          "storyLabelColor": "#808080",
+          "storyImageUrl": "https://images.unsplash.com/photo-1667122331947-c22e2048fcfc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzMDA0MjB8MHwxfHNlYXJjaHwyfHxDaGVybm9ieWwlMjBEaXNhc3RlcnxlbnwwfHx8fDE2OTI4MDcwMTV8MA&ixlib=rb-4.0.3&q=80&w=400",
+          "date": { "start": "1970-04-01", "end": "1986-05-09" },
+          "coords": { "lat": 51.4045, "lng": 30.0542 }
+        },
+        "dataSets": [
+          {
+            "dataSetName": "chemical_radiation",
+            "dataSetUrl": "chernobyl-data"
+          }
+        ],
+        "persons": [
+          {
+            "personId": "6d581a64-7047-48da-82a5-a67c85dc9f53",
+            "personName": "Viktor Bryukhanov",
+            "role": "Plant Director at Chernobyl Nuclear Power Plant at the time of the disaster"
+          },
+          {
+            "personId": "2ac7f1df-5477-4ddd-8701-c89bc6f9043c",
+            "personName": "Anatoly Dyatlov",
+            "role": "Deputy Chief Engineer at Chernobyl Nuclear Power Plant, one of the main persons responsible for the explosion"
+          },
+          {
+            "personId": "062b3ace-5cf6-4f00-a3a6-715d731740f4",
+            "personName": "Valeri Legasov",
+            "role": "Soviet chemist and leading member of the commission investigating the disaster"
+          }
+        ],
+        "events": [{}]
+      },
+      {
+        "basics": {
+          "storyId": "d1516e0e-8886-4e9f-9b37-67d64cba5753",
+          "storyName": "Apollo 11 Moon Landing",
+          "storyDescription": "The Apollo 11 project was a historic spaceflight mission that successfully landed the first humans, Neil Armstrong and Edwin 'Buzz' Aldrin, on the Moon on July 20, 1969.",
+          "storyLabelColor": "#191970",
+          "storyImageUrl": "https://images.unsplash.com/photo-1541873676-a18131494184?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzMDA0MjB8MHwxfHNlYXJjaHwxfHxBcG9sbG8lMjAxMSUyME1vb24lMjBMYW5kaW5nfGVufDB8fHx8MTY5MjgxMzUwOHww&ixlib=rb-4.0.3&q=80&w=400",
+          "date": { "start": "1957-10-04", "end": "1969-08-13" },
+          "coords": { "lat": 13.1914, "lng": -169.3861 }
+        },
+        "dataSets": [{ "dataSetName": "", "dataSetUrl": "" }],
+        "persons": [
+          {
+            "personId": "83c57657-0dea-4abc-953b-2def20e9c4b3",
+            "personName": "Neil Armstrong",
+            "role": "American astronaut, first person to walk on the Moon"
+          },
+          {
+            "personId": "355dd102-a7f2-4820-b9ad-54214ec01ee5",
+            "personName": "Buzz Aldrin",
+            "role": "American astronaut, joined Armstrong on the Moon's surface"
+          },
+          {
+            "personId": "f2a64e9f-b804-4f07-9bc7-ef71923a4d60",
+            "personName": "Michael Collins",
+            "role": "American astronaut, piloted the Apollo 11 Command Module around the Moon while Armstrong and Aldrin were on the surface"
+          },
+          {
+            "personId": "3c27c522-7f03-450c-b537-9b3c7e07a172",
+            "personName": "John F. Kennedy",
+            "role": "American president, initiated the Apollo 11 Mission"
+          },
+          {
+            "personId": "cfb507e0-779c-4569-8f75-6386743a1f27",
+            "personName": "Nikita Khrushchev",
+            "role": "Soviet leader during the space race with the USA"
+          }
+        ],
+        "events": [{}]
+      }
+    ]
+  },
+  {
+    "events": [
+      {
+        "stories": [{ "storyId": "d1516e0e-8886-4e9f-9b37-67d64cba5753" }],
+        "basics": {
+          "eventId": "soviet_1",
+          "eventLabelColor": "#333433",
+          "eventImageUrl": "https://thefederalist.com/wp-content/uploads/2017/10/4-r-7-launcher-998x1322.jpg",
+          "eventName": "Soviet Union launched Sputnik 1",
+          "date": { "start": "1957-10-04", "end": "1957-10-04" },
+          "coords": { "lat": 45.965, "lng": 63.305 },
+          "eventDescription": "On October 4, 1957, the Soviet Union launched Sputnik 1, the world's first artificial satellite. This historic event marked the beginning of the space age and initiated the Space Race between the United States and the Soviet Union."
+        }
+      },
+      {
+        "stories": [{ "storyId": "d1516e0e-8886-4e9f-9b37-67d64cba5753" }],
+        "basics": {
+          "eventId": "debate_1",
+          "eventLabelColor": "#333433",
+          "eventImageUrl": null,
+          "eventName": "Congress Debate",
+          "date": { "start": "1960-01-01", "end": "1960-01-01" },
+          "coords": { "lat": 38.8899, "lng": -77.009 },
+          "eventDescription": "Democratic members of Congress raise concerns about allocating significant funds to a space program when there are pressing domestic issues, such as poverty and healthcare, that also require attention."
+        },
+        "persons": [
+          {
+            "personId": "83c57657-0dea-4abc-953b-2def20e9c4b3",
+            "personName": "John Doe",
+            "role": "Democratic Senator"
+          }
+        ]
+      },
+      {
+        "stories": [{ "storyId": "d1516e0e-8886-4e9f-9b37-67d64cba5753" }],
+        "basics": {
+          "eventId": "soviet_2",
+          "eventLabelColor": "#333433",
+          "eventImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Yuri_Gagarin_%281961%29_-_Restoration.jpg/1920px-Yuri_Gagarin_%281961%29_-_Restoration.jpg",
+          "eventName": "Soviet cosmonaut first human to orbit Earth",
+          "date": { "start": "1961-04-12", "end": "1961-04-12" },
+          "coords": { "lat": 45.965, "lng": 63.305 },
+          "eventDescription": "On April 12, 1961, Soviet cosmonaut Yuri Gagarin became the first human to orbit the Earth aboard the Vostok 1 spacecraft. Gagarin's successful spaceflight demonstrated Soviet space capabilities and added to the intensifying competition between superpowers."
+        }
+      },
+      {
+        "stories": [{ "storyId": "d1516e0e-8886-4e9f-9b37-67d64cba5753" }],
+        "basics": {
+          "eventId": "debate_2",
+          "eventLabelColor": "#333433",
+          "eventImageUrl": null,
+          "eventName": "Congress Debate",
+          "date": { "start": "1961-05-25", "end": "1961-05-25" },
+          "coords": { "lat": 38.8899, "lng": -77.009 },
+          "eventDescription": "Republicans argue that investing in the Apollo program is crucial for demonstrating American technological superiority and maintaining national prestige in the face of Cold War competition with the Soviet Union. No one seemed concerned either about the difficulty or about the expense at the time."
+        },
+        "persons": [
+          {
+            "personId": "83c57657-0dea-4abc-953b-2def20e9c4b3",
+            "personName": "Jane Smith",
+            "role": "Republican Congressman"
+          }
+        ]
+      },
+      {
+        "stories": [{ "storyId": "d1516e0e-8886-4e9f-9b37-67d64cba5753" }],
+        "basics": {
+          "eventId": "17a37c9f-83f6-465b-b1f3-4ad69d36941d",
+          "eventLabelColor": "#333433",
+          "eventImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Kennedy_Giving_Historic_Speech_to_Congress_-_GPN-2000-001658.jpg/1582px-Kennedy_Giving_Historic_Speech_to_Congress_-_GPN-2000-001658.jpg?20090409143053",
+          "eventName": "Kennedy speech before Congress",
+          "date": { "start": "1961-05-25", "end": "1961-05-25" },
+          "coords": { "lat": 38.8899, "lng": -77.009 },
+          "eventDescription": "On May 25, 1961, President John F. Kennedy delivered a speech before a joint session of the United States Congress, in which he set forth the ambitious goal of sending an American astronaut to the Moon and returning them safely to Earth before the end of the decade. This announcement marked the beginning of the Apollo program, a historic effort to achieve human space exploration beyond Earth's orbit."
+        },
+        "persons": [
+          {
+            "personId": "3c27c522-7f03-450c-b537-9b3c7e07a172",
+            "personName": "John F. Kennedy",
+            "role": "President of the United States"
+          }
+        ]
+      },
+      {
+        "stories": [{ "storyId": "d1516e0e-8886-4e9f-9b37-67d64cba5753" }],
+        "basics": {
+          "eventId": "debate_3",
+          "eventLabelColor": "#333433",
+          "eventImageUrl": null,
+          "eventName": "Congress Debate",
+          "date": { "start": "1962-08-01", "end": "1962-08-01" },
+          "coords": { "lat": 38.8899, "lng": -77.009 },
+          "eventDescription": "Members from both parties highlight the potential scientific and technological advancements that could result from the Apollo program. They discuss the long-term benefits to various industries and the economy."
+        },
+        "persons": [
+          {
+            "personId": "83c57657-0dea-4abc-953b-2def20e9c4b3",
+            "personName": "Robert Johnson",
+            "role": "Scientist"
+          },
+          {
+            "personId": "a2b3c4d5-6789-0abc-1def-2345a678b9cd",
+            "personName": "Mary Thompson",
+            "role": "Economist"
+          }
+        ]
+      },
+      {
+        "stories": [{ "storyId": "d1516e0e-8886-4e9f-9b37-67d64cba5753" }],
+        "basics": {
+          "eventId": "e3fb7e44-8e4b-4a1b-84b7-2d9e5767c0e1",
+          "eventLabelColor": "#333433",
+          "eventImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/John_F._Kennedy_speaks_at_Rice_University.jpg/640px-John_F._Kennedy_speaks_at_Rice_University.jpg",
+          "eventName": "Kennedy's speech at Rice University",
+          "date": { "start": "1962-09-12", "end": "1962-09-12" },
+          "coords": { "lat": 29.431, "lng": -95.2441 },
+          "eventDescription": "On September 12, 1962, President John F. Kennedy delivered a speech at Rice University, reiterating the United States' commitment to space exploration and rallying public support for the Apollo program. He famously declared, 'We choose to go to the Moon in this decade and do the other things, not because they are easy, but because they are hard.'"
+        },
+        "persons": [
+          {
+            "personId": "3c27c522-7f03-450c-b537-9b3c7e07a172",
+            "personName": "John F. Kennedy",
+            "role": "President of the United States"
+          }
+        ]
+      },
+      {
+        "stories": [{ "storyId": "d1516e0e-8886-4e9f-9b37-67d64cba5753" }],
+        "basics": {
+          "eventId": "soviet_3",
+          "eventLabelColor": "#333433",
+          "eventImageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/61/RIAN_archive_612748_Valentina_Tereshkova.jpg",
+          "eventName": "Soviet cosmonaut first woman to travel to space",
+          "date": { "start": "1963-06-16", "end": "1963-06-16" },
+          "coords": { "lat": 45.9966, "lng": 63.5692 },
+          "eventDescription": "On June 16, 1963, Soviet cosmonaut Valentina Tereshkova became the first woman to travel to space aboard the Vostok 6 spacecraft. Her mission highlighted Soviet achievements in space exploration and inspired discussions about the role of women in space."
+        }
+      },
+      {
+        "stories": [{ "storyId": "d1516e0e-8886-4e9f-9b37-67d64cba5753" }],
+        "basics": {
+          "eventId": "debate_4",
+          "eventLabelColor": "#333433",
+          "eventImageUrl": null,
+          "eventName": "Congress Debate",
+          "date": { "start": "1963-11-15", "end": "1963-11-15" },
+          "coords": { "lat": 38.8899, "lng": -77.009 },
+          "eventDescription": "Both Democrats and Republicans engage in debates over the inspiration and educational impact of space exploration. They emphasize the importance of cultivating interest in STEM fields among the youth.  As it turned out Webb was able to sustain the momentum of Apollo through the decade, largely because of his rapport with key members of Congress and with Lyndon B. Johnson, who became president in November 1963."
+        },
+        "persons": [
+          {
+            "personId": "d6f89284-87c4-4f6a-95ea-eb64a792ac6a",
+            "personName": "Lyndon B. Johnson",
+            "role": "Vice President "
+          },
+          {
+            "personId": "83c57657-0dea-4abc-953b-2def20e9c4b3",
+            "personName": "unknown",
+            "role": "Education Advocate"
+          }
+        ]
+      },
+      {
+        "stories": [
+          { "storyId": "d1516e0e-8886-4e9f-9b37-67d64cba5753" },
+          { "storyId": "6496d8d1-496b-4c4a-b225-4a8b6b5ceea9" }
+        ],
+        "basics": {
+          "eventId": "assassination_jfk",
+          "eventLabelColor": "#333433",
+          "eventImageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5c/JFK_limousine.png",
+          "eventName": "Assassination of John F. Kennedy",
+          "date": { "start": "1963-11-22", "end": "1963-11-22" },
+          "coords": { "lat": 32.4643, "lng": -96.4831 },
+          "eventDescription": "On November 22, 1963, President John F. Kennedy was assassinated while riding in a motorcade in Dealey Plaza, Dallas, Texas. The assassination of the 35th President of the United States marked a tragic and pivotal moment in American history. The event sparked investigations, conspiracy theories, and a profound sense of loss among the American people. ice President Lyndon B. Johnson automatically succeeded to the presidency, making him the 36th President of the United States. Johnson assumed the presidency immediately and started to complete the remainder of Kennedy's presidency."
+        },
+        "persons": [
+          {
+            "personId": "d6f89284-87c4-4f6a-95ea-eb64a792ac6a",
+            "personName": "Lyndon B. Johnson",
+            "role": "Vice President "
+          },
+          {
+            "personId": "3c27c522-7f03-450c-b537-9b3c7e07a172",
+            "personName": "John F. Kennedy",
+            "role": "President of the United States"
+          }
+        ]
+      },
+      {
+        "stories": [{ "storyId": "d1516e0e-8886-4e9f-9b37-67d64cba5753" }],
+        "basics": {
+          "eventId": "debate_5",
+          "eventLabelColor": "#333433",
+          "eventImageUrl": null,
+          "eventName": "Congress Debate",
+          "date": { "start": "1965-03-21", "end": "1965-03-21" },
+          "coords": { "lat": 38.8899, "lng": -77.009 },
+          "eventDescription": "Democratic members express concerns about the risks of human spaceflight, especially after the tragic Apollo 1 incident. They question whether the potential benefits justify putting astronauts' lives at risk."
+        },
+        "persons": [
+          {
+            "personId": "83c57657-0dea-4abc-953b-2def20e9c4b3",
+            "name": "Emily Davis",
+            "personName": "Democratic Representative"
+          }
+        ]
+      },
+      {
+        "stories": [{ "storyId": "d1516e0e-8886-4e9f-9b37-67d64cba5753" }],
+        "basics": {
+          "eventId": "debate_6",
+          "eventLabelColor": "#333433",
+          "eventImageUrl": null,
+          "eventName": "Congress Debate",
+          "date": { "start": "1966-07-10", "end": "1966-07-10" },
+          "coords": { "lat": 38.8899, "lng": -77.009 },
+          "eventDescription": "Republicans emphasize the economic impact of the Apollo program. They point to job creation and economic growth resulting from contracts with aerospace companies and related industries."
+        },
+        "persons": [
+          {
+            "personId": "83c57657-0dea-4abc-953b-2def20e9c4b3",
+            "personName": "David Wilson",
+            "role": "Republican Senator"
+          }
+        ]
+      },
+      {
+        "stories": [{ "storyId": "d1516e0e-8886-4e9f-9b37-67d64cba5753" }],
+        "basics": {
+          "eventId": "abc65432-1234-5678-abc6-54321abc6543",
+          "eventLabelColor": "#333433",
+          "eventImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Apollo1-Crew_01.jpg/2560px-Apollo1-Crew_01.jpg",
+          "eventName": "Pre-launch Apollo 1 accident",
+          "date": { "start": "1967-01-27", "end": "1967-01-27" },
+          "coords": { "lat": 28.5721, "lng": -80.648 },
+          "eventDescription": "On January 27, 1967, tragedy struck during a pre-launch test for Apollo 1 when a cabin fire resulted in the deaths of astronauts Gus Grissom, Ed White, and Roger B. Chaffee. This devastating event highlighted the technical challenges and risks involved in the Apollo program and led to significant safety improvements in subsequent missions."
+        }
+      },
+      {
+        "stories": [{ "storyId": "d1516e0e-8886-4e9f-9b37-67d64cba5753" }],
+        "basics": {
+          "eventId": "def98765-5678-4321-def9-87654def9876",
+          "eventLabelColor": "#333433",
+          "eventImageUrl": null,
+          "eventName": "US first humans to orbit the Moon",
+          "date": { "start": "1968-12-24", "end": "1968-12-24" },
+          "coords": { "lat": 0.6741, "lng": -23.4733 },
+          "eventDescription": "On December 24, 1968, during the Apollo 8 mission, astronauts Frank Borman, James Lovell, and William Anders became the first humans to orbit the Moon. Their iconic 'Earthrise' photo captured the fragile beauty of our planet from space, inspiring a new perspective on environmental awareness and the interconnectedness of humanity."
+        }
+      },
+      {
+        "stories": [{ "storyId": "d1516e0e-8886-4e9f-9b37-67d64cba5753" }],
+        "basics": {
+          "eventId": "def98765-8886-4abc-abc6-2def20e9c4b3",
+          "eventLabelColor": "#333433",
+          "eventImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Apollo_11_Launch_-_GPN-2000-000630.jpg/1920px-Apollo_11_Launch_-_GPN-2000-000630.jpg",
+          "eventName": "Apollo 11 launched",
+          "date": { "start": "1969-07-16", "end": "1969-07-16" },
+          "coords": { "lat": 28.5721, "lng": -80.648 },
+          "eventDescription": "Apollo 11 was launched from Kennedy Space Center in Florida, USA, on July 16, 1969. It was the fifth crewed mission of NASA's Apollo program and aimed to land astronauts on the Moon."
+        },
+        "persons": [
+          {
+            "personId": "83c57657-0dea-4abc-953b-2def20e9c4b3",
+            "personName": "Neil Armstrong",
+            "role": "American astronaut, first person to walk on the Moon"
+          },
+          {
+            "personId": "355dd102-a7f2-4820-b9ad-54214ec01ee5",
+            "personName": "Buzz Aldrin",
+            "role": "American astronaut, joined Armstrong on the Moon's surface"
+          },
+          {
+            "personId": "f2a64e9f-b804-4f07-9bc7-ef71923a4d60",
+            "personName": "Michael Collins",
+            "role": "American astronaut, piloted the Apollo 11 Command Module around the Moon while Armstrong and Aldrin were on the surface"
+          }
+        ]
+      },
+      {
+        "stories": [{ "storyId": "d1516e0e-8886-4e9f-9b37-67d64cba5753" }],
+        "basics": {
+          "eventId": "jkl98765-5678-4321-jkl9-87654jkl9876",
+          "eventLabelColor": "#333433",
+          "eventImageUrl": null,
+          "eventName": "Lunar Module successfully landed on the Moon",
+          "date": { "start": "1969-07-20", "end": "1969-07-24" },
+          "coords": { "lat": 0.6741, "lng": -23.4733 },
+          "eventDescription": "The Lunar Module successfully landed on the Moon on July 20, 1969. This remarkable technical achievement required precise navigation and control, overcoming the challenges of lunar terrain and ensuring a safe landing for astronauts Neil Armstrong and Edwin 'Buzz' Aldrin."
+        },
+        "persons": [
+          {
+            "personId": "83c57657-0dea-4abc-953b-2def20e9c4b3",
+            "personName": "Neil Armstrong",
+            "role": "American astronaut, first person to walk on the Moon"
+          },
+          {
+            "personId": "355dd102-a7f2-4820-b9ad-54214ec01ee5",
+            "personName": "Buzz Aldrin",
+            "role": "American astronaut, joined Armstrong on the Moon's surface"
+          }
+        ]
+      },
+
+      {
+        "stories": [{ "storyId": "d1516e0e-8886-4e9f-9b37-67d64cba5753" }],
+        "basics": {
+          "eventId": "83c57657-0dea-4abc-953b-2def20e9c4b3",
+          "eventLabelColor": "#333433",
+          "eventImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Apollo_11_CSM_photographed_from_Lunar_Module_%28AS11-37-5445%29.jpg/1920px-Apollo_11_CSM_photographed_from_Lunar_Module_%28AS11-37-5445%29.jpg",
+          "eventName": "Command Module descended to the lunar surface",
+          "date": { "start": "1969-07-20", "end": "1969-07-20" },
+          "coords": { "lat": 0.6741, "lng": -23.4733 },
+          "eventDescription": "The Lunar Module, named 'Eagle,' separated from the Command Module and descended to the lunar surface. Neil Armstrong and Edwin 'Buzz' Aldrin piloted the module, while Michael Collins remained in orbit around the Moon."
+        },
+        "persons": [
+          {
+            "personId": "83c57657-0dea-4abc-953b-2def20e9c4b3",
+            "personName": "Neil Armstrong",
+            "role": "American astronaut, first person to walk on the Moon"
+          },
+          {
+            "personId": "355dd102-a7f2-4820-b9ad-54214ec01ee5",
+            "personName": "Buzz Aldrin",
+            "role": "American astronaut, joined Armstrong on the Moon's surface"
+          }
+        ]
+      },
+      {
+        "stories": [{ "storyId": "d1516e0e-8886-4e9f-9b37-67d64cba5753" }],
+        "basics": {
+          "eventId": "6db8abf8-4de5-4e6b-872f-67a2559f7050",
+          "eventLabelColor": "#333433",
+          "eventImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Apollo_11_bootprint.jpg/640px-Apollo_11_bootprint.jpg",
+          "eventName": "First person to set foot on the Moon",
+          "date": { "start": "1969-07-20", "end": "1969-07-20" },
+          "coords": { "lat": 0.6741, "lng": -23.4733 },
+          "eventDescription": "Neil Armstrong became the first person to set foot on the lunar surface on July 20, 1969, uttering the famous words, 'That's one small step for [a] man, one giant leap for mankind.'"
+        },
+        "persons": [
+          {
+            "personId": "83c57657-0dea-4abc-953b-2def20e9c4b3",
+            "personName": "Neil Armstrong",
+            "role": "American astronaut, first person to walk on the Moon"
+          }
+        ]
+      },
+      {
+        "stories": [{ "storyId": "d1516e0e-8886-4e9f-9b37-67d64cba5753" }],
+        "basics": {
+          "eventId": "b183f0d4-33d6-4e16-b19c-4649c9a01b6f",
+          "eventLabelColor": "#333433",
+          "eventImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Armstrong_on_Moon_%28As11-40-5886%29_%28cropped%29.jpg/440px-Armstrong_on_Moon_%28As11-40-5886%29_%28cropped%29.jpg",
+          "eventName": "Astronauts return to the Lunar Module",
+          "date": { "start": "1969-07-21", "end": "1969-07-21" },
+          "coords": { "lat": 0.6741, "lng": -23.4733 },
+          "eventDescription": "After spending approximately 21 hours on the lunar surface, Armstrong and Aldrin returned to the Lunar Module, which successfully ascended to rejoin the Command Module. The crew then began their journey back to Earth."
+        },
+        "persons": [
+          {
+            "personId": "83c57657-0dea-4abc-953b-2def20e9c4b3",
+            "personName": "Neil Armstrong",
+            "role": "American astronaut, first person to walk on the Moon"
+          },
+          {
+            "personId": "355dd102-a7f2-4820-b9ad-54214ec01ee5",
+            "personName": "Buzz Aldrin",
+            "role": "American astronaut, joined Armstrong on the Moon's surface"
+          }
+        ]
+      },
+      {
+        "stories": [{ "storyId": "d1516e0e-8886-4e9f-9b37-67d64cba5753" }],
+        "basics": {
+          "eventId": "2c8b200b-8e36-458f-92b9-c1a14e226a25",
+          "eventLabelColor": "#333433",
+          "eventImageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/28/Splashdown_3.jpg",
+          "eventName": "Command Module splashed down safely in the Pacific",
+          "date": { "start": "1969-07-24", "end": "1969-07-24" },
+          "coords": { "lat": 13.1914, "lng": -169.3861 },
+          "eventDescription": "The Apollo 11 Command Module, named 'Columbia,' re-entered Earth's atmosphere and splashed down safely in the Pacific Ocean on July 24, 1969. The mission was a historic success, marking the first time humans had landed on the Moon and returned safely to Earth."
+        },
+        "persons": [
+          {
+            "personId": "83c57657-0dea-4abc-953b-2def20e9c4b3",
+            "personName": "Neil Armstrong",
+            "role": "American astronaut, first person to walk on the Moon"
+          },
+          {
+            "personId": "355dd102-a7f2-4820-b9ad-54214ec01ee5",
+            "personName": "Buzz Aldrin",
+            "role": "American astronaut, joined Armstrong on the Moon's surface"
+          },
+          {
+            "personId": "f2a64e9f-b804-4f07-9bc7-ef71923a4d60",
+            "personName": "Michael Collins",
+            "role": "American astronaut, piloted the Apollo 11 Command Module around the Moon while Armstrong and Aldrin were on the surface"
+          }
+        ]
+      },
+      {
+        "stories": [{ "storyId": "d1516e0e-8886-4e9f-9b37-67d64cba5753" }],
+        "basics": {
+          "eventId": "a5313cbe-27cc-4355-9ad5-c2dca482c708",
+          "eventLabelColor": "#333433",
+          "eventImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/President_Nixon_welcomes_the_Apollo_11_astronauts_aboard_the_U.S.S._Hornet.jpg/1920px-President_Nixon_welcomes_the_Apollo_11_astronauts_aboard_the_U.S.S._Hornet.jpg",
+          "eventName": "Apollo 11 astronauts released from quarantine",
+          "date": { "start": "1969-08-13", "end": "1969-08-13" },
+          "coords": { "lat": 29.333, "lng": -95.052 },
+          "eventDescription": "Apollo 11 astronauts Neil Armstrong, Buzz Aldrin, and Michael Collins were released from quarantine from LRL (Lunar Receiving Laboratory) on August 13, 1969, after their return from the Moon. They were quarantined to prevent any potential lunar pathogens from spreading to Earth."
+        },
+        "persons": [
+          {
+            "personId": "83c57657-0dea-4abc-953b-2def20e9c4b3",
+            "personName": "Neil Armstrong",
+            "role": "American astronaut, first person to walk on the Moon"
+          },
+          {
+            "personId": "355dd102-a7f2-4820-b9ad-54214ec01ee5",
+            "personName": "Buzz Aldrin",
+            "role": "American astronaut, joined Armstrong on the Moon's surface"
+          },
+          {
+            "personId": "f2a64e9f-b804-4f07-9bc7-ef71923a4d60",
+            "personName": "Michael Collins",
+            "role": "American astronaut, piloted the Apollo 11 Command Module around the Moon while Armstrong and Aldrin were on the surface"
+          }
+        ]
+      },
+      {
+        "stories": [{ "storyId": "d1516e0e-8886-4e9f-9b37-67d64cba5753" }],
+        "basics": {
+          "eventId": "d89eb8b4-6d6f-4e0a-b32c-bb0954a6a4ea",
+          "eventLabelColor": "#333433",
+          "eventImageUrl": "https://media01.stockfood.com/largepreviews/MzkwMTA0Njgy/12584022-Apollo-11-ticker-tape-parade-New-York-August-1969.jpg",
+          "eventName": "Ticker-tape parade in NYC",
+          "date": { "start": "1969-08-13", "end": "1969-08-14" },
+          "coords": { "lat": 40.7128, "lng": -74.006 },
+          "eventDescription": "A ticker-tape parade was held in New York City on August 13, 1969, to honor the Apollo 11 astronauts. Neil Armstrong, Buzz Aldrin, and Michael Collins rode in open cars through the streets of Manhattan, greeted by cheering crowds."
+        },
+        "persons": [
+          {
+            "personId": "83c57657-0dea-4abc-953b-2def20e9c4b3",
+            "personName": "Neil Armstrong",
+            "role": "American astronaut, first person to walk on the Moon"
+          },
+          {
+            "personId": "355dd102-a7f2-4820-b9ad-54214ec01ee5",
+            "personName": "Buzz Aldrin",
+            "role": "American astronaut, joined Armstrong on the Moon's surface"
+          },
+          {
+            "personId": "f2a64e9f-b804-4f07-9bc7-ef71923a4d60",
+            "personName": "Michael Collins",
+            "role": "American astronaut, piloted the Apollo 11 Command Module around the Moon while Armstrong and Aldrin were on the surface"
+          }
+        ]
+      },
+      {
+        "stories": [{ "storyId": "8771149e-781c-4524-955d-32065b100bb1" }],
+        "basics": {
+          "eventId": "construction_event",
+          "eventLabelColor": "#333433",
+          "eventImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/O05mn4806uj61.webp/554px-O05mn4806uj61.webp.png",
+          "eventName": "Construction of the Chernobyl Nuclear Power Plant begins",
+          "date": { "start": "1970-04-01", "end": "1977-01-01" },
+          "coords": { "lat": 51.4048, "lng": 30.0542 },
+          "eventDescription": "Construction of the Chernobyl Nuclear Power Plant begins. The first reactor, Reactor No. 1, becomes operational in 1977."
+        }
+      },
+      {
+        "stories": [{ "storyId": "8771149e-781c-4524-955d-32065b100bb1" }],
+        "basics": {
+          "eventId": "disaster_event",
+          "eventLabelColor": "#333433",
+          "eventImageUrl": null,
+          "eventName": "catastrophic explosion",
+          "date": { "start": "1986-04-26", "end": "1986-04-26" },
+          "coords": { "lat": 51.4048, "lng": 30.0542 },
+          "eventDescription": "On April 26, 1986, a catastrophic explosion and fire occur at Reactor No. 4 of the Chernobyl Nuclear Power Plant in Pripyat, Ukraine. It is the worst nuclear disaster in history."
+        }
+      },
+      {
+        "stories": [{ "storyId": "8771149e-781c-4524-955d-32065b100bb1" }],
+        "basics": {
+          "eventId": "explosion_event",
+          "eventLabelColor": "#333433",
+          "eventImageUrl": "https://nuclearsafety.gc.ca/images/resources/health/chernobyl-explosion.jpg",
+          "eventName": "Massive explosion",
+          "date": {
+            "start": "1986-04-26T01:23:00",
+            "end": "1986-04-26T01:23:0}0"
+          },
+          "coords": { "lat": 51.4048, "lng": 30.0542 },
+          "eventDescription": "At 01:23 AM on April 26, 1986, a massive explosion tears apart Reactor No. 4's reactor vessel at the Chernobyl Nuclear Power Plant. The explosion releases a huge amount of radioactive material into the atmosphere."
+        }
+      },
+      {
+        "stories": [{ "storyId": "8771149e-781c-4524-955d-32065b100bb1" }],
+        "basics": {
+          "eventId": "evacuation_event",
+          "eventLabelColor": "#333433",
+          "eventImageUrl": "https://upload.wikimedia.org/wikipedia/en/f/f6/Chernobyl_burning-aerial_view_of_core.jpg",
+          "eventName": "Pripyat evacuated",
+          "date": { "start": "1986-04-27", "end": "1986-04-27" },
+          "coords": { "lat": 51.4048, "lng": 30.0542 },
+          "eventDescription": "The nearby city of Pripyat, home to plant workers and their families, is evacuated a day after the explosion. Over 49,000 residents are relocated, and a 30-kilometer exclusion zone is established around the plant."
+        }
+      },
+      {
+        "stories": [{ "storyId": "8771149e-781c-4524-955d-32065b100bb1" }],
+        "basics": {
+          "eventId": "sealing_event",
+          "eventLabelColor": "#333433",
+          "eventImageUrl": "https://nuclearsafety.gc.ca/images/resources/health/chernobyl-today.png",
+          "eventName": "Safe Confinement positioned over remains of Reactor",
+          "date": { "start": "2016-11-29", "end": "2016-11-29" },
+          "coords": { "lat": 51.4048, "lng": 30.0542 },
+          "eventDescription": "The New Safe Confinement (NSC), a massive steel structure, is successfully positioned over the remains of Reactor No. 4 at the Chernobyl Nuclear Power Plant. This marks the completion of the sealing process to contain radioactive materials and prevent further releases."
+        }
+      },
+      {
+        "stories": [{ "storyId": "d91cc57d-657d-4c4a-bae7-024847270b10" }],
+        "basics": {
+          "eventId": "event_1",
+          "eventLabelColor": "#333433",
+          "eventImageUrl": "https://www.nationalww2museum.org/sites/default/files/styles/wide_large/public/2017-06/hitler-079.jpg?h=90fce8d2",
+          "eventName": "Adolf Hitler appointed Chancellor of Germany",
+          "date": { "start": "1933-03-05", "end": "1933-03-05" },
+          "coords": { "lat": 52.52, "lng": 13.405 },
+          "eventDescription": "Adolf Hitler is appointed Chancellor of Germany, marking a turning point as the Nazi regime begins its ascent to power."
+        },
+        "persons": [
+          {
+            "personId": "6496d8d1-b2e6-496b-b225-4a8b6b5ceea9",
+            "personName": "Adolf Hitler",
+            "role": "German Chancellor and Nazi Leader",
+            "personLabelColor": "red"
+          }
+        ]
+      },
+      {
+        "stories": [{ "storyId": "d91cc57d-657d-4c4a-bae7-024847270b10" }],
+        "basics": {
+          "eventId": "event_2",
+          "eventLabelColor": "#333433",
+          "eventImageUrl": "https://encyclopedia.ushmm.org/index.php/images/thumb/b6ee93f6-eadb-44e6-8bb8-590a6c807b64.jpg.pagespeed.ce.Zb6f-OUfe_.jpg",
+          "eventName": "Germany annexes Austria",
+          "date": { "start": "1938-03-12", "end": "1938-03-12" },
+          "coords": { "lat": 48.2082, "lng": 16.3738 },
+          "eventDescription": "Germany annexes Austria in the Anschluss, violating the Treaty of Versailles and further fueling tensions in Europe."
+        },
+        "persons": [
+          {
+            "personId": "6496d8d1-b2e6-496b-b225-4a8b6b5ceea9",
+            "personName": "Adolf Hitler",
+            "role": "German Chancellor and Nazi Leader",
+            "personLabelColor": "red"
+          }
+        ]
+      },
+      {
+        "stories": [{ "storyId": "d91cc57d-657d-4c4a-bae7-024847270b10" }],
+        "basics": {
+          "eventId": "event_3",
+          "eventLabelColor": "#333433",
+          "eventImageUrl": "https://api.time.com/wp-content/uploads/2019/08/nazi-invasion-poland.jpg",
+          "eventName": "Germany invades Poland",
+          "date": { "start": "1939-09-01", "end": "1939-09-01" },
+          "coords": { "lat": 52.52, "lng": 13.405 },
+          "eventDescription": "Germany invades Poland, prompting Britain and France to declare war two days later, marking the official start of World War 2."
+        },
+        "persons": [
+          {
+            "personId": "6496d8d1-b2e6-496b-b225-4a8b6b5ceea9",
+            "personName": "Adolf Hitler",
+            "role": "German Chancellor and Nazi Leader",
+            "personLabelColor": "red"
+          },
+          {
+            "personId": "person_2",
+            "personName": "Neville Chamberlain",
+            "role": "Prime Minister of the United Kingdom",
+            "personLabelColor": "green"
+          },
+          {
+            "personId": "3c27c522-438f-bb36-b9c6c890172c",
+            "personName": "Édouard Daladier",
+            "role": "Prime Minister of France",
+            "personLabelColor": "green"
+          },
+          {
+            "personId": "2be3302b-e34a-4348-8627-c63d1f62608e",
+            "personName": "Joseph Stalin",
+            "role": "General Secretary of the Communist Party of the Soviet Union",
+            "personLabelColor": "green"
+          },
+          {
+            "personId": "person_5",
+            "personName": "Ignacy Mościcki",
+            "role": "President of Poland",
+            "personLabelColor": "green"
+          }
+        ]
+      },
+      {
+        "stories": [{ "storyId": "d91cc57d-657d-4c4a-bae7-024847270b10" }],
+        "basics": {
+          "eventId": "event_4",
+          "eventLabelColor": "#333433",
+          "eventImageUrl": "https://blog.britishnewspaperarchive.co.uk/wp-content/uploads/2015/09/Britain-declares-war.jpg",
+          "eventName": "UK declares war on Germany",
+          "date": { "start": "1939-09-03", "end": "1945-05-08" },
+          "coords": { "lat": 51.5074, "lng": -0.1278 },
+          "eventDescription": "The United Kingdom declares war on Germany in response to the invasion of Poland."
+        },
+        "persons": [
+          {
+            "personId": "person_2",
+            "personName": "Neville Chamberlain",
+            "role": "Prime Minister of the United Kingdom",
+            "personLabelColor": "green"
+          },
+          {
+            "personId": "6496d8d1-b2e6-496b-b225-4a8b6b5ceea9",
+            "personName": "Adolf Hitler",
+            "role": "German Chancellor and Nazi Leader",
+            "personLabelColor": "red"
+          }
+        ]
+      },
+      {
+        "stories": [{ "storyId": "d91cc57d-657d-4c4a-bae7-024847270b10" }],
+        "basics": {
+          "eventId": "event_21",
+          "eventLabelColor": "#333433",
+          "eventImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/GeoVICan.jpg/440px-GeoVICan.jpg",
+          "eventName": "Canada declares war on Germany",
+          "date": { "start": "1939-09-10", "end": "1951-05-08" },
+          "coords": { "lat": 45.252523, "lng": -75.414942 },
+          "eventDescription": "A declaration of war by Canada against Germany was made by order-in-council signed by George VI, king of Canada, on 10 September 1939, seven days after the United Kingdom and France had also entered a state of war with the Nazi regime. The royal proclamation of the Canadian declaration was published in the Canada Gazette."
+        },
+        "persons": []
+      },
+      {
+        "stories": [{ "storyId": "d91cc57d-657d-4c4a-bae7-024847270b10" }],
+        "basics": {
+          "eventId": "event_5",
+          "eventLabelColor": "#333433",
+          "eventImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/PARIS-SOIR-3-09-1939.jpg/1200px-PARIS-SOIR-3-09-1939.jpg",
+          "eventName": "France declares war on Germany",
+          "date": { "start": "1939-09-03", "end": "1945-05-08" },
+          "coords": { "lat": 48.8566, "lng": 2.3522 },
+          "eventDescription": "France declares war on Germany in support of Poland and the United Kingdom."
+        },
+        "persons": [
+          {
+            "personId": "3c27c522-438f-bb36-b9c6c890172c",
+            "personName": "Édouard Daladier",
+            "role": "Prime Minister of France",
+            "personLabelColor": "green"
+          },
+          {
+            "personId": "6496d8d1-b2e6-496b-b225-4a8b6b5ceea9",
+            "personName": "Adolf Hitler",
+            "role": "German Chancellor and Nazi Leader",
+            "personLabelColor": "red"
+          }
+        ]
+      },
+      {
+        "stories": [{ "storyId": "d91cc57d-657d-4c4a-bae7-024847270b10" }],
+        "basics": {
+          "eventId": "event_6",
+          "eventLabelColor": "#333433",
+          "eventImageUrl": "https://cdn.britannica.com/78/177078-050-EFCF854A/Adolf-Hitler-front-Paris-Eiffel-Tower-France-June-1940.jpg",
+          "eventName": "Germany invades France",
+          "date": { "start": "1940-05-10", "end": "1944-08-19" },
+          "coords": { "lat": 48.8566, "lng": 2.3522 },
+          "eventDescription": "Germany launches Blitzkrieg (lightning war) tactics and invades France. The fall of France results in the German occupation of Paris."
+        },
+        "persons": [
+          {
+            "personId": "3c27c522-438f-bb36-b9c6c890172c",
+            "personName": "Édouard Daladier",
+            "role": "Prime Minister of France",
+            "personLabelColor": "green"
+          },
+          {
+            "personId": "6496d8d1-b2e6-496b-b225-4a8b6b5ceea9",
+            "personName": "Adolf Hitler",
+            "role": "German Chancellor and Nazi Leader",
+            "personLabelColor": "red"
+          }
+        ]
+      },
+      {
+        "stories": [{ "storyId": "d91cc57d-657d-4c4a-bae7-024847270b10" }],
+        "basics": {
+          "eventId": "event_7",
+          "eventLabelColor": "#333433",
+          "eventImageUrl": "https://static.dw.com/image/19344571_605.jpg",
+          "eventName": "Germany invades Soviet Union",
+          "date": { "start": "1941-06-22", "end": "1941-06-22" },
+          "coords": { "lat": 48.42, "lng": 44.31 }
+        },
+
+        "eventDescription": "Germany launches Operation Barbarossa, invading the Soviet Union. This marks the largest military invasion in history and a turning point in the war.",
+        "persons": [
+          {
+            "personId": "2be3302b-e34a-4348-8627-c63d1f62608e",
+            "personName": "Joseph Stalin",
+            "role": "General Secretary of the Communist Party of the Soviet Union",
+            "personLabelColor": "green"
+          },
+          {
+            "personId": "6496d8d1-b2e6-496b-b225-4a8b6b5ceea9",
+            "personName": "Adolf Hitler",
+            "role": "German Chancellor and Nazi Leader",
+            "personLabelColor": "red"
+          }
+        ]
+      },
+      {
+        "stories": [{ "storyId": "d91cc57d-657d-4c4a-bae7-024847270b10" }],
+        "basics": {
+          "eventId": "event_8",
+          "eventLabelColor": "#333433",
+          "eventImageUrl": "https://images2.minutemediacdn.com/image/upload/c_fill,w_720,ar_16:9,f_auto,q_auto,g_auto/shape/cover/sport/evening-world-aug-1-1914-f6914c8cc8923dd68620f14c394affee.png",
+          "eventName": "Soviet Union enters war against Germany",
+          "date": { "start": "1941-06-22", "end": "1945-05-08" },
+          "coords": { "lat": 55.7558, "lng": 37.6176 },
+          "eventDescription": "The Soviet Union is invaded by Germany in Operation Barbarossa, leading to their entry into World War 2."
+        },
+        "persons": [
+          {
+            "personId": "2be3302b-e34a-4348-8627-c63d1f62608e",
+            "personName": "Joseph Stalin",
+            "role": "General Secretary of the Communist Party of the Soviet Union",
+            "personLabelColor": "green"
+          },
+          {
+            "personId": "6496d8d1-b2e6-496b-b225-4a8b6b5ceea9",
+            "personName": "Adolf Hitler",
+            "role": "German Chancellor and Nazi Leader",
+            "personLabelColor": "red"
+          }
+        ]
+      },
+
+      {
+        "stories": [{ "storyId": "d91cc57d-657d-4c4a-bae7-024847270b10" }],
+        "basics": {
+          "eventId": "event_10",
+          "eventLabelColor": "#333433",
+          "eventImageUrl": "https://bloximages.chicago2.vip.townnews.com/nwitimes.com/content/tncms/assets/v3/editorial/c/0c/c0cd2c2d-86fd-5a9f-9617-24256b024504/59474b121c2b2.preview.jpg",
+          "eventName": "US enters War",
+          "date": { "start": "1941-12-07", "end": "1945-05-08" },
+          "coords": { "lat": 38.5323, "lng": -77.032 },
+          "eventDescription": "On December 7, 1941, Japanese carrier planes attacked the American fleet at Pearl Harbor, Hawaii, knocking out over 200 planes and sinking or damaging eight battleships, the pride of the US Pacific fleet. The following day, Congress declared war on Imperial Japan."
+        },
+        "persons": [
+          {
+            "personId": "3c27c522-e34a-435f-9940-4a8b6b5ceea9",
+            "personName": "Franklin D. Roosevelt",
+            "role": "President of the United States",
+            "personLabelColor": "green"
+          },
+          {
+            "personId": "f5c3e7a0-5ac3-438f-bb36-af54e20f315d",
+            "personName": "Emperor Hirohito",
+            "role": "Emperor of Japan",
+            "personLabelColor": "red"
+          }
+        ]
+      },
+      {
+        "stories": [{ "storyId": "d91cc57d-657d-4c4a-bae7-024847270b10" }],
+        "basics": {
+          "eventId": "event_9",
+          "eventLabelColor": "#333433",
+          "eventImageUrl": "https://images.immediate.co.uk/production/volatile/sites/7/2019/09/GettyImages-2660140-a5f92f2.jpg?quality=90&resize=980,654",
+          "eventName": "Japan attacks the US",
+          "date": { "start": "1941-12-07", "end": "1941-12-07" },
+          "coords": { "lat": 21.3069, "lng": -157.8583 }
+        },
+
+        "eventDescription": "Japan attacks the United States' Pacific Fleet at Pearl Harbor, leading to the U.S. entry into World War 2.",
+        "persons": [
+          {
+            "personId": "f5c3e7a0-5ac3-438f-bb36-af54e20f315d",
+            "personName": "Emperor Hirohito",
+            "role": "Emperor of Japan",
+            "personLabelColor": "red"
+          },
+          {
+            "personId": "3c27c522-e34a-435f-9940-4a8b6b5ceea9",
+            "personName": "Franklin D. Roosevelt",
+            "role": "President of the United States",
+            "personLabelColor": "green"
+          }
+        ]
+      },
+      {
+        "stories": [{ "storyId": "d91cc57d-657d-4c4a-bae7-024847270b10" }],
+        "basics": {
+          "eventId": "event_11",
+          "eventLabelColor": "#333433",
+          "eventImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Raising_a_flag_over_the_Reichstag_2.jpg/640px-Raising_a_flag_over_the_Reichstag_2.jpg",
+          "eventName": "Germany surrenders",
+          "date": { "start": "1945-05-08", "end": "1945-05-08" },
+          "coords": { "lat": 52.52, "lng": 13.405 },
+          "eventDescription": "Germany surrenders unconditionally to the Allies, marking Victory in Europe (VE) Day and the end of major combat operations in Europe during World War 2."
+        },
+        "persons": [
+          {
+            "personId": "6496d8d1-b2e6-496b-b225-4a8b6b5ceea9",
+            "personName": "Adolf Hitler",
+            "role": "Leader of Nazi Germany",
+            "personLabelColor": "red"
+          }
+        ]
+      },
+      {
+        "stories": [{ "storyId": "d91cc57d-657d-4c4a-bae7-024847270b10" }],
+        "basics": {
+          "eventId": "event_ve_day",
+          "eventLabelColor": "#333433",
+          "eventImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Winston_Churchill_waves_to_crowds_in_Whitehall_in_London_as_they_celebrate_VE_Day%2C_8_May_1945._H41849.jpg/480px-Winston_Churchill_waves_to_crowds_in_Whitehall_in_London_as_they_celebrate_VE_Day%2C_8_May_1945._H41849.jpg",
+          "eventName": "Victory in Europe (VE) Day",
+          "date": { "start": "1945-05-08", "end": "1945-05-08" },
+          "coords": { "lat": 51.5074, "lng": -0.1278 },
+          "eventDescription": "Victory in Europe (VE) Day marked the end of World War II in Europe. The surrender of Germany led to celebrations and the cessation of hostilities on May 8, 1945."
+        },
+        "persons": [
+          {
+            "personId": "9b087307-9958-435f-9940-b9c6c890172c",
+            "personName": "Harry S. Truman",
+            "role": "President of the United States",
+            "personLabelColor": "green"
+          },
+          {
+            "personId": "d91cc57d-b2e6-4c4a-bae7-b9c6c890172c",
+            "personName": "Clement Attlee",
+            "role": "Prime Minister of the United Kingdom",
+            "personLabelColor": "green"
+          },
+          {
+            "personId": "2be3302b-e34a-4348-8627-c63d1f62608e",
+            "personName": "Joseph Stalin",
+            "role": "Premier of the Soviet Union",
+            "personLabelColor": "green"
+          },
+          {
+            "personId": "6496d8d1-b2e6-496b-b225-4a8b6b5ceea9",
+            "personName": "Adolf Hitler",
+            "role": "Leader of Nazi Germany",
+            "personLabelColor": "red"
+          },
+          {
+            "personId": "8771149e-d401-4348-8627-4a8b6b5ceea9",
+            "personName": "Karl Dönitz",
+            "role": "President of Germany",
+            "personLabelColor": "red"
+          }
+        ]
+      },
+
+      {
+        "stories": [{ "storyId": "d91cc57d-657d-4c4a-bae7-024847270b10" }],
+        "basics": {
+          "eventId": "event_13",
+          "eventLabelColor": "#333433",
+          "eventImageUrl": "https://foreignpolicy.com/wp-content/uploads/2020/08/enola-gay-atomic-bomb-casualties-hiroshima-1945.jpg",
+          "eventName": "US drops atomic bomb on Hiroshima",
+          "date": { "start": "1945-08-06", "end": "1945-08-06" },
+          "coords": { "lat": 34.2329, "lng": 132.2707 },
+          "eventDescription": "The United States drops an atomic bomb on the city of Hiroshima, Japan, leading to Japan's surrender and the end of World War 2 in the Pacific."
+        },
+        "persons": [
+          {
+            "personId": "3c27c522-e34a-435f-9940-4a8b6b5ceea9",
+            "personName": "Franklin D. Roosevelt",
+            "role": "President of the United States",
+            "personLabelColor": "green"
+          },
+          {
+            "personId": "f5c3e7a0-5ac3-438f-bb36-af54e20f315d",
+            "personName": "Emperor Hirohito",
+            "role": "Emperor of Japan",
+            "personLabelColor": "red"
+          }
+        ]
+      },
+      {
+        "stories": [{ "storyId": "d91cc57d-657d-4c4a-bae7-024847270b10" }],
+        "basics": {
+          "eventId": "event_14",
+          "eventLabelColor": "#333433",
+          "eventImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Bundesarchiv_Bild_183-P0801-026%2C_Helsinki%2C_KSZE-Konferenz%2C_Schlussakte.jpg/600px-Bundesarchiv_Bild_183-P0801-026%2C_Helsinki%2C_KSZE-Konferenz%2C_Schlussakte.jpg",
+          "eventName": "German Democratic Republic declared",
+          "date": { "start": "1949-10-07", "end": "1949-10-07" },
+          "coords": { "lat": 52.31, "lng": 13.2418 },
+          "eventDescription": "East Germany (German: Ostdeutschland), officially the German Democratic Republic (GDR; Deutsche Demokratische Republik, pronounced [ˈdɔʏtʃə demoˈkʁaːtɪʃə ʁepuˈbliːk] (listen), DDR), was a country in Central Europe that existed from its creation on 7 October 1949 until its dissolution on 3 October 1990. Until 1989, it was generally viewed as a communist state, and it described itself as a socialist \"workers' and peasants' state\"."
+        },
+        "persons": []
+      },
+      {
+        "stories": [{ "storyId": "d91cc57d-657d-4c4a-bae7-024847270b10" }],
+        "basics": {
+          "eventId": "event_17",
+          "eventLabelColor": "#333433",
+          "eventImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Bundesarchiv_Bild_183-1987-0922-500%2C_Wien%2C_Heldenplatz%2C_Rede_Adolf_Hitler.jpg/460px-Bundesarchiv_Bild_183-1987-0922-500%2C_Wien%2C_Heldenplatz%2C_Rede_Adolf_Hitler.jpg",
+          "eventName": "Raise of Nazi Germany",
+          "date": { "start": "1933-01-30", "end": "1945-06-05" },
+          "coords": { "lat": 52.42, "lng": 13.35 },
+
+          "eventDescription": "Nazi Germany[h] (officially known as the German Reich[i] 1933–43, later the Greater German Reich[j] 1943–45) was the German state between 1933 and 1945, when Adolf Hitler and the Nazi Party controlled the country, transforming it into a dictatorship."
+        },
+        "persons": []
+      },
+      {
+        "stories": [{ "storyId": "d91cc57d-657d-4c4a-bae7-024847270b10" }],
+        "basics": {
+          "eventId": "event_18",
+          "eventLabelColor": "#333433",
+          "eventImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Deutschland_Besatzungszonen_8_Jun_1947_-_22_Apr_1949.svg/250px-Deutschland_Besatzungszonen_8_Jun_1947_-_22_Apr_1949.svg.png",
+          "eventName": "Allied-occupied Germany",
+          "date": { "start": "1945-06-05", "end": "1949-05-23" },
+          "coords": { "lat": 52.51, "lng": 13.43 },
+          "eventDescription": "The entirety of Germany was occupied and administered by the Allies of World War II from the Berlin Declaration on 5 June 1945 to the establishment of West Germany on 23 May 1949. Unlike occupied Japan, Germany was stripped of its sovereignty and former state: after Nazi Germany surrendered on 8 May 1945, four countries representing the Allies (the United States, United Kingdom, Soviet Union, and France) asserted joint authority and sovereignty through the Allied Control Council (ACC) under the Berlin Declaration of 5 June 1945 that led to the fall of the German Reich."
+        },
+        "persons": [{}]
+      },
+      {
+        "stories": [{ "storyId": "d91cc57d-657d-4c4a-bae7-024847270b10" }],
+        "basics": {
+          "eventId": "event_19",
+          "eventLabelColor": "#333433",
+          "eventImageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Color_photograph_of_judges%27_bench_at_IMT.jpg",
+          "eventName": "Subsequent Nuremberg trials",
+          "date": { "start": "1945-12-09", "end": "1949-04-13" },
+          "coords": { "lat": 49.2716, "lng": 11.0254 },
+          "eventDescription": "The subsequent Nuremberg trials (also Nuremberg Military Tribunals; 1946–1949) were twelve military tribunals for war crimes committed by the leaders of Nazi Germany (1933–1945). The Nuremberg Military Tribunals occurred after the Nuremberg trials, held by the International Military Tribunal, which concluded in October 1946. "
+        },
+        "persons": [{}]
+      },
+      {
+        "stories": [{ "storyId": "d91cc57d-657d-4c4a-bae7-024847270b10" }],
+        "basics": {
+          "eventId": "event_20",
+          "eventLabelColor": "#333433",
+          "eventImageUrl": "https://www.deutschland.de/sites/default/files/field_visuals/history-basic-law-federal-republic-of-germany-konrad-adenauer_a.jpg",
+          "eventName": "German Federal Republic declared",
+          "date": { "start": "1949-05-23", "end": "1949-05-23" },
+          "coords": { "lat": 50.44, "lng": 7.6 },
+          "eventDescription": "The Basic Law for the Federal Republic of Germany (West Germany) is adopted, officially establishing the German Federal Republic, or West Germany."
+        },
+        "persons": [
+          {
+            "personId": "82a178de-d401-4e16-89c7-bb9ee5816e13",
+            "personName": "Konrad Adenauer",
+            "role": "Chancellor of West Germany",
+            "personLabelColor": "green"
+          },
+          {
+            "personId": "3629a7c3-2e3f-45db-90c7-d5709271a37b",
+            "personName": "Theodor Heuss",
+            "role": "President of West Germany",
+            "personLabelColor": "green"
+          },
+          {
+            "personId": "f660e5ed-2a09-4c6c-8106-d5f82ea2e6c7",
+            "personName": "Hermann Ehlers",
+            "role": "President of the Bundestag",
+            "personLabelColor": "green"
+          },
+          {
+            "personId": "a29e1e1b-e312-44c6-98c4-ae9f53b68efc",
+            "personName": "Jakob Kaiser",
+            "role": "Federal Minister for All-German Affairs",
+            "personLabelColor": "green"
+          },
+          {
+            "personId": "d0f9b8d7-c5c6-47c6-8e35-0c695ac4f6b0",
+            "personName": "Gustav Heinemann",
+            "role": "Minister of the Interior",
+            "personLabelColor": "green"
+          }
+        ]
+      }
+    ]
+  },
+
+  { "timestamps": "" },
+  {
+    "mockForcedGraph": {
+      "nodes": [
+        {
+          "nodeId": "A",
+          "targets": ["B"],
+          "index": 0,
+          "x": 270.8821318372034,
+          "y": 249.4727068279509,
+          "vy": -0.000004072078062248869,
+          "vx": 0.000019407250825677434
+        },
+        {
+          "nodeId": "B",
+          "index": 1,
+          "x": 233.36196879053148,
+          "y": 262.4389772359307,
+          "vy": -0.000004709327312548946,
+          "vx": 0.000012930464388489875
+        },
+        {
+          "nodeId": "C",
+          "index": 2,
+          "x": 256.1953917897118,
+          "y": 229.3895289600734,
+          "vy": 0.000020115629298836453,
+          "vx": 0.000014139460564674433
+        },
+        {
+          "nodeId": "D",
+          "index": 3,
+          "x": 257.03429392091437,
+          "y": 270.3050548723602,
+          "vy": -0.000020013895450631545,
+          "vx": 0.00005224766698478226
+        },
+        {
+          "nodeId": "E",
+          "index": 4,
+          "x": 232.52641084770815,
+          "y": 238.3937379259115,
+          "vy": 0.000014501898176617986,
+          "vx": 0.00009846122645210135
+        }
+      ],
+      "links": [
+        {
+          "source": {
+            "sourceId": "A",
+            "targets": ["B"],
+            "index": 0,
+            "x": 270.8821318372034,
+            "y": 249.4727068279509,
+            "vy": -0.000004072078062248869,
+            "vx": 0.000019407250825677434
+          },
+          "target": {
+            "targetId": "B",
+            "index": 1,
+            "x": 233.36196879053148,
+            "y": 262.4389772359307,
+            "vy": -0.000004709327312548946,
+            "vx": 0.000012930464388489875
+          },
+          "index": 0
+        },
+        {
+          "source": {
+            "sourceId": "B",
+            "index": 1,
+            "x": 233.36196879053148,
+            "y": 262.4389772359307,
+            "vy": -0.000004709327312548946,
+            "vx": 0.000012930464388489875
+          },
+          "target": {
+            "targetId": "C",
+            "index": 2,
+            "x": 256.1953917897118,
+            "y": 229.3895289600734,
+            "vy": 0.000020115629298836453,
+            "vx": 0.000014139460564674433
+          },
+          "index": 1
+        },
+        {
+          "source": {
+            "sourceId": "C",
+            "index": 2,
+            "x": 256.1953917897118,
+            "y": 229.3895289600734,
+            "vy": 0.000020115629298836453,
+            "vx": 0.000014139460564674433
+          },
+          "target": {
+            "targetId": "D",
+            "index": 3,
+            "x": 257.03429392091437,
+            "y": 270.3050548723602,
+            "vy": -0.000020013895450631545,
+            "vx": 0.00005224766698478226
+          },
+          "index": 2
+        },
+        {
+          "source": {
+            "sourceId": "D",
+            "index": 3,
+            "x": 257.03429392091437,
+            "y": 270.3050548723602,
+            "vy": -0.000020013895450631545,
+            "vx": 0.00005224766698478226
+          },
+          "target": {
+            "targetId": "E",
+            "index": 4,
+            "x": 232.52641084770815,
+            "y": 238.3937379259115,
+            "vy": 0.000014501898176617986,
+            "vx": 0.00009846122645210135
+          },
+          "index": 3
+        },
+        {
+          "source": {
+            "sourceId": "E",
+            "index": 4,
+            "x": 232.52641084770815,
+            "y": 238.3937379259115,
+            "vy": 0.000014501898176617986,
+            "vx": 0.00009846122645210135
+          },
+          "target": {
+            "targetId": "A",
+            "targets": ["B"],
+            "index": 0,
+            "x": 270.8821318372034,
+            "y": 249.4727068279509,
+            "vy": -0.000004072078062248869,
+            "vx": 0.000019407250825677434
+          },
+          "index": 4
+        }
+      ]
+    }
+  },
+  {
+    "videos": [
+      {
+        "basics": {
+          "ownerId": "",
+          "videoId": "f321030d-2bec-4a84-8f2f-51c0b56536f1",
+          "videoType": "",
+          "videoName": "",
+          "videoLabelColor": "#11A9BC",
+          "videoUrl": "https://www.youtube.com/watch?v=20BEJouWBgY",
+          "storyId": ""
+        },
+        "youtubeVideoData": {
+          "kind": "youtube#playlistItem",
+          "etag": "OloejA79j7fEyCUeBO_41xhzK_o",
+          "id": "UEx2VzlLLXI5YXZ3cEc4QzJtaEFTTWVKOV9nRFRjZ0ZtYy44MjlEMzMwNUQ1OTJFNTFE",
+          "snippet": {
+            "publishedAt": "2022-11-18T00:33:08Z",
+            "channelInFocusId": "UCNwwSfREZGiWlDKDfBzL2bA",
+            "title": "The FTX Disaster is Deeper Than you Think",
+            "description": "In this episode we take a deep dive into Sam Bankman-fried (SBF) and the FTX / Alameda  situation.\n\nTheranos: https://www.youtube.com/watch?v=3CccfnRpPtM\n\nEnron: https://www.youtube.com/watch?v=e5qC1YGRMKI\n\nOnecoin: https://www.youtube.com/watch?v=64xcgvEJ3Ys\n\nWorldcom: https://www.youtube.com/watch?v=u_rfIboPyYs\n\nLuna: https://www.youtube.com/watch?v=3KZY41SqaTI\n\nClosing Track: https://www.youtube.com/watch?v=MYOlFM3Dlz4\n\n--- About ColdFusion ---\nColdFusion is an Australian based online media company independently run by Dagogo Altraide since 2009. Topics cover anything in science, technology, history and business in a calm and relaxed environment. \n\n» ColdFusion Discord:  https://discord.gg/coldfusion\n» Twitter | @ColdFusion_TV\n» Instagram | coldfusiontv\n» Facebook | https://www.facebook.com/ColdFusioncollective\n»PODCAST:https://www.youtube.com/channel/UC6jKUaNXSnuW52CxexLcOJg\n\n//Soundtrack//\n\nBurn Water - Take Flight (Bon Iver Flip)\n\nGiyo - Are the Animals Gone\n\nThe-light-feat-kingpinguin-zachary-david\n\nframes - IN VIA - 04 Calm Wisdom\n\nCahb - Secrets\n\nDeccies - Subtle\n\nDavid Keno - Golden Ticket \n\nIn the Waiting - Johannes Bornlof\n\nFemale - Grvty\n\nUniversal - Matt Fax\n\nGem Club - First Weeks\n\nPassage of Time\n\nMogwai - golden_porsche\n\nBurn Water - Adomania\n\nSources:\n\nhttps://www.gawker.com/money/are-these-caroline-ellisons-tumblrs\n\nhttps://www.afr.com/technology/ftx-hack-likely-an-inside-job-as-339m-frozen-in-three-wallets-20221115-p5bygm\n\nhttps://www.coindesk.com/policy/2022/11/09/ftx-faces-us-justice-department-probe-report/\n\nhttps://www.visualcapitalist.com/biggest-donors-2022-midterm-elections/\n\nhttps://fortune.com/2022/11/09/sam-bankman-fried-14-billion-wiped-from-personal-wealth-overnight-ftx-bailout-deal-binance/\n\nhttps://www.smh.com.au/business/entrepreneurship/robin-hood-of-crypto-the-30-year-old-billionaire-who-wants-to-give-his-fortune-away-20220404-p5aaky.html \n\nhttps://www.milkroad.com/p/binance-vs-ftx-heres-happened-weekend'\n\nhttps://techcrunch.com/2022/11/09/sequoia-capital-marks-its-ftx-investment-down-to-zero-dollars/\n\nhttps://techcrunch.com/2022/11/14/softbank-ftx-crypto/\n\nhttps://www.axios.com/2022/11/12/ftx-terms-service-trading-customer-funds\n\nhttps://www.wsj.com/livecoverage/stock-market-news-today-11-11-2022/card/ftx-paid-250-million-to-a-related-party-in-2021-N5yX9Z6NPx6rdmIXWSer\n\nhttps://decrypt.co/76584/ftx-ceo-sam-bankman-fried-why-bought-out-binance-investment-shares-exit \n\nhttps://www.coindesk.com/layer2/2022/11/08/the-story-of-sam-bankman-frieds-backroom-deal-with-binances-cz/\n\nhttps://www.coindesk.com/layer2/2022/10/25/is-sbf-right-about-defi-regulation/\n\nhttps://cryptoslate.com/ftx-hacker-is-now-one-of-the-largest-eth-holders/\n\nhttps://www.milkroad.com/p/goes-sbf \n\nhttps://fourweekmba.com/how-does-ftx-work-and-make-money/\n\nhttps://coinmarketcap.com/alexandria/article/what-is-ftx-token-ftt-features-tokenomics-and-price-prediction\n\nhttps://www.reuters.com/technology/exclusive-behind-ftxs-fall-battling-billionaires-failed-bid-save-crypto-2022-11-10/\n\nhttps://www.reuters.com/technology/exclusive-behind-ftxs-fall-battling-billionaires-failed-bid-save-crypto-2022-11-10/\n\nhttps://www.nbcnews.com/news/epic-fall-sam-bankman-fried-was-hailed-crypto-genius-clients-saw-smoke-rcna56583\n\nhttps://www.bbc.com/news/technology-63612489\n\nhttps://twitter.com/AutismCapital/status/1590779299946442753?t=iIemPUWnkIvlDWPMPdzwBQ&s=19\n\nhttps://www.forbes.com/sites/davidjeans/2022/11/12/the-devil-in-nerds-clothes-how-sam-bankman-frieds-cult-of-genius-fooled-everyone/?sh=5a804f7c1d26\n\nhttps://www.bbc.com/news/technology-63612489\n\nhttps://www.nbcnews.com/news/epic-fall-sam-bankman-fried-was-hailed-crypto-genius-clients-saw-smoke-rcna56583\n\nhttps://www.zerohedge.com/markets/ftx-held-just-900mm-liquid-assets-vs-9bn-liabilities-video-emerges-confirming-alameda-knew\n\nhttps://coinmarketcap.com/alexandria/article/what-is-ftx-token-ftt-features-tokenomics-and-price-prediction\n\nhttps://fortune.com/2022/11/13/sam-bankman-fried-alameda-research-who-is-caroline-ellison/\n\nhttps://jewishinsider.com/2021/07/the-young-crypto-billionaire-who-wants-to-change-political-fundraising/\n\nhttps://www.msn.com/en-us/money/markets/ftx-collapse-sam-bankman-fried-questioned-by-police-crypto-market-wobbles/ar-AA145tsF\n\nhttps://www.forbes.com/sites/davidjeans/2022/11/12/the-devil-in-nerds-clothes-how-sam-bankman-frieds-cult-of-genius-fooled-everyone/?sh=5a804f7c1d26\n\nProducer: Dagogo Altraide",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/20BEJouWBgY/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/20BEJouWBgY/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/20BEJouWBgY/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              },
+              "standard": {
+                "url": "https://i.ytimg.com/vi/20BEJouWBgY/sddefault.jpg",
+                "width": 640,
+                "height": 480
+              }
+            },
+            "channelTitle": "Anthony Zornig",
+            "playlistId": "PLvW9K-r9avwpG8C2mhASMeJ9_gDTcgFmc",
+            "position": 3,
+            "resourceId": {
+              "kind": "youtube#video",
+              "videoId": "20BEJouWBgY"
+            },
+            "videoOwnerChannelTitle": "ColdFusion",
+            "videoOwnerchannelInFocusId": "UC4QZ_LsYcvcq7qOsOhpAX4A"
+          }
+        },
+        "authors": [{ "authorId": "", "userId": "" }],
+        "markers": [
+          {
+            "markerId": "",
+            "markerPosition": null,
+            "events": [{ "eventId": "" }]
+          }
+        ]
+      }
+    ]
+  }
+]

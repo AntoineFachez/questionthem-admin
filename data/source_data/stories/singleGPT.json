@@ -1,0 +1,148 @@
+{
+  "events": [
+    {
+      "eventId": "58e151de-5f4d-4f34-9687-85879fbf1d07",
+      "eventName": "We choose to go to the Moon",
+      "date": { "start": "1961-05-25", "end": "1969-07-20" },
+      "coords": { "lat": 28.5721, "lng": -80.648 },
+      "eventImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/John_F._Kennedy_speaks_at_Rice_University.jpg/1024px-John_F._Kennedy_speaks_at_Rice_University.jpg",
+      "eventDescription": "The Apollo Program was initiated in response to President John F. Kennedy's ambitious 'Presidential Deadline' set on May 25, 1961, to land a man on the moon and safely return him to Earth before the end of the decade, specifically by the year 1969. This historic mission aimed to demonstrate American leadership in space exploration during the Cold War era.",
+      "persons": [
+        {
+          "personId": "3c27c522-7f03-450c-b537-9b3c7e07a172",
+          "personName": "John F. Kennedy",
+          "role": "President of the United States"
+        },
+        {
+          "personId": "9b087307-9958-435f-9940-b9c6c890172c",
+          "personName": "James E. Webb",
+          "role": "NASA Administrator"
+        },
+        {
+          "personId": "355dd102-a7f2-4820-b9ad-54214ec01ee5",
+          "personName": "Wernher von Braun",
+          "role": "Director of NASA's Marshall Space Flight Center"
+        },
+        {
+          "personId": "83c57657-0dea-4abc-953b-2def20e9c4b3",
+          "personName": "Neil Armstrong",
+          "role": "American astronaut, first person to walk on the Moon"
+        },
+        {
+          "personId": "f2a64e9f-b804-4f07-9bc7-ef71923a4d60",
+          "personName": "Buzz Aldrin",
+          "role": "American astronaut, joined Armstrong on the Moon's surface"
+        },
+        {
+          "personId": "d91cc57d-657d-4c4a-bae7-024847270b10",
+          "personName": "Michael Collins",
+          "role": "American astronaut, piloted the Apollo 11 Command Module around the Moon while Armstrong and Aldrin were on the surface"
+        },
+        {
+          "personId": "a7f2-4820-b9ad-54214ec01ee5",
+          "personName": "Engineers and Scientists",
+          "role": "Dedicated team of engineers, scientists, and technicians"
+        },
+        {
+          "personId": "b804-4f07-9bc7-ef71923a4d60",
+          "personName": "Technicians and Support Personnel",
+          "role": "Wide range of individuals contributing to the program's success"
+        },
+        {
+          "eventId": "event_sputnik_launch",
+          "eventName": "Launch of Sputnik 1",
+          "date": {
+            "start": "1957-10-04",
+            "end": "1957-10-04"
+          },
+          "coords": {
+            "lat": 55.7558,
+            "lng": 37.6176
+          },
+          "eventDescription": "The Soviet Union surprised the world by launching Sputnik 1, the first artificial satellite, into orbit. This marked the beginning of the space race.",
+          "persons": [
+            {
+              "personId": "wernher_von_braun",
+              "personName": "Wernher von Braun",
+              "role": "German rocket scientist"
+            },
+            {
+              "personId": "sergei_korolev",
+              "personName": "Sergei Korolev",
+              "role": "Chief designer of the Soviet space program"
+            }
+          ]
+        },
+        {
+          "eventId": "event_apollo_11_moon_landing",
+          "eventName": "Apollo 11 Moon Landing",
+          "date": {
+            "start": "1969-07-20",
+            "end": "1969-07-20"
+          },
+          "coords": {
+            "lat": 0.6741,
+            "lng": 23.4739
+          },
+          "eventDescription": "NASA's Apollo 11 mission successfully landed astronauts Neil Armstrong and Buzz Aldrin on the Moon. Neil Armstrong became the first person to walk on the Moon.",
+          "persons": [
+            {
+              "personId": "neil_armstrong",
+              "personName": "Neil Armstrong",
+              "role": "American astronaut, first person to walk on the Moon"
+            },
+            {
+              "personId": "buzz_aldrin",
+              "personName": "Buzz Aldrin",
+              "role": "American astronaut, joined Armstrong on the Moon's surface"
+            },
+            {
+              "personId": "michael_collins",
+              "personName": "Michael Collins",
+              "role": "American astronaut, piloted the Apollo 11 Command Module around the Moon while Armstrong and Aldrin were on the surface"
+            }
+          ]
+        },
+        {
+          "eventId": "event_hubble_space_telescope_launch",
+          "eventName": "Launch of Hubble Space Telescope",
+          "date": {
+            "start": "1990-04-24",
+            "end": "1990-04-24"
+          },
+          "coords": {
+            "lat": 28.5721,
+            "lng": -80.648
+          },
+          "eventDescription": "NASA launched the Hubble Space Telescope into orbit, allowing astronomers to observe distant galaxies and make groundbreaking discoveries about the universe.",
+          "persons": [
+            {
+              "personId": "james_e_webb",
+              "personName": "James E. Webb",
+              "role": "NASA Administrator"
+            },
+            {
+              "personId": "edwin_hubble",
+              "personName": "Edwin Hubble",
+              "role": "Astronomer known for Hubble's law"
+            }
+          ]
+        },
+        {
+          "eventId": "event_soviet_nuclear_test",
+          "eventName": "Soviet Union's Nuclear Test",
+          "date": {
+            "start": "1957-10-06",
+            "end": "1957-10-06"
+          },
+          "coords": {
+            "lat": 50.8799,
+            "lng": 55.6418
+          },
+          "eventDescription": "Two days after the launch of Sputnik 1, the Soviet Union conducted a giant thermonuclear bomb test. This event raised concerns and led to the connection between space achievements and military capabilities.",
+          "persons": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,167 @@
+{
+  "governance_styles": [
+    {
+      "category_id": "autocracy",
+      "category_name": "Rule by One (Autocracy)",
+      "description": "Systems where supreme power is concentrated in the hands of one person.",
+      "types": [
+        {
+          "style_id": "monarchy",
+          "name": "Monarchy",
+          "description": "Rule by a single person (monarch) who typically inherits their position (e.g., King, Queen, Emperor, Sultan).",
+          "sub_types": [
+            {
+              "sub_style_id": "absolute_monarchy",
+              "name": "Absolute Monarchy",
+              "description": "The monarch holds supreme, unrestricted power."
+            },
+            {
+              "sub_style_id": "constitutional_monarchy",
+              "name": "Constitutional Monarchy",
+              "description": "The monarch's powers are limited by a constitution, often serving a ceremonial role with real power held by elected officials."
+            }
+          ]
+        },
+        {
+          "style_id": "dictatorship",
+          "name": "Dictatorship",
+          "description": "Rule by a single leader (dictator) who has absolute power, typically obtained and maintained through force, not inheritance. Often suppresses opposition."
+        }
+      ]
+    },
+    {
+      "category_id": "oligarchy",
+      "category_name": "Rule by Few (Oligarchy)",
+      "description": "Systems where power rests with a small number of people.",
+      "types": [
+        {
+          "style_id": "oligarchy_general",
+          "name": "Oligarchy (General)",
+          "description": "Rule by a small group. The basis for their power can vary.",
+          "sub_types": []
+        },
+        {
+          "style_id": "aristocracy",
+          "name": "Aristocracy",
+          "description": "Rule by a hereditary noble class or perceived 'best' citizens.",
+          "sub_types": []
+        },
+        {
+          "style_id": "plutocracy",
+          "name": "Plutocracy",
+          "description": "Rule by the wealthy elite.",
+          "sub_types": []
+        },
+        {
+          "style_id": "junta",
+          "name": "Junta",
+          "description": "Rule by a small group of military leaders, often after a coup d'état.",
+          "sub_types": []
+        },
+        {
+          "style_id": "theocracy",
+          "name": "Theocracy",
+          "description": "Rule by religious leaders or based directly on religious law and doctrine.",
+          "sub_types": []
+        },
+        {
+          "style_id": "technocracy",
+          "name": "Technocracy",
+          "description": "Rule by technical experts or scientists.",
+          "sub_types": []
+        }
+      ]
+    },
+    {
+      "category_id": "democracy",
+      "category_name": "Rule by Many (Democracy)",
+      "description": "Systems where the ultimate power is held by the people.",
+      "types": [
+        {
+          "style_id": "direct_democracy",
+          "name": "Direct Democracy",
+          "description": "Citizens vote directly on laws and policies.",
+          "sub_types": []
+        },
+        {
+          "style_id": "representative_democracy",
+          "name": "Representative Democracy",
+          "description": "Citizens elect representatives to make decisions on their behalf. Often takes the form of a Republic.",
+          "sub_types": [
+            {
+              "sub_style_id": "republic",
+              "name": "Republic",
+              "description": "A state where supreme power is held by the people and their elected representatives, and which has an elected or nominated president rather than a monarch."
+            },
+            {
+              "sub_style_id": "parliamentary_system",
+              "name": "Parliamentary System",
+              "description": "The executive branch derives its legitimacy from and is accountable to the legislature; executive and legislative branches are intertwined."
+            },
+            {
+              "sub_style_id": "presidential_system",
+              "name": "Presidential System",
+              "description": "The executive branch is elected separately from the legislature, and both branches have distinct powers."
+            },
+            {
+              "sub_style_id": "semi_presidential_system",
+              "name": "Semi-Presidential System",
+              "description": "Features both a President (usually head of state) and a Prime Minister (usually head of government accountable to the legislature)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category_id": "anarchy",
+      "category_name": "Absence of Rule",
+      "description": "Systems characterized by the absence of a formal governing authority.",
+      "types": [
+        {
+          "style_id": "anarchy",
+          "name": "Anarchy",
+          "description": "A state of society without a governing authority or hierarchy. Can imply disorder, or a system based on voluntary cooperation.",
+          "sub_types": []
+        }
+      ]
+    }
+  ],
+  "related_concepts": [
+    {
+      "concept_id": "totalitarianism",
+      "name": "Totalitarianism",
+      "description": "A style where the state attempts to exert total control over nearly every aspect of public and private life. Can overlay different forms like Dictatorships.",
+      "relevance": "Describes the extent and nature of state control, applicable across various government forms."
+    },
+    {
+      "concept_id": "authoritarianism",
+      "name": "Authoritarianism",
+      "description": "Demands obedience to authority with less control over personal life than totalitarianism. Can apply to various non-democratic forms.",
+      "relevance": "Describes the enforcement of state authority, applicable across various government forms."
+    },
+    {
+      "concept_id": "structural_distribution",
+      "name": "Structural Power Distribution",
+      "description": "Describes how power is distributed geographically within a state.",
+      "sub_concepts": [
+        {
+          "sub_concept_id": "unitary_state",
+          "name": "Unitary State",
+          "description": "Central government holds most power."
+        },
+        {
+          "sub_concept_id": "federal_state",
+          "name": "Federal State",
+          "description": "Power is divided between a central government and regional/state governments."
+        }
+      ],
+      "relevance": "Applies to how various government forms (especially Republics) are organized geographically."
+    },
+    {
+      "concept_id": "tribal_governance",
+      "name": "Tribal Governance",
+      "description": "Traditional forms of governance in tribal societies, which can include chiefs (monarchy-like), councils of elders (oligarchy/gerontocracy), or consensus-based community decisions (democracy-like).",
+      "relevance": "Specific context often found in smaller-scale societies or indigenous groups."
+    }
+  ]
+}

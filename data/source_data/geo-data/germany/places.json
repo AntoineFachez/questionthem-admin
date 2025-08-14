@@ -1,0 +1,799 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "country_EN": "Germany",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coords": { "lat": 8.273259541581574, "lng": 49.98231351631226 }
+      },
+      "properties": {
+        "city_DE": "Mainz",
+        "city_EN": null,
+        "state_DE": "Rheinland-Pfalz"
+      },
+      "id": "Mainz"
+    },
+    {
+      "country_EN": "Germany",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coords": { "lat": 11.417138897833912, "lng": 53.63292119691722 }
+      },
+      "properties": {
+        "city_DE": "Schwerin",
+        "city_EN": null,
+        "state_DE": "Mecklenburg-Vorpommern"
+      },
+      "id": "Schwerin"
+    },
+    {
+      "country_EN": "Germany",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coords": { "lat": 8.53008774463919, "lng": 52.02959968623854 }
+      },
+      "properties": {
+        "city_DE": "Bielefeld",
+        "city_EN": null,
+        "state_DE": "Nordrhein-Westfalen"
+      },
+      "id": "Bielefeld"
+    },
+    {
+      "country_EN": "Germany",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coords": { "lat": 7.450276226195479, "lng": 51.52958941012193 }
+      },
+      "properties": {
+        "city_DE": "Dortmund",
+        "city_EN": null,
+        "state_DE": "Nordrhein-Westfalen"
+      },
+      "id": "Dortmund"
+    },
+    {
+      "country_EN": "Germany",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coords": { "lat": 6.7500416843295685, "lng": 51.430004223123255 }
+      },
+      "properties": {
+        "city_DE": "Duisburg",
+        "city_EN": null,
+        "state_DE": "Nordrhein-Westfalen"
+      },
+      "id": "Duisburg"
+    },
+    {
+      "country_EN": "Germany",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coords": { "lat": 7.1704090225694594, "lng": 51.25005610615123 }
+      },
+      "properties": {
+        "city_DE": "Wuppertal",
+        "city_EN": null,
+        "state_DE": "Nordrhein-Westfalen"
+      },
+      "id": "Wuppertal"
+    },
+    {
+      "country_EN": "Germany",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coords": { "lat": 7.017067477802707, "lng": 51.45038444743926 }
+      },
+      "properties": {
+        "city_DE": "Essen",
+        "city_EN": null,
+        "state_DE": "Nordrhein-Westfalen"
+      },
+      "id": "Essen"
+    },
+    {
+      "country_EN": "Germany",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coords": { "lat": 8.399785200440839, "lng": 48.99966247343928 }
+      },
+      "properties": {
+        "city_DE": "Karlsruhe",
+        "city_EN": null,
+        "state_DE": "Baden-Württemberg"
+      },
+      "id": "Karlsruhe"
+    },
+    {
+      "country_EN": "Germany",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coords": { "lat": 8.700047584897904, "lng": 49.420236193415086 }
+      },
+      "properties": {
+        "city_DE": "Heidelberg",
+        "city_EN": null,
+        "state_DE": "Baden-Württemberg"
+      },
+      "id": "Heidelberg"
+    },
+    {
+      "country_EN": "Germany",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coords": { "lat": 9.499991899715596, "lng": 51.3000802931087 }
+      },
+      "properties": {
+        "city_DE": "Kassel",
+        "city_EN": null,
+        "state_DE": "Hessen"
+      },
+      "id": "Kassel"
+    },
+    {
+      "country_EN": "Germany",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coords": { "lat": 8.220005458300509, "lng": 53.12990020584484 }
+      },
+      "properties": {
+        "city_DE": "Oldenburg",
+        "city_EN": null,
+        "state_DE": "Niedersachsen"
+      },
+      "id": "Oldenburg"
+    },
+    {
+      "country_EN": "Germany",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coords": { "lat": 7.2168647122401755, "lng": 53.36682031351844 }
+      },
+      "properties": {
+        "city_DE": "Emden",
+        "city_EN": null,
+        "state_DE": "Niedersachsen"
+      },
+      "id": "Emden"
+    },
+    {
+      "country_EN": "Germany",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coords": { "lat": 10.50048882603857, "lng": 52.250076658384444 }
+      },
+      "properties": {
+        "city_DE": "Braunschweig",
+        "city_EN": null,
+        "state_DE": "Niedersachsen"
+      },
+      "id": "Braunschweig"
+    },
+    {
+      "country_EN": "Germany",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coords": { "lat": 11.030008150577949, "lng": 50.969828021806116 }
+      },
+      "properties": {
+        "city_DE": "Erfurt",
+        "city_EN": null,
+        "state_DE": "ThUringen"
+      },
+      "id": "Erfurt"
+    },
+    {
+      "country_EN": "Germany",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coords": { "lat": 10.966556476881362, "lng": 50.26671028290383 }
+      },
+      "properties": {
+        "city_DE": "Coburg",
+        "city_EN": null,
+        "state_DE": "Bayern"
+      },
+      "id": "Coburg"
+    },
+    {
+      "country_EN": "Germany",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coords": { "lat": 10.8997056063796, "lng": 48.350274416824654 }
+      },
+      "properties": {
+        "city_DE": "Augsburg",
+        "city_EN": null,
+        "state_DE": "Bayern"
+      },
+      "id": "Augsburg"
+    },
+    {
+      "country_EN": "Germany",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coords": { "lat": 10.99941537933138, "lng": 49.47002878691442 }
+      },
+      "properties": {
+        "city_DE": "Fürth",
+        "city_EN": null,
+        "state_DE": "Bayern"
+      },
+      "id": "Fürth"
+    },
+    {
+      "country_EN": "Germany",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coords": { "lat": 12.92033926278878, "lng": 50.82971397963356 }
+      },
+      "properties": {
+        "city_DE": "Chemnitz",
+        "city_EN": null,
+        "state_DE": "Sachsen"
+      },
+      "id": "Chemnitz"
+    },
+    {
+      "country_EN": "Germany",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coords": { "lat": 7.080141462965386, "lng": 50.72063346085129 }
+      },
+      "properties": {
+        "city_DE": "Bonn",
+        "city_EN": null,
+        "state_DE": "Nordrhein-Westfalen"
+      },
+      "id": "Bonn"
+    },
+    {
+      "country_EN": "Germany",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coords": { "lat": 7.619858377920287, "lng": 51.97054335441374 }
+      },
+      "properties": {
+        "city_DE": "Münster",
+        "city_EN": null,
+        "state_DE": "Nordrhein-Westfalen"
+      },
+      "id": "Münster"
+    },
+    {
+      "country_EN": "Germany",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coords": { "lat": 6.780256767042229, "lng": 51.220643736967894 }
+      },
+      "properties": {
+        "city_DE": "Düsseldorf",
+        "city_EN": null,
+        "state_DE": "Nordrhein-Westfalen"
+      },
+      "id": "Düsseldorf"
+    },
+    {
+      "country_EN": "Germany",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coords": { "lat": 10.000429207144037, "lng": 48.400067010323994 }
+      },
+      "properties": {
+        "city_DE": "Ulm",
+        "city_EN": null,
+        "state_DE": "Baden-Württemberg"
+      },
+      "id": "Ulm"
+    },
+    {
+      "country_EN": "Germany",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coords": { "lat": 8.469657579213868, "lng": 49.500367529930294 }
+      },
+      "properties": {
+        "city_DE": "Mannheim",
+        "city_EN": null,
+        "state_DE": "Baden-Württemberg"
+      },
+      "id": "Mannheim"
+    },
+    {
+      "country_EN": "Germany",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coords": { "lat": 7.870265875901461, "lng": 48.000568295038605 }
+      },
+      "properties": {
+        "city_DE": "Freiburg",
+        "city_EN": null,
+        "state_DE": "Baden-Württemberg"
+      },
+      "id": "Freiburg"
+    },
+    {
+      "country_EN": "Germany",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coords": { "lat": 8.650570386955923, "lng": 50.583530133634504 }
+      },
+      "properties": {
+        "city_DE": "Gießen",
+        "city_EN": null,
+        "state_DE": "Hessen"
+      },
+      "id": "Gießen"
+    },
+    {
+      "country_EN": "Germany",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coords": { "lat": 8.250220541013169, "lng": 50.08050914256212 }
+      },
+      "properties": {
+        "city_DE": "Wiesbaden",
+        "city_EN": null,
+        "state_DE": "Hessen"
+      },
+      "id": "Wiesbaden"
+    },
+    {
+      "country_EN": "Germany",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coords": { "lat": 8.57956494258117, "lng": 53.55047392582065 }
+      },
+      "properties": {
+        "city_DE": "Bremerhaven",
+        "city_EN": null,
+        "state_DE": "Bremen"
+      },
+      "id": "Bremerhaven"
+    },
+    {
+      "country_EN": "Germany",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coords": { "lat": 8.0504233065757, "lng": 52.28041540140032 }
+      },
+      "properties": {
+        "city_DE": "Osnabrück",
+        "city_EN": null,
+        "state_DE": "Niedersachsen"
+      },
+      "id": "Osnabrück"
+    },
+    {
+      "country_EN": "Germany",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coords": { "lat": 9.716785118178935, "lng": 52.36679976128522 }
+      },
+      "properties": {
+        "city_DE": "Hannover",
+        "city_EN": null,
+        "state_DE": "Niedersachsen"
+      },
+      "id": "Hannover"
+    },
+    {
+      "country_EN": "Germany",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coords": { "lat": 9.920359237955486, "lng": 51.52032567179647 }
+      },
+      "properties": {
+        "city_DE": "Göttingen",
+        "city_EN": null,
+        "state_DE": "Niedersachsen"
+      },
+      "id": "Göttingen"
+    },
+    {
+      "country_EN": "Germany",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coords": { "lat": 12.069406995893473, "lng": 50.870242834807435 }
+      },
+      "properties": {
+        "city_DE": "Gera",
+        "city_EN": null,
+        "state_DE": "ThUringen"
+      },
+      "id": "Gera"
+    },
+    {
+      "country_EN": "Germany",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coords": { "lat": 11.58030034448228, "lng": 50.92999394700664 }
+      },
+      "properties": {
+        "city_DE": "Jena",
+        "city_EN": null,
+        "state_DE": "ThUringen"
+      },
+      "id": "Jena"
+    },
+    {
+      "country_EN": "Germany",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coords": { "lat": 9.433141029213834, "lng": 54.78394068385541 }
+      },
+      "properties": {
+        "city_DE": "Flensburg",
+        "city_EN": null,
+        "state_DE": "Schleswig-Holstein"
+      },
+      "id": "Flensburg"
+    },
+    {
+      "country_EN": "Germany",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coords": { "lat": 10.670070977763379, "lng": 53.87053608496523 }
+      },
+      "properties": {
+        "city_DE": "Lübeck",
+        "city_EN": null,
+        "state_DE": "Schleswig-Holstein"
+      },
+      "id": "Lübeck"
+    },
+    {
+      "country_EN": "Germany",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coords": { "lat": 10.12959868574066, "lng": 54.33071228628237 }
+      },
+      "properties": {
+        "city_DE": "Kiel",
+        "city_EN": null,
+        "state_DE": "Schleswig-Holstein"
+      },
+      "id": "Kiel"
+    },
+    {
+      "country_EN": "Germany",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coords": { "lat": 7.5998408856231485, "lng": 50.350778708207365 }
+      },
+      "properties": {
+        "city_DE": "Koblenz",
+        "city_EN": null,
+        "state_DE": "Rheinland-Pfalz"
+      },
+      "id": "Koblenz"
+    },
+    {
+      "country_EN": "Germany",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coords": { "lat": 6.970234099598082, "lng": 49.25047818860106 }
+      },
+      "properties": {
+        "city_DE": "Saarbrücken",
+        "city_EN": null,
+        "state_DE": "Saarland"
+      },
+      "id": "Saarbrücken"
+    },
+    {
+      "country_EN": "Germany",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coords": { "lat": 12.12001725943718, "lng": 49.020737478129696 }
+      },
+      "properties": {
+        "city_DE": "Regensburg",
+        "city_EN": null,
+        "state_DE": "Bayern"
+      },
+      "id": "Regensburg"
+    },
+    {
+      "country_EN": "Germany",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coords": { "lat": 12.132858669590062, "lng": 47.85026414070804 }
+      },
+      "properties": {
+        "city_DE": "Rosenheim",
+        "city_EN": null,
+        "state_DE": "Bayern"
+      },
+      "id": "Rosenheim"
+    },
+    {
+      "country_EN": "Germany",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coords": { "lat": 11.916443139660629, "lng": 50.31719765677758 }
+      },
+      "properties": { "city_DE": "Hof", "city_EN": null, "state_DE": "Bayern" },
+      "id": "Hof"
+    },
+    {
+      "country_EN": "Germany",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coords": { "lat": 9.94981894360033, "lng": 49.80028105821701 }
+      },
+      "properties": {
+        "city_DE": "Würzburg",
+        "city_EN": null,
+        "state_DE": "Bayern"
+      },
+      "id": "Würzburg"
+    },
+    {
+      "country_EN": "Germany",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coords": { "lat": 11.449997800283931, "lng": 48.77061654334232 }
+      },
+      "properties": {
+        "city_DE": "Ingolstadt",
+        "city_EN": null,
+        "state_DE": "Bayern"
+      },
+      "id": "Ingolstadt"
+    },
+    {
+      "country_EN": "Germany",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coords": { "lat": 14.329872871334398, "lng": 51.77021501312571 }
+      },
+      "properties": {
+        "city_DE": "Cottbus",
+        "city_EN": null,
+        "state_DE": "Brandenburg"
+      },
+      "id": "Cottbus"
+    },
+    {
+      "country_EN": "Germany",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coords": { "lat": 13.06990392221645, "lng": 52.40038081271501 }
+      },
+      "properties": {
+        "city_DE": "Potsdam",
+        "city_EN": null,
+        "state_DE": "Brandenburg"
+      },
+      "id": "Potsdam"
+    },
+    {
+      "country_EN": "Germany",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coords": { "lat": 11.619957640542648, "lng": 52.13011124706976 }
+      },
+      "properties": {
+        "city_DE": "Magdeburg",
+        "city_EN": null,
+        "state_DE": "Sachsen-Anhalt"
+      },
+      "id": "Magdeburg"
+    },
+    {
+      "country_EN": "Germany",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coords": { "lat": 12.410082053478725, "lng": 51.335050905287304 }
+      },
+      "properties": {
+        "city_DE": "Leipzig",
+        "city_EN": null,
+        "state_DE": "Sachsen"
+      },
+      "id": "Leipzig"
+    },
+    {
+      "country_EN": "Germany",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coords": { "lat": 13.10011900492911, "lng": 54.300373543266495 }
+      },
+      "properties": {
+        "city_DE": "Stralsund",
+        "city_EN": null,
+        "state_DE": "Mecklenburg-Vorpommern"
+      },
+      "id": "Stralsund"
+    },
+    {
+      "country_EN": "Germany",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coords": { "lat": 12.150232342149842, "lng": 54.07063283279513 }
+      },
+      "properties": {
+        "city_DE": "Rostock",
+        "city_EN": null,
+        "state_DE": "Mecklenburg-Vorpommern"
+      },
+      "id": "Rostock"
+    },
+    {
+      "country_EN": "Germany",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coords": { "lat": 9.200107203792438, "lng": 48.78011187512592 }
+      },
+      "properties": {
+        "city_DE": "Stuttgart",
+        "city_EN": null,
+        "state_DE": "Baden-Württemberg"
+      },
+      "id": "Stuttgart"
+    },
+    {
+      "country_EN": "Germany",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coords": { "lat": 8.800135046383593, "lng": 53.0801076123455 }
+      },
+      "properties": {
+        "city_DE": "Bremen",
+        "city_EN": null,
+        "state_DE": "Bremen"
+      },
+      "id": "Bremen"
+    },
+    {
+      "country_EN": "Germany",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coords": { "lat": 11.080240725587746, "lng": 49.44964856259841 }
+      },
+      "properties": {
+        "city_DE": "Nürnberg",
+        "city_EN": null,
+        "state_DE": "Bayern"
+      },
+      "id": "Nürnberg"
+    },
+    {
+      "country_EN": "Germany",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coords": { "lat": 6.948328164631404, "lng": 50.931615101213595 }
+      },
+      "properties": {
+        "city_DE": "Köln",
+        "city_EN": "Cologne",
+        "state_DE": "Nordrhein-Westfalen"
+      },
+      "id": "Köln"
+    },
+    {
+      "country_EN": "Germany",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coords": { "lat": 13.749743283251314, "lng": 51.049959358321324 }
+      },
+      "properties": {
+        "city_DE": "Dresden",
+        "city_EN": null,
+        "state_DE": "Sachsen"
+      },
+      "id": "Dresden"
+    },
+    {
+      "country_EN": "Germany",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coords": { "lat": 8.67512014165996, "lng": 50.09996299304558 }
+      },
+      "properties": {
+        "city_DE": "Frankfurt",
+        "city_EN": null,
+        "state_DE": "Hessen"
+      },
+      "id": "Frankfurt"
+    },
+    {
+      "country_EN": "Germany",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coords": { "lat": 9.998540764474495, "lng": 53.552095080027605 }
+      },
+      "properties": {
+        "city_DE": "Hamburg",
+        "city_EN": null,
+        "state_DE": "Hamburg"
+      },
+      "id": "Hamburg"
+    },
+    {
+      "country_EN": "Germany",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coords": { "lat": 11.573124262338023, "lng": 48.13211337926011 }
+      },
+      "properties": {
+        "city_DE": "München",
+        "city_EN": "Munich",
+        "state_DE": "Bayern"
+      },
+      "id": "München"
+    },
+    {
+      "country_EN": "Germany",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coords": { "lat": 13.399248323784452, "lng": 52.524051719359875 }
+      },
+      "properties": {
+        "city_DE": "Berlin",
+        "city_EN": null,
+        "state_DE": "Berlin"
+      },
+      "id": "Berlin"
+    }
+  ]
+}

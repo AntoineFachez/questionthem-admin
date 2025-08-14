@@ -1,0 +1,2637 @@
+[
+  {
+    "storyId": null,
+    "eventId": null,
+    "persons": null,
+    "database": {
+      "createdAt": {
+        "_seconds": 1696022262,
+        "_nanoseconds": 225000000
+      },
+      "userId": "some userId",
+      "status": "just entered"
+    },
+    "stories": null,
+    "youtubeVideoData": {
+      "snippet": {
+        "playlistId": "PLvW9K-r9avwoGujkEOGbv6DY1z2DTBhfF",
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "okkOWxGgrE8"
+        },
+        "publishedAt": "2023-09-15T01:52:29Z",
+        "description": "In July 1969, the crew of the Apollo 11 was preparing for the United States' first attempt of landing men on the moon. In just 9 years, the country has gone from Space amateur to technological hyperpower. This is a story of how the Cold War paranoia and an incredible expenditure paid off. \n---\n\nSubscribe to Spark for more amazing science, tech & engineering videos: https://goo.gl/LIrlur 🚀\n\nJoin the Spark Channel Membership to get access to perks:\nhttps://www.youtube.com/channel/UCMV3aTOwUtG5vwfH9_rzb2w/join\n\nFind us on:\nFacebook: https://www.facebook.com/SparkDocs/\nInstagram: https://www.instagram.com/spark_channel/\n\nAny queries, please contact us at: owned-enquiries@littledotstudios.com\n\n#Spark #Apollo #moon #space",
+        "position": 13,
+        "title": "How America Won The Space Race (Apollo Documentary) | Spark",
+        "thumbnails": {
+          "standard": {
+            "width": 640,
+            "url": "https://i.ytimg.com/vi/okkOWxGgrE8/sddefault.jpg",
+            "height": 480
+          },
+          "default": {
+            "width": 120,
+            "url": "https://i.ytimg.com/vi/okkOWxGgrE8/default.jpg",
+            "height": 90
+          },
+          "high": {
+            "width": 480,
+            "url": "https://i.ytimg.com/vi/okkOWxGgrE8/hqdefault.jpg",
+            "height": 360
+          },
+          "maxres": {
+            "width": 1280,
+            "url": "https://i.ytimg.com/vi/okkOWxGgrE8/maxresdefault.jpg",
+            "height": 720
+          },
+          "medium": {
+            "width": 320,
+            "url": "https://i.ytimg.com/vi/okkOWxGgrE8/mqdefault.jpg",
+            "height": 180
+          }
+        },
+        "channelId": "UCNwwSfREZGiWlDKDfBzL2bA",
+        "videoOwnerChannelId": "UCMV3aTOwUtG5vwfH9_rzb2w",
+        "channelTitle": "Anthony Zornig",
+        "videoOwnerChannelTitle": "Spark"
+      },
+      "kind": "youtube#playlistItem",
+      "etag": "ZTzsOziWChCuEMHCypLKJ5P4eA4",
+      "id": "UEx2VzlLLXI5YXZ3b0d1amtFT0didjZEWTF6MkRUQmhmRi4zMDg5MkQ5MEVDMEM1NTg2"
+    },
+    "personId": null,
+    "videoId": "okkOWxGgrE8",
+    "videos": null,
+    "events": null,
+    "basics": {
+      "videoDescription": "In July 1969, the crew of the Apollo 11 was preparing for the United States' first attempt of landing men on the moon. In just 9 years, the country has gone from Space amateur to technological hyperpower. This is a story of how the Cold War paranoia and an incredible expenditure paid off. \n---\n\nSubscribe to Spark for more amazing science, tech & engineering videos: https://goo.gl/LIrlur 🚀\n\nJoin the Spark Channel Membership to get access to perks:\nhttps://www.youtube.com/channel/UCMV3aTOwUtG5vwfH9_rzb2w/join\n\nFind us on:\nFacebook: https://www.facebook.com/SparkDocs/\nInstagram: https://www.instagram.com/spark_channel/\n\nAny queries, please contact us at: owned-enquiries@littledotstudios.com\n\n#Spark #Apollo #moon #space",
+      "videoUrl": "https://www.youtube.com/watch?v=okkOWxGgrE8",
+      "videoType": "",
+      "videoName": "How America Won The Space Race (Apollo Documentary) | Spark",
+      "videoLabelColor": "",
+      "videoId": "okkOWxGgrE8",
+      "ownerId": "",
+      "storyId": "d1516e0e-8886-4e9f-9b37-67d64cba5753"
+    },
+    "markers": [
+      {
+        "basics": {
+          "screenShot": null,
+          "stamp": 1097
+        },
+        "events": [
+          {
+            "storyId": null,
+            "persons": [
+              {
+                "personName": "John F. Kennedy",
+                "role": "President of the United States",
+                "personId": "3c27c522-7f03-450c-b537-9b3c7e07a172"
+              }
+            ],
+            "eventId": "e3fb7e44-8e4b-4a1b-84b7-2d9e5767c0e1",
+            "database": {
+              "createdAt": {
+                "seconds": 1694787274,
+                "nanoseconds": 665000000
+              },
+              "userId": "some userId",
+              "status": "just entered"
+            },
+            "basics": {
+              "date": {
+                "start": "1962-09-12",
+                "end": "1962-09-12"
+              },
+              "eventId": "e3fb7e44-8e4b-4a1b-84b7-2d9e5767c0e1",
+              "eventImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/John_F._Kennedy_speaks_at_Rice_University.jpg/640px-John_F._Kennedy_speaks_at_Rice_University.jpg",
+              "eventDescription": "On September 12, 1962, President John F. Kennedy delivered a speech at Rice University, reiterating the United States' commitment to space exploration and rallying public support for the Apollo program. He famously declared, 'We choose to go to the Moon in this decade and do the other things, not because they are easy, but because they are hard.'",
+              "eventName": "Kennedy's speech at Rice University",
+              "eventLabelColor": "#333433",
+              "coords": {
+                "lng": -95.2441,
+                "lat": 29.431
+              }
+            },
+            "stories": [
+              {
+                "storyId": "d1516e0e-8886-4e9f-9b37-67d64cba5753"
+              }
+            ],
+            "personId": null,
+            "videos": null,
+            "videoId": null,
+            "markers": null,
+            "events": null
+          }
+        ]
+      },
+      {
+        "basics": {
+          "screenShot": null,
+          "stamp": 1149
+        },
+        "events": [
+          {
+            "storyId": null,
+            "eventId": "assassination_jfk",
+            "persons": [
+              {
+                "personName": "Lyndon B. Johnson",
+                "role": "Vice President ",
+                "personId": "d6f89284-87c4-4f6a-95ea-eb64a792ac6a"
+              },
+              {
+                "personName": "John F. Kennedy",
+                "role": "President of the United States",
+                "personId": "3c27c522-7f03-450c-b537-9b3c7e07a172"
+              }
+            ],
+            "basics": {
+              "date": {
+                "start": "1963-11-22",
+                "end": "1963-11-22"
+              },
+              "eventId": "assassination_jfk",
+              "eventImageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5c/JFK_limousine.png",
+              "eventDescription": "On November 22, 1963, President John F. Kennedy was assassinated while riding in a motorcade in Dealey Plaza, Dallas, Texas. The assassination of the 35th President of the United States marked a tragic and pivotal moment in American history. The event sparked investigations, conspiracy theories, and a profound sense of loss among the American people. ice President Lyndon B. Johnson automatically succeeded to the presidency, making him the 36th President of the United States. Johnson assumed the presidency immediately and started to complete the remainder of Kennedy's presidency.",
+              "eventName": "Assassination of John F. Kennedy",
+              "coords": {
+                "lng": -96.4831,
+                "lat": 32.4643
+              },
+              "eventLabelColor": "#333433"
+            },
+            "database": {
+              "createdAt": {
+                "seconds": 1694787275,
+                "nanoseconds": 671000000
+              },
+              "userId": "some userId",
+              "status": "just entered"
+            },
+            "stories": [
+              {
+                "storyId": "d1516e0e-8886-4e9f-9b37-67d64cba5753"
+              },
+              {
+                "storyId": "6496d8d1-496b-4c4a-b225-4a8b6b5ceea9"
+              }
+            ],
+            "personId": null,
+            "videoId": null,
+            "videos": null,
+            "markers": null,
+            "events": null
+          }
+        ]
+      },
+      {
+        "basics": {
+          "screenShot": null,
+          "stamp": 4461
+        },
+        "events": [
+          {
+            "storyId": null,
+            "eventId": "def98765-8886-4abc-abc6-2def20e9c4b3",
+            "persons": [
+              {
+                "personName": "Neil Armstrong",
+                "role": "American astronaut, first person to walk on the Moon",
+                "personId": "83c57657-0dea-4abc-953b-2def20e9c4b3"
+              },
+              {
+                "personName": "Buzz Aldrin",
+                "role": "American astronaut, joined Armstrong on the Moon's surface",
+                "personId": "355dd102-a7f2-4820-b9ad-54214ec01ee5"
+              },
+              {
+                "personName": "Michael Collins",
+                "role": "American astronaut, piloted the Apollo 11 Command Module around the Moon while Armstrong and Aldrin were on the surface",
+                "personId": "f2a64e9f-b804-4f07-9bc7-ef71923a4d60"
+              }
+            ],
+            "basics": {
+              "date": {
+                "start": "1969-07-16",
+                "end": "1969-07-16"
+              },
+              "eventId": "def98765-8886-4abc-abc6-2def20e9c4b3",
+              "eventImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Apollo_11_Launch_-_GPN-2000-000630.jpg/1920px-Apollo_11_Launch_-_GPN-2000-000630.jpg",
+              "eventDescription": "Apollo 11 was launched from Kennedy Space Center in Florida, USA, on July 16, 1969. It was the fifth crewed mission of NASA's Apollo program and aimed to land astronauts on the Moon.",
+              "eventName": "Apollo 11 launched",
+              "eventLabelColor": "#333433",
+              "coords": {
+                "lng": -80.648,
+                "lat": 28.5721
+              }
+            },
+            "database": {
+              "createdAt": {
+                "seconds": 1694787277,
+                "nanoseconds": 17000000
+              },
+              "userId": "some userId",
+              "status": "just entered"
+            },
+            "stories": [
+              {
+                "storyId": "d1516e0e-8886-4e9f-9b37-67d64cba5753"
+              }
+            ],
+            "personId": null,
+            "videos": null,
+            "videoId": null,
+            "markers": null,
+            "events": null
+          }
+        ]
+      },
+      {
+        "basics": {
+          "screenShot": null,
+          "stamp": 5005
+        },
+        "events": [
+          {
+            "storyId": null,
+            "persons": [
+              {
+                "personName": "Neil Armstrong",
+                "role": "American astronaut, first person to walk on the Moon",
+                "personId": "83c57657-0dea-4abc-953b-2def20e9c4b3"
+              },
+              {
+                "personName": "Buzz Aldrin",
+                "role": "American astronaut, joined Armstrong on the Moon's surface",
+                "personId": "355dd102-a7f2-4820-b9ad-54214ec01ee5"
+              },
+              {
+                "personName": "Michael Collins",
+                "role": "American astronaut, piloted the Apollo 11 Command Module around the Moon while Armstrong and Aldrin were on the surface",
+                "personId": "f2a64e9f-b804-4f07-9bc7-ef71923a4d60"
+              }
+            ],
+            "eventId": "d89eb8b4-6d6f-4e0a-b32c-bb0954a6a4ea",
+            "database": {
+              "createdAt": {
+                "seconds": 1694787278,
+                "nanoseconds": 703000000
+              },
+              "userId": "some userId",
+              "status": "just entered"
+            },
+            "basics": {
+              "date": {
+                "start": "1969-08-13",
+                "end": "1969-08-14"
+              },
+              "eventId": "d89eb8b4-6d6f-4e0a-b32c-bb0954a6a4ea",
+              "eventImageUrl": "https://media01.stockfood.com/largepreviews/MzkwMTA0Njgy/12584022-Apollo-11-ticker-tape-parade-New-York-August-1969.jpg",
+              "eventDescription": "A ticker-tape parade was held in New York City on August 13, 1969, to honor the Apollo 11 astronauts. Neil Armstrong, Buzz Aldrin, and Michael Collins rode in open cars through the streets of Manhattan, greeted by cheering crowds.",
+              "eventName": "Ticker-tape parade in NYC",
+              "eventLabelColor": "#333433",
+              "coords": {
+                "lng": -74.006,
+                "lat": 40.7128
+              }
+            },
+            "stories": [
+              {
+                "storyId": "d1516e0e-8886-4e9f-9b37-67d64cba5753"
+              }
+            ],
+            "videos": null,
+            "personId": null,
+            "videoId": null,
+            "markers": null,
+            "events": null
+          }
+        ]
+      },
+      {
+        "basics": {
+          "screenShot": null,
+          "stamp": 4929
+        },
+        "events": [
+          {
+            "storyId": null,
+            "persons": [
+              {
+                "personName": "Neil Armstrong",
+                "role": "American astronaut, first person to walk on the Moon",
+                "personId": "83c57657-0dea-4abc-953b-2def20e9c4b3"
+              }
+            ],
+            "eventId": "6db8abf8-4de5-4e6b-872f-67a2559f7050",
+            "database": {
+              "createdAt": {
+                "seconds": 1694787277,
+                "nanoseconds": 747000000
+              },
+              "userId": "some userId",
+              "status": "just entered"
+            },
+            "basics": {
+              "date": {
+                "start": "1969-07-20",
+                "end": "1969-07-20"
+              },
+              "eventId": "6db8abf8-4de5-4e6b-872f-67a2559f7050",
+              "eventImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Apollo_11_bootprint.jpg/640px-Apollo_11_bootprint.jpg",
+              "eventDescription": "Neil Armstrong became the first person to set foot on the lunar surface on July 20, 1969, uttering the famous words, 'That's one small step for [a] man, one giant leap for mankind.'",
+              "eventName": "First person to set foot on the Moon",
+              "coords": {
+                "lng": -23.4733,
+                "lat": 0.6741
+              },
+              "eventLabelColor": "#333433"
+            },
+            "stories": [
+              {
+                "storyId": "d1516e0e-8886-4e9f-9b37-67d64cba5753"
+              }
+            ],
+            "personId": null,
+            "videoId": null,
+            "videos": null,
+            "markers": null,
+            "events": null
+          }
+        ]
+      },
+      {
+        "basics": {
+          "screenShot": null,
+          "stamp": 163
+        },
+        "events": [
+          {
+            "storyId": null,
+            "eventId": "soviet_1",
+            "persons": null,
+            "basics": {
+              "date": {
+                "start": "1957-10-04",
+                "end": "1957-10-04"
+              },
+              "eventId": "soviet_1",
+              "eventImageUrl": "https://thefederalist.com/wp-content/uploads/2017/10/4-r-7-launcher-998x1322.jpg",
+              "eventDescription": "On October 4, 1957, the Soviet Union launched Sputnik 1, the world's first artificial satellite. This historic event marked the beginning of the space age and initiated the Space Race between the United States and the Soviet Union.",
+              "eventName": "Soviet Union launched Sputnik 1",
+              "coords": {
+                "lng": 63.305,
+                "lat": 45.965
+              },
+              "eventLabelColor": "#333433"
+            },
+            "database": {
+              "createdAt": {
+                "seconds": 1694787262,
+                "nanoseconds": 536000000
+              },
+              "userId": "some userId",
+              "status": "just entered"
+            },
+            "stories": [
+              {
+                "storyId": "d1516e0e-8886-4e9f-9b37-67d64cba5753"
+              }
+            ],
+            "videos": null,
+            "personId": null,
+            "videoId": null,
+            "markers": null,
+            "events": null
+          }
+        ]
+      },
+      {
+        "basics": {
+          "screenShot": null,
+          "stamp": 323
+        },
+        "events": [
+          {
+            "storyId": null,
+            "eventId": "soviet_2",
+            "persons": null,
+            "basics": {
+              "date": {
+                "start": "1961-04-12",
+                "end": "1961-04-12"
+              },
+              "eventId": "soviet_2",
+              "eventImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Yuri_Gagarin_%281961%29_-_Restoration.jpg/1920px-Yuri_Gagarin_%281961%29_-_Restoration.jpg",
+              "eventDescription": "On April 12, 1961, Soviet cosmonaut Yuri Gagarin became the first human to orbit the Earth aboard the Vostok 1 spacecraft. Gagarin's successful spaceflight demonstrated Soviet space capabilities and added to the intensifying competition between superpowers.",
+              "eventName": "Soviet cosmonaut first human to orbit Earth",
+              "coords": {
+                "lng": 63.305,
+                "lat": 45.965
+              },
+              "eventLabelColor": "#333433"
+            },
+            "database": {
+              "createdAt": {
+                "seconds": 1694787272,
+                "nanoseconds": 678000000
+              },
+              "userId": "some userId",
+              "status": "just entered"
+            },
+            "stories": [
+              {
+                "storyId": "d1516e0e-8886-4e9f-9b37-67d64cba5753"
+              }
+            ],
+            "videoId": null,
+            "personId": null,
+            "videos": null,
+            "markers": null,
+            "events": null
+          }
+        ]
+      },
+      {
+        "basics": {
+          "screenShot": null,
+          "stamp": 459
+        },
+        "events": [
+          {
+            "storyId": null,
+            "eventId": "17a37c9f-83f6-465b-b1f3-4ad69d36941d",
+            "persons": [
+              {
+                "personName": "John F. Kennedy",
+                "role": "President of the United States",
+                "personId": "3c27c522-7f03-450c-b537-9b3c7e07a172"
+              }
+            ],
+            "database": {
+              "createdAt": {
+                "seconds": 1694787273,
+                "nanoseconds": 837000000
+              },
+              "userId": "some userId",
+              "status": "just entered"
+            },
+            "basics": {
+              "date": {
+                "start": "1961-05-25",
+                "end": "1961-05-25"
+              },
+              "eventId": "17a37c9f-83f6-465b-b1f3-4ad69d36941d",
+              "eventImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Kennedy_Giving_Historic_Speech_to_Congress_-_GPN-2000-001658.jpg/1582px-Kennedy_Giving_Historic_Speech_to_Congress_-_GPN-2000-001658.jpg?20090409143053",
+              "eventDescription": "On May 25, 1961, President John F. Kennedy delivered a speech before a joint session of the United States Congress, in which he set forth the ambitious goal of sending an American astronaut to the Moon and returning them safely to Earth before the end of the decade. This announcement marked the beginning of the Apollo program, a historic effort to achieve human space exploration beyond Earth's orbit.",
+              "eventName": "Kennedy speech before Congress",
+              "coords": {
+                "lng": -77.009,
+                "lat": 38.8899
+              },
+              "eventLabelColor": "#333433"
+            },
+            "stories": [
+              {
+                "storyId": "d1516e0e-8886-4e9f-9b37-67d64cba5753"
+              }
+            ],
+            "videos": null,
+            "personId": null,
+            "videoId": null,
+            "markers": null,
+            "events": null
+          }
+        ]
+      },
+      {
+        "basics": {
+          "screenShot": null,
+          "stamp": 1203
+        },
+        "events": [
+          {
+            "storyId": null,
+            "eventId": "soviet_3",
+            "persons": null,
+            "database": {
+              "createdAt": {
+                "seconds": 1694787275,
+                "nanoseconds": 6000000
+              },
+              "userId": "some userId",
+              "status": "just entered"
+            },
+            "basics": {
+              "date": {
+                "start": "1963-06-16",
+                "end": "1963-06-16"
+              },
+              "eventId": "soviet_3",
+              "eventImageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/61/RIAN_archive_612748_Valentina_Tereshkova.jpg",
+              "eventDescription": "On June 16, 1963, Soviet cosmonaut Valentina Tereshkova became the first woman to travel to space aboard the Vostok 6 spacecraft. Her mission highlighted Soviet achievements in space exploration and inspired discussions about the role of women in space.",
+              "eventName": "Soviet cosmonaut first woman to travel to space",
+              "eventLabelColor": "#333433",
+              "coords": {
+                "lng": 63.5692,
+                "lat": 45.9966
+              }
+            },
+            "stories": [
+              {
+                "storyId": "d1516e0e-8886-4e9f-9b37-67d64cba5753"
+              }
+            ],
+            "videoId": null,
+            "personId": null,
+            "videos": null,
+            "markers": null,
+            "events": null
+          }
+        ]
+      },
+      {
+        "basics": {
+          "screenShot": null,
+          "stamp": 5001
+        },
+        "events": [
+          {
+            "storyId": null,
+            "eventId": "2c8b200b-8e36-458f-92b9-c1a14e226a25",
+            "persons": [
+              {
+                "personName": "Neil Armstrong",
+                "role": "American astronaut, first person to walk on the Moon",
+                "personId": "83c57657-0dea-4abc-953b-2def20e9c4b3"
+              },
+              {
+                "personName": "Buzz Aldrin",
+                "role": "American astronaut, joined Armstrong on the Moon's surface",
+                "personId": "355dd102-a7f2-4820-b9ad-54214ec01ee5"
+              },
+              {
+                "personName": "Michael Collins",
+                "role": "American astronaut, piloted the Apollo 11 Command Module around the Moon while Armstrong and Aldrin were on the surface",
+                "personId": "f2a64e9f-b804-4f07-9bc7-ef71923a4d60"
+              }
+            ],
+            "basics": {
+              "date": {
+                "start": "1969-07-24",
+                "end": "1969-07-24"
+              },
+              "eventId": "2c8b200b-8e36-458f-92b9-c1a14e226a25",
+              "eventImageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/28/Splashdown_3.jpg",
+              "eventDescription": "The Apollo 11 Command Module, named 'Columbia,' re-entered Earth's atmosphere and splashed down safely in the Pacific Ocean on July 24, 1969. The mission was a historic success, marking the first time humans had landed on the Moon and returned safely to Earth.",
+              "eventName": "Command Module splashed down safely in the Pacific",
+              "eventLabelColor": "#333433",
+              "coords": {
+                "lng": -169.3861,
+                "lat": 13.1914
+              }
+            },
+            "database": {
+              "createdAt": {
+                "seconds": 1694787278,
+                "nanoseconds": 225000000
+              },
+              "userId": "some userId",
+              "status": "just entered"
+            },
+            "stories": [
+              {
+                "storyId": "d1516e0e-8886-4e9f-9b37-67d64cba5753"
+              }
+            ],
+            "videos": null,
+            "personId": null,
+            "videoId": null,
+            "markers": null,
+            "events": null
+          }
+        ]
+      },
+      {
+        "basics": {
+          "screenShot": null,
+          "stamp": 5
+        },
+        "events": [
+          {
+            "storyId": null,
+            "persons": [
+              {
+                "personName": "Neil Armstrong",
+                "role": "American astronaut, first person to walk on the Moon",
+                "personId": "83c57657-0dea-4abc-953b-2def20e9c4b3"
+              },
+              {
+                "personName": "Buzz Aldrin",
+                "role": "American astronaut, joined Armstrong on the Moon's surface",
+                "personId": "355dd102-a7f2-4820-b9ad-54214ec01ee5"
+              },
+              {
+                "personName": "Michael Collins",
+                "role": "American astronaut, piloted the Apollo 11 Command Module around the Moon while Armstrong and Aldrin were on the surface",
+                "personId": "f2a64e9f-b804-4f07-9bc7-ef71923a4d60"
+              }
+            ],
+            "eventId": "def98765-8886-4abc-abc6-2def20e9c4b3",
+            "basics": {
+              "date": {
+                "start": "1969-07-16",
+                "end": "1969-07-16"
+              },
+              "eventId": "def98765-8886-4abc-abc6-2def20e9c4b3",
+              "eventImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Apollo_11_Launch_-_GPN-2000-000630.jpg/1920px-Apollo_11_Launch_-_GPN-2000-000630.jpg",
+              "eventDescription": "Apollo 11 was launched from Kennedy Space Center in Florida, USA, on July 16, 1969. It was the fifth crewed mission of NASA's Apollo program and aimed to land astronauts on the Moon.",
+              "eventName": "Apollo 11 launched",
+              "coords": {
+                "lng": -80.648,
+                "lat": 28.5721
+              },
+              "eventLabelColor": "#333433"
+            },
+            "database": {
+              "createdAt": {
+                "seconds": 1694787277,
+                "nanoseconds": 17000000
+              },
+              "userId": "some userId",
+              "status": "just entered"
+            },
+            "stories": [
+              {
+                "storyId": "d1516e0e-8886-4e9f-9b37-67d64cba5753"
+              }
+            ],
+            "videos": null,
+            "videoId": null,
+            "personId": null,
+            "markers": null,
+            "events": null
+          }
+        ]
+      },
+      {
+        "basics": {
+          "screenShot": null,
+          "stamp": 69
+        },
+        "events": [
+          {
+            "storyId": null,
+            "eventId": "7cbfbacc-9da3-4e0e-9765-ce8dd0e623e4",
+            "persons": null,
+            "database": {
+              "createdAt": {
+                "seconds": 1696582604,
+                "nanoseconds": 543000000
+              },
+              "userId": "some userId",
+              "status": "just entered"
+            },
+            "basics": {
+              "date": {
+                "start": "1957-01-01",
+                "end": "1972-12-31"
+              },
+              "eventId": "7cbfbacc-9da3-4e0e-9765-ce8dd0e623e4",
+              "eventImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/FullMoon2010.jpg/400px-FullMoon2010.jpg",
+              "eventName": "The Race to the Moon"
+            },
+            "stories": [
+              {
+                "storyId": "d91cc57d-657d-4c4a-bae7-024847270b10"
+              }
+            ],
+            "youtubeVideoData": null,
+            "videos": null,
+            "personId": null,
+            "videoId": null,
+            "markers": null,
+            "events": null
+          }
+        ]
+      },
+      {
+        "basics": {
+          "screenShot": null,
+          "stamp": 100
+        },
+        "events": [
+          {
+            "storyId": null,
+            "eventId": "event_13",
+            "persons": [
+              {
+                "personName": "Franklin D. Roosevelt",
+                "role": "President of the United States",
+                "personLabelColor": "green",
+                "personId": "3c27c522-e34a-435f-9940-4a8b6b5ceea9"
+              },
+              {
+                "personName": "Emperor Hirohito",
+                "role": "Emperor of Japan",
+                "personLabelColor": "red",
+                "personId": "f5c3e7a0-5ac3-438f-bb36-af54e20f315d"
+              }
+            ],
+            "basics": {
+              "date": {
+                "start": "1945-08-06",
+                "end": "1945-08-06"
+              },
+              "eventId": "event_13",
+              "eventImageUrl": "https://foreignpolicy.com/wp-content/uploads/2020/08/enola-gay-atomic-bomb-casualties-hiroshima-1945.jpg",
+              "eventDescription": "The United States drops an atomic bomb on the city of Hiroshima, Japan, leading to Japan's surrender and the end of World War 2 in the Pacific.",
+              "eventName": "US drops atomic bomb on Hiroshima",
+              "coords": {
+                "lng": 132.2707,
+                "lat": 34.2329
+              },
+              "eventLabelColor": "#333433"
+            },
+            "database": {
+              "createdAt": {
+                "seconds": 1694787282,
+                "nanoseconds": 709000000
+              },
+              "userId": "some userId",
+              "status": "just entered"
+            },
+            "stories": [
+              {
+                "storyId": "d91cc57d-657d-4c4a-bae7-024847270b10"
+              }
+            ],
+            "videos": null,
+            "personId": null,
+            "videoId": null,
+            "markers": null,
+            "events": null
+          }
+        ]
+      },
+      {
+        "basics": {
+          "screenShot": null,
+          "stamp": 127
+        },
+        "events": [
+          {
+            "storyId": null,
+            "persons": null,
+            "eventId": "cee10f95-d9cc-4452-b56d-c53d98186a04",
+            "database": {
+              "createdAt": {
+                "seconds": 1696588065,
+                "nanoseconds": 298000000
+              },
+              "userId": "some userId",
+              "status": "just entered"
+            },
+            "basics": {
+              "date": {
+                "start": "1947-03-12",
+                "end": "1991-12-26"
+              },
+              "eventId": "cee10f95-d9cc-4452-b56d-c53d98186a04",
+              "eventImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/NATO_vs._Warsaw_Pact_%281949-1990%29.svg/400px-NATO_vs._Warsaw_Pact_%281949-1990%29.svg.png",
+              "eventName": "Cold War"
+            },
+            "stories": [
+              {
+                "storyId": "d1516e0e-8886-4e9f-9b37-67d64cba5753"
+              }
+            ],
+            "youtubeVideoData": null,
+            "personId": null,
+            "videoId": null,
+            "videos": null,
+            "markers": null,
+            "events": null
+          }
+        ]
+      },
+      {
+        "basics": {
+          "screenShot": null,
+          "stamp": 110
+        },
+        "events": [
+          {
+            "storyId": null,
+            "eventId": "6ff39d36-f921-42c5-add2-b897b804c8f7",
+            "persons": null,
+            "basics": {
+              "date": {
+                "start": "1922-12-30",
+                "end": "1991-12-25"
+              },
+              "eventId": "6ff39d36-f921-42c5-add2-b897b804c8f7",
+              "eventImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_Soviet_Union.svg/400px-Flag_of_the_Soviet_Union.svg.png",
+              "eventName": "Soviet Union"
+            },
+            "database": {
+              "createdAt": {
+                "seconds": 1696588491,
+                "nanoseconds": 174000000
+              },
+              "userId": "some userId",
+              "status": "just entered"
+            },
+            "stories": [
+              {
+                "storyId": "d1516e0e-8886-4e9f-9b37-67d64cba5753"
+              }
+            ],
+            "youtubeVideoData": null,
+            "videoId": null,
+            "videos": null,
+            "personId": null,
+            "markers": null,
+            "events": null
+          }
+        ]
+      },
+      {
+        "basics": {
+          "stamp": 1162,
+          "screenShot": null
+        },
+        "events": [
+          {
+            "stories": [
+              {
+                "storyId": "d1516e0e-8886-4e9f-9b37-67d64cba5753"
+              }
+            ],
+            "storyId": null,
+            "videos": null,
+            "personId": null,
+            "eventId": "62501020-6981-4404-90e3-4715cba5f768",
+            "videoId": null,
+            "events": null,
+            "basics": {
+              "eventImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Lyndon_B._Johnson_taking_the_oath_of_office%2C_November_1963.jpg/400px-Lyndon_B._Johnson_taking_the_oath_of_office%2C_November_1963.jpg",
+              "eventName": "First inauguration of Lyndon B. Johnson",
+              "eventId": "62501020-6981-4404-90e3-4715cba5f768",
+              "eventWikipediaId": 21183551,
+              "coords": {
+                "lat": 32.4643,
+                "lng": -96.4831
+              },
+              "date": {
+                "start": "1963-11-22",
+                "end": "1963-11-22"
+              }
+            },
+            "youtubeVideoData": null,
+            "database": {
+              "status": "just entered",
+              "createdAt": {
+                "seconds": 1697130537,
+                "nanoseconds": 961000000
+              },
+              "userId": "some userId"
+            },
+            "persons": null,
+            "markers": null
+          }
+        ]
+      },
+      {
+        "basics": {
+          "stamp": 1184,
+          "screenShot": null
+        },
+        "events": [
+          {
+            "personId": null,
+            "videos": null,
+            "basics": {
+              "eventImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Vostok_Spacecraft_Diagram.svg/400px-Vostok_Spacecraft_Diagram.svg.png",
+              "date": {
+                "start": "Thu, Mar 22, 1962, 1 PM GMT+1",
+                "end": "Sun, Aug 12, 1962, 11 PM GMT+1"
+              },
+              "eventName": "Vostok 3 and 4",
+              "coords": {
+                "lat": 45.9966,
+                "lng": 63.5692
+              },
+              "eventId": "e3d612b0-91dc-4108-8af7-a9483193622f",
+              "eventWikipediaId": 65998781
+            },
+            "stories": [
+              {
+                "storyId": "d1516e0e-8886-4e9f-9b37-67d64cba5753"
+              }
+            ],
+            "persons": null,
+            "database": {
+              "status": "just entered",
+              "createdAt": {
+                "seconds": 1697131244,
+                "nanoseconds": 231000000
+              },
+              "userId": "some userId"
+            },
+            "youtubeVideoData": null,
+            "eventId": "e3d612b0-91dc-4108-8af7-a9483193622f",
+            "markers": null,
+            "videoId": null,
+            "storyId": null,
+            "events": null
+          }
+        ]
+      },
+      {
+        "basics": {
+          "stamp": 4671,
+          "screenShot": null
+        },
+        "events": [
+          {
+            "events": null,
+            "personId": null,
+            "eventId": "83c57657-0dea-4abc-953b-2def20e9c4b3",
+            "markers": null,
+            "basics": {
+              "eventLabelColor": "#333433",
+              "date": {
+                "end": "1969-07-20",
+                "start": "1969-07-20"
+              },
+              "eventDescription": "The Lunar Module, named 'Eagle,' separated from the Command Module and descended to the lunar surface. Neil Armstrong and Edwin 'Buzz' Aldrin piloted the module, while Michael Collins remained in orbit around the Moon.",
+              "coords": {
+                "lng": -23.4733,
+                "lat": 0.6741
+              },
+              "eventName": "Command Module descended to the lunar surface",
+              "eventId": "83c57657-0dea-4abc-953b-2def20e9c4b3",
+              "eventImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Apollo_11_CSM_photographed_from_Lunar_Module_%28AS11-37-5445%29.jpg/1920px-Apollo_11_CSM_photographed_from_Lunar_Module_%28AS11-37-5445%29.jpg"
+            },
+            "persons": [
+              {
+                "personName": "Neil Armstrong",
+                "role": "American astronaut, first person to walk on the Moon",
+                "personId": "83c57657-0dea-4abc-953b-2def20e9c4b3"
+              },
+              {
+                "personName": "Buzz Aldrin",
+                "role": "American astronaut, joined Armstrong on the Moon's surface",
+                "personId": "355dd102-a7f2-4820-b9ad-54214ec01ee5"
+              }
+            ],
+            "stories": [
+              {
+                "storyId": "d1516e0e-8886-4e9f-9b37-67d64cba5753"
+              }
+            ],
+            "database": {
+              "userId": "some userId",
+              "status": "just entered",
+              "createdAt": {
+                "seconds": 1694787277,
+                "nanoseconds": 489000000
+              }
+            },
+            "storyId": null,
+            "videos": null,
+            "videoId": null
+          }
+        ]
+      },
+      {
+        "basics": {
+          "stamp": 4857,
+          "screenShot": null
+        },
+        "events": [
+          {
+            "personId": null,
+            "videos": null,
+            "eventId": "jkl98765-5678-4321-jkl9-87654jkl9876",
+            "database": {
+              "userId": "some userId",
+              "createdAt": {
+                "seconds": 1694787277,
+                "nanoseconds": 230000000
+              },
+              "status": "just entered"
+            },
+            "persons": [
+              {
+                "role": "American astronaut, first person to walk on the Moon",
+                "personName": "Neil Armstrong",
+                "personId": "83c57657-0dea-4abc-953b-2def20e9c4b3"
+              },
+              {
+                "personName": "Buzz Aldrin",
+                "personId": "355dd102-a7f2-4820-b9ad-54214ec01ee5",
+                "role": "American astronaut, joined Armstrong on the Moon's surface"
+              }
+            ],
+            "basics": {
+              "eventName": "Lunar Module successfully landed on the Moon",
+              "eventImageUrl": null,
+              "eventDescription": "The Lunar Module successfully landed on the Moon on July 20, 1969. This remarkable technical achievement required precise navigation and control, overcoming the challenges of lunar terrain and ensuring a safe landing for astronauts Neil Armstrong and Edwin 'Buzz' Aldrin.",
+              "date": {
+                "end": "1969-07-24",
+                "start": "1969-07-20"
+              },
+              "eventLabelColor": "#333433",
+              "coords": {
+                "lng": -23.4733,
+                "lat": 0.6741
+              },
+              "eventId": "jkl98765-5678-4321-jkl9-87654jkl9876"
+            },
+            "videoId": null,
+            "markers": null,
+            "storyId": null,
+            "events": null,
+            "stories": [
+              {
+                "storyId": "d1516e0e-8886-4e9f-9b37-67d64cba5753"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "basics": {
+          "stamp": 4960,
+          "screenShot": null
+        },
+        "events": [
+          {
+            "storyId": null,
+            "persons": [
+              {
+                "personId": "83c57657-0dea-4abc-953b-2def20e9c4b3",
+                "role": "American astronaut, first person to walk on the Moon",
+                "personName": "Neil Armstrong"
+              },
+              {
+                "role": "American astronaut, joined Armstrong on the Moon's surface",
+                "personId": "355dd102-a7f2-4820-b9ad-54214ec01ee5",
+                "personName": "Buzz Aldrin"
+              }
+            ],
+            "events": null,
+            "database": {
+              "status": "just entered",
+              "userId": "some userId",
+              "createdAt": {
+                "seconds": 1694787277,
+                "nanoseconds": 990000000
+              }
+            },
+            "videos": null,
+            "stories": [
+              {
+                "storyId": "d1516e0e-8886-4e9f-9b37-67d64cba5753"
+              }
+            ],
+            "markers": null,
+            "eventId": "b183f0d4-33d6-4e16-b19c-4649c9a01b6f",
+            "personId": null,
+            "basics": {
+              "eventLabelColor": "#333433",
+              "eventDescription": "After spending approximately 21 hours on the lunar surface, Armstrong and Aldrin returned to the Lunar Module, which successfully ascended to rejoin the Command Module. The crew then began their journey back to Earth.",
+              "eventImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Armstrong_on_Moon_%28As11-40-5886%29_%28cropped%29.jpg/440px-Armstrong_on_Moon_%28As11-40-5886%29_%28cropped%29.jpg",
+              "coords": {
+                "lat": 0.6741,
+                "lng": -23.4733
+              },
+              "eventId": "b183f0d4-33d6-4e16-b19c-4649c9a01b6f",
+              "date": {
+                "end": "1969-07-21",
+                "start": "1969-07-21"
+              },
+              "eventName": "Astronauts return to the Lunar Module"
+            },
+            "videoId": null
+          }
+        ]
+      },
+      {
+        "basics": {
+          "stamp": 5007,
+          "screenShot": null
+        },
+        "events": [
+          {
+            "storyId": null,
+            "markers": null,
+            "eventId": "a5313cbe-27cc-4355-9ad5-c2dca482c708",
+            "personId": null,
+            "events": null,
+            "videos": null,
+            "database": {
+              "status": "just entered",
+              "userId": "some userId",
+              "createdAt": {
+                "seconds": 1694787278,
+                "nanoseconds": 479000000
+              }
+            },
+            "persons": [
+              {
+                "role": "American astronaut, first person to walk on the Moon",
+                "personName": "Neil Armstrong",
+                "personId": "83c57657-0dea-4abc-953b-2def20e9c4b3"
+              },
+              {
+                "personId": "355dd102-a7f2-4820-b9ad-54214ec01ee5",
+                "personName": "Buzz Aldrin",
+                "role": "American astronaut, joined Armstrong on the Moon's surface"
+              },
+              {
+                "role": "American astronaut, piloted the Apollo 11 Command Module around the Moon while Armstrong and Aldrin were on the surface",
+                "personName": "Michael Collins",
+                "personId": "f2a64e9f-b804-4f07-9bc7-ef71923a4d60"
+              }
+            ],
+            "basics": {
+              "eventLabelColor": "#333433",
+              "eventName": "Apollo 11 astronauts released from quarantine",
+              "eventDescription": "Apollo 11 astronauts Neil Armstrong, Buzz Aldrin, and Michael Collins were released from quarantine from LRL (Lunar Receiving Laboratory) on August 13, 1969, after their return from the Moon. They were quarantined to prevent any potential lunar pathogens from spreading to Earth.",
+              "date": {
+                "start": "1969-08-13",
+                "end": "1969-08-13"
+              },
+              "coords": {
+                "lng": -95.052,
+                "lat": 29.333
+              },
+              "eventId": "a5313cbe-27cc-4355-9ad5-c2dca482c708",
+              "eventImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/President_Nixon_welcomes_the_Apollo_11_astronauts_aboard_the_U.S.S._Hornet.jpg/1920px-President_Nixon_welcomes_the_Apollo_11_astronauts_aboard_the_U.S.S._Hornet.jpg"
+            },
+            "videoId": null,
+            "stories": [
+              {
+                "storyId": "d1516e0e-8886-4e9f-9b37-67d64cba5753"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "basics": {
+          "stamp": 72,
+          "screenShot": null
+        },
+        "events": [
+          {
+            "storyId": null,
+            "videoId": null,
+            "events": null,
+            "personId": null,
+            "database": {
+              "status": "just entered",
+              "userId": "some userId",
+              "createdAt": {
+                "seconds": 1697135738,
+                "nanoseconds": 669000000
+              }
+            },
+            "stories": [
+              {
+                "storyId": "d1516e0e-8886-4e9f-9b37-67d64cba5753"
+              }
+            ],
+            "basics": {
+              "eventId": "5751c8ee-a715-41d3-b8cb-7f6c9959b35e",
+              "eventWikipediaId": 34573,
+              "eventImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/1950s_decade_montage.png/400px-1950s_decade_montage.png",
+              "coords": {
+                "lng": -80.648,
+                "lat": 28.5721
+              },
+              "date": {
+                "end": "1959-12-31",
+                "start": "1950-01-01"
+              },
+              "eventName": "1950s in the USA"
+            },
+            "eventId": "5751c8ee-a715-41d3-b8cb-7f6c9959b35e",
+            "markers": null,
+            "videos": null,
+            "youtubeVideoData": null,
+            "persons": null
+          }
+        ]
+      },
+      {
+        "basics": {
+          "stamp": 294,
+          "screenShot": null
+        },
+        "events": [
+          {
+            "personId": null,
+            "youtubeVideoData": null,
+            "storyId": null,
+            "basics": {
+              "coords": {
+                "lng": -77.009,
+                "lat": 38.8899
+              },
+              "eventId": "9f10ad54-ab99-4242-a3a0-506d6d8b960d",
+              "date": {
+                "end": "1953-01-20",
+                "start": "1953-01-20"
+              },
+              "eventImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Dwight_D._Eisenhower%2C_official_photo_portrait%2C_May_29%2C_1959.jpg/400px-Dwight_D._Eisenhower%2C_official_photo_portrait%2C_May_29%2C_1959.jpg",
+              "eventWikipediaId": 4538945,
+              "eventName": "Presidency of Dwight D. Eisenhower"
+            },
+            "markers": null,
+            "videos": null,
+            "videoId": null,
+            "eventId": "9f10ad54-ab99-4242-a3a0-506d6d8b960d",
+            "database": {
+              "userId": "some userId",
+              "status": "just entered",
+              "createdAt": {
+                "seconds": 1697136357,
+                "nanoseconds": 882000000
+              }
+            },
+            "events": null,
+            "persons": null,
+            "stories": [
+              {
+                "storyId": "d1516e0e-8886-4e9f-9b37-67d64cba5753"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "basics": {
+          "stamp": 175,
+          "screenShot": null
+        },
+        "events": [
+          {
+            "basics": {
+              "eventId": "7dceb3f7-aad7-4964-88ce-eaedb78a43d8",
+              "eventName": "Sputnik 1",
+              "eventWikipediaId": 28484,
+              "coords": {
+                "lat": 45.965,
+                "lng": 63.305
+              },
+              "date": {
+                "end": "1957-10-04",
+                "start": "1957-10-04"
+              },
+              "eventImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/%D0%9F%D0%B5%D1%80%D0%B2%D1%8B%D0%B9_%D0%B2_%D0%BC%D0%B8%D1%80%D0%B5_%D0%B8%D1%81%D0%BA%D1%83%D1%81%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9_%D1%81%D0%BF%D1%83%D1%82%D0%BD%D0%B8%D0%BA_%D0%97%D0%B5%D0%BC%D0%BB%D0%B8.jpg/400px-%D0%9F%D0%B5%D1%80%D0%B2%D1%8B%D0%B9_%D0%B2_%D0%BC%D0%B8%D1%80%D0%B5_%D0%B8%D1%81%D0%BA%D1%83%D1%81%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9_%D1%81%D0%BF%D1%83%D1%82%D0%BD%D0%B8%D0%BA_%D0%97%D0%B5%D0%BC%D0%BB%D0%B8.jpg"
+            },
+            "videoId": null,
+            "events": null,
+            "persons": null,
+            "database": {
+              "userId": "some userId",
+              "createdAt": {
+                "seconds": 1697136533,
+                "nanoseconds": 913000000
+              },
+              "status": "just entered"
+            },
+            "videos": null,
+            "stories": [
+              {
+                "storyId": "d1516e0e-8886-4e9f-9b37-67d64cba5753"
+              }
+            ],
+            "storyId": null,
+            "youtubeVideoData": null,
+            "personId": null,
+            "eventId": "7dceb3f7-aad7-4964-88ce-eaedb78a43d8",
+            "markers": null
+          }
+        ]
+      },
+      {
+        "basics": {
+          "stamp": 304,
+          "screenShot": null
+        },
+        "events": [
+          {
+            "database": {
+              "status": "just entered",
+              "createdAt": {
+                "seconds": 1697137354,
+                "nanoseconds": 116000000
+              },
+              "userId": "some userId"
+            },
+            "stories": [
+              {
+                "storyId": "d1516e0e-8886-4e9f-9b37-67d64cba5753"
+              }
+            ],
+            "eventId": "3663d187-c19f-4515-9f37-cd58d2a12836",
+            "markers": null,
+            "youtubeVideoData": null,
+            "personId": null,
+            "videoId": null,
+            "basics": {
+              "eventImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/The_Mercury_7_%2815258556433%29.jpg/400px-The_Mercury_7_%2815258556433%29.jpg",
+              "eventId": "3663d187-c19f-4515-9f37-cd58d2a12836",
+              "date": {
+                "start": "1959-04-09",
+                "end": "1963-05-31"
+              },
+              "coords": {
+                "lat": 45.965,
+                "lng": 63.305
+              },
+              "eventWikipediaId": 725945,
+              "eventName": "Mercury Seven"
+            },
+            "storyId": null,
+            "persons": null,
+            "events": null,
+            "videos": null
+          }
+        ]
+      },
+      {
+        "basics": {
+          "stamp": 201,
+          "screenShot": null
+        },
+        "events": [
+          {
+            "youtubeVideoData": null,
+            "videos": null,
+            "personId": null,
+            "videoId": null,
+            "storyId": null,
+            "persons": null,
+            "events": null,
+            "stories": [
+              {
+                "storyId": "d1516e0e-8886-4e9f-9b37-67d64cba5753"
+              }
+            ],
+            "markers": null,
+            "eventId": "8a63f9d2-5595-460a-a2dc-7188d9c4ae58",
+            "database": {
+              "status": "just entered",
+              "createdAt": {
+                "seconds": 1697137606,
+                "nanoseconds": 562000000
+              },
+              "userId": "some userId"
+            },
+            "basics": {
+              "date": {
+                "start": "1948-01-01",
+                "end": "1959-12-31"
+              },
+              "eventImageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Anticommunist_Literature_1950s.png",
+              "eventName": "McCarthyism",
+              "eventWikipediaId": 43805,
+              "coords": {
+                "lng": 63.305,
+                "lat": 45.965
+              },
+              "eventId": "8a63f9d2-5595-460a-a2dc-7188d9c4ae58"
+            }
+          }
+        ]
+      },
+      {
+        "basics": {
+          "stamp": 363,
+          "screenShot": null
+        },
+        "events": [
+          {
+            "persons": null,
+            "basics": {
+              "eventId": "a69db53d-8b83-47a3-a6f6-56dc38536df2",
+              "eventImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Mercury-patch-g.png/400px-Mercury-patch-g.png",
+              "eventName": "Project Mercury",
+              "coords": {
+                "lat": 28.5721,
+                "lng": -80.648
+              },
+              "date": {
+                "end": "1963-07-16",
+                "start": "1958-07-16"
+              },
+              "eventWikipediaId": 19812
+            },
+            "youtubeVideoData": null,
+            "videos": null,
+            "storyId": null,
+            "markers": null,
+            "eventId": "a69db53d-8b83-47a3-a6f6-56dc38536df2",
+            "personId": null,
+            "stories": [
+              {
+                "storyId": "d1516e0e-8886-4e9f-9b37-67d64cba5753"
+              }
+            ],
+            "events": null,
+            "database": {
+              "createdAt": {
+                "seconds": 1697138032,
+                "nanoseconds": 530000000
+              },
+              "status": "just entered",
+              "userId": "some userId"
+            },
+            "videoId": null
+          }
+        ]
+      },
+      {
+        "basics": {
+          "stamp": 515,
+          "screenShot": null
+        },
+        "events": [
+          {
+            "persons": null,
+            "markers": null,
+            "stories": [
+              {
+                "storyId": "d1516e0e-8886-4e9f-9b37-67d64cba5753"
+              }
+            ],
+            "personId": null,
+            "videoId": null,
+            "storyId": null,
+            "basics": {
+              "eventId": "c584e2c0-9bd1-4f08-9aca-6c3580e4af75",
+              "eventImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/SA-1_LO.jpg/400px-SA-1_LO.jpg",
+              "date": {
+                "start": "1961-10-27",
+                "end": "1961-10-27"
+              },
+              "eventName": "Saturn I SA-1",
+              "coords": {
+                "lat": 28.5721,
+                "lng": -80.648
+              },
+              "eventWikipediaId": 384959
+            },
+            "eventId": "c584e2c0-9bd1-4f08-9aca-6c3580e4af75",
+            "videos": null,
+            "youtubeVideoData": null,
+            "events": null,
+            "database": {
+              "status": "just entered",
+              "userId": "some userId",
+              "createdAt": {
+                "seconds": 1697138505,
+                "nanoseconds": 863000000
+              }
+            }
+          }
+        ]
+      },
+      {
+        "basics": {
+          "stamp": 557,
+          "screenShot": null
+        },
+        "events": [
+          {
+            "storyId": null,
+            "videos": null,
+            "database": {
+              "status": "just entered",
+              "createdAt": {
+                "seconds": 1694787285,
+                "nanoseconds": 20000000
+              },
+              "userId": "some userId"
+            },
+            "events": null,
+            "stories": [
+              {
+                "storyId": "d91cc57d-657d-4c4a-bae7-024847270b10"
+              }
+            ],
+            "videoId": null,
+            "markers": null,
+            "basics": {
+              "eventId": "event_19",
+              "coords": {
+                "lng": 11.0254,
+                "lat": 49.2716
+              },
+              "date": {
+                "start": "1945-12-09",
+                "end": "1949-04-13"
+              },
+              "eventDescription": "The subsequent Nuremberg trials (also Nuremberg Military Tribunals; 1946–1949) were twelve military tribunals for war crimes committed by the leaders of Nazi Germany (1933–1945). The Nuremberg Military Tribunals occurred after the Nuremberg trials, held by the International Military Tribunal, which concluded in October 1946. ",
+              "eventImageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Color_photograph_of_judges%27_bench_at_IMT.jpg",
+              "eventName": "Subsequent Nuremberg trials",
+              "eventLabelColor": "#333433"
+            },
+            "eventId": "event_19",
+            "personId": null,
+            "persons": [
+              {}
+            ]
+          }
+        ]
+      },
+      {
+        "basics": {
+          "stamp": 630,
+          "screenShot": null
+        },
+        "events": [
+          {
+            "basics": {
+              "eventWikipediaId": 384959,
+              "eventId": "c584e2c0-9bd1-4f08-9aca-6c3580e4af75",
+              "coords": {
+                "lat": 28.5721,
+                "lng": -80.648
+              },
+              "eventImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/SA-1_LO.jpg/400px-SA-1_LO.jpg",
+              "date": {
+                "end": "1961-10-27",
+                "start": "1961-10-27"
+              },
+              "eventName": "Saturn I SA-1"
+            },
+            "storyId": null,
+            "videos": null,
+            "videoId": null,
+            "database": {
+              "createdAt": {
+                "seconds": 1697138505,
+                "nanoseconds": 863000000
+              },
+              "userId": "some userId",
+              "status": "just entered"
+            },
+            "personId": null,
+            "events": null,
+            "eventId": "c584e2c0-9bd1-4f08-9aca-6c3580e4af75",
+            "stories": [
+              {
+                "storyId": "d1516e0e-8886-4e9f-9b37-67d64cba5753"
+              }
+            ],
+            "persons": null,
+            "youtubeVideoData": null,
+            "markers": null
+          }
+        ]
+      },
+      {
+        "basics": {
+          "stamp": 675,
+          "screenShot": null
+        },
+        "events": [
+          {
+            "eventId": "debate_3",
+            "events": null,
+            "persons": [
+              {
+                "role": "Scientist",
+                "personId": "83c57657-0dea-4abc-953b-2def20e9c4b3",
+                "personName": "Robert Johnson"
+              },
+              {
+                "personId": "a2b3c4d5-6789-0abc-1def-2345a678b9cd",
+                "personName": "Mary Thompson",
+                "role": "Economist"
+              }
+            ],
+            "videos": null,
+            "storyId": null,
+            "basics": {
+              "eventName": "Congress Debate",
+              "coords": {
+                "lng": -77.009,
+                "lat": 38.8899
+              },
+              "date": {
+                "end": "1962-08-01",
+                "start": "1962-08-01"
+              },
+              "eventLabelColor": "#333433",
+              "eventImageUrl": null,
+              "eventDescription": "Members from both parties highlight the potential scientific and technological advancements that could result from the Apollo program. They discuss the long-term benefits to various industries and the economy.",
+              "eventId": "debate_3"
+            },
+            "stories": [
+              {
+                "storyId": "d1516e0e-8886-4e9f-9b37-67d64cba5753"
+              }
+            ],
+            "database": {
+              "status": "just entered",
+              "userId": "some userId",
+              "createdAt": {
+                "seconds": 1694787274,
+                "nanoseconds": 293000000
+              }
+            },
+            "markers": null,
+            "personId": null,
+            "videoId": null
+          }
+        ]
+      },
+      {
+        "basics": {
+          "stamp": 794,
+          "screenShot": null
+        },
+        "events": [
+          {
+            "database": {
+              "status": "just entered",
+              "userId": "some userId",
+              "createdAt": {
+                "seconds": 1697139662,
+                "nanoseconds": 475000000
+              }
+            },
+            "basics": {
+              "eventWikipediaId": 1274313,
+              "eventId": "f8f1bdca-acee-4f2a-b307-ee90641e24ff",
+              "coords": {
+                "lng": -80.648,
+                "lat": 28.5721
+              },
+              "eventImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Lunar_orbit_rendezvous.svg/400px-Lunar_orbit_rendezvous.svg.png",
+              "date": {
+                "end": "1961-01-01",
+                "start": "1961-01-01"
+              },
+              "eventName": "Lunar orbit rendezvous"
+            },
+            "events": null,
+            "markers": null,
+            "persons": null,
+            "youtubeVideoData": null,
+            "videoId": null,
+            "eventId": "f8f1bdca-acee-4f2a-b307-ee90641e24ff",
+            "videos": null,
+            "storyId": null,
+            "personId": null,
+            "stories": [
+              {
+                "storyId": "d1516e0e-8886-4e9f-9b37-67d64cba5753"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "basics": {
+          "stamp": 684,
+          "screenShot": null
+        },
+        "events": [
+          {
+            "videoId": null,
+            "stories": [
+              {
+                "storyId": "d1516e0e-8886-4e9f-9b37-67d64cba5753"
+              }
+            ],
+            "storyId": null,
+            "events": null,
+            "basics": {
+              "eventWikipediaId": 1461,
+              "eventId": "8d5f6b82-9b44-4616-a6d4-2f46e9df9439",
+              "eventName": "Apollo program",
+              "eventImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Apollo_program.svg/400px-Apollo_program.svg.png",
+              "date": {
+                "end": "1972-12-31",
+                "start": "1968-01-01"
+              },
+              "coords": {
+                "lng": -77.009,
+                "lat": 38.8899
+              }
+            },
+            "videos": null,
+            "markers": null,
+            "eventId": "8d5f6b82-9b44-4616-a6d4-2f46e9df9439",
+            "persons": null,
+            "personId": null,
+            "youtubeVideoData": null,
+            "database": {
+              "userId": "some userId",
+              "status": "just entered",
+              "createdAt": {
+                "seconds": 1697139895,
+                "nanoseconds": 387000000
+              }
+            }
+          }
+        ]
+      },
+      {
+        "basics": {
+          "stamp": 836,
+          "screenShot": null
+        },
+        "events": [
+          {
+            "storyId": null,
+            "videoId": null,
+            "database": {
+              "status": "just entered",
+              "userId": "some userId",
+              "createdAt": {
+                "seconds": 1697140874,
+                "nanoseconds": 102000000
+              }
+            },
+            "eventId": "48411599-393b-486a-b9f8-aedc66f2e53e",
+            "youtubeVideoData": null,
+            "persons": null,
+            "basics": {
+              "eventWikipediaId": 26608317,
+              "coords": {
+                "lat": "0",
+                "lng": "0"
+              },
+              "eventId": "48411599-393b-486a-b9f8-aedc66f2e53e",
+              "eventName": "August 1961",
+              "eventImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Winken_ueber_die_Berliner_Mauer.jpg/400px-Winken_ueber_die_Berliner_Mauer.jpg",
+              "date": {
+                "end": "1961-08-31",
+                "start": "1961-08-01"
+              }
+            },
+            "markers": null,
+            "videos": null,
+            "events": null,
+            "personId": null,
+            "stories": [
+              {
+                "storyId": "d1516e0e-8886-4e9f-9b37-67d64cba5753"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "basics": {
+          "stamp": 909,
+          "screenShot": null
+        },
+        "events": [
+          {
+            "eventId": "11b38ca0-33fe-483f-b26c-6df869b39e95",
+            "markers": null,
+            "events": null,
+            "youtubeVideoData": null,
+            "basics": {
+              "eventImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Mercury-Atlas_5_Enos_with_handler_%28cropped%29.jpg/400px-Mercury-Atlas_5_Enos_with_handler_%28cropped%29.jpg",
+              "eventName": "Enos (chimpanzee)",
+              "date": {
+                "start": "1961-11-29",
+                "end": "1961-11-29"
+              },
+              "eventId": "11b38ca0-33fe-483f-b26c-6df869b39e95",
+              "coords": {
+                "lng": "0",
+                "lat": "0"
+              },
+              "eventWikipediaId": 3145482
+            },
+            "videoId": null,
+            "videos": null,
+            "database": {
+              "status": "just entered",
+              "createdAt": {
+                "seconds": 1697141225,
+                "nanoseconds": 272000000
+              },
+              "userId": "some userId"
+            },
+            "personId": null,
+            "stories": [
+              {
+                "storyId": "d1516e0e-8886-4e9f-9b37-67d64cba5753"
+              }
+            ],
+            "persons": null,
+            "storyId": null
+          }
+        ]
+      },
+      {
+        "basics": {
+          "stamp": 919,
+          "screenShot": null
+        },
+        "events": [
+          {
+            "videos": null,
+            "youtubeVideoData": null,
+            "videoId": null,
+            "stories": [
+              {
+                "storyId": "d1516e0e-8886-4e9f-9b37-67d64cba5753"
+              }
+            ],
+            "basics": {
+              "date": {
+                "end": "1962-02-28",
+                "start": "1962-02-01"
+              },
+              "eventWikipediaId": 29218658,
+              "eventId": "fe130e7e-3a57-472b-8a37-f2b0d3393c36",
+              "eventImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Sturmflut-Hamburg.jpg/400px-Sturmflut-Hamburg.jpg",
+              "coords": {
+                "lat": "0",
+                "lng": "0"
+              },
+              "eventName": "February 1962"
+            },
+            "personId": null,
+            "database": {
+              "userId": "some userId",
+              "createdAt": {
+                "seconds": 1697141501,
+                "nanoseconds": 753000000
+              },
+              "status": "just entered"
+            },
+            "storyId": null,
+            "events": null,
+            "eventId": "fe130e7e-3a57-472b-8a37-f2b0d3393c36",
+            "markers": null,
+            "persons": null
+          }
+        ]
+      },
+      {
+        "basics": {
+          "stamp": 1049,
+          "screenShot": null
+        },
+        "events": [
+          {
+            "persons": null,
+            "eventId": "c11e2ad0-6371-431d-8a45-e57d2fad2902",
+            "personId": null,
+            "videos": null,
+            "basics": {
+              "eventWikipediaId": 988975,
+              "eventImageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Ussrc_logo.png",
+              "date": {
+                "start": "1970-01-01",
+                "end": "1970-01-01"
+              },
+              "coords": {
+                "lng": "-86.356",
+                "lat": "34.4348"
+              },
+              "eventName": "U.S. Space & Rocket Center",
+              "eventId": "c11e2ad0-6371-431d-8a45-e57d2fad2902"
+            },
+            "videoId": null,
+            "stories": [
+              {
+                "storyId": "d1516e0e-8886-4e9f-9b37-67d64cba5753"
+              }
+            ],
+            "database": {
+              "userId": "some userId",
+              "createdAt": {
+                "seconds": 1697142007,
+                "nanoseconds": 978000000
+              },
+              "status": "just entered"
+            },
+            "storyId": null,
+            "events": null,
+            "markers": null,
+            "youtubeVideoData": null
+          }
+        ]
+      },
+      {
+        "basics": {
+          "stamp": 1060,
+          "screenShot": null
+        },
+        "events": [
+          {
+            "markers": null,
+            "videoId": null,
+            "database": {
+              "createdAt": {
+                "seconds": 1697142314,
+                "nanoseconds": 22000000
+              },
+              "userId": "some userId",
+              "status": "just entered"
+            },
+            "basics": {
+              "coords": {
+                "lat": "29.3330",
+                "lng": "-95.0520"
+              },
+              "date": {
+                "start": "1958-11-05",
+                "end": "1958-11-05"
+              },
+              "eventName": "Johnson Space Center",
+              "eventId": "8e0eafe3-9fc6-4fbc-a061-dd85473f4567",
+              "eventWikipediaId": 177571,
+              "eventImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Johnson_Space_Center_Composite_Areas.jpg/400px-Johnson_Space_Center_Composite_Areas.jpg"
+            },
+            "personId": null,
+            "persons": null,
+            "events": null,
+            "storyId": null,
+            "eventId": "8e0eafe3-9fc6-4fbc-a061-dd85473f4567",
+            "stories": [
+              {
+                "storyId": "d1516e0e-8886-4e9f-9b37-67d64cba5753"
+              }
+            ],
+            "youtubeVideoData": null,
+            "videos": null
+          }
+        ]
+      },
+      {
+        "basics": {
+          "stamp": 1057,
+          "screenShot": null
+        },
+        "events": [
+          {
+            "persons": null,
+            "personId": null,
+            "basics": {
+              "eventName": "Stennis Space Center",
+              "eventImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Stennis_Space_Center_Test_Stand.jpg/400px-Stennis_Space_Center_Test_Stand.jpg",
+              "date": {
+                "end": "1961-01-01",
+                "start": "1961-01-01"
+              },
+              "eventId": "91455566-b8dd-492b-a115-e42916b2d629",
+              "coords": {
+                "lat": "30.2145",
+                "lng": "-89.3600"
+              },
+              "eventWikipediaId": 690479
+            },
+            "stories": [
+              {
+                "storyId": "d1516e0e-8886-4e9f-9b37-67d64cba5753"
+              }
+            ],
+            "markers": null,
+            "storyId": null,
+            "events": null,
+            "youtubeVideoData": null,
+            "videoId": null,
+            "eventId": "91455566-b8dd-492b-a115-e42916b2d629",
+            "videos": null,
+            "database": {
+              "userId": "some userId",
+              "createdAt": {
+                "seconds": 1697143135,
+                "nanoseconds": 14000000
+              },
+              "status": "just entered"
+            }
+          }
+        ]
+      },
+      {
+        "basics": {
+          "stamp": 1044,
+          "screenShot": null
+        },
+        "events": [
+          {
+            "database": {
+              "userId": "some userId",
+              "status": "just entered",
+              "createdAt": {
+                "seconds": 1697143358,
+                "nanoseconds": 847000000
+              }
+            },
+            "events": null,
+            "markers": null,
+            "youtubeVideoData": null,
+            "stories": [
+              {
+                "storyId": "d1516e0e-8886-4e9f-9b37-67d64cba5753"
+              }
+            ],
+            "storyId": null,
+            "videoId": null,
+            "eventId": "0462cf0d-abff-4b57-9d47-8a89724bad96",
+            "persons": null,
+            "basics": {
+              "eventImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/VAB_and_SLS.jpg/400px-VAB_and_SLS.jpg",
+              "coords": {
+                "lat": "28.3511",
+                "lng": "-80.395"
+              },
+              "date": {
+                "end": "1966-01-01",
+                "start": "1963-08-02"
+              },
+              "eventName": "Vehicle Assembly Building",
+              "eventId": "0462cf0d-abff-4b57-9d47-8a89724bad96",
+              "eventWikipediaId": 268462
+            },
+            "videos": null,
+            "personId": null
+          }
+        ]
+      },
+      {
+        "basics": {
+          "stamp": 1235,
+          "screenShot": null
+        },
+        "events": [
+          {
+            "markers": null,
+            "persons": null,
+            "basics": {
+              "date": {
+                "end": "Fri, Aug 10, 1962, 3 PM GMT+1",
+                "start": "Thu, Nov 09, 1961, 12 PM GMT+1"
+              },
+              "eventId": "f3df7178-1e5f-4a27-a69a-25053dd5b32f",
+              "eventName": "Vostok 1",
+              "coords": {
+                "lng": -96.4831,
+                "lat": 32.4643
+              },
+              "eventWikipediaId": 32363,
+              "eventImageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Gagarin_in_Sweden.jpg"
+            },
+            "stories": [
+              {
+                "storyId": "d1516e0e-8886-4e9f-9b37-67d64cba5753"
+              }
+            ],
+            "videoId": null,
+            "videos": null,
+            "database": {
+              "status": "just entered",
+              "createdAt": {
+                "seconds": 1697131078,
+                "nanoseconds": 977000000
+              },
+              "userId": "some userId"
+            },
+            "events": null,
+            "storyId": null,
+            "eventId": "f3df7178-1e5f-4a27-a69a-25053dd5b32f",
+            "youtubeVideoData": null,
+            "personId": null,
+            "Date": null
+          }
+        ]
+      },
+      {
+        "basics": {
+          "stamp": 1338,
+          "screenShot": null
+        },
+        "events": [
+          {
+            "markers": null,
+            "eventId": "c86d18c6-a489-4089-b2d1-d678613e03d2",
+            "database": {
+              "userId": "some userId",
+              "createdAt": {
+                "seconds": 1697144165,
+                "nanoseconds": 305000000
+              },
+              "status": "just entered"
+            },
+            "basics": {
+              "eventId": "c86d18c6-a489-4089-b2d1-d678613e03d2",
+              "coords": {
+                "lat": 28.5721,
+                "lng": -80.648
+              },
+              "eventName": "Project Gemini",
+              "eventWikipediaId": 882736,
+              "eventImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/GeminiPatch.png/400px-GeminiPatch.png",
+              "date": {
+                "end": "1966-01-01",
+                "start": "1961-01-01"
+              }
+            },
+            "events": null,
+            "persons": null,
+            "videos": null,
+            "youtubeVideoData": null,
+            "storyId": null,
+            "videoId": null,
+            "personId": null,
+            "stories": [
+              {
+                "storyId": "d1516e0e-8886-4e9f-9b37-67d64cba5753"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "basics": {
+          "stamp": 2538,
+          "screenShot": null
+        },
+        "events": [
+          {
+            "personId": null,
+            "database": {
+              "userId": "some userId",
+              "createdAt": {
+                "seconds": 1694787276,
+                "nanoseconds": 462000000
+              },
+              "status": "just entered"
+            },
+            "videos": null,
+            "stories": [
+              {
+                "storyId": "d1516e0e-8886-4e9f-9b37-67d64cba5753"
+              }
+            ],
+            "storyId": null,
+            "basics": {
+              "eventId": "abc65432-1234-5678-abc6-54321abc6543",
+              "eventLabelColor": "#333433",
+              "coords": {
+                "lng": -80.648,
+                "lat": 28.5721
+              },
+              "date": {
+                "start": "1967-01-27",
+                "end": "1967-01-27"
+              },
+              "eventDescription": "On January 27, 1967, tragedy struck during a pre-launch test for Apollo 1 when a cabin fire resulted in the deaths of astronauts Gus Grissom, Ed White, and Roger B. Chaffee. This devastating event highlighted the technical challenges and risks involved in the Apollo program and led to significant safety improvements in subsequent missions.",
+              "eventImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Apollo1-Crew_01.jpg/2560px-Apollo1-Crew_01.jpg",
+              "eventName": "Pre-launch Apollo 1 accident"
+            },
+            "persons": null,
+            "markers": null,
+            "events": null,
+            "eventId": "abc65432-1234-5678-abc6-54321abc6543",
+            "videoId": null,
+            "Date": "1967-01-27T00:00:00.000Z"
+          }
+        ]
+      },
+      {
+        "basics": {
+          "stamp": 2683,
+          "screenShot": null
+        },
+        "events": [
+          {
+            "basics": {
+              "eventName": "Soyuz 1",
+              "date": {
+                "end": "1967-04-23",
+                "start": "1967-04-23"
+              },
+              "eventWikipediaId": 98350,
+              "eventImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/The_Soviet_Union_1964_CPA_3110_stamp_%283-men_Space_Flight_of_Komarov%2C_Yegorov_and_Feoktistov._Vladimir_Komarov_%281927-1967%29%2C_a_Soviet_test_pilot%2C_aerospace_engineer%2C_and_cosmonaut%29.jpg/400px-thumbnail.jpg",
+              "coords": {
+                "lat": 45.9966,
+                "lng": 63.5692
+              },
+              "eventId": "7c1859a5-a85d-4f71-9c4f-f8df7bc48b6a"
+            },
+            "database": {
+              "status": "just entered",
+              "userId": "some userId",
+              "createdAt": {
+                "seconds": 1697145114,
+                "nanoseconds": 774000000
+              }
+            },
+            "youtubeVideoData": null,
+            "eventId": "7c1859a5-a85d-4f71-9c4f-f8df7bc48b6a",
+            "markers": null,
+            "videos": null,
+            "persons": null,
+            "videoId": null,
+            "events": null,
+            "stories": [
+              {
+                "storyId": "d1516e0e-8886-4e9f-9b37-67d64cba5753"
+              }
+            ],
+            "storyId": null,
+            "personId": null
+          }
+        ]
+      },
+      {
+        "basics": {
+          "stamp": 610,
+          "screenShot": null
+        },
+        "events": [
+          {
+            "persons": null,
+            "events": null,
+            "markers": null,
+            "videos": null,
+            "stories": [
+              {
+                "storyId": "d1516e0e-8886-4e9f-9b37-67d64cba5753"
+              }
+            ],
+            "eventId": "e1b2ae0d-9ea1-4051-9e17-4071599bc879",
+            "videoId": null,
+            "youtubeVideoData": null,
+            "personId": null,
+            "storyId": null,
+            "basics": {
+              "eventImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/F-1_rocket_engine.jpg/400px-F-1_rocket_engine.jpg",
+              "eventWikipediaId": 712616,
+              "eventName": "Rocketdyne F-1",
+              "date": {
+                "start": "1957-01-01",
+                "end": "1970-01-01"
+              },
+              "coords": {
+                "lng": "-118.5972",
+                "lat": "34.2011"
+              },
+              "eventId": "e1b2ae0d-9ea1-4051-9e17-4071599bc879"
+            },
+            "database": {
+              "createdAt": {
+                "seconds": 1697147166,
+                "nanoseconds": 909000000
+              },
+              "status": "just entered",
+              "userId": "some userId"
+            }
+          }
+        ]
+      },
+      {
+        "basics": {
+          "stamp": 986,
+          "screenShot": null
+        },
+        "events": [
+          {
+            "markers": null,
+            "videoId": null,
+            "events": null,
+            "database": {
+              "userId": "some userId",
+              "createdAt": {
+                "seconds": 1697144165,
+                "nanoseconds": 305000000
+              },
+              "status": "just entered"
+            },
+            "personId": null,
+            "basics": {
+              "coords": {
+                "lng": -80.648,
+                "lat": 28.5721
+              },
+              "eventName": "Project Gemini",
+              "eventWikipediaId": 882736,
+              "date": {
+                "end": "1966-01-01",
+                "start": "1961-01-01"
+              },
+              "eventId": "c86d18c6-a489-4089-b2d1-d678613e03d2",
+              "eventImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/GeminiPatch.png/400px-GeminiPatch.png"
+            },
+            "persons": null,
+            "videos": null,
+            "youtubeVideoData": null,
+            "eventId": "c86d18c6-a489-4089-b2d1-d678613e03d2",
+            "storyId": null,
+            "stories": [
+              {
+                "storyId": "d1516e0e-8886-4e9f-9b37-67d64cba5753"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "basics": {
+          "stamp": 1561,
+          "screenShot": null
+        },
+        "events": [
+          {
+            "persons": null,
+            "events": null,
+            "eventId": "c86d18c6-a489-4089-b2d1-d678613e03d2",
+            "youtubeVideoData": null,
+            "personId": null,
+            "markers": null,
+            "basics": {
+              "eventWikipediaId": 882736,
+              "eventName": "Project Gemini",
+              "coords": {
+                "lng": -80.648,
+                "lat": 28.5721
+              },
+              "date": {
+                "start": "1961-01-01",
+                "end": "1966-01-01"
+              },
+              "eventImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/GeminiPatch.png/400px-GeminiPatch.png",
+              "eventId": "c86d18c6-a489-4089-b2d1-d678613e03d2"
+            },
+            "videos": null,
+            "stories": [
+              {
+                "storyId": "d1516e0e-8886-4e9f-9b37-67d64cba5753"
+              }
+            ],
+            "storyId": null,
+            "videoId": null,
+            "database": {
+              "status": "just entered",
+              "userId": "some userId",
+              "createdAt": {
+                "seconds": 1697144165,
+                "nanoseconds": 305000000
+              }
+            }
+          },
+          {
+            "events": null,
+            "persons": null,
+            "videos": null,
+            "stories": [
+              {
+                "storyId": "d1516e0e-8886-4e9f-9b37-67d64cba5753"
+              }
+            ],
+            "storyId": null,
+            "youtubeVideoData": null,
+            "markers": null,
+            "eventId": "8e0eafe3-9fc6-4fbc-a061-dd85473f4567",
+            "personId": null,
+            "database": {
+              "createdAt": {
+                "seconds": 1697142314,
+                "nanoseconds": 22000000
+              },
+              "status": "just entered",
+              "userId": "some userId"
+            },
+            "basics": {
+              "eventId": "8e0eafe3-9fc6-4fbc-a061-dd85473f4567",
+              "eventImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Johnson_Space_Center_Composite_Areas.jpg/400px-Johnson_Space_Center_Composite_Areas.jpg",
+              "eventName": "Johnson Space Center",
+              "coords": {
+                "lng": "-95.0520",
+                "lat": "29.3330"
+              },
+              "eventWikipediaId": 177571,
+              "date": {
+                "end": "1958-11-05",
+                "start": "1958-11-05"
+              }
+            },
+            "videoId": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "storyId": null,
+    "eventId": null,
+    "persons": null,
+    "database": {
+      "createdAt": {
+        "_seconds": 1695798175,
+        "_nanoseconds": 333000000
+      },
+      "userId": "some userId",
+      "status": "just entered"
+    },
+    "stories": null,
+    "youtubeVideoData": {
+      "snippet": {
+        "playlistId": "PLvW9K-r9avwpG8C2mhASMeJ9_gDTcgFmc",
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "20BEJouWBgY"
+        },
+        "publishedAt": "2022-11-18T00:33:08Z",
+        "description": "In this episode we take a deep dive into Sam Bankman-fried (SBF) and the FTX / Alameda  situation.\n\nTheranos: https://www.youtube.com/watch?v=3CccfnRpPtM\n\nEnron: https://www.youtube.com/watch?v=e5qC1YGRMKI\n\nOnecoin: https://www.youtube.com/watch?v=64xcgvEJ3Ys\n\nWorldcom: https://www.youtube.com/watch?v=u_rfIboPyYs\n\nLuna: https://www.youtube.com/watch?v=3KZY41SqaTI\n\nClosing Track: https://www.youtube.com/watch?v=MYOlFM3Dlz4\n\n--- About ColdFusion ---\nColdFusion is an Australian based online media company independently run by Dagogo Altraide since 2009. Topics cover anything in science, technology, history and business in a calm and relaxed environment. \n\n» ColdFusion Discord:  https://discord.gg/coldfusion\n» Twitter | @ColdFusion_TV\n» Instagram | coldfusiontv\n» Facebook | https://www.facebook.com/ColdFusioncollective\n»PODCAST:https://www.youtube.com/channel/UC6jKUaNXSnuW52CxexLcOJg\n\n//Soundtrack//\n\nBurn Water - Take Flight (Bon Iver Flip)\n\nGiyo - Are the Animals Gone\n\nThe-light-feat-kingpinguin-zachary-david\n\nframes - IN VIA - 04 Calm Wisdom\n\nCahb - Secrets\n\nDeccies - Subtle\n\nDavid Keno - Golden Ticket \n\nIn the Waiting - Johannes Bornlof\n\nFemale - Grvty\n\nUniversal - Matt Fax\n\nGem Club - First Weeks\n\nPassage of Time\n\nMogwai - golden_porsche\n\nBurn Water - Adomania\n\nSources:\n\nhttps://www.gawker.com/money/are-these-caroline-ellisons-tumblrs\n\nhttps://www.afr.com/technology/ftx-hack-likely-an-inside-job-as-339m-frozen-in-three-wallets-20221115-p5bygm\n\nhttps://www.coindesk.com/policy/2022/11/09/ftx-faces-us-justice-department-probe-report/\n\nhttps://www.visualcapitalist.com/biggest-donors-2022-midterm-elections/\n\nhttps://fortune.com/2022/11/09/sam-bankman-fried-14-billion-wiped-from-personal-wealth-overnight-ftx-bailout-deal-binance/\n\nhttps://www.smh.com.au/business/entrepreneurship/robin-hood-of-crypto-the-30-year-old-billionaire-who-wants-to-give-his-fortune-away-20220404-p5aaky.html \n\nhttps://www.milkroad.com/p/binance-vs-ftx-heres-happened-weekend'\n\nhttps://techcrunch.com/2022/11/09/sequoia-capital-marks-its-ftx-investment-down-to-zero-dollars/\n\nhttps://techcrunch.com/2022/11/14/softbank-ftx-crypto/\n\nhttps://www.axios.com/2022/11/12/ftx-terms-service-trading-customer-funds\n\nhttps://www.wsj.com/livecoverage/stock-market-news-today-11-11-2022/card/ftx-paid-250-million-to-a-related-party-in-2021-N5yX9Z6NPx6rdmIXWSer\n\nhttps://decrypt.co/76584/ftx-ceo-sam-bankman-fried-why-bought-out-binance-investment-shares-exit \n\nhttps://www.coindesk.com/layer2/2022/11/08/the-story-of-sam-bankman-frieds-backroom-deal-with-binances-cz/\n\nhttps://www.coindesk.com/layer2/2022/10/25/is-sbf-right-about-defi-regulation/\n\nhttps://cryptoslate.com/ftx-hacker-is-now-one-of-the-largest-eth-holders/\n\nhttps://www.milkroad.com/p/goes-sbf \n\nhttps://fourweekmba.com/how-does-ftx-work-and-make-money/\n\nhttps://coinmarketcap.com/alexandria/article/what-is-ftx-token-ftt-features-tokenomics-and-price-prediction\n\nhttps://www.reuters.com/technology/exclusive-behind-ftxs-fall-battling-billionaires-failed-bid-save-crypto-2022-11-10/\n\nhttps://www.reuters.com/technology/exclusive-behind-ftxs-fall-battling-billionaires-failed-bid-save-crypto-2022-11-10/\n\nhttps://www.nbcnews.com/news/epic-fall-sam-bankman-fried-was-hailed-crypto-genius-clients-saw-smoke-rcna56583\n\nhttps://www.bbc.com/news/technology-63612489\n\nhttps://twitter.com/AutismCapital/status/1590779299946442753?t=iIemPUWnkIvlDWPMPdzwBQ&s=19\n\nhttps://www.forbes.com/sites/davidjeans/2022/11/12/the-devil-in-nerds-clothes-how-sam-bankman-frieds-cult-of-genius-fooled-everyone/?sh=5a804f7c1d26\n\nhttps://www.bbc.com/news/technology-63612489\n\nhttps://www.nbcnews.com/news/epic-fall-sam-bankman-fried-was-hailed-crypto-genius-clients-saw-smoke-rcna56583\n\nhttps://www.zerohedge.com/markets/ftx-held-just-900mm-liquid-assets-vs-9bn-liabilities-video-emerges-confirming-alameda-knew\n\nhttps://coinmarketcap.com/alexandria/article/what-is-ftx-token-ftt-features-tokenomics-and-price-prediction\n\nhttps://fortune.com/2022/11/13/sam-bankman-fried-alameda-research-who-is-caroline-ellison/\n\nhttps://jewishinsider.com/2021/07/the-young-crypto-billionaire-who-wants-to-change-political-fundraising/\n\nhttps://www.msn.com/en-us/money/markets/ftx-collapse-sam-bankman-fried-questioned-by-police-crypto-market-wobbles/ar-AA145tsF\n\nhttps://www.forbes.com/sites/davidjeans/2022/11/12/the-devil-in-nerds-clothes-how-sam-bankman-frieds-cult-of-genius-fooled-everyone/?sh=5a804f7c1d26\n\nProducer: Dagogo Altraide",
+        "position": 3,
+        "thumbnails": {
+          "standard": {
+            "width": 640,
+            "url": "https://i.ytimg.com/vi/20BEJouWBgY/sddefault.jpg",
+            "height": 480
+          },
+          "high": {
+            "width": 480,
+            "url": "https://i.ytimg.com/vi/20BEJouWBgY/hqdefault.jpg",
+            "height": 360
+          },
+          "default": {
+            "width": 120,
+            "url": "https://i.ytimg.com/vi/20BEJouWBgY/default.jpg",
+            "height": 90
+          },
+          "medium": {
+            "width": 320,
+            "url": "https://i.ytimg.com/vi/20BEJouWBgY/mqdefault.jpg",
+            "height": 180
+          }
+        },
+        "title": "The FTX Disaster is Deeper Than you Think",
+        "videoOwnerChannelId": "UC4QZ_LsYcvcq7qOsOhpAX4A",
+        "channelId": "UCNwwSfREZGiWlDKDfBzL2bA",
+        "videoOwnerChannelTitle": "ColdFusion",
+        "channelTitle": "Anthony Zornig"
+      },
+      "kind": "youtube#playlistItem",
+      "etag": "OloejA79j7fEyCUeBO_41xhzK_o",
+      "id": "UEx2VzlLLXI5YXZ3cEc4QzJtaEFTTWVKOV9nRFRjZ0ZtYy44MjlEMzMwNUQ1OTJFNTFE"
+    },
+    "personId": null,
+    "videoId": "20BEJouWBgY",
+    "videos": null,
+    "events": null,
+    "basics": {
+      "videoDescription": "In this episode we take a deep dive into Sam Bankman-fried (SBF) and the FTX / Alameda  situation.\n\nTheranos: https://www.youtube.com/watch?v=3CccfnRpPtM\n\nEnron: https://www.youtube.com/watch?v=e5qC1YGRMKI\n\nOnecoin: https://www.youtube.com/watch?v=64xcgvEJ3Ys\n\nWorldcom: https://www.youtube.com/watch?v=u_rfIboPyYs\n\nLuna: https://www.youtube.com/watch?v=3KZY41SqaTI\n\nClosing Track: https://www.youtube.com/watch?v=MYOlFM3Dlz4\n\n--- About ColdFusion ---\nColdFusion is an Australian based online media company independently run by Dagogo Altraide since 2009. Topics cover anything in science, technology, history and business in a calm and relaxed environment. \n\n» ColdFusion Discord:  https://discord.gg/coldfusion\n» Twitter | @ColdFusion_TV\n» Instagram | coldfusiontv\n» Facebook | https://www.facebook.com/ColdFusioncollective\n»PODCAST:https://www.youtube.com/channel/UC6jKUaNXSnuW52CxexLcOJg\n\n//Soundtrack//\n\nBurn Water - Take Flight (Bon Iver Flip)\n\nGiyo - Are the Animals Gone\n\nThe-light-feat-kingpinguin-zachary-david\n\nframes - IN VIA - 04 Calm Wisdom\n\nCahb - Secrets\n\nDeccies - Subtle\n\nDavid Keno - Golden Ticket \n\nIn the Waiting - Johannes Bornlof\n\nFemale - Grvty\n\nUniversal - Matt Fax\n\nGem Club - First Weeks\n\nPassage of Time\n\nMogwai - golden_porsche\n\nBurn Water - Adomania\n\nSources:\n\nhttps://www.gawker.com/money/are-these-caroline-ellisons-tumblrs\n\nhttps://www.afr.com/technology/ftx-hack-likely-an-inside-job-as-339m-frozen-in-three-wallets-20221115-p5bygm\n\nhttps://www.coindesk.com/policy/2022/11/09/ftx-faces-us-justice-department-probe-report/\n\nhttps://www.visualcapitalist.com/biggest-donors-2022-midterm-elections/\n\nhttps://fortune.com/2022/11/09/sam-bankman-fried-14-billion-wiped-from-personal-wealth-overnight-ftx-bailout-deal-binance/\n\nhttps://www.smh.com.au/business/entrepreneurship/robin-hood-of-crypto-the-30-year-old-billionaire-who-wants-to-give-his-fortune-away-20220404-p5aaky.html \n\nhttps://www.milkroad.com/p/binance-vs-ftx-heres-happened-weekend'\n\nhttps://techcrunch.com/2022/11/09/sequoia-capital-marks-its-ftx-investment-down-to-zero-dollars/\n\nhttps://techcrunch.com/2022/11/14/softbank-ftx-crypto/\n\nhttps://www.axios.com/2022/11/12/ftx-terms-service-trading-customer-funds\n\nhttps://www.wsj.com/livecoverage/stock-market-news-today-11-11-2022/card/ftx-paid-250-million-to-a-related-party-in-2021-N5yX9Z6NPx6rdmIXWSer\n\nhttps://decrypt.co/76584/ftx-ceo-sam-bankman-fried-why-bought-out-binance-investment-shares-exit \n\nhttps://www.coindesk.com/layer2/2022/11/08/the-story-of-sam-bankman-frieds-backroom-deal-with-binances-cz/\n\nhttps://www.coindesk.com/layer2/2022/10/25/is-sbf-right-about-defi-regulation/\n\nhttps://cryptoslate.com/ftx-hacker-is-now-one-of-the-largest-eth-holders/\n\nhttps://www.milkroad.com/p/goes-sbf \n\nhttps://fourweekmba.com/how-does-ftx-work-and-make-money/\n\nhttps://coinmarketcap.com/alexandria/article/what-is-ftx-token-ftt-features-tokenomics-and-price-prediction\n\nhttps://www.reuters.com/technology/exclusive-behind-ftxs-fall-battling-billionaires-failed-bid-save-crypto-2022-11-10/\n\nhttps://www.reuters.com/technology/exclusive-behind-ftxs-fall-battling-billionaires-failed-bid-save-crypto-2022-11-10/\n\nhttps://www.nbcnews.com/news/epic-fall-sam-bankman-fried-was-hailed-crypto-genius-clients-saw-smoke-rcna56583\n\nhttps://www.bbc.com/news/technology-63612489\n\nhttps://twitter.com/AutismCapital/status/1590779299946442753?t=iIemPUWnkIvlDWPMPdzwBQ&s=19\n\nhttps://www.forbes.com/sites/davidjeans/2022/11/12/the-devil-in-nerds-clothes-how-sam-bankman-frieds-cult-of-genius-fooled-everyone/?sh=5a804f7c1d26\n\nhttps://www.bbc.com/news/technology-63612489\n\nhttps://www.nbcnews.com/news/epic-fall-sam-bankman-fried-was-hailed-crypto-genius-clients-saw-smoke-rcna56583\n\nhttps://www.zerohedge.com/markets/ftx-held-just-900mm-liquid-assets-vs-9bn-liabilities-video-emerges-confirming-alameda-knew\n\nhttps://coinmarketcap.com/alexandria/article/what-is-ftx-token-ftt-features-tokenomics-and-price-prediction\n\nhttps://fortune.com/2022/11/13/sam-bankman-fried-alameda-research-who-is-caroline-ellison/\n\nhttps://jewishinsider.com/2021/07/the-young-crypto-billionaire-who-wants-to-change-political-fundraising/\n\nhttps://www.msn.com/en-us/money/markets/ftx-collapse-sam-bankman-fried-questioned-by-police-crypto-market-wobbles/ar-AA145tsF\n\nhttps://www.forbes.com/sites/davidjeans/2022/11/12/the-devil-in-nerds-clothes-how-sam-bankman-frieds-cult-of-genius-fooled-everyone/?sh=5a804f7c1d26\n\nProducer: Dagogo Altraide",
+      "videoUrl": "https://www.youtube.com/watch?v=20BEJouWBgY",
+      "videoType": "",
+      "videoLabelColor": "#11A9BC ",
+      "videoName": "The FTX Disaster is Deeper Than you Think",
+      "videoId": "20BEJouWBgY",
+      "ownerId": "",
+      "storyId": "a723a20e-e203-4281-b53b-75ff204bd329"
+    },
+    "markers": [
+      {
+        "basics": {
+          "stamp": 124,
+          "screenShot": null
+        },
+        "events": [
+          {
+            "basics": {
+              "date": {
+                "start": "2018-01-01",
+                "end": "2018-01-01"
+              },
+              "eventId": "5156f7b6-ad6e-49ec-b375-5c251d51e37a",
+              "eventName": "SBF starts to exploit the crypto trading discrepencies between USA and Japan.",
+              "eventDescription": " In January 2018, Bankman-Fried organized an arbitrage trade, moving up to $25 million per day, to take advantage of the higher price of bitcoin in Japan compared to the United States. After attending a late 2018 cryptocurrency conference in Macau, he moved to Hong Kong"
+            },
+            "videoId": null,
+            "events": null,
+            "stories": [
+              {
+                "storyId": "a723a20e-e203-4281-b53b-75ff204bd329"
+              }
+            ],
+            "personId": null,
+            "markers": null,
+            "persons": null,
+            "eventId": "5156f7b6-ad6e-49ec-b375-5c251d51e37a",
+            "storyId": null,
+            "database": {
+              "createdAt": {
+                "seconds": 1695880042,
+                "nanoseconds": 609000000
+              },
+              "status": "just entered",
+              "userId": "some userId"
+            },
+            "youtubeVideoData": null,
+            "videos": null
+          }
+        ]
+      },
+      {
+        "basics": {
+          "stamp": 123,
+          "screenShot": null
+        },
+        "events": [
+          {
+            "personId": null,
+            "videos": null,
+            "database": {
+              "createdAt": {
+                "nanoseconds": 609000000,
+                "seconds": 1695880042
+              },
+              "userId": "some userId",
+              "status": "just entered"
+            },
+            "storyId": null,
+            "eventId": "5156f7b6-ad6e-49ec-b375-5c251d51e37a",
+            "basics": {
+              "eventId": "5156f7b6-ad6e-49ec-b375-5c251d51e37a",
+              "eventDescription": " In January 2018, Bankman-Fried organized an arbitrage trade, moving up to $25 million per day, to take advantage of the higher price of bitcoin in Japan compared to the United States. After attending a late 2018 cryptocurrency conference in Macau, he moved to Hong Kong",
+              "eventName": "SBF starts to exploit the crypto trading discrepencies between USA and Japan.",
+              "date": {
+                "start": "2018-01-01",
+                "end": "2018-01-01"
+              }
+            },
+            "youtubeVideoData": null,
+            "events": null,
+            "markers": null,
+            "videoId": null,
+            "stories": [
+              {
+                "storyId": "a723a20e-e203-4281-b53b-75ff204bd329"
+              }
+            ],
+            "persons": null
+          }
+        ]
+      },
+      {
+        "basics": {
+          "stamp": 80,
+          "screenShot": null
+        },
+        "events": [
+          {
+            "eventId": "64968cab-9183-44b7-8f74-27a37e293cba",
+            "basics": {
+              "eventName": "Bankruptcy of FTX",
+              "eventWikipediaId": 72257526,
+              "eventId": "64968cab-9183-44b7-8f74-27a37e293cba",
+              "date": {
+                "start": "2019-01-01",
+                "end": "2022-11-01"
+              },
+              "eventImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/FTX_logo.svg/2560px-FTX_logo.svg.png",
+              "coords": {
+                "lng": "-77.40",
+                "lat": "25.00"
+              }
+            },
+            "videoId": null,
+            "database": {
+              "status": "just entered",
+              "createdAt": {
+                "seconds": 1697151125,
+                "nanoseconds": 139000000
+              },
+              "userId": "some userId"
+            },
+            "youtubeVideoData": null,
+            "videos": null,
+            "stories": [
+              {
+                "storyId": "a723a20e-e203-4281-b53b-75ff204bd329"
+              }
+            ],
+            "markers": null,
+            "events": null,
+            "personId": null,
+            "storyId": null,
+            "persons": null
+          }
+        ]
+      }
+    ]
+  }
+]

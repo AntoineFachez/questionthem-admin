@@ -1,0 +1,1066 @@
+[
+  {
+    "PERSON": "Donald Trump",
+    "DATE": "2025-04-14",
+    "APPROVAL_TYPE": "Overall",
+    "NET_APPROVE": -4,
+    "SOURCE": "Echelon Insights"
+  },
+  {
+    "PERSON": "Donald Trump",
+    "DATE": "2025-04-13",
+    "APPROVAL_TYPE": "Overall",
+    "NET_APPROVE": -7,
+    "SOURCE": "Morning Consult"
+  },
+  {
+    "PERSON": "Donald Trump",
+    "DATE": "2025-04-11",
+    "APPROVAL_TYPE": "Overall",
+    "NET_APPROVE": -6,
+    "SOURCE": "YouGov"
+  },
+  {
+    "PERSON": "Donald Trump",
+    "DATE": "2025-04-07",
+    "APPROVAL_TYPE": "Overall",
+    "NET_APPROVE": -9,
+    "SOURCE": "Global Strategy Group / GBAO"
+  },
+  {
+    "PERSON": "Donald Trump",
+    "DATE": "2025-03-17",
+    "APPROVAL_TYPE": "Overall",
+    "NET_APPROVE": -2,
+    "SOURCE": "Global Strategy Group / GBAO"
+  },
+  {
+    "PERSON": "Donald Trump",
+    "DATE": "2025-02-24",
+    "APPROVAL_TYPE": "Overall",
+    "NET_APPROVE": -1,
+    "SOURCE": "Global Strategy Group / GBAO"
+  },
+  {
+    "PERSON": "Donald Trump",
+    "DATE": "2025-02-03",
+    "APPROVAL_TYPE": "Overall",
+    "NET_APPROVE": 2,
+    "SOURCE": "Global Strategy Group / GBAO"
+  },
+  {
+    "PERSON": "Donald Trump",
+    "DATE": "2025-04-07",
+    "APPROVAL_TYPE": "Economic",
+    "NET_APPROVE": -13,
+    "SOURCE": "Global Strategy Group / GBAO"
+  },
+  {
+    "PERSON": "Donald Trump",
+    "DATE": "2025-03-17",
+    "APPROVAL_TYPE": "Economic",
+    "NET_APPROVE": -5,
+    "SOURCE": "Global Strategy Group / GBAO"
+  },
+  {
+    "PERSON": "Donald Trump",
+    "DATE": "2025-02-24",
+    "APPROVAL_TYPE": "Economic",
+    "NET_APPROVE": 0,
+    "SOURCE": "Global Strategy Group / GBAO"
+  },
+  {
+    "PERSON": "Donald Trump",
+    "DATE": "2025-02-03",
+    "APPROVAL_TYPE": "Economic",
+    "NET_APPROVE": 1,
+    "SOURCE": "Global Strategy Group / GBAO"
+  },
+  {
+    "PERSON": "Donald Trump",
+    "DATE": "2020-08-01",
+    "APPROVAL_TYPE": "Economic",
+    "NET_APPROVE": -3,
+    "SOURCE": "Global Strategy Group / GBAO"
+  },
+  {
+    "PERSON": "Donald Trump",
+    "DATE": "2020-04-01",
+    "APPROVAL_TYPE": "Economic",
+    "NET_APPROVE": 2,
+    "SOURCE": "Global Strategy Group / GBAO"
+  },
+  {
+    "PERSON": "Donald Trump",
+    "DATE": "2019-12-01",
+    "APPROVAL_TYPE": "Economic",
+    "NET_APPROVE": 10,
+    "SOURCE": "Global Strategy Group / GBAO"
+  },
+  {
+    "PERSON": "Donald Trump",
+    "DATE": "2019-08-01",
+    "APPROVAL_TYPE": "Economic",
+    "NET_APPROVE": -3,
+    "SOURCE": "Global Strategy Group / GBAO"
+  },
+  {
+    "PERSON": "Donald Trump",
+    "DATE": "2019-04-01",
+    "APPROVAL_TYPE": "Economic",
+    "NET_APPROVE": 2,
+    "SOURCE": "Global Strategy Group / GBAO"
+  },
+  {
+    "PERSON": "Donald Trump",
+    "DATE": "2018-12-01",
+    "APPROVAL_TYPE": "Economic",
+    "NET_APPROVE": -3,
+    "SOURCE": "Global Strategy Group / GBAO"
+  },
+  {
+    "PERSON": "Donald Trump",
+    "DATE": "2025-04-03",
+    "APPROVAL_TYPE": "Overall",
+    "NET_APPROVE": 5,
+    "SOURCE": "J.L. Partners"
+  },
+  {
+    "PERSON": "Donald Trump",
+    "DATE": "2025-04-03",
+    "APPROVAL_TYPE": "Overall",
+    "NET_APPROVE": -4,
+    "SOURCE": "Cygnal"
+  },
+  {
+    "PERSON": "Donald Trump",
+    "DATE": "2025-04-02",
+    "APPROVAL_TYPE": "Overall",
+    "NET_APPROVE": -10,
+    "SOURCE": "Ipsos"
+  },
+  {
+    "PERSON": "Donald Trump",
+    "DATE": "2025-01-26",
+    "APPROVAL_TYPE": "Overall",
+    "NET_APPROVE": 7.5,
+    "SOURCE": "gelliottmorris"
+  },
+  {
+    "PERSON": "Donald Trump",
+    "DATE": "2025-02-02",
+    "APPROVAL_TYPE": "Overall",
+    "NET_APPROVE": 7.5,
+    "SOURCE": "gelliottmorris"
+  },
+  {
+    "PERSON": "Donald Trump",
+    "DATE": "2025-02-09",
+    "APPROVAL_TYPE": "Overall",
+    "NET_APPROVE": 4.0,
+    "SOURCE": "gelliottmorris"
+  },
+  {
+    "PERSON": "Donald Trump",
+    "DATE": "2025-02-16",
+    "APPROVAL_TYPE": "Overall",
+    "NET_APPROVE": 3.5,
+    "SOURCE": "gelliottmorris"
+  },
+  {
+    "PERSON": "Donald Trump",
+    "DATE": "2025-02-23",
+    "APPROVAL_TYPE": "Overall",
+    "NET_APPROVE": 0.0,
+    "SOURCE": "gelliottmorris"
+  },
+  {
+    "PERSON": "Donald Trump",
+    "DATE": "2025-03-02",
+    "APPROVAL_TYPE": "Overall",
+    "NET_APPROVE": 0.5,
+    "SOURCE": "gelliottmorris"
+  },
+  {
+    "PERSON": "Donald Trump",
+    "DATE": "2025-03-09",
+    "APPROVAL_TYPE": "Overall",
+    "NET_APPROVE": -0.5,
+    "SOURCE": "gelliottmorris"
+  },
+  {
+    "PERSON": "Donald Trump",
+    "DATE": "2025-03-16",
+    "APPROVAL_TYPE": "Overall",
+    "NET_APPROVE": -1.0,
+    "SOURCE": "gelliottmorris"
+  },
+  {
+    "PERSON": "Donald Trump",
+    "DATE": "2025-03-23",
+    "APPROVAL_TYPE": "Overall",
+    "NET_APPROVE": -3.0,
+    "SOURCE": "gelliottmorris"
+  },
+  {
+    "PERSON": "Donald Trump",
+    "DATE": "2025-03-30",
+    "APPROVAL_TYPE": "Overall",
+    "NET_APPROVE": -3.0,
+    "SOURCE": "gelliottmorris"
+  },
+  {
+    "PERSON": "Donald Trump",
+    "DATE": "2025-04-06",
+    "APPROVAL_TYPE": "Overall",
+    "NET_APPROVE": -4.5,
+    "SOURCE": "gelliottmorris"
+  },
+  {
+    "PERSON": "Donald Trump",
+    "DATE": "2025-04-10",
+    "APPROVAL_TYPE": "Overall",
+    "NET_APPROVE": -6.0,
+    "SOURCE": "gelliottmorris"
+  },
+  {
+    "PERSON": "Donald Trump",
+    "DATE": "2025-04-10",
+    "APPROVAL_TYPE": "Overall",
+    "NET_APPROVE": -13,
+    "SOURCE": "YouGov"
+  },
+  {
+    "PERSON": "Donald Trump",
+    "DATE": "2025-04-08",
+    "APPROVAL_TYPE": "Overall",
+    "NET_APPROVE": -7,
+    "SOURCE": "YouGov"
+  },
+  {
+    "PERSON": "Donald Trump",
+    "DATE": "2025-04-01",
+    "APPROVAL_TYPE": "Overall",
+    "NET_APPROVE": -3,
+    "SOURCE": "YouGov"
+  },
+  {
+    "PERSON": "Donald Trump",
+    "DATE": "2025-04-01",
+    "APPROVAL_TYPE": "Overall",
+    "NET_APPROVE": -5,
+    "SOURCE": "Fabrizio, Lee & Associates/Impact Research"
+  },
+  {
+    "PERSON": "Donald Trump",
+    "DATE": "2025-04-01",
+    "APPROVAL_TYPE": "Overall",
+    "NET_APPROVE": 4,
+    "SOURCE": "RMG Research"
+  },
+  {
+    "PERSON": "Donald Trump",
+    "DATE": "2025-03-31",
+    "APPROVAL_TYPE": "Overall",
+    "NET_APPROVE": -2,
+    "SOURCE": "ActiVote"
+  },
+  {
+    "PERSON": "Donald Trump",
+    "DATE": "2025-04-07",
+    "APPROVAL_TYPE": "Overall",
+    "NET_APPROVE": 2,
+    "SOURCE": "Morning Consult"
+  },
+  {
+    "PERSON": "Donald Trump",
+    "DATE": "2025-03-30",
+    "APPROVAL_TYPE": "Overall",
+    "NET_APPROVE": -3,
+    "SOURCE": "Morning Consult"
+  },
+  {
+    "PERSON": "Donald Trump",
+    "DATE": "2025-03-28",
+    "APPROVAL_TYPE": "Overall",
+    "NET_APPROVE": -1,
+    "SOURCE": "TIPP Insights"
+  },
+  {
+    "PERSON": "Donald Trump",
+    "DATE": "2025-03-28",
+    "APPROVAL_TYPE": "Overall",
+    "NET_APPROVE": -5,
+    "SOURCE": "Targoz Market Research"
+  },
+  {
+    "PERSON": "Donald Trump",
+    "DATE": "2025-03-27",
+    "APPROVAL_TYPE": "Overall",
+    "NET_APPROVE": -1,
+    "SOURCE": "J.L. Partners"
+  },
+  {
+    "PERSON": "Donald Trump",
+    "DATE": "2025-03-27",
+    "APPROVAL_TYPE": "Overall",
+    "NET_APPROVE": 7,
+    "SOURCE": "RMG Research"
+  },
+  {
+    "PERSON": "Donald Trump",
+    "DATE": "2025-04-09",
+    "APPROVAL_TYPE": "Overall",
+    "NET_APPROVE": -3,
+    "SOURCE": "Quantus Insights"
+  },
+  {
+    "PERSON": "Donald Trump",
+    "DATE": "2025-03-27",
+    "APPROVAL_TYPE": "Overall",
+    "NET_APPROVE": 3,
+    "SOURCE": "Quantus Insights"
+  },
+  {
+    "PERSON": "Donald Trump",
+    "DATE": "2025-03-27",
+    "APPROVAL_TYPE": "Overall",
+    "NET_APPROVE": -8,
+    "SOURCE": "Marquette University Law School"
+  },
+  {
+    "PERSON": "Donald Trump",
+    "DATE": "2025-03-27",
+    "APPROVAL_TYPE": "Overall",
+    "NET_APPROVE": -4,
+    "SOURCE": "Marquette University Law School"
+  },
+  {
+    "PERSON": "Donald Trump",
+    "DATE": "2025-03-26",
+    "APPROVAL_TYPE": "Overall",
+    "NET_APPROVE": 0,
+    "SOURCE": "YouGov"
+  },
+  {
+    "PERSON": "Donald Trump",
+    "DATE": "2025-03-25",
+    "APPROVAL_TYPE": "Overall",
+    "NET_APPROVE": 2,
+    "SOURCE": "YouGov"
+  },
+  {
+    "PERSON": "Donald Trump",
+    "DATE": "2025-03-24",
+    "APPROVAL_TYPE": "Overall",
+    "NET_APPROVE": -6,
+    "SOURCE": "YouGov"
+  },
+  {
+    "PERSON": "Donald Trump",
+    "DATE": "2025-03-24",
+    "APPROVAL_TYPE": "Overall",
+    "NET_APPROVE": -14,
+    "SOURCE": "AP-NORC"
+  },
+  {
+    "PERSON": "Donald Trump",
+    "DATE": "2025-03-23",
+    "APPROVAL_TYPE": "Overall",
+    "NET_APPROVE": -6,
+    "SOURCE": "Ipsos"
+  },
+  {
+    "PERSON": "Donald Trump",
+    "DATE": "2025-03-20",
+    "APPROVAL_TYPE": "Overall",
+    "NET_APPROVE": -5,
+    "SOURCE": "American Research Group"
+  },
+  {
+    "PERSON": "Donald Trump",
+    "DATE": "2025-03-19",
+    "APPROVAL_TYPE": "Overall",
+    "NET_APPROVE": 8,
+    "SOURCE": "RMG Research"
+  },
+  {
+    "PERSON": "Donald Trump",
+    "DATE": "2025-03-18",
+    "APPROVAL_TYPE": "Overall",
+    "NET_APPROVE": -5,
+    "SOURCE": "YouGov"
+  },
+  {
+    "PERSON": "Donald Trump",
+    "DATE": "2025-03-17",
+    "APPROVAL_TYPE": "Overall",
+    "NET_APPROVE": -2,
+    "SOURCE": "Beacon Research/Shaw & Co. Research"
+  },
+  {
+    "PERSON": "Donald Trump",
+    "DATE": "2025-03-17",
+    "APPROVAL_TYPE": "Overall",
+    "NET_APPROVE": -2,
+    "SOURCE": "Global Strategy Group"
+  },
+  {
+    "PERSON": "Donald Trump",
+    "DATE": "2025-03-17",
+    "APPROVAL_TYPE": "Overall",
+    "NET_APPROVE": -5,
+    "SOURCE": "North Star Opinion Research"
+  },
+  {
+    "PERSON": "Donald Trump",
+    "DATE": "2025-03-16",
+    "APPROVAL_TYPE": "Overall",
+    "NET_APPROVE": -10,
+    "SOURCE": "Gallup"
+  },
+  {
+    "PERSON": "Donald Trump",
+    "DATE": "2025-03-14",
+    "APPROVAL_TYPE": "Overall",
+    "NET_APPROVE": -6,
+    "SOURCE": "Blueprint Polling"
+  },
+  {
+    "PERSON": "Donald Trump",
+    "DATE": "2025-03-13",
+    "APPROVAL_TYPE": "Overall",
+    "NET_APPROVE": 1,
+    "SOURCE": "Echelon Insights"
+  },
+  {
+    "PERSON": "Donald Trump",
+    "DATE": "2025-03-13",
+    "APPROVAL_TYPE": "Overall",
+    "NET_APPROVE": 10,
+    "SOURCE": "RMG Research"
+  },
+  {
+    "PERSON": "Donald Trump",
+    "DATE": "2025-03-12",
+    "APPROVAL_TYPE": "Overall",
+    "NET_APPROVE": -8,
+    "SOURCE": "Ipsos"
+  },
+  {
+    "PERSON": "Donald Trump",
+    "DATE": "2025-03-12",
+    "APPROVAL_TYPE": "Overall",
+    "NET_APPROVE": -5,
+    "SOURCE": "AtlasIntel"
+  },
+  {
+    "PERSON": "Donald Trump",
+    "DATE": "2025-03-12",
+    "APPROVAL_TYPE": "Overall",
+    "NET_APPROVE": 2,
+    "SOURCE": "Quantus Insights"
+  },
+  {
+    "PERSON": "Donald Trump",
+    "DATE": "2025-03-11",
+    "APPROVAL_TYPE": "Overall",
+    "NET_APPROVE": 0,
+    "SOURCE": "YouGov"
+  },
+  {
+    "PERSON": "Donald Trump",
+    "DATE": "2025-03-11",
+    "APPROVAL_TYPE": "Overall",
+    "NET_APPROVE": -1,
+    "SOURCE": "YouGov"
+  },
+  {
+    "PERSON": "Donald Trump",
+    "DATE": "2025-03-11",
+    "APPROVAL_TYPE": "Overall",
+    "NET_APPROVE": -4,
+    "SOURCE": "Hart Research Associates/Public Opinion Strategies"
+  },
+  {
+    "PERSON": "Donald Trump",
+    "DATE": "2025-03-10",
+    "APPROVAL_TYPE": "Overall",
+    "NET_APPROVE": 2,
+    "SOURCE": "Emerson College"
+  },
+  {
+    "PERSON": "Donald Trump",
+    "DATE": "2025-03-09",
+    "APPROVAL_TYPE": "Overall",
+    "NET_APPROVE": 4,
+    "SOURCE": "Clarity Campaign Labs"
+  },
+  {
+    "PERSON": "Donald Trump",
+    "DATE": "2025-03-09",
+    "APPROVAL_TYPE": "Overall",
+    "NET_APPROVE": -9,
+    "SOURCE": "CNN/SSRS"
+  },
+  {
+    "PERSON": "Donald Trump",
+    "DATE": "2025-03-07",
+    "APPROVAL_TYPE": "Overall",
+    "NET_APPROVE": -2,
+    "SOURCE": "J.L. Partners"
+  },
+  {
+    "PERSON": "Donald Trump",
+    "DATE": "2025-03-07",
+    "APPROVAL_TYPE": "Overall",
+    "NET_APPROVE": 1,
+    "SOURCE": "McLaughlin & Associates"
+  },
+  {
+    "PERSON": "Donald Trump",
+    "DATE": "2025-03-06",
+    "APPROVAL_TYPE": "Overall",
+    "NET_APPROVE": 4,
+    "SOURCE": "Trafalgar Group/InsiderAdvantage"
+  },
+  {
+    "PERSON": "Donald Trump",
+    "DATE": "2025-03-06",
+    "APPROVAL_TYPE": "Overall",
+    "NET_APPROVE": 4,
+    "SOURCE": "RMG Research"
+  },
+  {
+    "PERSON": "Donald Trump",
+    "DATE": "2025-03-06",
+    "APPROVAL_TYPE": "Overall",
+    "NET_APPROVE": -5,
+    "SOURCE": "TIPP Insights"
+  },
+  {
+    "PERSON": "Donald Trump",
+    "DATE": "2025-03-05",
+    "APPROVAL_TYPE": "Overall",
+    "NET_APPROVE": 4,
+    "SOURCE": "Morning Consult"
+  },
+  {
+    "PERSON": "Donald Trump",
+    "DATE": "2025-03-05",
+    "APPROVAL_TYPE": "Overall",
+    "NET_APPROVE": -3,
+    "SOURCE": "Cygnal"
+  },
+  {
+    "PERSON": "Donald Trump",
+    "DATE": "2025-03-04",
+    "APPROVAL_TYPE": "Overall",
+    "NET_APPROVE": -7,
+    "SOURCE": "Ipsos"
+  },
+  {
+    "PERSON": "Donald Trump",
+    "DATE": "2025-03-03",
+    "APPROVAL_TYPE": "Overall",
+    "NET_APPROVE": 5,
+    "SOURCE": "Emerson College"
+  },
+  {
+    "PERSON": "Donald Trump",
+    "DATE": "2025-03-03",
+    "APPROVAL_TYPE": "Overall",
+    "NET_APPROVE": -4,
+    "SOURCE": "Civiqs"
+  },
+  {
+    "PERSON": "Donald Trump",
+    "DATE": "2025-03-02",
+    "APPROVAL_TYPE": "Overall",
+    "NET_APPROVE": 2,
+    "SOURCE": "Public Opinion Strategies"
+  },
+  {
+    "PERSON": "Donald Trump",
+    "DATE": "2025-03-02",
+    "APPROVAL_TYPE": "Overall",
+    "NET_APPROVE": -3,
+    "SOURCE": "Justice Research Fund"
+  },
+  {
+    "PERSON": "Donald Trump",
+    "DATE": "2025-03-01",
+    "APPROVAL_TYPE": "Overall",
+    "NET_APPROVE": 0,
+    "SOURCE": "John Zogby Strategies"
+  },
+  {
+    "PERSON": "Donald Trump",
+    "DATE": "2025-02-28",
+    "APPROVAL_TYPE": "Overall",
+    "NET_APPROVE": 8,
+    "SOURCE": "RMG Research"
+  },
+  {
+    "PERSON": "Donald Trump",
+    "DATE": "2025-02-28",
+    "APPROVAL_TYPE": "Overall",
+    "NET_APPROVE": 1,
+    "SOURCE": "ActiVote"
+  },
+  {
+    "PERSON": "Donald Trump",
+    "DATE": "2025-02-28",
+    "APPROVAL_TYPE": "Overall",
+    "NET_APPROVE": 2,
+    "SOURCE": "YouGov"
+  },
+  {
+    "PERSON": "Donald Trump",
+    "DATE": "2025-02-28",
+    "APPROVAL_TYPE": "Overall",
+    "NET_APPROVE": -4,
+    "SOURCE": "CNN/SSRS"
+  },
+  {
+    "PERSON": "Donald Trump",
+    "DATE": "2025-02-28",
+    "APPROVAL_TYPE": "Overall",
+    "NET_APPROVE": 3,
+    "SOURCE": "TIPP Insights"
+  },
+  {
+    "PERSON": "Donald Trump",
+    "DATE": "2025-02-27",
+    "APPROVAL_TYPE": "Overall",
+    "NET_APPROVE": 1,
+    "SOURCE": "AtlasIntel"
+  },
+  {
+    "PERSON": "Donald Trump",
+    "DATE": "2025-02-26",
+    "APPROVAL_TYPE": "Overall",
+    "NET_APPROVE": 6,
+    "SOURCE": "Quantus Insights"
+  },
+  {
+    "PERSON": "Donald Trump",
+    "DATE": "2025-02-26",
+    "APPROVAL_TYPE": "Overall",
+    "NET_APPROVE": -6,
+    "SOURCE": "Marist College"
+  },
+  {
+    "PERSON": "Donald Trump",
+    "DATE": "2025-02-25",
+    "APPROVAL_TYPE": "Overall",
+    "NET_APPROVE": 3,
+    "SOURCE": "YouGov"
+  },
+  {
+    "PERSON": "Donald Trump",
+    "DATE": "2025-02-25",
+    "APPROVAL_TYPE": "Overall",
+    "NET_APPROVE": 1,
+    "SOURCE": "YouGov"
+  },
+  {
+    "PERSON": "Donald Trump",
+    "DATE": "2025-02-25",
+    "APPROVAL_TYPE": "Overall",
+    "NET_APPROVE": 6,
+    "SOURCE": "J.L. Partners"
+  },
+  {
+    "PERSON": "Donald Trump",
+    "DATE": "2025-02-23",
+    "APPROVAL_TYPE": "Overall",
+    "NET_APPROVE": -6,
+    "SOURCE": "Ipsos"
+  },
+  {
+    "PERSON": "Donald Trump",
+    "DATE": "2025-02-21",
+    "APPROVAL_TYPE": "Overall",
+    "NET_APPROVE": 9,
+    "SOURCE": "RMG Research"
+  },
+  {
+    "PERSON": "Donald Trump",
+    "DATE": "2025-02-20",
+    "APPROVAL_TYPE": "Overall",
+    "NET_APPROVE": 9,
+    "SOURCE": "HarrisX/Harris Poll"
+  },
+  {
+    "PERSON": "Donald Trump",
+    "DATE": "2025-02-20",
+    "APPROVAL_TYPE": "Overall",
+    "NET_APPROVE": -1,
+    "SOURCE": "Echelon Insights"
+  },
+  {
+    "PERSON": "Donald Trump",
+    "DATE": "2025-02-20",
+    "APPROVAL_TYPE": "Overall",
+    "NET_APPROVE": 4,
+    "SOURCE": "YouGov"
+  },
+  {
+    "PERSON": "Donald Trump",
+    "DATE": "2025-02-19",
+    "APPROVAL_TYPE": "Overall",
+    "NET_APPROVE": 0,
+    "SOURCE": "OnMessage"
+  },
+  {
+    "PERSON": "Donald Trump",
+    "DATE": "2025-02-18",
+    "APPROVAL_TYPE": "Overall",
+    "NET_APPROVE": 5,
+    "SOURCE": "YouGov"
+  },
+  {
+    "PERSON": "Donald Trump",
+    "DATE": "2025-02-18",
+    "APPROVAL_TYPE": "Overall",
+    "NET_APPROVE": 3,
+    "SOURCE": "YouGov"
+  },
+  {
+    "PERSON": "Donald Trump",
+    "DATE": "2025-02-18",
+    "APPROVAL_TYPE": "Overall",
+    "NET_APPROVE": -7,
+    "SOURCE": "Ipsos"
+  },
+  {
+    "PERSON": "Donald Trump",
+    "DATE": "2025-02-18",
+    "APPROVAL_TYPE": "Overall",
+    "NET_APPROVE": -8,
+    "SOURCE": "Ipsos"
+  },
+  {
+    "PERSON": "Donald Trump",
+    "DATE": "2025-02-18",
+    "APPROVAL_TYPE": "Overall",
+    "NET_APPROVE": 5,
+    "SOURCE": "McLaughlin & Associates"
+  },
+  {
+    "PERSON": "Donald Trump",
+    "DATE": "2025-02-18",
+    "APPROVAL_TYPE": "Overall",
+    "NET_APPROVE": 0,
+    "SOURCE": "YouGov"
+  },
+  {
+    "PERSON": "Donald Trump",
+    "DATE": "2025-02-17",
+    "APPROVAL_TYPE": "Overall",
+    "NET_APPROVE": 6,
+    "SOURCE": "Emerson College"
+  },
+  {
+    "PERSON": "Donald Trump",
+    "DATE": "2025-02-17",
+    "APPROVAL_TYPE": "Overall",
+    "NET_APPROVE": -4,
+    "SOURCE": "Quinnipiac University"
+  },
+  {
+    "PERSON": "Donald Trump",
+    "DATE": "2025-02-17",
+    "APPROVAL_TYPE": "Overall",
+    "NET_APPROVE": -5,
+    "SOURCE": "CNN/SSRS"
+  },
+  {
+    "PERSON": "Donald Trump",
+    "DATE": "2025-02-17",
+    "APPROVAL_TYPE": "Overall",
+    "NET_APPROVE": 0,
+    "SOURCE": "co/efficient"
+  },
+  {
+    "PERSON": "Donald Trump",
+    "DATE": "2025-02-17",
+    "APPROVAL_TYPE": "Overall",
+    "NET_APPROVE": 0,
+    "SOURCE": "Blueprint Polling"
+  },
+  {
+    "PERSON": "Donald Trump",
+    "DATE": "2025-02-16",
+    "APPROVAL_TYPE": "Overall",
+    "NET_APPROVE": 6,
+    "SOURCE": "SurveyUSA"
+  },
+  {
+    "PERSON": "Donald Trump",
+    "DATE": "2025-02-16",
+    "APPROVAL_TYPE": "Overall",
+    "NET_APPROVE": -6,
+    "SOURCE": "Gallup"
+  },
+  {
+    "PERSON": "Donald Trump",
+    "DATE": "2025-02-14",
+    "APPROVAL_TYPE": "Overall",
+    "NET_APPROVE": 12,
+    "SOURCE": "RMG Research"
+  },
+  {
+    "PERSON": "Donald Trump",
+    "DATE": "2025-02-13",
+    "APPROVAL_TYPE": "Overall",
+    "NET_APPROVE": 6,
+    "SOURCE": "Echelon Insights"
+  },
+  {
+    "PERSON": "Donald Trump",
+    "DATE": "2025-02-12",
+    "APPROVAL_TYPE": "Overall",
+    "NET_APPROVE": 9,
+    "SOURCE": "Quantus Insights"
+  },
+  {
+    "PERSON": "Donald Trump",
+    "DATE": "2025-02-11",
+    "APPROVAL_TYPE": "Overall",
+    "NET_APPROVE": -2,
+    "SOURCE": "YouGov"
+  },
+  {
+    "PERSON": "Donald Trump",
+    "DATE": "2025-02-11",
+    "APPROVAL_TYPE": "Overall",
+    "NET_APPROVE": -2,
+    "SOURCE": "YouGov"
+  },
+  {
+    "PERSON": "Donald Trump",
+    "DATE": "2025-02-11",
+    "APPROVAL_TYPE": "Overall",
+    "NET_APPROVE": 4,
+    "SOURCE": "YouGov"
+  },
+  {
+    "PERSON": "Donald Trump",
+    "DATE": "2025-02-09",
+    "APPROVAL_TYPE": "Overall",
+    "NET_APPROVE": 9,
+    "SOURCE": "Trafalgar Group/InsiderAdvantage"
+  },
+  {
+    "PERSON": "Donald Trump",
+    "DATE": "2025-02-07",
+    "APPROVAL_TYPE": "Overall",
+    "NET_APPROVE": 6,
+    "SOURCE": "YouGov"
+  },
+  {
+    "PERSON": "Donald Trump",
+    "DATE": "2025-02-06",
+    "APPROVAL_TYPE": "Overall",
+    "NET_APPROVE": 6,
+    "SOURCE": "RMG Research"
+  },
+  {
+    "PERSON": "Donald Trump",
+    "DATE": "2025-02-06",
+    "APPROVAL_TYPE": "Overall",
+    "NET_APPROVE": 5,
+    "SOURCE": "Clarity Campaign Labs"
+  },
+  {
+    "PERSON": "Donald Trump",
+    "DATE": "2025-02-05",
+    "APPROVAL_TYPE": "Overall",
+    "NET_APPROVE": 2,
+    "SOURCE": "Cygnal"
+  },
+  {
+    "PERSON": "Donald Trump",
+    "DATE": "2025-02-05",
+    "APPROVAL_TYPE": "Overall",
+    "NET_APPROVE": -4,
+    "SOURCE": "Marquette University Law School"
+  },
+  {
+    "PERSON": "Donald Trump",
+    "DATE": "2025-02-04",
+    "APPROVAL_TYPE": "Overall",
+    "NET_APPROVE": 2,
+    "SOURCE": "YouGov"
+  },
+  {
+    "PERSON": "Donald Trump",
+    "DATE": "2025-02-04",
+    "APPROVAL_TYPE": "Overall",
+    "NET_APPROVE": 1,
+    "SOURCE": "YouGov"
+  },
+  {
+    "PERSON": "Donald Trump",
+    "DATE": "2025-02-03",
+    "APPROVAL_TYPE": "Overall",
+    "NET_APPROVE": 7,
+    "SOURCE": "Quantus Insights"
+  },
+  {
+    "PERSON": "Donald Trump",
+    "DATE": "2025-02-03",
+    "APPROVAL_TYPE": "Overall",
+    "NET_APPROVE": 2,
+    "SOURCE": "Global Strategy Group"
+  },
+  {
+    "PERSON": "Donald Trump",
+    "DATE": "2025-02-02",
+    "APPROVAL_TYPE": "Overall",
+    "NET_APPROVE": -4,
+    "SOURCE": "Pew Research Center"
+  },
+  {
+    "PERSON": "Donald Trump",
+    "DATE": "2025-02-01",
+    "APPROVAL_TYPE": "Overall",
+    "NET_APPROVE": 1,
+    "SOURCE": "Fabrizio, Lee & Associates/Impact Research"
+  },
+  {
+    "PERSON": "Donald Trump",
+    "DATE": "2025-01-31",
+    "APPROVAL_TYPE": "Overall",
+    "NET_APPROVE": 10,
+    "SOURCE": "RMG Research"
+  },
+  {
+    "PERSON": "Donald Trump",
+    "DATE": "2025-01-31",
+    "APPROVAL_TYPE": "Overall",
+    "NET_APPROVE": 6,
+    "SOURCE": "ActiVote"
+  },
+  {
+    "PERSON": "Donald Trump",
+    "DATE": "2025-01-31",
+    "APPROVAL_TYPE": "Overall",
+    "NET_APPROVE": 5,
+    "SOURCE": "TIPP Insights"
+  },
+  {
+    "PERSON": "Donald Trump",
+    "DATE": "2025-01-28",
+    "APPROVAL_TYPE": "Overall",
+    "NET_APPROVE": 6,
+    "SOURCE": "YouGov"
+  },
+  {
+    "PERSON": "Donald Trump",
+    "DATE": "2025-01-28",
+    "APPROVAL_TYPE": "Overall",
+    "NET_APPROVE": 7,
+    "SOURCE": "Emerson College"
+  },
+  {
+    "PERSON": "Donald Trump",
+    "DATE": "2025-01-28",
+    "APPROVAL_TYPE": "Overall",
+    "NET_APPROVE": 5,
+    "SOURCE": "co/efficient"
+  },
+  {
+    "PERSON": "Donald Trump",
+    "DATE": "2025-01-27",
+    "APPROVAL_TYPE": "Overall",
+    "NET_APPROVE": 3,
+    "SOURCE": "Quinnipiac University"
+  },
+  {
+    "PERSON": "Donald Trump",
+    "DATE": "2025-01-27",
+    "APPROVAL_TYPE": "Overall",
+    "NET_APPROVE": -1,
+    "SOURCE": "Gallup"
+  },
+  {
+    "PERSON": "Donald Trump",
+    "DATE": "2025-01-27",
+    "APPROVAL_TYPE": "Overall",
+    "NET_APPROVE": 9,
+    "SOURCE": "McLaughlin & Associates"
+  },
+  {
+    "PERSON": "Donald Trump",
+    "DATE": "2025-01-26",
+    "APPROVAL_TYPE": "Overall",
+    "NET_APPROVE": -1,
+    "SOURCE": "Ipsos"
+  },
+  {
+    "PERSON": "Donald Trump",
+    "DATE": "2025-01-24",
+    "APPROVAL_TYPE": "Overall",
+    "NET_APPROVE": 8,
+    "SOURCE": "Echelon Insights"
+  },
+  {
+    "PERSON": "Donald Trump",
+    "DATE": "2025-01-24",
+    "APPROVAL_TYPE": "Overall",
+    "NET_APPROVE": 4,
+    "SOURCE": "Research Co."
+  },
+  {
+    "PERSON": "Donald Trump",
+    "DATE": "2025-01-23",
+    "APPROVAL_TYPE": "Overall",
+    "NET_APPROVE": 18,
+    "SOURCE": "RMG Research"
+  },
+  {
+    "PERSON": "Donald Trump",
+    "DATE": "2025-01-23",
+    "APPROVAL_TYPE": "Overall",
+    "NET_APPROVE": 0,
+    "SOURCE": "AtlasIntel"
+  },
+  {
+    "PERSON": "Donald Trump",
+    "DATE": "2025-01-23",
+    "APPROVAL_TYPE": "Overall",
+    "NET_APPROVE": 14,
+    "SOURCE": "Quantus Insights"
+  },
+  {
+    "PERSON": "Donald Trump",
+    "DATE": "2025-01-22",
+    "APPROVAL_TYPE": "Overall",
+    "NET_APPROVE": 18,
+    "SOURCE": "Big Data Poll"
+  },
+  {
+    "PERSON": "Donald Trump",
+    "DATE": "2025-01-21",
+    "APPROVAL_TYPE": "Overall",
+    "NET_APPROVE": 6,
+    "SOURCE": "Ipsos"
+  },
+  {
+    "PERSON": "Donald Trump",
+    "DATE": "2025-01-21",
+    "APPROVAL_TYPE": "Overall",
+    "NET_APPROVE": 13,
+    "SOURCE": "SoCal Strategies"
+  },
+  {
+    "PERSON": "Donald Trump",
+    "DATE": "2025-01-20",
+    "APPROVAL_TYPE": "Overall",
+    "NET_APPROVE": 17,
+    "SOURCE": "InsiderAdvantage"
+  }
+]

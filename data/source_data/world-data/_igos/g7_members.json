@@ -1,0 +1,65 @@
+[
+  {
+    "IGO": "G7",
+    "COUNTRY_EN": "Canada",
+    "ISO_A3": "CAN",
+    "status": "Member State",
+    "joinDate": "1976",
+    "leftDate": null,
+    "membershipNotes": ""
+  },
+  {
+    "IGO": "G7",
+    "COUNTRY_EN": "France",
+    "ISO_A3": "FRA",
+    "status": "Member State",
+    "joinDate": "1975",
+    "leftDate": null,
+    "membershipNotes": "Founding member (as G6)"
+  },
+  {
+    "IGO": "G7",
+    "COUNTRY_EN": "Germany",
+    "ISO_A3": "DEU",
+    "status": "Member State",
+    "joinDate": "1975",
+    "leftDate": null,
+    "membershipNotes": "Founding member (as G6 - West Germany)"
+  },
+  {
+    "IGO": "G7",
+    "COUNTRY_EN": "Italy",
+    "ISO_A3": "ITA",
+    "status": "Member State",
+    "joinDate": "1975",
+    "leftDate": null,
+    "membershipNotes": "Founding member (as G6)"
+  },
+  {
+    "IGO": "G7",
+    "COUNTRY_EN": "Japan",
+    "ISO_A3": "JPN",
+    "status": "Member State",
+    "joinDate": "1975",
+    "leftDate": null,
+    "membershipNotes": "Founding member (as G6)"
+  },
+  {
+    "IGO": "G7",
+    "COUNTRY_EN": "United Kingdom",
+    "ISO_A3": "GBR",
+    "status": "Member State",
+    "joinDate": "1975",
+    "leftDate": null,
+    "membershipNotes": "Founding member (as G6)"
+  },
+  {
+    "IGO": "G7",
+    "COUNTRY_EN": "United States",
+    "ISO_A3": "USA",
+    "status": "Member State",
+    "joinDate": "1975",
+    "leftDate": null,
+    "membershipNotes": "Founding member (as G6)"
+  }
+]

@@ -1,0 +1,1014 @@
+{
+  "nodes": [
+    {
+      "id": "trump_inauguration_fund",
+      "name": "Trump Inauguration Fund",
+      "type": "PAC or political fund"
+    },
+    {
+      "id": "trump_pacs",
+      "name": "Trump PACs",
+      "type": "PAC or political fund"
+    },
+    {
+      "id": "parscale_strategy",
+      "name": "Parscale Strategy",
+      "type": "Outside company"
+    },
+    {
+      "id": "brad_parscale",
+      "name": "Brad Parscale",
+      "type": "Person"
+    },
+    {
+      "id": "designer_manager_llc",
+      "name": "Designer Manager LLC",
+      "type": "Outside company"
+    },
+    {
+      "id": "eric_trump",
+      "name": "Eric Trump",
+      "type": "Person"
+    },
+    {
+      "id": "donald_trump",
+      "name": "Donald J. Trump",
+      "type": "Person"
+    },
+    {
+      "id": "ivanka_trump",
+      "name": "Ivanka Trump",
+      "type": "Person"
+    },
+    {
+      "id": "jared_kushner",
+      "name": "Jared Kushner",
+      "type": "Person"
+    },
+    {
+      "id": "trump_family",
+      "name": "Trump Family",
+      "type": "Conceptual entity"
+    },
+    {
+      "id": "trump_sons",
+      "name": "Trump Sons",
+      "type": "Conceptual entity"
+    },
+    {
+      "id": "donald_trump_jr",
+      "name": "Donald Trump Jr.",
+      "type": "Person"
+    },
+    {
+      "id": "kimberly_guilfoyle",
+      "name": "Kimberly Guilfoyle",
+      "type": "Person"
+    },
+    {
+      "id": "mkt_blockchain",
+      "name": "MKT Blockchain",
+      "type": "Outside company"
+    },
+    {
+      "id": "trump_branded_nfts",
+      "name": "Trump Branded NFTs",
+      "type": "Product"
+    },
+    {
+      "id": "cumberland_hill",
+      "name": "Cumberland Hill",
+      "type": "Outside company"
+    },
+    {
+      "id": "gryphon_digital_mining",
+      "name": "Gryphon Digital Mining",
+      "type": "Outside company"
+    },
+    {
+      "id": "american_bitcoin",
+      "name": "American Bitcoin",
+      "type": "Outside company"
+    },
+    {
+      "id": "dominion_holdings_inc",
+      "name": "Dominion Holdings, Inc.",
+      "type": "Outside company"
+    },
+    {
+      "id": "trump_media_technology_group",
+      "name": "Trump Media & Technology Group (TMTG)",
+      "type": "Primary business"
+    },
+    {
+      "id": "crypto_com",
+      "name": "Crypto.com",
+      "type": "Outside company"
+    },
+    {
+      "id": "ftx",
+      "name": "FTX",
+      "type": "Outside company"
+    },
+    {
+      "id": "sam_bankman_fried",
+      "name": "Sam Bankman-Fried",
+      "type": "Person"
+    },
+    {
+      "id": "srm",
+      "name": "SRM",
+      "type": "Outside company"
+    },
+    {
+      "id": "alameda_research",
+      "name": "Alameda Research",
+      "type": "Outside company"
+    },
+    {
+      "id": "ftx_ventures",
+      "name": "FTX Ventures",
+      "type": "Outside company"
+    },
+    {
+      "id": "coinbase",
+      "name": "Coinbase",
+      "type": "Outside company"
+    },
+    {
+      "id": "kraken",
+      "name": "Kraken",
+      "type": "Outside company"
+    },
+    {
+      "id": "gemini",
+      "name": "Gemini",
+      "type": "Outside company"
+    },
+    {
+      "id": "ripple",
+      "name": "Ripple",
+      "type": "Outside company"
+    },
+    {
+      "id": "circle",
+      "name": "Circle",
+      "type": "Outside company"
+    },
+    {
+      "id": "doj",
+      "name": "DOJ",
+      "type": "Outside company"
+    },
+    {
+      "id": "nytf_digital_llc",
+      "name": "NYTF Digital LLC",
+      "type": "Special purpose entity"
+    },
+    {
+      "id": "nifty_nft_llc",
+      "name": "Nifty NFT LLC",
+      "type": "Special purpose entity"
+    },
+    {
+      "id": "trump_card_nfts",
+      "name": "Trump Card NFTs",
+      "type": "Product"
+    },
+    {
+      "id": "nft_america",
+      "name": "NFT America",
+      "type": "Outside company"
+    },
+    {
+      "id": "dtm_holdings",
+      "name": "DTM Holdings",
+      "type": "Holding"
+    },
+    {
+      "id": "dtm_holdings_managing_member_corp",
+      "name": "DTM Holdings Managing Member Corp",
+      "type": "Holding"
+    },
+    {
+      "id": "sttm_options",
+      "name": "STTM Options",
+      "type": "Holding"
+    },
+    {
+      "id": "melania_trump",
+      "name": "Melania Trump",
+      "type": "Person"
+    },
+    {
+      "id": "trump_organization",
+      "name": "Trump Organization",
+      "type": "Primary business"
+    },
+    {
+      "id": "trump_trust",
+      "name": "Trump Trust",
+      "type": "Conceptual entity"
+    },
+    {
+      "id": "dt_holding_managing_member_llc",
+      "name": "DT Holding Managing Member LLC",
+      "type": "Holding"
+    },
+    {
+      "id": "dt_marks_defi_member_corp",
+      "name": "DT Marks DeFi Member Corp",
+      "type": "Special purpose entity"
+    },
+    {
+      "id": "dt_marks_defi_llc",
+      "name": "DT Marks DeFi LLC",
+      "type": "Special purpose entity"
+    },
+    {
+      "id": "wulf_family_trust",
+      "name": "Wulf Family Trust",
+      "type": "Conceptual entity"
+    },
+    {
+      "id": "russel_wulf",
+      "name": "Russel Wulf",
+      "type": "Person"
+    },
+    {
+      "id": "eric_wulf",
+      "name": "Eric Wulf",
+      "type": "Person"
+    },
+    {
+      "id": "hany_farag",
+      "name": "Hany Farag",
+      "type": "Person"
+    },
+    {
+      "id": "richard_hany",
+      "name": "Richard Hany",
+      "type": "Person"
+    },
+    {
+      "id": "blockchain_management_llc",
+      "name": "Blockchain Management LLC",
+      "type": "Outside company"
+    },
+    {
+      "id": "digital_currency_group",
+      "name": "Digital Currency Group",
+      "type": "Outside company"
+    },
+    {
+      "id": "grayscale_investments",
+      "name": "Grayscale Investments",
+      "type": "Outside company"
+    },
+    {
+      "id": "united_arab_emirates",
+      "name": "United Arab Emirates",
+      "type": "Conceptual entity"
+    },
+    {
+      "id": "middle_east",
+      "name": "Middle East",
+      "type": "Conceptual entity"
+    },
+    {
+      "id": "cis_digital_llc",
+      "name": "CIS Digital LLC",
+      "type": "Outside company"
+    },
+    {
+      "id": "tmtg_equity",
+      "name": "TMTG Equity",
+      "type": "Product"
+    },
+    {
+      "id": "cryptos_traditional_asset_etfs",
+      "name": "Cryptos and traditional asset ETFs",
+      "type": "Product"
+    },
+    {
+      "id": "united_license_agreement",
+      "name": "United License Agreement",
+      "type": "Conceptual entity"
+    },
+    {
+      "id": "trump_wallets",
+      "name": "Trump Wallets",
+      "type": "Product"
+    },
+    {
+      "id": "magic_eden",
+      "name": "Magic Eden",
+      "type": "Outside company"
+    },
+    {
+      "id": "fight_for_truth_fund_llc",
+      "name": "Fight for Truth Fund LLC",
+      "type": "Special purpose entity"
+    },
+    {
+      "id": "trump_meme_coin",
+      "name": "Trump Meme Coin",
+      "type": "Product"
+    },
+    {
+      "id": "trump_speakers",
+      "name": "Trump Speakers",
+      "type": "Product"
+    },
+    {
+      "id": "wlf_protocol",
+      "name": "WLF Protocol",
+      "type": "Product"
+    },
+    {
+      "id": "wlf_governance_platform",
+      "name": "WLF Governance Platform",
+      "type": "Product"
+    },
+    {
+      "id": "wlf_stablecoin",
+      "name": "WLF Stablecoin",
+      "type": "Product"
+    },
+    {
+      "id": "wlf_treasury",
+      "name": "WLF Treasury",
+      "type": "Product"
+    },
+    {
+      "id": "gop_candidates",
+      "name": "GOP Candidates",
+      "type": "Conceptual entity"
+    },
+    {
+      "id": "trump_super_pac",
+      "name": "Trump Super PAC",
+      "type": "PAC or political fund"
+    },
+    {
+      "id": "truth_social",
+      "name": "Truth Social",
+      "type": "Product"
+    },
+    {
+      "id": "digital_world_acquisition_corp",
+      "name": "Digital World Acquisition Corp.",
+      "type": "Outside company"
+    },
+    {
+      "id": "gtl_solutions_inc",
+      "name": "GTL Solutions Inc.",
+      "type": "Outside company"
+    },
+    {
+      "id": "cfo_steven_nutley",
+      "name": "Steven Nutley (CFO)",
+      "type": "Person"
+    },
+    {
+      "id": "cfo_j_calderin",
+      "name": "J. Calderin (CFO)",
+      "type": "Person"
+    },
+    {
+      "id": "michael_schwartz",
+      "name": "Michael Schwartz",
+      "type": "Person"
+    },
+    {
+      "id": "dwac_board",
+      "name": "DWAC Board",
+      "type": "Conceptual entity"
+    },
+    {
+      "id": "united_financial_banking",
+      "name": "United Financial Banking",
+      "type": "Outside company"
+    },
+    {
+      "id": "sec_filings",
+      "name": "SEC Filings",
+      "type": "Conceptual entity"
+    },
+    {
+      "id": "investopedia",
+      "name": "Investopedia",
+      "type": "Conceptual entity"
+    },
+    {
+      "id": "fox_news",
+      "name": "Fox News",
+      "type": "Conceptual entity"
+    },
+    {
+      "id": "bloomberg",
+      "name": "Bloomberg",
+      "type": "Conceptual entity"
+    },
+    {
+      "id": "molly_white",
+      "name": "Molly White",
+      "type": "Person"
+    },
+    {
+      "id": "web3_is_going_great",
+      "name": "Web3 is Going Great",
+      "type": "Conceptual entity"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "trump_inauguration_fund",
+      "target": "trump_pacs",
+      "type": "to",
+      "properties": {
+        "amount": "$1M"
+      }
+    },
+    {
+      "source": "trump_pacs",
+      "target": "parscale_strategy",
+      "type": "to",
+      "properties": {
+        "amount": "$2.2M"
+      }
+    },
+    {
+      "source": "parscale_strategy",
+      "target": "designer_manager_llc",
+      "type": "invoiced by",
+      "properties": {}
+    },
+    {
+      "source": "designer_manager_llc",
+      "target": "brad_parscale",
+      "type": "owned by",
+      "properties": {}
+    },
+    {
+      "source": "designer_manager_llc",
+      "target": "eric_trump",
+      "type": "consults for",
+      "properties": {}
+    },
+    {
+      "source": "eric_trump",
+      "target": "trump_sons",
+      "type": "part of",
+      "properties": {}
+    },
+    {
+      "source": "donald_trump_jr",
+      "target": "trump_sons",
+      "type": "part of",
+      "properties": {}
+    },
+    {
+      "source": "kimberly_guilfoyle",
+      "target": "donald_trump_jr",
+      "type": "family of",
+      "properties": {}
+    },
+    {
+      "source": "trump_sons",
+      "target": "trump_family",
+      "type": "part of",
+      "properties": {}
+    },
+    {
+      "source": "donald_trump",
+      "target": "trump_family",
+      "type": "part of",
+      "properties": {}
+    },
+    {
+      "source": "ivanka_trump",
+      "target": "trump_family",
+      "type": "part of",
+      "properties": {}
+    },
+    {
+      "source": "jared_kushner",
+      "target": "trump_family",
+      "type": "family of",
+      "properties": {}
+    },
+    {
+      "source": "trump_family",
+      "target": "trump_organization",
+      "type": "manages",
+      "properties": {}
+    },
+    {
+      "source": "trump_family",
+      "target": "trump_trust",
+      "type": "member of",
+      "properties": {}
+    },
+    {
+      "source": "trump_trust",
+      "target": "dt_holding_managing_member_llc",
+      "type": "manager of",
+      "properties": {}
+    },
+    {
+      "source": "dt_holding_managing_member_llc",
+      "target": "dtm_holdings_managing_member_corp",
+      "type": "manages board of",
+      "properties": {}
+    },
+    {
+      "source": "dtm_holdings_managing_member_corp",
+      "target": "dtm_holdings",
+      "type": "51% owns",
+      "properties": {}
+    },
+    {
+      "source": "dtm_holdings",
+      "target": "sttm_options",
+      "type": "owns",
+      "properties": {}
+    },
+    {
+      "source": "sttm_options",
+      "target": "trump_media_technology_group",
+      "type": "holds",
+      "properties": {}
+    },
+    {
+      "source": "trump_media_technology_group",
+      "target": "truth_social",
+      "type": "operates",
+      "properties": {}
+    },
+    {
+      "source": "trump_media_technology_group",
+      "target": "digital_world_acquisition_corp",
+      "type": "merged with",
+      "properties": {}
+    },
+    {
+      "source": "digital_world_acquisition_corp",
+      "target": "gtl_solutions_inc",
+      "type": "consulted by",
+      "properties": {}
+    },
+    {
+      "source": "gtl_solutions_inc",
+      "target": "cfo_steven_nutley",
+      "type": "CFO",
+      "properties": {}
+    },
+    {
+      "source": "gtl_solutions_inc",
+      "target": "cfo_j_calderin",
+      "type": "CFO",
+      "properties": {}
+    },
+    {
+      "source": "digital_world_acquisition_corp",
+      "target": "michael_schwartz",
+      "type": "advises",
+      "properties": {}
+    },
+    {
+      "source": "michael_schwartz",
+      "target": "dwac_board",
+      "type": "appointed to",
+      "properties": {}
+    },
+    {
+      "source": "digital_world_acquisition_corp",
+      "target": "united_financial_banking",
+      "type": "appointed by",
+      "properties": {}
+    },
+    {
+      "source": "digital_world_acquisition_corp",
+      "target": "sec_filings",
+      "type": "reports to",
+      "properties": {}
+    },
+    {
+      "source": "sec_filings",
+      "target": "investopedia",
+      "type": "reported by",
+      "properties": {}
+    },
+    {
+      "source": "sec_filings",
+      "target": "fox_news",
+      "type": "reported by",
+      "properties": {}
+    },
+    {
+      "source": "sec_filings",
+      "target": "bloomberg",
+      "type": "reported by",
+      "properties": {}
+    },
+    {
+      "source": "donald_trump",
+      "target": "middle_east",
+      "type": "appointed US Ambassadors in",
+      "properties": {}
+    },
+    {
+      "source": "middle_east",
+      "target": "united_arab_emirates",
+      "type": "includes",
+      "properties": {}
+    },
+    {
+      "source": "donald_trump",
+      "target": "wulf_family_trust",
+      "type": "advises",
+      "properties": {}
+    },
+    {
+      "source": "donald_trump",
+      "target": "russel_wulf",
+      "type": "advises",
+      "properties": {}
+    },
+    {
+      "source": "donald_trump",
+      "target": "eric_wulf",
+      "type": "advises",
+      "properties": {}
+    },
+    {
+      "source": "wulf_family_trust",
+      "target": "cis_digital_llc",
+      "type": "affiliated",
+      "properties": {}
+    },
+    {
+      "source": "cis_digital_llc",
+      "target": "nifty_nft_llc",
+      "type": "appointed Donald Trump names to",
+      "properties": {}
+    },
+    {
+      "source": "nifty_nft_llc",
+      "target": "trump_card_nfts",
+      "type": "issues",
+      "properties": {}
+    },
+    {
+      "source": "trump_card_nfts",
+      "target": "nft_america",
+      "type": "uses",
+      "properties": {}
+    },
+    {
+      "source": "cis_digital_llc",
+      "target": "nytf_digital_llc",
+      "type": "licensed by",
+      "properties": {}
+    },
+    {
+      "source": "nytf_digital_llc",
+      "target": "trump_card_nfts",
+      "type": "produces",
+      "properties": {}
+    },
+    {
+      "source": "trump_family",
+      "target": "trump_branded_nfts",
+      "type": "issues",
+      "properties": {}
+    },
+    {
+      "source": "mkt_blockchain",
+      "target": "trump_branded_nfts",
+      "type": "developed by",
+      "properties": {}
+    },
+    {
+      "source": "mkt_blockchain",
+      "target": "donald_trump",
+      "type": "contracted with",
+      "properties": {}
+    },
+    {
+      "source": "donald_trump",
+      "target": "digital_currency_group",
+      "type": "advises",
+      "properties": {}
+    },
+    {
+      "source": "digital_currency_group",
+      "target": "grayscale_investments",
+      "type": "owns",
+      "properties": {}
+    },
+    {
+      "source": "digital_currency_group",
+      "target": "hany_farag",
+      "type": "advises",
+      "properties": {}
+    },
+    {
+      "source": "digital_currency_group",
+      "target": "richard_hany",
+      "type": "advises",
+      "properties": {}
+    },
+    {
+      "source": "blockchain_management_llc",
+      "target": "digital_currency_group",
+      "type": "board member of",
+      "properties": {}
+    },
+    {
+      "source": "blockchain_management_llc",
+      "target": "graysale_investments",
+      "type": "board member of",
+      "properties": {}
+    },
+    {
+      "source": "dt_marks_defi_member_corp",
+      "target": "dt_marks_defi_llc",
+      "type": "51% owns",
+      "properties": {}
+    },
+    {
+      "source": "dt_marks_defi_llc",
+      "target": "wlf_protocol",
+      "type": "licensed to",
+      "properties": {}
+    },
+    {
+      "source": "wlf_protocol",
+      "target": "wlf_governance_platform",
+      "type": "governs",
+      "properties": {}
+    },
+    {
+      "source": "wlf_protocol",
+      "target": "wlf_stablecoin",
+      "type": "issuers",
+      "properties": {}
+    },
+    {
+      "source": "wlf_protocol",
+      "target": "wlf_treasury",
+      "type": "funded by",
+      "properties": {}
+    },
+    {
+      "source": "dt_marks_defi_llc",
+      "target": "wlf_treasury",
+      "type": "right to",
+      "properties": {
+        "amount": "$1M"
+      }
+    },
+    {
+      "source": "dt_marks_defi_llc",
+      "target": "gop_candidates",
+      "type": "50% of tokens to",
+      "properties": {}
+    },
+    {
+      "source": "dt_marks_defi_llc",
+      "target": "trump_super_pac",
+      "type": "25% of tokens to",
+      "properties": {}
+    },
+    {
+      "source": "dt_marks_defi_llc",
+      "target": "trump_inauguration_fund",
+      "type": "5% of tokens to",
+      "properties": {}
+    },
+    {
+      "source": "dt_marks_defi_llc",
+      "target": "molly_white",
+      "type": "cited by",
+      "properties": {}
+    },
+    {
+      "source": "molly_white",
+      "target": "web3_is_going_great",
+      "type": "runs",
+      "properties": {}
+    },
+    {
+      "source": "trump_media_technology_group",
+      "target": "cryptos_traditional_asset_etfs",
+      "type": "holds",
+      "properties": {}
+    },
+    {
+      "source": "trump_media_technology_group",
+      "target": "united_license_agreement",
+      "type": "based on",
+      "properties": {}
+    },
+    {
+      "source": "united_license_agreement",
+      "target": "crypto_com",
+      "type": "to",
+      "properties": {
+        "notes": "for crypto and traditional asset ETFs"
+      }
+    },
+    {
+      "source": "crypto_com",
+      "target": "ftx",
+      "type": "invested $100M in",
+      "properties": {}
+    },
+    {
+      "source": "ftx",
+      "target": "sam_bankman_fried",
+      "type": "founded by",
+      "properties": {}
+    },
+    {
+      "source": "ftx",
+      "target": "srm",
+      "type": "founded by",
+      "properties": {}
+    },
+    {
+      "source": "ftx",
+      "target": "alameda_research",
+      "type": "founded by",
+      "properties": {}
+    },
+    {
+      "source": "ftx",
+      "target": "ftx_ventures",
+      "type": "part of",
+      "properties": {}
+    },
+    {
+      "source": "ftx_ventures",
+      "target": "ftx",
+      "type": "is part of",
+      "properties": {}
+    },
+    {
+      "source": "alameda_research",
+      "target": "srm",
+      "type": "trading in",
+      "properties": {
+        "notes": "according to Tron exec"
+      }
+    },
+    {
+      "source": "ftx",
+      "target": "trump_wallets",
+      "type": "non-exchange for",
+      "properties": {
+        "amount": "1.47M"
+      }
+    },
+    {
+      "source": "trump_wallets",
+      "target": "magic_eden",
+      "type": "issues",
+      "properties": {}
+    },
+    {
+      "source": "trump_wallets",
+      "target": "trump_meme_coin",
+      "type": "issues",
+      "properties": {}
+    },
+    {
+      "source": "magic_eden",
+      "target": "trump_meme_coin",
+      "type": "partners with",
+      "properties": {}
+    },
+    {
+      "source": "trump_meme_coin",
+      "target": "trump_speakers",
+      "type": "50% tokens to",
+      "properties": {}
+    },
+    {
+      "source": "trump_speakers",
+      "target": "wlf_protocol",
+      "type": "transferred $10M of value via",
+      "properties": {}
+    },
+    {
+      "source": "trump_media_technology_group",
+      "target": "dominion_holdings_inc",
+      "type": "board member",
+      "properties": {}
+    },
+    {
+      "source": "dominion_holdings_inc",
+      "target": "dominion_holdings_inc",
+      "type": "51% owned by",
+      "properties": {}
+    },
+    {
+      "source": "dominion_holdings_inc",
+      "target": "american_bitcoin",
+      "type": "board member",
+      "properties": {}
+    },
+    {
+      "source": "american_bitcoin",
+      "target": "gryphon_digital_mining",
+      "type": "board member",
+      "properties": {}
+    },
+    {
+      "source": "gryphon_digital_mining",
+      "target": "cumberland_hill",
+      "type": "board member",
+      "properties": {}
+    },
+    {
+      "source": "cumberland_hill",
+      "target": "gemini",
+      "type": "invested $300M in",
+      "properties": {}
+    },
+    {
+      "source": "gemini",
+      "target": "ripple",
+      "type": "pending resolution",
+      "properties": {}
+    },
+    {
+      "source": "ripple",
+      "target": "doj",
+      "type": "civil investigation pending",
+      "properties": {}
+    },
+    {
+      "source": "circle",
+      "target": "doj",
+      "type": "pending civil investigation",
+      "properties": {}
+    },
+    {
+      "source": "coinbase",
+      "target": "doj",
+      "type": "pending civil investigation",
+      "properties": {}
+    },
+    {
+      "source": "kraken",
+      "target": "doj",
+      "type": "pending civil investigation",
+      "properties": {}
+    },
+    {
+      "source": "doj",
+      "target": "circle",
+      "type": "sued with prejudice",
+      "properties": {}
+    },
+    {
+      "source": "doj",
+      "target": "coinbase",
+      "type": "sued with prejudice",
+      "properties": {}
+    },
+    {
+      "source": "doj",
+      "target": "kraken",
+      "type": "sued with prejudice",
+      "properties": {}
+    },
+    {
+      "source": "doj",
+      "target": "gemini",
+      "type": "sued with prejudice",
+      "properties": {}
+    },
+    {
+      "source": "doj",
+      "target": "ripple",
+      "type": "sued with prejudice",
+      "properties": {}
+    },
+    {
+      "source": "dt_marks_defi_member_corp",
+      "target": "donald_trump",
+      "type": "appointed",
+      "properties": {}
+    },
+    {
+      "source": "trump_organization",
+      "target": "melania_trump",
+      "type": "wife of",
+      "properties": {}
+    }
+  ]
+}

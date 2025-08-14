@@ -1,0 +1,102 @@
+[
+  {
+    "IGO": "ASEAN",
+    "COUNTRY_EN": "Brunei Darussalam",
+    "ISO_A3": "BRN",
+    "status": "Member State",
+    "currentlySuspended": false,
+    "joinDate": "1984-01-07",
+    "leftDate": "",
+    "membershipNotes": "notes"
+  },
+  {
+    "IGO": "ASEAN",
+    "COUNTRY_EN": "Cambodia",
+    "ISO_A3": "KHM",
+    "status": "Member State",
+    "currentlySuspended": false,
+    "joinDate": "1999-04-30",
+    "leftDate": "",
+    "membershipNotes": "notes"
+  },
+  {
+    "IGO": "ASEAN",
+    "COUNTRY_EN": "Indonesia",
+    "ISO_A3": "IDN",
+    "status": "Member State",
+    "currentlySuspended": false,
+    "joinDate": "1967-08-08",
+    "leftDate": "",
+    "membershipNotes": "notes"
+  },
+  {
+    "IGO": "ASEAN",
+    "COUNTRY_EN": "Lao PDR",
+    "ISO_A3": "LAO",
+    "status": "Member State",
+    "currentlySuspended": false,
+    "joinDate": "1997-07-23",
+    "leftDate": "",
+    "membershipNotes": "notes"
+  },
+  {
+    "IGO": "ASEAN",
+    "COUNTRY_EN": "Malaysia",
+    "ISO_A3": "MYS",
+    "status": "Member State",
+    "currentlySuspended": false,
+    "joinDate": "1967-08-08",
+    "leftDate": "",
+    "membershipNotes": "notes"
+  },
+  {
+    "IGO": "ASEAN",
+    "COUNTRY_EN": "Myanmar",
+    "ISO_A3": "MMR",
+    "status": "Member State",
+    "currentlySuspended": false,
+    "joinDate": "1997-07-23",
+    "leftDate": "",
+    "membershipNotes": "notes"
+  },
+  {
+    "IGO": "ASEAN",
+    "COUNTRY_EN": "Philippines",
+    "ISO_A3": "PHL",
+    "status": "Member State",
+    "currentlySuspended": false,
+    "joinDate": "1967-08-08",
+    "leftDate": "",
+    "membershipNotes": "notes"
+  },
+  {
+    "IGO": "ASEAN",
+    "COUNTRY_EN": "Singapore",
+    "ISO_A3": "SGP",
+    "status": "Member State",
+    "currentlySuspended": false,
+    "joinDate": "1967-08-08",
+    "leftDate": "",
+    "membershipNotes": "notes"
+  },
+  {
+    "IGO": "ASEAN",
+    "COUNTRY_EN": "Thailand",
+    "ISO_A3": "THA",
+    "status": "Member State",
+    "currentlySuspended": false,
+    "joinDate": "1967-08-08",
+    "leftDate": "",
+    "membershipNotes": "notes"
+  },
+  {
+    "IGO": "ASEAN",
+    "COUNTRY_EN": "Viet Nam",
+    "ISO_A3": "VNM",
+    "status": "Member State",
+    "currentlySuspended": false,
+    "joinDate": "1995-07-28",
+    "leftDate": "",
+    "membershipNotes": "notes"
+  }
+]

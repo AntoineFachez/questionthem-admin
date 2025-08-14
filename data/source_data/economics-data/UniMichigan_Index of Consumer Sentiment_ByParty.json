@@ -1,0 +1,398 @@
+[
+  {
+    "DATE_OF_SURVEY": "July 2023",
+    "INDEX_OF_CONSUMER_SENTIMENT": {
+      "Dem": 92.6,
+      "Ind": 68.7,
+      "Rep": 51.1
+    },
+    "CURRENT_ECONOMIC_CONDITIONS": {
+      "Dem": 93.9,
+      "Ind": 76.8,
+      "Rep": 56.0
+    },
+    "INDEX_OF_CONSUMER_EXPECTATIONS": {
+      "Dem": 91.7,
+      "Ind": 63.5,
+      "Rep": 48.0
+    }
+  },
+  {
+    "DATE_OF_SURVEY": "August 2023",
+    "INDEX_OF_CONSUMER_SENTIMENT": {
+      "Dem": 85.8,
+      "Ind": 69.0,
+      "Rep": 54.8
+    },
+    "CURRENT_ECONOMIC_CONDITIONS": {
+      "Dem": 84.0,
+      "Ind": 75.2,
+      "Rep": 67.5
+    },
+    "INDEX_OF_CONSUMER_EXPECTATIONS": {
+      "Dem": 86.9,
+      "Ind": 65.1,
+      "Rep": 46.7
+    }
+  },
+  {
+    "DATE_OF_SURVEY": "September 2023",
+    "INDEX_OF_CONSUMER_SENTIMENT": {
+      "Dem": 88.6,
+      "Ind": 64.1,
+      "Rep": 50.5
+    },
+    "CURRENT_ECONOMIC_CONDITIONS": {
+      "Dem": 85.3,
+      "Ind": 70.5,
+      "Rep": 56.6
+    },
+    "INDEX_OF_CONSUMER_EXPECTATIONS": {
+      "Dem": 90.6,
+      "Ind": 60.0,
+      "Rep": 46.5
+    }
+  },
+  {
+    "DATE_OF_SURVEY": "October 2023",
+    "INDEX_OF_CONSUMER_SENTIMENT": {
+      "Dem": 83.4,
+      "Ind": 63.5,
+      "Rep": 46.9
+    },
+    "CURRENT_ECONOMIC_CONDITIONS": {
+      "Dem": 83.6,
+      "Ind": 75.5,
+      "Rep": 55.1
+    },
+    "INDEX_OF_CONSUMER_EXPECTATIONS": {
+      "Dem": 83.2,
+      "Ind": 55.8,
+      "Rep": 41.7
+    }
+  },
+  {
+    "DATE_OF_SURVEY": "November 2023",
+    "INDEX_OF_CONSUMER_SENTIMENT": {
+      "Dem": 83.9,
+      "Ind": 56.6,
+      "Rep": 43.1
+    },
+    "CURRENT_ECONOMIC_CONDITIONS": {
+      "Dem": 89.5,
+      "Ind": 62.7,
+      "Rep": 53.4
+    },
+    "INDEX_OF_CONSUMER_EXPECTATIONS": {
+      "Dem": 80.3,
+      "Ind": 52.6,
+      "Rep": 36.5
+    }
+  },
+  {
+    "DATE_OF_SURVEY": "December 2023",
+    "INDEX_OF_CONSUMER_SENTIMENT": {
+      "Dem": 90.6,
+      "Ind": 64.5,
+      "Rep": 57.0
+    },
+    "CURRENT_ECONOMIC_CONDITIONS": {
+      "Dem": 89.8,
+      "Ind": 73.4,
+      "Rep": 58.5
+    },
+    "INDEX_OF_CONSUMER_EXPECTATIONS": {
+      "Dem": 91.2,
+      "Ind": 58.8,
+      "Rep": 56.0
+    }
+  },
+  {
+    "DATE_OF_SURVEY": "January 2024",
+    "INDEX_OF_CONSUMER_SENTIMENT": {
+      "Dem": 101.7,
+      "Ind": 74.6,
+      "Rep": 56.3
+    },
+    "CURRENT_ECONOMIC_CONDITIONS": {
+      "Dem": 106.7,
+      "Ind": 76.1,
+      "Rep": 58.1
+    },
+    "INDEX_OF_CONSUMER_EXPECTATIONS": {
+      "Dem": 98.5,
+      "Ind": 73.7,
+      "Rep": 55.2
+    }
+  },
+  {
+    "DATE_OF_SURVEY": "February 2024",
+    "INDEX_OF_CONSUMER_SENTIMENT": {
+      "Dem": 94.6,
+      "Ind": 73.4,
+      "Rep": 62.3
+    },
+    "CURRENT_ECONOMIC_CONDITIONS": {
+      "Dem": 95.2,
+      "Ind": 77.0,
+      "Rep": 63.9
+    },
+    "INDEX_OF_CONSUMER_EXPECTATIONS": {
+      "Dem": 94.2,
+      "Ind": 71.1,
+      "Rep": 61.3
+    }
+  },
+  {
+    "DATE_OF_SURVEY": "March 2024",
+    "INDEX_OF_CONSUMER_SENTIMENT": {
+      "Dem": 101.1,
+      "Ind": 73.1,
+      "Rep": 67.0
+    },
+    "CURRENT_ECONOMIC_CONDITIONS": {
+      "Dem": 102.8,
+      "Ind": 78.5,
+      "Rep": 66.9
+    },
+    "INDEX_OF_CONSUMER_EXPECTATIONS": {
+      "Dem": 100.0,
+      "Ind": 69.5,
+      "Rep": 67.0
+    }
+  },
+  {
+    "DATE_OF_SURVEY": "April 2024",
+    "INDEX_OF_CONSUMER_SENTIMENT": {
+      "Dem": 101.1,
+      "Ind": 72.5,
+      "Rep": 60.7
+    },
+    "CURRENT_ECONOMIC_CONDITIONS": {
+      "Dem": 102.4,
+      "Ind": 77.3,
+      "Rep": 58.1
+    },
+    "INDEX_OF_CONSUMER_EXPECTATIONS": {
+      "Dem": 100.2,
+      "Ind": 69.4,
+      "Rep": 62.3
+    }
+  },
+  {
+    "DATE_OF_SURVEY": "May 2024",
+    "INDEX_OF_CONSUMER_SENTIMENT": {
+      "Dem": 91.3,
+      "Ind": 62.5,
+      "Rep": 53.0
+    },
+    "CURRENT_ECONOMIC_CONDITIONS": {
+      "Dem": 92.1,
+      "Ind": 64.5,
+      "Rep": 51.4
+    },
+    "INDEX_OF_CONSUMER_EXPECTATIONS": {
+      "Dem": 90.8,
+      "Ind": 61.3,
+      "Rep": 54.0
+    }
+  },
+  {
+    "DATE_OF_SURVEY": "June 2024",
+    "INDEX_OF_CONSUMER_SENTIMENT": {
+      "Dem": 90.8,
+      "Ind": 62.1,
+      "Rep": 51.3
+    },
+    "CURRENT_ECONOMIC_CONDITIONS": {
+      "Dem": 88.0,
+      "Ind": 61.6,
+      "Rep": 47.9
+    },
+    "INDEX_OF_CONSUMER_EXPECTATIONS": {
+      "Dem": 92.6,
+      "Ind": 62.4,
+      "Rep": 53.4
+    }
+  },
+  {
+    "DATE_OF_SURVEY": "July 2024",
+    "INDEX_OF_CONSUMER_SENTIMENT": {
+      "Dem": 83.0,
+      "Ind": 59.8,
+      "Rep": 52.6
+    },
+    "CURRENT_ECONOMIC_CONDITIONS": {
+      "Dem": 85.0,
+      "Ind": 56.4,
+      "Rep": 42.3
+    },
+    "INDEX_OF_CONSUMER_EXPECTATIONS": {
+      "Dem": 81.7,
+      "Ind": 62.0,
+      "Rep": 59.2
+    }
+  },
+  {
+    "DATE_OF_SURVEY": "August 2024",
+    "INDEX_OF_CONSUMER_SENTIMENT": {
+      "Dem": 90.9,
+      "Ind": 62.2,
+      "Rep": 47.4
+    },
+    "CURRENT_ECONOMIC_CONDITIONS": {
+      "Dem": 86.1,
+      "Ind": 59.3,
+      "Rep": 33.5
+    },
+    "INDEX_OF_CONSUMER_EXPECTATIONS": {
+      "Dem": 94.0,
+      "Ind": 64.1,
+      "Rep": 56.3
+    }
+  },
+  {
+    "DATE_OF_SURVEY": "September 2024",
+    "INDEX_OF_CONSUMER_SENTIMENT": {
+      "Dem": 92.6,
+      "Ind": 63.2,
+      "Rep": 49.7
+    },
+    "CURRENT_ECONOMIC_CONDITIONS": {
+      "Dem": 89.9,
+      "Ind": 57.4,
+      "Rep": 34.6
+    },
+    "INDEX_OF_CONSUMER_EXPECTATIONS": {
+      "Dem": 94.4,
+      "Ind": 67.0,
+      "Rep": 59.3
+    }
+  },
+  {
+    "DATE_OF_SURVEY": "October 2024",
+    "INDEX_OF_CONSUMER_SENTIMENT": {
+      "Dem": 91.4,
+      "Ind": 65.8,
+      "Rep": 53.6
+    },
+    "CURRENT_ECONOMIC_CONDITIONS": {
+      "Dem": 88.8,
+      "Ind": 61.7,
+      "Rep": 41.4
+    },
+    "INDEX_OF_CONSUMER_EXPECTATIONS": {
+      "Dem": 93.1,
+      "Ind": 68.4,
+      "Rep": 61.4
+    }
+  },
+  {
+    "DATE_OF_SURVEY": "November 2024",
+    "INDEX_OF_CONSUMER_SENTIMENT": {
+      "Dem": 81.3,
+      "Ind": 63.1,
+      "Rep": 69.1
+    },
+    "CURRENT_ECONOMIC_CONDITIONS": {
+      "Dem": 90.5,
+      "Ind": 55.8,
+      "Rep": 37.9
+    },
+    "INDEX_OF_CONSUMER_EXPECTATIONS": {
+      "Dem": 75.4,
+      "Ind": 67.8,
+      "Rep": 89.2
+    }
+  },
+  {
+    "DATE_OF_SURVEY": "December 2024",
+    "INDEX_OF_CONSUMER_SENTIMENT": {
+      "Dem": 69.6,
+      "Ind": 70.2,
+      "Rep": 85.4
+    },
+    "CURRENT_ECONOMIC_CONDITIONS": {
+      "Dem": 98.9,
+      "Ind": 71.4,
+      "Rep": 52.0
+    },
+    "INDEX_OF_CONSUMER_EXPECTATIONS": {
+      "Dem": 50.8,
+      "Ind": 69.5,
+      "Rep": 106.8
+    }
+  },
+  {
+    "DATE_OF_SURVEY": "January 2025",
+    "INDEX_OF_CONSUMER_SENTIMENT": {
+      "Dem": 65.0,
+      "Ind": 68.3,
+      "Rep": 86.7
+    },
+    "CURRENT_ECONOMIC_CONDITIONS": {
+      "Dem": 89.3,
+      "Ind": 72.7,
+      "Rep": 59.3
+    },
+    "INDEX_OF_CONSUMER_EXPECTATIONS": {
+      "Dem": 49.4,
+      "Ind": 65.5,
+      "Rep": 104.3
+    }
+  },
+  {
+    "DATE_OF_SURVEY": "February 2025",
+    "INDEX_OF_CONSUMER_SENTIMENT": {
+      "Dem": 51.3,
+      "Ind": 62.6,
+      "Rep": 86.7
+    },
+    "CURRENT_ECONOMIC_CONDITIONS": {
+      "Dem": 73.9,
+      "Ind": 68.0,
+      "Rep": 55.7
+    },
+    "INDEX_OF_CONSUMER_EXPECTATIONS": {
+      "Dem": 36.8,
+      "Ind": 59.1,
+      "Rep": 106.6
+    }
+  },
+  {
+    "DATE_OF_SURVEY": "March 2025",
+    "INDEX_OF_CONSUMER_SENTIMENT": {
+      "Dem": 41.3,
+      "Ind": 55.7,
+      "Rep": 87.4
+    },
+    "CURRENT_ECONOMIC_CONDITIONS": {
+      "Dem": 63.9,
+      "Ind": 63.7,
+      "Rep": 70.6
+    },
+    "INDEX_OF_CONSUMER_EXPECTATIONS": {
+      "Dem": 27.9,
+      "Ind": 50.6,
+      "Rep": 98.2
+    }
+  },
+  {
+    "DATE_OF_SURVEY": "April 2025",
+    "INDEX_OF_CONSUMER_SENTIMENT": {
+      "Dem": 34.1,
+      "Ind": 46.8,
+      "Rep": 81.9
+    },
+    "CURRENT_ECONOMIC_CONDITIONS": {
+      "Dem": 49.9,
+      "Ind": 51.8,
+      "Rep": 75.1
+    },
+    "INDEX_OF_CONSUMER_EXPECTATIONS": {
+      "Dem": 24.0,
+      "Ind": 43.6,
+      "Rep": 86.3
+    }
+  }
+]

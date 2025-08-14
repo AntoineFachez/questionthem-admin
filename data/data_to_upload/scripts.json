@@ -1,0 +1,138 @@
+[
+  {
+    "script_id": "93abdd62-8ca9-4eb4-86e4-dd9ea0da9438",
+    "script_name": "Elizabeth and Friedrich",
+    "status": "",
+    "level_no": 0,
+    "intro_film_yt_id": "P9LrU3HPIV4",
+    "locations_routes": [],
+    "used_in_stories": [{ "story_id": "a06caa69-ad5f-72ee-4243-79a7fb63bd05" }],
+    "events": [
+      {
+        "event_id": "79a7fb63-72ee-4243-ad5f-a06caa69bd05"
+      },
+      {
+        "event_id": "d01917fb-3d0a-4c3f-b0f5-7734425fe0c5"
+      },
+      {
+        "event_id": "db05a30e-65f3-4611-a79a-04b962b8bf9a"
+      },
+      {
+        "event_id": "815c4489-ccf0-421f-a26b-82756e904e15"
+      },
+      {
+        "event_id": "e5d79f46-f4c0-4e23-8b61-d461e24cca93"
+      },
+      {
+        "event_id": "c0c49dce-052e-4f80-b007-2a56b38f0dcc"
+      },
+      {
+        "event_id": "b2e6c45e-dff4-41a5-921b-7a61ef4ee462"
+      },
+      {
+        "event_id": "b40ffb78-7dd4-403f-a80f-988bdd9490f3"
+      },
+      {
+        "event_id": "3e41ae94-0804-47be-a5d0-c5a3a9165f39"
+      }
+    ]
+  },
+  {
+    "script_id": "439bfa5a-b8bd-4fc0-b429-100adcf55661",
+    "script_name": "The Donaldo",
+    "status": "",
+    "level_no": 1,
+    "intro_film_yt_id": "CXxyiWElV-Y",
+    "locations_routes": [],
+    "used_in_stories": [{ "story_id": "a06caa69-ad5f-72ee-4243-79a7fb63bd05" }],
+    "events": [
+      {
+        "event_id": "6360093c-9351-4a52-8917-9cd5df467305"
+      },
+      {
+        "event_id": "c2a8c8c7-ca60-4a56-a9c6-9eee42aa6430"
+      },
+      {
+        "event_id": "d92b41c9-f948-4b3a-8afe-27b163108e1c"
+      },
+      {
+        "event_id": "fd8f494b-5ce0-48af-873a-c79233c96c98"
+      },
+      {
+        "event_id": "21d93ef1-4b4d-4047-9598-7ad0789ef4d5"
+      },
+      {
+        "event_id": "529b3e6f-5502-431a-90e7-0ac426b9127b"
+      },
+      {
+        "event_id": "a572fba9-4819-48d9-b797-a4759a5c3db7"
+      },
+      {
+        "event_id": "1cc3639b-3f71-464d-8533-d7de65d91195"
+      },
+      {
+        "event_id": "4d81cbdf-b2f5-4843-b1fa-d197873dd9a9"
+      },
+      {
+        "event_id": "e39fffef-c2bd-4029-bb29-915696287b08"
+      },
+      {
+        "event_id": "b1b3c311-a873-4c41-9573-794cd3d3f747"
+      },
+      {
+        "event_id": "33331b37-9388-48cd-ab73-bad72586013f"
+      },
+      {
+        "event_id": "20821c41-f5f5-4b73-bb09-61c40cc5c501"
+      },
+      {
+        "event_id": "df594683-a835-4683-b38d-4b333c3cad33"
+      },
+      {
+        "event_id": "199f39c5-3791-4eab-84b2-f09295d32fd6"
+      },
+      {
+        "event_id": "6e51f9d4-0708-4007-aa4c-685e67c7ae5d"
+      },
+      {
+        "event_id": "4483bdd6-e433-4082-b9d7-83dbc499f27b"
+      },
+      {
+        "event_id": "ba4038a0-1cdf-4ffb-b6e0-4b729178d895"
+      },
+      {
+        "event_id": "27f0e019-cafd-47c6-8d9b-61cd1fb3ae47"
+      },
+      {
+        "event_id": "226bfbd2-2179-49a1-9a06-9f1a85fac912"
+      },
+      {
+        "event_id": "c6235454-5dd1-49a1-ae4e-e7cd4fc56285"
+      },
+      {
+        "event_id": "95562cd1-cebf-4dd3-b6a6-e71257971b77"
+      },
+      {
+        "event_id": "956194b5-a16c-4506-88d9-fdb78e8b2b43"
+      },
+      {
+        "event_id": "d64336f0-907d-4422-98aa-46552ba98a6f"
+      },
+      {
+        "event_id": "d712f294-5614-43e1-9d4d-125ddabf1520"
+      },
+      {
+        "event_id": "b925912a-e20f-4b2f-aa3b-cda62d6f0df6"
+      },
+      {
+        "event_id": "1b5cd45d-6190-4eae-80c7-67735d3f3077"
+      },
+      {
+        "event_id": "d39bb984-064b-44cc-ad8a-4076687d5737"
+      },
+      {
+        "event_id": "e1f3566d-19dc-4a53-981b-1db18c4be51c"
+      }
+    ]
+  }
+]

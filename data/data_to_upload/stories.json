@@ -1,0 +1,20 @@
+[
+  {
+    "story_id": "a06caa69-ad5f-72ee-4243-79a7fb63bd05",
+    "story_name": "The Terrible Tweeterer",
+    "start_date": "",
+    "end_date": "",
+    "status": "wip",
+    "coords": { "lat": 0, "lng": 0 },
+    "story_description": "The Donald became the destroyer of the United States of America",
+    "image_url": "",
+    "scripts": [
+      {
+        "script_id": "93abdd62-8ca9-4eb4-86e4-dd9ea0da9438"
+      },
+      {
+        "script_id": "439bfa5a-b8bd-4fc0-b429-100adcf55661"
+      }
+    ]
+  }
+]

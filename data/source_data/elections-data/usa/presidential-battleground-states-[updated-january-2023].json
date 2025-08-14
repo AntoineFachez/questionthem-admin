@@ -1,0 +1,386 @@
+[
+  {
+    "state": "Wyoming",
+    "pvi": 26,
+    "governorParty": "Republican",
+    "senateParty": "Republican",
+    "repsR": 1,
+    "repsD": null
+  },
+  {
+    "state": "West Virginia",
+    "pvi": 23,
+    "governorParty": "Republican",
+    "senateParty": "Both",
+    "repsR": 2,
+    "repsD": null
+  },
+  {
+    "state": "North Dakota",
+    "pvi": 20,
+    "governorParty": "Republican",
+    "senateParty": "Republican",
+    "repsR": 1,
+    "repsD": null
+  },
+  {
+    "state": "Oklahoma",
+    "pvi": 20,
+    "governorParty": "Republican",
+    "senateParty": "Republican",
+    "repsR": 5,
+    "repsD": null
+  },
+  {
+    "state": "Idaho",
+    "pvi": 19,
+    "governorParty": "Republican",
+    "senateParty": "Republican",
+    "repsR": 2,
+    "repsD": null
+  },
+  {
+    "state": "Arkansas",
+    "pvi": 16,
+    "governorParty": "Republican",
+    "senateParty": "Republican",
+    "repsR": 4,
+    "repsD": null
+  },
+  {
+    "state": "Kentucky",
+    "pvi": 16,
+    "governorParty": "Republican",
+    "senateParty": "Republican",
+    "repsR": 5,
+    "repsD": 1
+  },
+  {
+    "state": "South Dakota",
+    "pvi": 16,
+    "governorParty": "Republican",
+    "senateParty": "Republican",
+    "repsR": 1,
+    "repsD": null
+  },
+  {
+    "state": "Alabama",
+    "pvi": 15,
+    "governorParty": "Republican",
+    "senateParty": "Republican",
+    "repsR": 6,
+    "repsD": 1
+  },
+  {
+    "state": "Texas",
+    "pvi": 15,
+    "governorParty": "Republican",
+    "senateParty": "Republican",
+    "repsR": 25,
+    "repsD": 13
+  },
+  {
+    "state": "Tennessee",
+    "pvi": 14,
+    "governorParty": "Republican",
+    "senateParty": "Republican",
+    "repsR": 8,
+    "repsD": 1
+  },
+  {
+    "state": "Nebraska",
+    "pvi": 13,
+    "governorParty": "Republican",
+    "senateParty": "Republican",
+    "repsR": 3,
+    "repsD": null
+  },
+  {
+    "state": "Utah",
+    "pvi": 13,
+    "governorParty": "Republican",
+    "senateParty": "Republican",
+    "repsR": 4,
+    "repsD": null
+  },
+  {
+    "state": "Louisiana",
+    "pvi": 12,
+    "governorParty": "Democratic",
+    "senateParty": "Republican",
+    "repsR": 5,
+    "repsD": 1
+  },
+  {
+    "state": "Indiana",
+    "pvi": 11,
+    "governorParty": "Republican",
+    "senateParty": "Republican",
+    "repsR": 7,
+    "repsD": 2
+  },
+  {
+    "state": "Kansas",
+    "pvi": 11,
+    "governorParty": "Democratic",
+    "senateParty": "Republican",
+    "repsR": 3,
+    "repsD": 1
+  },
+  {
+    "state": "Montana",
+    "pvi": 11,
+    "governorParty": "Democratic",
+    "senateParty": "Both",
+    "repsR": 2,
+    "repsD": null
+  },
+  {
+    "state": "Missouri",
+    "pvi": 10,
+    "governorParty": "Republican",
+    "senateParty": "Republican",
+    "repsR": 6,
+    "repsD": 2
+  },
+  {
+    "state": "Alaska",
+    "pvi": 9,
+    "governorParty": "Republican",
+    "senateParty": "Republican",
+    "repsR": null,
+    "repsD": 1
+  },
+  {
+    "state": "Mississippi",
+    "pvi": 9,
+    "governorParty": "Republican",
+    "senateParty": "Republican",
+    "repsR": 3,
+    "repsD": 1
+  },
+  {
+    "state": "South Carolina",
+    "pvi": 8,
+    "governorParty": "Republican",
+    "senateParty": "Republican",
+    "repsR": 6,
+    "repsD": 1
+  },
+  {
+    "state": "Iowa",
+    "pvi": 6,
+    "governorParty": "Republican",
+    "senateParty": "Republican",
+    "repsR": 4,
+    "repsD": null
+  },
+  {
+    "state": "Ohio",
+    "pvi": 6,
+    "governorParty": "Republican",
+    "senateParty": "Both",
+    "repsR": 10,
+    "repsD": 5
+  },
+  {
+    "state": "Arizona",
+    "pvi": 3,
+    "governorParty": "Republican",
+    "senateParty": "Democratic",
+    "repsR": 6,
+    "repsD": 3
+  },
+  {
+    "state": "Florida",
+    "pvi": 3,
+    "governorParty": "Republican",
+    "senateParty": "Republican",
+    "repsR": 20,
+    "repsD": 8
+  },
+  {
+    "state": "Georgia",
+    "pvi": 3,
+    "governorParty": "Republican",
+    "senateParty": "Democratic",
+    "repsR": 9,
+    "repsD": 5
+  },
+  {
+    "state": "North Carolina",
+    "pvi": 3,
+    "governorParty": "Democratic",
+    "senateParty": "Republican",
+    "repsR": 7,
+    "repsD": 7
+  },
+  {
+    "state": "Pennsylvania",
+    "pvi": 2,
+    "governorParty": "Democratic",
+    "senateParty": "Both",
+    "repsR": 8,
+    "repsD": 9
+  },
+  {
+    "state": "Wisconsin",
+    "pvi": 2,
+    "governorParty": "Republican",
+    "senateParty": "Both",
+    "repsR": 6,
+    "repsD": 2
+  },
+  {
+    "state": "Michigan",
+    "pvi": 1,
+    "governorParty": "Democratic",
+    "senateParty": "Democratic",
+    "repsR": 6,
+    "repsD": 7
+  },
+  {
+    "state": "Maine",
+    "pvi": -1,
+    "governorParty": "Democratic",
+    "senateParty": "Both",
+    "repsR": null,
+    "repsD": 2
+  },
+  {
+    "state": "Minnesota",
+    "pvi": -1,
+    "governorParty": "Democratic",
+    "senateParty": "Democratic",
+    "repsR": 4,
+    "repsD": 4
+  },
+  {
+    "state": "Virginia",
+    "pvi": -2,
+    "governorParty": "Democratic",
+    "senateParty": "Democratic",
+    "repsR": 5,
+    "repsD": 6
+  },
+  {
+    "state": "Colorado",
+    "pvi": -3,
+    "governorParty": "Democratic",
+    "senateParty": "Democratic",
+    "repsR": 3,
+    "repsD": 5
+  },
+  {
+    "state": "New Mexico",
+    "pvi": -3,
+    "governorParty": "Democratic",
+    "senateParty": "Democratic",
+    "repsR": null,
+    "repsD": 3
+  },
+  {
+    "state": "Delaware",
+    "pvi": -6,
+    "governorParty": "Democratic",
+    "senateParty": "Democratic",
+    "repsR": null,
+    "repsD": 1
+  },
+  {
+    "state": "New Jersey",
+    "pvi": -6,
+    "governorParty": "Democratic",
+    "senateParty": "Democratic",
+    "repsR": 3,
+    "repsD": 9
+  },
+  {
+    "state": "Oregon",
+    "pvi": -6,
+    "governorParty": "Democratic",
+    "senateParty": "Democratic",
+    "repsR": 2,
+    "repsD": 4
+  },
+  {
+    "state": "Connecticut",
+    "pvi": -7,
+    "governorParty": "Democratic",
+    "senateParty": "Democratic",
+    "repsR": null,
+    "repsD": 5
+  },
+  {
+    "state": "Illinois",
+    "pvi": -7,
+    "governorParty": "Democratic",
+    "senateParty": "Democratic",
+    "repsR": 3,
+    "repsD": 14
+  },
+  {
+    "state": "Rhode Island",
+    "pvi": -8,
+    "governorParty": "Democratic",
+    "senateParty": "Democratic",
+    "repsR": null,
+    "repsD": 2
+  },
+  {
+    "state": "Washington",
+    "pvi": -8,
+    "governorParty": "Democratic",
+    "senateParty": "Democratic",
+    "repsR": 2,
+    "repsD": 8
+  },
+  {
+    "state": "New York",
+    "pvi": -10,
+    "governorParty": "Democratic",
+    "senateParty": "Democratic",
+    "repsR": 11,
+    "repsD": 15
+  },
+  {
+    "state": "California",
+    "pvi": -14,
+    "governorParty": "Democratic",
+    "senateParty": "Democratic",
+    "repsR": 12,
+    "repsD": 40
+  },
+  {
+    "state": "Maryland",
+    "pvi": -14,
+    "governorParty": "Republican",
+    "senateParty": "Democratic",
+    "repsR": 1,
+    "repsD": 7
+  },
+  {
+    "state": "Massachusetts",
+    "pvi": -14,
+    "governorParty": "Republican",
+    "senateParty": "Democratic",
+    "repsR": null,
+    "repsD": 9
+  },
+  {
+    "state": "Hawaii",
+    "pvi": -15,
+    "governorParty": "Democratic",
+    "senateParty": "Democratic",
+    "repsR": null,
+    "repsD": 2
+  },
+  {
+    "state": "Vermont",
+    "pvi": -15,
+    "governorParty": "Republican",
+    "senateParty": "Democratic*",
+    "repsR": null,
+    "repsD": 1
+  }
+]

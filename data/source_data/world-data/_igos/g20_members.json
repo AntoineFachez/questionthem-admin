@@ -1,0 +1,195 @@
+[
+  {
+    "IGO": "G20",
+    "COUNTRY_EN": "Argentina",
+    "ISO_A3": "ARG",
+    "status": "Member State",
+    "joinDate": "1999",
+    "leftDate": null,
+    "membershipNotes": ""
+  },
+  {
+    "IGO": "G20",
+    "COUNTRY_EN": "Australia",
+    "ISO_A3": "AUS",
+    "status": "Member State",
+    "joinDate": "1999",
+    "leftDate": null,
+    "membershipNotes": ""
+  },
+  {
+    "IGO": "G20",
+    "COUNTRY_EN": "Brazil",
+    "ISO_A3": "BRA",
+    "status": "Member State",
+    "joinDate": "1999",
+    "leftDate": null,
+    "membershipNotes": ""
+  },
+  {
+    "IGO": "G20",
+    "COUNTRY_EN": "Canada",
+    "ISO_A3": "CAN",
+    "status": "Member State",
+    "joinDate": "1999",
+    "leftDate": null,
+    "membershipNotes": ""
+  },
+  {
+    "IGO": "G20",
+    "COUNTRY_EN": "China",
+    "ISO_A3": "CHN",
+    "status": "Member State",
+    "joinDate": "1999",
+    "leftDate": null,
+    "membershipNotes": ""
+  },
+  {
+    "IGO": "G20",
+    "COUNTRY_EN": "France",
+    "ISO_A3": "FRA",
+    "status": "Member State",
+    "joinDate": "1999",
+    "leftDate": null,
+    "membershipNotes": ""
+  },
+  {
+    "IGO": "G20",
+    "COUNTRY_EN": "Germany",
+    "ISO_A3": "DEU",
+    "status": "Member State",
+    "joinDate": "1999",
+    "leftDate": null,
+    "membershipNotes": ""
+  },
+  {
+    "IGO": "G20",
+    "COUNTRY_EN": "India",
+    "ISO_A3": "IND",
+    "status": "Member State",
+    "joinDate": "1999",
+    "leftDate": null,
+    "membershipNotes": ""
+  },
+  {
+    "IGO": "G20",
+    "COUNTRY_EN": "Indonesia",
+    "ISO_A3": "IDN",
+    "status": "Member State",
+    "joinDate": "1999",
+    "leftDate": null,
+    "membershipNotes": ""
+  },
+  {
+    "IGO": "G20",
+    "COUNTRY_EN": "Italy",
+    "ISO_A3": "ITA",
+    "status": "Member State",
+    "joinDate": "1999",
+    "leftDate": null,
+    "membershipNotes": ""
+  },
+  {
+    "IGO": "G20",
+    "COUNTRY_EN": "Japan",
+    "ISO_A3": "JPN",
+    "status": "Member State",
+    "joinDate": "1999",
+    "leftDate": null,
+    "membershipNotes": ""
+  },
+  {
+    "IGO": "G20",
+    "COUNTRY_EN": "Mexico",
+    "ISO_A3": "MEX",
+    "status": "Member State",
+    "joinDate": "1999",
+    "leftDate": null,
+    "membershipNotes": ""
+  },
+  {
+    "IGO": "G20",
+    "COUNTRY_EN": "Republic of Korea",
+    "ISO_A3": "KOR",
+    "status": "Member State",
+    "joinDate": "1999",
+    "leftDate": null,
+    "membershipNotes": "Commonly known as South Korea."
+  },
+  {
+    "IGO": "G20",
+    "COUNTRY_EN": "Russia",
+    "ISO_A3": "RUS",
+    "status": "Member State",
+    "joinDate": "1999",
+    "leftDate": null,
+    "membershipNotes": ""
+  },
+  {
+    "IGO": "G20",
+    "COUNTRY_EN": "Saudi Arabia",
+    "ISO_A3": "SAU",
+    "status": "Member State",
+    "joinDate": "1999",
+    "leftDate": null,
+    "membershipNotes": ""
+  },
+  {
+    "IGO": "G20",
+    "COUNTRY_EN": "South Africa",
+    "ISO_A3": "ZAF",
+    "status": "Member State",
+    "joinDate": "1999",
+    "leftDate": null,
+    "membershipNotes": ""
+  },
+  {
+    "IGO": "G20",
+    "COUNTRY_EN": "Turkey",
+    "ISO_A3": "TUR",
+    "status": "Member State",
+    "joinDate": "1999",
+    "leftDate": null,
+    "membershipNotes": ""
+  },
+  {
+    "IGO": "G20",
+    "COUNTRY_EN": "United Kingdom",
+    "ISO_A3": "GBR",
+    "status": "Member State",
+    "joinDate": "1999",
+    "leftDate": null,
+    "membershipNotes": ""
+  },
+  {
+    "IGO": "G20",
+    "COUNTRY_EN": "United States",
+    "ISO_A3": "USA",
+    "status": "Member State",
+    "joinDate": "1999",
+    "leftDate": null,
+    "membershipNotes": ""
+  },
+  {
+    "IGO": "G20",
+    "COUNTRY_EN": "",
+    "ORGANISATION_EN": "European Union",
+    "ISO_A3": null,
+    "Organisation_Acronym": "EU",
+    "status": "Member Organization",
+    "joinDate": "1999",
+    "leftDate": null,
+    "membershipNotes": "Represents its member states."
+  },
+  {
+    "IGO": "G20",
+    "COUNTRY_EN": "",
+    "ORGANISATION_EN": "African Union",
+    "ISO_A3": null,
+    "Organisation_Acronym": "AU",
+    "status": "Member Organization",
+    "joinDate": "2023",
+    "leftDate": null,
+    "membershipNotes": "Represents its member states."
+  }
+]

@@ -1,0 +1,467 @@
+[
+  {
+    "iso_3166_subdivision_code": "AVN",
+    "states_EN": "Avon",
+    "country_EN": "England"
+  },
+  {
+    "iso_3166_subdivision_code": "BDF",
+    "states_EN": "Bedfordshire",
+    "country_EN": "England"
+  },
+  {
+    "iso_3166_subdivision_code": "BRK",
+    "states_EN": "Berkshire",
+    "country_EN": "England"
+  },
+  {
+    "iso_3166_subdivision_code": "BKM",
+    "states_EN": "Buckinghamshire",
+    "country_EN": "England"
+  },
+  {
+    "iso_3166_subdivision_code": "CAM",
+    "states_EN": "Cambridgeshire",
+    "country_EN": "England"
+  },
+  {
+    "iso_3166_subdivision_code": "CHS",
+    "states_EN": "Cheshire",
+    "country_EN": "England"
+  },
+  {
+    "iso_3166_subdivision_code": "CLV",
+    "states_EN": "Cleveland",
+    "country_EN": "England"
+  },
+  {
+    "iso_3166_subdivision_code": "CON",
+    "states_EN": "Cornwall",
+    "country_EN": "England"
+  },
+  {
+    "iso_3166_subdivision_code": "CMA",
+    "states_EN": "Cumbria",
+    "country_EN": "England"
+  },
+  {
+    "iso_3166_subdivision_code": "DBY",
+    "states_EN": "Derbyshire",
+    "country_EN": "England"
+  },
+  {
+    "iso_3166_subdivision_code": "DEV",
+    "states_EN": "Devon",
+    "country_EN": "England"
+  },
+  {
+    "iso_3166_subdivision_code": "DOR",
+    "states_EN": "Dorset",
+    "country_EN": "England"
+  },
+  {
+    "iso_3166_subdivision_code": "DUR",
+    "states_EN": "Durham",
+    "country_EN": "England"
+  },
+  {
+    "iso_3166_subdivision_code": "SXE",
+    "states_EN": "East Sussex",
+    "country_EN": "England"
+  },
+  {
+    "iso_3166_subdivision_code": "ESS",
+    "states_EN": "Essex",
+    "country_EN": "England"
+  },
+  {
+    "iso_3166_subdivision_code": "GLS",
+    "states_EN": "Gloucestershire",
+    "country_EN": "England"
+  },
+  {
+    "iso_3166_subdivision_code": "HAM",
+    "states_EN": "Hampshire",
+    "country_EN": "England"
+  },
+  {
+    "iso_3166_subdivision_code": "HEF",
+    "states_EN": "Herefordshire",
+    "country_EN": "England"
+  },
+  {
+    "iso_3166_subdivision_code": "HRT",
+    "states_EN": "Hertfordshire",
+    "country_EN": "England"
+  },
+  {
+    "iso_3166_subdivision_code": "IOW",
+    "states_EN": "Isle of Wight",
+    "country_EN": "England"
+  },
+  {
+    "iso_3166_subdivision_code": "KEN",
+    "states_EN": "Kent",
+    "country_EN": "England"
+  },
+  {
+    "iso_3166_subdivision_code": "LAN",
+    "states_EN": "Lancashire",
+    "country_EN": "England"
+  },
+  {
+    "iso_3166_subdivision_code": "LEI",
+    "states_EN": "Leicestershire",
+    "country_EN": "England"
+  },
+  {
+    "iso_3166_subdivision_code": "LIN",
+    "states_EN": "Lincolnshire",
+    "country_EN": "England"
+  },
+  {
+    "iso_3166_subdivision_code": "LDN",
+    "states_EN": "London",
+    "country_EN": "England"
+  },
+  {
+    "iso_3166_subdivision_code": "MSY",
+    "states_EN": "Merseyside",
+    "country_EN": "England"
+  },
+  {
+    "iso_3166_subdivision_code": "NFK",
+    "states_EN": "Norfolk",
+    "country_EN": "England"
+  },
+  {
+    "iso_3166_subdivision_code": "NTH",
+    "states_EN": "Northamptonshire",
+    "country_EN": "England"
+  },
+  {
+    "iso_3166_subdivision_code": "NBL",
+    "states_EN": "Northumberland",
+    "country_EN": "England"
+  },
+  {
+    "iso_3166_subdivision_code": "NYK",
+    "states_EN": "North Yorkshire",
+    "country_EN": "England"
+  },
+  {
+    "iso_3166_subdivision_code": "NTT",
+    "states_EN": "Nottinghamshire",
+    "country_EN": "England"
+  },
+  {
+    "iso_3166_subdivision_code": "OXF",
+    "states_EN": "Oxfordshire",
+    "country_EN": "England"
+  },
+  {
+    "iso_3166_subdivision_code": "RUT",
+    "states_EN": "Rutland",
+    "country_EN": "England"
+  },
+  {
+    "iso_3166_subdivision_code": "SAL",
+    "states_EN": "Shropshire",
+    "country_EN": "England"
+  },
+  {
+    "iso_3166_subdivision_code": "SOM",
+    "states_EN": "Somerset",
+    "country_EN": "England"
+  },
+  {
+    "iso_3166_subdivision_code": "SYK",
+    "states_EN": "South Yorkshire",
+    "country_EN": "England"
+  },
+  {
+    "iso_3166_subdivision_code": "STS",
+    "states_EN": "Staffordshire",
+    "country_EN": "England"
+  },
+  {
+    "iso_3166_subdivision_code": "SFK",
+    "states_EN": "Suffolk",
+    "country_EN": "England"
+  },
+  {
+    "iso_3166_subdivision_code": "SRY",
+    "states_EN": "Surrey",
+    "country_EN": "England"
+  },
+  {
+    "iso_3166_subdivision_code": "TWR",
+    "states_EN": "Tyne and Wear",
+    "country_EN": "England"
+  },
+  {
+    "iso_3166_subdivision_code": "WAR",
+    "states_EN": "Warwickshire",
+    "country_EN": "England"
+  },
+  {
+    "iso_3166_subdivision_code": "WMD",
+    "states_EN": "West Midlands",
+    "country_EN": "England"
+  },
+  {
+    "iso_3166_subdivision_code": "SXW",
+    "states_EN": "West Sussex",
+    "country_EN": "England"
+  },
+  {
+    "iso_3166_subdivision_code": "WYK",
+    "states_EN": "West Yorkshire",
+    "country_EN": "England"
+  },
+  {
+    "iso_3166_subdivision_code": "WIL",
+    "states_EN": "Wiltshire",
+    "country_EN": "England"
+  },
+  {
+    "iso_3166_subdivision_code": "WOR",
+    "states_EN": "Worcestershire",
+    "country_EN": "England"
+  },
+  {
+    "iso_3166_subdivision_code": "CWD",
+    "states_EN": "Clwyd",
+    "country_EN": "Wales"
+  },
+  {
+    "iso_3166_subdivision_code": "DFD",
+    "states_EN": "Dyfed",
+    "country_EN": "Wales"
+  },
+  {
+    "iso_3166_subdivision_code": "GNT",
+    "states_EN": "Gwent",
+    "country_EN": "Wales"
+  },
+  {
+    "iso_3166_subdivision_code": "GWN",
+    "states_EN": "Gwynedd",
+    "country_EN": "Wales"
+  },
+  {
+    "iso_3166_subdivision_code": "MGM",
+    "states_EN": "Mid Glamorgan",
+    "country_EN": "Wales"
+  },
+  {
+    "iso_3166_subdivision_code": "POW",
+    "states_EN": "Powys",
+    "country_EN": "Wales"
+  },
+  {
+    "iso_3166_subdivision_code": "SGM",
+    "states_EN": "South Glamorgan",
+    "country_EN": "Wales"
+  },
+  {
+    "iso_3166_subdivision_code": "WGM",
+    "states_EN": "West Glamorgan",
+    "country_EN": "Wales"
+  },
+  {
+    "iso_3166_subdivision_code": "ABD",
+    "states_EN": "Aberdeenshire",
+    "country_EN": "Scotland"
+  },
+  {
+    "iso_3166_subdivision_code": "ANS",
+    "states_EN": "Angus",
+    "country_EN": "Scotland"
+  },
+  {
+    "iso_3166_subdivision_code": "ARL",
+    "states_EN": "Argyll",
+    "country_EN": "Scotland"
+  },
+  {
+    "iso_3166_subdivision_code": "AYR",
+    "states_EN": "Ayrshire",
+    "country_EN": "Scotland"
+  },
+  {
+    "iso_3166_subdivision_code": "BAN",
+    "states_EN": "Banffshire",
+    "country_EN": "Scotland"
+  },
+  {
+    "iso_3166_subdivision_code": "BEW",
+    "states_EN": "Berwickshire",
+    "country_EN": "Scotland"
+  },
+  {
+    "iso_3166_subdivision_code": "BUT",
+    "states_EN": "Bute",
+    "country_EN": "Scotland"
+  },
+  {
+    "iso_3166_subdivision_code": "CAI",
+    "states_EN": "Caithness",
+    "country_EN": "Scotland"
+  },
+  {
+    "iso_3166_subdivision_code": "CLK",
+    "states_EN": "Clackmannanshire",
+    "country_EN": "Scotland"
+  },
+  {
+    "iso_3166_subdivision_code": "DGY",
+    "states_EN": "Dumfriesshire",
+    "country_EN": "Scotland"
+  },
+  {
+    "iso_3166_subdivision_code": "DNB",
+    "states_EN": "Dunbartonshire",
+    "country_EN": "Scotland"
+  },
+  {
+    "iso_3166_subdivision_code": "ELN",
+    "states_EN": "East Lothian",
+    "country_EN": "Scotland"
+  },
+  {
+    "iso_3166_subdivision_code": "FIF",
+    "states_EN": "Fife",
+    "country_EN": "Scotland"
+  },
+  {
+    "iso_3166_subdivision_code": "INV",
+    "states_EN": "Inverness-shire",
+    "country_EN": "Scotland"
+  },
+  {
+    "iso_3166_subdivision_code": "KCD",
+    "states_EN": "Kincardineshire",
+    "country_EN": "Scotland"
+  },
+  {
+    "iso_3166_subdivision_code": "KRS",
+    "states_EN": "Kinross-shire",
+    "country_EN": "Scotland"
+  },
+  {
+    "iso_3166_subdivision_code": "KKD",
+    "states_EN": "Kirkcudbrightshire",
+    "country_EN": "Scotland"
+  },
+  {
+    "iso_3166_subdivision_code": "LKS",
+    "states_EN": "Lanarkshire",
+    "country_EN": "Scotland"
+  },
+  {
+    "iso_3166_subdivision_code": "MLN",
+    "states_EN": "Midlothian",
+    "country_EN": "Scotland"
+  },
+  {
+    "iso_3166_subdivision_code": "MOR",
+    "states_EN": "Moray",
+    "country_EN": "Scotland"
+  },
+  {
+    "iso_3166_subdivision_code": "NAI",
+    "states_EN": "Nairnshire",
+    "country_EN": "Scotland"
+  },
+  {
+    "iso_3166_subdivision_code": "OKI",
+    "states_EN": "Orkney",
+    "country_EN": "Scotland"
+  },
+  {
+    "iso_3166_subdivision_code": "PEE",
+    "states_EN": "Peeblesshire",
+    "country_EN": "Scotland"
+  },
+  {
+    "iso_3166_subdivision_code": "PER",
+    "states_EN": "Perthshire",
+    "country_EN": "Scotland"
+  },
+  {
+    "iso_3166_subdivision_code": "RFW",
+    "states_EN": "Renfrewshire",
+    "country_EN": "Scotland"
+  },
+  {
+    "iso_3166_subdivision_code": "ROC",
+    "states_EN": "Ross-shire",
+    "country_EN": "Scotland"
+  },
+  {
+    "iso_3166_subdivision_code": "ROX",
+    "states_EN": "Roxburghshire",
+    "country_EN": "Scotland"
+  },
+  {
+    "iso_3166_subdivision_code": "SEL",
+    "states_EN": "Selkirkshire",
+    "country_EN": "Scotland"
+  },
+  {
+    "iso_3166_subdivision_code": "SHI",
+    "states_EN": "Shetland",
+    "country_EN": "Scotland"
+  },
+  {
+    "iso_3166_subdivision_code": "STI",
+    "states_EN": "Stirlingshire",
+    "country_EN": "Scotland"
+  },
+  {
+    "iso_3166_subdivision_code": "SUT",
+    "states_EN": "Sutherland",
+    "country_EN": "Scotland"
+  },
+  {
+    "iso_3166_subdivision_code": "WLN",
+    "states_EN": "West Lothian",
+    "country_EN": "Scotland"
+  },
+  {
+    "iso_3166_subdivision_code": "WIG",
+    "states_EN": "Wigtownshire",
+    "country_EN": "Scotland"
+  },
+  {
+    "iso_3166_subdivision_code": "ANT",
+    "states_EN": "Antrim",
+    "country_EN": "Northern Ireland"
+  },
+  {
+    "iso_3166_subdivision_code": "ARM",
+    "states_EN": "Armagh",
+    "country_EN": "Northern Ireland"
+  },
+  {
+    "iso_3166_subdivision_code": "DOW",
+    "states_EN": "Down",
+    "country_EN": "Northern Ireland"
+  },
+  {
+    "iso_3166_subdivision_code": "FER",
+    "states_EN": "Fermanagh",
+    "country_EN": "Northern Ireland"
+  },
+  {
+    "iso_3166_subdivision_code": "LDY",
+    "states_EN": "Londonderry",
+    "country_EN": "Northern Ireland"
+  },
+  {
+    "iso_3166_subdivision_code": "TYR",
+    "states_EN": "Tyrone",
+    "country_EN": "Northern Ireland"
+  }
+]

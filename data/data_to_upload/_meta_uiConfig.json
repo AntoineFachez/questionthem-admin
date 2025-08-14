@@ -1,0 +1,2389 @@
+[
+  {
+    "entity": "event",
+    "fields": [
+      {
+        "field": "event_name",
+        "label": "Event Name",
+        "ui_role": "title",
+        "type": "text",
+        "is_editable": true,
+        "is_required": true
+      },
+      {
+        "field": "event_summary",
+        "label": "Summary",
+        "ui_role": "subtitle",
+        "type": "textarea",
+        "is_editable": true,
+        "placeholder": "A brief overview of the event."
+      },
+      {
+        "field": "event_type",
+        "label": "Event Type",
+        "type": "select",
+        "is_editable": true,
+        "options": [
+          "Historical",
+          "Political",
+          "Cultural",
+          "Natural Disaster",
+          "Personal Milestone",
+          "Other"
+        ]
+      },
+      {
+        "field": "start_date",
+        "label": "Start Date",
+        "type": "date",
+        "is_editable": true,
+        "is_required": true
+      },
+      {
+        "field": "end_date",
+        "label": "End Date",
+        "type": "date",
+        "is_editable": true
+      },
+      {
+        "field": "primary_location",
+        "label": "Primary Location",
+        "ui_role": "section_header",
+        "type": "object",
+        "is_editable": true,
+        "is_required": true,
+        "fields": [
+          {
+            "field": "name",
+            "label": "Location Name",
+            "type": "text",
+            "is_editable": true,
+            "is_required": true
+          },
+          {
+            "field": "coords",
+            "label": "Coordinates",
+            "type": "coords_picker",
+            "is_editable": true
+          },
+          {
+            "field": "address",
+            "label": "Address",
+            "type": "object",
+            "is_editable": true,
+            "fields": [
+              {
+                "field": "street",
+                "label": "Street",
+                "type": "text",
+                "is_editable": true
+              },
+              {
+                "field": "city",
+                "label": "City",
+                "type": "text",
+                "is_editable": true
+              },
+              {
+                "field": "state_province",
+                "label": "State/Province",
+                "type": "text",
+                "is_editable": true
+              },
+              {
+                "field": "zip_code",
+                "label": "ZIP Code",
+                "type": "text",
+                "is_editable": true
+              },
+              {
+                "field": "country",
+                "label": "Country",
+                "type": "text",
+                "is_editable": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "field": "description",
+        "label": "Description",
+        "type": "richtext",
+        "is_editable": true
+      },
+      {
+        "field": "background_context",
+        "label": "Background Context",
+        "type": "richtext",
+        "is_editable": true
+      },
+      {
+        "field": "consequences_impact",
+        "label": "Consequences & Impact",
+        "type": "richtext",
+        "is_editable": true
+      },
+      {
+        "field": "category_tags",
+        "label": "Tags",
+        "type": "tags_input",
+        "is_editable": true
+      },
+      {
+        "field": "people_involved",
+        "label": "People Involved",
+        "ui_role": "section_header",
+        "type": "array_of_objects",
+        "is_editable": true,
+        "fields": [
+          {
+            "field": "person_id",
+            "label": "Person",
+            "type": "reference_select",
+            "target_entity": "people",
+            "is_editable": true
+          },
+          {
+            "field": "role",
+            "label": "Role",
+            "type": "text",
+            "is_editable": true
+          },
+          {
+            "field": "specific_actions",
+            "label": "Actions",
+            "type": "list_input",
+            "is_editable": true
+          }
+        ]
+      },
+      {
+        "field": "organizations_involved",
+        "label": "Organizations Involved",
+        "ui_role": "section_header",
+        "type": "array_of_objects",
+        "is_editable": true,
+        "fields": [
+          {
+            "field": "organization_id",
+            "label": "Organization",
+            "type": "reference_select",
+            "target_entity": "organizations",
+            "is_editable": true
+          },
+          {
+            "field": "role",
+            "label": "Role",
+            "type": "text",
+            "is_editable": true
+          },
+          {
+            "field": "specific_actions",
+            "label": "Actions",
+            "type": "list_input",
+            "is_editable": true
+          }
+        ]
+      },
+      {
+        "field": "related_events",
+        "label": "Related Events",
+        "ui_role": "section_header",
+        "type": "array_of_objects",
+        "is_editable": true,
+        "fields": [
+          {
+            "field": "event_id",
+            "label": "Event",
+            "type": "reference_select",
+            "target_entity": "events",
+            "is_editable": true
+          },
+          {
+            "field": "relation_type",
+            "label": "Relation Type",
+            "type": "select",
+            "is_editable": true,
+            "options": ["Cause", "Consequence", "Precursor", "Follow-up"]
+          }
+        ]
+      },
+      {
+        "field": "sources",
+        "label": "Sources",
+        "ui_role": "section_header",
+        "type": "array_of_objects",
+        "is_editable": true,
+        "fields": [
+          {
+            "field": "title",
+            "label": "Source Title",
+            "type": "text",
+            "is_editable": true,
+            "is_required": true
+          },
+          {
+            "field": "type",
+            "label": "Type",
+            "type": "select",
+            "is_editable": true,
+            "options": ["Article", "Book", "Video", "Report", "Website"]
+          },
+          {
+            "field": "url",
+            "label": "URL",
+            "type": "url",
+            "is_editable": true
+          }
+        ]
+      },
+      {
+        "field": "creation_metadata",
+        "label": "Metadata",
+        "ui_role": "metadata",
+        "type": "object",
+        "is_editable": false,
+        "fields": [
+          {
+            "field": "created_by_person_id",
+            "label": "Created By",
+            "type": "reference_select",
+            "target_entity": "people"
+          },
+          {
+            "field": "creation_date",
+            "label": "Created On",
+            "type": "datetime"
+          }
+        ]
+      }
+    ]
+  },
+ {
+    "entity": "person",
+    "label": "Person",
+    "fields": [
+      {
+        "field": "name",
+        "label": "Full Name",
+        "ui_role": "title",
+        "type": "text",
+        "is_editable": true,
+        "is_required": true
+      },
+      {
+        "field": "biography_summary",
+        "label": "Biography Summary",
+        "ui_role": "subtitle",
+        "type": "textarea",
+        "is_editable": true,
+        "placeholder": "A brief overview of the person's life, achievements, and significance."
+      },
+      {
+        "field": "first_name",
+        "label": "First Name",
+        "type": "text",
+        "is_editable": true
+      },
+      {
+        "field": "middle_name",
+        "label": "Middle Name",
+        "type": "text",
+        "is_editable": true
+      },
+      {
+        "field": "last_name",
+        "label": "Last Name",
+        "type": "text",
+        "is_editable": true
+      },
+      {
+        "field": "nick_names",
+        "label": "Nicknames / Aliases",
+        "type": "tags_input",
+        "is_editable": true
+      },
+      {
+        "field": "neé_name",
+        "label": "Neé Name",
+        "type": "text",
+        "is_editable": true,
+        "placeholder": "Birth surname"
+      },
+      {
+        "field": "current_status",
+        "label": "Current Status",
+        "type": "array_of_objects",
+        "is_editable": true,
+        "fields": [
+          {
+            "field": "state",
+            "label": "State",
+            "type": "select",
+            "is_editable": true,
+            "options": ["Born", "Deceased"]
+          },
+          {
+            "field": "start_Date",
+            "label": "Date",
+            "type": "date",
+            "is_editable": true
+          }
+        ]
+      },
+      {
+        "field": "earlyLife",
+        "label": "Early Life Events",
+        "ui_role": "section_header",
+        "type": "array_of_objects",
+        "is_editable": true,
+        "fields": [
+          {
+            "field": "type",
+            "label": "Event Type",
+            "type": "text",
+            "is_editable": true
+          },
+          {
+            "field": "date",
+            "label": "Date",
+            "type": "date",
+            "is_editable": true
+          },
+          {
+            "field": "location",
+            "label": "Location",
+            "type": "object",
+            "is_editable": true,
+            "fields": [
+              {
+                "field": "city",
+                "label": "City",
+                "type": "text",
+                "is_editable": true
+              },
+              {
+                "field": "country",
+                "label": "Country",
+                "type": "text",
+                "is_editable": true
+              }
+            ]
+          },
+          {
+            "field": "description",
+            "label": "Description",
+            "type": "textarea",
+            "is_editable": true
+          }
+        ]
+      },
+      {
+        "field": "educations",
+        "label": "Education History",
+        "ui_role": "section_header",
+        "type": "array_of_objects",
+        "is_editable": true,
+        "fields": [
+          {
+            "field": "institution_name",
+            "label": "Institution",
+            "type": "text",
+            "is_editable": true
+          },
+          {
+            "field": "degree",
+            "label": "Degree",
+            "type": "text",
+            "is_editable": true
+          },
+          {
+            "field": "field_of_study",
+            "label": "Field of Study",
+            "type": "text",
+            "is_editable": true
+          },
+          {
+            "field": "start_date",
+            "label": "Start Date",
+            "type": "date",
+            "is_editable": true
+          },
+          {
+            "field": "end_date",
+            "label": "End Date",
+            "type": "date",
+            "is_editable": true
+          },
+          {
+            "field": "honors",
+            "label": "Honors",
+            "type": "text",
+            "is_editable": true
+          }
+        ]
+      },
+      {
+        "field": "career_history",
+        "label": "Career History",
+        "ui_role": "section_header",
+        "type": "array_of_objects",
+        "is_editable": true,
+        "fields": [
+          {
+            "field": "organization",
+            "label": "Organization",
+            "type": "text",
+            "is_editable": true
+          },
+          {
+            "field": "position",
+            "label": "Position",
+            "type": "text",
+            "is_editable": true
+          },
+          {
+            "field": "start_date",
+            "label": "Start Date",
+            "type": "date",
+            "is_editable": true
+          },
+          {
+            "field": "end_date",
+            "label": "End Date",
+            "type": "date",
+            "is_editable": true
+          },
+          {
+            "field": "responsibilities",
+            "label": "Responsibilities",
+            "type": "list_input",
+            "is_editable": true
+          }
+        ]
+      },
+      {
+        "field": "spouses",
+        "label": "Marital History",
+        "ui_role": "section_header",
+        "type": "array_of_objects",
+        "is_editable": true,
+        "fields": [
+          {
+            "field": "person_id",
+            "label": "Spouse",
+            "type": "reference_select",
+            "target_entity": "person",
+            "is_editable": true
+          },
+          {
+            "field": "marriage_date",
+            "label": "Marriage Date",
+            "type": "date",
+            "is_editable": true
+          },
+          {
+            "field": "divorce_date",
+            "label": "Divorce Date",
+            "type": "date",
+            "is_editable": true
+          },
+          {
+            "field": "end_reason",
+            "label": "End Reason",
+            "type": "select",
+            "is_editable": true,
+            "options": ["Divorce", "Death of Spouse"]
+          }
+        ]
+      },
+      {
+        "field": "parents",
+        "label": "Parents",
+        "ui_role": "section_header",
+        "type": "array_of_objects",
+        "is_editable": true,
+        "fields": [
+          {
+            "field": "person_id",
+            "label": "Parent",
+            "type": "reference_select",
+            "target_entity": "person",
+            "is_editable": true
+          }
+        ]
+      },
+      {
+        "field": "children",
+        "label": "Children",
+        "ui_role": "section_header",
+        "type": "array_of_objects",
+        "is_editable": true,
+        "fields": [
+          {
+            "field": "person_id",
+            "label": "Child",
+            "type": "reference_select",
+            "target_entity": "person",
+            "is_editable": true
+          }
+        ]
+      },
+      {
+        "field": "skills",
+        "label": "Skills",
+        "type": "tags_input",
+        "is_editable": true
+      },
+      {
+        "field": "awards_and_recognitions",
+        "label": "Awards and Recognitions",
+        "type": "list_input",
+        "is_editable": true
+      },
+      {
+        "field": "controversies",
+        "label": "Controversies",
+        "ui_role": "section_header",
+        "type": "array_of_objects",
+        "is_editable": true,
+        "fields": [
+          {
+            "field": "messenger",
+            "label": "Messenger",
+            "type": "text",
+            "is_editable": true
+          },
+          {
+            "field": "messenger_id",
+            "label": "Messenger ID",
+            "type": "text",
+            "is_editable": true
+          },
+          {
+            "field": "content",
+            "label": "Content",
+            "type": "textarea",
+            "is_editable": true
+          },
+          {
+            "field": "event_id",
+            "label": "Event ID",
+            "type": "text",
+            "is_editable": true
+          }
+        ]
+      },
+      {
+        "field": "assets",
+        "label": "Assets",
+        "ui_role": "section_header",
+        "type": "array_of_objects",
+        "is_editable": true,
+        "fields": [
+          {
+            "field": "owner_type",
+            "label": "Owner Type",
+            "type": "text",
+            "is_editable": true
+          },
+          {
+            "field": "owner_id",
+            "label": "Owner ID",
+            "type": "text",
+            "is_editable": true
+          },
+          {
+            "field": "start_date",
+            "label": "Start Date",
+            "type": "date",
+            "is_editable": true
+          },
+          {
+            "field": "end_date",
+            "label": "End Date",
+            "type": "date",
+            "is_editable": true
+          },
+          {
+            "field": "buy_price",
+            "label": "Buy Price",
+            "type": "number",
+            "is_editable": true
+          },
+          {
+            "field": "sell_price",
+            "label": "Sell Price",
+            "type": "number",
+            "is_editable": true
+          },
+          {
+            "field": "coords",
+            "label": "Coordinates",
+            "type": "array_of_objects",
+            "is_editable": true,
+            "fields": [
+              {
+                "field": "lat",
+                "label": "Latitude",
+                "type": "number",
+                "is_editable": true
+              },
+              {
+                "field": "lng",
+                "label": "Longitude",
+                "type": "number",
+                "is_editable": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "field": "metadata",
+        "label": "Metadata",
+        "ui_role": "section_header",
+        "type": "object",
+        "is_editable": true,
+        "fields": [
+          {
+            "field": "created_by_user_id",
+            "label": "Created by User ID",
+            "type": "text",
+            "is_editable": false
+          },
+          {
+            "field": "created_at",
+            "label": "Created At",
+            "type": "date_time",
+            "is_editable": false
+          },
+          {
+            "field": "last_modified_at",
+            "label": "Last Modified At",
+            "type": "date_time",
+            "is_editable": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "entity": "company",
+    "label": "Company",
+    "fields": [
+      {
+        "field": "company_name",
+        "label": "Company Name",
+        "ui_role": "title",
+        "type": "text",
+        "is_editable": true,
+        "is_required": true
+      },
+      {
+        "field": "description",
+        "label": "Company Description",
+        "ui_role": "subtitle",
+        "type": "textarea",
+        "is_editable": true
+      },
+      {
+        "field": "start_date",
+        "label": "Founding Date",
+        "type": "date",
+        "is_editable": true
+      },
+      {
+        "field": "end_date",
+        "label": "Dissolution Date",
+        "type": "date",
+        "is_editable": true
+      },
+      {
+        "field": "wikipedia",
+        "label": "Wikipedia URL",
+        "type": "url",
+        "is_editable": true
+      },
+      {
+        "field": "holding",
+        "label": "Holding Company",
+        "type": "reference_select",
+        "target_entity": "company",
+        "is_editable": true
+      },
+      {
+        "field": "head_offices",
+        "label": "Head Offices",
+        "ui_role": "section_header",
+        "type": "array_of_objects",
+        "is_editable": true,
+        "fields": [
+          {
+            "field": "head_office_id",
+            "label": "ID",
+            "type": "text",
+            "is_editable": true
+          },
+          {
+            "field": "coords",
+            "label": "Coordinates",
+            "type": "coords_picker",
+            "is_editable": true
+          },
+          {
+            "field": "head_office_manager",
+            "label": "Manager",
+            "type": "reference_select",
+            "target_entity": "person",
+            "is_editable": true
+          },
+          {
+            "field": "branch_offices",
+            "label": "Branch Offices",
+            "type": "list_input",
+            "is_editable": true
+          }
+        ]
+      },
+      {
+        "field": "people_involved",
+        "label": "People Involved",
+        "ui_role": "section_header",
+        "type": "array_of_objects",
+        "is_editable": true,
+        "fields": [
+          {
+            "field": "person_id",
+            "label": "Person",
+            "type": "reference_select",
+            "target_entity": "person",
+            "is_editable": true
+          },
+          {
+            "field": "reason_of_involvement",
+            "label": "Role",
+            "type": "text",
+            "is_editable": true
+          }
+        ]
+      },
+      {
+        "field": "companies_involved",
+        "label": "Related Companies",
+        "ui_role": "section_header",
+        "type": "array_of_objects",
+        "is_editable": true,
+        "fields": [
+          {
+            "field": "company_id",
+            "label": "Company",
+            "type": "reference_select",
+            "target_entity": "company",
+            "is_editable": true
+          },
+          {
+            "field": "company_name",
+            "label": "Company Name",
+            "type": "text",
+            "is_editable": true
+          },
+          {
+            "field": "reason_of_involvement",
+            "label": "Reason for Involvement",
+            "type": "text",
+            "is_editable": true
+          }
+        ]
+      },
+      {
+        "field": "company_history",
+        "label": "Company History",
+        "ui_role": "section_header",
+        "type": "array_of_objects",
+        "is_editable": true,
+        "fields": [
+          {
+            "field": "start_date",
+            "label": "Start Date",
+            "type": "date",
+            "is_editable": true
+          },
+          {
+            "field": "end_date",
+            "label": "End Date",
+            "type": "date",
+            "is_editable": true
+          },
+          {
+            "field": "industry",
+            "label": "Industry",
+            "type": "text",
+            "is_editable": true
+          },
+          {
+            "field": "notes",
+            "label": "Notes",
+            "type": "textarea",
+            "is_editable": true
+          }
+        ]
+      },
+      {
+        "field": "controversies",
+        "label": "Controversies",
+        "ui_role": "section_header",
+        "type": "array_of_objects",
+        "is_editable": true,
+        "fields": [
+          {
+            "field": "messenger",
+            "label": "Messenger",
+            "type": "text",
+            "is_editable": true
+          },
+          {
+            "field": "content",
+            "label": "Content",
+            "type": "textarea",
+            "is_editable": true
+          },
+          {
+            "field": "event_id",
+            "label": "Related Event",
+            "type": "reference_select",
+            "target_entity": "events",
+            "is_editable": true
+          }
+        ]
+      },
+      {
+        "field": "assets",
+        "label": "Assets",
+        "ui_role": "section_header",
+        "type": "array_of_objects",
+        "is_editable": true,
+        "fields": [
+          {
+            "field": "owner_type",
+            "label": "Owner Type",
+            "type": "select",
+            "is_editable": true,
+            "options": ["Corporation", "Individual"]
+          },
+          {
+            "field": "start_date",
+            "label": "Acquisition Date",
+            "type": "date",
+            "is_editable": true
+          },
+          {
+            "field": "buy_price",
+            "label": "Purchase Price",
+            "type": "number",
+            "is_editable": true
+          }
+        ]
+      },
+      {
+        "field": "contact_info",
+        "label": "Contact Information",
+        "ui_role": "section_header",
+        "type": "object",
+        "is_editable": true,
+        "fields": [
+          {
+            "field": "email",
+            "label": "Email",
+            "type": "email",
+            "is_editable": true
+          },
+          {
+            "field": "phone_numbers",
+            "label": "Phone Numbers",
+            "type": "array_of_objects",
+            "is_editable": true,
+            "fields": [
+              {
+                "field": "type",
+                "label": "Type",
+                "type": "text",
+                "is_editable": true
+              },
+              {
+                "field": "number",
+                "label": "Number",
+                "type": "text",
+                "is_editable": true
+              }
+            ]
+          },
+          {
+            "field": "addresses",
+            "label": "Addresses",
+            "type": "array_of_objects",
+            "is_editable": true
+          },
+          {
+            "field": "social_media_profiles",
+            "label": "Social Media Profiles",
+            "type": "list_input",
+            "is_editable": true
+          },
+          {
+            "field": "urls",
+            "label": "URLs",
+            "type": "array_of_objects",
+            "is_editable": true,
+            "fields": [
+              {
+                "field": "type",
+                "label": "Type",
+                "type": "text",
+                "is_editable": true
+              },
+              {
+                "field": "url",
+                "label": "URL",
+                "type": "url",
+                "is_editable": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "field": "metadata",
+        "label": "Metadata",
+        "ui_role": "metadata",
+        "type": "object",
+        "is_editable": false,
+        "fields": [
+          {
+            "field": "created_by_user_id",
+            "label": "Created By",
+            "type": "text"
+          },
+          {
+            "field": "created_at",
+            "label": "Created On",
+            "type": "datetime"
+          },
+          {
+            "field": "last_modified_at",
+            "label": "Last Modified",
+            "type": "datetime"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "entity": "administration",
+    "label": "Administration",
+    "fields": [
+      {
+        "field": "name",
+        "label": "Administration Name",
+        "ui_role": "title",
+        "type": "text",
+        "is_editable": true,
+        "is_required": true
+      },
+      {
+        "field": "term_identifier",
+        "label": "Term",
+        "ui_role": "subtitle",
+        "type": "text",
+        "is_editable": true
+      },
+      {
+        "field": "governing_body_name",
+        "label": "Governing Body",
+        "type": "text",
+        "is_editable": true
+      },
+      {
+        "field": "iso_a3",
+        "label": "Country ISO Code",
+        "type": "text",
+        "is_editable": true
+      },
+      {
+        "field": "political_party",
+        "label": "Political Party",
+        "type": "text",
+        "is_editable": true
+      },
+      {
+        "field": "term_start_date",
+        "label": "Term Start Date",
+        "type": "date",
+        "is_editable": true,
+        "is_required": true
+      },
+      {
+        "field": "term_end_date",
+        "label": "Term End Date",
+        "type": "date",
+        "is_editable": true
+      },
+      {
+        "field": "leader_person_id",
+        "label": "Leader",
+        "ui_role": "section_header",
+        "type": "reference_select",
+        "target_entity": "person",
+        "is_editable": true
+      },
+      {
+        "field": "leader_title",
+        "label": "Leader Title",
+        "type": "text",
+        "is_editable": true
+      },
+      {
+        "field": "key_officials",
+        "label": "Key Officials",
+        "ui_role": "section_header",
+        "type": "array_of_objects",
+        "is_editable": true,
+        "fields": [
+          {
+            "field": "person_id",
+            "label": "Official",
+            "type": "reference_select",
+            "target_entity": "person",
+            "is_editable": true
+          },
+          {
+            "field": "role",
+            "label": "Role",
+            "type": "text",
+            "is_editable": true
+          },
+          {
+            "field": "start_date",
+            "label": "Start Date",
+            "type": "date",
+            "is_editable": true
+          },
+          {
+            "field": "end_date",
+            "label": "End Date",
+            "type": "date",
+            "is_editable": true
+          },
+          {
+            "field": "reason",
+            "label": "Notes",
+            "type": "textarea",
+            "is_editable": true
+          }
+        ]
+      },
+      {
+        "field": "metadata",
+        "label": "Metadata",
+        "ui_role": "metadata",
+        "type": "object",
+        "is_editable": false,
+        "fields": [
+          {
+            "field": "created_by_user_id",
+            "label": "Created By",
+            "type": "text"
+          },
+          {
+            "field": "created_at",
+            "label": "Created On",
+            "type": "datetime"
+          },
+          {
+            "field": "last_modified_at",
+            "label": "Last Modified",
+            "type": "datetime"
+          }
+        ]
+      }
+    ]
+  },{
+    "entity": "agency",
+    "label": "Agency",
+    "fields": [
+      {
+        "field": "agency_name",
+        "label": "Agency Name",
+        "ui_role": "title",
+        "type": "text",
+        "is_editable": true,
+        "is_required": true
+      },
+      {
+        "field": "description",
+        "label": "Description",
+        "ui_role": "subtitle",
+        "type": "textarea",
+        "is_editable": true
+      },
+      {
+        "field": "start_date",
+        "label": "Founded Date",
+        "type": "date",
+        "is_editable": true
+      },
+      {
+        "field": "end_date",
+        "label": "Dissolved Date",
+        "type": "date",
+        "is_editable": true
+      },
+      {
+        "field": "priority",
+        "label": "Priority",
+        "type": "select",
+        "is_editable": true,
+        "options": ["High", "Medium", "Low"]
+      },
+      {
+        "field": "coords",
+        "label": "Headquarters Coordinates",
+        "type": "coords_picker",
+        "is_editable": true
+      },
+      {
+        "field": "wikipedia",
+        "label": "Wikipedia URL",
+        "type": "url",
+        "is_editable": true
+      },
+      {
+        "field": "people_involved",
+        "label": "Key Personnel",
+        "ui_role": "section_header",
+        "type": "array_of_objects",
+        "is_editable": true,
+        "fields": [
+          {
+            "field": "person_id",
+            "label": "Person",
+            "type": "reference_select",
+            "target_entity": "person",
+            "is_editable": true
+          },
+          {
+            "field": "reason_of_involvement",
+            "label": "Role",
+            "type": "text",
+            "is_editable": true
+          }
+        ]
+      },
+      {
+        "field": "companies_involved",
+        "label": "Related Companies",
+        "ui_role": "section_header",
+        "type": "array_of_objects",
+        "is_editable": true,
+        "fields": [
+          {
+            "field": "company_id",
+            "label": "Company",
+            "type": "reference_select",
+            "target_entity": "company",
+            "is_editable": true
+          },
+          {
+            "field": "reason_of_involvement",
+            "label": "Reason for Involvement",
+            "type": "text",
+            "is_editable": true
+          }
+        ]
+      },
+      {
+        "field": "agencies_involved",
+        "label": "Related Agencies",
+        "ui_role": "section_header",
+        "type": "array_of_objects",
+        "is_editable": true,
+        "fields": [
+          {
+            "field": "agency_id",
+            "label": "Agency",
+            "type": "reference_select",
+            "target_entity": "agency",
+            "is_editable": true
+          },
+          {
+            "field": "reason_of_involvement",
+            "label": "Reason for Involvement",
+            "type": "text",
+            "is_editable": true
+          }
+        ]
+      },
+      {
+        "field": "organizations_involved",
+        "label": "Related Organizations",
+        "ui_role": "section_header",
+        "type": "array_of_objects",
+        "is_editable": true,
+        "fields": [
+          {
+            "field": "organization_id",
+            "label": "Organization",
+            "type": "reference_select",
+            "target_entity": "organization",
+            "is_editable": true
+          },
+          {
+            "field": "reason_of_involvement",
+            "label": "Reason for Involvement",
+            "type": "text",
+            "is_editable": true
+          }
+        ]
+      },
+      {
+        "field": "controversies",
+        "label": "Controversies",
+        "ui_role": "section_header",
+        "type": "array_of_references",
+        "target_entity": "event",
+        "is_editable": true
+      },
+      {
+        "field": "assets",
+        "label": "Assets",
+        "ui_role": "section_header",
+        "type": "array_of_references",
+        "target_entity": "asset",
+        "is_editable": true
+      },
+      {
+        "field": "contact_info",
+        "label": "Contact Information",
+        "ui_role": "section_header",
+        "type": "object",
+        "is_editable": true,
+        "fields": [
+          {
+            "field": "email",
+            "label": "Email",
+            "type": "email",
+            "is_editable": true
+          },
+          {
+            "field": "phone_numbers",
+            "label": "Phone Numbers",
+            "type": "array_of_objects",
+            "is_editable": true
+          },
+          {
+            "field": "addresses",
+            "label": "Addresses",
+            "type": "array_of_objects",
+            "is_editable": true
+          }
+        ]
+      },
+      {
+        "field": "metadata",
+        "label": "Metadata",
+        "ui_role": "metadata",
+        "type": "object",
+        "is_editable": false,
+        "fields": [
+          {
+            "field": "created_by_user_id",
+            "label": "Created By",
+            "type": "text"
+          },
+          {
+            "field": "created_at",
+            "label": "Created On",
+            "type": "datetime"
+          },
+          {
+            "field": "last_modified_at",
+            "label": "Last Modified",
+            "type": "datetime"
+          }
+        ]
+      }
+    ]
+  }, 
+  {
+    "entity": "story",
+    "label": "Story",
+    "fields": [
+      {
+        "field": "story_name",
+        "label": "Story Title",
+        "ui_role": "title",
+        "type": "text",
+        "is_editable": true,
+        "is_required": true
+      },
+      {
+        "field": "description",
+        "label": "Story Summary",
+        "ui_role": "subtitle",
+        "type": "textarea",
+        "is_editable": true,
+        "placeholder": "Summarize the overall narrative or theme of the story."
+      },
+      {
+        "field": "priority",
+        "label": "Priority",
+        "type": "select",
+        "is_editable": true,
+        "options": ["High", "Medium", "Low"]
+      },
+      {
+        "field": "scripts",
+        "label": "Scripts in Story",
+        "ui_role": "section_header",
+        "type": "array_of_references",
+        "target_entity": "script",
+        "is_editable": true
+      },
+      {
+        "field": "metadata",
+        "label": "Metadata",
+        "ui_role": "metadata",
+        "type": "object",
+        "is_editable": false,
+        "fields": [
+          {
+            "field": "created_by_user_id",
+            "label": "Created By",
+            "type": "text"
+          },
+          {
+            "field": "created_at",
+            "label": "Created On",
+            "type": "datetime"
+          },
+          {
+            "field": "last_modified_at",
+            "label": "Last Modified",
+            "type": "datetime"
+          }
+        ]
+      }
+    ]
+  },{
+    "entity": "script",
+    "label": "Script",
+    "fields": [
+      {
+        "field": "script_name",
+        "label": "Script Title",
+        "ui_role": "title",
+        "type": "text",
+        "is_editable": true,
+        "is_required": true
+      },
+      {
+        "field": "description",
+        "label": "Script Summary",
+        "ui_role": "subtitle",
+        "type": "textarea",
+        "is_editable": true,
+        "placeholder": "Summarize the events and narrative covered in this script."
+      },
+      {
+        "field": "stories",
+        "label": "Parent Stories",
+        "ui_role": "section_header",
+        "type": "array_of_objects",
+        "is_editable": true,
+        "fields": [
+          {
+            "field": "story_id",
+            "label": "Story",
+            "type": "reference_select",
+            "target_entity": "story",
+            "is_editable": true
+          }
+        ]
+      },
+      {
+        "field": "priority",
+        "label": "Priority",
+        "type": "select",
+        "is_editable": true,
+        "options": ["High", "Medium", "Low"]
+      },
+      {
+        "field": "target_length",
+        "label": "Target Length",
+        "ui_role": "section_header",
+        "type": "object",
+        "is_editable": true,
+        "fields": [
+          {
+            "field": "value",
+            "label": "Value",
+            "type": "number",
+            "is_editable": true
+          },
+          {
+            "field": "unit",
+            "label": "Unit",
+            "type": "select",
+            "is_editable": true,
+            "options": ["seconds", "minutes", "words"]
+          }
+        ]
+      },
+      {
+        "field": "latLngBounds",
+        "label": "Geographical Bounding Box",
+        "ui_role": "section_header",
+        "type": "object",
+        "is_editable": true,
+        "fields": [
+          {
+            "field": "north",
+            "label": "North",
+            "type": "number",
+            "is_editable": true
+          },
+          {
+            "field": "south",
+            "label": "South",
+            "type": "number",
+            "is_editable": true
+          },
+          {
+            "field": "west",
+            "label": "West",
+            "type": "number",
+            "is_editable": true
+          },
+          {
+            "field": "east",
+            "label": "East",
+            "type": "number",
+            "is_editable": true
+          }
+        ]
+      },
+      {
+        "field": "events",
+        "label": "Events in Script",
+        "ui_role": "section_header",
+        "type": "array_of_references",
+        "target_entity": "event",
+        "is_editable": true
+      },
+      {
+        "field": "metadata",
+        "label": "Metadata",
+        "ui_role": "metadata",
+        "type": "object",
+        "is_editable": false,
+        "fields": [
+          {
+            "field": "created_by_user_id",
+            "label": "Created By",
+            "type": "text"
+          },
+          {
+            "field": "created_at",
+            "label": "Created On",
+            "type": "datetime"
+          },
+          {
+            "field": "last_modified_at",
+            "label": "Last Modified",
+            "type": "datetime"
+          }
+        ]
+      }
+    ]
+  },{
+    "entity": "video",
+    "label": "Video",
+    "fields": [
+      {
+        "field": "video_name",
+        "label": "Video Title",
+        "ui_role": "title",
+        "type": "text",
+        "is_editable": true,
+        "is_required": true
+      },
+      {
+        "field": "summary",
+        "label": "Summary",
+        "ui_role": "subtitle",
+        "type": "textarea",
+        "is_editable": true,
+        "placeholder": "A brief overview of the video's content."
+      },
+      {
+        "field": "description",
+        "label": "Detailed Description",
+        "type": "richtext",
+        "is_editable": true
+      },
+      {
+        "field": "topics",
+        "label": "Topics",
+        "type": "tags_input",
+        "is_editable": true
+      },
+      {
+        "field": "completed_timeStamp",
+        "label": "Completed On",
+        "type": "datetime",
+        "is_editable": true
+      },
+      {
+        "field": "first_publish_timeStamp",
+        "label": "First Published On",
+        "type": "datetime",
+        "is_editable": true
+      },
+      {
+        "field": "private",
+        "label": "Is Private?",
+        "type": "boolean",
+        "is_editable": true
+      },
+      {
+        "field": "length",
+        "label": "Duration",
+        "type": "text",
+        "is_editable": true,
+        "placeholder": "e.g., 'HH:mm:ss' or 'in total seconds'"
+      },
+      {
+        "field": "owner",
+        "label": "Video Owner",
+        "ui_role": "section_header",
+        "type": "reference_select",
+        "target_entities": ["Person", "Company", "Agency", "Organization"],
+        "is_editable": true
+      },
+      {
+        "field": "stories",
+        "label": "Associated Stories",
+        "ui_role": "section_header",
+        "type": "array_of_references",
+        "target_entity": "story",
+        "is_editable": true
+      },
+      {
+        "field": "scripts",
+        "label": "Associated Scripts",
+        "ui_role": "section_header",
+        "type": "array_of_references",
+        "target_entity": "script",
+        "is_editable": true
+      },
+      {
+        "field": "cut_downs",
+        "label": "Cut-down Versions",
+        "ui_role": "section_header",
+        "type": "array_of_references",
+        "target_entity": "video",
+        "is_editable": true
+      },
+      {
+        "field": "video_segments",
+        "label": "Video Segments",
+        "ui_role": "section_header",
+        "type": "array_of_objects",
+        "is_editable": true,
+        "fields": [
+          {
+            "field": "time_period",
+            "label": "Time Period",
+            "type": "object",
+            "is_editable": true,
+            "fields": [
+              {
+                "field": "start_time",
+                "label": "Start Time",
+                "type": "time",
+                "is_editable": true
+              },
+              {
+                "field": "end_time",
+                "label": "End Time",
+                "type": "time",
+                "is_editable": true
+              }
+            ]
+          },
+          {
+            "field": "event_id",
+            "label": "Related Event",
+            "type": "reference_select",
+            "target_entity": "event",
+            "is_editable": true
+          },
+          {
+            "field": "entities_involved",
+            "label": "Entities Involved",
+            "type": "array_of_polymorphic_references",
+            "target_entities": ["Person", "Company", "Agency", "Organization"],
+            "is_editable": true
+          },
+          {
+            "field": "description",
+            "label": "Segment Description",
+            "type": "textarea",
+            "is_editable": true
+          }
+        ]
+      },
+      {
+        "field": "crew",
+        "label": "Crew",
+        "ui_role": "section_header",
+        "type": "array_of_objects",
+        "is_editable": true,
+        "fields": [
+          {
+            "field": "person_id",
+            "label": "Crew Member",
+            "type": "reference_select",
+            "target_entity": "person",
+            "is_editable": true
+          },
+          {
+            "field": "role",
+            "label": "Role",
+            "type": "text",
+            "is_editable": true
+          }
+        ]
+      },
+      {
+        "field": "metadata",
+        "label": "Metadata",
+        "ui_role": "metadata",
+        "type": "object",
+        "is_editable": false,
+        "fields": [
+          {
+            "field": "created_by_user_id",
+            "label": "Created By",
+            "type": "text"
+          },
+          {
+            "field": "created_at",
+            "label": "Created On",
+            "type": "datetime"
+          },
+          {
+            "field": "last_modified_at",
+            "label": "Last Modified",
+            "type": "datetime"
+          }
+        ]
+      }
+    ]
+  },{
+    "entity": "location",
+    "label": "Location",
+    "fields": [
+      {
+        "field": "name",
+        "label": "Location Name",
+        "ui_role": "title",
+        "type": "text",
+        "is_editable": true,
+        "is_required": true
+      },
+      {
+        "field": "coords",
+        "label": "Coordinates",
+        "ui_role": "section_header",
+        "type": "coords_picker",
+        "is_editable": true,
+        "is_required": true
+      },
+      {
+        "field": "address",
+        "label": "Address",
+        "ui_role": "section_header",
+        "type": "object",
+        "is_editable": true,
+        "fields": [
+          {
+            "field": "street",
+            "label": "Street",
+            "type": "text",
+            "is_editable": true
+          },
+          {
+            "field": "city",
+            "label": "City",
+            "type": "text",
+            "is_editable": true
+          },
+          {
+            "field": "state_province",
+            "label": "State/Province",
+            "type": "text",
+            "is_editable": true
+          },
+          {
+            "field": "zip_code",
+            "label": "ZIP Code",
+            "type": "text",
+            "is_editable": true
+          },
+          {
+            "field": "country",
+            "label": "Country",
+            "type": "text",
+            "is_editable": true
+          }
+        ]
+      },
+      {
+        "field": "landmarks",
+        "label": "Landmarks",
+        "ui_role": "section_header",
+        "type": "array_of_references",
+        "target_entity": "location",
+        "is_editable": true
+      },
+      {
+        "field": "events",
+        "label": "Events at this Location",
+        "ui_role": "section_header",
+        "type": "array_of_references",
+        "target_entity": "event",
+        "is_editable": true
+      },
+      {
+        "field": "metadata",
+        "label": "Metadata",
+        "ui_role": "metadata",
+        "type": "object",
+        "is_editable": false,
+        "fields": [
+          {
+            "field": "created_by_user_id",
+            "label": "Created By",
+            "type": "text"
+          },
+          {
+            "field": "created_at",
+            "label": "Created On",
+            "type": "datetime"
+          },
+          {
+            "field": "last_modified_at",
+            "label": "Last Modified",
+            "type": "datetime"
+          }
+        ]
+      }
+    ]
+  },{
+    "entity": "user",
+    "label": "User",
+    "fields": [
+      {
+        "field": "username",
+        "label": "Username",
+        "ui_role": "title",
+        "type": "text",
+        "is_editable": true,
+        "is_required": true
+      },
+      {
+        "field": "email",
+        "label": "Email Address",
+        "ui_role": "subtitle",
+        "type": "email",
+        "is_editable": true,
+        "is_required": true
+      },
+      {
+        "field": "person_id",
+        "label": "Associated Person",
+        "type": "reference_select",
+        "target_entity": "person",
+        "is_editable": true,
+        "is_required": true
+      },
+      {
+        "field": "profile_picture_url",
+        "label": "Profile Picture URL",
+        "type": "url",
+        "is_editable": true
+      },
+      {
+        "field": "account_status",
+        "label": "Account Status",
+        "type": "select",
+        "is_editable": true,
+        "options": ["active", "suspended", "deactivated"]
+      },
+      {
+        "field": "created_stories",
+        "label": "Created Stories",
+        "ui_role": "section_header",
+        "type": "array_of_references",
+        "target_entity": "story",
+        "is_editable": false
+      },
+      {
+        "field": "created_scripts",
+        "label": "Created Scripts",
+        "ui_role": "section_header",
+        "type": "array_of_references",
+        "target_entity": "script",
+        "is_editable": false
+      },
+      {
+        "field": "contributions",
+        "label": "Contributions Log",
+        "ui_role": "section_header",
+        "type": "array_of_objects",
+        "is_editable": false,
+        "fields": [
+          {
+            "field": "entity_type",
+            "label": "Entity Type",
+            "type": "text"
+          },
+          {
+            "field": "entity_id",
+            "label": "Entity ID",
+            "type": "text"
+          },
+          {
+            "field": "contribution_type",
+            "label": "Contribution Type",
+            "type": "text"
+          },
+          {
+            "field": "timestamp",
+            "label": "Timestamp",
+            "type": "datetime"
+          }
+        ]
+      },
+      {
+        "field": "watch_history",
+        "label": "Watch History",
+        "ui_role": "section_header",
+        "type": "array_of_objects",
+        "is_editable": false,
+        "fields": [
+          {
+            "field": "video_id",
+            "label": "Video ID",
+            "type": "reference_select",
+            "target_entity": "video"
+          },
+          {
+            "field": "watched_at",
+            "label": "Watched At",
+            "type": "datetime"
+          },
+          {
+            "field": "progress_seconds",
+            "label": "Progress (seconds)",
+            "type": "number"
+          }
+        ]
+      },
+      {
+        "field": "bookmarks",
+        "label": "Bookmarks",
+        "ui_role": "section_header",
+        "type": "array_of_polymorphic_references",
+        "target_entities": ["Story", "Event", "Video", "Person"],
+        "is_editable": true
+      },
+      {
+        "field": "metadata",
+        "label": "Metadata",
+        "ui_role": "metadata",
+        "type": "object",
+        "is_editable": false,
+        "fields": [
+          {
+            "field": "created_at",
+            "label": "Created On",
+            "type": "datetime"
+          },
+          {
+            "field": "last_login_at",
+            "label": "Last Login",
+            "type": "datetime"
+          }
+        ]
+      }
+    ]
+  }, {
+    "entity": "source",
+    "label": "Source",
+    "fields": [
+      {
+        "field": "title",
+        "label": "Source Title",
+        "ui_role": "title",
+        "type": "text",
+        "is_editable": true,
+        "is_required": true
+      },
+      {
+        "field": "source_type",
+        "label": "Source Type",
+        "type": "select",
+        "is_editable": true,
+        "is_required": true,
+        "options": [
+          "Book",
+          "News Article",
+          "Academic Paper",
+          "Government Record",
+          "Interview Transcript",
+          "Image",
+          "Video",
+          "Other"
+        ]
+      },
+      {
+        "field": "snippet",
+        "label": "Relevant Snippet",
+        "ui_role": "subtitle",
+        "type": "textarea",
+        "is_editable": true,
+        "placeholder": "A short excerpt or summary from the source that supports a fact."
+      },
+      {
+        "field": "url",
+        "label": "URL",
+        "type": "url",
+        "is_editable": true
+      },
+      {
+        "field": "publication_date",
+        "label": "Publication Date",
+        "type": "date",
+        "is_editable": true
+      },
+      {
+        "field": "author_creator",
+        "label": "Author/Creator Name",
+        "type": "text",
+        "is_editable": true
+      },
+      {
+        "field": "author_person_id",
+        "label": "Author (Person Entity)",
+        "type": "reference_select",
+        "target_entity": "person",
+        "is_editable": true
+      },
+      {
+        "field": "publisher",
+        "label": "Publisher",
+        "type": "text",
+        "is_editable": true
+      },
+      {
+        "field": "language",
+        "label": "Language",
+        "type": "text",
+        "is_editable": true,
+        "placeholder": "e.g., 'en' for English"
+      },
+      {
+        "field": "mentioned_entities",
+        "label": "Mentioned Entities",
+        "ui_role": "section_header",
+        "type": "array_of_polymorphic_references",
+        "target_entities": ["Person", "Event", "Company", "Agency", "Location"],
+        "is_editable": true
+      },
+      {
+        "field": "metadata",
+        "label": "Metadata",
+        "ui_role": "metadata",
+        "type": "object",
+        "is_editable": false,
+        "fields": [
+          {
+            "field": "created_by_user_id",
+            "label": "Created By",
+            "type": "text"
+          },
+          {
+            "field": "created_at",
+            "label": "Created On",
+            "type": "datetime"
+          },
+          {
+            "field": "last_modified_at",
+            "label": "Last Modified",
+            "type": "datetime"
+          }
+        ]
+      }
+    ]
+  },{
+    "entity": "asset",
+    "label": "Asset",
+    "fields": [
+      {
+        "field": "name",
+        "label": "Asset Name",
+        "ui_role": "title",
+        "type": "text",
+        "is_editable": true,
+        "is_required": true
+      },
+      {
+        "field": "description",
+        "label": "Description",
+        "ui_role": "subtitle",
+        "type": "textarea",
+        "is_editable": true
+      },
+      {
+        "field": "asset_type",
+        "label": "Asset Type",
+        "type": "select",
+        "is_editable": true,
+        "is_required": true,
+        "options": [
+          "Artwork",
+          "Real Estate",
+          "Vehicle",
+          "Financial Instrument",
+          "Intellectual Property",
+          "Other"
+        ]
+      },
+      {
+        "field": "creation_date",
+        "label": "Creation Date",
+        "type": "date",
+        "is_editable": true
+      },
+      {
+        "field": "current_owner",
+        "label": "Current Owner",
+        "ui_role": "section_header",
+        "type": "reference_select",
+        "target_entities": ["Person", "Company", "Organization", "Agency"],
+        "is_editable": true
+      },
+      {
+        "field": "current_location",
+        "label": "Current Location",
+        "type": "reference_select",
+        "target_entity": "location",
+        "is_editable": true
+      },
+      {
+        "field": "provenance_history",
+        "label": "Provenance History",
+        "ui_role": "section_header",
+        "type": "array_of_objects",
+        "is_editable": true,
+        "fields": [
+          {
+            "field": "owner_id",
+            "label": "Owner",
+            "type": "reference_select",
+            "target_entities": ["Person", "Company", "Organization"],
+            "is_editable": true
+          },
+          {
+            "field": "start_date",
+            "label": "Acquisition Date",
+            "type": "date",
+            "is_editable": true
+          },
+          {
+            "field": "end_date",
+            "label": "End Date",
+            "type": "date",
+            "is_editable": true
+          },
+          {
+            "field": "acquisition_type",
+            "label": "Acquisition Type",
+            "type": "text",
+            "is_editable": true
+          },
+          {
+            "field": "notes",
+            "label": "Notes",
+            "type": "textarea",
+            "is_editable": true
+          }
+        ]
+      },
+      {
+        "field": "metadata",
+        "label": "Metadata",
+        "ui_role": "metadata",
+        "type": "object",
+        "is_editable": false,
+        "fields": [
+          {
+            "field": "created_by_user_id",
+            "label": "Created By",
+            "type": "text"
+          },
+          {
+            "field": "created_at",
+            "label": "Created On",
+            "type": "datetime"
+          },
+          {
+            "field": "last_modified_at",
+            "label": "Last Modified",
+            "type": "datetime"
+          }
+        ]
+      }
+    ]
+  }, {
+    "entity": "concept",
+    "label": "Concept",
+    "fields": [
+      {
+        "field": "name",
+        "label": "Concept Name",
+        "ui_role": "title",
+        "type": "text",
+        "is_editable": true,
+        "is_required": true
+      },
+      {
+        "field": "description",
+        "label": "Description",
+        "ui_role": "subtitle",
+        "type": "textarea",
+        "is_editable": true
+      },
+      {
+        "field": "aliases",
+        "label": "Aliases",
+        "type": "tags_input",
+        "is_editable": true,
+        "placeholder": "Alternative names or search terms"
+      },
+      {
+        "field": "parent_concept",
+        "label": "Parent Concept",
+        "ui_role": "section_header",
+        "type": "reference_select",
+        "target_entity": "concept",
+        "is_editable": true,
+        "placeholder": "e.g., 'Cubism' has 'Modern Art' as a parent."
+      },
+      {
+        "field": "related_concepts",
+        "label": "Related Concepts",
+        "ui_role": "section_header",
+        "type": "array_of_references",
+        "target_entity": "concept",
+        "is_editable": true,
+        "placeholder": "e.g., 'Cold War' is related to 'The Space Race'."
+      },
+      {
+        "field": "metadata",
+        "label": "Metadata",
+        "ui_role": "metadata",
+        "type": "object",
+        "is_editable": false,
+        "fields": [
+          {
+            "field": "created_by_user_id",
+            "label": "Created By",
+            "type": "text"
+          },
+          {
+            "field": "created_at",
+            "label": "Created On",
+            "type": "datetime"
+          }
+        ]
+      }
+    ]
+  }, {
+    "entity": "article",
+    "label": "Article",
+    "fields": [
+      {
+        "field": "title",
+        "label": "Article Title",
+        "ui_role": "title",
+        "type": "text",
+        "is_editable": true,
+        "is_required": true
+      },
+      {
+        "field": "summary",
+        "label": "Summary",
+        "ui_role": "subtitle",
+        "type": "textarea",
+        "is_editable": true,
+        "placeholder": "A brief, one or two-sentence summary of the article's main points."
+      },
+      {
+        "field": "author",
+        "label": "Author",
+        "type": "text",
+        "is_editable": true
+      },
+      {
+        "field": "publisher",
+        "label": "Publisher",
+        "type": "text",
+        "is_editable": true
+      },
+      {
+        "field": "publication_date",
+        "label": "Publication Date",
+        "type": "datetime",
+        "is_editable": true
+      },
+      {
+        "field": "url",
+        "label": "URL",
+        "type": "url",
+        "is_editable": true
+      },
+      {
+        "field": "language",
+        "label": "Language",
+        "type": "text",
+        "is_editable": true,
+        "placeholder": "e.g., 'en' for English"
+      },
+      {
+        "field": "word_count",
+        "label": "Word Count",
+        "type": "number",
+        "is_editable": true
+      },
+      {
+        "field": "full_text_content",
+        "label": "Full Text Content",
+        "ui_role": "section_header",
+        "type": "richtext",
+        "is_editable": true,
+        "is_required": true
+      },
+      {
+        "field": "stories",
+        "label": "Associated Stories",
+        "ui_role": "section_header",
+        "type": "array_of_references",
+        "target_entity": "story",
+        "is_editable": true
+      },
+      {
+        "field": "scripts",
+        "label": "Associated Scripts",
+        "ui_role": "section_header",
+        "type": "array_of_references",
+        "target_entity": "script",
+        "is_editable": true
+      },
+      {
+        "field": "mentioned_entities",
+        "label": "Mentioned Entities (General)",
+        "ui_role": "section_header",
+        "type": "array_of_polymorphic_references",
+        "target_entities": ["Person", "Event", "Company", "Agency", "Organization", "Location"],
+        "is_editable": true
+      },
+      {
+        "field": "narrative_beats",
+        "label": "Narrative Beats",
+        "ui_role": "section_header",
+        "type": "array_of_objects",
+        "is_editable": true,
+        "fields": [
+          {
+            "field": "text_span",
+            "label": "Text Span",
+            "type": "object",
+            "is_editable": true,
+            "fields": [
+              {
+                "field": "start_index",
+                "label": "Start Index",
+                "type": "number",
+                "is_editable": true
+              },
+              {
+                "field": "end_index",
+                "label": "End Index",
+                "type": "number",
+                "is_editable": true
+              }
+            ]
+          },
+          {
+            "field": "event_id",
+            "label": "Related Event",
+            "type": "reference_select",
+            "target_entity": "event",
+            "is_editable": true
+          },
+          {
+            "field": "entities_involved",
+            "label": "Entities Involved",
+            "type": "array_of_polymorphic_references",
+            "target_entities": ["Person", "Company", "Agency", "Organization", "Location"],
+            "is_editable": true
+          },
+          {
+            "field": "segment_summary",
+            "label": "Segment Summary",
+            "type": "textarea",
+            "is_editable": true
+          }
+        ]
+      },
+      {
+        "field": "metadata",
+        "label": "Metadata",
+        "ui_role": "metadata",
+        "type": "object",
+        "is_editable": false,
+        "fields": [
+          {
+            "field": "created_by_user_id",
+            "label": "Created By",
+            "type": "text"
+          },
+          {
+            "field": "created_at",
+            "label": "Created On",
+            "type": "datetime"
+          },
+          {
+            "field": "last_modified_at",
+            "label": "Last Modified",
+            "type": "datetime"
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,312 @@
+[
+  {
+    "IGO": "NATO",
+    "COUNTRY_EN": "Albania",
+    "ISO_A3": "ALB",
+    "status": "Member State",
+    "currentlySuspended": null,
+    "joinDate": 2009,
+    "leftDate": "",
+    "membershipNotes": ""
+  },
+  {
+    "IGO": "NATO",
+    "COUNTRY_EN": "Belgium",
+    "ISO_A3": "BEL",
+    "status": "Member State",
+    "currentlySuspended": null,
+    "joinDate": 1949,
+    "leftDate": "",
+    "membershipNotes": ""
+  },
+  {
+    "IGO": "NATO",
+    "COUNTRY_EN": "Bulgaria",
+    "ISO_A3": "BGR",
+    "status": "Member State",
+    "currentlySuspended": null,
+    "joinDate": 2004,
+    "leftDate": "",
+    "membershipNotes": ""
+  },
+  {
+    "IGO": "NATO",
+    "COUNTRY_EN": "Canada",
+    "ISO_A3": "CAN",
+    "status": "Member State",
+    "currentlySuspended": null,
+    "joinDate": 1949,
+    "leftDate": "",
+    "membershipNotes": ""
+  },
+  {
+    "IGO": "NATO",
+    "COUNTRY_EN": "Croatia",
+    "ISO_A3": "HRV",
+    "status": "Member State",
+    "currentlySuspended": null,
+    "joinDate": 2009,
+    "leftDate": "",
+    "membershipNotes": ""
+  },
+  {
+    "IGO": "NATO",
+    "COUNTRY_EN": "Czechia",
+    "ISO_A3": "CZE",
+    "status": "Member State",
+    "currentlySuspended": null,
+    "joinDate": 1999,
+    "leftDate": "",
+    "membershipNotes": ""
+  },
+  {
+    "IGO": "NATO",
+    "COUNTRY_EN": "Denmark",
+    "ISO_A3": "DNK",
+    "status": "Member State",
+    "currentlySuspended": null,
+    "joinDate": 1949,
+    "leftDate": "",
+    "membershipNotes": ""
+  },
+  {
+    "IGO": "NATO",
+    "COUNTRY_EN": "Estonia",
+    "ISO_A3": "EST",
+    "status": "Member State",
+    "currentlySuspended": null,
+    "joinDate": 2004,
+    "leftDate": "",
+    "membershipNotes": ""
+  },
+  {
+    "IGO": "NATO",
+    "COUNTRY_EN": "Finland",
+    "ISO_A3": "FIN",
+    "status": "Member State",
+    "currentlySuspended": null,
+    "joinDate": 2023,
+    "leftDate": "",
+    "membershipNotes": ""
+  },
+  {
+    "IGO": "NATO",
+    "COUNTRY_EN": "France",
+    "ISO_A3": "FRA",
+    "status": "Member State",
+    "currentlySuspended": null,
+    "joinDate": 1949,
+    "leftDate": "",
+    "membershipNotes": ""
+  },
+  {
+    "IGO": "NATO",
+    "COUNTRY_EN": "Germany",
+    "ISO_A3": "DEU",
+    "status": "Member State",
+    "currentlySuspended": null,
+    "joinDate": 1955,
+    "leftDate": "",
+    "membershipNotes": ""
+  },
+  {
+    "IGO": "NATO",
+    "COUNTRY_EN": "Greece",
+    "ISO_A3": "GRC",
+    "status": "Member State",
+    "currentlySuspended": null,
+    "joinDate": 1952,
+    "leftDate": "",
+    "membershipNotes": ""
+  },
+  {
+    "IGO": "NATO",
+    "COUNTRY_EN": "Hungary",
+    "ISO_A3": "HUN",
+    "status": "Member State",
+    "currentlySuspended": null,
+    "joinDate": 1999,
+    "leftDate": "",
+    "membershipNotes": ""
+  },
+  {
+    "IGO": "NATO",
+    "COUNTRY_EN": "Italy",
+    "ISO_A3": "ITA",
+    "status": "Member State",
+    "currentlySuspended": null,
+    "joinDate": 1949,
+    "leftDate": "",
+    "membershipNotes": ""
+  },
+  {
+    "IGO": "NATO",
+    "COUNTRY_EN": "Latvia",
+    "ISO_A3": "LVA",
+    "status": "Member State",
+    "currentlySuspended": null,
+    "joinDate": 2004,
+    "leftDate": "",
+    "membershipNotes": ""
+  },
+  {
+    "IGO": "NATO",
+    "COUNTRY_EN": "Lithuania",
+    "ISO_A3": "LTU",
+    "status": "Member State",
+    "currentlySuspended": null,
+    "joinDate": 2004,
+    "leftDate": "",
+    "membershipNotes": ""
+  },
+  {
+    "IGO": "NATO",
+    "COUNTRY_EN": "Luxembourg",
+    "ISO_A3": "LUX",
+    "status": "Member State",
+    "currentlySuspended": null,
+    "joinDate": 1949,
+    "leftDate": "",
+    "membershipNotes": ""
+  },
+  {
+    "IGO": "NATO",
+    "COUNTRY_EN": "Montenegro",
+    "ISO_A3": "MNE",
+    "status": "Member State",
+    "currentlySuspended": null,
+    "joinDate": 2017,
+    "leftDate": "",
+    "membershipNotes": ""
+  },
+  {
+    "IGO": "NATO",
+    "COUNTRY_EN": "Netherlands",
+    "ISO_A3": "NLD",
+    "status": "Member State",
+    "currentlySuspended": null,
+    "joinDate": 1949,
+    "leftDate": "",
+    "membershipNotes": ""
+  },
+  {
+    "IGO": "NATO",
+    "COUNTRY_EN": "North Macedonia",
+    "ISO_A3": "MKD",
+    "status": "Member State",
+    "currentlySuspended": null,
+    "joinDate": 2020,
+    "leftDate": "",
+    "membershipNotes": ""
+  },
+  {
+    "IGO": "NATO",
+    "COUNTRY_EN": "Norway",
+    "ISO_A3": "NOR",
+    "status": "Member State",
+    "currentlySuspended": null,
+    "joinDate": 1949,
+    "leftDate": "",
+    "membershipNotes": ""
+  },
+  {
+    "IGO": "NATO",
+    "COUNTRY_EN": "Poland",
+    "ISO_A3": "POL",
+    "status": "Member State",
+    "currentlySuspended": null,
+    "joinDate": 1999,
+    "leftDate": "",
+    "membershipNotes": ""
+  },
+  {
+    "IGO": "NATO",
+    "COUNTRY_EN": "Portugal",
+    "ISO_A3": "PRT",
+    "status": "Member State",
+    "currentlySuspended": null,
+    "joinDate": 1949,
+    "leftDate": "",
+    "membershipNotes": ""
+  },
+  {
+    "IGO": "NATO",
+    "COUNTRY_EN": "Romania",
+    "ISO_A3": "ROU",
+    "status": "Member State",
+    "currentlySuspended": null,
+    "joinDate": 2004,
+    "leftDate": "",
+    "membershipNotes": ""
+  },
+  {
+    "IGO": "NATO",
+    "COUNTRY_EN": "Slovakia",
+    "ISO_A3": "SVK",
+    "status": "Member State",
+    "currentlySuspended": null,
+    "joinDate": 2004,
+    "leftDate": "",
+    "membershipNotes": ""
+  },
+  {
+    "IGO": "NATO",
+    "COUNTRY_EN": "Slovenia",
+    "ISO_A3": "SVN",
+    "status": "Member State",
+    "currentlySuspended": null,
+    "joinDate": 2004,
+    "leftDate": "",
+    "membershipNotes": ""
+  },
+  {
+    "IGO": "NATO",
+    "COUNTRY_EN": "Spain",
+    "ISO_A3": "ESP",
+    "status": "Member State",
+    "currentlySuspended": null,
+    "joinDate": 1982,
+    "leftDate": "",
+    "membershipNotes": ""
+  },
+  {
+    "IGO": "NATO",
+    "COUNTRY_EN": "Sweden",
+    "ISO_A3": "SWE",
+    "status": "Member State",
+    "currentlySuspended": null,
+    "joinDate": 2024,
+    "leftDate": "",
+    "membershipNotes": ""
+  },
+  {
+    "IGO": "NATO",
+    "COUNTRY_EN": "Turkey",
+    "ISO_A3": "TUR",
+    "status": "Member State",
+    "currentlySuspended": null,
+    "joinDate": 1952,
+    "leftDate": "",
+    "membershipNotes": ""
+  },
+  {
+    "IGO": "NATO",
+    "COUNTRY_EN": "United Kingdom of Great Britain and Northern Ireland",
+    "ISO_A3": "GBR",
+    "status": "Member State",
+    "currentlySuspended": null,
+    "joinDate": 1949,
+    "leftDate": "",
+    "membershipNotes": ""
+  },
+  {
+    "IGO": "NATO",
+    "COUNTRY_EN": "United States of America",
+    "ISO_A3": "USA",
+    "status": "Member State",
+    "currentlySuspended": null,
+    "joinDate": 1949,
+    "leftDate": "",
+    "membershipNotes": ""
+  }
+]

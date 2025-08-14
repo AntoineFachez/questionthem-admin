@@ -1,0 +1,769 @@
+[
+ {
+    "event_id": "",
+    "event_name": "",
+    "event_type": "",
+    "alternative_names": ["", ""],
+    "event_summary": "",
+    "start_date": "",
+    "end_date": "",
+    "start_time": null,
+    "end_time": null,
+    "duration": null,
+    "time_zone": "",
+    "primary_location": {
+      "location_id": "",
+      "name": "",
+      "coords": {
+        "lat": 0,
+        "lng": 0
+      },
+      "address": {
+        "street": "",
+        "city": "",
+        "state_province": "",
+        "zip_code": "",
+        "country": ""
+      },
+      "description": "."
+    },
+    "involved_locations": [
+      {
+        "location_id": "",
+        "name": "",
+        "coords": {
+          "lat": 0,
+          "lng": 0
+        },
+        "address": {
+          "street": "",
+          "city": "",
+          "state_province": "",
+          "zip_code": "",
+          "country": ""
+        },
+        "description": "",
+        "role_in_event": ""
+      }
+    ],
+    "priority": "",
+    "description": "",
+    "background_context": "",
+    "consequences_impact": "",
+    "category_tags": [""],
+    "people_involved": [
+      {
+        "person_id": "",
+        "role": "",
+        "specific_actions": [""],
+        "involvement_start_date": "",
+        "involvement_end_date": "",
+        "impact_on_person": "",
+        "relationship_to_event": {
+          "type": "",
+          "description": ""
+        },
+        "notes": ""
+      },
+      {
+        "person_id": "",
+        "role": "",
+        "specific_actions": [""],
+        "involvement_start_date": "",
+        "involvement_end_date": "",
+        "impact_on_person": "",
+        "relationship_to_event": {
+          "type": "",
+          "description": "."
+        },
+        "notes": ""
+      },
+      {
+        "person_id": "",
+        "role": "",
+        "specific_actions": [""],
+        "involvement_start_date": "",
+        "involvement_end_date": "",
+        "impact_on_person": "",
+        "relationship_to_event": {
+          "type": "",
+          "description": "."
+        },
+        "notes": "."
+      },
+      {
+        "person_id": "",
+        "role": "",
+        "specific_actions": [""],
+        "involvement_start_date": "",
+        "involvement_end_date": "",
+        "impact_on_person": "",
+        "relationship_to_event": {
+          "type": "",
+          "description": "."
+        },
+        "notes": ""
+      },
+      {
+        "person_id": "",
+        "role": "",
+        "specific_actions": [],
+        "involvement_start_date": null,
+        "involvement_end_date": null,
+        "impact_on_person": "",
+        "relationship_to_event": {
+          "type": "",
+          "description": "."
+        },
+        "notes": ""
+      },
+      {
+        "person_id": "",
+        "role": "",
+        "specific_actions": [],
+        "involvement_start_date": null,
+        "involvement_end_date": null,
+        "impact_on_person": "",
+        "relationship_to_event": {
+          "type": "",
+          "description": "."
+        },
+        "notes": ""
+      },
+      {
+        "person_id": "",
+        "role": "",
+        "specific_actions": [""],
+        "involvement_start_date": null,
+        "involvement_end_date": null,
+        "impact_on_person": "",
+        "relationship_to_event": {
+          "type": "",
+          "description": ""
+        },
+        "notes": ""
+      }
+    ],
+    "organizations_involved": [
+      {
+        "organization_id": "",
+        "name": "",
+        "type": "",
+        "role": "",
+        "specific_actions": ["", ""],
+        "involved_branches": [],
+        "impact_on_organization": "",
+        "notes": "."
+      }
+    ],
+    "companies_involved": [
+      {
+        "company_id": "",
+        "name": "",
+        "role": "",
+        "specific_actions": [""],
+        "involved_branches": [],
+        "impact_on_company": "",
+        "notes": ""
+      }
+    ],
+    "agencies_involved": [
+      {
+        "agency_id": "",
+        "name": "",
+        "role": "",
+        "specific_actions": [""],
+        "involved_branches": [],
+        "impact_on_agency": "",
+        "notes": ""
+      }
+    ],
+    "related_events": [
+      {
+        "event_id": "",
+        "relation_type": "",
+        "description": ""
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "",
+        "type": "",
+        "title": "",
+        "author_editor": "",
+        "publication_date": "",
+        "url": "",
+        "notes": "."
+      }
+    ],
+    "media_gallery": {
+      "articles": [],
+      "videos": [
+        {
+          "media_id": "",
+          "type": "",
+          "title": "",
+          "url": "",
+          "upload_date": "",
+          "channel_creator": "",
+          "duration_seconds": null,
+          "description": "."
+        }
+      ],
+      "images": [],
+      "audio": []
+    },
+    "event_phases": [
+      {
+        "phase_name": "",
+        "start_date": "",
+        "end_date": "",
+        "description": "",
+        "key_developments": [""],
+        "involved_actors_ids": [""],
+        "locations_involved_ids": [""]
+      },
+      {
+        "phase_name": "",
+        "start_date": "",
+        "end_date": "",
+        "description": "",
+        "key_developments": ["", "", ""],
+        "involved_actors_ids": [""],
+        "locations_involved_ids": [""]
+      }
+    ],
+    "outcomes": [
+      {
+        "outcome_type": "",
+        "description": "",
+        "date_achieved": "",
+        "key_figures_involved_ids": [""]
+      }
+    ],
+    "classification": {
+      "domain": "",
+      "sub_domain": "",
+      "confidence_level": "",
+      "notes": ""
+    },
+    "creation_metadata": {
+      "created_by_person_id": "",
+      "creation_date": "",
+      "last_modified_by_person_id": "",
+      "last_modified_date": ""
+    }
+  },
+
+ {
+  "person_id": "",
+  "name": "",
+  "person_name_long": "",
+  "person_name_short": "",
+  "person_initials": "",
+  "first_name": "",
+  "middle_name": "",
+  "last_name": "",
+  "nick_names": [],
+  "neé_name": "",
+  "current_status": [
+    {
+      "state": "",
+      "start_Date": null
+    }
+  ],
+  "biography_summary": "",
+  "spouses": [
+    {
+      "name": "",
+      "person_id": "",
+      "marriage_date": null,
+      "divorce_date": null,
+      "end_reason": "",
+      "children_with_spouse": [
+        {
+          "name": "",
+          "person_id": ""
+        }
+      ],
+      "notes": ""
+    }
+  ],
+  "earlyLife": [
+    {
+      "type": "",
+      "date": null,
+      "start_date": null,
+      "end_date": null,
+      "location": {
+        "city": "",
+        "state_province": "",
+        "country": ""
+      },
+      "description": ""
+    }
+  ],
+  "educations": [
+    {
+      "institution_name": "",
+      "degree": "",
+      "field_of_study": "",
+      "start_date": null,
+      "end_date": null,
+      "graduation_date": null,
+      "honors": "",
+      "location": {
+        "city": "",
+        "state_province": "",
+        "country": ""
+      },
+      "notes": ""
+    }
+  ],
+  "career_history": [
+    {
+      "organization": "",
+      "position": "",
+      "start_date": null,
+      "end_date": null,
+      "responsibilities": [],
+      "industry": "",
+      "notes": ""
+    }
+  ],
+  "parents": [
+    {
+      "name": "",
+      "person_id": ""
+    }
+  ],
+  "children": [
+    {
+      "name": "",
+      "person_id": ""
+    }
+  ],
+  "siblings": [
+    {
+      "name": "",
+      "person_id": ""
+    }
+  ],
+  "contact_info": {
+    "email": "",
+    "phone_numbers": [],
+    "addresses": [],
+    "social_media_profiles": []
+  },
+  "skills": [],
+  "awards_and_recognitions": [],
+  "controversies": [
+    {
+      "messenger": "",
+      "messenger_id": "",
+      "content": "",
+      "event_id": ""
+    }
+  ],
+  "assets": [
+    {
+      "owner_type": "",
+      "owner_id": "",
+      "start_date": null,
+      "end_date": null,
+      "buy_price": null,
+      "sell_price": null,
+      "coords": [
+        {
+          "lat": null,
+          "lng": null
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "created_by_user_id": "",
+    "created_at": null,
+    "last_modified_at": null
+  }
+},{
+    "company_id": "",
+    "company_name": "",
+    "start_date": "",
+    "end_date": null,
+    "priority": null,
+    "coords": {
+      "lat": null,
+      "lng": null
+    },
+    "description": "",
+    "wikipedia": "",
+    "holding": "",
+    "head_offices": [
+      {
+        "head_office_id": "",
+        "coords": {
+          "lat": null,
+          "lng": null
+        },
+        "head_office_manager": {
+          "person_id": null
+        },
+        "branch_offices": []
+      }
+    ],
+    "people_involved": [
+      {
+        "person_id": "",
+        "name": "",
+        "first_name": "",
+        "middle_name": null,
+        "last_name": "",
+        "reason_of_involvement": ""
+      }
+    ],
+    "companies_involved": [
+      {
+        "company_id": "",
+        "company_name": "",
+        "reason_of_involvement": ""
+      }
+    ],
+    "company_history": [
+      {
+        "start_date": "",
+        "end_date": "",
+        "industry": "",
+        "notes": ""
+      }
+    ],
+    "contact_info": {
+      "urls": [
+        {
+          "type": "",
+          "url": ""
+        }
+      ],
+      "email": "",
+      "phone_numbers": [
+        {
+          "type": "",
+          "number": ""
+        }
+      ],
+      "addresses": [],
+      "social_media_profiles": ""
+    },
+    "controversies": [
+      {
+        "messenger": "",
+        "messenger_id": "",
+        "content": "",
+        "event_id": ""
+      }
+    ],
+    "assets": [
+      {
+        "owner_type": "",
+        "owner_id": "",
+        "start_date": "",
+        "end_date": null,
+        "buy_price": null,
+        "sell_price": null,
+        "coords": [
+          {
+            "lat": null,
+            "lng": null
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "created_by_user_id": "",
+      "created_at": null,
+      "last_modified_at": null
+    }
+  },{
+    "administration_id": "",
+    "name": "",
+    "governing_body_name": "",
+    "iso_a3": "",
+    "leader_person_id": "",
+    "leader_title": "",
+    "term_identifier": "",
+    "term_start_date": null,
+    "term_end_date": null,
+    "political_party": "",
+    "key_officials": [
+      {
+        "person_id": "",
+        "role": "",
+        "start_date": null,
+        "end_date": null,
+        "reason": ""
+      }
+    ]
+  },{
+    "agency_id": "",
+    "agency_name": "",
+    "start_date": null,
+    "end_date": null,
+    "priority": null,
+    "coords": {
+      "lat": null,
+      "lng": null
+    },
+    "description": "",
+    "wikipedia": "",
+    "people_involved": [
+      {
+        "person_id": "",
+        "reason_of_involvement": ""
+      }
+    ],
+    "companies_involved": [
+      {
+        "company_id": "",
+        "head_office_id": "",
+        "involved_branch_id": "",
+        "reason_of_involvement": ""
+      }
+    ],
+    "agencies_involved": [
+      {
+        "agency_id": "",
+        "head_office_id": "",
+        "involved_branch_id": "",
+        "reason_of_involvement": ""
+      }
+    ],
+    "organizations_involved": [
+      {
+        "organization_id": "",
+        "head_office_id": "",
+        "involved_branch_id": "",
+        "reason_of_involvement": ""
+      }
+    ],
+    "controversies": [],
+    "assets": [],
+    "contact_info": {
+      "email": "",
+      "phone_numbers": [],
+      "addresses": []
+    },
+    "metadata": {
+      "created_by_user_id": "",
+      "created_at": null,
+      "last_modified_at": null
+    }
+  },{
+    "story_id": "",
+    "story_name": "",
+    "priority": null,
+    "description": "",
+    "scripts": [],
+    "metadata": {
+      "created_by_user_id": "",
+      "created_at": null,
+      "last_modified_at": null
+    }
+  }, {
+    "script_id": "",
+    "script_name": "",
+    "priority": null,
+    "description": "",
+    "target_length": {
+      "value": null,
+      "unit": ""
+    },
+    "latLngBounds": {
+      "north": null,
+      "south": null,
+      "west": null,
+      "east": null
+    },
+    "stories": [
+      {
+        "story_id": ""
+      }
+    ],
+    "events": [],
+    "metadata": {
+      "created_by_user_id": "",
+      "created_at": null,
+      "last_modified_at": null
+    }
+  }, {
+    "video_id": "",
+    "video_name": "",
+    "completed_timeStamp": null,
+    "first_publish_timeStamp": null,
+    "private": false,
+    "length": "",
+    "description": "",
+    "summary": "",
+    "topics": [],
+    "stories": [],
+    "scripts": [],
+    "owner": null,
+    "cut_downs": [],
+    "video_segments": [
+      {
+        "time_period": {
+          "start_time": "",
+          "end_time": ""
+        },
+        "event_id": "",
+        "entities_involved": [],
+        "description": ""
+      }
+    ],
+    "crew": [
+      {
+        "person_id": "",
+        "role": ""
+      }
+    ],
+    "metadata": {
+      "created_by_user_id": "",
+      "created_at": null,
+      "last_modified_at": null
+    }
+  }, {
+    "location_id": "",
+    "name": "",
+    "coords": {
+      "lat": null,
+      "lng": null
+    },
+    "address": {
+      "street": "",
+      "city": "",
+      "state_province": "",
+      "zip_code": "",
+      "country": ""
+    },
+    "landmarks": [],
+    "events": [],
+    "metadata": {
+      "created_by_user_id": "",
+      "created_at": null,
+      "last_modified_at": null
+    }
+  }
+, {
+    "user_id": "",
+    "username": "",
+    "email": "",
+    "password_hash": "",
+    "profile_picture_url": null,
+    "last_login_at": null,
+    "account_status": null,
+    "person_id": "",
+    "created_stories": [],
+    "created_scripts": [],
+    "contributions": [
+      {
+        "entity_id": "",
+        "entity_type": "",
+        "contribution_type": "",
+        "timestamp": null
+      }
+    ],
+    "watch_history": [
+      {
+        "video_id": "",
+        "watched_at": null,
+        "progress_seconds": null
+      }
+    ],
+    "bookmarks": [],
+    "metadata": {
+      "created_at": null
+    }
+  }
+, {
+    "source_id": "",
+    "title": "",
+    "source_type": "",
+    "publication_date": null,
+    "url": null,
+    "author_creator": null,
+    "publisher": null,
+    "snippet": null,
+    "language": null,
+    "author_person_id": null,
+    "mentioned_entities": [],
+    "metadata": {
+      "created_by_user_id": "",
+      "created_at": null,
+      "last_modified_at": null
+    }
+  }
+  ,
+  {
+    "asset_id": "",
+    "name": "",
+    "asset_type": "",
+    "description": "",
+    "creation_date": null,
+    "current_owner": null,
+    "current_location": null,
+    "provenance_history": [
+      {
+        "owner_id": null,
+        "start_date": null,
+        "end_date": null,
+        "acquisition_type": null,
+        "notes": null
+      }
+    ],
+    "metadata": {
+      "created_by_user_id": "",
+      "created_at": null,
+      "last_modified_at": null
+    }
+  }, {
+    "concept_id": "",
+    "name": "",
+    "aliases": [],
+    "description": "",
+    "parent_concept": null,
+    "related_concepts": [],
+    "metadata": {
+      "created_by_user_id": null,
+      "created_at": null
+    }
+  },{
+    "article_id": "",
+    "title": "",
+    "author": null,
+    "publication_date": null,
+    "url": null,
+    "publisher": null,
+    "full_text_content": "",
+    "summary": null,
+    "language": null,
+    "word_count": null,
+    "stories": [],
+    "scripts": [],
+    "mentioned_entities": [],
+    "narrative_beats": [
+      {
+        "text_span": {
+          "start_index": null,
+          "end_index": null
+        },
+        "event_id": null,
+        "entities_involved": [],
+        "segment_summary": null
+      }
+    ],
+    "metadata": {
+      "created_by_user_id": "",
+      "created_at": null,
+      "last_modified_at": null
+    }
+  }
+]

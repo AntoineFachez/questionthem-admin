@@ -1,0 +1,178 @@
+[
+  {
+    "iso_3166_country_code_alpha_2": "FR",
+    "iso_3166_subdivision_code": "A",
+    "country_EN": "France",
+    "state_EN": "Alsace",
+    "subdivision": "Metropolitan region",
+    "state_FR": "Alsace"
+  },
+  {
+    "iso_3166_country_code_alpha_2": "FR",
+    "iso_3166_subdivision_code": "B",
+    "country_EN": "France",
+    "state_EN": "Aquitaine",
+    "subdivision": "Metropolitan region",
+    "state_FR": "Aquitaine"
+  },
+  {
+    "iso_3166_country_code_alpha_2": "FR",
+    "iso_3166_subdivision_code": "C",
+    "country_EN": "France",
+    "state_EN": "Auvergne",
+    "subdivision": "Metropolitan region",
+    "state_FR": "Auvergne"
+  },
+  {
+    "iso_3166_country_code_alpha_2": "FR",
+    "iso_3166_subdivision_code": "E",
+    "country_EN": "France",
+    "state_EN": "Brittany",
+    "subdivision": "Metropolitan region",
+    "state_FR": "Bretagne"
+  },
+  {
+    "iso_3166_country_code_alpha_2": "FR",
+    "iso_3166_subdivision_code": "D",
+    "country_EN": "France",
+    "state_EN": "Burgundy",
+    "subdivision": "Metropolitan region",
+    "state_FR": "Bourgogne"
+  },
+  {
+    "iso_3166_country_code_alpha_2": "FR",
+    "iso_3166_subdivision_code": "F",
+    "country_EN": "France",
+    "state_EN": "Centre-Val de Loire",
+    "subdivision": "Metropolitan region",
+    "state_FR": "Centre"
+  },
+  {
+    "iso_3166_country_code_alpha_2": "FR",
+    "iso_3166_subdivision_code": "G",
+    "country_EN": "France",
+    "state_EN": "Champagne-Ardenne",
+    "subdivision": "Metropolitan region",
+    "state_FR": "Champagne-Ardenne"
+  },
+  {
+    "iso_3166_country_code_alpha_2": "FR",
+    "iso_3166_subdivision_code": "H",
+    "country_EN": "France",
+    "state_EN": "Corsica",
+    "subdivision": "Metropolitan region",
+    "state_FR": "Corse"
+  },
+  {
+    "iso_3166_country_code_alpha_2": "FR",
+    "iso_3166_subdivision_code": "I",
+    "country_EN": "France",
+    "state_EN": "Franche-Comté",
+    "subdivision": "Metropolitan region",
+    "state_FR": "Franche-Comté"
+  },
+  {
+    "iso_3166_country_code_alpha_2": "FR",
+    "iso_3166_subdivision_code": "K",
+    "country_EN": "France",
+    "state_EN": "Languedoc-Roussillon",
+    "subdivision": "Metropolitan region",
+    "state_FR": "Languedoc-Roussillon"
+  },
+  {
+    "iso_3166_country_code_alpha_2": "FR",
+    "iso_3166_subdivision_code": "L",
+    "country_EN": "France",
+    "state_EN": "Limousin",
+    "subdivision": "Metropolitan region",
+    "state_FR": "Limousin"
+  },
+  {
+    "iso_3166_country_code_alpha_2": "FR",
+    "iso_3166_subdivision_code": "M",
+    "country_EN": "France",
+    "state_EN": "Lorraine",
+    "subdivision": "Metropolitan region",
+    "state_FR": "Lorraine"
+  },
+  {
+    "iso_3166_country_code_alpha_2": "FR",
+    "iso_3166_subdivision_code": "P",
+    "country_EN": "France",
+    "state_EN": "Lower Normandy",
+    "subdivision": "Metropolitan region",
+    "state_FR": "Basse-Normandie"
+  },
+  {
+    "iso_3166_country_code_alpha_2": "FR",
+    "iso_3166_subdivision_code": "N",
+    "country_EN": "France",
+    "state_EN": "Midi-Pyrénées",
+    "subdivision": "Metropolitan region",
+    "state_FR": "Midi-Pyrénées"
+  },
+  {
+    "iso_3166_country_code_alpha_2": "FR",
+    "iso_3166_subdivision_code": "O",
+    "country_EN": "France",
+    "state_EN": "Nord-Pas-de-Calais",
+    "subdivision": "Metropolitan region",
+    "state_FR": "Nord-Pas-de-Calais"
+  },
+  {
+    "iso_3166_country_code_alpha_2": "FR",
+    "iso_3166_subdivision_code": "R",
+    "country_EN": "France",
+    "state_EN": "Pays de la Loire",
+    "subdivision": "Metropolitan region",
+    "state_FR": "Pays de la Loire"
+  },
+  {
+    "iso_3166_country_code_alpha_2": "FR",
+    "iso_3166_subdivision_code": "S",
+    "country_EN": "France",
+    "state_EN": "Picardy",
+    "subdivision": "Metropolitan region",
+    "state_FR": "Picardie"
+  },
+  {
+    "iso_3166_country_code_alpha_2": "FR",
+    "iso_3166_subdivision_code": "T",
+    "country_EN": "France",
+    "state_EN": "Poitou-Charentes",
+    "subdivision": "Metropolitan region",
+    "state_FR": "Poitou-Charentes"
+  },
+  {
+    "iso_3166_country_code_alpha_2": "FR",
+    "iso_3166_subdivision_code": "U",
+    "country_EN": "France",
+    "state_EN": "Provence-Alpes-Côte d'Azur",
+    "subdivision": "Metropolitan region",
+    "state_FR": "Provence-Alpes-Côte d'Azur"
+  },
+  {
+    "iso_3166_country_code_alpha_2": "FR",
+    "iso_3166_subdivision_code": "V",
+    "country_EN": "France",
+    "state_EN": "Rhône-Alpes",
+    "subdivision": "Metropolitan region",
+    "state_FR": "Rhône-Alpes"
+  },
+  {
+    "iso_3166_country_code_alpha_2": "FR",
+    "iso_3166_subdivision_code": "Q",
+    "country_EN": "France",
+    "state_EN": "Upper Normandy",
+    "subdivision": "Metropolitan region",
+    "state_FR": "Haute-Normandie"
+  },
+  {
+    "iso_3166_country_code_alpha_2": "FR",
+    "iso_3166_subdivision_code": "J",
+    "country_EN": "France",
+    "state_EN": "Île-de-France",
+    "subdivision": "Metropolitan region",
+    "state_FR": "Île-de-France"
+  }
+]
