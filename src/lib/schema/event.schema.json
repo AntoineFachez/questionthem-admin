@@ -1,0 +1,94 @@
+{
+  "title": "Journalistic Event",
+  "type": "object",
+  "description": "Represents a discrete, real-world occurrence with factual details.",
+  "properties": {
+    "eventId": {
+      "description": "A unique identifier for the event.",
+      "type": "string"
+    },
+    "title": {
+      "description": "A concise, descriptive title of the event (e.g., 'Fire at City Hall', 'Treaty Signing').",
+      "type": "string"
+    },
+    "timestamp": {
+      "description": "The exact date and time of the event.",
+      "type": "string",
+      "format": "date-time"
+    },
+    "location": {
+      "description": "The physical location where the event took place.",
+      "type": "object",
+      "properties": {
+        "address": { "type": "string" },
+        "city": { "type": "string" },
+        "country": { "type": "string" },
+        "coordinates": {
+          "description": "Geographical coordinates (latitude and longitude).",
+          "type": "object",
+          "properties": {
+            "latitude": { "type": "number" },
+            "longitude": { "type": "number" }
+          }
+        }
+      },
+      "required": ["address", "city", "country"]
+    },
+    "actors": {
+      "description": "A list of people, organizations, or agencies involved in the event.",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "actorId": {
+            "description": "The unique ID of the actor (person, company, agency, etc.).",
+            "type": "string"
+          },
+          "actorType": {
+            "description": "The type of entity (e.g., 'person', 'company', 'agency').",
+            "type": "string"
+          },
+          "roleInEvent": {
+            "description": "The actor's specific role in this event (e.g., 'witness', 'suspect', 'spokesperson').",
+            "type": "string"
+          }
+        },
+        "required": ["actorId", "actorType", "roleInEvent"]
+      }
+    },
+    "description": {
+      "description": "A factual summary of what happened during the event.",
+      "type": "string"
+    },
+    "outcomes": {
+      "description": "A list of immediate or significant outcomes of the event.",
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "sources": {
+      "description": "A list of verifiable sources or evidence for the event.",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "sourceId": {
+            "type": "string"
+          },
+          "sourceType": {
+            "description": "Type of source (e.g., 'news_article', 'official_report', 'eyewitness').",
+            "type": "string"
+          },
+          "url": {
+            "description": "URL to the source material.",
+            "type": "string",
+            "format": "uri"
+          }
+        },
+        "required": ["sourceId", "sourceType"]
+      }
+    }
+  },
+  "required": ["eventId", "title", "timestamp", "location", "description"]
+}

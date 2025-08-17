@@ -1,0 +1,77 @@
+{
+  "title": "Video Asset",
+  "type": "object",
+  "description": "Represents a published media artifact (e.g., a video, podcast, or theater piece) that is based on a specific script.",
+  "properties": {
+    "videoId": {
+      "description": "A unique identifier for the video asset.",
+      "type": "string"
+    },
+    "title": {
+      "description": "The title of the published video.",
+      "type": "string"
+    },
+    "description": {
+      "description": "A brief description of the video content.",
+      "type": "string"
+    },
+    "mediaType": {
+      "description": "The type of media asset (e.g., 'video', 'podcast', 'theater_piece').",
+      "type": "string",
+      "enum": ["video", "podcast", "theater_piece"]
+    },
+    "url": {
+      "description": "The URL or path to the published media file.",
+      "type": "string",
+      "format": "uri"
+    },
+    "thumbnailUrl": {
+      "description": "The URL for a thumbnail or cover image of the media.",
+      "type": "string",
+      "format": "uri"
+    },
+    "durationInSeconds": {
+      "description": "The total duration of the media in seconds.",
+      "type": "number"
+    },
+    "storyId": {
+      "description": "A foreign key linking to the parent story.",
+      "type": "string"
+    },
+    "scriptId": {
+      "description": "A foreign key linking to the specific script this video is based on.",
+      "type": "string"
+    },
+    "publicationInfo": {
+      "description": "Information regarding the publication state of the video.",
+      "type": "object",
+      "properties": {
+        "status": {
+          "description": "The current publication status.",
+          "type": "string",
+          "enum": ["draft", "published", "edited", "archived"]
+        },
+        "publishedAt": {
+          "description": "The timestamp when the video was first published.",
+          "type": "string",
+          "format": "date-time"
+        },
+        "lastEditedAt": {
+          "description": "The timestamp of the last edit to the published video.",
+          "type": "string",
+          "format": "date-time"
+        }
+      },
+      "required": ["status"]
+    }
+  },
+  "required": [
+    "videoId",
+    "title",
+    "mediaType",
+    "url",
+    "storyId",
+    "scriptId",
+    "publicationInfo"
+  ]
+}

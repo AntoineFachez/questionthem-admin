@@ -1,0 +1,74 @@
+{
+  "organizationProfile": {
+    "entities": [
+      {
+        "name": "Organization",
+        "description": "The main entity storing core information about a non-governmental organization, non-profit, or similar entity.",
+        "properties": [
+          {
+            "name": "organization_id",
+            "type": "string",
+            "description": "Unique identifier for the organization."
+          },
+          { "name": "organization_name", "type": "string" },
+          { "name": "acronym", "type": "string" },
+          { "name": "website", "type": "string" },
+          { "name": "mission_statement", "type": "string" },
+          { "name": "legal_status", "type": "string" },
+          { "name": "founding_date", "type": "timestamp" }
+        ]
+      },
+      {
+        "name": "OrganizationContactInfo",
+        "description": "Contact details including phone numbers, emails, and physical addresses.",
+        "properties": [
+          { "name": "contact_id", "type": "string" },
+          {
+            "name": "organization_id",
+            "type": "string",
+            "description": "Foreign key to Organization."
+          },
+          {
+            "name": "type",
+            "type": "string",
+            "description": "e.g., email, phone, address."
+          },
+          { "name": "value", "type": "string" },
+          { "name": "notes", "type": "string" }
+        ]
+      },
+      {
+        "name": "KeyPersonnel",
+        "description": "A relationship table linking an organization to its key leadership.",
+        "properties": [
+          { "name": "personnel_id", "type": "string" },
+          {
+            "name": "organization_id",
+            "type": "string",
+            "description": "Foreign key to Organization."
+          },
+          {
+            "name": "person_id",
+            "type": "string",
+            "description": "Foreign key to Person."
+          },
+          { "name": "role", "type": "string" }
+        ]
+      }
+    ],
+    "relationships": [
+      {
+        "from": "Organization",
+        "to": "OrganizationContactInfo",
+        "type": "one-to-many",
+        "description": "An organization can have multiple contact details."
+      },
+      {
+        "from": "Organization",
+        "to": "KeyPersonnel",
+        "type": "one-to-many",
+        "description": "An organization has many key personnel."
+      }
+    ]
+  }
+}

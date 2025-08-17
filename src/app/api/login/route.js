@@ -1,7 +1,7 @@
 // app/api/login/route.js
 
-import admin from 'firebase-admin';
-import { NextResponse } from 'next/server';
+import { NextResponse } from "next/server";
+import admin from "firebase-admin";
 
 // Initialize the Firebase Admin SDK only once, and only if the environment variable exists.
 // The check `process.env.FIREBASE_SERVICE_ACCOUNT_KEY` prevents the build from crashing.
@@ -14,7 +14,7 @@ if (!admin.apps.length && process.env.FIREBASE_SERVICE_ACCOUNT_KEY) {
       credential: admin.credential.cert(serviceAccountKey),
     });
   } catch (error) {
-    console.error('Firebase Admin SDK initialization error:', error);
+    console.error("Firebase Admin SDK initialization error:", error);
     // You should handle this error appropriately in a production app.
   }
 }
@@ -26,7 +26,7 @@ export async function POST(req) {
   // If the Admin SDK failed to initialize, return an error.
   if (!admin.apps.length) {
     return NextResponse.json(
-      { message: 'Server configuration error.' },
+      { message: "Server configuration error." },
       { status: 500 }
     );
   }
@@ -36,7 +36,7 @@ export async function POST(req) {
 
     if (!email || !password) {
       return NextResponse.json(
-        { message: 'Email and password are required.' },
+        { message: "Email and password are required." },
         { status: 400 }
       );
     }
@@ -46,14 +46,14 @@ export async function POST(req) {
 
     return NextResponse.json({ customToken }, { status: 200 });
   } catch (error) {
-    console.error('Login process failed:', error);
+    console.error("Login process failed:", error);
 
-    let errorMessage = 'An error occurred during login.';
+    let errorMessage = "An error occurred during login.";
     if (
-      error.code === 'auth/user-not-found' ||
-      error.code === 'auth/invalid-credential'
+      error.code === "auth/user-not-found" ||
+      error.code === "auth/invalid-credential"
     ) {
-      errorMessage = 'Invalid email or password.';
+      errorMessage = "Invalid email or password.";
     }
 
     return NextResponse.json({ message: errorMessage }, { status: 401 });

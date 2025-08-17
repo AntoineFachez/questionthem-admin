@@ -1,0 +1,102 @@
+{
+  "scriptProfile": {
+    "entities": [
+      {
+        "name": "VideoScript",
+        "description": "The main entity storing general information about the script.",
+        "properties": [
+          {
+            "name": "script_id",
+            "type": "string",
+            "description": "Unique identifier for the script."
+          },
+          { "name": "title", "type": "string" },
+          { "name": "author", "type": "string" },
+          { "name": "version", "type": "string" },
+          { "name": "total_duration_estimate", "type": "number" }
+        ]
+      },
+      {
+        "name": "ScriptCharacter",
+        "description": "A list of all characters in the script.",
+        "properties": [
+          {
+            "name": "character_id",
+            "type": "string",
+            "description": "A unique identifier for the character."
+          },
+          { "name": "name", "type": "string" }
+        ]
+      },
+      {
+        "name": "Scene",
+        "description": "The main body of the script, broken down into scenes.",
+        "properties": [
+          {
+            "name": "scene_id",
+            "type": "string",
+            "description": "A unique identifier for the scene."
+          },
+          {
+            "name": "script_id",
+            "type": "string",
+            "description": "Foreign key to VideoScript."
+          },
+          { "name": "scene_number", "type": "number" },
+          { "name": "location", "type": "string" },
+          { "name": "duration_estimate", "type": "number" },
+          { "name": "visuals", "type": "string" }
+        ]
+      },
+      {
+        "name": "AudioEvent",
+        "description": "Dialogue, voice-overs, and sound effects for a scene.",
+        "properties": [
+          {
+            "name": "audio_event_id",
+            "type": "string",
+            "description": "A unique identifier for the audio event."
+          },
+          {
+            "name": "scene_id",
+            "type": "string",
+            "description": "Foreign key to Scene."
+          },
+          {
+            "name": "character_id",
+            "type": "string",
+            "description": "Foreign key to ScriptCharacter."
+          },
+          { "name": "dialogue", "type": "string" },
+          { "name": "sound_effects", "type": "string" }
+        ]
+      }
+    ],
+    "relationships": [
+      {
+        "from": "VideoScript",
+        "to": "Scene",
+        "type": "one-to-many",
+        "description": "A video script is composed of many scenes."
+      },
+      {
+        "from": "VideoScript",
+        "to": "ScriptCharacter",
+        "type": "one-to-many",
+        "description": "A video script contains many characters."
+      },
+      {
+        "from": "Scene",
+        "to": "AudioEvent",
+        "type": "one-to-many",
+        "description": "A scene has many audio events."
+      },
+      {
+        "from": "AudioEvent",
+        "to": "ScriptCharacter",
+        "type": "many-to-one",
+        "description": "An audio event is associated with a single character."
+      }
+    ]
+  }
+}

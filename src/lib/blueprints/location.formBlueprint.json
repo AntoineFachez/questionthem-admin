@@ -1,0 +1,91 @@
+{
+  "title": "Location Profile",
+  "description": "Blueprint for a physical or geographical location.",
+  "sections": [
+    {
+      "sectionTitle": "Core Information",
+      "description": "Fundamental details to identify the location.",
+      "fields": [
+        {
+          "name": "locationId",
+          "label": "Location ID",
+          "type": "string",
+          "description": "Unique identifier for the location."
+        },
+        {
+          "name": "name",
+          "label": "Name",
+          "type": "text",
+          "placeholder": "e.g., Eiffel Tower, New York City",
+          "required": true
+        },
+        {
+          "name": "type",
+          "label": "Type",
+          "type": "string",
+          "placeholder": "e.g., city, building, country",
+          "required": true
+        },
+        {
+          "name": "isGeospatial",
+          "label": "Is Geospatial",
+          "type": "boolean",
+          "description": "Check if the location has geographical coordinates."
+        },
+        {
+          "name": "parentLocationId",
+          "label": "Parent Location ID",
+          "type": "string",
+          "description": "The unique identifier of the larger, containing location.",
+          "required": false
+        }
+      ]
+    },
+    {
+      "sectionTitle": "Geographical Details",
+      "description": "Specific address and coordinate information.",
+      "fields": [
+        {
+          "name": "address",
+          "label": "Address",
+          "type": "object",
+          "properties": [
+            {
+              "name": "streetAddress",
+              "label": "Street Address",
+              "type": "text"
+            },
+            { "name": "city", "label": "City", "type": "text" },
+            { "name": "state", "label": "State/Province", "type": "text" },
+            {
+              "name": "postalCode",
+              "label": "Postal/ZIP Code",
+              "type": "text"
+            },
+            { "name": "country", "label": "Country", "type": "text" }
+          ]
+        },
+        {
+          "name": "coordinates",
+          "label": "Coordinates",
+          "type": "object",
+          "properties": [
+            {
+              "name": "latitude",
+              "label": "Latitude",
+              "type": "number",
+              "placeholder": "e.g., 48.8584"
+            },
+            {
+              "name": "longitude",
+              "label": "Longitude",
+              "type": "number",
+              "placeholder": "e.g., 2.2945"
+            }
+          ],
+          "description": "Geographical coordinates (latitude, longitude)."
+        }
+      ]
+    }
+  ]
+}

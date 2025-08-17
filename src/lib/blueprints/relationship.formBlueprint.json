@@ -1,0 +1,57 @@
+{
+  "form": {
+    "title": "Edit Relationship",
+    "description": "Define the connection and label between two shapes.",
+    "fields": [
+      {
+        "name": "startShapeId",
+        "label": "Start Shape",
+        "type": "select",
+        "placeholder": "Select the starting shape",
+        "options": [
+          { "value": "1672532400000", "label": "Rectangle" },
+          { "value": "1672532400001", "label": "Circle" }
+        ],
+        "validation": {
+          "required": true,
+          "errorMessage": "A starting shape is required."
+        }
+      },
+      {
+        "name": "endShapeId",
+        "label": "End Shape",
+        "type": "select",
+        "placeholder": "Select the ending shape",
+        "options": [
+          { "value": "1672532400000", "label": "Rectangle" },
+          { "value": "1672532400001", "label": "Circle" }
+        ],
+        "validation": {
+          "required": true,
+          "errorMessage": "An ending shape is required."
+        }
+      },
+      {
+        "name": "label",
+        "label": "Label",
+        "type": "text",
+        "placeholder": "e.g., 'Sends data to'",
+        "validation": {
+          "required": false
+        }
+      }
+    ],
+    "buttons": [
+      {
+        "type": "submit",
+        "label": "Save Connection",
+        "variant": "primary"
+      },
+      {
+        "type": "button",
+        "label": "Cancel",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "eventProfile": {
+    "entities": [
+      {
+        "name": "Event",
+        "description": "The main entity storing core information about a real-world event.",
+        "properties": [
+          {
+            "name": "event_id",
+            "type": "string",
+            "description": "Unique identifier for the event."
+          },
+          { "name": "title", "type": "string" },
+          { "name": "timestamp", "type": "timestamp" },
+          { "name": "description", "type": "string" }
+        ]
+      },
+      {
+        "name": "EventLocation",
+        "description": "The specific physical location of the event.",
+        "properties": [
+          { "name": "location_id", "type": "string" },
+          {
+            "name": "event_id",
+            "type": "string",
+            "description": "Foreign key to Event."
+          },
+          { "name": "address", "type": "string" },
+          { "name": "city", "type": "string" },
+          { "name": "country", "type": "string" },
+          { "name": "latitude", "type": "number" },
+          { "name": "longitude", "type": "number" }
+        ]
+      },
+      {
+        "name": "EventActor",
+        "description": "A relationship table linking an event to its actors (people, organizations, etc.).",
+        "properties": [
+          { "name": "event_actor_id", "type": "string" },
+          {
+            "name": "event_id",
+            "type": "string",
+            "description": "Foreign key to Event."
+          },
+          {
+            "name": "actor_id",
+            "type": "string",
+            "description": "Foreign key to the actor entity (e.g., Person, Company)."
+          },
+          { "name": "actor_type", "type": "string" },
+          { "name": "role_in_event", "type": "string" }
+        ]
+      },
+      {
+        "name": "EventOutcome",
+        "description": "A list of discrete outcomes or results of the event.",
+        "properties": [
+          { "name": "outcome_id", "type": "string" },
+          {
+            "name": "event_id",
+            "type": "string",
+            "description": "Foreign key to Event."
+          },
+          { "name": "outcome_description", "type": "string" }
+        ]
+      },
+      {
+        "name": "Source",
+        "description": "Verifiable sources or evidence for the event.",
+        "properties": [
+          { "name": "source_id", "type": "string" },
+          {
+            "name": "event_id",
+            "type": "string",
+            "description": "Foreign key to Event."
+          },
+          { "name": "source_type", "type": "string" },
+          { "name": "url", "type": "string" }
+        ]
+      }
+    ],
+    "relationships": [
+      {
+        "from": "Event",
+        "to": "EventLocation",
+        "type": "one-to-one",
+        "description": "An event has a single physical location."
+      },
+      {
+        "from": "Event",
+        "to": "EventActor",
+        "type": "one-to-many",
+        "description": "An event can have multiple actors."
+      },
+      {
+        "from": "Event",
+        "to": "EventOutcome",
+        "type": "one-to-many",
+        "description": "An event can have multiple outcomes."
+      },
+      {
+        "from": "Event",
+        "to": "Source",
+        "type": "one-to-many",
+        "description": "An event can have multiple sources."
+      }
+    ]
+  }
+}

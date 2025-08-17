@@ -1,0 +1,93 @@
+{
+  "title": "Government Agency",
+  "type": "object",
+  "description": "Represents a government agency or department.",
+  "properties": {
+    "agencyId": {
+      "description": "A unique identifier for the agency.",
+      "type": "string"
+    },
+    "agencyName": {
+      "description": "The full name of the agency.",
+      "type": "string"
+    },
+    "acronym": {
+      "description": "The common acronym for the agency (e.g., 'FEMA', 'FBI').",
+      "type": "string"
+    },
+    "website": {
+      "description": "The agency's official website URL.",
+      "type": "string",
+      "format": "uri"
+    },
+    "jurisdiction": {
+      "description": "The level of government the agency operates under (e.g., 'Federal', 'State', 'Local').",
+      "type": "string"
+    },
+    "mandate": {
+      "description": "A brief description of the agency's primary mission or purpose.",
+      "type": "string"
+    },
+    "parentAgencyId": {
+      "description": "The unique identifier of the parent agency, if applicable.",
+      "type": "string"
+    },
+    "phoneNumbers": {
+      "description": "A list of contact numbers for the agency.",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "type": {
+            "description": "The type of phone number (e.g., 'main', 'emergency').",
+            "type": "string"
+          },
+          "number": {
+            "description": "The phone number itself.",
+            "type": "string"
+          }
+        },
+        "required": ["type", "number"]
+      }
+    },
+    "emailAddresses": {
+      "description": "A list of official email addresses for the agency.",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "type": {
+            "description": "The type of email address (e.g., 'general inquiries', 'media').",
+            "type": "string"
+          },
+          "address": {
+            "description": "The email address.",
+            "type": "string",
+            "format": "email"
+          }
+        },
+        "required": ["type", "address"]
+      }
+    },
+    "addresses": {
+      "description": "A list of physical addresses for the agency's offices.",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "type": {
+            "description": "The type of address (e.g., 'headquarters', 'regional office').",
+            "type": "string"
+          },
+          "streetAddress": { "type": "string" },
+          "city": { "type": "string" },
+          "state": { "type": "string" },
+          "postalCode": { "type": "string" },
+          "country": { "type": "string" }
+        },
+        "required": ["type", "streetAddress", "city", "postalCode"]
+      }
+    }
+  },
+  "required": ["agencyId", "agencyName", "acronym"]
+}

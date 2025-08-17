@@ -1,0 +1,116 @@
+{
+  "title": "Institution",
+  "type": "object",
+  "description": "Represents a formal institution, such as a university, church, or foundation.",
+  "properties": {
+    "institutionId": {
+      "description": "A unique identifier for the institution.",
+      "type": "string"
+    },
+    "institutionName": {
+      "description": "The full name of the institution.",
+      "type": "string"
+    },
+    "type": {
+      "description": "The type of institution (e.g., 'University', 'Church', 'Foundation', 'Museum', 'Committee').",
+      "type": "string"
+    },
+    "acronym": {
+      "description": "The common acronym for the institution (e.g., 'MIT', 'UN').",
+      "type": "string"
+    },
+    "website": {
+      "description": "The institution's official website URL.",
+      "type": "string",
+      "format": "uri"
+    },
+    "foundingDate": {
+      "description": "The date the institution was founded.",
+      "type": "string",
+      "format": "date"
+    },
+    "missionStatement": {
+      "description": "A brief statement of the institution's mission or purpose.",
+      "type": "string"
+    },
+    "parentInstitutionId": {
+      "description": "The unique identifier of the parent institution or governing body, if applicable.",
+      "type": "string"
+    },
+    "keyPersonnel": {
+      "description": "A list of key leadership, such as President, Dean, or Pastor.",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "personId": {
+            "description": "The unique identifier of the person.",
+            "type": "string"
+          },
+          "role": {
+            "description": "The person's role in the institution (e.g., 'President', 'Director').",
+            "type": "string"
+          }
+        },
+        "required": ["personId", "role"]
+      }
+    },
+    "phoneNumbers": {
+      "description": "A list of contact numbers for the institution.",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "type": {
+            "description": "The type of phone number (e.g., 'main office', 'admissions').",
+            "type": "string"
+          },
+          "number": {
+            "description": "The phone number itself.",
+            "type": "string"
+          }
+        },
+        "required": ["type", "number"]
+      }
+    },
+    "emailAddresses": {
+      "description": "A list of official email addresses for the institution.",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "type": {
+            "description": "The type of email address (e.g., 'general inquiries', 'media relations').",
+            "type": "string"
+          },
+          "address": {
+            "description": "The email address.",
+            "type": "string",
+            "format": "email"
+          }
+        },
+        "required": ["type", "address"]
+      }
+    },
+    "addresses": {
+      "description": "A list of physical addresses for the institution's locations or campuses.",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "type": {
+            "description": "The type of address (e.g., 'main campus', 'branch', 'parish').",
+            "type": "string"
+          },
+          "streetAddress": { "type": "string" },
+          "city": { "type": "string" },
+          "state": { "type": "string" },
+          "postalCode": { "type": "string" },
+          "country": { "type": "string" }
+        },
+        "required": ["type", "streetAddress", "city", "postalCode"]
+      }
+    }
+  },
+  "required": ["institutionId", "institutionName", "type"]
+}

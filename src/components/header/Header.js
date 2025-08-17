@@ -1,8 +1,8 @@
-import React from 'react';
-import { Typography } from '@mui/material';
+import React from "react";
+import { Typography } from "@mui/material";
 
 export default function Header({ props }) {
-  const { string, variant = 'h1', sx } = props;
+  const { string, variant = "h1", sx } = props;
   return (
     <Typography
       sx={sx}

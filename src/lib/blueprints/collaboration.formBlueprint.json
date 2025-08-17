@@ -1,0 +1,135 @@
+{
+  "title": "Collaboration / Ensemble Profile",
+  "description": "Blueprint for a group profile, such as a band, team, or artist collective.",
+  "sections": [
+    {
+      "sectionTitle": "Core Information",
+      "description": "Fundamental details to identify the collaboration.",
+      "fields": [
+        {
+          "name": "collaborationId",
+          "label": "Collaboration ID",
+          "type": "string",
+          "description": "Unique identifier for the collaboration."
+        },
+        {
+          "name": "collaborationName",
+          "label": "Collaboration Name",
+          "type": "text",
+          "placeholder": "e.g., The Beatles",
+          "required": true
+        },
+        {
+          "name": "type",
+          "label": "Type",
+          "type": "string",
+          "placeholder": "e.g., Music Band, Sports Team, Artist Collective",
+          "required": true
+        },
+        {
+          "name": "website",
+          "label": "Official Website",
+          "type": "url",
+          "placeholder": "e.g., https://www.thebeatles.com",
+          "required": false
+        },
+        {
+          "name": "foundingDate",
+          "label": "Founding Date",
+          "type": "date",
+          "required": false
+        },
+        {
+          "name": "description",
+          "label": "Description",
+          "type": "textarea",
+          "placeholder": "A brief description of the group's purpose and history.",
+          "required": false
+        }
+      ]
+    },
+    {
+      "sectionTitle": "Members",
+      "description": "A list of the individuals and their roles in the collaboration.",
+      "fields": [
+        {
+          "name": "members",
+          "label": "Members",
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": [
+              {
+                "name": "personId",
+                "label": "Person ID",
+                "type": "string",
+                "placeholder": "e.g., johnlennon_id"
+              },
+              {
+                "name": "role",
+                "label": "Role",
+                "type": "text",
+                "placeholder": "e.g., Guitarist"
+              }
+            ]
+          },
+          "required": false
+        }
+      ]
+    },
+    {
+      "sectionTitle": "Contact Information",
+      "description": "How to get in touch with the collaboration.",
+      "fields": [
+        {
+          "name": "phoneNumbers",
+          "label": "Phone Numbers",
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": [
+              { "name": "type", "label": "Type", "type": "string" },
+              { "name": "number", "label": "Number", "type": "tel" }
+            ]
+          },
+          "required": false
+        },
+        {
+          "name": "emailAddresses",
+          "label": "Email Addresses",
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": [
+              { "name": "type", "label": "Type", "type": "string" },
+              {
+                "name": "address",
+                "label": "Email",
+                "type": "email",
+                "placeholder": "e.g., booking@example.com"
+              }
+            ]
+          },
+          "required": false
+        },
+        {
+          "name": "addresses",
+          "label": "Physical Addresses",
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": [
+              { "name": "type", "label": "Type", "type": "string" },
+              { "name": "streetAddress", "label": "Street", "type": "text" },
+              { "name": "city", "label": "City", "type": "text" },
+              { "name": "state", "label": "State", "type": "text" },
+              { "name": "postalCode", "label": "Postal Code", "type": "text" },
+              { "name": "country", "label": "Country", "type": "text" }
+            ]
+          },
+          "required": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "title": "Institution Profile",
+  "description": "Blueprint for a formal institution's profile, such as a university or church.",
+  "sections": [
+    {
+      "sectionTitle": "Core Information",
+      "description": "Fundamental details to identify the institution.",
+      "fields": [
+        {
+          "name": "institutionId",
+          "label": "Institution ID",
+          "type": "string",
+          "description": "Unique identifier for the institution."
+        },
+        {
+          "name": "institutionName",
+          "label": "Institution Name",
+          "type": "text",
+          "placeholder": "e.g., Harvard University",
+          "required": true
+        },
+        {
+          "name": "type",
+          "label": "Type",
+          "type": "string",
+          "placeholder": "e.g., University, Church, Foundation",
+          "required": true
+        },
+        {
+          "name": "acronym",
+          "label": "Acronym",
+          "type": "text",
+          "placeholder": "e.g., MIT",
+          "required": false
+        },
+        {
+          "name": "website",
+          "label": "Website",
+          "type": "url",
+          "placeholder": "e.g., https://www.harvard.edu",
+          "required": false
+        },
+        {
+          "name": "foundingDate",
+          "label": "Founding Date",
+          "type": "date",
+          "required": false
+        },
+        {
+          "name": "missionStatement",
+          "label": "Mission Statement",
+          "type": "textarea",
+          "placeholder": "A brief statement of the institution's mission.",
+          "required": false
+        },
+        {
+          "name": "parentInstitutionId",
+          "label": "Parent Institution ID",
+          "type": "string",
+          "description": "ID of the parent institution or governing body, if applicable.",
+          "required": false
+        }
+      ]
+    },
+    {
+      "sectionTitle": "Key Personnel",
+      "description": "A list of key leadership and their roles within the institution.",
+      "fields": [
+        {
+          "name": "keyPersonnel",
+          "label": "Key Personnel",
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": [
+              {
+                "name": "personId",
+                "label": "Person ID",
+                "type": "string",
+                "placeholder": "e.g., johnsmith_id"
+              },
+              {
+                "name": "role",
+                "label": "Role",
+                "type": "text",
+                "placeholder": "e.g., President, Dean"
+              }
+            ]
+          },
+          "required": false
+        }
+      ]
+    },
+    {
+      "sectionTitle": "Contact Information",
+      "description": "Official contact methods and locations.",
+      "fields": [
+        {
+          "name": "phoneNumbers",
+          "label": "Phone Numbers",
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": [
+              { "name": "type", "label": "Type", "type": "string" },
+              { "name": "number", "label": "Number", "type": "tel" }
+            ]
+          },
+          "required": false
+        },
+        {
+          "name": "emailAddresses",
+          "label": "Email Addresses",
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": [
+              { "name": "type", "label": "Type", "type": "string" },
+              {
+                "name": "address",
+                "label": "Email",
+                "type": "email",
+                "placeholder": "e.g., admissions@university.edu"
+              }
+            ]
+          },
+          "required": false
+        },
+        {
+          "name": "addresses",
+          "label": "Physical Addresses",
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": [
+              { "name": "type", "label": "Type", "type": "string" },
+              { "name": "streetAddress", "label": "Street", "type": "text" },
+              { "name": "city", "label": "City", "type": "text" },
+              { "name": "state", "label": "State", "type": "text" },
+              { "name": "postalCode", "label": "Postal Code", "type": "text" },
+              { "name": "country", "label": "Country", "type": "text" }
+            ]
+          },
+          "required": false
+        }
+      ]
+    }
+  ]
+}

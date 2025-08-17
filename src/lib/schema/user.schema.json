@@ -1,0 +1,79 @@
+{
+  "title": "User",
+  "type": "object",
+  "properties": {
+    "userId": {
+      "description": "Unique identifier for the user.",
+      "type": "string"
+    },
+    "username": {
+      "description": "The user's chosen username.",
+      "type": "string"
+    },
+    "email": {
+      "description": "The user's email address.",
+      "type": "string",
+      "format": "email"
+    },
+    "password": {
+      "description": "The user's password hash.",
+      "type": "string"
+    },
+    "firstName": {
+      "description": "The user's first name.",
+      "type": "string"
+    },
+    "lastName": {
+      "description": "The user's last name.",
+      "type": "string"
+    },
+    "createdAt": {
+      "description": "The timestamp when the user account was created.",
+      "type": "string",
+      "format": "date-time"
+    },
+    "updatedAt": {
+      "description": "The timestamp when the user account was last updated.",
+      "type": "string",
+      "format": "date-time"
+    },
+    "isActive": {
+      "description": "Indicates if the user account is active.",
+      "type": "boolean"
+    },
+    "profile": {
+      "description": "A nested object for additional profile information.",
+      "type": "object",
+      "properties": {
+        "bio": {
+          "description": "A short biography of the user.",
+          "type": "string"
+        },
+        "avatarUrl": {
+          "description": "URL to the user's profile picture.",
+          "type": "string",
+          "format": "uri"
+        },
+        "location": {
+          "description": "The user's location.",
+          "type": "string"
+        }
+      }
+    },
+    "roles": {
+      "description": "An array of roles assigned to the user (e.g., 'admin', 'editor').",
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "required": [
+    "userId",
+    "username",
+    "email",
+    "password",
+    "createdAt",
+    "isActive"
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "assetProfile": {
+    "entities": [
+      {
+        "name": "Asset",
+        "description": "The main entity storing core asset information.",
+        "properties": [
+          {
+            "name": "asset_id",
+            "type": "string",
+            "description": "Unique identifier for the asset."
+          },
+          { "name": "name", "type": "string" },
+          { "name": "type", "type": "string" },
+          { "name": "description", "type": "string" },
+          { "name": "owner_id", "type": "string" },
+          { "name": "owner_type", "type": "string" },
+          { "name": "current_value", "type": "number" },
+          { "name": "currency", "type": "string" },
+          { "name": "status", "type": "string" },
+          { "name": "tags", "type": "array" }
+        ]
+      },
+      {
+        "name": "Provenance",
+        "description": "A chronological record of the asset's history of ownership.",
+        "properties": [
+          {
+            "name": "provenance_id",
+            "type": "string",
+            "description": "A unique identifier for each provenance record."
+          },
+          {
+            "name": "asset_id",
+            "type": "string",
+            "description": "Foreign key to Asset."
+          },
+          { "name": "date", "type": "timestamp" },
+          { "name": "description", "type": "string" },
+          { "name": "previous_owner_id", "type": "string" },
+          { "name": "new_owner_id", "type": "string" },
+          { "name": "source", "type": "string" }
+        ]
+      },
+      {
+        "name": "FinancialDetails",
+        "description": "Specific details for financial assets.",
+        "properties": [
+          {
+            "name": "financial_details_id",
+            "type": "string",
+            "description": "A unique identifier for the financial details record."
+          },
+          {
+            "name": "asset_id",
+            "type": "string",
+            "description": "Foreign key to Asset."
+          },
+          { "name": "account_number", "type": "string" },
+          { "name": "wallet_address", "type": "string" },
+          { "name": "ticker_symbol", "type": "string" },
+          { "name": "number_of_shares", "type": "number" }
+        ]
+      },
+      {
+        "name": "PhysicalLocation",
+        "description": "Physical location details for tangible assets.",
+        "properties": [
+          {
+            "name": "location_id",
+            "type": "string",
+            "description": "A unique identifier for the location record."
+          },
+          {
+            "name": "asset_id",
+            "type": "string",
+            "description": "Foreign key to Asset."
+          },
+          { "name": "street_address", "type": "string" },
+          { "name": "city", "type": "string" },
+          { "name": "state", "type": "string" },
+          { "name": "country", "type": "string" },
+          { "name": "postal_code", "type": "string" }
+        ]
+      }
+    ],
+    "relationships": [
+      {
+        "from": "Asset",
+        "to": "Provenance",
+        "type": "one-to-many",
+        "description": "An asset can have many provenance records."
+      },
+      {
+        "from": "Asset",
+        "to": "FinancialDetails",
+        "type": "one-to-one",
+        "description": "An asset can have one set of financial details."
+      },
+      {
+        "from": "Asset",
+        "to": "PhysicalLocation",
+        "type": "one-to-one",
+        "description": "An asset can have one physical location."
+      }
+    ]
+  }
+}

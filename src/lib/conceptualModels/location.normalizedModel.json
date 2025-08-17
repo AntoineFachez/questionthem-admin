@@ -1,0 +1,88 @@
+{
+  "locationProfile": {
+    "entities": [
+      {
+        "name": "Location",
+        "description": "The main entity storing core information about a physical or geographical location.",
+        "properties": [
+          {
+            "name": "location_id",
+            "type": "string",
+            "description": "Unique identifier for the location."
+          },
+          { "name": "name", "type": "string" },
+          { "name": "type", "type": "string" },
+          { "name": "is_geospatial", "type": "boolean" }
+        ]
+      },
+      {
+        "name": "LocationHierarchy",
+        "description": "A self-referencing relationship table for parent-child locations.",
+        "properties": [
+          { "name": "hierarchy_id", "type": "string" },
+          {
+            "name": "parent_location_id",
+            "type": "string",
+            "description": "Foreign key to the parent Location."
+          },
+          {
+            "name": "child_location_id",
+            "type": "string",
+            "description": "Foreign key to the child Location."
+          }
+        ]
+      },
+      {
+        "name": "LocationAddress",
+        "description": "The street-level address details of the location.",
+        "properties": [
+          { "name": "address_id", "type": "string" },
+          {
+            "name": "location_id",
+            "type": "string",
+            "description": "Foreign key to Location."
+          },
+          { "name": "street_address", "type": "string" },
+          { "name": "city", "type": "string" },
+          { "name": "state_province", "type": "string" },
+          { "name": "postal_code", "type": "string" },
+          { "name": "country", "type": "string" }
+        ]
+      },
+      {
+        "name": "LocationCoordinates",
+        "description": "The geographical coordinates of the location.",
+        "properties": [
+          { "name": "coordinates_id", "type": "string" },
+          {
+            "name": "location_id",
+            "type": "string",
+            "description": "Foreign key to Location."
+          },
+          { "name": "latitude", "type": "number" },
+          { "name": "longitude", "type": "number" }
+        ]
+      }
+    ],
+    "relationships": [
+      {
+        "from": "Location",
+        "to": "LocationHierarchy",
+        "type": "one-to-many",
+        "description": "A location can contain multiple child locations (e.g., a city contains many buildings)."
+      },
+      {
+        "from": "Location",
+        "to": "LocationAddress",
+        "type": "one-to-one",
+        "description": "A location can have a single address."
+      },
+      {
+        "from": "Location",
+        "to": "LocationCoordinates",
+        "type": "one-to-one",
+        "description": "A location has a single set of geographical coordinates."
+      }
+    ]
+  }
+}

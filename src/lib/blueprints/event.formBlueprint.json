@@ -1,0 +1,126 @@
+{
+  "title": "Journalistic Event",
+  "description": "Blueprint for a real-world event with factual details.",
+  "sections": [
+    {
+      "sectionTitle": "Core Event Information",
+      "description": "Fundamental details about the event.",
+      "fields": [
+        {
+          "name": "eventId",
+          "label": "Event ID",
+          "type": "string",
+          "description": "Unique identifier for the event."
+        },
+        {
+          "name": "title",
+          "label": "Title",
+          "type": "text",
+          "placeholder": "e.g., Fire at City Hall",
+          "required": true
+        },
+        {
+          "name": "timestamp",
+          "label": "Date and Time",
+          "type": "date-time",
+          "required": true
+        },
+        {
+          "name": "description",
+          "label": "Description",
+          "type": "textarea",
+          "placeholder": "A factual summary of what happened.",
+          "required": true
+        }
+      ]
+    },
+    {
+      "sectionTitle": "Location",
+      "description": "The physical location of the event.",
+      "fields": [
+        {
+          "name": "location",
+          "label": "Location Details",
+          "type": "object",
+          "properties": [
+            { "name": "address", "label": "Address", "type": "text" },
+            { "name": "city", "label": "City", "type": "text" },
+            { "name": "country", "label": "Country", "type": "text" },
+            {
+              "name": "coordinates",
+              "label": "Coordinates",
+              "type": "object",
+              "properties": [
+                { "name": "latitude", "label": "Latitude", "type": "number" },
+                { "name": "longitude", "label": "Longitude", "type": "number" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sectionTitle": "Actors & Outcomes",
+      "description": "Actors involved and the outcomes of the event.",
+      "fields": [
+        {
+          "name": "actors",
+          "label": "Actors Involved",
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": [
+              { "name": "actorId", "label": "Actor ID", "type": "string" },
+              {
+                "name": "actorType",
+                "label": "Actor Type",
+                "type": "text",
+                "placeholder": "e.g., person, company, agency"
+              },
+              {
+                "name": "roleInEvent",
+                "label": "Role",
+                "type": "text",
+                "placeholder": "e.g., witness, suspect"
+              }
+            ]
+          }
+        },
+        {
+          "name": "outcomes",
+          "label": "Outcomes",
+          "type": "array",
+          "items": {
+            "type": "string",
+            "placeholder": "e.g., Five people injured, Building destroyed"
+          },
+          "description": "A list of significant outcomes."
+        }
+      ]
+    },
+    {
+      "sectionTitle": "Sources",
+      "description": "Verifiable sources and evidence for the event.",
+      "fields": [
+        {
+          "name": "sources",
+          "label": "Sources",
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": [
+              { "name": "sourceId", "label": "Source ID", "type": "string" },
+              {
+                "name": "sourceType",
+                "label": "Source Type",
+                "type": "text",
+                "placeholder": "e.g., news_article, official_report"
+              },
+              { "name": "url", "label": "Source URL", "type": "url" }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -4,7 +4,14 @@ const { GoogleGenerativeAI } = require("@google/generative-ai");
 const { Firestore } = require("@google-cloud/firestore");
 const express = require("express");
 const { functionDeclarations } = require("./functionDeclarations.js");
+const { onRequest } = require("firebase-functions/v2/https"); // <-- v2 import
+const { setGlobalOptions } = require("firebase-functions/v2"); // <-- v2 import
 
+// Set global options for all functions in this file
+setGlobalOptions({
+  region: "europe-west4", // Set your preferred region
+  memory: "1GiB", // Set memory here
+});
 // --- Initialization ---
 const app = express();
 app.use(express.json());
@@ -176,4 +183,4 @@ loadSchemas().then(() => {
 });
 
 // Export the Express app as a Cloud Function
-exports.agenticQueryEngine = app;
+exports.agenticQueryEngine = onRequest(app);

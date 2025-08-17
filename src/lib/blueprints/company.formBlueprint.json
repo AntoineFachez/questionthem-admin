@@ -1,0 +1,107 @@
+{
+  "title": "Company Profile",
+  "description": "Blueprint for a company or organization's profile.",
+  "sections": [
+    {
+      "sectionTitle": "Core Information",
+      "description": "Fundamental identifying details about the company.",
+      "fields": [
+        {
+          "name": "companyId",
+          "label": "Company ID",
+          "type": "string",
+          "description": "Unique identifier for the company."
+        },
+        {
+          "name": "companyName",
+          "label": "Company Name",
+          "type": "text",
+          "placeholder": "e.g., Acme Corporation",
+          "required": true
+        },
+        {
+          "name": "website",
+          "label": "Website",
+          "type": "url",
+          "placeholder": "e.g., https://www.acme.com",
+          "required": false
+        },
+        {
+          "name": "industry",
+          "label": "Industry",
+          "type": "text",
+          "placeholder": "e.g., Technology",
+          "required": false
+        },
+        {
+          "name": "description",
+          "label": "Description",
+          "type": "textarea",
+          "placeholder": "A brief description of the company.",
+          "required": false
+        },
+        {
+          "name": "mainContactId",
+          "label": "Main Contact ID",
+          "type": "string",
+          "description": "The unique ID of the main contact person for this company.",
+          "required": false
+        }
+      ]
+    },
+    {
+      "sectionTitle": "Contact Information",
+      "description": "How to get in touch with the company.",
+      "fields": [
+        {
+          "name": "phoneNumbers",
+          "label": "Phone Numbers",
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": [
+              { "name": "type", "label": "Type", "type": "string" },
+              { "name": "number", "label": "Number", "type": "tel" }
+            ]
+          },
+          "required": false
+        },
+        {
+          "name": "emailAddresses",
+          "label": "Email Addresses",
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": [
+              { "name": "type", "label": "Type", "type": "string" },
+              {
+                "name": "address",
+                "label": "Email",
+                "type": "email",
+                "placeholder": "e.g., info@acme.com"
+              }
+            ]
+          },
+          "required": false
+        },
+        {
+          "name": "addresses",
+          "label": "Physical Addresses",
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": [
+              { "name": "type", "label": "Type", "type": "string" },
+              { "name": "streetAddress", "label": "Street", "type": "text" },
+              { "name": "city", "label": "City", "type": "text" },
+              { "name": "state", "label": "State", "type": "text" },
+              { "name": "postalCode", "label": "Postal Code", "type": "text" },
+              { "name": "country", "label": "Country", "type": "text" }
+            ]
+          },
+          "required": false
+        }
+      ]
+    }
+  ]
+}

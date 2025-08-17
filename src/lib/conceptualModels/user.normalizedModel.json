@@ -1,0 +1,55 @@
+{
+  "entity": "User",
+  "description": "Represents a human or system actor within the application.",
+  "attributes": [
+    {
+      "name": "Identity",
+      "description": "Unique information used to identify and authenticate the user.",
+      "properties": [
+        "User ID (unique system identifier)",
+        "Username (human-readable identifier)",
+        "Email Address",
+        "Password Hash (securely stored credential)"
+      ]
+    },
+    {
+      "name": "Personal Details",
+      "description": "Basic personal information about the user.",
+      "properties": ["First Name", "Last Name", "Bio", "Avatar URL", "Location"]
+    },
+    {
+      "name": "Status & State",
+      "description": "Data points related to the user's account status and history.",
+      "properties": [
+        "Account Status (e.g., Active, Suspended, Deleted)",
+        "Account Creation Date",
+        "Last Updated Date"
+      ]
+    },
+    {
+      "name": "Permissions & Roles",
+      "description": "Defines the user's access rights and capabilities within the system.",
+      "properties": ["Roles (e.g., Admin, Member, Guest)"]
+    }
+  ],
+  "relationships": [
+    {
+      "name": "Has a Profile",
+      "description": "Each User is associated with one Profile, which holds personal information.",
+      "target_entity": "Profile",
+      "multiplicity": "One-to-One"
+    },
+    {
+      "name": "Belongs to Groups",
+      "description": "A User can be a member of multiple Groups.",
+      "target_entity": "Group",
+      "multiplicity": "Many-to-Many"
+    },
+    {
+      "name": "Created Content",
+      "description": "A User can create multiple pieces of Content (e.g., posts, articles).",
+      "target_entity": "Content",
+      "multiplicity": "One-to-Many"
+    }
+  ]
+}

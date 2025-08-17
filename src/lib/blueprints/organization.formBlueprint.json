@@ -1,0 +1,142 @@
+{
+  "title": "Organization / NGO Profile",
+  "description": "Blueprint for a non-governmental organization, non-profit, or similar entity.",
+  "sections": [
+    {
+      "sectionTitle": "Core Information",
+      "description": "Fundamental details to identify the organization.",
+      "fields": [
+        {
+          "name": "organizationId",
+          "label": "Organization ID",
+          "type": "string",
+          "description": "Unique identifier for the organization."
+        },
+        {
+          "name": "organizationName",
+          "label": "Organization Name",
+          "type": "text",
+          "placeholder": "e.g., Doctors Without Borders",
+          "required": true
+        },
+        {
+          "name": "acronym",
+          "label": "Acronym",
+          "type": "text",
+          "placeholder": "e.g., MSF",
+          "required": false
+        },
+        {
+          "name": "website",
+          "label": "Website",
+          "type": "url",
+          "placeholder": "e.g., https://www.msf.org",
+          "required": false
+        },
+        {
+          "name": "foundingDate",
+          "label": "Founding Date",
+          "type": "date",
+          "required": false
+        },
+        {
+          "name": "legalStatus",
+          "label": "Legal Status",
+          "type": "text",
+          "placeholder": "e.g., Non-profit, 501(c)(3)",
+          "required": false
+        },
+        {
+          "name": "missionStatement",
+          "label": "Mission Statement",
+          "type": "textarea",
+          "placeholder": "A brief statement of the organization's mission or purpose.",
+          "required": false
+        }
+      ]
+    },
+    {
+      "sectionTitle": "Key Personnel",
+      "description": "A list of key leadership and their roles within the organization.",
+      "fields": [
+        {
+          "name": "keyPersonnel",
+          "label": "Key Personnel",
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": [
+              {
+                "name": "personId",
+                "label": "Person ID",
+                "type": "string",
+                "placeholder": "e.g., jane_doe_id"
+              },
+              {
+                "name": "role",
+                "label": "Role",
+                "type": "text",
+                "placeholder": "e.g., Executive Director"
+              }
+            ]
+          },
+          "required": false
+        }
+      ]
+    },
+    {
+      "sectionTitle": "Contact Information",
+      "description": "Official contact methods and locations.",
+      "fields": [
+        {
+          "name": "phoneNumbers",
+          "label": "Phone Numbers",
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": [
+              { "name": "type", "label": "Type", "type": "string" },
+              { "name": "number", "label": "Number", "type": "tel" }
+            ]
+          },
+          "required": false
+        },
+        {
+          "name": "emailAddresses",
+          "label": "Email Addresses",
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": [
+              { "name": "type", "label": "Type", "type": "string" },
+              {
+                "name": "address",
+                "label": "Email",
+                "type": "email",
+                "placeholder": "e.g., contact@ngo.org"
+              }
+            ]
+          },
+          "required": false
+        },
+        {
+          "name": "addresses",
+          "label": "Physical Addresses",
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": [
+              { "name": "type", "label": "Type", "type": "string" },
+              { "name": "streetAddress", "label": "Street", "type": "text" },
+              { "name": "city", "label": "City", "type": "text" },
+              { "name": "state", "label": "State", "type": "text" },
+              { "name": "postalCode", "label": "Postal Code", "type": "text" },
+              { "name": "country", "label": "Country", "type": "text" }
+            ]
+          },
+          "required": false
+        }
+      ]
+    }
+  ]
+}

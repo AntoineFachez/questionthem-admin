@@ -1,0 +1,112 @@
+{
+  "title": "Organization / NGO",
+  "type": "object",
+  "description": "Represents a non-governmental organization, non-profit, or similar entity.",
+  "properties": {
+    "organizationId": {
+      "description": "A unique identifier for the organization.",
+      "type": "string"
+    },
+    "organizationName": {
+      "description": "The full name of the organization.",
+      "type": "string"
+    },
+    "acronym": {
+      "description": "The common acronym for the organization (e.g., 'UN', 'NRA').",
+      "type": "string"
+    },
+    "website": {
+      "description": "The organization's official website URL.",
+      "type": "string",
+      "format": "uri"
+    },
+    "missionStatement": {
+      "description": "The official mission statement of the organization.",
+      "type": "string"
+    },
+    "legalStatus": {
+      "description": "The legal status of the organization (e.g., 'Non-profit', '501(c)(3)').",
+      "type": "string"
+    },
+    "foundingDate": {
+      "description": "The date the organization was founded.",
+      "type": "string",
+      "format": "date"
+    },
+    "keyPersonnel": {
+      "description": "A list of key personnel or leadership, such as the CEO or Executive Director.",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "personId": {
+            "description": "The unique identifier of the person.",
+            "type": "string"
+          },
+          "role": {
+            "description": "The person's role in the organization (e.g., 'Executive Director', 'Board Member').",
+            "type": "string"
+          }
+        },
+        "required": ["personId", "role"]
+      }
+    },
+    "phoneNumbers": {
+      "description": "A list of contact numbers for the organization.",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "type": {
+            "description": "The type of phone number (e.g., 'main', 'donations').",
+            "type": "string"
+          },
+          "number": {
+            "description": "The phone number itself.",
+            "type": "string"
+          }
+        },
+        "required": ["type", "number"]
+      }
+    },
+    "emailAddresses": {
+      "description": "A list of official email addresses for the organization.",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "type": {
+            "description": "The type of email address (e.g., 'general inquiries', 'media').",
+            "type": "string"
+          },
+          "address": {
+            "description": "The email address.",
+            "type": "string",
+            "format": "email"
+          }
+        },
+        "required": ["type", "address"]
+      }
+    },
+    "addresses": {
+      "description": "A list of physical addresses for the organization's offices.",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "type": {
+            "description": "The type of address (e.g., 'headquarters', 'regional office').",
+            "type": "string"
+          },
+          "streetAddress": { "type": "string" },
+          "city": { "type": "string" },
+          "state": { "type": "string" },
+          "postalCode": { "type": "string" },
+          "country": { "type": "string" }
+        },
+        "required": ["type", "streetAddress", "city", "postalCode"]
+      }
+    }
+  },
+  "required": ["organizationId", "organizationName"]
+}

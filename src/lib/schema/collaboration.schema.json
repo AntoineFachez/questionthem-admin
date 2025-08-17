@@ -1,0 +1,108 @@
+{
+  "title": "Collaboration / Ensemble",
+  "type": "object",
+  "description": "Represents a group of people working together, such as a band, team, or artist collective.",
+  "properties": {
+    "collaborationId": {
+      "description": "A unique identifier for the collaboration.",
+      "type": "string"
+    },
+    "collaborationName": {
+      "description": "The name of the collaboration or ensemble.",
+      "type": "string"
+    },
+    "type": {
+      "description": "The type of collaboration (e.g., 'Music Band', 'Sports Team', 'Artist Collective').",
+      "type": "string"
+    },
+    "website": {
+      "description": "The official website or main social media link for the group.",
+      "type": "string",
+      "format": "uri"
+    },
+    "foundingDate": {
+      "description": "The date the collaboration was formed.",
+      "type": "string",
+      "format": "date"
+    },
+    "description": {
+      "description": "A brief description of the collaboration.",
+      "type": "string"
+    },
+    "members": {
+      "description": "A list of members of the collaboration, with their specific roles.",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "personId": {
+            "description": "The unique identifier of the member.",
+            "type": "string"
+          },
+          "role": {
+            "description": "The member's role within the group (e.g., 'Lead Singer', 'Quarterback', 'Lead Artist').",
+            "type": "string"
+          }
+        },
+        "required": ["personId", "role"]
+      }
+    },
+    "phoneNumbers": {
+      "description": "A list of contact numbers for the collaboration.",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "type": {
+            "description": "The type of phone number (e.g., 'booking', 'management').",
+            "type": "string"
+          },
+          "number": {
+            "description": "The phone number itself.",
+            "type": "string"
+          }
+        },
+        "required": ["type", "number"]
+      }
+    },
+    "emailAddresses": {
+      "description": "A list of official email addresses for the collaboration.",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "type": {
+            "description": "The type of email address (e.g., 'general inquiries', 'media').",
+            "type": "string"
+          },
+          "address": {
+            "description": "The email address.",
+            "type": "string",
+            "format": "email"
+          }
+        },
+        "required": ["type", "address"]
+      }
+    },
+    "addresses": {
+      "description": "A list of physical addresses for the collaboration's key locations (e.g., studio, venue).",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "type": {
+            "description": "The type of address (e.g., 'studio', 'headquarters').",
+            "type": "string"
+          },
+          "streetAddress": { "type": "string" },
+          "city": { "type": "string" },
+          "state": { "type": "string" },
+          "postalCode": { "type": "string" },
+          "country": { "type": "string" }
+        },
+        "required": ["type", "streetAddress", "city", "postalCode"]
+      }
+    }
+  },
+  "required": ["collaborationId", "collaborationName", "type"]
+}

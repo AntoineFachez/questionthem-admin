@@ -1,0 +1,461 @@
+{
+  "title": "Person Biographical Profile",
+  "description": "Blueprint for a person's detailed biographical and professional profile.",
+  "sections": [
+    {
+      "sectionTitle": "Core Information",
+      "description": "Fundamental details about the person.",
+      "fields": [
+        {
+          "name": "personId",
+          "label": "Person ID",
+          "type": "string",
+          "description": "Unique identifier for the person."
+        },
+        {
+          "name": "firstName",
+          "label": "First Name",
+          "type": "text",
+          "placeholder": "e.g., Jane",
+          "required": true
+        },
+        {
+          "name": "lastName",
+          "label": "Last Name",
+          "type": "text",
+          "placeholder": "e.g., Doe",
+          "required": true
+        },
+
+        {
+          "name": "midName",
+          "label": "Middlenames",
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": [
+              {
+                "name": "name",
+                "label": "",
+                "type": "text",
+                "placeholder": "e.g., James"
+              }
+            ]
+          },
+          "required": false
+        },
+        {
+          "name": "nickName",
+          "label": "Nicknames",
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": [
+              {
+                "name": "type",
+                "label": "Circle",
+                "type": "text",
+                "placeholder": "e.g., Inner Circle"
+              },
+              {
+                "name": "name",
+                "label": "Nick Name",
+                "type": "text",
+                "placeholder": "e.g., JD"
+              }
+            ]
+          },
+          "required": false
+        },
+        {
+          "name": "biography_summary",
+          "label": "Biography",
+          "type": "textarea",
+          "placeholder": "Write a short bio...",
+          "required": false
+        }
+      ]
+    },
+    {
+      "sectionTitle": "Lifestages",
+      "description": "Significant life stages, from birth to death.",
+      "fields": [
+        {
+          "name": "lifestage",
+          "label": "Lifestage Events",
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": [
+              {
+                "name": "type",
+                "label": "Type",
+                "type": "string",
+                "placeholder": "e.g., birth, childhood, earlyAdulthood, death"
+              },
+              { "name": "date", "label": "Date", "type": "date-time" },
+              {
+                "name": "location",
+                "label": "Location",
+                "type": "object",
+                "properties": [
+                  { "name": "city", "label": "City", "type": "string" },
+                  {
+                    "name": "state_province",
+                    "label": "State/Province",
+                    "type": "string"
+                  },
+                  { "name": "country", "label": "Country", "type": "string" }
+                ]
+              },
+              {
+                "name": "description",
+                "label": "Description",
+                "type": "textarea"
+              }
+            ]
+          },
+          "required": false
+        }
+      ]
+    },
+
+    {
+      "sectionTitle": "Controversies",
+      "description": "Public controversies and disputes involving the person.",
+      "fields": [
+        {
+          "name": "controversies",
+          "label": "Controversies",
+          "type": "array",
+          "icon": "Gavel",
+          "items": {
+            "type": "object",
+            "icon": "Warning",
+            "properties": [
+              {
+                "name": "entityId",
+                "label": "Messenger ID",
+                "type": "string"
+              },
+              {
+                "name": "type",
+                "label": "Messenger Type",
+                "type": "string",
+                "placeholder": "e.g., Media, Collegue, WistleBlower, legal disclosure, company, organization, agency, institution, single person"
+              },
+              {
+                "name": "name",
+                "label": "Messenger Name",
+                "type": "string"
+              },
+
+              {
+                "name": "description",
+                "label": "Description",
+                "type": "textarea"
+              },
+              { "name": "notes", "label": "Notes", "type": "textarea" },
+              {
+                "name": "events",
+                "label": "Events",
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": [
+                    {
+                      "name": "entityId",
+                      "label": "Entity Id",
+                      "type": "string"
+                    },
+                    {
+                      "name": "type",
+                      "label": "Type",
+                      "type": "string"
+                    },
+                    { "name": "url", "label": "Url", "type": "string" }
+                  ]
+                }
+              },
+              {
+                "name": "sources",
+                "label": "Sources",
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": [
+                    {
+                      "name": "entityId",
+                      "label": "Entity Id",
+                      "type": "string"
+                    },
+                    {
+                      "name": "type",
+                      "label": "Type",
+                      "type": "string"
+                    },
+                    { "name": "url", "label": "Url", "type": "string" }
+                  ]
+                }
+              }
+            ]
+          },
+          "required": false
+        }
+      ]
+    },
+    {
+      "sectionTitle": "Social Media Profiles",
+      "description": "A list of social media accounts and profiles.",
+      "fields": [
+        {
+          "name": "social_media_profiles",
+          "label": "Social Media Profiles",
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": [
+              {
+                "name": "platformId",
+                "label": "Platform ID",
+                "type": "string"
+              },
+
+              {
+                "name": "userHandle",
+                "label": "User Handle",
+                "type": "string",
+                "placeholder": "@username"
+              },
+              { "name": "url", "label": "Profile URL", "type": "url" },
+              {
+                "name": "followingAmoung",
+                "label": "Followers",
+                "type": "number"
+              }
+            ]
+          },
+          "required": false
+        }
+      ]
+    },
+    {
+      "sectionTitle": "Family",
+      "description": "Family tree and relationships.",
+      "fields": [
+        {
+          "name": "guardians",
+          "label": "Guardians",
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": [
+              { "name": "name", "label": "Name", "type": "string" },
+              { "name": "entityId", "label": "Entity ID", "type": "string" },
+              { "name": "type", "label": "Type", "type": "string" },
+              {
+                "name": "role",
+                "label": "Role",
+                "type": "select",
+                "options": ["parent", "legal guardian", "god father/ mother"]
+              }
+            ]
+          },
+          "required": false
+        },
+        {
+          "name": "siblings",
+          "label": "Siblings",
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": [
+              { "name": "name", "label": "Name", "type": "string" },
+              { "name": "personId", "label": "Person ID", "type": "string" }
+            ]
+          },
+          "required": false
+        },
+        {
+          "name": "spouses",
+          "label": "Spouses",
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": [
+              { "name": "name", "label": "Name", "type": "string" },
+              { "name": "personId", "label": "Person ID", "type": "string" },
+              {
+                "name": "marriageDate",
+                "label": "Marriage Date",
+                "type": "date-time"
+              },
+              {
+                "name": "divorceDate",
+                "label": "Divorce Date",
+                "type": "date-time"
+              },
+              {
+                "name": "endReason",
+                "label": "End Reason",
+                "type": "string",
+                "placeholder": "e.g., Divorce, Death of Spouse"
+              },
+              {
+                "name": "childrenWithSpouse",
+                "label": "Children with Spouse",
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": [
+                    { "name": "name", "label": "Name", "type": "string" },
+                    {
+                      "name": "personId",
+                      "label": "Person ID",
+                      "type": "string"
+                    }
+                  ]
+                }
+              },
+              { "name": "notes", "label": "Notes", "type": "textarea" }
+            ]
+          },
+          "required": false
+        },
+        {
+          "name": "children",
+          "label": "Children",
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": [
+              { "name": "name", "label": "Name", "type": "string" },
+              { "name": "personId", "label": "Person ID", "type": "string" }
+            ]
+          },
+          "required": false
+        }
+      ]
+    },
+
+    {
+      "sectionTitle": "Education History",
+      "description": "A list of educational milestones.",
+      "fields": [
+        {
+          "name": "education",
+          "label": "Education",
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": [
+              {
+                "name": "educatorName",
+                "label": "Institution",
+                "type": "text"
+              },
+              { "name": "educatorId", "label": "Educator Id", "type": "text" },
+              {
+                "name": "educatorType",
+                "label": "Educator Type",
+                "type": "text",
+                "placeholder": "e.g., University, Programm"
+              },
+              { "name": "degree", "label": "Degree", "type": "text" },
+              {
+                "name": "fieldOfStudy",
+                "label": "Field of Study",
+                "type": "text"
+              },
+              {
+                "name": "graduationDate",
+                "label": "Graduation Date",
+                "type": "date"
+              }
+            ]
+          },
+          "required": false
+        }
+      ]
+    },
+
+    {
+      "sectionTitle": "Career History",
+      "description": "Work and employment details.",
+      "fields": [
+        {
+          "name": "career",
+          "label": "Career",
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": [
+              { "name": "employerId", "label": "Employer Id", "type": "text" },
+              {
+                "name": "type",
+                "label": "Employer Type",
+                "type": "text",
+                "placeholder": "e.g., Company, Agency"
+              },
+              { "name": "name", "label": "Employer", "type": "text" },
+              { "name": "position", "label": "Position", "type": "text" },
+              { "name": "startDate", "label": "Start Date", "type": "date" },
+              { "name": "endDate", "label": "End Date", "type": "date" },
+              {
+                "name": "responsibilities",
+                "label": "Responsibilities",
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": [
+                    {
+                      "name": "name",
+                      "label": "Responsibility",
+                      "type": "textarea"
+                    }
+                  ]
+                }
+              },
+              { "name": "industry", "label": "Industry", "type": "string" },
+              { "name": "notes", "label": "Notes", "type": "textarea" }
+            ]
+          },
+          "required": false
+        }
+      ]
+    },
+    {
+      "sectionTitle": "Contact & Location",
+      "description": "Personal contact methods and location history.",
+      "fields": [
+        {
+          "name": "phoneNumbers",
+          "label": "Phone Numbers",
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": [
+              { "name": "type", "label": "Type", "type": "string" },
+              { "name": "number", "label": "Number", "type": "tel" }
+            ]
+          },
+          "required": false
+        },
+        {
+          "name": "addresses",
+          "label": "Physical Addresses",
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": [
+              { "name": "type", "label": "Type", "type": "string" },
+              { "name": "streetAddress", "label": "Street", "type": "text" },
+              { "name": "city", "label": "City", "type": "text" }
+            ]
+          },
+          "required": false
+        }
+      ]
+    }
+  ]
+}

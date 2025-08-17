@@ -1,0 +1,77 @@
+{
+  "collaborationProfile": {
+    "entities": [
+      {
+        "name": "Collaboration",
+        "description": "The main entity storing core information about a group or ensemble.",
+        "properties": [
+          {
+            "name": "collaboration_id",
+            "type": "string",
+            "description": "Unique identifier for the collaboration."
+          },
+          {
+            "name": "collaboration_name",
+            "type": "string",
+            "description": "The full name of the collaboration."
+          },
+          { "name": "type", "type": "string" },
+          { "name": "website", "type": "string" },
+          { "name": "founding_date", "type": "timestamp" },
+          { "name": "description", "type": "string" }
+        ]
+      },
+      {
+        "name": "CollaborationMember",
+        "description": "A many-to-many relationship table to handle members and their roles within a collaboration.",
+        "properties": [
+          { "name": "member_id", "type": "string" },
+          {
+            "name": "collaboration_id",
+            "type": "string",
+            "description": "Foreign key to the Collaboration entity."
+          },
+          {
+            "name": "person_id",
+            "type": "string",
+            "description": "Foreign key to the Person entity."
+          },
+          { "name": "role", "type": "string" }
+        ]
+      },
+      {
+        "name": "CollaborationContactInfo",
+        "description": "Contact details for the collaboration.",
+        "properties": [
+          { "name": "contact_id", "type": "string" },
+          {
+            "name": "collaboration_id",
+            "type": "string",
+            "description": "Foreign key to the Collaboration entity."
+          },
+          {
+            "name": "type",
+            "type": "string",
+            "description": "e.g., email, phone, address."
+          },
+          { "name": "value", "type": "string" },
+          { "name": "notes", "type": "string" }
+        ]
+      }
+    ],
+    "relationships": [
+      {
+        "from": "Collaboration",
+        "to": "CollaborationMember",
+        "type": "one-to-many",
+        "description": "A collaboration has many members."
+      },
+      {
+        "from": "Collaboration",
+        "to": "CollaborationContactInfo",
+        "type": "one-to-many",
+        "description": "A collaboration can have multiple contact details."
+      }
+    ]
+  }
+}

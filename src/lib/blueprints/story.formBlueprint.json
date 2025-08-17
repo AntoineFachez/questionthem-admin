@@ -1,0 +1,108 @@
+{
+  "title": "Story Profile",
+  "description": "Blueprint for a story composed of a series of video scripts.",
+  "sections": [
+    {
+      "sectionTitle": "Core Story Information",
+      "description": "Fundamental details to identify and describe the story.",
+      "fields": [
+        {
+          "name": "storyId",
+          "label": "Story ID",
+          "type": "string",
+          "description": "Unique identifier for the story."
+        },
+        {
+          "name": "title",
+          "label": "Title",
+          "type": "text",
+          "placeholder": "e.g., The Journey to the Center of the Earth",
+          "required": true
+        },
+        {
+          "name": "author",
+          "label": "Author",
+          "type": "text",
+          "placeholder": "e.g., Jules Verne",
+          "required": false
+        },
+        {
+          "name": "genre",
+          "label": "Genre",
+          "type": "array",
+          "items": {
+            "type": "string",
+            "placeholder": "e.g., Adventure, Sci-Fi"
+          },
+          "required": false
+        },
+        {
+          "name": "logline",
+          "label": "Logline",
+          "type": "textarea",
+          "placeholder": "A one-sentence summary of the plot.",
+          "required": false
+        },
+        {
+          "name": "synopsis",
+          "label": "Synopsis",
+          "type": "textarea",
+          "placeholder": "A brief overview of the plot and themes.",
+          "required": false
+        }
+      ]
+    },
+    {
+      "sectionTitle": "Characters",
+      "description": "A list of all characters in the story.",
+      "fields": [
+        {
+          "name": "characters",
+          "label": "Characters",
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": [
+              {
+                "name": "characterId",
+                "label": "Character ID",
+                "type": "string"
+              },
+              { "name": "name", "label": "Name", "type": "text" },
+              {
+                "name": "description",
+                "label": "Description",
+                "type": "textarea"
+              }
+            ]
+          },
+          "required": false
+        }
+      ]
+    },
+    {
+      "sectionTitle": "Scripts",
+      "description": "The sequential video scripts that make up the story.",
+      "fields": [
+        {
+          "name": "scripts",
+          "label": "Scripts",
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": [
+              { "name": "scriptId", "label": "Script ID", "type": "string" },
+              { "name": "title", "label": "Title", "type": "text" },
+              {
+                "name": "scriptNumber",
+                "label": "Script Number",
+                "type": "number"
+              }
+            ]
+          },
+          "required": true
+        }
+      ]
+    }
+  ]
+}

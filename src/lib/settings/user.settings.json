@@ -1,0 +1,29 @@
+{
+  "title": "UserSettings",
+  "type": "object",
+  "properties": {
+    "userId": {
+      "description": "The ID of the user this settings document belongs to.",
+      "type": "string"
+    },
+    "notification_preferences": {
+      "description": "User's notification preferences.",
+      "type": "object",
+      "properties": {
+        "email_newsletter": { "type": "boolean" },
+        "push_notifications": { "type": "boolean" },
+        "sms_alerts": { "type": "boolean" }
+      }
+    },
+    "display_settings": {
+      "description": "User's display preferences.",
+      "type": "object",
+      "properties": {
+        "theme": { "type": "string" },
+        "font_size": { "type": "string" },
+        "language": { "type": "string" }
+      }
+    }
+  },
+  "required": ["userId"]
+}

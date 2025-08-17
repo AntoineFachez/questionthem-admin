@@ -1,0 +1,120 @@
+{
+  "title": "Government Agency Profile",
+  "description": "Blueprint for a government agency's official profile.",
+  "sections": [
+    {
+      "sectionTitle": "Core Information",
+      "description": "Fundamental identifying details about the agency.",
+      "fields": [
+        {
+          "name": "agencyId",
+          "label": "Agency ID",
+          "type": "string",
+          "description": "Unique identifier for the agency."
+        },
+        {
+          "name": "agencyName",
+          "label": "Agency Name",
+          "type": "text",
+          "placeholder": "e.g., Federal Bureau of Investigation",
+          "required": true
+        },
+        {
+          "name": "acronym",
+          "label": "Acronym",
+          "type": "text",
+          "placeholder": "e.g., FBI",
+          "required": true
+        },
+        {
+          "name": "website",
+          "label": "Official Website",
+          "type": "url",
+          "placeholder": "e.g., https://www.fbi.gov",
+          "required": false
+        },
+        {
+          "name": "parentAgencyId",
+          "label": "Parent Agency ID",
+          "type": "string",
+          "description": "ID of the governing agency, if applicable.",
+          "required": false
+        }
+      ]
+    },
+    {
+      "sectionTitle": "Mandate & Jurisdiction",
+      "description": "Information about the agency's purpose and scope.",
+      "fields": [
+        {
+          "name": "jurisdiction",
+          "label": "Jurisdiction",
+          "type": "text",
+          "placeholder": "e.g., Federal, State, Local",
+          "required": false
+        },
+        {
+          "name": "mandate",
+          "label": "Mandate",
+          "type": "textarea",
+          "placeholder": "Describe the agency's mission...",
+          "required": false
+        }
+      ]
+    },
+    {
+      "sectionTitle": "Contact Information",
+      "description": "How to get in touch with the agency.",
+      "fields": [
+        {
+          "name": "phoneNumbers",
+          "label": "Phone Numbers",
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": [
+              { "name": "type", "label": "Type", "type": "string" },
+              { "name": "number", "label": "Number", "type": "tel" }
+            ]
+          },
+          "required": false
+        },
+        {
+          "name": "emailAddresses",
+          "label": "Email Addresses",
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": [
+              { "name": "type", "label": "Type", "type": "string" },
+              {
+                "name": "address",
+                "label": "Email",
+                "type": "email",
+                "placeholder": "e.g., info@agency.gov"
+              }
+            ]
+          },
+          "required": false
+        },
+        {
+          "name": "addresses",
+          "label": "Physical Addresses",
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": [
+              { "name": "type", "label": "Type", "type": "string" },
+              { "name": "streetAddress", "label": "Street", "type": "text" },
+              { "name": "city", "label": "City", "type": "text" },
+              { "name": "state", "label": "State", "type": "text" },
+              { "name": "postalCode", "label": "Postal Code", "type": "text" },
+              { "name": "country", "label": "Country", "type": "text" }
+            ]
+          },
+          "required": false
+        }
+      ]
+    }
+  ]
+}

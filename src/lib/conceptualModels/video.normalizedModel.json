@@ -1,0 +1,60 @@
+{
+  "videoProfile": {
+    "entities": [
+      {
+        "name": "VideoAsset",
+        "description": "The main entity storing core information about a published media asset.",
+        "properties": [
+          {
+            "name": "video_id",
+            "type": "string",
+            "description": "Unique identifier for the video asset."
+          },
+          { "name": "title", "type": "string" },
+          { "name": "description", "type": "string" },
+          { "name": "media_type", "type": "string" },
+          { "name": "url", "type": "string" },
+          { "name": "thumbnail_url", "type": "string" },
+          { "name": "duration_in_seconds", "type": "number" },
+          {
+            "name": "story_id",
+            "type": "string",
+            "description": "Foreign key to the parent Story."
+          },
+          {
+            "name": "script_id",
+            "type": "string",
+            "description": "Foreign key to the specific VideoScript."
+          }
+        ]
+      },
+      {
+        "name": "PublicationInfo",
+        "description": "Information regarding the publication state of the video.",
+        "properties": [
+          {
+            "name": "publication_id",
+            "type": "string",
+            "description": "Unique identifier for the publication record."
+          },
+          {
+            "name": "video_id",
+            "type": "string",
+            "description": "Foreign key to the VideoAsset."
+          },
+          { "name": "status", "type": "string" },
+          { "name": "published_at", "type": "timestamp" },
+          { "name": "last_edited_at", "type": "timestamp" }
+        ]
+      }
+    ],
+    "relationships": [
+      {
+        "from": "VideoAsset",
+        "to": "PublicationInfo",
+        "type": "one-to-one",
+        "description": "A video asset has a single publication record."
+      }
+    ]
+  }
+}

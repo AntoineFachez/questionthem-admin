@@ -1,0 +1,116 @@
+{
+  "storyProfile": {
+    "entities": [
+      {
+        "name": "Story",
+        "description": "The main entity storing core information about a narrative.",
+        "properties": [
+          {
+            "name": "story_id",
+            "type": "string",
+            "description": "Unique identifier for the story."
+          },
+          { "name": "title", "type": "string" },
+          { "name": "author", "type": "string" },
+          { "name": "logline", "type": "string" },
+          { "name": "synopsis", "type": "string" }
+        ]
+      },
+      {
+        "name": "StoryCharacter",
+        "description": "A relationship table linking a story to its characters.",
+        "properties": [
+          {
+            "name": "story_character_id",
+            "type": "string",
+            "description": "Unique identifier for the relationship record."
+          },
+          {
+            "name": "story_id",
+            "type": "string",
+            "description": "Foreign key to Story."
+          },
+          {
+            "name": "character_id",
+            "type": "string",
+            "description": "A unique identifier for the character."
+          },
+          { "name": "name", "type": "string" },
+          { "name": "description", "type": "string" }
+        ]
+      },
+      {
+        "name": "StoryScript",
+        "description": "A relationship table that orders the video scripts within the story.",
+        "properties": [
+          {
+            "name": "story_script_id",
+            "type": "string",
+            "description": "Unique identifier for the relationship record."
+          },
+          {
+            "name": "story_id",
+            "type": "string",
+            "description": "Foreign key to Story."
+          },
+          {
+            "name": "script_id",
+            "type": "string",
+            "description": "Foreign key to VideoScript."
+          },
+          { "name": "script_number", "type": "number" },
+          { "name": "title", "type": "string" }
+        ]
+      },
+      {
+        "name": "Genre",
+        "description": "A list of reusable genre categories.",
+        "properties": [
+          {
+            "name": "genre_id",
+            "type": "string",
+            "description": "Unique identifier for the genre."
+          },
+          { "name": "genre_name", "type": "string" }
+        ]
+      },
+      {
+        "name": "StoryGenre",
+        "description": "A many-to-many relationship table linking stories to their genres.",
+        "properties": [
+          { "name": "story_genre_id", "type": "string" },
+          {
+            "name": "story_id",
+            "type": "string",
+            "description": "Foreign key to Story."
+          },
+          {
+            "name": "genre_id",
+            "type": "string",
+            "description": "Foreign key to Genre."
+          }
+        ]
+      }
+    ],
+    "relationships": [
+      {
+        "from": "Story",
+        "to": "StoryCharacter",
+        "type": "one-to-many",
+        "description": "A story has many characters."
+      },
+      {
+        "from": "Story",
+        "to": "StoryScript",
+        "type": "one-to-many",
+        "description": "A story is composed of many scripts in a specific order."
+      },
+      {
+        "from": "Story",
+        "to": "StoryGenre",
+        "type": "one-to-many",
+        "description": "A story can have multiple genres."
+      }
+    ]
+  }
+}

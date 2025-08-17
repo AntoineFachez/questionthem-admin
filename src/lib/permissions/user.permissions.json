@@ -1,0 +1,14 @@
+{
+  "admin": [
+    "user:read",
+    "user:create",
+    "user:update",
+    "user:delete",
+    "post:read",
+    "post:create",
+    "post:update",
+    "post:delete"
+  ],
+  "editor": ["user:read", "post:read", "post:create", "post:update"],
+  "guest": ["user:read", "post:read"]
+}

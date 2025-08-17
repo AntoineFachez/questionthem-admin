@@ -1,0 +1,61 @@
+{
+  "title": "User Account",
+  "description": "Blueprint for user accounts used for authentication and access.",
+  "sections": [
+    {
+      "sectionTitle": "Account Details",
+      "fields": [
+        {
+          "name": "userId",
+          "label": "User ID",
+          "type": "string",
+          "description": "Unique system identifier for the user account."
+        },
+        {
+          "name": "username",
+          "label": "Username",
+          "type": "text",
+          "placeholder": "Enter your unique username",
+          "required": true
+        },
+        {
+          "name": "password",
+          "label": "Password",
+          "type": "password",
+          "placeholder": "Create a secure password",
+          "required": true
+        },
+        {
+          "name": "emailAddresses",
+          "label": "Email Addresses",
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": [
+              { "name": "type", "label": "Type", "type": "string" },
+              {
+                "name": "address",
+                "label": "Email",
+                "type": "email",
+                "placeholder": "e.g., jane.doe@example.com"
+              }
+            ]
+          },
+          "required": true
+        }
+      ]
+    },
+    {
+      "sectionTitle": "Relationship",
+      "description": "Links the user account to a specific person entity.",
+      "fields": [
+        {
+          "name": "personId",
+          "label": "Person ID",
+          "type": "string",
+          "description": "Foreign key to the corresponding person's biographical profile."
+        }
+      ]
+    }
+  ]
+}

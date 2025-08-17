@@ -1,0 +1,109 @@
+{
+  "title": "Video Asset Profile",
+  "description": "Blueprint for a published media asset (video, podcast, etc.) based on a story script.",
+  "sections": [
+    {
+      "sectionTitle": "Core Media Information",
+      "description": "Fundamental details to identify and classify the media asset.",
+      "fields": [
+        {
+          "name": "videoId",
+          "label": "Video ID",
+          "type": "string",
+          "description": "Unique identifier for the video asset."
+        },
+        {
+          "name": "title",
+          "label": "Title",
+          "type": "text",
+          "placeholder": "e.g., The Journey Begins - Episode 1",
+          "required": true
+        },
+        {
+          "name": "mediaType",
+          "label": "Media Type",
+          "type": "string",
+          "placeholder": "e.g., video, podcast, theater_piece",
+          "required": true
+        },
+        {
+          "name": "description",
+          "label": "Description",
+          "type": "textarea",
+          "placeholder": "A brief description of the video content.",
+          "required": false
+        },
+        {
+          "name": "url",
+          "label": "URL",
+          "type": "url",
+          "placeholder": "e.g., https://www.example.com/video1.mp4",
+          "required": true
+        },
+        {
+          "name": "thumbnailUrl",
+          "label": "Thumbnail URL",
+          "type": "url",
+          "placeholder": "e.g., https://www.example.com/thumb1.jpg",
+          "required": false
+        },
+        {
+          "name": "durationInSeconds",
+          "label": "Duration (seconds)",
+          "type": "number",
+          "placeholder": "e.g., 600",
+          "required": false
+        }
+      ]
+    },
+    {
+      "sectionTitle": "Publication Information",
+      "description": "The publication status and history of the media asset.",
+      "fields": [
+        {
+          "name": "publicationInfo",
+          "label": "Publication Details",
+          "type": "object",
+          "properties": [
+            {
+              "name": "status",
+              "label": "Status",
+              "type": "string",
+              "placeholder": "e.g., draft, published, edited"
+            },
+            {
+              "name": "publishedAt",
+              "label": "Published Date",
+              "type": "date-time"
+            },
+            {
+              "name": "lastEditedAt",
+              "label": "Last Edited Date",
+              "type": "date-time"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sectionTitle": "Relationships",
+      "description": "Links the media asset to the source story and script.",
+      "fields": [
+        {
+          "name": "storyId",
+          "label": "Story ID",
+          "type": "string",
+          "description": "The unique ID of the story this video belongs to.",
+          "required": true
+        },
+        {
+          "name": "scriptId",
+          "label": "Script ID",
+          "type": "string",
+          "description": "The unique ID of the script this video is based on.",
+          "required": true
+        }
+      ]
+    }
+  ]
+}

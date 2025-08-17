@@ -1,0 +1,84 @@
+{
+  "title": "Story",
+  "type": "object",
+  "description": "Represents a narrative composed of a series of sequential video scripts.",
+  "properties": {
+    "storyId": {
+      "description": "A unique identifier for the entire story.",
+      "type": "string"
+    },
+    "title": {
+      "description": "The title of the story.",
+      "type": "string"
+    },
+    "author": {
+      "description": "The writer(s) or creator(s) of the story.",
+      "type": "string"
+    },
+    "genre": {
+      "description": "The genre(s) of the story (e.g., 'Fantasy', 'Sci-Fi', 'Documentary').",
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "logline": {
+      "description": "A one-sentence summary of the story's core plot.",
+      "type": "string"
+    },
+    "synopsis": {
+      "description": "A brief overview of the story's plot and major themes.",
+      "type": "string"
+    },
+    "characters": {
+      "description": "A list of all characters in the story, with their overarching descriptions.",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "characterId": {
+            "description": "A unique identifier for the character.",
+            "type": "string"
+          },
+          "name": {
+            "description": "The name of the character.",
+            "type": "string"
+          },
+          "description": {
+            "description": "A high-level description of the character.",
+            "type": "string"
+          }
+        },
+        "required": ["characterId", "name"]
+      }
+    },
+    "scripts": {
+      "description": "An ordered list of video scripts that make up the story. Each item should conform to the generic video script schema.",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "scriptId": {
+            "description": "A unique identifier for the script.",
+            "type": "string"
+          },
+          "title": {
+            "description": "The title of the script.",
+            "type": "string"
+          },
+          "scriptNumber": {
+            "description": "The sequential number of the script within the story.",
+            "type": "number"
+          },
+          "scriptDetails": {
+            "description": "The full content of the video script.",
+            "type": "object",
+            "required": ["scenes"]
+          }
+        },
+        "required": ["scriptId", "title", "scriptNumber", "scriptDetails"]
+      }
+    }
+  },
+  "required": ["storyId", "title", "scripts"]
+}

@@ -1,0 +1,81 @@
+{
+  "agencyProfile": {
+    "entities": [
+      {
+        "name": "Agency",
+        "description": "The main entity storing core information about a government agency.",
+        "properties": [
+          {
+            "name": "agency_id",
+            "type": "string",
+            "description": "Unique identifier for the agency."
+          },
+          {
+            "name": "agency_name",
+            "type": "string",
+            "description": "The full name of the agency."
+          },
+          {
+            "name": "agency_type",
+            "type": "string",
+            "description": "The full name of the agency."
+          },
+          { "name": "acronym", "type": "string" },
+          { "name": "website", "type": "string" },
+          { "name": "jurisdiction", "type": "string" },
+          { "name": "mandate", "type": "string" }
+        ]
+      },
+      {
+        "name": "Agency_Hierarchy",
+        "description": "A self-referencing table to handle parent-child relationships between agencies.",
+        "properties": [
+          { "name": "hierarchy_id", "type": "string" },
+          {
+            "name": "parent_agency_id",
+            "type": "string",
+            "description": "Foreign key to the parent Agency."
+          },
+          {
+            "name": "child_agency_id",
+            "type": "string",
+            "description": "Foreign key to the child Agency."
+          }
+        ]
+      },
+      {
+        "name": "AgencyContactInfo",
+        "description": "Contact details including phone numbers, emails, and physical addresses.",
+        "properties": [
+          { "name": "contact_id", "type": "string" },
+          {
+            "name": "agency_id",
+            "type": "string",
+            "description": "Foreign key to Agency."
+          },
+          {
+            "name": "type",
+            "type": "string",
+            "description": "e.g., email, phone, address."
+          },
+          { "name": "value", "type": "string" },
+          { "name": "notes", "type": "string" }
+        ]
+      }
+    ],
+    "relationships": [
+      {
+        "from": "Agency",
+        "to": "Agency_Hierarchy",
+        "type": "one-to-many",
+        "description": "An agency can be a parent to multiple child agencies."
+      },
+      {
+        "from": "Agency",
+        "to": "AgencyContactInfo",
+        "type": "one-to-many",
+        "description": "An agency can have multiple contact details."
+      }
+    ]
+  }
+}

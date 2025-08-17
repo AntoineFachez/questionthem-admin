@@ -1,13 +1,13 @@
-'use client';
+"use client";
 
-import React, { useState } from 'react';
-import { useUser } from '../../context/UserContext';
-import { post } from '../../app/api/api';
+import React, { useState } from "react";
+import { useUser } from "../../context/UserContext";
+import { post } from "../../app/api/api";
 
 // A complete React component for a secure admin login form.
 export default function AdminLoginForm() {
-  const [email, setEmail] = useState('');
-  const [password, setPassword] = useState('');
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
 
@@ -24,28 +24,28 @@ export default function AdminLoginForm() {
     setError(null);
 
     try {
-      // Send credentials to the secure API route.
+      // The `post` function likely returns the parsed JSON data.
+      // Assuming a successful response returns a `customToken` and a failed one returns an error message.
+      const responseData = await post("login", { email, password });
 
-      const data = await post('login', { email, password });
-
-      if (response.ok) {
-        // IMPORTANT: Use the loginWithToken function from the context to sign the user in.
-        await loginWithToken(data.customToken);
-        console.log('Login successful, user state updated.');
+      if (responseData && responseData.customToken) {
+        // Check for the existence of the token to determine success.
+        await loginWithToken(responseData.customToken);
+        console.log("Login successful, user state updated.");
       } else {
-        // Handle login failure based on the API response.
+        // Handle the case where the API returns an error message in the data.
         setError(
-          data.message || 'Login failed. Please check your credentials.'
+          responseData.message || "Login failed. Please check your credentials."
         );
       }
     } catch (e) {
-      console.error('Error during login:', e);
-      setError('An unexpected error occurred. Please try again.');
+      console.error("Error during login:", e);
+      // This `catch` block will handle network errors or server-side exceptions.
+      setError("An unexpected error occurred. Please try again.");
     } finally {
       setLoading(false);
     }
   };
-
   return (
     <div className="min-h-screen flex items-center justify-center bg-gray-900 font-sans p-4">
       <div className="bg-gray-800 p-8 rounded-2xl shadow-2xl w-full max-w-md">
@@ -93,7 +93,7 @@ export default function AdminLoginForm() {
             className="w-full bg-teal-600 text-white font-bold py-3 px-4 rounded-lg shadow-md hover:bg-teal-700 transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-teal-500 focus:ring-opacity-50"
             disabled={loading}
           >
-            {loading ? 'Logging in...' : 'Log In'}
+            {loading ? "Logging in..." : "Log In"}
           </button>
         </form>
         <div className="mt-8 text-center text-gray-400 text-sm">

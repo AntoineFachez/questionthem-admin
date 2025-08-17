@@ -1,0 +1,69 @@
+{
+  "title": "Location",
+  "type": "object",
+  "description": "Represents a physical or geographical location.",
+  "properties": {
+    "locationId": {
+      "description": "A unique identifier for the location.",
+      "type": "string"
+    },
+    "name": {
+      "description": "A common name for the location (e.g., 'Eiffel Tower', 'New York City').",
+      "type": "string"
+    },
+    "type": {
+      "description": "The type of location (e.g., 'city', 'state', 'country', 'building', 'geographical_region').",
+      "type": "string"
+    },
+    "isGeospatial": {
+      "description": "Indicates if the location has specific geographical coordinates.",
+      "type": "boolean"
+    },
+    "address": {
+      "description": "The street-level address details of the location.",
+      "type": "object",
+      "properties": {
+        "streetAddress": {
+          "description": "The street address.",
+          "type": "string"
+        },
+        "city": {
+          "description": "The city of the location.",
+          "type": "string"
+        },
+        "state": {
+          "description": "The state or province of the location.",
+          "type": "string"
+        },
+        "postalCode": {
+          "description": "The postal or ZIP code.",
+          "type": "string"
+        },
+        "country": {
+          "description": "The country of the location.",
+          "type": "string"
+        }
+      }
+    },
+    "coordinates": {
+      "description": "The geographical coordinates of the location.",
+      "type": "object",
+      "properties": {
+        "latitude": {
+          "description": "The latitude coordinate.",
+          "type": "number"
+        },
+        "longitude": {
+          "description": "The longitude coordinate.",
+          "type": "number"
+        }
+      },
+      "required": ["latitude", "longitude"]
+    },
+    "parentLocationId": {
+      "description": "The unique identifier of a larger, containing location (e.g., the city a building is in).",
+      "type": "string"
+    }
+  },
+  "required": ["locationId", "name", "type"]
+}

@@ -1,0 +1,100 @@
+{
+  "title": "Video Script",
+  "type": "object",
+  "description": "A structured representation of a video script, including scenes, visuals, and audio.",
+  "properties": {
+    "metadata": {
+      "description": "General information about the script.",
+      "type": "object",
+      "properties": {
+        "title": {
+          "description": "The title of the video.",
+          "type": "string"
+        },
+        "author": {
+          "description": "The writer of the script.",
+          "type": "string"
+        },
+        "version": {
+          "description": "The version number or date.",
+          "type": "string"
+        },
+        "totalDurationEstimate": {
+          "description": "An estimated total duration of the video in seconds.",
+          "type": "number"
+        }
+      }
+    },
+    "characters": {
+      "description": "A list of all characters in the script.",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "characterId": {
+            "description": "A unique identifier for the character.",
+            "type": "string"
+          },
+          "name": {
+            "description": "The name of the character.",
+            "type": "string"
+          }
+        },
+        "required": ["characterId", "name"]
+      }
+    },
+    "scenes": {
+      "description": "The main body of the script, broken down into scenes.",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "sceneId": {
+            "description": "A unique identifier for the scene.",
+            "type": "string"
+          },
+          "sceneNumber": {
+            "description": "The sequential number of the scene.",
+            "type": "number"
+          },
+          "location": {
+            "description": "The physical location of the scene.",
+            "type": "string"
+          },
+          "durationEstimate": {
+            "description": "The estimated duration of this scene in seconds.",
+            "type": "number"
+          },
+          "visuals": {
+            "description": "A description of the on-screen action, camera movements, and settings.",
+            "type": "string"
+          },
+          "audio": {
+            "description": "Dialogue, voice-overs, and sound effects for the scene.",
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "characterId": {
+                  "description": "The ID of the character speaking or associated with the audio.",
+                  "type": "string"
+                },
+                "dialogue": {
+                  "description": "The spoken lines of the character.",
+                  "type": "string"
+                },
+                "soundEffects": {
+                  "description": "Descriptions of sound effects or music.",
+                  "type": "string"
+                }
+              },
+              "required": ["characterId"]
+            }
+          }
+        },
+        "required": ["sceneId", "sceneNumber", "visuals", "audio"]
+      }
+    }
+  },
+  "required": ["metadata", "scenes"]
+}

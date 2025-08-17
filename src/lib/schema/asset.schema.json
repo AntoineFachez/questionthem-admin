@@ -1,0 +1,119 @@
+{
+  "title": "Asset",
+  "type": "object",
+  "description": "Represents a resource of economic value, including its history of ownership and custody.",
+  "properties": {
+    "assetId": {
+      "description": "A unique identifier for the asset.",
+      "type": "string"
+    },
+    "name": {
+      "description": "A common name or title for the asset (e.g., 'The Mona Lisa', 'Company Headquarters', 'Savings Account').",
+      "type": "string"
+    },
+    "type": {
+      "description": "The specific type or category of asset (e.g., 'Real Estate', 'Vehicle', 'Art', 'Bank Account', 'Company Shares').",
+      "type": "string"
+    },
+    "description": {
+      "description": "A detailed description of the asset.",
+      "type": "string"
+    },
+    "ownerId": {
+      "description": "The unique identifier of the asset's current owner.",
+      "type": "string"
+    },
+    "ownerType": {
+      "description": "The type of entity that owns the asset (e.g., 'person', 'company', 'agency').",
+      "type": "string"
+    },
+    "currentValue": {
+      "description": "The estimated current monetary value of the asset.",
+      "type": "number"
+    },
+    "currency": {
+      "description": "The currency unit for the asset's value (e.g., 'USD', 'EUR').",
+      "type": "string"
+    },
+    "status": {
+      "description": "The current status of the asset (e.g., 'active', 'for_sale', 'disposed').",
+      "type": "string"
+    },
+    "provenance": {
+      "description": "A chronological record of the asset's history of ownership and custody.",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "provenanceId": {
+            "description": "A unique ID for this specific provenance event.",
+            "type": "string"
+          },
+          "date": {
+            "description": "The date of the event.",
+            "type": "string",
+            "format": "date"
+          },
+          "description": {
+            "description": "A description of the event (e.g., 'Created by artist', 'Sold at auction', 'Donated to museum').",
+            "type": "string"
+          },
+          "previousOwnerId": {
+            "description": "The ID of the owner before this event.",
+            "type": "string"
+          },
+          "newOwnerId": {
+            "description": "The ID of the owner after this event.",
+            "type": "string"
+          },
+          "source": {
+            "description": "A reference to a source document or record (e.g., 'Bill of Sale', 'Auction House Catalog').",
+            "type": "string"
+          }
+        },
+        "required": ["provenanceId", "date", "description", "newOwnerId"]
+      }
+    },
+    "financialDetails": {
+      "description": "Specific details for financial assets.",
+      "type": "object",
+      "properties": {
+        "accountNumber": {
+          "description": "The account number for a bank account or similar asset.",
+          "type": "string"
+        },
+        "walletAddress": {
+          "description": "The address for a cryptocurrency wallet.",
+          "type": "string"
+        },
+        "tickerSymbol": {
+          "description": "The ticker symbol for a stock or share.",
+          "type": "string"
+        },
+        "numberOfShares": {
+          "description": "The number of shares held in a company.",
+          "type": "number"
+        }
+      }
+    },
+    "physicalLocation": {
+      "description": "The physical location of the asset, if applicable.",
+      "type": "object",
+      "properties": {
+        "streetAddress": { "type": "string" },
+        "city": { "type": "string" },
+        "state": { "type": "string" },
+        "country": { "type": "string" },
+        "postalCode": { "type": "string" }
+      }
+    },
+    "tags": {
+      "description": "An array of keywords for categorization (e.g., 'luxury', 'liquid', 'tangible').",
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "required": ["assetId", "name", "type", "ownerId", "ownerType", "provenance"]
+}

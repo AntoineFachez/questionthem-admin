@@ -1,0 +1,93 @@
+{
+  "title": "Person",
+  "type": "object",
+  "description": "Represents a contact or individual in an address book.",
+  "properties": {
+    "personId": {
+      "description": "A unique identifier for the person.",
+      "type": "string"
+    },
+    "firstName": {
+      "description": "The person's first name.",
+      "type": "string"
+    },
+    "lastName": {
+      "description": "The person's last name.",
+      "type": "string"
+    },
+    "company": {
+      "description": "The company or organization the person works for.",
+      "type": "string"
+    },
+    "jobTitle": {
+      "description": "The person's job title.",
+      "type": "string"
+    },
+    "birthday": {
+      "description": "The person's birthday.",
+      "type": "string",
+      "format": "date"
+    },
+    "notes": {
+      "description": "General notes or remarks about the person.",
+      "type": "string"
+    },
+    "phoneNumbers": {
+      "description": "A list of phone numbers for the person.",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "type": {
+            "description": "The type of phone number (e.g., 'home', 'work', 'mobile').",
+            "type": "string"
+          },
+          "number": {
+            "description": "The phone number itself.",
+            "type": "string"
+          }
+        },
+        "required": ["type", "number"]
+      }
+    },
+    "emailAddresses": {
+      "description": "A list of email addresses for the person.",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "type": {
+            "description": "The type of email address (e.g., 'personal', 'work').",
+            "type": "string"
+          },
+          "address": {
+            "description": "The email address.",
+            "type": "string",
+            "format": "email"
+          }
+        },
+        "required": ["type", "address"]
+      }
+    },
+    "addresses": {
+      "description": "A list of physical addresses for the person.",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "type": {
+            "description": "The type of address (e.g., 'home', 'work').",
+            "type": "string"
+          },
+          "streetAddress": { "type": "string" },
+          "city": { "type": "string" },
+          "state": { "type": "string" },
+          "postalCode": { "type": "string" },
+          "country": { "type": "string" }
+        },
+        "required": ["type", "streetAddress", "city", "postalCode"]
+      }
+    }
+  },
+  "required": ["personId", "firstName", "lastName"]
+}

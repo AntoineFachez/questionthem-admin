@@ -1,0 +1,165 @@
+{
+  "person_id": "",
+  "name": "", //e.g. combined known/ commonly used name
+  "person_name_long": "",
+  "person_name_short": "",
+  "person_initials": "",
+  "first_name": "",
+  "middle_name": "",
+  "nick_name": "",
+  "last_name": "",
+  "neé_name": "",
+  "current_status": [{ "state": "", "start_Date": "" }], //e.g.prenatal, living,  dead,
+
+  "biography_summary": "",
+  "guardians": [
+    {
+      "guardian": "",
+      "name": "",
+      "type": "" //e.g. parent, legal guardian, company (e.g. coca cola), organization (e.g. UN), agency(e.g. FBI), institution (e.g. church, university), collaboration (eg. artist collab, music band, sports team, ensemble)
+    }
+  ],
+  "siblings": [{ "name": "", "person_id": "" }],
+  "spouses": [
+    {
+      "name": "",
+      "person_id": "",
+      "marriage_date": "",
+      "divorce_date": "",
+      "end_reason": "",
+      "children_with_spouse": [
+        {
+          "name": "",
+          "person_id": ""
+        }
+      ],
+      "notes": ""
+    }
+  ],
+
+  "mentors": [
+    {
+      "mentor_id": "",
+      "name": "",
+      "type": "" //e.g. doctor father, instructor, mentor, company (e.g. coca cola), organization (e.g. UN), agency(e.g. FBI), institution (e.g. church, university), collaboration (eg. artist collab, music band, sports team, ensemble)
+    }
+  ],
+  "lifestage": [
+    {
+      "type": "", // e.g.birth, childhood, adolescence, earlyAdulthood, middleAdulthood, laterAdulthood, death
+      "date": "",
+      "location": {
+        "city": "",
+        "state_province": "",
+        "country": ""
+      },
+      "description": ""
+    }
+  ],
+
+  "educations": [
+    {
+      "educator_id": "", //e.g. company (e.g. coca cola), organization (e.g. UN), agency(e.g. FBI), institution (e.g. church, university),  collaboration (eg. artist collab, music band, sports team, ensemble)
+      "educator_name": "",
+      "educator_type": "", //e.g. company (e.g. coca cola), organization (e.g. UN), agency(e.g. FBI), institution (e.g. church, university), collaboration (eg. artist collab, music band, sports team, ensemble)
+      "degree": "",
+      "field_of_study": "",
+      "start_date": "",
+      "end_date": "",
+      "graduation_date": "",
+      "honors": "",
+      "location": {
+        "location_id": "",
+        "city": "",
+        "state_province": "",
+        "country": ""
+      },
+      "notes": ""
+    }
+  ],
+  "career_history": [
+    {
+      "employment_id": "",
+      "employer_name": "",
+      "employer_type": "", //e.g. company (e.g. coca cola), organization (e.g. UN), agency(e.g. FBI), institution (e.g. church, university), collaboration (e.g. artists collab, music band)
+      "position": "",
+      "start_date": "",
+      "end_date": "",
+      "responsibilities": ["", ""],
+      "industry": "",
+      "notes": ""
+    }
+  ],
+  "contact_info": {
+    "email": "",
+    "type": "", // e.g. employer, agent, private
+    "phone_numbers": [{ "type": "", "number": "" }],
+    "addresses": [
+      {
+        "type": "",
+        "street": "",
+        "city": "",
+        "state_province": "",
+        "zip_code": "",
+        "country": "",
+        "start_date": "",
+        "end_date": ""
+      }
+    ],
+    "social_media_profiles": [
+      {
+        "platform_id": "",
+        "platform_name": "",
+        "user_handle": "",
+        "url": ""
+      }
+    ]
+  },
+  "skills": [{ "skill_name": "", "level": "" }],
+  "awards_and_recognitions": [
+    {
+      "award_name": "",
+      "year": null,
+      "awarding_body": "",
+      "awarding_type": "", //e.g. company (e.g. coca cola), organization (e.g. UN), agency(e.g. FBI), institution (e.g. church, university), single person
+      "description": ""
+    }
+  ],
+  "affiliations": [
+    {
+      "affiliate_id": "",
+      "affiliate_name": "",
+      "affiliate_type": "", //e.g. company (e.g. coca cola), organization (e.g. UN), agency(e.g. FBI), institution (e.g. church, university), single person
+      "role": "",
+      "start_date": ""
+    }
+  ],
+  "controversies": [
+    {
+      "messenger_id": "",
+      "messenger_name": "",
+      "messenger_type": "", //e.g. company (e.g. coca cola), organization (e.g. UN), agency(e.g. FBI), institution (e.g. church, university), single person
+      "content": "",
+      "event_id": ""
+    }
+  ],
+  "assets": [
+    {
+      "asset_name": "",
+      "asset_id": "",
+      "type": "",
+      "provenience": [
+        {
+          "owner_id": "",
+          "owner_name": "",
+          "owner_type": "", //e.g. company (e.g. coca cola), organization (e.g. UN), agency(e.g. FBI), institution (e.g. church, university), single person
+          "start_date": "",
+          "end_date": "",
+          "buy_price": 0,
+          "sell_price": 0,
+          "coords": [{ "lat": "", "lng": "" }]
+        }
+      ]
+    }
+  ]
+}

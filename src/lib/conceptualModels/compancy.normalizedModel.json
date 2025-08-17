@@ -1,0 +1,72 @@
+{
+  "companyProfile": {
+    "entities": [
+      {
+        "name": "Company",
+        "description": "The main entity storing core information about a company or organization.",
+        "properties": [
+          {
+            "name": "company_id",
+            "type": "string",
+            "description": "Unique identifier for the company."
+          },
+          { "name": "company_name", "type": "string" },
+          { "name": "website", "type": "string" },
+          { "name": "industry", "type": "string" },
+          { "name": "description", "type": "string" }
+        ]
+      },
+      {
+        "name": "CompanyContactInfo",
+        "description": "Contact details including phone numbers, emails, and physical addresses for the company.",
+        "properties": [
+          { "name": "contact_id", "type": "string" },
+          {
+            "name": "company_id",
+            "type": "string",
+            "description": "Foreign key to Company."
+          },
+          {
+            "name": "type",
+            "type": "string",
+            "description": "e.g., email, phone, address."
+          },
+          { "name": "value", "type": "string" },
+          { "name": "notes", "type": "string" }
+        ]
+      },
+      {
+        "name": "CompanyMainContact",
+        "description": "A relationship entity linking a company to a main contact person.",
+        "properties": [
+          { "name": "main_contact_id", "type": "string" },
+          {
+            "name": "company_id",
+            "type": "string",
+            "description": "Foreign key to Company."
+          },
+          {
+            "name": "person_id",
+            "type": "string",
+            "description": "Foreign key to Person."
+          },
+          { "name": "notes", "type": "string" }
+        ]
+      }
+    ],
+    "relationships": [
+      {
+        "from": "Company",
+        "to": "CompanyContactInfo",
+        "type": "one-to-many",
+        "description": "A company can have multiple contact details."
+      },
+      {
+        "from": "Company",
+        "to": "CompanyMainContact",
+        "type": "one-to-one",
+        "description": "A company has one main contact."
+      }
+    ]
+  }
+}

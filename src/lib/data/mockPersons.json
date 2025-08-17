@@ -1,0 +1,416 @@
+[
+  {
+    "personId": "d54ffc3a-332f-498e-9aca-9aafb5bf780e",
+    "firstName": "Donald",
+    "lastName": "Trump",
+    "midName": [
+      {
+        "name": "John"
+      }
+    ],
+    "nickName": [
+      { "type": "opponents", "name": "The Donald" },
+      { "type": "opponents", "name": "President Orange" }
+    ],
+    "biography_summary": "Donald John Trump is an American businessman, media personality, and politician who served as the 45th U.S. president from 2017 to 2021 and is currently serving as the 47th U.S. president since 2025. Born in Queens, New York, he followed in his father's footsteps into real estate development, eventually taking over the family business and renaming it the Trump Organization. He built a global brand that included hotels, casinos, and golf courses, and gained further fame as a television personality. He entered politics with his 2016 presidential campaign, winning the election as a Republican. He is the second president to serve non-consecutive terms.",
+    "lifestage": [
+      {
+        "name": "Birth",
+        "date": "1946-06-14",
+        "location": {
+          "city": "Queens",
+          "state_province": "New York",
+          "country": "USA"
+        },
+        "description": "Born at Jamaica Hospital in Queens, New York.",
+        "sources": [{ "entityId": "", "type": "", "url": "" }]
+      },
+      {
+        "name": "Childhood",
+        "startDate": "1946-06-14",
+        "endDate": "1959-09-01",
+        "location": {
+          "city": "Queens",
+          "state_province": "New York",
+          "country": "USA"
+        },
+        "description": "Grew up in Jamaica Estates, Queens, in a wealthy family.",
+        "sources": [{ "entityId": "", "type": "", "url": "" }]
+      },
+      {
+        "name": "Significant Event",
+        "date": "1959-09-01",
+        "description": "At age 13, his parents sent him to the New York Military Academy to correct behavioral issues.",
+        "sources": [{ "entityId": "", "type": "", "url": "" }]
+      }
+    ],
+
+    "social_media_profiles": [
+      {
+        "platformId": "truth_social",
+        "name": "Donald J. Trump",
+        "userHandle": "@realDonaldTrump",
+        "url": "https://truthsocial.com/@realDonaldTrump",
+        "followingAmount": "",
+        "lastPost": {
+          "startData": "",
+          "content": ""
+        }
+      },
+      {
+        "platformId": "x",
+        "name": "Donald J. Trump",
+        "userHandle": "@realDonaldTrump",
+        "url": "https://twitter.com/realDonaldTrump",
+        "followingAmount": "",
+        "lastPost": {
+          "startData": "",
+          "content": ""
+        }
+      },
+      {
+        "platformId": "facebook",
+        "name": "Donald J. Trump",
+        "userHandle": null,
+        "url": "https://www.facebook.com/DonaldTrump",
+        "followingAmount": "",
+        "lastPost": {
+          "startData": "",
+          "content": ""
+        }
+      },
+      {
+        "platformId": "instagram",
+        "name": "Donald J. Trump",
+        "userHandle": "@realdonaldtrump",
+        "url": "https://www.instagram.com/realdonaldtrump",
+        "followingAmount": "",
+        "lastPost": {
+          "startData": "",
+          "content": ""
+        }
+      },
+      {
+        "platformId": "youtube",
+        "name": "Donald J Trump",
+        "userHandle": "@DonaldJTrumpforPresident",
+        "url": "https://www.youtube.com/channel/UCAql2DyGU2un1Ei2nMYsqOA",
+        "followingAmount": "",
+        "lastPost": {
+          "startData": "",
+          "content": ""
+        }
+      }
+    ],
+    "controversies": [
+      {
+        "entityId": "d54ffc3a-332f-498e-9aca-9aafb5bf780e",
+        "type": "person",
+        "name": "Business Practices and Legal Challenges",
+        "role": "public figure, politician",
+        "description": "Allegations and legal proceedings related to his business practices, including accusations of fraud and the falsification of business records. This includes both civil and criminal cases involving his business organization.",
+        "notes": "These controversies have spanned decades and have led to numerous civil lawsuits and, more recently, criminal charges. They are a significant part of his public identity.",
+        "eventId": "business_legal_challenges",
+        "sources": []
+      },
+      {
+        "entityId": "d54ffc3a-332f-498e-9aca-9aafb5bf780e",
+        "type": "person",
+        "name": "Russia Investigation",
+        "role": "president",
+        "description": "The investigations and political fallout surrounding Russian interference in the 2016 U.S. presidential election and alleged ties between his campaign and Russian officials.",
+        "notes": "This was a prolonged and highly publicized event that led to a Special Counsel investigation. While the investigation did not find a criminal conspiracy between the campaign and Russia, it documented numerous contacts and instances of potential obstruction of justice.",
+        "eventId": "russia_investigation",
+        "sources": []
+      },
+      {
+        "entityId": "d54ffc3a-332f-498e-9aca-9aafb5bf780e",
+        "type": "person",
+        "name": "2020 Election and January 6th",
+        "role": "president",
+        "description": "The controversies and legal challenges related to his actions following the 2020 presidential election, including allegations of attempting to overturn the results and his role in the January 6, 2021 Capitol event.",
+        "notes": "This led to a number of legal challenges and investigations, including a special counsel investigation and criminal charges. The events and their aftermath continue to be a subject of public and legal debate.",
+        "eventId": "2020_election_controversies",
+        "sources": []
+      },
+      {
+        "entityId": "d54ffc3a-332f-498e-9aca-9aafb5bf780e",
+        "type": "person",
+        "name": "Social Media and Public Statements",
+        "role": "president",
+        "description": "His use of public statements and social media, which many critics describe as unprecedented for a president, and the subsequent public reaction.",
+        "notes": "This includes the use of platforms to attack political opponents, the media, and federal institutions. Fact-checking organizations have documented numerous false or misleading claims made in his statements.",
+        "eventId": "public_statements_and_social_media",
+        "sources": []
+      },
+      {
+        "entityId": "d54ffc3a-332f-498e-9aca-9aafb5bf780e",
+        "type": "person",
+        "name": "Family Separation Policy",
+        "role": "president",
+        "description": "The 'family separation' policy at the U.S.-Mexico border, which involved separating children from their parents who had crossed the border illegally.",
+        "notes": "This policy drew widespread condemnation from human rights organizations, religious groups, and international bodies.",
+        "eventId": "border_policy_family_separation",
+        "sources": []
+      }
+    ],
+    "assets": [
+      {
+        "type": "",
+        "provenience": [
+          {
+            "entityId": "id_of_the_provenience",
+            "type": "",
+            "startDate": "",
+            "endDate": "",
+            "buyPrice": 0,
+            "sellPrice": 0,
+            "coords": [{ "lat": "", "lng": "" }]
+          }
+        ],
+        "sources": [{ "entityId": "", "type": "", "url": "" }]
+      }
+    ],
+    "affiliations": [
+      {
+        "entityId": "",
+        "type": "",
+        "role": "",
+        "notes": "",
+        "startDate": "yyyy-mm-dd",
+        "sources": [{ "entityId": "", "type": "", "url": "" }]
+      }
+    ],
+    "guardians": [
+      {
+        "entityId": "0bd24586-e2cf-4df9-93f1-561e460868b1",
+        "role": "parent",
+        "type": "person",
+        "name": "Fred C. Trump",
+        "sources": [{ "entityId": "", "type": "", "url": "" }]
+      },
+      {
+        "entityId": "dcb481e5-49d4-4f38-b1b3-87a4034d0092",
+        "role": "parent",
+        "type": "person",
+        "name": "Mary Anne MacLeod Trump",
+        "sources": [{ "entityId": "", "type": "", "url": "" }]
+      }
+    ],
+    "siblings": [
+      {
+        "name": "Maryanne Trump Barry",
+        "personId": "maryanne-trump-barry-uuid",
+        "sources": [{ "entityId": "", "type": "", "url": "" }]
+      },
+      {
+        "name": "Fred Trump Jr.",
+        "personId": "fred-trump-jr-uuid",
+        "sources": [{ "entityId": "", "type": "", "url": "" }]
+      },
+      {
+        "name": "Elizabeth Trump Grau",
+        "personId": "elizabeth-trump-grau-uuid",
+        "sources": [{ "entityId": "", "type": "", "url": "" }]
+      },
+      {
+        "name": "Robert Trump",
+        "personId": "robert-trump-uuid",
+        "sources": [{ "entityId": "", "type": "", "url": "" }]
+      }
+    ],
+    "children": [
+      {
+        "name": "Donald Trump Jr.",
+        "personId": "donald-trump-jr-uuid",
+        "sources": [{ "entityId": "", "type": "", "url": "" }]
+      },
+      {
+        "name": "Ivanka Trump",
+        "personId": "5f94281b-fda6-426d-b911-a28d5650814c",
+        "sources": [{ "entityId": "", "type": "", "url": "" }]
+      },
+      {
+        "name": "Eric Trump",
+        "personId": "3e4f5a6b-7c8d-9e0f-a1b2c3d4e5f6a8",
+        "sources": [{ "entityId": "", "type": "", "url": "" }]
+      },
+      {
+        "name": "Tiffany Trump",
+        "personId": "tiffany-trump-uuid",
+        "sources": [{ "entityId": "", "type": "", "url": "" }]
+      },
+      {
+        "name": "Barron Trump",
+        "personId": "barron-trump-uuid",
+        "sources": [{ "entityId": "", "type": "", "url": "" }]
+      }
+    ],
+    "spouses": [
+      {
+        "name": "Ivana Zelníčková",
+        "personId": "5f94281b-426d-fda6-b911-a28d5650814c",
+        "marriageDate": "1977-04-07",
+        "divorceDate": "1992-03-22",
+        "endReason": "Divorce",
+        "childrenWithSpouse": [
+          {
+            "name": "Donald Trump Jr.",
+            "personId": "donald-trump-jr-uuid"
+          },
+          {
+            "name": "Ivanka Trump",
+            "personId": "5f94281b-fda6-426d-b911-a28d5650814c"
+          },
+          {
+            "name": "Eric Trump",
+            "personId": "3e4f5a6b-7c8d-9e0f-a1b2c3d4e5f6a8"
+          }
+        ],
+        "notes": null,
+        "sources": [{ "entityId": "", "type": "", "url": "" }]
+      },
+      {
+        "name": "Marla Maples",
+        "personId": "cbd48421-5966-4f0f-af7a-c2a58e5a7c92",
+        "marriageDate": "1993-12-19",
+        "divorceDate": "1999-06-08",
+        "endReason": "Divorce",
+        "childrenWithSpouse": [
+          {
+            "name": "Tiffany Trump",
+            "personId": "tiffany-trump-uuid"
+          }
+        ],
+        "notes": null,
+        "sources": [{ "entityId": "", "type": "", "url": "" }]
+      },
+      {
+        "name": "Melania Knauss",
+        "personId": "230d78ae-73c6-4609-ac77-d676ff8d6d03",
+        "marriageDate": "2005-01-22",
+        "divorceDate": null,
+        "endReason": null,
+        "childrenWithSpouse": [
+          {
+            "name": "Barron Trump",
+            "personId": "barron-trump-uuid"
+          }
+        ],
+        "notes": null,
+        "sources": [{ "entityId": "", "type": "", "url": "" }]
+      }
+    ],
+    "education": [
+      {
+        "name": "New York Military Academy",
+        "entityId": null,
+        "type": "institution",
+        "degree": null,
+        "fieldOfStudy": null,
+        "graduationDate": null,
+        "startDate": "1959",
+        "endDate": "1964",
+        "sources": [{ "entityId": "", "type": "", "url": "" }]
+      },
+      {
+        "name": "Fordham University",
+        "entityId": null,
+        "type": "institution",
+        "degree": null,
+        "fieldOfStudy": null,
+        "graduationDate": null,
+        "startDate": "1964",
+        "endDate": "1966",
+        "sources": [{ "entityId": "", "type": "", "url": "" }]
+      },
+      {
+        "name": "The Wharton School of the University of Pennsylvania",
+        "entityId": null,
+        "type": "institution",
+        "degree": "Bachelor of Science",
+        "fieldOfStudy": "Economics",
+        "graduationDate": "1968",
+        "startDate": "1966",
+        "endDate": "1968",
+        "sources": [{ "entityId": "", "type": "", "url": "" }]
+      }
+    ],
+    "career": [
+      {
+        "entityId": "e3f4a5b6-c7d8-e9f0-a1b2-c3d4e5f6a7b8",
+        "name": "Elizabeth Trump & Son / The Trump Organization",
+        "type": "company",
+        "position": "President",
+        "startDate": "1968",
+        "endDate": "2017",
+        "responsibilities": [
+          {
+            "name": "Led a major expansion of the family real estate business from middle-class housing into luxury projects in Manhattan and beyond"
+          },
+          {
+            "name": "Oversaw the construction and development of numerous high-profile properties, including Trump Tower and various hotels and golf courses"
+          }
+        ],
+        "industry": "Real Estate Development",
+        "notes": "Took over the family business from his father, renaming it 'The Trump Organization' in 1971."
+      },
+      {
+        "entityId": "",
+        "name": "NBC",
+        "type": "company",
+        "position": "Host and Producer of The Apprentice",
+        "startDate": "2004",
+        "endDate": "2015",
+        "responsibilities": [
+          {
+            "name": "Hosted the reality television series 'The Apprentice' and 'The Celebrity Apprentice'"
+          },
+          {
+            "name": "Gained widespread public recognition as a television personality"
+          }
+        ],
+        "industry": "Television",
+        "notes": null
+      },
+      {
+        "entityId": "",
+        "name": "U.S. Federal Government",
+        "type": "administration",
+        "position": "45th President of the United States",
+        "startDate": "2017-01-20",
+        "endDate": "2021-01-20",
+        "responsibilities": [
+          {
+            "name": "Head of state and head of government of the United States"
+          },
+          {
+            "name": "Commander-in-chief of the U.S. Armed Forces"
+          }
+        ],
+        "industry": "Politics/Government",
+        "notes": "Served one term, succeeded by Joe Biden."
+      },
+      {
+        "entityId": "",
+        "name": "U.S. Federal Government",
+        "type": "administration",
+        "position": "47th President of the United States",
+        "startDate": "2025-01-20",
+        "endDate": null,
+        "responsibilities": [
+          {
+            "name": "Head of state and head of government of the United States"
+          },
+          {
+            "name": "Commander-in-chief of the U.S. Armed Forces"
+          }
+        ],
+        "industry": "Politics/Government",
+        "notes": "Second non-consecutive term."
+      }
+    ],
+    "phoneNumbers": [],
+    "addresses": []
+  }
+]

@@ -1,0 +1,89 @@
+{
+  "title": "Company",
+  "type": "object",
+  "description": "Represents a company or organization in an address book.",
+  "properties": {
+    "companyId": {
+      "description": "A unique identifier for the company.",
+      "type": "string"
+    },
+    "companyName": {
+      "description": "The full name of the company.",
+      "type": "string"
+    },
+    "website": {
+      "description": "The company's primary website URL.",
+      "type": "string",
+      "format": "uri"
+    },
+    "industry": {
+      "description": "The industry the company operates in.",
+      "type": "string"
+    },
+    "description": {
+      "description": "A brief description of the company.",
+      "type": "string"
+    },
+    "mainContactId": {
+      "description": "The unique identifier of the main contact person for this company.",
+      "type": "string"
+    },
+    "phoneNumbers": {
+      "description": "A list of phone numbers for the company.",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "type": {
+            "description": "The type of phone number (e.g., 'main', 'fax').",
+            "type": "string"
+          },
+          "number": {
+            "description": "The phone number itself.",
+            "type": "string"
+          }
+        },
+        "required": ["type", "number"]
+      }
+    },
+    "emailAddresses": {
+      "description": "A list of email addresses for the company.",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "type": {
+            "description": "The type of email address (e.g., 'general', 'support').",
+            "type": "string"
+          },
+          "address": {
+            "description": "The email address.",
+            "type": "string",
+            "format": "email"
+          }
+        },
+        "required": ["type", "address"]
+      }
+    },
+    "addresses": {
+      "description": "A list of physical addresses for the company.",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "type": {
+            "description": "The type of address (e.g., 'headquarters', 'branch').",
+            "type": "string"
+          },
+          "streetAddress": { "type": "string" },
+          "city": { "type": "string" },
+          "state": { "type": "string" },
+          "postalCode": { "type": "string" },
+          "country": { "type": "string" }
+        },
+        "required": ["type", "streetAddress", "city", "postalCode"]
+      }
+    }
+  },
+  "required": ["companyId", "companyName"]
+}

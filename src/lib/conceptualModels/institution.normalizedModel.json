@@ -1,0 +1,97 @@
+{
+  "institutionProfile": {
+    "entities": [
+      {
+        "name": "Institution",
+        "description": "The main entity storing core information about a formal institution.",
+        "properties": [
+          {
+            "name": "institution_id",
+            "type": "string",
+            "description": "Unique identifier for the institution."
+          },
+          { "name": "institution_name", "type": "string" },
+          { "name": "type", "type": "string" },
+          { "name": "acronym", "type": "string" },
+          { "name": "website", "type": "string" },
+          { "name": "founding_date", "type": "date" },
+          { "name": "mission_statement", "type": "string" }
+        ]
+      },
+      {
+        "name": "InstitutionHierarchy",
+        "description": "A self-referencing relationship table for parent-child institutions.",
+        "properties": [
+          { "name": "hierarchy_id", "type": "string" },
+          {
+            "name": "parent_institution_id",
+            "type": "string",
+            "description": "Foreign key to the parent Institution."
+          },
+          {
+            "name": "child_institution_id",
+            "type": "string",
+            "description": "Foreign key to the child Institution."
+          }
+        ]
+      },
+      {
+        "name": "KeyPersonnel",
+        "description": "A relationship table linking an institution to its key personnel.",
+        "properties": [
+          { "name": "personnel_id", "type": "string" },
+          {
+            "name": "institution_id",
+            "type": "string",
+            "description": "Foreign key to Institution."
+          },
+          {
+            "name": "person_id",
+            "type": "string",
+            "description": "Foreign key to Person."
+          },
+          { "name": "role", "type": "string" }
+        ]
+      },
+      {
+        "name": "InstitutionContactInfo",
+        "description": "Contact details including phone numbers, emails, and physical addresses.",
+        "properties": [
+          { "name": "contact_id", "type": "string" },
+          {
+            "name": "institution_id",
+            "type": "string",
+            "description": "Foreign key to Institution."
+          },
+          {
+            "name": "type",
+            "type": "string",
+            "description": "e.g., email, phone, address."
+          },
+          { "name": "value", "type": "string" },
+          { "name": "notes", "type": "string" }
+        ]
+      }
+    ],
+    "relationships": [
+      {
+        "from": "Institution",
+        "to": "InstitutionHierarchy",
+        "type": "one-to-many",
+        "description": "An institution can have multiple child institutions."
+      },
+      {
+        "from": "Institution",
+        "to": "KeyPersonnel",
+        "type": "one-to-many",
+        "description": "An institution has many key personnel."
+      },
+      {
+        "from": "Institution",
+        "to": "InstitutionContactInfo",
+        "type": "one-to-many",
+        "description": "An institution can have multiple contact details."
+      }
+    ]
+  }
+}

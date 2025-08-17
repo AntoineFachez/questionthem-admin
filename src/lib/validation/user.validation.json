@@ -1,0 +1,50 @@
+{
+  "username": {
+    "minLength": 4,
+    "maxLength": 30,
+    "pattern": "^[a-zA-Z0-9_.]+$",
+    "errorMessage": "Username must be between 4 and 30 characters and can only contain letters, numbers, underscores, and periods."
+  },
+  "email": {
+    "pattern": "^[^\\s@]+@[^\\s@]+\\.[^\\s@]+$",
+    "errorMessage": "Please enter a valid email address."
+  },
+  "password": {
+    "minLength": 8,
+    "maxLength": 100,
+    "pattern": "^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*()_+\\-=\\[\\]{};':\"\\\\|,.<>\\/?]).*$",
+    "errorMessage": "Password must be at least 8 characters long and contain at least one uppercase letter, one lowercase letter, one number, and one special character."
+  },
+  "firstName": {
+    "minLength": 2,
+    "maxLength": 50,
+    "pattern": "^[a-zA-Z]+$",
+    "errorMessage": "First name must be at least 2 characters long and can only contain letters."
+  },
+  "lastName": {
+    "minLength": 2,
+    "maxLength": 50,
+    "pattern": "^[a-zA-Z]+$",
+    "errorMessage": "Last name must be at least 2 characters long and can only contain letters."
+  },
+  "profile": {
+    "bio": {
+      "maxLength": 250,
+      "errorMessage": "Bio cannot exceed 250 characters."
+    },
+    "avatarUrl": {
+      "pattern": "^(http|https):\\/\\/.+\\.(jpg|jpeg|png|gif|svg)$",
+      "errorMessage": "Please enter a valid URL for the avatar image."
+    },
+    "location": {
+      "maxLength": 100,
+      "errorMessage": "Location cannot exceed 100 characters."
+    }
+  },
+  "roles": {
+    "items": {
+      "pattern": "^(user|admin|editor|guest)$",
+      "errorMessage": "Invalid role. Accepted roles are 'user', 'admin', 'editor', and 'guest'."
+    }
+  }
+}

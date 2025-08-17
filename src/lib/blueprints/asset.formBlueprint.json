@@ -1,0 +1,180 @@
+{
+  "title": "Asset Profile",
+  "description": "Blueprint for an asset's detailed information, including ownership and provenance.",
+  "sections": [
+    {
+      "sectionTitle": "Core Information",
+      "description": "Fundamental details to identify and classify the asset.",
+      "fields": [
+        {
+          "name": "assetId",
+          "label": "Asset ID",
+          "type": "string",
+          "description": "Unique identifier for the asset."
+        },
+        {
+          "name": "name",
+          "label": "Asset Name",
+          "type": "text",
+          "placeholder": "e.g., The Mona Lisa",
+          "required": true
+        },
+        {
+          "name": "type",
+          "label": "Asset Type",
+          "type": "string",
+          "placeholder": "e.g., Real Estate, Vehicle, Company Shares",
+          "required": true
+        },
+        {
+          "name": "description",
+          "label": "Description",
+          "type": "textarea",
+          "placeholder": "A detailed description of the asset.",
+          "required": false
+        },
+        {
+          "name": "status",
+          "label": "Status",
+          "type": "string",
+          "placeholder": "e.g., active, for_sale, disposed",
+          "required": false
+        }
+      ]
+    },
+    {
+      "sectionTitle": "Ownership & Value",
+      "description": "Information about the asset's ownership and monetary value.",
+      "fields": [
+        {
+          "name": "ownerId",
+          "label": "Owner ID",
+          "type": "string",
+          "description": "The unique identifier of the current owner.",
+          "required": true
+        },
+        {
+          "name": "ownerType",
+          "label": "Owner Type",
+          "type": "string",
+          "placeholder": "e.g., person, company, agency",
+          "required": true
+        },
+        {
+          "name": "currentValue",
+          "label": "Current Value",
+          "type": "number",
+          "placeholder": "e.g., 500000.00",
+          "required": false
+        },
+        {
+          "name": "currency",
+          "label": "Currency",
+          "type": "string",
+          "placeholder": "e.g., USD, EUR",
+          "required": false
+        }
+      ]
+    },
+    {
+      "sectionTitle": "Physical Details",
+      "description": "Location and physical attributes for tangible assets.",
+      "fields": [
+        {
+          "name": "physicalLocation",
+          "label": "Physical Location",
+          "type": "object",
+          "properties": [
+            {
+              "name": "streetAddress",
+              "label": "Street Address",
+              "type": "text"
+            },
+            { "name": "city", "label": "City", "type": "text" },
+            { "name": "state", "label": "State", "type": "text" },
+            { "name": "country", "label": "Country", "type": "text" },
+            { "name": "postalCode", "label": "Postal Code", "type": "text" }
+          ],
+          "required": false
+        }
+      ]
+    },
+    {
+      "sectionTitle": "Financial Details",
+      "description": "Specific information for financial assets.",
+      "fields": [
+        {
+          "name": "financialDetails",
+          "label": "Financial Details",
+          "type": "object",
+          "properties": [
+            {
+              "name": "accountNumber",
+              "label": "Account Number",
+              "type": "text"
+            },
+            {
+              "name": "walletAddress",
+              "label": "Wallet Address",
+              "type": "text"
+            },
+            {
+              "name": "tickerSymbol",
+              "label": "Ticker Symbol",
+              "type": "text"
+            },
+            {
+              "name": "numberOfShares",
+              "label": "Number of Shares",
+              "type": "number"
+            }
+          ],
+          "required": false
+        }
+      ]
+    },
+    {
+      "sectionTitle": "Provenance & Tags",
+      "description": "The history and categorization of the asset.",
+      "fields": [
+        {
+          "name": "provenance",
+          "label": "Provenance History",
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": [
+              { "name": "date", "label": "Date", "type": "date" },
+              {
+                "name": "description",
+                "label": "Description",
+                "type": "textarea"
+              },
+              {
+                "name": "previousOwnerId",
+                "label": "Previous Owner ID",
+                "type": "string"
+              },
+              {
+                "name": "newOwnerId",
+                "label": "New Owner ID",
+                "type": "string"
+              }
+            ]
+          },
+          "required": false
+        },
+        {
+          "name": "tags",
+          "label": "Tags",
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Add keywords to categorize the asset.",
+          "required": false
+        }
+      ]
+    }
+  ]
+}

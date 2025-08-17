@@ -1,0 +1,136 @@
+{
+  "title": "Video Script",
+  "description": "Blueprint for a structured video script, including scenes, visuals, and audio.",
+  "sections": [
+    {
+      "sectionTitle": "Metadata",
+      "description": "General information about the script.",
+      "fields": [
+        {
+          "name": "metadata",
+          "label": "Script Metadata",
+          "type": "object",
+          "properties": [
+            {
+              "name": "title",
+              "label": "Video Title",
+              "type": "text",
+              "placeholder": "e.g., The Journey Begins"
+            },
+            {
+              "name": "author",
+              "label": "Author",
+              "type": "text",
+              "placeholder": "e.g., Jane Doe"
+            },
+            {
+              "name": "version",
+              "label": "Version",
+              "type": "string",
+              "placeholder": "e.g., 1.0"
+            },
+            {
+              "name": "totalDurationEstimate",
+              "label": "Estimated Duration (seconds)",
+              "type": "number",
+              "placeholder": "e.g., 120"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sectionTitle": "Characters",
+      "description": "A list of all characters in the script.",
+      "fields": [
+        {
+          "name": "characters",
+          "label": "Characters",
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": [
+              {
+                "name": "characterId",
+                "label": "Character ID",
+                "type": "string"
+              },
+              {
+                "name": "name",
+                "label": "Name",
+                "type": "text",
+                "placeholder": "e.g., Alex"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "sectionTitle": "Scenes",
+      "description": "The main body of the script, broken down into scenes.",
+      "fields": [
+        {
+          "name": "scenes",
+          "label": "Scenes",
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": [
+              { "name": "sceneId", "label": "Scene ID", "type": "string" },
+              {
+                "name": "sceneNumber",
+                "label": "Scene Number",
+                "type": "number"
+              },
+              {
+                "name": "location",
+                "label": "Location",
+                "type": "text",
+                "placeholder": "e.g., INT. CAFE - DAY"
+              },
+              {
+                "name": "durationEstimate",
+                "label": "Estimated Duration (seconds)",
+                "type": "number",
+                "placeholder": "e.g., 30"
+              },
+              {
+                "name": "visuals",
+                "label": "Visuals",
+                "type": "textarea",
+                "placeholder": "A detailed description of the on-screen action."
+              },
+              {
+                "name": "audio",
+                "label": "Audio & Dialogue",
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": [
+                    {
+                      "name": "characterId",
+                      "label": "Character ID",
+                      "type": "string"
+                    },
+                    {
+                      "name": "dialogue",
+                      "label": "Dialogue",
+                      "type": "textarea"
+                    },
+                    {
+                      "name": "soundEffects",
+                      "label": "Sound Effects",
+                      "type": "textarea",
+                      "placeholder": "e.g., [SOUND of a doorbell]"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

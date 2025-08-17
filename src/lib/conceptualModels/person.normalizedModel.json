@@ -1,0 +1,325 @@
+{
+  "personProfile": {
+    "entities": [
+      {
+        "name": "Person",
+        "description": "The main entity storing core personal information.",
+        "properties": [
+          {
+            "name": "person_id",
+            "type": "string",
+            "description": "Unique identifier for the person."
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "description": "Combined known/commonly used name."
+          },
+          { "name": "person_name_long", "type": "string" },
+          { "name": "person_name_short", "type": "string" },
+          { "name": "person_initials", "type": "string" },
+          { "name": "first_name", "type": "string" },
+          { "name": "middle_name", "type": "string" },
+          { "name": "nick_name", "type": "string" },
+          { "name": "last_name", "type": "string" },
+          { "name": "neé_name", "type": "string" },
+          { "name": "biography_summary", "type": "string" }
+        ]
+      },
+      {
+        "name": "Status",
+        "description": "Historical status of a person's life (e.g., living, deceased).",
+        "properties": [
+          { "name": "status_id", "type": "string" },
+          { "name": "state", "type": "string" },
+          { "name": "start_date", "type": "timestamp" },
+          {
+            "name": "person_id",
+            "type": "string",
+            "description": "Foreign key to Person."
+          }
+        ]
+      },
+      {
+        "name": "Relationship",
+        "description": "A many-to-many relationship table to handle complex family and professional connections like guardians, mentors, siblings, and spouses.",
+        "properties": [
+          { "name": "relationship_id", "type": "string" },
+          {
+            "name": "person_id_from",
+            "type": "string",
+            "description": "Foreign key to the primary Person."
+          },
+          {
+            "name": "person_id_to",
+            "type": "string",
+            "description": "Foreign key to the related Person."
+          },
+          {
+            "name": "relationship_type",
+            "type": "string",
+            "description": "e.g., guardian, mentor, sibling, spouse."
+          },
+          { "name": "start_date", "type": "timestamp" },
+          { "name": "end_date", "type": "timestamp" },
+          { "name": "notes", "type": "string" }
+        ]
+      },
+      {
+        "name": "LifeEvent",
+        "description": "Major life events and lifestage details.",
+        "properties": [
+          { "name": "event_id", "type": "string" },
+          {
+            "name": "person_id",
+            "type": "string",
+            "description": "Foreign key to Person."
+          },
+          {
+            "name": "type",
+            "type": "string",
+            "description": "e.g., birth, childhood, death."
+          },
+          { "name": "date", "type": "timestamp" },
+          { "name": "description", "type": "string" }
+        ]
+      },
+      {
+        "name": "Location",
+        "description": "Geographical location information, a reusable entity.",
+        "properties": [
+          { "name": "location_id", "type": "string" },
+          { "name": "city", "type": "string" },
+          { "name": "state_province", "type": "string" },
+          { "name": "country", "type": "string" }
+        ]
+      },
+      {
+        "name": "Education",
+        "description": "Educational history of the person.",
+        "properties": [
+          { "name": "education_id", "type": "string" },
+          {
+            "name": "person_id",
+            "type": "string",
+            "description": "Foreign key to Person."
+          },
+          { "name": "educator_name", "type": "string" },
+          { "name": "degree", "type": "string" },
+          { "name": "field_of_study", "type": "string" },
+          { "name": "start_date", "type": "timestamp" },
+          { "name": "end_date", "type": "timestamp" },
+          { "name": "graduation_date", "type": "timestamp" },
+          { "name": "honors", "type": "string" },
+          {
+            "name": "location_id",
+            "type": "string",
+            "description": "Foreign key to Location."
+          },
+          { "name": "notes", "type": "string" }
+        ]
+      },
+      {
+        "name": "Career",
+        "description": "Employment and career history.",
+        "properties": [
+          { "name": "career_id", "type": "string" },
+          {
+            "name": "person_id",
+            "type": "string",
+            "description": "Foreign key to Person."
+          },
+          { "name": "employer_name", "type": "string" },
+          { "name": "position", "type": "string" },
+          { "name": "start_date", "type": "timestamp" },
+          { "name": "end_date", "type": "timestamp" },
+          { "name": "industry", "type": "string" },
+          { "name": "notes", "type": "string" }
+        ]
+      },
+      {
+        "name": "ContactInfo",
+        "description": "Contact details including addresses and social media.",
+        "properties": [
+          { "name": "contact_id", "type": "string" },
+          {
+            "name": "person_id",
+            "type": "string",
+            "description": "Foreign key to Person."
+          },
+          { "name": "email", "type": "string" },
+          { "name": "phone_number", "type": "string" },
+          { "name": "address", "type": "string" },
+          { "name": "social_media_platform", "type": "string" },
+          { "name": "user_handle", "type": "string" },
+          { "name": "url", "type": "string" }
+        ]
+      },
+      {
+        "name": "Skill",
+        "description": "Skills and their proficiency level.",
+        "properties": [
+          { "name": "skill_id", "type": "string" },
+          {
+            "name": "person_id",
+            "type": "string",
+            "description": "Foreign key to Person."
+          },
+          { "name": "skill_name", "type": "string" },
+          { "name": "level", "type": "string" }
+        ]
+      },
+      {
+        "name": "Award",
+        "description": "Awards and recognitions received.",
+        "properties": [
+          { "name": "award_id", "type": "string" },
+          {
+            "name": "person_id",
+            "type": "string",
+            "description": "Foreign key to Person."
+          },
+          { "name": "award_name", "type": "string" },
+          { "name": "year", "type": "number" },
+          { "name": "awarding_body", "type": "string" },
+          { "name": "description", "type": "string" }
+        ]
+      },
+      {
+        "name": "Affiliation",
+        "description": "Affiliations with organizations or people.",
+        "properties": [
+          { "name": "affiliation_id", "type": "string" },
+          {
+            "name": "person_id",
+            "type": "string",
+            "description": "Foreign key to Person."
+          },
+          { "name": "affiliate_name", "type": "string" },
+          { "name": "role", "type": "string" },
+          { "name": "start_date", "type": "timestamp" }
+        ]
+      },
+      {
+        "name": "Controversy",
+        "description": "Details about controversies associated with the person.",
+        "properties": [
+          { "name": "controversy_id", "type": "string" },
+          {
+            "name": "person_id",
+            "type": "string",
+            "description": "Foreign key to Person."
+          },
+          { "name": "messenger_name", "type": "string" },
+          { "name": "content", "type": "string" }
+        ]
+      },
+      {
+        "name": "Asset",
+        "description": "Assets owned by the person.",
+        "properties": [
+          { "name": "asset_id", "type": "string" },
+          {
+            "name": "person_id",
+            "type": "string",
+            "description": "Foreign key to Person."
+          },
+          { "name": "asset_name", "type": "string" },
+          { "name": "type", "type": "string" }
+        ]
+      },
+      {
+        "name": "Provenance",
+        "description": "History of asset ownership.",
+        "properties": [
+          { "name": "provenance_id", "type": "string" },
+          {
+            "name": "asset_id",
+            "type": "string",
+            "description": "Foreign key to Asset."
+          },
+          { "name": "owner_id", "type": "string" },
+          { "name": "owner_name", "type": "string" },
+          { "name": "start_date", "type": "timestamp" },
+          { "name": "end_date", "type": "timestamp" },
+          { "name": "buy_price", "type": "number" },
+          { "name": "sell_price", "type": "number" }
+        ]
+      }
+    ],
+    "relationships": [
+      {
+        "from": "Person",
+        "to": "Status",
+        "type": "one-to-many",
+        "description": "A person can have many historical statuses."
+      },
+      {
+        "from": "Person",
+        "to": "Relationship",
+        "type": "one-to-many",
+        "description": "A person can have many relationships (guardians, mentors, siblings, spouses)."
+      },
+      {
+        "from": "Person",
+        "to": "LifeEvent",
+        "type": "one-to-many",
+        "description": "A person can have many life events."
+      },
+      {
+        "from": "Person",
+        "to": "Education",
+        "type": "one-to-many",
+        "description": "A person can have multiple educational histories."
+      },
+      {
+        "from": "Person",
+        "to": "Career",
+        "type": "one-to-many",
+        "description": "A person can have multiple career positions."
+      },
+      {
+        "from": "Person",
+        "to": "ContactInfo",
+        "type": "one-to-many",
+        "description": "A person can have multiple contact details."
+      },
+      {
+        "from": "Person",
+        "to": "Skill",
+        "type": "one-to-many",
+        "description": "A person can have multiple skills."
+      },
+      {
+        "from": "Person",
+        "to": "Award",
+        "type": "one-to-many",
+        "description": "A person can have many awards."
+      },
+      {
+        "from": "Person",
+        "to": "Affiliation",
+        "type": "one-to-many",
+        "description": "A person can have many affiliations."
+      },
+      {
+        "from": "Person",
+        "to": "Controversy",
+        "type": "one-to-many",
+        "description": "A person can have many associated controversies."
+      },
+      {
+        "from": "Person",
+        "to": "Asset",
+        "type": "one-to-many",
+        "description": "A person can have multiple assets."
+      },
+      {
+        "from": "Asset",
+        "to": "Provenance",
+        "type": "one-to-many",
+        "description": "An asset can have a history of ownership (provenance)."
+      }
+    ]
+  }
+}
