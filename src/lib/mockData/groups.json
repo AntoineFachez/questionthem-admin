@@ -1,0 +1,170 @@
+[
+  {
+    "groupId": "wlf-holdco-001",
+    "groupName": "WLF Holdco LLC",
+    "categoryId": "Company",
+    "acronym": null,
+    "missionStatement": "A Delaware-registered limited liability company serving as the premier holding company for World Liberty Financial, Inc. Dedicated to advancing decentralized finance through strategic oversight of innovative financial technologies.",
+    "foundingDate": "2025-01-20",
+    "parentGroup": {
+      "parentGroupId": "dt-marks-defi-001",
+      "parentGroupName": "DT Marks DEFI LLC"
+    },
+    "members": [
+      {
+        "memberId": "trump-e-001",
+        "memberType": "Person",
+        "memberName": "Eric Trump",
+        "role": "Manager, Board of Managers",
+        "isKeyMember": true
+      },
+      {
+        "memberId": "wlf-001",
+        "memberType": "Group",
+        "memberName": "World Liberty Financial",
+        "role": "Subsidiary",
+        "isKeyMember": true
+      }
+    ],
+    "contactInfo": [
+      {
+        "type": "Address",
+        "value": "407 Ayre St. # 1358, Wilmington, DE 19804, United States",
+        "notes": "Registered Address"
+      }
+    ],
+    "website": "https://wlfholdcollc.com"
+  },
+  {
+    "groupId": "grp_corp-tech",
+    "groupName": "Tech Solutions Inc.",
+    "categoryId": "work_task_oriented",
+    "acronym": "TSI",
+    "website": "https://techsolutions.com",
+    "missionStatement": "Empowering businesses through innovative software."
+  },
+  {
+    "groupId": "grp_band-moonwalkers",
+    "groupName": "The Moonwalkers",
+    "categoryId": "performance_creative",
+    "acronym": "TMW",
+    "website": "https://themoonwalkers.band",
+    "founding_date": "2020-09-01",
+    "missionStatement": "To create and perform a new genre of space-inspired rock music."
+  },
+  {
+    "groupId": "grp_union-devs",
+    "groupName": "Digital Workers Union",
+    "categoryId": "collective_action_advocacy",
+    "acronym": "DWU",
+    "missionStatement": "Advocating for fair wages and working conditions for tech workers."
+  },
+  {
+    "groupId": "wlf-001",
+    "groupName": "World Liberty Financial",
+    "categoryId": "Company",
+    "acronym": "WLF",
+    "missionStatement": "World Liberty Financial (WLF) is a decentralized finance (DeFi) protocol and cryptocurrency company. Its goal is to create a decentralized crypto banking system that allows users to borrow and lend cryptocurrencies without a traditional middleman.",
+    "foundingDate": "2024-03-12",
+    "parentGroup": {
+      "parentGroupId": "wlf-holdco-001",
+      "parentGroupName": "WLF Holdco LLC"
+    },
+    "members": [
+      {
+        "memberId": "trump-d-001",
+        "memberType": "Person",
+        "memberName": "Donald Trump",
+        "role": "Chief Crypto Advocate",
+        "isKeyMember": true
+      },
+      {
+        "memberId": "trump-b-001",
+        "memberType": "Person",
+        "memberName": "Barron Trump",
+        "role": "DeFi Visionary",
+        "isKeyMember": true
+      },
+      {
+        "memberId": "trump-e-001",
+        "memberType": "Person",
+        "memberName": "Eric Trump",
+        "role": "Web3 Ambassador",
+        "isKeyMember": true
+      },
+      {
+        "memberId": "trump-dj-001",
+        "memberType": "Person",
+        "memberName": "Donald Trump Jr.",
+        "role": "Web3 Ambassador",
+        "isKeyMember": true
+      },
+      {
+        "memberId": "witkoff-s-001",
+        "memberType": "Person",
+        "memberName": "Steve Witkoff",
+        "role": "Co-Founder",
+        "isKeyMember": true
+      },
+
+      {
+        "memberId": "witkoff-z-001",
+        "memberType": "Person",
+        "memberName": "Zachary Witkoff",
+        "role": "Co-Founder",
+        "isKeyMember": true
+      }
+    ],
+    "contactInfo": [],
+    "website": "https://worldliberty.finance"
+  },
+
+  {
+    "groupId": "dt-marks-defi-001",
+    "groupName": "DT Marks DEFI LLC",
+    "categoryId": "Company",
+    "acronym": null,
+    "missionStatement": "An entity affiliated with Donald J. Trump and certain of his family members. This LLC holds significant equity interests in companies and protocols to advance the family's financial interests in the decentralized finance (DeFi) space. It is entitled to a claim on a portion of the revenues and token supply of affiliated projects.",
+    "foundingDate": "2024-03-01",
+    "parentGroup": null,
+    "members": [
+      {
+        "memberId": "trump-d-001",
+        "memberType": "Person",
+        "memberName": "Donald Trump",
+        "role": "Principal",
+        "isKeyMember": true
+      },
+      {
+        "memberId": "trump-e-001",
+        "memberType": "Person",
+        "memberName": "Eric Trump",
+        "role": "Principal",
+        "isKeyMember": true
+      },
+      {
+        "memberId": "trump-dj-001",
+        "memberType": "Person",
+        "memberName": "Donald Trump Jr.",
+        "role": "Principal",
+        "isKeyMember": true
+      },
+      {
+        "memberId": "trump-b-001",
+        "memberType": "Person",
+        "memberName": "Barron Trump",
+        "role": "Principal",
+        "isKeyMember": false
+      },
+      {
+        "memberId": "wlf-holdco-001",
+        "memberType": "Group",
+        "memberName": "WLF Holdco LLC",
+        "role": "Majority Owner",
+        "isKeyMember": true
+      }
+    ],
+    "contactInfo": [],
+    "website": null
+  }
+]

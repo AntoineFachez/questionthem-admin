@@ -1,0 +1,192 @@
+{
+  "databaseSchema": {
+    "summary": "A relational schema representing a corporate hierarchy. The core is a self-referencing 'OrganizationalUnit' table, allowing for a flexible tree structure (Holding -> Subsidiary -> Head Office -> Branch Office).",
+    "entities": [
+      {
+        "name": "OrganizationalUnit",
+        "description": "The central entity representing any part of a company structure, from a top-level holding to a local branch. The hierarchy is established via the self-referencing 'parent_id'.",
+        "properties": [
+          {
+            "name": "unit_id",
+            "type": "UUID",
+            "isPrimaryKey": true,
+            "description": "Unique identifier for the organizational unit."
+          },
+          {
+            "name": "parent_id",
+            "type": "UUID",
+            "isForeignKey": true,
+            "references": "OrganizationalUnit(unit_id)",
+            "description": "Self-referencing key to the parent unit. NULL for top-level entities like holdings."
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "description": "The official name of the unit (e.g., 'Alphabet Inc.', 'Google Germany GmbH', 'Hamburg Office')."
+          },
+          {
+            "name": "type",
+            "type": "ENUM",
+            "values": [
+              "Holding",
+              "Subsidiary",
+              "Head Office",
+              "Branch Office",
+              "Department"
+            ],
+            "description": "Categorizes the unit to define its role in the hierarchy."
+          },
+          { "name": "website", "type": "string", "isNullable": true },
+          { "name": "industry", "type": "string", "isNullable": true },
+          { "name": "description", "type": "text", "isNullable": true },
+          { "name": "created_at", "type": "timestamp" }
+        ]
+      },
+      {
+        "name": "Address",
+        "description": "Stores physical addresses associated with an organizational unit.",
+        "properties": [
+          { "name": "address_id", "type": "UUID", "isPrimaryKey": true },
+          {
+            "name": "unit_id",
+            "type": "UUID",
+            "isForeignKey": true,
+            "references": "OrganizationalUnit(unit_id)",
+            "description": "Foreign key linking the address to a unit."
+          },
+          { "name": "street", "type": "string" },
+          { "name": "city", "type": "string" },
+          { "name": "state_province", "type": "string", "isNullable": true },
+          { "name": "postal_code", "type": "string" },
+          { "name": "country", "type": "string" },
+          {
+            "name": "is_primary",
+            "type": "boolean",
+            "description": "Indicates if this is the main address for the unit."
+          }
+        ]
+      },
+      {
+        "name": "Contact",
+        "description": "Stores contact information like phone numbers and emails for a unit.",
+        "properties": [
+          { "name": "contact_id", "type": "UUID", "isPrimaryKey": true },
+          {
+            "name": "unit_id",
+            "type": "UUID",
+            "isForeignKey": true,
+            "references": "OrganizationalUnit(unit_id)"
+          },
+          {
+            "name": "type",
+            "type": "ENUM",
+            "values": ["Phone", "Email", "Fax"],
+            "description": "The type of contact information."
+          },
+          {
+            "name": "value",
+            "type": "string",
+            "description": "The actual phone number or email address."
+          },
+          { "name": "is_primary", "type": "boolean" }
+        ]
+      },
+      {
+        "name": "Person",
+        "description": "Stores information about individuals (employees, contacts).",
+        "properties": [
+          { "name": "person_id", "type": "UUID", "isPrimaryKey": true },
+          { "name": "first_name", "type": "string" },
+          { "name": "last_name", "type": "string" },
+          { "name": "email", "type": "string", "isUnique": true },
+          { "name": "phone_number", "type": "string", "isNullable": true }
+        ]
+      },
+      {
+        "name": "UnitRole",
+        "description": "A linking table that assigns a Person to an OrganizationalUnit with a specific role, replacing 'CompanyEmployee' and 'CompanyMainContact'.",
+        "properties": [
+          { "name": "role_id", "type": "UUID", "isPrimaryKey": true },
+          {
+            "name": "unit_id",
+            "type": "UUID",
+            "isForeignKey": true,
+            "references": "OrganizationalUnit(unit_id)"
+          },
+          {
+            "name": "person_id",
+            "type": "UUID",
+            "isForeignKey": true,
+            "references": "Person(person_id)"
+          },
+          {
+            "name": "role_title",
+            "type": "string",
+            "description": "e.g., 'CEO', 'Branch Manager', 'Main Contact'."
+          },
+          { "name": "start_date", "type": "date" },
+          { "name": "end_date", "type": "date", "isNullable": true }
+        ]
+      }
+    ],
+    "relationships": [
+      {
+        "from": "OrganizationalUnit",
+        "to": "OrganizationalUnit",
+        "type": "one-to-many",
+        "on": "parent_id",
+        "description": "A parent unit can have multiple child units, forming the hierarchy."
+      },
+      {
+        "from": "OrganizationalUnit",
+        "to": "Address",
+        "type": "one-to-many",
+        "description": "A unit can have multiple physical addresses."
+      },
+      {
+        "from": "OrganizationalUnit",
+        "to": "Contact",
+        "type": "one-to-many",
+        "description": "A unit can have multiple contact points."
+      },
+      {
+        "from": "OrganizationalUnit",
+        "to": "UnitRole",
+        "type": "one-to-many",
+        "description": "A unit has multiple roles filled by people."
+      },
+      {
+        "from": "Person",
+        "to": "UnitRole",
+        "type": "one-to-many",
+        "description": "A person can have multiple roles across different units over time."
+      }
+    ],
+    "exampleUsage": [
+      {
+        "unit_id": "uuid-alpha",
+        "parent_id": null,
+        "name": "Alphabet Inc.",
+        "type": "Holding"
+      },
+      {
+        "unit_id": "uuid-google",
+        "parent_id": "uuid-alpha",
+        "name": "Google LLC",
+        "type": "Subsidiary"
+      },
+      {
+        "unit_id": "uuid-googleplex",
+        "parent_id": "uuid-google",
+        "name": "Googleplex",
+        "type": "Head Office"
+      },
+      {
+        "unit_id": "uuid-hamburg",
+        "parent_id": "uuid-googleplex",
+        "name": "Google Hamburg",
+        "type": "Branch Office"
+      }
+    ]
+  }
+}

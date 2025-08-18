@@ -1,5 +1,5 @@
 {
-  "personProfile": {
+  "databaseSchema": {
     "entities": [
       {
         "name": "Person",
@@ -105,6 +105,8 @@
             "description": "Foreign key to Person."
           },
           { "name": "educator_name", "type": "string" },
+          { "name": "educator_id", "type": "string" },
+          { "name": "educator_type", "type": "string" },
           { "name": "degree", "type": "string" },
           { "name": "field_of_study", "type": "string" },
           { "name": "start_date", "type": "timestamp" },
@@ -130,6 +132,8 @@
             "description": "Foreign key to Person."
           },
           { "name": "employer_name", "type": "string" },
+          { "name": "employer_id", "type": "string" },
+          { "name": "employer_type", "type": "string" },
           { "name": "position", "type": "string" },
           { "name": "start_date", "type": "timestamp" },
           { "name": "end_date", "type": "timestamp" },

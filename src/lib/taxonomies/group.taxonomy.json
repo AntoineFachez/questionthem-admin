@@ -1,0 +1,86 @@
+{
+  "conceptualModel": {
+    "modelName": "Taxonomy of Human Groups",
+    "corePrinciple": "The fundamental purpose for which a group exists.",
+    "categories": [
+      {
+        "categoryName": "Work/Task-Oriented Groups",
+        "purposeType": "Functional",
+        "description": "Groups formed to achieve a professional or practical objective. They are often hierarchical and their existence is tied to the completion of a specific task or function.",
+        "definingCharacteristics": [
+          "Roles are often formal",
+          "Hierarchies are common",
+          "Existence may be temporary, dissolving once the task is complete"
+        ],
+        "examples": [
+          "employees (Holding, head office, branch Office, company, department)",
+          "staff",
+          "working group",
+          "task force",
+          "delegation",
+          "crew",
+          "dev team",
+          "research team",
+          "expedition"
+        ]
+      },
+      {
+        "categoryName": "Social/Relational Groups",
+        "purposeType": "Interpersonal",
+        "description": "Groups defined by the personal connections and relationships among their members. The primary purpose is social interaction, mutual support, or shared identity.",
+        "definingCharacteristics": [
+          "Bonds are often informal",
+          "Based on emotion, shared identity, or personal connection",
+          "May have no formal end date"
+        ],
+        "examples": [
+          "family",
+          "circle of friends",
+          "club members",
+          "congregation",
+          "tour group/tourist party",
+          "party"
+        ]
+      },
+      {
+        "categoryName": "Governance/Decision-Making Groups",
+        "purposeType": "Authoritative",
+        "description": "Groups vested with the authority to make decisions, create policy, or represent the interests of a larger body. They are fundamental to political, legal, and corporate structures.",
+        "definingCharacteristics": [
+          "Members are usually appointed, elected, or granted power",
+          "Roles are defined by rules, laws, or a charter"
+        ],
+        "examples": [
+          "jury",
+          "board",
+          "party",
+          "coalition",
+          "caucus",
+          "cabinet",
+          "council"
+        ]
+      },
+      {
+        "categoryName": "Collective Action/Advocacy Groups",
+        "purposeType": "Instrumental",
+        "description": "Groups that work collectively toward a shared cause, often to bring about change or protect a common interest.",
+        "definingCharacteristics": [
+          "Members are united by a shared grievance or ideology",
+          "Power comes from the collective action of its members"
+        ],
+        "examples": ["union", "gang", "movement", "lobbying group"]
+      },
+      {
+        "categoryName": "Performance/Creative Groups",
+        "purposeType": "Expressive",
+        "description": "Groups formed to create a product, perform a work, or compete in a contest, relying on the collaboration and synergy of their members' skills.",
+        "definingCharacteristics": [
+          "Success is measured by the quality of the output or the outcome of the competition",
+          "Interdependence among members is high",
+          "Roles are specialized to contribute to the final product or goal"
+        ],
+        "examples": ["sports team", "music band", "film cast"]
+      }
+    ]
+  }
+}

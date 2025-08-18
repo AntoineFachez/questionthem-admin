@@ -1,0 +1,32 @@
+[
+  {
+    "userId": "usr_1a2b3c4d5e",
+    "username": "alice_admin",
+    "email": "alice.a@example.com",
+    "password": "hashed_password_for_alice",
+    "personId": "prsn_1111111111",
+    "roles": ["admin"],
+    "isActive": true,
+    "createdAt": "2024-05-10T09:00:00Z"
+  },
+  {
+    "userId": "usr_6f7g8h9i0j",
+    "username": "bob_editor",
+    "email": "bob.e@example.com",
+    "password": "hashed_password_for_bob",
+    "personId": "prsn_2222222222",
+    "roles": ["editor"],
+    "isActive": true,
+    "createdAt": "2024-05-15T14:30:00Z"
+  },
+  {
+    "userId": "usr_1k2l3m4n5o",
+    "username": "charlie_guest",
+    "email": "charlie.g@example.com",
+    "password": "hashed_password_for_charlie",
+    "personId": "prsn_3333333333",
+    "roles": ["guest"],
+    "isActive": true,
+    "createdAt": "2024-06-01T10:00:00Z"
+  }
+]

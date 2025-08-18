@@ -10,13 +10,15 @@
           "name": "personId",
           "label": "Person ID",
           "type": "string",
-          "description": "Unique identifier for the person."
+          "description": "Unique identifier for the person.",
+          "render": false
         },
         {
           "name": "firstName",
           "label": "First Name",
           "type": "text",
           "placeholder": "e.g., Jane",
+          "fullWidth": false,
           "required": true
         },
         {
@@ -24,9 +26,9 @@
           "label": "Last Name",
           "type": "text",
           "placeholder": "e.g., Doe",
+          "fullWidth": false,
           "required": true
         },
-
         {
           "name": "midName",
           "label": "Middlenames",
@@ -38,7 +40,8 @@
                 "name": "name",
                 "label": "",
                 "type": "text",
-                "placeholder": "e.g., James"
+                "placeholder": "e.g., James",
+                "fullWidth": false
               }
             ]
           },
@@ -55,20 +58,22 @@
                 "name": "type",
                 "label": "Circle",
                 "type": "text",
-                "placeholder": "e.g., Inner Circle"
+                "placeholder": "e.g., Inner Circle",
+                "fullWidth": false
               },
               {
                 "name": "name",
                 "label": "Nick Name",
                 "type": "text",
-                "placeholder": "e.g., JD"
+                "placeholder": "e.g., JD",
+                "fullWidth": false
               }
             ]
           },
           "required": false
         },
         {
-          "name": "biography_summary",
+          "name": "biographySummary",
           "label": "Biography",
           "type": "textarea",
           "placeholder": "Write a short bio...",
@@ -81,31 +86,54 @@
       "description": "Significant life stages, from birth to death.",
       "fields": [
         {
-          "name": "lifestage",
+          "name": "lifestages",
           "label": "Lifestage Events",
           "type": "array",
           "items": {
             "type": "object",
             "properties": [
               {
-                "name": "type",
-                "label": "Type",
+                "name": "phase",
+                "label": "Phase",
                 "type": "string",
-                "placeholder": "e.g., birth, childhood, earlyAdulthood, death"
+                "placeholder": "e.g., birth, childhood, earlyAdulthood, death",
+                "fullWidth": false
               },
-              { "name": "date", "label": "Date", "type": "date-time" },
+              {
+                "name": "startDate",
+                "label": "Start Date",
+                "type": "date-time",
+                "fullWidth": false
+              },
+              {
+                "name": "endDate",
+                "label": "End Date",
+                "type": "date-time",
+                "fullWidth": false
+              },
               {
                 "name": "location",
                 "label": "Location",
                 "type": "object",
                 "properties": [
-                  { "name": "city", "label": "City", "type": "string" },
                   {
-                    "name": "state_province",
-                    "label": "State/Province",
-                    "type": "string"
+                    "name": "city",
+                    "label": "City",
+                    "type": "string",
+                    "fullWidth": false
                   },
-                  { "name": "country", "label": "Country", "type": "string" }
+                  {
+                    "name": "stateProvince",
+                    "label": "State/Province",
+                    "type": "string",
+                    "fullWidth": false
+                  },
+                  {
+                    "name": "country",
+                    "label": "Country",
+                    "type": "string",
+                    "fullWidth": false
+                  }
                 ]
               },
               {
@@ -119,7 +147,6 @@
         }
       ]
     },
-
     {
       "sectionTitle": "Controversies",
       "description": "Public controversies and disputes involving the person.",
@@ -136,26 +163,32 @@
               {
                 "name": "entityId",
                 "label": "Messenger ID",
-                "type": "string"
+                "type": "string",
+                "fullWidth": false
               },
               {
                 "name": "type",
                 "label": "Messenger Type",
                 "type": "string",
-                "placeholder": "e.g., Media, Collegue, WistleBlower, legal disclosure, company, organization, agency, institution, single person"
+                "placeholder": "e.g., Media, Collegue, WistleBlower, legal disclosure, company, organization, agency, institution, single person",
+                "fullWidth": false
               },
               {
                 "name": "name",
                 "label": "Messenger Name",
-                "type": "string"
+                "type": "string",
+                "fullWidth": false
               },
-
               {
                 "name": "description",
                 "label": "Description",
                 "type": "textarea"
               },
-              { "name": "notes", "label": "Notes", "type": "textarea" },
+              {
+                "name": "notes",
+                "label": "Notes",
+                "type": "textarea"
+              },
               {
                 "name": "events",
                 "label": "Events",
@@ -166,14 +199,20 @@
                     {
                       "name": "entityId",
                       "label": "Entity Id",
-                      "type": "string"
+                      "type": "string",
+                      "fullWidth": false
                     },
                     {
                       "name": "type",
                       "label": "Type",
-                      "type": "string"
+                      "type": "string",
+                      "fullWidth": false
                     },
-                    { "name": "url", "label": "Url", "type": "string" }
+                    {
+                      "name": "url",
+                      "label": "Url",
+                      "type": "string"
+                    }
                   ]
                 }
               },
@@ -187,14 +226,20 @@
                     {
                       "name": "entityId",
                       "label": "Entity Id",
-                      "type": "string"
+                      "type": "string",
+                      "fullWidth": false
                     },
                     {
                       "name": "type",
                       "label": "Type",
-                      "type": "string"
+                      "type": "string",
+                      "fullWidth": false
                     },
-                    { "name": "url", "label": "Url", "type": "string" }
+                    {
+                      "name": "url",
+                      "label": "Url",
+                      "type": "string"
+                    }
                   ]
                 }
               }
@@ -209,7 +254,7 @@
       "description": "A list of social media accounts and profiles.",
       "fields": [
         {
-          "name": "social_media_profiles",
+          "name": "socialMediaProfiles",
           "label": "Social Media Profiles",
           "type": "array",
           "items": {
@@ -218,20 +263,26 @@
               {
                 "name": "platformId",
                 "label": "Platform ID",
-                "type": "string"
+                "type": "string",
+                "fullWidth": false
               },
-
               {
                 "name": "userHandle",
                 "label": "User Handle",
                 "type": "string",
-                "placeholder": "@username"
+                "placeholder": "@username",
+                "fullWidth": false
               },
-              { "name": "url", "label": "Profile URL", "type": "url" },
+              {
+                "name": "url",
+                "label": "Profile URL",
+                "type": "url"
+              },
               {
                 "name": "followingAmoung",
                 "label": "Followers",
-                "type": "number"
+                "type": "number",
+                "fullWidth": false
               }
             ]
           },
@@ -250,14 +301,30 @@
           "items": {
             "type": "object",
             "properties": [
-              { "name": "name", "label": "Name", "type": "string" },
-              { "name": "entityId", "label": "Entity ID", "type": "string" },
-              { "name": "type", "label": "Type", "type": "string" },
+              {
+                "name": "name",
+                "label": "Name",
+                "type": "string",
+                "fullWidth": false
+              },
+              {
+                "name": "entityId",
+                "label": "Entity ID",
+                "type": "string",
+                "fullWidth": false
+              },
+              {
+                "name": "type",
+                "label": "Type",
+                "type": "string",
+                "fullWidth": false
+              },
               {
                 "name": "role",
                 "label": "Role",
                 "type": "select",
-                "options": ["parent", "legal guardian", "god father/ mother"]
+                "options": ["parent", "legal guardian", "god father/ mother"],
+                "fullWidth": false
               }
             ]
           },
@@ -270,8 +337,18 @@
           "items": {
             "type": "object",
             "properties": [
-              { "name": "name", "label": "Name", "type": "string" },
-              { "name": "personId", "label": "Person ID", "type": "string" }
+              {
+                "name": "name",
+                "label": "Name",
+                "type": "string",
+                "fullWidth": false
+              },
+              {
+                "name": "personId",
+                "label": "Person ID",
+                "type": "string",
+                "fullWidth": false
+              }
             ]
           },
           "required": false
@@ -283,17 +360,30 @@
           "items": {
             "type": "object",
             "properties": [
-              { "name": "name", "label": "Name", "type": "string" },
-              { "name": "personId", "label": "Person ID", "type": "string" },
+              {
+                "name": "personId",
+                "label": "Person ID",
+                "type": "string",
+                "render": false,
+                "fullWidth": false
+              },
+              {
+                "name": "name",
+                "label": "Name",
+                "type": "string",
+                "fullWidth": false
+              },
               {
                 "name": "marriageDate",
                 "label": "Marriage Date",
-                "type": "date-time"
+                "type": "date-time",
+                "fullWidth": false
               },
               {
                 "name": "divorceDate",
                 "label": "Divorce Date",
-                "type": "date-time"
+                "type": "date-time",
+                "fullWidth": false
               },
               {
                 "name": "endReason",
@@ -308,16 +398,27 @@
                 "items": {
                   "type": "object",
                   "properties": [
-                    { "name": "name", "label": "Name", "type": "string" },
                     {
                       "name": "personId",
                       "label": "Person ID",
-                      "type": "string"
+                      "type": "string",
+                      "render": false,
+                      "fullWidth": false
+                    },
+                    {
+                      "name": "name",
+                      "label": "Name",
+                      "type": "string",
+                      "fullWidth": false
                     }
                   ]
                 }
               },
-              { "name": "notes", "label": "Notes", "type": "textarea" }
+              {
+                "name": "notes",
+                "label": "Notes",
+                "type": "textarea"
+              }
             ]
           },
           "required": false
@@ -329,15 +430,24 @@
           "items": {
             "type": "object",
             "properties": [
-              { "name": "name", "label": "Name", "type": "string" },
-              { "name": "personId", "label": "Person ID", "type": "string" }
+              {
+                "name": "name",
+                "label": "Name",
+                "type": "string",
+                "fullWidth": false
+              },
+              {
+                "name": "personId",
+                "label": "Person ID",
+                "type": "string",
+                "fullWidth": false
+              }
             ]
           },
           "required": false
         }
       ]
     },
-
     {
       "sectionTitle": "Education History",
       "description": "A list of educational milestones.",
@@ -354,23 +464,36 @@
                 "label": "Institution",
                 "type": "text"
               },
-              { "name": "educatorId", "label": "Educator Id", "type": "text" },
+              {
+                "name": "educatorId",
+                "label": "Educator Id",
+                "type": "text",
+                "fullWidth": false
+              },
               {
                 "name": "educatorType",
                 "label": "Educator Type",
                 "type": "text",
-                "placeholder": "e.g., University, Programm"
+                "placeholder": "e.g., University, Programm",
+                "fullWidth": false
               },
-              { "name": "degree", "label": "Degree", "type": "text" },
+              {
+                "name": "degree",
+                "label": "Degree",
+                "type": "text",
+                "fullWidth": false
+              },
               {
                 "name": "fieldOfStudy",
                 "label": "Field of Study",
-                "type": "text"
+                "type": "text",
+                "fullWidth": false
               },
               {
                 "name": "graduationDate",
                 "label": "Graduation Date",
-                "type": "date"
+                "type": "date",
+                "fullWidth": false
               }
             ]
           },
@@ -378,7 +501,6 @@
         }
       ]
     },
-
     {
       "sectionTitle": "Career History",
       "description": "Work and employment details.",
@@ -390,17 +512,43 @@
           "items": {
             "type": "object",
             "properties": [
-              { "name": "employerId", "label": "Employer Id", "type": "text" },
+              {
+                "name": "employerId",
+                "label": "Employer Id",
+                "type": "text",
+                "fullWidth": false
+              },
               {
                 "name": "type",
                 "label": "Employer Type",
                 "type": "text",
-                "placeholder": "e.g., Company, Agency"
+                "placeholder": "e.g., Company, Agency",
+                "fullWidth": false
               },
-              { "name": "name", "label": "Employer", "type": "text" },
-              { "name": "position", "label": "Position", "type": "text" },
-              { "name": "startDate", "label": "Start Date", "type": "date" },
-              { "name": "endDate", "label": "End Date", "type": "date" },
+              {
+                "name": "name",
+                "label": "Employer",
+                "type": "text",
+                "fullWidth": false
+              },
+              {
+                "name": "position",
+                "label": "Position",
+                "type": "text",
+                "fullWidth": false
+              },
+              {
+                "name": "startDate",
+                "label": "Start Date",
+                "type": "date",
+                "fullWidth": false
+              },
+              {
+                "name": "endDate",
+                "label": "End Date",
+                "type": "date",
+                "fullWidth": false
+              },
               {
                 "name": "responsibilities",
                 "label": "Responsibilities",
@@ -416,8 +564,17 @@
                   ]
                 }
               },
-              { "name": "industry", "label": "Industry", "type": "string" },
-              { "name": "notes", "label": "Notes", "type": "textarea" }
+              {
+                "name": "industry",
+                "label": "Industry",
+                "type": "string",
+                "fullWidth": false
+              },
+              {
+                "name": "notes",
+                "label": "Notes",
+                "type": "textarea"
+              }
             ]
           },
           "required": false
@@ -435,8 +592,18 @@
           "items": {
             "type": "object",
             "properties": [
-              { "name": "type", "label": "Type", "type": "string" },
-              { "name": "number", "label": "Number", "type": "tel" }
+              {
+                "name": "type",
+                "label": "Type",
+                "type": "string",
+                "fullWidth": false
+              },
+              {
+                "name": "number",
+                "label": "Number",
+                "type": "tel",
+                "fullWidth": false
+              }
             ]
           },
           "required": false
@@ -448,9 +615,67 @@
           "items": {
             "type": "object",
             "properties": [
-              { "name": "type", "label": "Type", "type": "string" },
-              { "name": "streetAddress", "label": "Street", "type": "text" },
-              { "name": "city", "label": "City", "type": "text" }
+              {
+                "name": "type",
+                "label": "Type",
+                "type": "string",
+                "fullWidth": false
+              },
+              {
+                "name": "streetAddress",
+                "label": "Street",
+                "type": "text"
+              },
+              {
+                "name": "city",
+                "label": "City",
+                "type": "text",
+                "fullWidth": false
+              }
+            ]
+          },
+          "required": false
+        },
+        {
+          "name": "websites",
+          "label": "Websites",
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": [
+              {
+                "name": "type",
+                "label": "Type",
+                "type": "string",
+                "fullWidth": false
+              },
+              {
+                "name": "url",
+                "label": "Url",
+                "type": "text"
+              }
+            ]
+          },
+          "required": false
+        },
+        {
+          "name": "emailAdresses",
+          "label": "Emails",
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": [
+              {
+                "name": "type",
+                "label": "Type",
+                "type": "string",
+                "fullWidth": false
+              },
+              {
+                "name": "email",
+                "label": "Email",
+                "type": "text"
+              }
             ]
           },
           "required": false

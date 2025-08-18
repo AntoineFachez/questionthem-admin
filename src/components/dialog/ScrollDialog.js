@@ -1,22 +1,23 @@
 import * as React from "react";
-import Button from "@mui/material/Button";
-import Dialog from "@mui/material/Dialog";
 import DialogActions from "@mui/material/DialogActions";
 import DialogContent from "@mui/material/DialogContent";
-import DialogContentText from "@mui/material/DialogContentText";
-import DialogTitle from "@mui/material/DialogTitle";
+import { Typography, Button, Dialog } from "@mui/material";
+
 import { useUIContext } from "../../context/UIContext";
-import DynamicForm from "../form/DynamicForm";
-import { Typography } from "@mui/material";
+
+import componentMap from "../../lib/maps/widgetMap";
 
 export default function ScrollDialog() {
   const {
     openDialog,
     scrollDialog,
-    openForm,
+    dialogTitle,
     activeBlueprint,
+    activeWidget,
     handleCloseDialog,
   } = useUIContext();
+
+  const ComponentToRender = componentMap[activeWidget.key];
 
   const descriptionElementRef = React.useRef(null);
   React.useEffect(() => {
@@ -40,17 +41,17 @@ export default function ScrollDialog() {
         maxWidth={"xl"}
       >
         <Typography variant="h5" component="h2" gutterBottom>
-          {activeBlueprint.title}
+          {dialogTitle}
         </Typography>
         {/* <DialogTitle id="scroll-dialog-title">Subscribe</DialogTitle> */}
         <DialogContent
           dividers={scrollDialog === "paper"}
-          sx={{ maxWidth: "100vh" }}
+          // sx={{ maxWidth: "100vh" }}
         >
-          {openForm && activeBlueprint && (
-            <DynamicForm
-              blueprint={activeBlueprint}
-              onClose={() => setopenForm(false)}
+          {ComponentToRender && (
+            <ComponentToRender
+              activeBlueprint={activeBlueprint}
+              // onClose={handleCloseDialog}
             />
           )}
         </DialogContent>

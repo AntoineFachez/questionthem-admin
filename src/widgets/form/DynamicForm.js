@@ -3,21 +3,24 @@ import React, { useMemo, useCallback, useState } from "react";
 import { Box, Typography, Button, Stack } from "@mui/material";
 import { Masonry } from "@mui/lab";
 
+import { useUIContext } from "../../context/UIContext";
 import { useFormData } from "./useFormData";
-import { renderFields } from "./renderFields";
-import Accordion from "../../components/accordion/DynamicAccordion";
-import mockData from "../../lib/data/mockPersons.json";
-import SimpleTree from "../treeView/SimpleTree";
-import FormTreeView from "../treeView/SimpleTree";
 
-const DynamicForm = ({ blueprint, onSubmit }) => {
+import Accordion from "../../components/accordion/DynamicAccordion";
+import SimpleTree from "../../components/treeView/SimpleTree";
+import FormTreeView from "../../components/treeView/SimpleTree";
+
+import { renderFields } from "./renderFields";
+
+const DynamicForm = ({ onSubmit }) => {
+  const { activeBlueprint, initialFormValues } = useUIContext();
   const {
     formData,
     handleChange,
     addArrayItem,
     removeArrayItem,
     handleArrayItemChange,
-  } = useFormData(blueprint, mockData[0]);
+  } = useFormData(activeBlueprint, initialFormValues);
 
   const handleSubmit = useCallback(
     (e) => {
@@ -49,7 +52,6 @@ const DynamicForm = ({ blueprint, onSubmit }) => {
       <Box
         sx={{
           display: "flex",
-          flexDirection: "column",
           flexFlow: "row wrap",
           gap: 0,
         }}
@@ -65,7 +67,7 @@ const DynamicForm = ({ blueprint, onSubmit }) => {
     setSectionInFocus(section);
   };
   const [sectionInFocus, setSectionInFocus] = useState({});
-  if (!blueprint) return null;
+  if (!activeBlueprint) return null;
   return (
     <Box
       sx={{
@@ -86,7 +88,7 @@ const DynamicForm = ({ blueprint, onSubmit }) => {
         }}
       >
         <FormTreeView
-          items={blueprint.sections}
+          items={activeBlueprint.sections}
           handleClickItem={handleClickItem}
         />
       </Box>
@@ -99,8 +101,18 @@ const DynamicForm = ({ blueprint, onSubmit }) => {
           justifyContent: "center",
         }}
       >
-        <Box component="form" onSubmit={handleSubmit}>
-          {blueprint.sections.map((section, index) => (
+        <Box
+          component="form"
+          onSubmit={handleSubmit}
+          sx={{
+            width: "100%",
+            // height: "100%",
+            // display: "flex",
+            // flexFlow: "column nowrap",
+            justifyContent: "center",
+          }}
+        >
+          {activeBlueprint?.sections?.map((section, index) => (
             <Box
               key={index}
               sx={{

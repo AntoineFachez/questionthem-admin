@@ -1,0 +1,82 @@
+[
+  {
+    "member_id": "mem_1111",
+    "group_id": "grp_corp-tech",
+    "person_id": "prsn_1111111111"
+  },
+  {
+    "member_id": "mem_2222",
+    "group_id": "grp_band-moonwalkers",
+    "person_id": "prsn_2222222222"
+  },
+  {
+    "member_id": "mem_3333",
+    "group_id": "grp_union-devs",
+    "person_id": "prsn_3333333333"
+  },
+  {
+    "member_id": "trump-d-001",
+    "group_id": "wlf-001",
+    "person_id": "prsn_d_trump"
+  },
+  {
+    "member_id": "trump-b-001",
+    "group_id": "wlf-001",
+    "person_id": "prsn_b_trump"
+  },
+  {
+    "member_id": "trump-e-001",
+    "group_id": "wlf-001",
+    "person_id": "prsn_e_trump"
+  },
+  {
+    "member_id": "trump-dj-001",
+    "group_id": "wlf-001",
+    "person_id": "prsn_dj_trump"
+  },
+  {
+    "member_id": "witkoff-s-001",
+    "group_id": "wlf-001",
+    "person_id": "prsn_s_witkoff"
+  },
+  {
+    "member_id": "witkoff-z-001",
+    "group_id": "wlf-001",
+    "person_id": "prsn_z_witkoff"
+  },
+  {
+    "member_id": "trump-e-001",
+    "group_id": "wlf-holdco-001",
+    "person_id": "prsn_e_trump"
+  },
+  {
+    "member_id": "wlf-001",
+    "group_id": "wlf-holdco-001",
+    "person_id": "grp_wlf-001"
+  },
+  {
+    "member_id": "trump-d-001",
+    "group_id": "dt-marks-defi-001",
+    "person_id": "prsn_d_trump"
+  },
+  {
+    "member_id": "trump-e-001",
+    "group_id": "dt-marks-defi-001",
+    "person_id": "prsn_e_trump"
+  },
+  {
+    "member_id": "trump-dj-001",
+    "group_id": "dt-marks-defi-001",
+    "person_id": "prsn_dj_trump"
+  },
+  {
+    "member_id": "trump-b-001",
+    "group_id": "dt-marks-defi-001",
+    "person_id": "prsn_b_trump"
+  },
+  {
+    "member_id": "wlf-holdco-001",
+    "group_id": "dt-marks-defi-001",
+    "person_id": "grp_wlf-holdco-001"
+  }
+]

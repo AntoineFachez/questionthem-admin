@@ -1,47 +1,33 @@
 {
   "title": "User Account",
-  "description": "Blueprint for user accounts used for authentication and access.",
+  "description": "Blueprint for user accounts used for authentication and access. Fields are aligned with the core user data model.",
   "sections": [
     {
       "sectionTitle": "Account Details",
       "fields": [
         {
-          "name": "userId",
-          "label": "User ID",
-          "type": "string",
-          "description": "Unique system identifier for the user account."
-        },
-        {
           "name": "username",
           "label": "Username",
           "type": "text",
           "placeholder": "Enter your unique username",
-          "required": true
+          "required": true,
+          "description": "The user's chosen username."
+        },
+        {
+          "name": "email",
+          "label": "Email Address",
+          "type": "email",
+          "placeholder": "e.g., jane.doe@example.com",
+          "required": true,
+          "description": "The user's email address."
         },
         {
           "name": "password",
           "label": "Password",
           "type": "password",
           "placeholder": "Create a secure password",
-          "required": true
-        },
-        {
-          "name": "emailAddresses",
-          "label": "Email Addresses",
-          "type": "array",
-          "items": {
-            "type": "object",
-            "properties": [
-              { "name": "type", "label": "Type", "type": "string" },
-              {
-                "name": "address",
-                "label": "Email",
-                "type": "email",
-                "placeholder": "e.g., jane.doe@example.com"
-              }
-            ]
-          },
-          "required": true
+          "required": true,
+          "description": "The user's password."
         }
       ]
     },
@@ -53,7 +39,7 @@
           "name": "personId",
           "label": "Person ID",
           "type": "string",
-          "description": "Foreign key to the corresponding person's biographical profile."
+          "description": "Foreign key to the corresponding person's biographical profile. This field is typically managed by the system."
         }
       ]
     }

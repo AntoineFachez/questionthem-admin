@@ -2,7 +2,7 @@
 "use client";
 import React, { createContext, useContext, useState, useEffect } from "react";
 import { widgetSpex } from "./widgetSpex.json";
-import { features as data } from "../../lib/data/srumSteps.json";
+import { features as ADMIN_FEATURES } from "../../app/overview/srumSteps.json";
 
 const Context = createContext(null);
 
@@ -14,7 +14,7 @@ export function WidgetContext({ children }) {
   // const data = features.find(
   //   (item) => item.widgetName === widgetSpex.widgetName
   // );
-  const [widgetData, setWidgetData] = useState(data);
+  const [widgetData, setWidgetData] = useState(ADMIN_FEATURES);
   const [activeUiContext, setActiveUiContext] = useState("steps");
   const [activeStep, setActiveStep] = useState({});
   const header = widgetSpex.widgetName;

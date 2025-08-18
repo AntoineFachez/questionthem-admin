@@ -10,7 +10,9 @@
           "name": "agencyId",
           "label": "Agency ID",
           "type": "string",
-          "description": "Unique identifier for the agency."
+          "description": "Unique identifier for the agency.",
+          "render": false,
+          "required": true
         },
         {
           "name": "agencyName",
@@ -31,6 +33,7 @@
           "label": "Official Website",
           "type": "url",
           "placeholder": "e.g., https://www.fbi.gov",
+          "truncate": true,
           "required": false
         },
         {

@@ -12,6 +12,7 @@ import {
   Gavel,
   Group,
   Notifications,
+  Remove,
   Settings,
   Warning,
   Facebook,
@@ -34,6 +35,7 @@ export const iconMap = {
   Group: Gavel,
   Group: Group,
   Notifications: Notifications,
+  Remove: Remove,
   Settings: Settings,
   Warning: Warning,
 

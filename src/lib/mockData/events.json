@@ -1,0 +1,623 @@
+[
+  {
+    "eventId": "uuid-08062025-oval-office-briefing",
+    "name": "Donald Trump Oval Office Press Briefing on Tariffs and Epstein Questions",
+    "eventType": "Political",
+    "alternativeNames": [
+      { "name": "The Epstein Situation Press Conference" },
+      { "name": "Trump Computer Chip Tariff Announcement" }
+    ],
+    "eventSummary": "During a press availability in the Oval Office, President Donald Trump announced a planned 100% tariff on foreign-made computer chips. [1, 2, 4, 5] The event, attended by the White House press corps, was framed by critics as a strategic distraction from the ongoing controversy regarding Trump's relationship with the late convicted sex offender Jeffrey Epstein. During the briefing, Vice President JD Vance denied that a separate meeting was planned to discuss the Epstein situation. [11, 12] Out of 33 questions asked by reporters, only four, by Kateryn Lacy of Bloomberg and Nancy Cordes of CBS, addressed the Epstein and Ghislaine Maxwell cases. The speaker in the provided transcript heavily criticized the press corps for not pressing the issue further.",
+    "startDate": "2025-08-06",
+    "endDate": "2025-08-06",
+    "startTime": null,
+    "endTime": null,
+    "duration": null,
+    "timeZone": "America/New_York",
+    "primaryLocation": {
+      "locationId": "uuid-loc-white-house",
+      "name": "The Oval Office, The White House",
+      "coords": {
+        "lat": 38.8977,
+        "lng": -77.0365
+      },
+      "address": {
+        "street": "1600 Pennsylvania Avenue NW",
+        "city": "Washington",
+        "stateProvince": "D.C.",
+        "zipCode": "20500",
+        "country": "USA"
+      },
+      "description": "The official office of the President of the United States, where Donald Trump made the tariff announcement and took questions from the press."
+    },
+    "involvedLocations": [
+      {
+        "locationId": "uuid-loc-vp-residence",
+        "name": "Naval Observatory (Vice President's Residence)",
+        "coords": {
+          "lat": 38.9224,
+          "lng": -77.0665
+        },
+        "address": {
+          "street": "3450 Massachusetts Ave NW",
+          "city": "Washington",
+          "stateProvince": "D.C.",
+          "zipCode": "20392",
+          "country": "USA"
+        },
+        "description": "Location of a planned but denied meeting of top advisers, which was rumored to be about the Epstein situation. [12, 13, 14]",
+        "roleInEvent": "Related Meeting Point"
+      },
+      {
+        "locationId": "uuid-loc-fpc-bryan",
+        "name": "Federal Prison Camp, Bryan",
+        "coords": {
+          "lat": 30.7555,
+          "lng": -96.3369
+        },
+        "address": {
+          "street": "",
+          "city": "Bryan",
+          "stateProvince": "Texas",
+          "zipCode": "",
+          "country": "USA"
+        },
+        "description": "The minimum-security federal prison in Texas where Ghislaine Maxwell was transferred to around August 1, 2025, a move criticized as overly lenient. [6, 7, 8, 9] This transfer was a topic of one of the questions during the press briefing.",
+        "roleInEvent": "Subject of Inquiry"
+      }
+    ],
+    "priority": "High",
+    "description": "This event centered on a press conference held by President Donald Trump in the Oval Office on August 6, 2025. [1, 4] While the official topic included a major economic announcement—a 100% tariff on imported computer chips—the underlying tension, as described in the source transcript, was the administration's handling of the Jeffrey Epstein scandal. The speaker contends that the tariff announcement was a deliberate tactic to divert media attention. This was substantiated by the fact that only two reporters, Kateryn Lacy and Nancy Cordes, pursued the Epstein line of questioning, while 28 other questions were on different topics. The event also featured a direct denial from Vice President JD Vance regarding a rumored strategy meeting about the Epstein case. [11]",
+    "backgroundContext": "The event occurred amidst intense media scrutiny and public interest in President Trump's past association with Jeffrey Epstein and the legal case of Epstein's accomplice, Ghislaine Maxwell. Maxwell had recently been transferred to a lower-security prison, and her lawyers had met with Justice Department officials, fueling speculation and controversy. [7, 8, 10] The Trump administration was reportedly struggling to form a coherent communications strategy to deal with the fallout. [13, 14]",
+    "consequencesImpact": "The immediate impact was the widespread reporting on the proposed 100% computer chip tariff, which critics noted would likely increase costs for consumers on a wide range of electronic goods. [1, 2] According to the provided transcript, a secondary and perhaps intended consequence was the successful diversion of most of the White House press corps' attention away from the Epstein controversy, leading to public criticism of the media's performance.",
+    "categoryTags": [
+      "Political",
+      "Press Conference",
+      "Economic Policy",
+      "Jeffrey Epstein Scandal"
+    ],
+    "peopleInvolved": [
+      {
+        "personId": "uuid-person-trump",
+        "role": "Leader",
+        "specificActions": [
+          "Announced a 100% tariff on computer chips.",
+          "Answered questions from the press.",
+          "Referred a question about a meeting to JD Vance."
+        ],
+        "involvementStartDate": "2025-08-06",
+        "involvementEndDate": "2025-08-06",
+        "impactOnPerson": "Faced questions about his connection to Jeffrey Epstein but largely succeeded in redirecting the press conference to his economic agenda.",
+        "relationshipToEvent": {
+          "type": "Key Figure",
+          "description": "Presided over the event and was the primary subject of all inquiries."
+        },
+        "notes": "The event is framed as being entirely about managing his public image in relation to Epstein."
+      },
+      {
+        "personId": "uuid-person-vance",
+        "role": "Participant",
+        "specificActions": [
+          "Denied that a meeting at his residence was to discuss the 'Epstein situation', calling the report 'completely fake news'. [11, 12]"
+        ],
+        "involvementStartDate": "2025-08-06",
+        "involvementEndDate": "2025-08-06",
+        "impactOnPerson": "Became a central figure in the controversy surrounding the administration's strategy on the Epstein issue.",
+        "relationshipToEvent": {
+          "type": "Key Figure",
+          "description": "Directly addressed and denied a key rumor related to the event's subtext."
+        },
+        "notes": ""
+      },
+      {
+        "personId": "uuid-person-lacy",
+        "role": "Witness",
+        "specificActions": [
+          "Asked Donald Trump a question about Jeffrey Epstein with a follow-up."
+        ],
+        "involvementStartDate": "2025-08-06",
+        "involvementEndDate": "2025-08-06",
+        "impactOnPerson": "Praised by the transcript's speaker for asking a relevant and tough question.",
+        "relationshipToEvent": {
+          "type": "Questioner",
+          "description": "One of only two reporters to question the president on the Epstein topic."
+        },
+        "notes": "The transcript spells her name as both 'Katherine Lucy' and 'Kateryn Lacy'."
+      },
+      {
+        "personId": "uuid-person-cordes",
+        "role": "Witness",
+        "specificActions": [
+          "Asked Donald Trump a question about Ghislaine Maxwell with a follow-up."
+        ],
+        "involvementStartDate": "2025-08-06",
+        "involvementEndDate": "2025-08-06",
+        "impactOnPerson": "Praised by the transcript's speaker for asking a relevant and tough question.",
+        "relationshipToEvent": {
+          "type": "Questioner",
+          "description": "One of only two reporters to question the president on the Epstein/Maxwell topic."
+        },
+        "notes": ""
+      },
+      {
+        "personId": "uuid-person-epstein",
+        "role": "Subject of Controversy",
+        "specificActions": [],
+        "involvementStartDate": null,
+        "involvementEndDate": null,
+        "impactOnPerson": "Deceased, but his past actions and relationships continue to cause political controversy.",
+        "relationshipToEvent": {
+          "type": "Indirect Figure",
+          "description": "His past relationship with Donald Trump was the underlying subject of the event's controversy."
+        },
+        "notes": ""
+      },
+      {
+        "personId": "uuid-person-maxwell",
+        "role": "Subject of Controversy",
+        "specificActions": [],
+        "involvementStartDate": null,
+        "involvementEndDate": null,
+        "impactOnPerson": "Her recent prison transfer was the subject of a question at the press conference. [8]",
+        "relationshipToEvent": {
+          "type": "Indirect Figure",
+          "description": "Her case and recent transfer to a low-security prison were topics of inquiry."
+        },
+        "notes": ""
+      },
+      {
+        "personId": "uuid-person-hood",
+        "role": "Expert Commentator",
+        "specificActions": [
+          "Provided an email to NBC News calling Maxwell's prison transfer a 'travesty of justice'."
+        ],
+        "involvementStartDate": null,
+        "involvementEndDate": null,
+        "impactOnPerson": "",
+        "relationshipToEvent": {
+          "type": "External Commentator",
+          "description": "His expert opinion was cited in the transcript to give context to the Ghislaine Maxwell question."
+        },
+        "notes": "Former Bureau of Prisons chief of internal affairs."
+      }
+    ],
+    "organizationsInvolved": [
+      {
+        "organizationId": "uuid-org-whpc",
+        "name": "White House Press Corps",
+        "type": "Organization",
+        "role": "Questioner",
+        "specificActions": [
+          "Asked 33 questions during the press availability.",
+          "Majority of reporters changed the subject away from Epstein after it was raised."
+        ],
+        "involvedBranches": [],
+        "impactOnOrganization": "Heavily criticized by the transcript's speaker as 'weak' and being manipulated by the President.",
+        "notes": "A collective of journalists from various media outlets assigned to cover the White House."
+      }
+    ],
+    "companiesInvolved": [
+      {
+        "companyId": "uuid-company-bloomberg",
+        "name": "Bloomberg News",
+        "role": "Media Coverage",
+        "specificActions": [
+          "Fielded a question to the President via its reporter, Kateryn Lacy."
+        ],
+        "involvedBranches": [],
+        "impactOnCompany": "Portrayed positively in the transcript for addressing the Epstein topic.",
+        "notes": ""
+      },
+      {
+        "companyId": "uuid-company-cbs",
+        "name": "CBS News",
+        "role": "Media Coverage",
+        "specificActions": [
+          "Fielded a question to the President via its reporter, Nancy Cordes."
+        ],
+        "involvedBranches": [],
+        "impactOnCompany": "Portrayed positively in the transcript for addressing the Maxwell topic.",
+        "notes": ""
+      },
+      {
+        "companyId": "uuid-company-nbc",
+        "name": "NBC News",
+        "role": "Media Coverage",
+        "specificActions": [
+          "Reportedly broke the story about the planned JD Vance meeting.",
+          "Received a critical quote from Robert Hood about the Maxwell transfer."
+        ],
+        "involvedBranches": [],
+        "impactOnCompany": "",
+        "notes": ""
+      }
+    ],
+    "agenciesInvolved": [
+      {
+        "agencyId": "uuid-agency-bop",
+        "name": "Federal Bureau of Prisons",
+        "role": "Government Body",
+        "specificActions": [
+          "Carried out the transfer of Ghislaine Maxwell to a minimum-security facility in Bryan, Texas. [6, 9]"
+        ],
+        "involvedBranches": [],
+        "impactOnAgency": "Actions were criticized as unjust by a former official and victims' families. [9]",
+        "notes": ""
+      },
+      {
+        "agencyId": "uuid-agency-doj",
+        "name": "Department of Justice",
+        "role": "Government Body",
+        "specificActions": [
+          "Cited in the transcript as having stated that Jeffrey Epstein raped over a thousand victims."
+        ],
+        "involvedBranches": [],
+        "impactOnAgency": "",
+        "notes": "The transcript notes that Trump 'owns and operates' the department."
+      }
+    ],
+    "relatedEvents": [
+      {
+        "eventId": "uuid-event-vance-meeting",
+        "relationType": "Concurrent",
+        "description": "A rumored and then denied meeting at the Vice President's residence, reportedly to strategize on the Epstein situation, scheduled for the evening of August 6, 2025. [11, 13, 14]"
+      },
+      {
+        "eventId": "uuid-event-maxwell-transfer",
+        "relationType": "Precursor",
+        "description": "The transfer of Ghislaine Maxwell to a lower-security prison in Texas on or around August 1, 2025, which prompted public outrage and a question at the press conference. [6, 7, 8]"
+      }
+    ],
+    "sources": [
+      {
+        "sourceId": "uuid-source-youtube-tCfM9BDsKWk",
+        "type": "Secondary",
+        "name": "Transcript of a commentary video regarding the Oval Office press briefing",
+        "authorEditor": "The speaker in the video",
+        "publicationDate": "2025-08-06",
+        "url": "https://www.youtube.com/watch?v=tCfM9BDsKWk",
+        "notes": "The primary source text for this event model is a transcript from this video. The video's publication date helped establish the event date."
+      }
+    ],
+    "mediaGallery": {
+      "articles": [],
+      "videos": [
+        {
+          "mediaId": "uuid-media-youtube-tCfM9BDsKWk",
+          "type": "news_report",
+          "name": "Video commentary on the Trump press conference",
+          "url": "https://www.youtube.com/watch?v=tCfM9BDsKWk",
+          "uploadDate": "2025-08-06",
+          "channelCreator": "Unknown from transcript",
+          "durationSeconds": null,
+          "descriptionSnippet": "We're not meeting to talk about the Epstein situation. Those are the actual words of the least believable vice president in history today in the Oval Office..."
+        }
+      ],
+      "images": [],
+      "audio": []
+    },
+    "eventPhases": [
+      {
+        "phaseName": "Tariff Announcement and Distraction",
+        "startDate": "2025-08-06",
+        "endDate": "2025-08-06",
+        "description": "President Trump begins the press availability by announcing a 100% tariff on computer chips, which the source transcript alleges was a move to distract from the Epstein topic.",
+        "keyDevelopments": [
+          "100% tariff on foreign computer chips announced. [1]"
+        ],
+        "involvedActorsIds": ["uuid-person-trump"],
+        "locationsInvolvedIds": ["uuid-loc-white-house"]
+      },
+      {
+        "phaseName": "Question and Answer Session",
+        "startDate": "2025-08-06",
+        "endDate": "2025-08-06",
+        "description": "The White House press corps asks a total of 33 questions. Only four questions, from two reporters, focus on the Epstein and Maxwell cases. The other 28 are on different subjects.",
+        "keyDevelopments": [
+          "Kateryn Lacy asks about Epstein.",
+          "Nancy Cordes asks about Ghislaine Maxwell.",
+          "JD Vance denies the rumored Epstein strategy meeting. [11]"
+        ],
+        "involvedActorsIds": [
+          "uuid-person-trump",
+          "uuid-person-vance",
+          "uuid-person-lacy",
+          "uuid-person-cordes",
+          "uuid-org-whpc"
+        ],
+        "locationsInvolvedIds": ["uuid-loc-white-house"]
+      }
+    ],
+    "outcomes": [
+      {
+        "outcomeType": "Media Narrative Control",
+        "description": "According to the source transcript, President Trump successfully manipulated the majority of the press corps into focusing on his tariff announcement rather than the politically damaging Epstein story.",
+        "dateAchieved": "2025-08-06",
+        "keyFiguresInvolvedIds": ["uuid-person-trump", "uuid-org-whpc"]
+      },
+      {
+        "outcomeType": "Economic Policy Announcement",
+        "description": "A new, significant trade policy of imposing a 100% tariff on foreign-made computer chips was announced to the public. [1, 2, 3, 4, 5]",
+        "dateAchieved": "2025-08-06",
+        "keyFiguresInvolvedIds": ["uuid-person-trump"]
+      }
+    ],
+    "classification": {
+      "domain": "Politics",
+      "subDomain": "Media Relations",
+      "confidenceLevel": "Verified",
+      "notes": "Details of the press conference (date, location, topics) are verified by multiple news sources. The analysis of it being a 'distraction' is the opinion of the transcript's speaker."
+    },
+    "creationMetadata": {
+      "createdByPersonId": "uuid-ai-assistant",
+      "creationAt": "",
+      "lastModifiedByPersonId": "uuid-ai-assistant",
+      "lastModifiedAt": ""
+    }
+  },
+  {
+    "eventId": "ev_crash_891010_trump_execs",
+    "name": "Helicopter Crash Killing Trump Casino Executives",
+    "startDate": "1989-10-10",
+    "endDate": "1989-10-10",
+    "description": "An Agusta 109A helicopter, leased from Paramount Aviation, crashed in a wooded median of the Garden State Parkway near Forked River, NJ, at 1:35 PM on October 10, 1989. The crash killed three senior executives from Donald J. Trump's casino organization (Stephen Hyde, Mark Grossinger Etess, Jonathan Benanav) and two crew members (pilot and co-pilot). The executives were returning to Atlantic City from Manhattan, NY, where they had been promoting an upcoming boxing match. An NTSB investigation concluded that a main rotor blade failed mid-flight due to pre-existing fatigue cracks.",
+    "people": [
+      {
+        "personId": "p_shyde_exec",
+        "name": "Stephen Hyde",
+        "details": "Age 43. CEO of Trump Plaza and Trump Castle Hotel & Casino.",
+        "reasonOfInvolvement": "Victim (Passenger)"
+      },
+      {
+        "personId": "p_metess_exec",
+        "name": "Mark Grossinger Etess",
+        "details": "Age 38. President and COO of the upcoming Trump Taj Mahal.",
+        "reasonOfInvolvement": "Victim (Passenger)"
+      },
+      {
+        "personId": "p_jbenanav_exec",
+        "name": "Jonathan Benanav",
+        "details": "Executive Vice President of Trump Plaza.",
+        "reasonOfInvolvement": "Victim (Passenger)"
+      },
+      {
+        "personId": "p_pilot_unknown",
+        "name": "Unknown Pilot",
+        "reasonOfInvolvement": "Victim (Crew)"
+      },
+      {
+        "personId": "p_copilot_unknown",
+        "name": "Unknown Co-pilot",
+        "reasonOfInvolvement": "Victim (Crew)"
+      },
+      {
+        "personId": "p_djtrump_owner",
+        "name": "Donald J. Trump",
+        "reasonOfInvolvement": "Employer of executives, provided statement"
+      },
+      {
+        "personId": "p_fghiorsi_ntsb",
+        "name": "Frank Ghiorsi",
+        "reasonOfInvolvement": "Investigator (NTSB Regional Director)"
+      },
+      {
+        "personId": "p_tmurray_witness",
+        "name": "Tom Murray",
+        "reasonOfInvolvement": "Witness to the crash"
+      },
+      {
+        "personId": "p_dgardener_assoc",
+        "name": "David Gardener",
+        "reasonOfInvolvement": "Commentator (VP, Casino Assn. of Atlantic City)"
+      },
+      {
+        "personId": "p_mrumbolz_comment",
+        "name": "Michael Rumbolz",
+        "reasonOfInvolvement": "Commentator (Trump associate)"
+      },
+      {
+        "personId": "p_hcamacho_boxer",
+        "name": "Hector Camacho",
+        "reasonOfInvolvement": "Context (Boxer in promoted fight)"
+      },
+      {
+        "personId": "p_vpazienza_boxer",
+        "name": "Vinny Pazienza",
+        "reasonOfInvolvement": "Context (Boxer in promoted fight)"
+      }
+    ],
+    "companies": [
+      {
+        "companyId": "e3f4a5b6-c7d8-e9f0-a1b2-c3d4e5f6a7b8",
+        "role": "Employer of executives"
+      },
+      {
+        "companyId": "c_trump_plaza",
+        "role": "Employer / Venue"
+      },
+      {
+        "companyId": "c_trump_castle",
+        "role": "Employer"
+      },
+      {
+        "companyId": "c_trump_taj",
+        "role": "Future Employer / Venue"
+      },
+      {
+        "companyId": "c_paramount_av",
+        "role": "Owner/Lessor of helicopter"
+      },
+      {
+        "companyId": "c_caesars_world",
+        "role": "Former Employer (Hyde)"
+      },
+      {
+        "companyId": "c_golden_nugget",
+        "role": "Former Employer (Hyde, Etess)"
+      },
+      {
+        "companyId": "c_sands_ac",
+        "role": "Former Employer (Hyde)"
+      },
+      {
+        "companyId": "c_grossingers",
+        "role": "Family Business (Etess)"
+      }
+    ],
+    "organizations": [
+      {
+        "organizationId": "o_casino_assoc_ac",
+        "role": "Source of commentary"
+      }
+    ],
+    "agencies": [
+      {
+        "agencyId": "a_ntsb",
+        "role": "Investigating Agency"
+      }
+    ],
+    "locations": [
+      {
+        "locationId": "loc_forked_river",
+        "description": "Forked River, New Jersey (Crash Site Area)"
+      },
+      {
+        "locationId": "loc_gsp_median",
+        "description": "Wooded Median of Garden State Parkway (Crash Site)"
+      },
+      {
+        "locationId": "loc_atlantic_city",
+        "description": "Atlantic City, New Jersey (Destination / Work Base)"
+      },
+      {
+        "locationId": "loc_nyc_heliport",
+        "description": "60th Street Heliport, Manhattan, New York City (Origin)"
+      },
+      {
+        "locationId": "loc_nyc",
+        "description": "New York City (Purpose of Trip Location)"
+      }
+    ],
+    "causes": [
+      {
+        "causeId": "cause_rotor_failure",
+        "causeName": "In-flight Rotor Blade Failure",
+        "description": "One of the four main overhead rotor blades broke mid-flight due to pre-existing fatigue cracks in the hollow interior of the leading edge spar, which were not detectable by visual inspection. (Source: NTSB Investigation / F. Ghiorsi)",
+        "startDate": "1989-10-10T13:35:00Z",
+        "endDate": "1989-10-10T13:35:00Z"
+      },
+      {
+        "causeId": "cause_breakup",
+        "causeName": "Mid-Air Breakup",
+        "description": "The failure of the main rotor led to the helicopter breaking up in the air before crashing. (Inferred / Witness T. Murray)",
+        "startDate": "1989-10-10T13:35:00Z",
+        "endDate": "1989-10-10T13:35:00Z"
+      }
+    ],
+    "effects": [
+      {
+        "effectId": "effect_fatalities",
+        "effectName": "Fatalities",
+        "description": "Death of all 5 occupants: Stephen Hyde, Mark Grossinger Etess, Jonathan Benanav, and two unidentified crew members (pilot, co-pilot).",
+        "startDate": "1989-10-10",
+        "endDate": "1989-10-10"
+      },
+      {
+        "effectId": "effect_destruction",
+        "effectName": "Aircraft Destruction",
+        "description": "The Agusta 109A helicopter was destroyed upon impact.",
+        "startDate": "1989-10-10",
+        "endDate": "1989-10-10"
+      },
+      {
+        "effectId": "effect_investigation",
+        "effectName": "NTSB Investigation",
+        "description": "The National Transportation Safety Board launched an investigation to determine the cause of the crash.",
+        "startDate": "1989-10-10",
+        "endDate": null
+      },
+      {
+        "effectId": "effect_mourning",
+        "effectName": "Public Statements and Mourning",
+        "description": "Statements expressing grief were issued by Donald J. Trump, and industry peers mourned the loss.",
+        "startDate": "1989-10-10",
+        "endDate": null
+      }
+    ],
+    "sources": [
+      {
+        "sourceDescription": "User-provided text snippet 1 (Short notice/news summary)",
+        "url": null
+      },
+      {
+        "sourceDescription": "User-provided text snippet 2 (Longer article, likely LA Times or similar)",
+        "url": "https://www.latimes.com/archives/la-xpm-1989-10-11-fi-229-story.html"
+      },
+      {
+        "sourceDescription": "External confirmation of crash date",
+        "url": "General web search"
+      },
+      {
+        "sourceDescription": "External search for entity statuses",
+        "url": "General web search (May 2025)"
+      }
+    ]
+  },
+  {
+    "eventId": "evt-judgearrest-01",
+    "name": "Trump Administration Allegedly Orders Arrest of a Judge",
+    "startDate": "2025-04-26",
+    "endDate": "2025-04-26",
+    "priority": "High",
+    "coords": null,
+    "imageUrl": null,
+    "description": "The monologue speaker claimed, without providing details, that the Trump administration had a judge arrested on April 26, 2025.",
+    "people": [
+      {
+        "personId": "a1b2c3d4-e5f6-7890-1234-567890abcdef",
+        "name": "Donald Trump",
+
+        "reasonOfInvolvement": "Head of the administration allegedly ordering the arrest."
+      },
+      {
+        "personId": "pers-judge-unnamed-01",
+        "name": "Unnamed Judge",
+
+        "reasonOfInvolvement": "Subject of the alleged arrest."
+      }
+    ],
+    "companies": [],
+    "organizations": [],
+    "agencies": [
+      { "agencyId": "agcy-doj-01", "role": "Potential Arresting Authority" }
+    ],
+    "causes": [
+      {
+        "causeId": "cause-judgearrest-01",
+        "causeName": "Unspecified Actions by Trump Administration",
+        "startDate": "2025-04-26",
+        "endDate": "2025-04-26",
+        "description": "The reason for the alleged arrest order by the Trump administration was not specified in the source."
+      }
+    ],
+    "effects": [
+      {
+        "effectId": "effect-judgearrest-01",
+        "effectName": "Arrest of a Judge (Alleged)",
+        "startDate": "2025-04-26",
+        "endDate": "2025-04-26",
+        "description": "A judge was allegedly arrested under orders from the Trump administration."
+      }
+    ],
+    "sources": [
+      {
+        "sourceDescription": "Monologue Transcript",
+        "url": "https://www.youtube.com/watch?v=sjCn4cTTdYM&t=329s"
+      },
+      {
+        "sourceDescription": "University Opposition Letter",
+        "url": "www.pbs.org/newshour/education/read-the-full-letter-from-universities-opposing-government-intrusion"
+      }
+    ]
+  }
+]

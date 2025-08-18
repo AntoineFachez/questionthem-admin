@@ -2,17 +2,26 @@
 
 import React, { createContext, useContext, useState, useEffect } from "react";
 import { blueprintMap } from "../lib/maps/blueprintMap";
+import { mockDataMap } from "../lib/maps/mockDataMap";
 
 const UIContext = createContext(null);
 
 export function UIProvider({ children }) {
   const [uiContext, setUiContext] = useState(false);
+
+  const [activeWidget, setActiveWidget] = useState({
+    key: "dynamicForm",
+  });
+
   const [openDialog, setOpenDialog] = useState(true);
   const [scrollDialog, setScrollDialog] = useState("paper");
+  const [dialogTitle, setDialogTitle] = useState("");
 
   const [openForm, setOpenForm] = useState(true);
-  const [activeBlueprint, setActiveBlueprint] = useState(
-    blueprintMap["persons"]
+  const [formDataContext, setFormDataContext] = useState("persons");
+  const [activeBlueprint, setActiveBlueprint] = useState({});
+  const [initialFormValues, setInitialFormValues] = useState(
+    mockDataMap[formDataContext]?.[0]
   );
 
   const [loading, setLoading] = useState(true);
@@ -25,25 +34,46 @@ export function UIProvider({ children }) {
   const handleCloseDialog = () => {
     setOpenDialog(false);
   };
-  const handleOpenForm = (blueprint) => {
+  const handleOpenForm = (collectionName) => {
+    const blueprint = blueprintMap[collectionName];
     handleOpenDialog("paper")();
+
+    setFormDataContext(collectionName);
     setActiveBlueprint(blueprint);
     setOpenForm(true);
   };
+  useEffect(() => {
+    setDialogTitle(activeBlueprint?.title);
+    setInitialFormValues(mockDataMap[formDataContext]?.[0]);
+    return () => {};
+  }, [activeBlueprint, formDataContext]);
 
   const contextValue = {
     uiContext,
     setUiContext,
+
     openDialog,
     setOpenDialog,
     scrollDialog,
     setScrollDialog,
+    dialogTitle,
+    setDialogTitle,
+
     openForm,
     setOpenForm,
+    formDataContext,
+    setFormDataContext,
     activeBlueprint,
+    initialFormValues,
+    setInitialFormValues,
+
+    activeWidget,
+    setActiveWidget,
+
     handleOpenDialog,
     handleCloseDialog,
     handleOpenForm,
+
     loading,
     error,
   };

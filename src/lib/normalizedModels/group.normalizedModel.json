@@ -1,0 +1,161 @@
+{
+  "databaseSchema": {
+    "entities": [
+      {
+        "name": "Group",
+        "description": "The main entity storing core information about a generic group, with a foreign key to a category.",
+        "properties": [
+          {
+            "name": "group_id",
+            "type": "string",
+            "description": "Unique identifier for the group."
+          },
+          { "name": "group_name", "type": "string" },
+          {
+            "name": "category_id",
+            "type": "string",
+            "description": "Foreign key to GroupCategory, enforcing valid group types."
+          },
+          { "name": "acronym", "type": "string" },
+          { "name": "website", "type": "string" },
+          { "name": "founding_date", "type": "date" },
+          { "name": "mission_statement", "type": "string" }
+        ]
+      },
+      {
+        "name": "GroupHierarchy",
+        "description": "A self-referencing relationship table for parent-child groups.",
+        "properties": [
+          { "name": "hierarchy_id", "type": "string" },
+          {
+            "name": "parent_group_id",
+            "type": "string",
+            "description": "Foreign key to the parent Group."
+          },
+          {
+            "name": "child_group_id",
+            "type": "string",
+            "description": "Foreign key to the child Group."
+          }
+        ]
+      },
+      {
+        "name": "GroupMemberPerson",
+        "description": "A relationship table linking a group to a person.",
+        "properties": [
+          { "name": "member_id", "type": "string" },
+          {
+            "name": "group_id",
+            "type": "string",
+            "description": "Foreign key to Group."
+          },
+          {
+            "name": "person_id",
+            "type": "string",
+            "description": "Foreign key to Person."
+          },
+          {
+            "name": "isKeyMember",
+            "type": "boolean",
+            "description": "Indicates if the person is a key member."
+          },
+          { "name": "role", "type": "string" }
+        ]
+      },
+      {
+        "name": "GroupMemberGroup",
+        "description": "A relationship table linking a group to another group as a member.",
+        "properties": [
+          { "name": "member_id", "type": "string" },
+          {
+            "name": "parent_group_id",
+            "type": "string",
+            "description": "Foreign key to the parent Group."
+          },
+          {
+            "name": "child_group_id",
+            "type": "string",
+            "description": "Foreign key to the child Group."
+          },
+          {
+            "name": "isKeyMember",
+            "type": "boolean",
+            "description": "Indicates if the nested group is a key member."
+          },
+          { "name": "role", "type": "string" }
+        ]
+      },
+      {
+        "name": "GroupContactInfo",
+        "description": "Contact details including phone numbers, emails, and physical addresses.",
+        "properties": [
+          { "name": "contact_id", "type": "string" },
+          {
+            "name": "group_id",
+            "type": "string",
+            "description": "Foreign key to Group."
+          },
+          {
+            "name": "type",
+            "type": "string",
+            "description": "e.g., email, phone, address."
+          },
+          { "name": "value", "type": "string" },
+          { "name": "notes", "type": "string" }
+        ]
+      },
+      {
+        "name": "GroupCategory",
+        "description": "Lookup table for high-level group categories.",
+        "properties": [
+          {
+            "name": "category_id",
+            "type": "string",
+            "description": "Unique identifier for the category."
+          },
+          {
+            "name": "category_name",
+            "type": "string",
+            "description": "e.g., 'Work/Task-Oriented Groups'."
+          },
+          {
+            "name": "category_description",
+            "type": "string"
+          }
+        ]
+      }
+    ],
+    "relationships": [
+      {
+        "from": "Group",
+        "to": "GroupHierarchy",
+        "type": "one-to-many",
+        "description": "A group can have multiple child groups."
+      },
+      {
+        "from": "Group",
+        "to": "GroupMemberPerson",
+        "type": "one-to-many",
+        "description": "A group can have multiple person members."
+      },
+      {
+        "from": "Group",
+        "to": "GroupMemberGroup",
+        "type": "one-to-many",
+        "description": "A group can have multiple nested group members."
+      },
+      {
+        "from": "Group",
+        "to": "GroupContactInfo",
+        "type": "one-to-many",
+        "description": "A group can have multiple contact details."
+      },
+      {
+        "from": "GroupCategory",
+        "to": "Group",
+        "type": "one-to-many",
+        "description": "A category can be assigned to multiple groups."
+      }
+    ]
+  }
+}

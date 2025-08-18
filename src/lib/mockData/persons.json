@@ -12,40 +12,42 @@
       { "type": "opponents", "name": "The Donald" },
       { "type": "opponents", "name": "President Orange" }
     ],
-    "biography_summary": "Donald John Trump is an American businessman, media personality, and politician who served as the 45th U.S. president from 2017 to 2021 and is currently serving as the 47th U.S. president since 2025. Born in Queens, New York, he followed in his father's footsteps into real estate development, eventually taking over the family business and renaming it the Trump Organization. He built a global brand that included hotels, casinos, and golf courses, and gained further fame as a television personality. He entered politics with his 2016 presidential campaign, winning the election as a Republican. He is the second president to serve non-consecutive terms.",
-    "lifestage": [
+    "biographySummary": "Donald John Trump is an American businessman, media personality, and politician who served as the 45th U.S. president from 2017 to 2021 and is currently serving as the 47th U.S. president since 2025. Born in Queens, New York, he followed in his father's footsteps into real estate development, eventually taking over the family business and renaming it the Trump Organization. He built a global brand that included hotels, casinos, and golf courses, and gained further fame as a television personality. He entered politics with his 2016 presidential campaign, winning the election as a Republican. He is the second president to serve non-consecutive terms.",
+    "lifestages": [
       {
-        "name": "Birth",
-        "date": "1946-06-14",
+        "phase": "Birth",
+        "startDate": "1946-06-14",
+        "endDate": "",
         "location": {
           "city": "Queens",
-          "state_province": "New York",
+          "stateProvince": "New York",
           "country": "USA"
         },
         "description": "Born at Jamaica Hospital in Queens, New York.",
         "sources": [{ "entityId": "", "type": "", "url": "" }]
       },
       {
-        "name": "Childhood",
+        "phase": "Childhood",
         "startDate": "1946-06-14",
         "endDate": "1959-09-01",
         "location": {
           "city": "Queens",
-          "state_province": "New York",
+          "stateProvince": "New York",
           "country": "USA"
         },
         "description": "Grew up in Jamaica Estates, Queens, in a wealthy family.",
         "sources": [{ "entityId": "", "type": "", "url": "" }]
       },
       {
-        "name": "Significant Event",
-        "date": "1959-09-01",
+        "phase": "Significant Event",
+        "startDate": "1959-09-01",
+        "endDate": "",
         "description": "At age 13, his parents sent him to the New York Military Academy to correct behavioral issues.",
         "sources": [{ "entityId": "", "type": "", "url": "" }]
       }
     ],
 
-    "social_media_profiles": [
+    "socialMediaProfiles": [
       {
         "platformId": "truth_social",
         "name": "Donald J. Trump",
@@ -111,7 +113,10 @@
         "description": "Allegations and legal proceedings related to his business practices, including accusations of fraud and the falsification of business records. This includes both civil and criminal cases involving his business organization.",
         "notes": "These controversies have spanned decades and have led to numerous civil lawsuits and, more recently, criminal charges. They are a significant part of his public identity.",
         "eventId": "business_legal_challenges",
-        "sources": []
+        "events": [
+          { "eventId": "someId", "type": "someType", "url": "some url" }
+        ],
+        "sources": [{ "entityId": "", "type": "", "url": "" }]
       },
       {
         "entityId": "d54ffc3a-332f-498e-9aca-9aafb5bf780e",
@@ -121,7 +126,8 @@
         "description": "The investigations and political fallout surrounding Russian interference in the 2016 U.S. presidential election and alleged ties between his campaign and Russian officials.",
         "notes": "This was a prolonged and highly publicized event that led to a Special Counsel investigation. While the investigation did not find a criminal conspiracy between the campaign and Russia, it documented numerous contacts and instances of potential obstruction of justice.",
         "eventId": "russia_investigation",
-        "sources": []
+        "events": [{ "eventId": "" }],
+        "sources": [{ "entityId": "", "type": "", "url": "" }]
       },
       {
         "entityId": "d54ffc3a-332f-498e-9aca-9aafb5bf780e",
@@ -131,7 +137,8 @@
         "description": "The controversies and legal challenges related to his actions following the 2020 presidential election, including allegations of attempting to overturn the results and his role in the January 6, 2021 Capitol event.",
         "notes": "This led to a number of legal challenges and investigations, including a special counsel investigation and criminal charges. The events and their aftermath continue to be a subject of public and legal debate.",
         "eventId": "2020_election_controversies",
-        "sources": []
+        "events": [{ "eventId": "" }],
+        "sources": [{ "entityId": "", "type": "", "url": "" }]
       },
       {
         "entityId": "d54ffc3a-332f-498e-9aca-9aafb5bf780e",
@@ -141,7 +148,8 @@
         "description": "His use of public statements and social media, which many critics describe as unprecedented for a president, and the subsequent public reaction.",
         "notes": "This includes the use of platforms to attack political opponents, the media, and federal institutions. Fact-checking organizations have documented numerous false or misleading claims made in his statements.",
         "eventId": "public_statements_and_social_media",
-        "sources": []
+        "events": [{ "eventId": "" }],
+        "sources": [{ "entityId": "", "type": "", "url": "" }]
       },
       {
         "entityId": "d54ffc3a-332f-498e-9aca-9aafb5bf780e",
@@ -151,7 +159,8 @@
         "description": "The 'family separation' policy at the U.S.-Mexico border, which involved separating children from their parents who had crossed the border illegally.",
         "notes": "This policy drew widespread condemnation from human rights organizations, religious groups, and international bodies.",
         "eventId": "border_policy_family_separation",
-        "sources": []
+        "events": [{ "eventId": "" }],
+        "sources": [{ "entityId": "", "type": "", "url": "" }]
       }
     ],
     "assets": [
@@ -412,5 +421,29 @@
     ],
     "phoneNumbers": [],
     "addresses": []
+  },
+  {
+    "personId": "prsn_1111111111",
+    "firstName": "Alice",
+    "lastName": "Admin",
+    "midName": [],
+    "nickName": [],
+    "biographySummary": "An administrator with a passion for managing digital systems."
+  },
+  {
+    "personId": "prsn_2222222222",
+    "firstName": "Bob",
+    "lastName": "Editor",
+    "midName": [],
+    "nickName": [],
+    "biographySummary": "An editor focused on content creation and curation."
+  },
+  {
+    "personId": "prsn_3333333333",
+    "firstName": "Charlie",
+    "lastName": "Guest",
+    "midName": [],
+    "nickName": [],
+    "biographySummary": "A user with guest access, exploring the platform."
   }
 ]

@@ -1,0 +1,82 @@
+{
+  "databaseSchema": {
+    "entities": [
+      {
+        "name": "GroupMember",
+        "description": "A relationship table linking a group to a person or another group, handling a unified membership model.",
+        "properties": [
+          {
+            "name": "member_id",
+            "type": "string",
+            "description": "Unique identifier for the membership relationship record."
+          },
+          {
+            "name": "group_id",
+            "type": "string",
+            "description": "Foreign key to the Group entity, representing the parent group."
+          },
+          {
+            "name": "linked_entity_id",
+            "type": "string",
+            "description": "Foreign key to either the Person or Group entity, representing the member."
+          },
+          {
+            "name": "linked_entity_type",
+            "type": "string",
+            "description": "Specifies the type of the linked entity, e.g., 'Person' or 'Group'."
+          }
+        ]
+      },
+      {
+        "name": "Group",
+        "description": "A placeholder entity for core group information.",
+        "properties": [
+          {
+            "name": "group_id",
+            "type": "string",
+            "description": "Unique identifier for the group."
+          },
+          {
+            "name": "group_name",
+            "type": "string"
+          }
+        ]
+      },
+      {
+        "name": "Person",
+        "description": "A placeholder entity for person information.",
+        "properties": [
+          {
+            "name": "person_id",
+            "type": "string",
+            "description": "Unique identifier for the person."
+          },
+          {
+            "name": "person_name",
+            "type": "string"
+          }
+        ]
+      }
+    ],
+    "relationships": [
+      {
+        "from": "Group",
+        "to": "GroupMember",
+        "type": "one-to-many",
+        "description": "A group can have multiple members."
+      },
+      {
+        "from": "Person",
+        "to": "GroupMember",
+        "type": "one-to-many",
+        "description": "A person can be a member of many groups."
+      },
+      {
+        "from": "Group",
+        "to": "GroupMember",
+        "type": "one-to-many",
+        "description": "A group can be a member of many other groups."
+      }
+    ]
+  }
+}

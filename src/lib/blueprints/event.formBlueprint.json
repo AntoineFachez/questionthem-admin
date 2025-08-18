@@ -10,78 +10,445 @@
           "name": "eventId",
           "label": "Event ID",
           "type": "string",
-          "description": "Unique identifier for the event."
+          "description": "Unique identifier for the event.",
+          "render": false,
+          "required": true
         },
         {
-          "name": "title",
+          "name": "name",
           "label": "Title",
           "type": "text",
           "placeholder": "e.g., Fire at City Hall",
           "required": true
         },
         {
-          "name": "timestamp",
-          "label": "Date and Time",
-          "type": "date-time",
+          "name": "eventType",
+          "label": "Event Type",
+          "type": "string",
+          "placeholder": "e.g., Political",
           "required": true
+        },
+        {
+          "name": "alternativeNames",
+          "label": "Alternative Titles",
+          "type": "array",
+          "items": {
+            "placeholder": "e.g., The Epstein Situation Press Conference",
+            "type": "object",
+            "properties": [
+              {
+                "name": "title",
+                "label": "Alternative Title",
+                "type": "string"
+              }
+            ]
+          }
+        },
+        {
+          "name": "eventSummary",
+          "label": "Event Summary",
+          "type": "textarea",
+          "placeholder": "A factual summary of what happened.",
+          "required": true
+        },
+        {
+          "name": "startDate",
+          "label": "Start Date",
+          "type": "date-time",
+          "halfWidth": true,
+          "required": true
+        },
+        {
+          "name": "endDate",
+          "label": "End Date",
+          "type": "date-time",
+          "halfWidth": true,
+          "required": true
+        },
+        {
+          "name": "startTime",
+          "label": "Start Time",
+          "halfWidth": true,
+          "type": "time"
+        },
+        {
+          "name": "endTime",
+          "label": "End Time",
+          "halfWidth": true,
+          "type": "time"
+        },
+        {
+          "name": "duration",
+          "label": "Duration",
+          "halfWidth": true,
+          "type": "string"
+        },
+        {
+          "name": "timeZone",
+          "label": "Time Zone",
+          "type": "string",
+          "halfWidth": true,
+          "placeholder": "e.g., America/New_York"
+        },
+        {
+          "name": "priority",
+          "label": "Priority",
+          "halfWidth": true,
+          "type": "string"
         },
         {
           "name": "description",
           "label": "Description",
           "type": "textarea",
-          "placeholder": "A factual summary of what happened.",
-          "required": true
+          "placeholder": "A more detailed description of the event."
+        },
+        {
+          "name": "backgroundContext",
+          "label": "Background Context",
+          "type": "textarea",
+          "placeholder": "Context leading up to the event."
+        },
+        {
+          "name": "consequencesImpact",
+          "label": "Consequences & Impact",
+          "type": "textarea",
+          "placeholder": "The outcomes and effects of the event."
+        },
+        {
+          "name": "categoryTags",
+          "label": "Category Tags",
+          "type": "array",
+          "halfWidth": true,
+          "items": {
+            "type": "string",
+            "placeholder": "e.g., Political"
+          }
         }
       ]
     },
     {
-      "sectionTitle": "Location",
-      "description": "The physical location of the event.",
+      "sectionTitle": "Locations",
+      "description": "The physical locations involved in the event.",
       "fields": [
         {
-          "name": "location",
-          "label": "Location Details",
+          "name": "primaryLocation",
+          "label": "Primary Location",
           "type": "object",
           "properties": [
-            { "name": "address", "label": "Address", "type": "text" },
-            { "name": "city", "label": "City", "type": "text" },
-            { "name": "country", "label": "Country", "type": "text" },
             {
-              "name": "coordinates",
+              "name": "locationId",
+              "label": "Location ID",
+              "type": "string",
+              "render": false
+            },
+            { "name": "name", "label": "Name", "type": "string" },
+            {
+              "name": "coords",
               "label": "Coordinates",
               "type": "object",
               "properties": [
-                { "name": "latitude", "label": "Latitude", "type": "number" },
-                { "name": "longitude", "label": "Longitude", "type": "number" }
+                {
+                  "name": "lat",
+                  "label": "Latitude",
+                  "type": "number",
+                  "halfWidth": true
+                },
+                {
+                  "name": "lng",
+                  "label": "Longitude",
+                  "type": "number",
+                  "halfWidth": true
+                }
               ]
+            },
+            {
+              "name": "address",
+              "label": "Address",
+              "type": "object",
+              "properties": [
+                { "name": "street", "label": "Street", "type": "string" },
+                { "name": "city", "label": "City", "type": "string" },
+                {
+                  "name": "stateProvince",
+                  "label": "State/Province",
+                  "type": "string"
+                },
+                { "name": "zipCode", "label": "Zip Code", "type": "string" },
+                { "name": "country", "label": "Country", "type": "string" }
+              ]
+            },
+            {
+              "name": "description",
+              "label": "Description",
+              "type": "textarea"
             }
           ]
-        }
-      ]
-    },
-    {
-      "sectionTitle": "Actors & Outcomes",
-      "description": "Actors involved and the outcomes of the event.",
-      "fields": [
+        },
         {
-          "name": "actors",
-          "label": "Actors Involved",
+          "name": "involvedLocations",
+          "label": "Involved Locations",
           "type": "array",
           "items": {
             "type": "object",
             "properties": [
-              { "name": "actorId", "label": "Actor ID", "type": "string" },
               {
-                "name": "actorType",
-                "label": "Actor Type",
-                "type": "text",
-                "placeholder": "e.g., person, company, agency"
+                "name": "locationId",
+                "label": "Location ID",
+                "type": "string"
+              },
+              { "name": "name", "label": "Name", "type": "string" },
+              {
+                "name": "coords",
+                "label": "Coordinates",
+                "type": "object",
+                "properties": [
+                  { "name": "lat", "label": "Latitude", "type": "number" },
+                  { "name": "lng", "label": "Longitude", "type": "number" }
+                ]
+              },
+              {
+                "name": "address",
+                "label": "Address",
+                "type": "object",
+                "properties": [
+                  { "name": "street", "label": "Street", "type": "string" },
+                  { "name": "city", "label": "City", "type": "string" },
+                  {
+                    "name": "stateProvince",
+                    "label": "State/Province",
+                    "type": "string"
+                  },
+                  { "name": "zipCode", "label": "Zip Code", "type": "string" },
+                  { "name": "country", "label": "Country", "type": "string" }
+                ]
+              },
+              {
+                "name": "description",
+                "label": "Description",
+                "type": "textarea"
               },
               {
                 "name": "roleInEvent",
-                "label": "Role",
-                "type": "text",
-                "placeholder": "e.g., witness, suspect"
+                "label": "Role in Event",
+                "type": "string"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "sectionTitle": "Actors & Organizations",
+      "description": "People, organizations, companies, and agencies involved.",
+      "fields": [
+        {
+          "name": "peopleInvolved",
+          "label": "People Involved",
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": [
+              { "name": "personId", "label": "Person ID", "type": "string" },
+              { "name": "role", "label": "Role", "type": "string" },
+              {
+                "name": "specificActions",
+                "label": "Specific Actions",
+                "type": "array",
+                "items": { "type": "string" }
+              },
+              {
+                "name": "involvementStartDate",
+                "label": "Involvement Start Date",
+                "type": "date-time"
+              },
+              {
+                "name": "involvementEndDate",
+                "label": "Involvement End Date",
+                "type": "date-time"
+              },
+              {
+                "name": "impactOnPerson",
+                "label": "Impact on Person",
+                "type": "textarea"
+              },
+              {
+                "name": "relationshipToEvent",
+                "label": "Relationship to Event",
+                "type": "object",
+                "properties": [
+                  { "name": "type", "label": "Type", "type": "string" },
+                  {
+                    "name": "description",
+                    "label": "Description",
+                    "type": "textarea"
+                  }
+                ]
+              },
+              { "name": "notes", "label": "Notes", "type": "textarea" }
+            ]
+          }
+        },
+        {
+          "name": "organizationsInvolved",
+          "label": "Organizations Involved",
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": [
+              {
+                "name": "organizationId",
+                "label": "Organization ID",
+                "type": "string"
+              },
+              { "name": "name", "label": "Name", "type": "string" },
+              { "name": "type", "label": "Type", "type": "string" },
+              { "name": "role", "label": "Role", "type": "string" },
+              {
+                "name": "specificActions",
+                "label": "Specific Actions",
+                "type": "array",
+                "items": { "type": "string" }
+              },
+              {
+                "name": "involvedBranches",
+                "label": "Involved Branches",
+                "type": "array",
+                "items": { "type": "string" }
+              },
+              {
+                "name": "impactOnOrganization",
+                "label": "Impact on Organization",
+                "type": "textarea"
+              },
+              { "name": "notes", "label": "Notes", "type": "textarea" }
+            ]
+          }
+        },
+        {
+          "name": "companiesInvolved",
+          "label": "Companies Involved",
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": [
+              { "name": "companyId", "label": "Company ID", "type": "string" },
+              { "name": "name", "label": "Name", "type": "string" },
+              { "name": "role", "label": "Role", "type": "string" },
+              {
+                "name": "specificActions",
+                "label": "Specific Actions",
+                "type": "array",
+                "items": { "type": "string" }
+              },
+              {
+                "name": "involvedBranches",
+                "label": "Involved Branches",
+                "type": "array",
+                "items": { "type": "string" }
+              },
+              {
+                "name": "impactOnCompany",
+                "label": "Impact on Company",
+                "type": "textarea"
+              },
+              { "name": "notes", "label": "Notes", "type": "textarea" }
+            ]
+          }
+        },
+        {
+          "name": "agenciesInvolved",
+          "label": "Agencies Involved",
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": [
+              { "name": "agencyId", "label": "Agency ID", "type": "string" },
+              { "name": "name", "label": "Name", "type": "string" },
+              { "name": "role", "label": "Role", "type": "string" },
+              {
+                "name": "specificActions",
+                "label": "Specific Actions",
+                "type": "array",
+                "items": { "type": "string" }
+              },
+              {
+                "name": "involvedBranches",
+                "label": "Involved Branches",
+                "type": "array",
+                "items": { "type": "string" }
+              },
+              {
+                "name": "impactOnAgency",
+                "label": "Impact on Agency",
+                "type": "textarea"
+              },
+              { "name": "notes", "label": "Notes", "type": "textarea" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "sectionTitle": "Event Details",
+      "description": "Specific phases, outcomes, and related events.",
+      "fields": [
+        {
+          "name": "relatedEvents",
+          "label": "Related Events",
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": [
+              { "name": "eventId", "label": "Event ID", "type": "string" },
+              {
+                "name": "relationType",
+                "label": "Relation Type",
+                "type": "string"
+              },
+              {
+                "name": "description",
+                "label": "Description",
+                "type": "textarea"
+              }
+            ]
+          }
+        },
+        {
+          "name": "eventPhases",
+          "label": "Event Phases",
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": [
+              { "name": "phaseName", "label": "Phase Name", "type": "string" },
+              {
+                "name": "startDate",
+                "label": "Start Date",
+                "type": "date-time"
+              },
+              { "name": "endDate", "label": "End Date", "type": "date-time" },
+              {
+                "name": "description",
+                "label": "Description",
+                "type": "textarea"
+              },
+              {
+                "name": "keyDevelopments",
+                "label": "Key Developments",
+                "type": "array",
+                "items": { "type": "string" }
+              },
+              {
+                "name": "involvedActorsIds",
+                "label": "Involved Actors IDs",
+                "type": "array",
+                "items": { "type": "string" }
+              },
+              {
+                "name": "locationsInvolvedIds",
+                "label": "Locations Involved IDs",
+                "type": "array",
+                "items": { "type": "string" }
               }
             ]
           }
@@ -91,16 +458,52 @@
           "label": "Outcomes",
           "type": "array",
           "items": {
-            "type": "string",
-            "placeholder": "e.g., Five people injured, Building destroyed"
-          },
-          "description": "A list of significant outcomes."
+            "type": "object",
+            "properties": [
+              {
+                "name": "outcomeType",
+                "label": "Outcome Type",
+                "type": "string"
+              },
+              {
+                "name": "description",
+                "label": "Description",
+                "type": "textarea"
+              },
+              {
+                "name": "dateAchieved",
+                "label": "Date Achieved",
+                "type": "date-time"
+              },
+              {
+                "name": "keyFiguresInvolvedIds",
+                "label": "Key Figures Involved IDs",
+                "type": "array",
+                "items": { "type": "string" }
+              }
+            ]
+          }
+        },
+        {
+          "name": "classification",
+          "label": "Classification",
+          "type": "object",
+          "properties": [
+            { "name": "domain", "label": "Domain", "type": "string" },
+            { "name": "subDomain", "label": "Sub-domain", "type": "string" },
+            {
+              "name": "confidenceLevel",
+              "label": "Confidence Level",
+              "type": "string"
+            },
+            { "name": "notes", "label": "Notes", "type": "textarea" }
+          ]
         }
       ]
     },
     {
-      "sectionTitle": "Sources",
-      "description": "Verifiable sources and evidence for the event.",
+      "sectionTitle": "Media & Sources",
+      "description": "Verifiable sources and media evidence for the event.",
       "fields": [
         {
           "name": "sources",
@@ -110,15 +513,114 @@
             "type": "object",
             "properties": [
               { "name": "sourceId", "label": "Source ID", "type": "string" },
+              { "name": "type", "label": "Type", "type": "string" },
+              { "name": "title", "label": "Title", "type": "string" },
               {
-                "name": "sourceType",
-                "label": "Source Type",
-                "type": "text",
-                "placeholder": "e.g., news_article, official_report"
+                "name": "authorEditor",
+                "label": "Author/Editor",
+                "type": "string"
               },
-              { "name": "url", "label": "Source URL", "type": "url" }
+              {
+                "name": "publicationDate",
+                "label": "Publication Date",
+                "type": "date-time"
+              },
+              { "name": "url", "label": "URL", "type": "url" },
+              { "name": "notes", "label": "Notes", "type": "textarea" }
             ]
           }
+        },
+        {
+          "name": "mediaGallery",
+          "label": "Media Gallery",
+          "type": "object",
+          "properties": [
+            {
+              "name": "articles",
+              "label": "Articles",
+              "type": "array",
+              "items": { "type": "object" }
+            },
+            {
+              "name": "videos",
+              "label": "Videos",
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": [
+                  { "name": "mediaId", "label": "Media ID", "type": "string" },
+                  { "name": "type", "label": "Type", "type": "string" },
+                  { "name": "title", "label": "Title", "type": "string" },
+                  { "name": "url", "label": "URL", "type": "url" },
+                  {
+                    "name": "uploadDate",
+                    "label": "Upload Date",
+                    "type": "date-time"
+                  },
+                  {
+                    "name": "channelCreator",
+                    "label": "Channel/Creator",
+                    "type": "string"
+                  },
+                  {
+                    "name": "durationSeconds",
+                    "label": "Duration (seconds)",
+                    "type": "number"
+                  },
+                  {
+                    "name": "descriptionSnippet",
+                    "label": "Description Snippet",
+                    "type": "textarea"
+                  }
+                ]
+              }
+            },
+            {
+              "name": "images",
+              "label": "Images",
+              "type": "array",
+              "items": { "type": "object" }
+            },
+            {
+              "name": "audio",
+              "label": "Audio",
+              "type": "array",
+              "items": { "type": "object" }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sectionTitle": "Metadata",
+      "description": "Administrative information about the data entry.",
+      "fields": [
+        {
+          "name": "creationMetadata",
+          "label": "Creation Metadata",
+          "type": "object",
+          "properties": [
+            {
+              "name": "createdByPersonId",
+              "label": "Created By Person ID",
+              "type": "string"
+            },
+            {
+              "name": "creationAt",
+              "label": "Creation At",
+              "type": "date-time"
+            },
+            {
+              "name": "lastModifiedByPersonId",
+              "label": "Last Modified By Person ID",
+              "type": "string"
+            },
+            {
+              "name": "lastModifiedAt",
+              "label": "Last Modified At",
+              "type": "date-time"
+            }
+          ]
         }
       ]
     }

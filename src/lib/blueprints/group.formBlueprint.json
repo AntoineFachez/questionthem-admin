@@ -1,0 +1,176 @@
+{
+  "title": "Group Profile",
+  "description": "A blueprint for defining any type of collaborative group, organization, or entity.",
+  "sections": [
+    {
+      "sectionTitle": "Core Information",
+      "description": "Fundamental details that define the group.",
+      "fields": [
+        {
+          "name": "groupId",
+          "label": "Group ID",
+          "type": "string",
+          "description": "Unique identifier for the group."
+        },
+        {
+          "name": "groupName",
+          "label": "Group Name",
+          "type": "text",
+          "placeholder": "e.g., The Beatles, Acme Corporation",
+          "required": true
+        },
+        {
+          "name": "categoryId",
+          "label": "Group Category",
+          "type": "select",
+          "description": "The high-level classification of the group.",
+          "placeholder": "Select a category",
+          "required": true,
+          "options": [
+            "Company",
+            "Agency",
+            "Institution",
+            "Collaboration",
+            "Ensemble",
+            "Sports Team"
+          ]
+        },
+        {
+          "name": "acronym",
+          "label": "Acronym",
+          "type": "text",
+          "placeholder": "e.g., NASA, IBM",
+          "required": false
+        },
+        {
+          "name": "missionStatement",
+          "label": "Mission Statement / Description",
+          "type": "textarea",
+          "placeholder": "Describe the group's purpose and goals...",
+          "required": false
+        },
+        {
+          "name": "foundingDate",
+          "label": "Founding Date",
+          "type": "date",
+          "required": false
+        }
+      ]
+    },
+    {
+      "sectionTitle": "Hierarchy & Structure",
+      "description": "Define the group's relationship with other groups.",
+      "fields": [
+        {
+          "name": "parentGroup",
+          "label": "Parent Group",
+          "type": "object",
+          "description": "The group this entity is a part of (e.g., a subsidiary of a holding).",
+          "properties": [
+            {
+              "name": "parentGroupId",
+              "label": "Parent Group ID",
+              "type": "string",
+              "placeholder": "Search for a parent group..."
+            },
+            {
+              "name": "parentGroupName",
+              "label": "Parent Group Name",
+              "type": "text",
+              "readOnly": true
+            }
+          ],
+          "required": false
+        }
+      ]
+    },
+    {
+      "sectionTitle": "Members",
+      "description": "People or other groups that are part of this group.",
+      "fields": [
+        {
+          "name": "members",
+          "label": "Group Members",
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": [
+              {
+                "name": "memberId",
+                "label": "Member ID",
+                "type": "string",
+                "placeholder": "Search for a person or group..."
+              },
+              {
+                "name": "memberType",
+                "label": "Member Type",
+                "type": "select",
+                "options": ["Person", "Group"]
+              },
+              {
+                "name": "memberName",
+                "label": "Member Name",
+                "type": "text",
+                "readOnly": true
+              },
+              {
+                "name": "role",
+                "label": "Role / Position",
+                "type": "text",
+                "placeholder": "e.g., CEO, Drummer, Lead Researcher"
+              },
+              {
+                "name": "isKeyMember",
+                "label": "Is Key Member?",
+                "type": "boolean"
+              }
+            ]
+          },
+          "required": false
+        }
+      ]
+    },
+    {
+      "sectionTitle": "Contact & Online Presence",
+      "description": "How to contact the group and its online profiles.",
+      "fields": [
+        {
+          "name": "contactInfo",
+          "label": "Contact Methods",
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": [
+              {
+                "name": "type",
+                "label": "Type",
+                "type": "select",
+                "options": ["Email", "Phone", "Address", "Fax"]
+              },
+              {
+                "name": "value",
+                "label": "Value",
+                "type": "text",
+                "placeholder": "e.g., contact@example.com, +1-555-1234"
+              },
+              {
+                "name": "notes",
+                "label": "Notes",
+                "type": "text",
+                "placeholder": "e.g., General Inquiries, Main Office"
+              }
+            ]
+          },
+          "required": false
+        },
+        {
+          "name": "website",
+          "label": "Primary Website",
+          "type": "url",
+          "placeholder": "https://www.example.com",
+          "required": false
+        }
+      ]
+    }
+  ]
+}

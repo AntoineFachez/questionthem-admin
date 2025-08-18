@@ -1,0 +1,40 @@
+[
+  {
+    "userId": "usr_1k2l3m4n5o",
+    "role": "guest",
+    "timestamp": "2025-08-16T18:00:00Z",
+    "action": "viewed_product_page",
+    "details": {
+      "product_id": "prod_a1"
+    }
+  },
+  {
+    "userId": "usr_1a2b3c4d5e",
+    "role": "admin",
+    "timestamp": "2025-08-16T18:01:30Z",
+    "action": "deleted_product",
+    "details": {
+      "product_id": "prod_a1"
+    }
+  },
+  {
+    "userId": "usr_1k2l3m4n5o",
+    "role": "guest",
+    "timestamp": "2025-08-16T18:02:15Z",
+    "action": "received_error_message",
+    "details": {
+      "error_code": "404",
+      "message": "Product not found"
+    }
+  },
+  {
+    "userId": "usr_6f7g8h9i0j",
+    "role": "editor",
+    "timestamp": "2025-08-17T09:30:00Z",
+    "action": "created_new_post",
+    "details": {
+      "post_id": "post_b2",
+      "title": "New Product Launch"
+    }
+  }
+]

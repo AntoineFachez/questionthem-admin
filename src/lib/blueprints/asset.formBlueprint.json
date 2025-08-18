@@ -10,7 +10,9 @@
           "name": "assetId",
           "label": "Asset ID",
           "type": "string",
-          "description": "Unique identifier for the asset."
+          "description": "Unique identifier for the asset.",
+          "render": false,
+          "required": true
         },
         {
           "name": "name",
@@ -24,6 +26,7 @@
           "label": "Asset Type",
           "type": "string",
           "placeholder": "e.g., Real Estate, Vehicle, Company Shares",
+          "halfWidth": true,
           "required": true
         },
         {
@@ -38,6 +41,7 @@
           "label": "Status",
           "type": "string",
           "placeholder": "e.g., active, for_sale, disposed",
+          "halfWidth": true,
           "required": false
         }
       ]
@@ -51,6 +55,7 @@
           "label": "Owner ID",
           "type": "string",
           "description": "The unique identifier of the current owner.",
+          "render": false,
           "required": true
         },
         {
@@ -72,6 +77,7 @@
           "label": "Currency",
           "type": "string",
           "placeholder": "e.g., USD, EUR",
+          "halfWidth": true,
           "required": false
         }
       ]
@@ -93,7 +99,12 @@
             { "name": "city", "label": "City", "type": "text" },
             { "name": "state", "label": "State", "type": "text" },
             { "name": "country", "label": "Country", "type": "text" },
-            { "name": "postalCode", "label": "Postal Code", "type": "text" }
+            {
+              "name": "postalCode",
+              "label": "Postal Code",
+              "type": "text",
+              "halfWidth": true
+            }
           ],
           "required": false
         }

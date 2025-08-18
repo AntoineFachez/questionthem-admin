@@ -1,0 +1,17 @@
+[
+  {
+    "userId": "usr_1a2b3c4d5e",
+    "username": "alice_admin",
+    "roles": ["admin"]
+  },
+  {
+    "userId": "usr_6f7g8h9i0j",
+    "username": "bob_editor",
+    "roles": ["editor"]
+  },
+  {
+    "userId": "usr_1k2l3m4n5o",
+    "username": "charlie_guest",
+    "roles": ["guest"]
+  }
+]

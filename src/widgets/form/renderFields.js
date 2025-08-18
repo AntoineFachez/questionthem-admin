@@ -3,7 +3,7 @@ import { Box, Typography, IconButton } from "@mui/material";
 import AddIcon from "@mui/icons-material/Add";
 import RemoveIcon from "@mui/icons-material/Remove";
 import MemoizedFormField from "./MemoizedFormField";
-import DynamicAccordion from "../accordion/DynamicAccordion";
+import DynamicAccordion from "../../components/accordion/DynamicAccordion";
 import { iconMap } from "../../lib/maps/iconMap";
 
 // Helper function to dynamically get and render the icon
@@ -24,11 +24,13 @@ export const renderFields = ({
   if (!fields) return null;
 
   return fields.map((field, index) => {
+    if (field.render === false) return null;
     const fieldPath = parentPath ? `${parentPath}.${field.name}` : field.name;
 
     // Recursive rendering for objects
     if (field.type === "object") {
-      const Icon = getIconComponent(field.icon); // Get icon for the object field
+      const nestedData = formData[field.name] || {};
+
       return (
         <Box
           key={field.name}
@@ -47,14 +49,12 @@ export const renderFields = ({
               alignItems: "center",
             }}
           >
-            {" "}
-            <IconComponent sx={{ mr: 1 }} />
-            {Icon}
+            {getIconComponent(field.icon)}
             {field.label}
           </Typography>
           {renderFields({
             fields: field.properties,
-            formData,
+            formData: nestedData,
             handlers,
             parentPath: fieldPath,
           })}
@@ -66,6 +66,7 @@ export const renderFields = ({
     if (field.type === "array") {
       const itemSchema = field.items;
       const arrayData = formData[field.name] || [];
+
       return (
         <Box
           key={field.name}
@@ -78,19 +79,22 @@ export const renderFields = ({
               alignItems: "center",
             }}
           >
-            <Typography variant="subtitle1">{field.label}</Typography>
+            <Typography
+              variant="subtitle1"
+              sx={{ display: "flex", alignItems: "center" }}
+            >
+              {getIconComponent(field.icon)}
+              {field.label}
+            </Typography>
             <IconButton
               onClick={() => addArrayItem(field.name, itemSchema)}
               size="small"
             >
-              <AddIcon />
+              {getIconComponent("Add")}
             </IconButton>
           </Box>
-
           {arrayData?.map((item, arrayIndex) => {
-            // Get the icon component from the map based on the platformId
-            const IconComponent = iconMap[item.platformId];
-
+            const nestedPath = `${fieldPath}.${arrayIndex}`;
             // Define the summary content for the accordion
             const summaryContent = (
               <Box
@@ -105,18 +109,10 @@ export const renderFields = ({
                   variant="body2"
                   sx={{ display: "flex", alignItems: "center" }}
                 >
-                  <IconComponent sx={{ mr: 1 }} />
-                  {item.name || `Item ${arrayIndex + 1}`}
+                  {getIconComponent(itemSchema.icon)}{" "}
+                  {getIconComponent(item.platformId)}
+                  {item.name || `${field.label} ${arrayIndex + 1}`}
                 </Typography>
-                <IconButton
-                  onClick={(e) => {
-                    e.stopPropagation(); // Prevents accordion from expanding
-                    removeArrayItem(field.name, arrayIndex);
-                  }}
-                  size="small"
-                >
-                  <RemoveIcon />
-                </IconButton>
               </Box>
             );
 
@@ -125,34 +121,69 @@ export const renderFields = ({
               fields: itemSchema.properties,
               formData: item,
               handlers: {
-                ...handlers,
-                handleChange: (e, propName) =>
-                  handleArrayItemChange(e, field.name, arrayIndex, propName),
+                ...handlers, // Pass original handlers through. handleChange will work correctly.
+                // Re-wire addArrayItem for deeply nested arrays
+                addArrayItem: (nestedArrayName, nestedItemSchema) =>
+                  addArrayItem(
+                    `${nestedPath}.${nestedArrayName}`,
+                    nestedItemSchema
+                  ),
+                // You should also re-wire removeArrayItem for completeness
+                removeArrayItem: (nestedArrayName, nestedIndex) =>
+                  handlers.removeArrayItem(
+                    `${nestedPath}.${nestedArrayName}`,
+                    nestedIndex
+                  ),
               },
+              // Pass the nested path down so child fields can build their full paths
+              parentPath: nestedPath,
             });
 
             return (
-              <Box key={arrayIndex} sx={{ my: 1 }}>
+              <Box
+                key={arrayIndex}
+                sx={{
+                  my: 1,
+                  display: "flex",
+                  alignItems: "center",
+                  gap: 1, // Add some space between the accordion and the button
+                }}
+              >
                 <DynamicAccordion
                   summary={summaryContent}
                   detail={detailContent}
                 />
+                <IconButton
+                  onClick={() => removeArrayItem(field.name, arrayIndex)}
+                  size="small"
+                  sx={{ ml: "auto" }} // Pushes the button to the end
+                >
+                  <RemoveIcon />
+                </IconButton>
               </Box>
             );
           })}
         </Box>
       );
     }
+    const getNestedValue = (obj, path) => {
+      // Your logic to traverse the object using the path string
+      // For example:
+      return path.split(".").reduce((acc, part) => acc && acc[part], obj);
+    };
+    const value = getNestedValue(formData, field.name); // Get the value based on the field name within the current `formData` context.
 
     // Render simple fields
     return (
-      <MemoizedFormField
-        key={field.name}
-        field={field}
-        value={formData[field.name]}
-        onChange={handleChange}
-        path={fieldPath}
-      />
+      <>
+        <MemoizedFormField
+          key={field.name}
+          field={field}
+          value={value}
+          onChange={handleChange}
+          path={fieldPath}
+        />
+      </>
     );
   });
 };

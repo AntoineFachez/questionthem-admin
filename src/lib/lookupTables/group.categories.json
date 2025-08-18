@@ -1,0 +1,27 @@
+[
+  {
+    "category_id": "work_task_oriented",
+    "category_name": "Work/Task-Oriented Groups",
+    "category_description": "Groups formed to achieve a professional or practical objective."
+  },
+  {
+    "category_id": "social_relational",
+    "category_name": "Social/Relational Groups",
+    "category_description": "Groups defined by personal connections and relationships among their members."
+  },
+  {
+    "category_id": "governance_decision_making",
+    "category_name": "Governance/Decision-Making Groups",
+    "category_description": "Groups vested with the authority to make decisions, create policy, or represent interests."
+  },
+  {
+    "category_id": "collective_action_advocacy",
+    "category_name": "Collective Action/Advocacy Groups",
+    "category_description": "Groups that work collectively toward a shared cause or common interest."
+  },
+  {
+    "category_id": "performance_creative",
+    "category_name": "Performance/Creative Groups",
+    "category_description": "Groups formed to create a product, perform a work, or compete in a contest."
+  }
+]

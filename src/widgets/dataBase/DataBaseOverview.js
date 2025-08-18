@@ -4,17 +4,17 @@ import React, { useState } from "react";
 import { Box, Typography, Paper, Button, IconButton } from "@mui/material";
 import { useTheme } from "@mui/material/styles";
 
-import { firebaseConfig } from "../../api/apiConfig";
+import { firebaseConfig } from "../../app/api/apiConfig";
 
-import { useFirestoreData } from "../../../context/DataBaseContext";
-import { useUIContext } from "../../../context/UIContext";
-import { useUser } from "../../../context/UserContext";
+import { useFirestoreData } from "../../context/DataBaseContext";
+import { useUIContext } from "../../context/UIContext";
+import { useUser } from "../../context/UserContext";
 
-import { blueprintMap } from "../../../lib/maps/blueprintMap";
+import { blueprintMap } from "../../lib/maps/blueprintMap";
 
-import DynamicTable from "../../../components/table/DynamicTable";
-import KebabMenu from "../../../components/menus/KebabMenu";
-import ConfirmDeletionDialog from "./ConfirmDeletionDialog";
+import DynamicTable from "../../components/table/DynamicTable";
+import KebabMenu from "../../components/menus/KebabMenu";
+import ConfirmDeletionDialog from "../../components/dialog/ConfirmDeletionDialog";
 
 export default function DataBaseOverview() {
   const theme = useTheme();
@@ -108,7 +108,7 @@ export default function DataBaseOverview() {
         {
           name: "Add Document",
           icon: "Add",
-          onClick: () => handleOpenForm(blueprintMap[collection.name]),
+          onClick: () => handleOpenForm(collection.name),
         },
         {
           name: "Delete Collection",

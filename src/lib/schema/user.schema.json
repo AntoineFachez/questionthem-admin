@@ -1,5 +1,6 @@
 {
   "title": "User",
+  "description": "The foundational schema for user accounts, used for authentication and access control. This is the single source of truth for user data.",
   "type": "object",
   "properties": {
     "userId": {
@@ -19,12 +20,8 @@
       "description": "The user's password hash.",
       "type": "string"
     },
-    "firstName": {
-      "description": "The user's first name.",
-      "type": "string"
-    },
-    "lastName": {
-      "description": "The user's last name.",
+    "personId": {
+      "description": "Foreign key to the corresponding person's biographical profile.",
       "type": "string"
     },
     "createdAt": {
@@ -40,25 +37,6 @@
     "isActive": {
       "description": "Indicates if the user account is active.",
       "type": "boolean"
-    },
-    "profile": {
-      "description": "A nested object for additional profile information.",
-      "type": "object",
-      "properties": {
-        "bio": {
-          "description": "A short biography of the user.",
-          "type": "string"
-        },
-        "avatarUrl": {
-          "description": "URL to the user's profile picture.",
-          "type": "string",
-          "format": "uri"
-        },
-        "location": {
-          "description": "The user's location.",
-          "type": "string"
-        }
-      }
     },
     "roles": {
       "description": "An array of roles assigned to the user (e.g., 'admin', 'editor').",

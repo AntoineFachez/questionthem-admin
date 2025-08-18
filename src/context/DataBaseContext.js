@@ -10,8 +10,6 @@ const DataBaseContext = createContext(null);
 export function DataBaseProvider({ children }) {
   const { user, loading: userLoading } = useUser();
   const [dbOverview, setDbOverview] = useState([]);
-  console.log("dbOverview", dbOverview);
-
   const [refetchTrigger, setRefetchTrigger] = useState(0);
 
   const [loading, setLoading] = useState(true);
