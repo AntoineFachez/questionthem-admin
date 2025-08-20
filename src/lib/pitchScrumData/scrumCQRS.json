@@ -1,6 +1,6 @@
 {
   "title": "Scrum Steps CQRS",
-  "scrum": [
+  "features": [
     {
       "feature": "Write-Side (Command) Setup with Cloud SQL",
       "overview": {

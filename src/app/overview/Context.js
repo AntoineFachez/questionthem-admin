@@ -2,7 +2,7 @@
 "use client";
 import React, { createContext, useContext, useState, useEffect } from "react";
 import { widgetSpex } from "./widgetSpex.json";
-import { features as ADMIN_FEATURES } from "../../lib/pitchScrumData/srumStepsBackend.json";
+import { features as ADMIN_FEATURES } from "../../lib/pitchScrumData/srumBackend.json";
 
 const Context = createContext(null);
 

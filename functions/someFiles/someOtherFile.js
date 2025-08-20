@@ -69,7 +69,9 @@ const extractInformation = onCall(
           private_key: key.private_key,
           client_email: key.client_email,
         },
-        apiEndpoint: `${process.env.LOCATION || "us-central1"}-aiplatform.googleapis.com`, // Use env var for location
+        apiEndpoint: `${
+          process.env.LOCATION || "us-central1"
+        }-aiplatform.googleapis.com`, // Use env var for location
       });
 
       // --- Your AI Platform API calls would go here ---
@@ -98,58 +100,6 @@ const extractInformation = onCall(
         details: error.message,
       });
     }
-  },
-);
-
-// --- sayHelloAgainFromSomeFolder (HTTP Request Function) ---
-const sayHelloAgainFromSomeFolder = onRequest(
-  {
-    // Region set globally in index.js via setGlobalOptions, but can be overridden.
-    // memory: "128MiB",
-    timeoutSeconds: 3,
-  },
-  async (req, res) => {
-    // CORS handling: Use the imported `cors` middleware
-    const corsHandler = cors({ origin: allowedOrigins });
-    corsHandler(req, res, async () => {
-      // Handle OPTIONS preflight request (crucial for CORS)
-      if (req.method === "OPTIONS") {
-        res.status(204).send("");
-        return;
-      }
-
-      if (req.method !== "POST") {
-        logger.warn(
-          `sayHelloAgainFromSomeFolder: Method Not Allowed - ${req.method}`,
-        );
-        return res.status(405).json({
-          error: "Method Not Allowed. Only POST requests are accepted.",
-        });
-      }
-
-      const data = req.body.data; // Access data from the request body
-
-      if (!data || !data.name || !data.message) {
-        logger.error(
-          "sayHelloAgainFromSomeFolder: Missing 'name' or 'message' in request body data.",
-        );
-        return res
-          .status(400)
-          .json({ error: "Missing required fields (name, message) in data." });
-      }
-
-      logger.info(
-        `sayHelloAgainFromSomeFolder received data from ${data.name}: "${data.message}"`,
-      );
-
-      res.status(200).send({
-        // Changed to 200 for consistency, 201 is "Created"
-        data: {
-          message: `hey ${data.name}, thanks for saying "${data.message}", sayHelloAgainFromSomeFolder says hello too!`,
-          receivedData: data, // Clarified `data` as `receivedData`
-        },
-      });
-    });
   },
 );
 
@@ -247,7 +197,10 @@ const extractInformationFallBack = onRequest(
         };
 
         logger.info(
-          `Sending text prediction request to Vertex AI for prompt: "${prompt.substring(0, 50)}..."`,
+          `Sending text prediction request to Vertex AI for prompt: "${prompt.substring(
+            0,
+            50,
+          )}..."`,
         );
         const [response] = await predictionServiceClient.predict(request);
         const predictions = response.predictions;
@@ -292,7 +245,6 @@ const extractInformationFallBack = onRequest(
 
 // Export all functions
 module.exports = {
-  sayHelloAgainFromSomeFolder,
   extractInformation, // Callable function for secret access + AI platform
   extractInformationFallBack, // HTTP function for direct AI platform text generation
 };

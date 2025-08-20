@@ -1,0 +1,68 @@
+{
+  "statistics": {
+    "userActivity": {
+      "dailyActiveUsers": 1200,
+      "monthlyActiveUsers": 15000,
+      "newUserSignups": {
+        "today": 50,
+        "thisWeek": 350,
+        "thisMonth": 1500
+      },
+      "averageSessionDuration": "15m 30s",
+      "totalUsers": 150000
+    },
+    "contentAndData": {
+      "totalStorageUsed": "256GB",
+      "countsByCategory": {
+        "tasks": {
+          "completed": 10245,
+          "pending": 1200,
+          "overdue": 85
+        },
+        "articles": {
+          "published": 540,
+          "draft": 32
+        }
+      },
+      "mostFrequentlyAccessed": [
+        {
+          "documentId": "doc_1a2b3c",
+          "title": "Getting Started Guide",
+          "views": 25000
+        },
+        {
+          "documentId": "doc_4d5e6f",
+          "title": "Advanced Features",
+          "views": 18000
+        },
+        {
+          "documentId": "doc_7g8h9i",
+          "title": "API Documentation",
+          "views": 15230
+        }
+      ]
+    },
+    "systemHealth": {
+      "apiErrorRates": {
+        "total": 152,
+        "byCode": {
+          "404_notFound": 68,
+          "500_internalServer": 12,
+          "401_unauthorized": 72
+        }
+      },
+      "averageApiResponseTime": "120ms",
+      "functionExecutionCounts": {
+        "processNewUser": 1500,
+        "generateDailyReport": 1,
+        "resizeImage": 4500
+      },
+      "lastErrorTimestamp": "2025-08-21T00:50:00Z"
+    },
+    "subcollections": {
+      "collection-counts": "path/to/collection-counts",
+      "daily-active-users": "path/to/daily-active-users/2025-08-21",
+      "api-error-logs": "path/to/api-error-logs"
+    }
+  }
+}

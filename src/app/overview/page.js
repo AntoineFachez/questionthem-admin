@@ -34,7 +34,7 @@ export default function Page() {
         color: "text.primary",
       }}
     >
-      <Title props={{ ...titleProps, string: title }} />
+      <Title props={{ ...titleProps, string: header }} />
 
       <Widget
         data={widgetData}

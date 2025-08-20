@@ -6,7 +6,7 @@ import MuiLink from "@mui/material/Link";
 import Link from "next/link";
 
 import { iconMap } from "../../lib/maps/iconMap";
-import { features as ADMIN_FEATURES } from "../../lib/pitchScrumData/srumStepsBackend.json";
+import { features as ADMIN_FEATURES } from "../../lib/pitchScrumData/srumBackend.json";
 
 import { useUser } from "../../context/UserContext";
 import { useUIContext } from "../../context/UIContext";
