@@ -1,0 +1,88 @@
+{
+  "title": "ui-blueprint pitch",
+  "uiSchema": [
+    {
+      "key": "section",
+      "type": "text",
+      "variant": "body1",
+      "sx": { "width": "100%" },
+      "containerSx": {
+        "flexFlow": "column nowrap",
+        "mr": 2
+      }
+    },
+    {
+      "key": "title",
+      "type": "text",
+      "variant": "h6",
+      "sx": { "width": "100%" },
+      "containerSx": {
+        "flexFlow": "column nowrap",
+        "mr": 2
+      }
+    },
+    {
+      "key": "content",
+      "type": "text",
+      "variant": "body1",
+      "sx": { "width": "100%" }
+    },
+    {
+      "key": "progress",
+      "type": "progress",
+      "sx": { "mt": 1 }
+    },
+    {
+      "key": "content",
+      "type": "action",
+      "iconName": "ContentCopy",
+      "label": "copy content",
+      "action": {
+        "type": "function",
+        "name": "copyContent",
+        "args": ["content"]
+      },
+      "containerSx": {
+        "justifyContent": "flex-end"
+      }
+    },
+    {
+      "key": "subsections",
+      "type": "sublist",
+      "blueprint": [
+        {
+          "key": "subtitle",
+          "type": "text",
+          "variant": "body1",
+          "sx": { "fontWeight": "bold", "mt": 1 }
+        },
+        {
+          "key": "content",
+          "type": "text",
+          "variant": "body2",
+          "sx": { "fontStyle": "italic" }
+        }
+      ]
+    },
+    {
+      "key": "link",
+      "type": "button",
+      "label": "Learn More",
+      "props": {
+        "variant": "text",
+        "href": "/about",
+        "onClick": "handleNavClick"
+      }
+    },
+    {
+      "key": "userTable",
+      "type": "table",
+      "containerSx": { "mt": 2 },
+      "columns": [
+        { "id": "name", "label": "Name" },
+        { "id": "email", "label": "Email" }
+      ],
+      "dataKey": "users"
+    }
+  ]
+}

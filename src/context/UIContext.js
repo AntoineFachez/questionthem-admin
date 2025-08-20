@@ -13,7 +13,7 @@ export function UIProvider({ children }) {
     key: "dynamicForm",
   });
 
-  const [openDialog, setOpenDialog] = useState(true);
+  const [openDialog, setOpenDialog] = useState(false);
   const [scrollDialog, setScrollDialog] = useState("paper");
   const [dialogTitle, setDialogTitle] = useState("");
 

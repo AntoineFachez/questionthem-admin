@@ -1,3 +1,4 @@
+// components/list/List.js
 import {
   Box,
   IconButton,
@@ -6,96 +7,67 @@ import {
   Paper,
   Typography,
 } from "@mui/material";
-import React, { Fragment } from "react";
-import { LinearProgress } from "@mui/material";
-import { iconMap } from "../../lib/maps/iconMap";
-import { handleCopyToClipboard } from "../../lib/utils/clipboard";
+import React from "react";
+import { getComponent } from "./renderComponent";
+import { containerProps } from "../../theme/muiProps";
 
-export default function DynamicList({ data, itemInFocus, onClick }) {
+export default function DynamicList({ data, itemInFocus, blueprint, onClick }) {
+  if (!blueprint) {
+    return <Typography>Error: Blueprint not provided.</Typography>;
+  }
+
   return (
-    <Paper
-      sx={{
-        // maxWidth: "80ch",
-        width: "100%",
-      }}
+    <List
+      className="dynamic-list"
+      dense={true}
+      disablePadding={true}
+      // {...containerProps}
+      sx={{ height: "100%", overflow: "scroll" }}
     >
-      <List
-        dense={true}
-        disablePadding={true}
-        sx={{ display: "flex", flexFlow: "column nowrap", gap: 2 }}
-      >
-        {data?.map((item, i) => {
-          const IconApp = iconMap["Apps"];
-          const IconCopy = iconMap["ContentCopy"];
-          return (
-            <ListItem
-              key={i}
-              alignItems="flex-start"
-              dense
-              // divider
-              onClick={() => onClick(item)}
+      {data?.map((item, i) => (
+        <ListItem
+          className="dynamic-list-item"
+          key={i}
+          alignItems="flex-start"
+          onClick={() => onClick(item)}
+          sx={{
+            display: "flex",
+            flexFlow: "column nowrap",
+            backgroundColor:
+              itemInFocus === item ? "primary.dark" : "transparent",
+            transition: "background-color 0.2s ease-in-out",
+            "&:hover": {
+              backgroundColor: "action.hover",
+            },
+          }}
+        >
+          {blueprint.map((field, fieldIndex) => (
+            <Box
+              key={fieldIndex}
               sx={{
                 display: "flex",
-                flexFlow: "column nowrap",
-                backgroundColor: itemInFocus === item ? "#333433" : "",
-                color: itemInFocus === item ? "darkgrey" : "",
+                width: "100%",
+                display: "flex",
+                // flexFlow: "column nowrap",
+                justifyContent: "center",
+                alignItems: "center",
 
-                // borderRadius: "5px",
+                ...field.containerSx,
+                // pl: field.type === "sublist" ? 2 : 0,
               }}
             >
-              <Box
-                sx={{
-                  display: "flex",
-                  flexFlow: "row nowrap",
-                }}
-              >
-                <Box
-                  sx={{
-                    display: "flex",
-                    flexFlow: "column nowrap",
-                    // backgroundColor: "grey",
-                  }}
-                >
-                  <Typography variant="body1" align="left" gutterBottom="false">
-                    {item.step}
-                  </Typography>
-                  {item.demo && <IconApp />}
-                </Box>
-                <Typography
-                  variant="body1"
-                  align="left"
-                  gutterBottom="false"
-                  sx={{ width: "30%" }}
-                >
-                  {item.header}
-                </Typography>
-                <Typography
-                  variant="body1"
-                  align="left"
-                  gutterBottom="false"
-                  sx={{ width: "70%" }}
-                >
-                  {item.text}
-                </Typography>{" "}
-                <IconButton
-                  size="small"
-                  onClick={() => handleCopyToClipboard(item.text)}
-                  aria-label="copy to clipboard"
-                >
-                  <IconCopy fontSize="small" />
-                </IconButton>
-              </Box>
-              <Box sx={{ width: "100%" }}>
-                <LinearProgress
-                  variant="determinate"
-                  value={item.progress * 100}
-                  sx={{ height: 10, borderRadius: 5 }}
-                />
-              </Box>{" "}
-            </ListItem>
-          );
-        })}
-      </List>
-    </Paper>
+              {getComponent(
+                item,
+                itemInFocus,
+                field,
+                fieldIndex,
+                onClick,
+                DynamicList
+              )}
+            </Box>
+          ))}
+        </ListItem>
+      ))}
+    </List>
   );
 }

@@ -10,8 +10,27 @@
           "name": "groupId",
           "label": "Group ID",
           "type": "string",
-          "description": "Unique identifier for the group."
+          "description": "Unique identifier for the group.",
+          "render": false
         },
+        {
+          "name": "categoryId",
+          "label": "Group Category",
+          "type": "select",
+          "description": "The high-level classification of the group.",
+          "placeholder": "Select a category",
+          "options": [
+            "Company",
+            "Agency",
+            "Institution",
+            "Collaboration",
+            "Ensemble",
+            "Sports Team"
+          ],
+          "fullWidth": false,
+          "required": true
+        },
+
         {
           "name": "groupName",
           "label": "Group Name",
@@ -20,27 +39,12 @@
           "required": true
         },
         {
-          "name": "categoryId",
-          "label": "Group Category",
-          "type": "select",
-          "description": "The high-level classification of the group.",
-          "placeholder": "Select a category",
-          "required": true,
-          "options": [
-            "Company",
-            "Agency",
-            "Institution",
-            "Collaboration",
-            "Ensemble",
-            "Sports Team"
-          ]
-        },
-        {
           "name": "acronym",
           "label": "Acronym",
           "type": "text",
           "placeholder": "e.g., NASA, IBM",
-          "required": false
+          "required": false,
+          "fullWidth": false
         },
         {
           "name": "missionStatement",
@@ -52,7 +56,7 @@
         {
           "name": "foundingDate",
           "label": "Founding Date",
-          "type": "date",
+          "type": "date-time",
           "required": false
         }
       ]
@@ -64,23 +68,36 @@
         {
           "name": "parentGroup",
           "label": "Parent Group",
-          "type": "object",
-          "description": "The group this entity is a part of (e.g., a subsidiary of a holding).",
-          "properties": [
-            {
-              "name": "parentGroupId",
-              "label": "Parent Group ID",
-              "type": "string",
-              "placeholder": "Search for a parent group..."
-            },
-            {
-              "name": "parentGroupName",
-              "label": "Parent Group Name",
-              "type": "text",
-              "readOnly": true
-            }
-          ],
-          "required": false
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": [
+              {
+                "name": "parentGroupId",
+                "label": "Parent Group ID",
+                "type": "string",
+                "placeholder": "Search for a parent group...",
+                "render": false
+              },
+              {
+                "name": "parentGroupName",
+                "label": "Parent Group Name",
+                "type": "text",
+                "readOnly": true
+              },
+              {
+                "name": "categoryId",
+                "label": "Group Category",
+                "type": "select",
+                "description": "The high-level classification of the group.",
+                "placeholder": "Select a category",
+                "options": ["Holding", "Administration", "Parents"],
+                "fullWidth": false,
+                "required": true
+              }
+            ],
+            "required": false
+          }
         }
       ]
     },
@@ -99,7 +116,8 @@
                 "name": "memberId",
                 "label": "Member ID",
                 "type": "string",
-                "placeholder": "Search for a person or group..."
+                "placeholder": "Search for a person or group...",
+                "render": false
               },
               {
                 "name": "memberType",

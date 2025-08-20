@@ -5,8 +5,8 @@ import React from "react";
 import { Box, IconButton, Typography } from "@mui/material";
 
 import { useWidgetContext } from "./Context"; // Only import the hook
-import Header from "../../../components/header/Header";
-import { headerProps } from "../../../configs/pageProps";
+import Title from "../../../components/title/Title";
+import { titleProps } from "../../../theme/muiProps";
 import WidgetMenu from "../../../components/menus/WidgetMenu";
 
 import Widget from "./Widget";
@@ -19,7 +19,7 @@ export default function Page() {
     activeStep,
     setActiveStep,
     updateWidgetData,
-    header,
+    title,
   } = useWidgetContext();
 
   const handleSetUiContext = (item) => {
@@ -38,7 +38,7 @@ export default function Page() {
         color: "text.primary",
       }}
     >
-      <Header props={{ ...headerProps, string: header }} />
+      <Title props={{ ...titleProps, string: header }} />
       <WidgetMenu activeUiContext={activeUiContext} />
       <Widget
         data={widgetData.steps}

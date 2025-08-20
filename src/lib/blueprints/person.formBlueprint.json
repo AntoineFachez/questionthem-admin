@@ -1,5 +1,19 @@
 {
   "title": "Person Biographical Profile",
+  "fix": [
+    {
+      "issue": "Middle Names: The blueprint defines midName as an array of objects [{'name': 'John'}] to support multiple middle names. The normalized model flattens this into a single string field, middle_name, which would lose data if a person has more than one middle name."
+    },
+    {
+      "issue": "Mismatch Between Blueprint and Schema. The Blueprint (a) and the Schema (b) are not synchronized. The blueprint, which would guide data entry, allows for fields that the schema, which validates the data, does not know about.    The blueprint defines detailed structures for midName and nickName as arrays of objects.    The schema only defines firstName and lastName and would reject any data containing midName or nickName as invalid because they are not declared in its properties.    The schema is significantly less detailed than the blueprint, missing entire concepts like lifestages, controversies, education, and career."
+    },
+    {
+      "issue": "New Undeclared Attributes: The mock data introduces attributes not defined in the blueprint. For example, in socialMediaProfiles, it adds a 'name' field and a nested 'lastPost' object."
+    },
+    {
+      "issue": "Polymorphic Association (entityId, entityType): Recommendation: For your controversies section, where the 'messenger' could be a 'person,' 'company,' or 'organization' your second approach—{'entityId': 'someid', 'entityType': 'person'}—is an excellent choice. It's flexible and perfectly suited for that kind of variable relationship."
+    }
+  ],
   "description": "Blueprint for a person's detailed biographical and professional profile.",
   "sections": [
     {
@@ -279,7 +293,7 @@
                 "type": "url"
               },
               {
-                "name": "followingAmoung",
+                "name": "followingAmount",
                 "label": "Followers",
                 "type": "number",
                 "fullWidth": false

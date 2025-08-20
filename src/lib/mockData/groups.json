@@ -6,10 +6,13 @@
     "acronym": null,
     "missionStatement": "A Delaware-registered limited liability company serving as the premier holding company for World Liberty Financial, Inc. Dedicated to advancing decentralized finance through strategic oversight of innovative financial technologies.",
     "foundingDate": "2025-01-20",
-    "parentGroup": {
-      "parentGroupId": "dt-marks-defi-001",
-      "parentGroupName": "DT Marks DEFI LLC"
-    },
+    "parentGroup": [
+      {
+        "parentGroupId": "dt-marks-defi-001",
+        "parentGroupName": "DT Marks DEFI LLC",
+        "categoryId": "Holding"
+      }
+    ],
     "members": [
       {
         "memberId": "trump-e-001",

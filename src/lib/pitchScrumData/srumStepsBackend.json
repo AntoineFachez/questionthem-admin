@@ -1,0 +1,1078 @@
+{
+  "title": "Scrum Steps Admin Frontend",
+  "features": [
+    {
+      "importance": 1,
+      "feature": "Data Management",
+      "widgetName": "dataManagement",
+      "overview": {
+        "title": "Data Management",
+        "content": "Data management is a core function, allowing admins to interact with the content of the collections. This includes the ability to **create, read, update, and delete** (CRUD) individual documents within each collection. For instance, an admin might need to edit a user’s profile information, add a new product to an e-commerce catalog, or delete a spam comment. This often involves providing a detailed view of each document, and forms for editing and creating new ones.",
+        "href": "/dataManagement",
+        "icon": "Database"
+      },
+      "sections": [
+        {
+          "section": 1,
+          "progress": 0.5,
+          "demo": false,
+          "title": "Setup Firestore Client and API Routes",
+          "content": "This involves installing the Firebase SDK and initializing it with your project credentials. Then, you create Next.js API routes that handle all the data interaction logic.",
+          "href": "/datamanagement/setup",
+          "subsections": [
+            {
+              "subsection": 1,
+              "progress": 1,
+              "title": "Install and Configure Firebase SDK",
+              "content": "Install the Firebase SDK and initialize it with your project credentials."
+            },
+            {
+              "subsection": 2,
+              "progress": 0.1,
+              "title": "Create Next.js API Routes",
+              "content": "Set up Next.js API routes that will handle all data interactions from the frontend."
+            }
+          ]
+        },
+        {
+          "section": 2,
+          "progress": 0,
+          "demo": false,
+          "title": "Create Firestore CRUD Functions",
+          "content": "Write the functions that perform the core operations on your Firestore documents: Read, Create, Update, and Delete.",
+          "href": "/datamanagement/crud",
+          "subsections": [
+            {
+              "subsection": 1,
+              "progress": 0,
+              "title": "Implement Read Function",
+              "content": "Write a function to fetch a list of documents or a single document from a collection."
+            },
+            {
+              "subsection": 2,
+              "progress": 0,
+              "title": "Implement Create Function",
+              "content": "Write a function to add new documents to a specified collection."
+            },
+            {
+              "subsection": 3,
+              "progress": 0,
+              "title": "Implement Update Function",
+              "content": "Write a function to modify an existing document using its unique ID."
+            },
+            {
+              "subsection": 4,
+              "progress": 0,
+              "title": "Implement Delete Function",
+              "content": "Write a function to permanently remove a document from a collection."
+            }
+          ]
+        },
+        {
+          "section": 3,
+          "progress": 0.4,
+          "demo": true,
+          "title": "Build the Data Table Component",
+          "content": "Create a UI component that fetches data from your API routes and renders it in a table with action buttons for editing and deleting.",
+          "href": "/datamanagement/table",
+          "subsections": [
+            {
+              "subsection": 1,
+              "progress": 0.4,
+              "title": "Develop Table UI",
+              "content": "Create the visual structure of a table using a component like MUI's `Table`."
+            },
+            {
+              "subsection": 2,
+              "progress": 0,
+              "title": "Fetch and Display Data",
+              "content": "Connect the table component to your `Read` API function to fetch and render the document data."
+            },
+            {
+              "subsection": 3,
+              "progress": 0,
+              "title": "Add Action Buttons",
+              "content": "Include buttons or icons for editing and deleting each document in the table."
+            }
+          ]
+        },
+        {
+          "section": 4,
+          "progress": 0,
+          "demo": false,
+          "title": "Develop the Data Form Component",
+          "content": "Build a reusable form to handle create and update operations. It should take user input and send the data to your API.",
+          "href": "/datamanagement/form",
+          "subsections": [
+            {
+              "subsection": 1,
+              "progress": 0,
+              "title": "Create Reusable Form Fields",
+              "content": "Build input fields that can be used for both creating new documents and editing existing ones."
+            },
+            {
+              "subsection": 2,
+              "progress": 0,
+              "title": "Handle Form Submission",
+              "content": "Write the logic to send form data to your `Create` or `Update` API routes."
+            }
+          ]
+        },
+        {
+          "section": 5,
+          "progress": 0,
+          "demo": false,
+          "title": "Integrate Frontend and Backend",
+          "content": "Connect the UI components to your API routes. The buttons in your table and form will trigger the appropriate create, update, and delete functions.",
+          "href": "/datamanagement/integration",
+          "subsections": [
+            {
+              "subsection": 1,
+              "progress": 0,
+              "title": "Connect Table Actions to APIs",
+              "content": "Wire up the 'Edit' and 'Delete' buttons to call the corresponding API functions."
+            },
+            {
+              "subsection": 2,
+              "progress": 0,
+              "title": "Connect Form to APIs",
+              "content": "Configure the form to call the `Create` API for new documents and the `Update` API for edits."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "importance": 2,
+      "feature": "User Management",
+      "widgetName": "userManagement",
+      "overview": {
+        "title": "User Management",
+        "content": "Admin apps often include a dedicated section for user management. This functionality allows administrators to view a list of all users, their roles, and their status. Key features include the ability to: Edit user profiles: Change names, emails, or other personal details. Manage user roles and permissions: Grant or revoke administrative access, assign different user levels (e.g., moderator, editor). Disable or delete user accounts: Suspend or permanently remove a user. Reset passwords: Generate a temporary password for a user who has lost access.",
+        "href": "/userManagement",
+        "icon": "Group"
+      },
+      "sections": [
+        {
+          "section": 1,
+          "progress": 0,
+          "demo": false,
+          "title": "Integrate Firebase Authentication",
+          "content": "Set up Firebase Authentication to handle all user sign-ups, logins, and management of core user data.",
+          "href": "/users/auth-setup",
+          "subsections": [
+            {
+              "subsection": 1,
+              "progress": 0,
+              "title": "Install Firebase SDK and Initialize Auth",
+              "content": "Install the Firebase SDK and initialize Firebase Authentication in your Next.js project with your project credentials."
+            },
+            {
+              "subsection": 2,
+              "progress": 0,
+              "title": "Set up Firebase Admin SDK",
+              "content": "Install and configure the Firebase Admin SDK in your Next.js API routes to perform privileged backend operations, such as creating and managing users."
+            },
+            {
+              "subsection": 3,
+              "progress": 0,
+              "title": "Create Authentication API Routes",
+              "content": "Build Next.js API routes to handle authentication processes like user sign-up, sign-in, and sign-out."
+            }
+          ]
+        },
+        {
+          "section": 2,
+          "progress": 0,
+          "demo": false,
+          "title": "Create User Collection in Firestore",
+          "content": "Create a dedicated 'users' collection in Firestore to store custom user information like roles, permissions, and profile details, linked by the Firebase Auth UID.",
+          "href": "/users/firestore-collection",
+          "subsections": [
+            {
+              "subsection": 1,
+              "progress": 0,
+              "title": "Define Firestore Data Model",
+              "content": "Decide on the schema for your 'users' collection, including fields like 'name', 'email', 'role', and 'permissions'."
+            },
+            {
+              "subsection": 2,
+              "progress": 0,
+              "title": "Synchronize Auth and Firestore Data",
+              "content": "Write a function (e.g., using a Firebase Cloud Function or an API route) that automatically creates a document in the 'users' collection whenever a new user signs up via Firebase Auth."
+            }
+          ]
+        },
+        {
+          "section": 3,
+          "progress": 0,
+          "demo": false,
+          "title": "Implement User Listing API",
+          "content": "Create a Next.js API endpoint that securely fetches the list of all users from your Firestore 'users' collection for display on the dashboard.",
+          "href": "/users/listing-api",
+          "subsections": [
+            {
+              "subsection": 1,
+              "progress": 0,
+              "title": "Create a Protected API Route",
+              "content": "Create an API route that can only be accessed by authenticated administrators. Use the Firebase Admin SDK to list users from Firebase Authentication and fetch their corresponding Firestore documents."
+            },
+            {
+              "subsection": 2,
+              "progress": 0,
+              "title": "Implement Pagination and Filtering",
+              "content": "Add logic to your API to handle large user lists by implementing pagination and filtering options (e.g., by name, email, or role)."
+            }
+          ]
+        },
+        {
+          "section": 4,
+          "progress": 0,
+          "demo": false,
+          "title": "Develop User Profile and Editing Forms",
+          "content": "Build a reusable component with a form to display and allow administrators to edit a user's profile information and assigned role.",
+          "href": "/users/profile-edit",
+          "subsections": [
+            {
+              "subsection": 1,
+              "progress": 0,
+              "title": "Build User Profile Form UI",
+              "content": "Create the frontend form component with input fields for user details like name, email, and a dropdown for roles."
+            },
+            {
+              "subsection": 2,
+              "progress": 0,
+              "title": "Fetch and Pre-populate Form Data",
+              "content": "When the form is opened for an existing user, fetch their data from your API and pre-populate the form fields with their current information."
+            },
+            {
+              "subsection": 3,
+              "progress": 0,
+              "title": "Handle Form Submission for Updates",
+              "content": "Implement the form submission logic to send the updated user data to a dedicated API route for processing."
+            }
+          ]
+        },
+        {
+          "section": 5,
+          "progress": 0,
+          "demo": false,
+          "title": "Build a Role and Permission Management System",
+          "content": "Implement the logic for securely assigning and updating a user's role and permissions, which will control their access to different parts of the application.",
+          "href": "/users/roles-permissions",
+          "subsections": [
+            {
+              "subsection": 1,
+              "progress": 0,
+              "title": "Define Roles and Access Control",
+              "content": "Define a set of roles (e.g., 'admin', 'moderator', 'editor') and the permissions associated with each role."
+            },
+            {
+              "subsection": 2,
+              "progress": 0,
+              "title": "Implement Role Update API",
+              "content": "Create a secure API route that an admin can use to update a user's role in the Firestore 'users' collection."
+            },
+            {
+              "subsection": 3,
+              "progress": 0,
+              "title": "Enforce Permissions on Frontend and Backend",
+              "content": "On the frontend, conditionally render UI elements based on the user's role. On the backend, check the user's role before allowing access to privileged API routes."
+            }
+          ]
+        },
+        {
+          "section": 6,
+          "progress": 0,
+          "demo": false,
+          "title": "Add User Control Actions",
+          "content": "Implement core administrative actions such as disabling, deleting, or suspending a user's account, with corresponding logic on both the frontend and backend.",
+          "href": "/users/control-actions",
+          "subsections": [
+            {
+              "subsection": 1,
+              "progress": 0,
+              "title": "Create API Routes for User Actions",
+              "content": "Build backend API routes for 'disable user', 'delete user', and 'reset password' using the Firebase Admin SDK."
+            },
+            {
+              "subsection": 2,
+              "progress": 0,
+              "title": "Implement Frontend Action Buttons",
+              "content": "Add buttons to the user list table (e.g., 'Disable', 'Delete') that trigger the corresponding API calls."
+            },
+            {
+              "subsection": 3,
+              "progress": 0,
+              "title": "Add Confirmation Modals",
+              "content": "Include confirmation modals to prevent accidental deletion or suspension of user accounts."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "importance": 3,
+      "feature": "Configuration and Settings",
+      "widgetName": "configurationAndSettings",
+      "overview": {
+        "title": "Configuration and Settings",
+        "content": "A comprehensive admin interface provides tools for site-wide configuration and settings. This allows admins to change aspects of the app without needing to deploy new code. Examples include: Toggling features on/off: Activating a new beta feature for a subset of users. Managing global variables: Changing a site-wide banner message or a holiday promotion flag. Theme or layout customization: Allowing admins to change the look and feel of the site. Email template management: Editing the content of automated emails (e.g., password reset, welcome emails).",
+        "href": "/configurationAndSettings",
+        "icon": "Settings"
+      },
+      "sections": [
+        {
+          "section": 1,
+          "progress": 0,
+          "demo": false,
+          "title": "Define and Store Configuration Data",
+          "content": "Create a single document in a dedicated Firestore collection (e.g., `_app_settings`) to centralize all of your app's configurable values.",
+          "href": "/settings/data-model",
+          "subsections": [
+            {
+              "subsection": 1,
+              "progress": 0,
+              "title": "Design the Data Schema",
+              "content": "Determine the structure and data types for your configuration document. Use clear, nested keys (e.g., `features.betaMode`, `marketing.bannerMessage`)."
+            },
+            {
+              "subsection": 2,
+              "progress": 0,
+              "title": "Create a `_app_settings` Collection",
+              "content": "Manually create a Firestore collection and a single document to hold your application settings. Initialize it with default values."
+            }
+          ]
+        },
+        {
+          "section": 2,
+          "progress": 0,
+          "demo": false,
+          "title": "Create API Endpoints for Settings",
+          "content": "Build secure GET and POST/PUT API routes to safely retrieve and update the configuration document, with strict security rules to prevent unauthorized changes.",
+          "href": "/settings/api-endpoints",
+          "subsections": [
+            {
+              "subsection": 1,
+              "progress": 0,
+              "title": "Develop the Read API Route (GET)",
+              "content": "Create a protected API route that fetches the single configuration document from Firestore and returns it to the client. This route should only be accessible to authenticated users."
+            },
+            {
+              "subsection": 2,
+              "progress": 0,
+              "title": "Develop the Update API Route (POST/PUT)",
+              "content": "Create a protected API route that receives new settings data and updates the Firestore document. This route must have robust authorization checks to ensure only administrators can make changes."
+            },
+            {
+              "subsection": 3,
+              "progress": 0,
+              "title": "Set up Firestore Security Rules",
+              "content": "Write Firestore security rules to explicitly grant read-only access to some parts of the settings document (e.g., public API keys) and read/write access to only administrators for sensitive fields."
+            }
+          ]
+        },
+        {
+          "section": 3,
+          "progress": 0,
+          "demo": false,
+          "title": "Build a Dynamic Settings Form",
+          "content": "Develop a user-friendly form that dynamically renders input fields (e.g., switches, text fields) corresponding to each of the settings in your Firestore document.",
+          "href": "/settings/form-component",
+          "subsections": [
+            {
+              "subsection": 1,
+              "progress": 0,
+              "title": "Fetch and Display Current Settings",
+              "content": "On the admin page, use the 'Read' API route to fetch the current settings and populate the form with these values."
+            },
+            {
+              "subsection": 2,
+              "progress": 0,
+              "title": "Create Dynamic Input Fields",
+              "content": "Write a component that iterates over the fetched settings object and dynamically renders the appropriate form element (e.g., a text input for a string, a switch for a boolean)."
+            },
+            {
+              "subsection": 3,
+              "progress": 0,
+              "title": "Handle Form State and Submission",
+              "content": "Manage the form's state and create the submission logic to send the updated settings to the 'Update' API route."
+            }
+          ]
+        },
+        {
+          "section": 4,
+          "progress": 0,
+          "demo": false,
+          "title": "Implement a Settings Provider",
+          "content": "Create a React context or provider to fetch the settings from the API and make them globally available to any component that needs to read a configuration value.",
+          "href": "/settings/provider",
+          "subsections": [
+            {
+              "subsection": 1,
+              "progress": 0,
+              "title": "Create the Settings Context",
+              "content": "Define a React context (`SettingsContext`) to hold the application-wide configuration data."
+            },
+            {
+              "subsection": 2,
+              "progress": 0,
+              "title": "Develop the Context Provider",
+              "content": "Build a `SettingsProvider` component that fetches the settings data from your API and makes it available to its children using the `SettingsContext.Provider`."
+            },
+            {
+              "subsection": 3,
+              "progress": 0,
+              "title": "Wrap the Application with the Provider",
+              "content": "Wrap your main application layout or `_app.js` file with the `SettingsProvider` so that all components have access to the configuration."
+            }
+          ]
+        },
+        {
+          "section": 5,
+          "progress": 0,
+          "demo": false,
+          "title": "Integrate and Apply Settings",
+          "content": "Connect the settings form to the update API and modify your application components to dynamically adjust their behavior based on the values stored in the settings provider.",
+          "href": "/settings/integration",
+          "subsections": [
+            {
+              "subsection": 1,
+              "progress": 0,
+              "title": "Connect the Admin Form to the API",
+              "content": "On the settings page, hook up the form's submission handler to your `Update` API route, allowing admins to save changes."
+            },
+            {
+              "subsection": 2,
+              "progress": 0,
+              "title": "Use Settings in Components",
+              "content": "In other parts of your app, use `useContext(SettingsContext)` to read configuration values and conditionally render or adjust behavior. For example, show a banner only if `settings.marketing.bannerEnabled` is true."
+            },
+            {
+              "subsection": 3,
+              "progress": 0,
+              "title": "Add Client-Side Caching",
+              "content": "Implement a simple caching mechanism (e.g., using React Query or a simple `useEffect` with state) to prevent excessive API calls for settings that don't change frequently."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "importance": 6,
+      "feature": "Genkit Chatbot",
+      "widgetName": "genkitChatbot",
+      "overview": {
+        "title": "Genkit Chatbot",
+        "content": "The Genkit Chatbot provides a conversational interface for administrators, allowing them to ask natural language questions about the application. It integrates with the Gemini API and can be extended with RAG flows for specific knowledge bases.",
+        "href": "/genkitChatbot",
+        "icon": "Chat"
+      },
+      "sections": [
+        {
+          "section": 1,
+          "progress": 0,
+          "demo": false,
+          "title": "Setup Google Cloud and Firebase",
+          "content": "Install the Google Cloud SDK and Firebase tools. Create a new Google Cloud project with billing enabled, and initialize Firebase in your project to use Cloud Functions and Firestore.",
+          "href": "/chatbot/setup-gcloud",
+          "subsections": [
+            {
+              "subsection": 1,
+              "progress": 0,
+              "title": "Install Google Cloud SDK and Firebase CLI",
+              "content": "Download and install the command-line interfaces for Google Cloud and Firebase to manage your project from the terminal."
+            },
+            {
+              "subsection": 2,
+              "progress": 0,
+              "title": "Create and Configure Google Cloud Project",
+              "content": "Create a new project in the Google Cloud Console, enable billing, and enable the necessary APIs, such as the Firebase Management API, Cloud Functions API, and Vertex AI API."
+            },
+            {
+              "subsection": 3,
+              "progress": 0,
+              "title": "Initialize Firebase",
+              "content": "Run `firebase init` in your project directory to link your local project with your new Firebase project, selecting Cloud Functions and Firestore as features."
+            }
+          ]
+        },
+        {
+          "section": 2,
+          "progress": 0,
+          "demo": false,
+          "title": "Configure Genkit.js Backend",
+          "content": "Initialize a Genkit.js project. Install the necessary packages like `@genkit-ai/google-cloud` and `@genkit-ai/flow`. Configure your `genkit.config.js` with your Firebase project ID.",
+          "href": "/chatbot/configure-genkit",
+          "subsections": [
+            {
+              "subsection": 1,
+              "progress": 0,
+              "title": "Initialize a Genkit Project",
+              "content": "Run `genkit init` to create a new Genkit project structure, including the `genkit.config.js` and other boilerplate files."
+            },
+            {
+              "subsection": 2,
+              "progress": 0,
+              "title": "Install Dependencies",
+              "content": "Install the core Genkit packages and the Google Cloud plugin by running `npm install @genkit-ai/core @genkit-ai/flow @genkit-ai/google-cloud`."
+            },
+            {
+              "subsection": 3,
+              "progress": 0,
+              "title": "Update `genkit.config.js`",
+              "content": "Modify the `genkit.config.js` file to include your Firebase project ID and configure the Google Cloud and Gemini plugins."
+            }
+          ]
+        },
+        {
+          "section": 3,
+          "progress": 0,
+          "demo": false,
+          "title": "Create a Genkit Flow",
+          "content": "Define a Genkit flow that uses the Gemini model. The flow will accept a user's prompt as input, invoke the model, and return the generated text as a response. This flow will be the core of your chat logic.",
+          "href": "/chatbot/create-flow",
+          "subsections": [
+            {
+              "subsection": 1,
+              "progress": 0,
+              "title": "Define the Flow with Input and Output",
+              "content": "Create a new flow using `genkit.flow()`, specifying the input and output schemas. The input will likely be a string for the user's prompt, and the output will be a string for the response."
+            },
+            {
+              "subsection": 2,
+              "progress": 0,
+              "title": "Implement the Core Chat Logic",
+              "content": "Inside the flow's handler, use the `genkit.run()` function to call the Gemini model with the user's prompt and get a response. You can also add more complex logic here, such as message history."
+            },
+            {
+              "subsection": 3,
+              "progress": 0,
+              "title": "Add Genkit.js Metrics and Tracing",
+              "content": "Instrument your flow with `genkit.step()` to enable logging and tracing in the Genkit Developer UI, which is crucial for debugging and monitoring."
+            }
+          ]
+        },
+        {
+          "section": 4,
+          "progress": 0,
+          "demo": false,
+          "title": "Deploy the Genkit Flow as a Cloud Function",
+          "content": "Use Genkit's deployment command to deploy your flow as a Google Cloud Function. This makes the flow accessible via a public HTTP endpoint that your Next.js app can call.",
+          "href": "/chatbot/deploy-function",
+          "subsections": [
+            {
+              "subsection": 1,
+              "progress": 0,
+              "title": "Build the Genkit Project for Deployment",
+              "content": "Run the Genkit build command to bundle your code and flows into a deployable artifact."
+            },
+            {
+              "subsection": 2,
+              "progress": 0,
+              "title": "Deploy the Flow to Google Cloud Functions",
+              "content": "Use the `genkit deploy` command to push your bundled flow to Google Cloud Functions. Genkit will handle the creation of the function and the necessary configurations."
+            },
+            {
+              "subsection": 3,
+              "progress": 0,
+              "title": "Test the Deployed Endpoint",
+              "content": "After deployment, find the Cloud Function's URL and use a tool like Postman or `curl` to send a test request to ensure the flow is working correctly."
+            }
+          ]
+        },
+        {
+          "section": 5,
+          "progress": 0,
+          "demo": false,
+          "title": "Build Next.js Frontend API Route",
+          "content": "Create a Next.js API route (e.g., `/api/genkit-chat`) that acts as a secure proxy. This route will receive requests from your React component and forward them to your Cloud Function.",
+          "href": "/chatbot/nextjs-api",
+          "subsections": [
+            {
+              "subsection": 1,
+              "progress": 0,
+              "title": "Create a New API Route File",
+              "content": "Create a new file in your `pages/api` or `app/api` directory (for App Router) that will serve as the backend for your chatbot."
+            },
+            {
+              "subsection": 2,
+              "progress": 0,
+              "title": "Implement a Secure Proxy",
+              "content": "In the API route, write a function that receives the user's message, authenticates the request (e.g., checks if the user is an admin), and then securely forwards the request to your deployed Cloud Function endpoint."
+            },
+            {
+              "subsection": 3,
+              "progress": 0,
+              "title": "Handle the Response",
+              "content": "Process the response from the Cloud Function and send it back to the frontend. This step can also include error handling and logging."
+            }
+          ]
+        },
+        {
+          "section": 6,
+          "progress": 0,
+          "demo": false,
+          "title": "Develop the React Chat Component",
+          "content": "Build a React component with state management for the chat history. The component will make a `fetch` call to your Next.js API route when a user sends a message, and update the UI with the response.",
+          "href": "/chatbot/react-component",
+          "subsections": [
+            {
+              "subsection": 1,
+              "progress": 0,
+              "title": "Design the Chat UI",
+              "content": "Create the visual layout for the chatbot, including a message input field, a 'send' button, and a container to display the chat history."
+            },
+            {
+              "subsection": 2,
+              "progress": 0,
+              "title": "Manage Chat State",
+              "content": "Use `useState` or a state management library to hold the chat history (an array of messages) and the current user input."
+            },
+            {
+              "subsection": 3,
+              "progress": 0,
+              "title": "Implement `fetch` Logic",
+              "content": "Write an asynchronous function that sends the user's message to your Next.js API route and then updates the chat history with the new response."
+            }
+          ]
+        },
+        {
+          "section": 7,
+          "progress": 0,
+          "demo": false,
+          "title": "Integrate with Firestore for RAG (Optional)",
+          "content": "Enhance your chat functionality by adding a RAG flow. This involves creating a Firestore collection with your documents and a Genkit flow that retrieves context before calling the Gemini model.",
+          "href": "/chatbot/rag-integration",
+          "subsections": [
+            {
+              "subsection": 1,
+              "progress": 0,
+              "title": "Prepare Firestore Knowledge Base",
+              "content": "Create a Firestore collection to store documents that the chatbot can reference (e.g., FAQs, application documentation). Each document should contain a question and its corresponding answer."
+            },
+            {
+              "subsection": 2,
+              "progress": 0,
+              "title": "Create a Genkit RAG Flow",
+              "content": "Build a new Genkit flow that first performs a Firestore query to find relevant documents based on the user's prompt, and then uses this retrieved information as context for the Gemini model's response."
+            },
+            {
+              "subsection": 3,
+              "progress": 0,
+              "title": "Connect and Deploy the RAG Flow",
+              "content": "Modify your Next.js frontend to use this new RAG-enabled endpoint and redeploy the Genkit flow to Cloud Functions."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "importance": 4,
+      "feature": "Notifications and Alerts",
+      "widgetName": "notificationsAndAlerts",
+      "overview": {
+        "title": "Notifications and Alerts",
+        "content": "An admin dashboard can also act as a central hub for notifications and alerts. This could include: System alerts: Notifying the admin of low server resources or a failed background job. User activity alerts: Notifying an admin of a new user sign-up or a reported issue. Moderation alerts: Flagging a new comment that needs review.",
+        "href": "/notificationsAndAlerts",
+        "icon": "Notifications"
+      },
+      "sections": [
+        {
+          "section": 1,
+          "progress": 0,
+          "demo": false,
+          "title": "Define a Centralized Notification Schema",
+          "content": "Create a dedicated Firestore collection (e.g., `notifications`) with a clear data structure to store all alerts, including their type, message, and status.",
+          "href": "/alerts/schema-definition",
+          "subsections": [
+            {
+              "subsection": 1,
+              "progress": 0,
+              "title": "Design the Notification Document Structure",
+              "content": "Determine the fields for each notification document, such as `type` (e.g., 'user_signup', 'system_error'), `message`, `timestamp`, `isRead`, and an optional `link` to the relevant page."
+            },
+            {
+              "subsection": 2,
+              "progress": 0,
+              "title": "Create a `notifications` Collection in Firestore",
+              "content": "Manually create the new Firestore collection to hold all notification documents. Establish the initial schema and any necessary indexes."
+            }
+          ]
+        },
+        {
+          "section": 2,
+          "progress": 0,
+          "demo": false,
+          "title": "Implement Server-Side Triggers",
+          "content": "Use Cloud Functions to automatically generate notifications. For example, a function can create a new alert document whenever a user signs up or a system error occurs.",
+          "href": "/alerts/cloud-functions",
+          "subsections": [
+            {
+              "subsection": 1,
+              "progress": 0,
+              "title": "Write a `onUserCreate` Cloud Function",
+              "content": "Create a Firebase Cloud Function that is triggered by `onCreate` events in Firebase Authentication. This function will automatically create a new notification document in Firestore for each new user."
+            },
+            {
+              "subsection": 2,
+              "progress": 0,
+              "title": "Implement a System Error Logger",
+              "content": "Create a Cloud Function that can be called via an HTTP request or a Pub/Sub topic to log and create a notification document whenever a critical system error occurs."
+            }
+          ]
+        },
+        {
+          "section": 3,
+          "progress": 0,
+          "demo": false,
+          "title": "Create an API Endpoint to Fetch Alerts",
+          "content": "Build a secure Next.js API route that queries the Firestore collection, allowing the admin dashboard to retrieve a filtered list of new or unread alerts.",
+          "href": "/alerts/api-endpoint",
+          "subsections": [
+            {
+              "subsection": 1,
+              "progress": 0,
+              "title": "Develop a `GET /api/alerts` Route",
+              "content": "Create a protected API route that fetches notifications from the Firestore `notifications` collection. Implement a query to filter for unread notifications first."
+            },
+            {
+              "subsection": 2,
+              "progress": 0,
+              "title": "Implement Query Parameters and Pagination",
+              "content": "Enhance the API to support query parameters like `status=unread` or `limit=10` to provide flexible data fetching for the frontend."
+            }
+          ]
+        },
+        {
+          "section": 4,
+          "progress": 0,
+          "demo": false,
+          "title": "Develop a Real-time Alert Component",
+          "content": "Create a frontend component that uses Firestore's real-time listeners to display notifications. This provides an instant, auto-updating list of alerts to the admin.",
+          "href": "/alerts/real-time-component",
+          "subsections": [
+            {
+              "subsection": 1,
+              "progress": 0,
+              "title": "Use Firestore Real-time Listeners",
+              "content": "Utilize `onSnapshot` from the Firebase SDK to listen for real-time updates to the `notifications` collection. This will automatically update the UI when new alerts are added."
+            },
+            {
+              "subsection": 2,
+              "progress": 0,
+              "title": "Create a React Hook for Alerts",
+              "content": "Develop a custom React hook (e.g., `useAlerts`) that encapsulates the `onSnapshot` logic, making it easy to reuse the real-time functionality across your application."
+            },
+            {
+              "subsection": 3,
+              "progress": 0,
+              "title": "Render the Alert List UI",
+              "content": "Map over the real-time data to render a list of alerts in a UI component, such as a dropdown menu or a dedicated alerts page."
+            }
+          ]
+        },
+        {
+          "section": 5,
+          "progress": 0,
+          "demo": false,
+          "title": "Build a Notification Management Interface",
+          "content": "Add UI controls for managing alerts, such as buttons to mark an alert as read, dismiss it, or navigate to the relevant page for further action.",
+          "href": "/alerts/management-interface",
+          "subsections": [
+            {
+              "subsection": 1,
+              "progress": 0,
+              "title": "Implement 'Mark as Read' Functionality",
+              "content": "Create an API route or a direct Firestore function call that updates the `isRead` field of a specific notification document to `true` when the admin clicks an action button."
+            },
+            {
+              "subsection": 2,
+              "progress": 0,
+              "title": "Add a 'Dismiss' or 'Delete' Option",
+              "content": "Provide a button to delete a notification document from the collection, with proper confirmation to prevent accidental removal."
+            },
+            {
+              "subsection": 3,
+              "progress": 0,
+              "title": "Create a 'Go to' Button",
+              "content": "Use the optional `link` field from the notification schema to create a navigation button that takes the admin directly to the page related to the alert (e.g., a specific user's profile)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "importance": 5,
+      "feature": "Analytics and Reporting",
+      "widgetName": "analyticsAndReporting",
+      "overview": {
+        "title": "Analytics and Reporting",
+        "content": "Providing insights into user behavior and app performance is crucial. An admin dashboard often includes a section for analytics and reporting. This might involve displaying: Usage statistics: Number of active users, new sign-ups over time. Content metrics: Most viewed pages, most popular items. Error logs: A log of system errors or bugs reported by users. Sales or revenue data: For e-commerce or subscription-based apps.",
+        "href": "/analyticsAndReporting",
+        "icon": "Analytics"
+      },
+      "sections": [
+        {
+          "section": 1,
+          "progress": 0,
+          "demo": false,
+          "title": "Select a Data Collection Method",
+          "content": "Choose a service like Google Analytics, Mixpanel, or a custom Firestore collection to log and store event data from your application.",
+          "href": "/analytics/collection-method",
+          "subsections": [
+            {
+              "subsection": 1,
+              "progress": 0,
+              "title": "Evaluate Analytics Services",
+              "content": "Research and select an analytics service based on your needs, considering factors like ease of integration, cost, and the types of data you want to track."
+            },
+            {
+              "subsection": 2,
+              "progress": 0,
+              "title": "Set up a Firestore Events Collection (Custom Solution)",
+              "content": "If building a custom solution, create a Firestore collection (e.g., `events`) to store timestamped event documents with details like user ID, event name, and relevant metadata."
+            }
+          ]
+        },
+        {
+          "section": 2,
+          "progress": 0,
+          "demo": false,
+          "title": "Define and Log Key Events",
+          "content": "Identify the critical user actions (e.g., sign-ups, page views, purchases) and implement the code to log these events with relevant metadata.",
+          "href": "/analytics/event-logging",
+          "subsections": [
+            {
+              "subsection": 1,
+              "progress": 0,
+              "title": "Define Event Names and Properties",
+              "content": "Create a consistent naming convention for your events (e.g., `user_signed_up`, `product_viewed`) and decide on the metadata to be included with each event (e.g., `product_id`, `page_path`)."
+            },
+            {
+              "subsection": 2,
+              "progress": 0,
+              "title": "Implement Event Logging in the Frontend",
+              "content": "Add the event logging code to your application's components to track user interactions and send the data to your chosen analytics service or Firestore collection."
+            },
+            {
+              "subsection": 3,
+              "progress": 0,
+              "title": "Log Server-Side Events",
+              "content": "Ensure that events happening on the server (e.g., new subscriptions, successful API calls) are also logged, using a Firebase Cloud Function or a direct API call."
+            }
+          ]
+        },
+        {
+          "section": 3,
+          "progress": 0,
+          "demo": false,
+          "title": "Create Analytics-Focused API Endpoints",
+          "content": "Build Next.js API routes that query and aggregate the raw event data into a format suitable for charting, such as daily, weekly, or monthly reports.",
+          "href": "/analytics/api-endpoints",
+          "subsections": [
+            {
+              "subsection": 1,
+              "progress": 0,
+              "title": "Develop a `GET /api/reports/usage` Route",
+              "content": "Create a protected API route that queries the event data (from Firestore or an external service) and aggregates it to show metrics like daily active users or new sign-ups over a specified period."
+            },
+            {
+              "subsection": 2,
+              "progress": 0,
+              "title": "Develop a `GET /api/reports/content` Route",
+              "content": "Build an API route that aggregates content-related data, such as a list of the top 10 most viewed pages or products, to power content-specific widgets."
+            },
+            {
+              "subsection": 3,
+              "progress": 0,
+              "title": "Implement Data Aggregation Logic",
+              "content": "Write the server-side code to perform efficient queries and calculations on the raw event data to generate the required reports. Use a library like Moment.js or date-fns for time-series aggregation."
+            }
+          ]
+        },
+        {
+          "section": 4,
+          "progress": 0,
+          "demo": false,
+          "title": "Develop Charting and Visualization Components",
+          "content": "Use a charting library (e.g., Chart.js or Recharts) to create reusable components that can visualize your aggregated data in various chart types like line, bar, or pie charts.",
+          "href": "/analytics/charting",
+          "subsections": [
+            {
+              "subsection": 1,
+              "progress": 0,
+              "title": "Choose and Install a Charting Library",
+              "content": "Select a charting library that fits your design and performance needs, and install it in your Next.js project."
+            },
+            {
+              "subsection": 2,
+              "progress": 0,
+              "title": "Create a Reusable Line Chart Component",
+              "content": "Develop a React component that takes a set of time-series data as props and renders a line chart to visualize trends over time."
+            },
+            {
+              "subsection": 3,
+              "progress": 0,
+              "title": "Create a Reusable Bar Chart Component",
+              "content": "Develop a separate component for visualizing categorical data, such as the number of views for each page or product."
+            }
+          ]
+        },
+        {
+          "section": 5,
+          "progress": 0,
+          "demo": false,
+          "title": "Build the Analytics Dashboard",
+          "content": "Assemble the API calls and charting components into a dedicated dashboard page, providing a comprehensive and easy-to-read overview of your app's performance.",
+          "href": "/analytics/dashboard",
+          "subsections": [
+            {
+              "subsection": 1,
+              "progress": 0,
+              "title": "Lay out the Dashboard Page",
+              "content": "Create a new page for your analytics dashboard and arrange the different charting components and key metric displays in a logical layout."
+            },
+            {
+              "subsection": 2,
+              "progress": 0,
+              "title": "Connect Components to API Endpoints",
+              "content": "Use `useEffect` or a data-fetching library (e.g., `SWR` or `React Query`) to call the analytics API routes and feed the retrieved data into your chart components."
+            },
+            {
+              "subsection": 3,
+              "progress": 0,
+              "title": "Add Data Filters and Time Period Selectors",
+              "content": "Implement controls on the dashboard that allow the admin to filter the data by date range (e.g., 'last 7 days', 'this month') or other parameters, which will trigger new API calls."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "importance": 6,
+      "feature": "Diagramming Canvas",
+      "widgetName": "diagrammingCanvas",
+      "overview": {
+        "title": "Diagramming Canvas",
+        "content": "Coding a Diagramm Canvas with rudimentary functionality similar to the Figma canvas.",
+        "href": "/diagrammingCanvas",
+        "icon": "AccountTree"
+      },
+      "sections": [
+        {
+          "section": 1,
+          "progress": 0,
+          "demo": false,
+          "title": "Create the `useDiagramState` Custom Hook",
+          "content": "This is the most critical step, where all state and logic are extracted from the UI. This hook will become the single source of truth for the entire diagramming application.",
+          "href": "/diagrammingCanvas/useDiagramState",
+          "subsections": [
+            {
+              "subsection": 1,
+              "progress": 0,
+              "title": "Define State Variables",
+              "content": "Move all `useState` calls for `shapes`, `connections`, `selectedShape`, `isDragging`, etc., into a new `useDiagramState.js` file."
+            },
+            {
+              "subsection": 2,
+              "progress": 0,
+              "title": "Migrate Handler Functions",
+              "content": "Move all event handlers and action functions (`addShape`, `handleMouseDown`, `handleConnectionLabelChange`, etc.) into the custom hook."
+            },
+            {
+              "subsection": 3,
+              "progress": 0,
+              "title": "Return State and Handlers",
+              "content": "Expose the state variables and handler functions by returning them as a single object from the hook."
+            }
+          ]
+        },
+        {
+          "section": 2,
+          "progress": 0,
+          "demo": false,
+          "title": "Build the Core Canvas Component",
+          "content": "Create a dedicated, 'dumb' component whose only job is to render the visual state of the diagram. It will receive all its data and functions as props.",
+          "href": "/diagrammingCanvas/canvas",
+          "subsections": [
+            {
+              "subsection": 1,
+              "progress": 0,
+              "title": "Create `Canvas.js` Component",
+              "content": "Develop a new component that contains the `<canvas>` element and the drawing logic within a `useEffect` hook."
+            },
+            {
+              "subsection": 2,
+              "progress": 0,
+              "title": "Define Props",
+              "content": "Define the component's props to accept `shapes`, `connections`, `selectedShape`, and all necessary event handlers like `onMouseDown`."
+            },
+            {
+              "subsection": 3,
+              "progress": 0,
+              "title": "Connect Event Handlers",
+              "content": "Wire up the canvas element's events (e.g., `onMouseDown`) to the corresponding props passed from the parent."
+            }
+          ]
+        },
+        {
+          "section": 3,
+          "progress": 0,
+          "demo": true,
+          "title": "Develop UI Components",
+          "content": "Break down the user interface into small, reusable components for the toolbar and the connections list. This improves organization and reusability.",
+          "href": "/diagrammingCanvas/ui",
+          "subsections": [
+            {
+              "subsection": 1,
+              "progress": 0,
+              "title": "Create `Toolbar.js`",
+              "content": "Build a component that renders the action buttons and color picker, receiving all its functionality via props like `onAddShape`."
+            },
+            {
+              "subsection": 2,
+              "progress": 0,
+              "title": "Create `ConnectionsTable.js`",
+              "content": "Build a component that maps over the `connections` array and renders the list with editable fields, taking an `onLabelChange` prop."
+            },
+            {
+              "subsection": 3,
+              "progress": 0,
+              "title": "Create `TextEditor.js`",
+              "content": "Extract the floating text area for editing shape text into its own reusable component."
+            }
+          ]
+        },
+        {
+          "section": 4,
+          "progress": 0,
+          "demo": false,
+          "title": "Integrate All Parts",
+          "content": "Assemble the final application by using the custom hook in a main page component and passing the state and handlers down to the new UI and Canvas components.",
+          "href": "/diagrammingCanvas/integration",
+          "subsections": [
+            {
+              "subsection": 1,
+              "progress": 0,
+              "title": "Create a Parent `DiagramEditor` Component",
+              "content": "Create a new top-level component that will serve as the container for the entire application."
+            },
+            {
+              "subsection": 2,
+              "progress": 0,
+              "title": "Use the Custom Hook",
+              "content": "Call the `useDiagramState` hook within the `DiagramEditor` to get access to the application's state and logic."
+            },
+            {
+              "subsection": 3,
+              "progress": 0,
+              "title": "Pass Props to Children",
+              "content": "Render the `Toolbar`, `Canvas`, and `ConnectionsTable` components, passing the appropriate state and handlers to each as props."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

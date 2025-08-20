@@ -3,13 +3,12 @@
 
 import React from "react";
 import { Box, IconButton, Typography } from "@mui/material";
+import { ArrowBack } from "@mui/icons-material";
 
-import { useWidgetContext } from "./Context"; // Only import the hook
+import { useWidgetContext } from "./Context";
+import Widget from "./Widget";
 import Title from "../../../components/title/Title";
 import { titleProps } from "../../../theme/muiProps";
-import WidgetMenu from "../../../components/menus/WidgetMenu";
-
-import Widget from "./Widget";
 
 export default function Page() {
   const {
@@ -33,21 +32,33 @@ export default function Page() {
         width: "100%",
         display: "flex",
         flexDirection: "column",
-        justifyContent: "center",
         alignItems: "center",
         bgcolor: "background.default",
         color: "text.primary",
       }}
     >
-      <Title props={{ ...titleProps, string: title }} />
-      {/* <WidgetMenu activeUiContext={activeUiContext} /> */}
-      <Widget
-        data={widgetData.steps}
-        activeUiContext={activeUiContext}
-        setActiveUiContext={setActiveUiContext}
-        activeStep={activeStep}
-        handleSetUiContext={handleSetUiContext}
-      />
+      <Title props={{ ...titleProps, string: header }} />
+      <Box
+        sx={{
+          width: "100%",
+          display: "flex",
+          flexFlow: "row npwrap",
+          alignItems: "center",
+        }}
+      >
+        {activeUiContext && activeUiContext !== "steps" ? (
+          <>
+            <IconButton onClick={() => handleSetUiContext("step")}>
+              <ArrowBack />
+            </IconButton>
+
+            <Typography variant="body1">{activeUiContext.href}</Typography>
+          </>
+        ) : (
+          <Typography variant="body1">steps</Typography>
+        )}
+      </Box>
+      <Widget />
     </Box>
   );
 }

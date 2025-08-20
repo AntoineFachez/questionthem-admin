@@ -1,5 +1,13 @@
 {
   "title": "Person",
+  "fix": [
+    {
+      "issue": "Mismatch Between Blueprint and Schema. The Blueprint (a) and the Schema (b) are not synchronized. The blueprint, which would guide data entry, allows for fields that the schema, which validates the data, does not know about.    The blueprint defines detailed structures for midName and nickName as arrays of objects.    The schema only defines firstName and lastName and would reject any data containing midName or nickName as invalid because they are not declared in its properties.    The schema is significantly less detailed than the blueprint, missing entire concepts like lifestages, controversies, education, and career."
+    },
+    {
+      "issue": "Polymorphic Association (entityId, entityType): Recommendation: For your controversies section, where the 'messenger' could be a 'person,' 'company,' or 'organization' your second approach—{'entityId': 'someid', 'entityType': 'person'}—is an excellent choice. It's flexible and perfectly suited for that kind of variable relationship."
+    }
+  ],
   "type": "object",
   "description": "Represents a contact or individual in an address book.",
   "properties": {

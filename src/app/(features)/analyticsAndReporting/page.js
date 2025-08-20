@@ -7,8 +7,8 @@ import { ArrowBack } from "@mui/icons-material";
 
 import Widget from "./Widget";
 import { useWidgetContext } from "./Context"; // Only import the hook
-import Header from "../../../components/header/Header";
-import { headerProps } from "../../../configs/pageProps";
+import Title from "../../../components/title/Title";
+import { titleProps } from "../../../theme/muiProps";
 
 export default function Page() {
   const {
@@ -18,7 +18,7 @@ export default function Page() {
     activeStep,
     setActiveStep,
     updateWidgetData,
-    header,
+    title,
   } = useWidgetContext();
 
   const handleSetUiContext = (item) => {
@@ -37,7 +37,7 @@ export default function Page() {
         color: "text.primary",
       }}
     >
-      <Header props={{ ...headerProps, string: header }} />
+      <Title props={{ ...titleProps, string: title }} />
       <Box
         sx={{
           width: "100%",

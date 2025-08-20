@@ -1,0 +1,314 @@
+{
+  "title": "Scrum Steps CQRS",
+  "scrum": [
+    {
+      "feature": "Write-Side (Command) Setup with Cloud SQL",
+      "overview": {
+        "title": "Write-Side (Command) Setup",
+        "content": "This is the foundation of the CQRS pattern. The write-side is responsible for handling all state changes (Commands) and ensuring data integrity. We will use a relational database, Cloud SQL (PostgreSQL), as the single source of truth for all data.",
+        "href": "/writeSideSetup",
+        "icon": "Server"
+      },
+      "sections": [
+        {
+          "section": 1,
+          "progress": 0,
+          "demo": false,
+          "title": "Provision and Configure Cloud SQL",
+          "content": "Set up a new PostgreSQL instance on Google Cloud SQL. This includes configuring access controls, networking, and creating a dedicated database and user for the application.",
+          "href": "/writeSideSetup/provision",
+          "subsections": [
+            {
+              "subsection": 1,
+              "estimatedHours": 2,
+              "progress": 0,
+              "title": "Create Cloud SQL Instance",
+              "content": "Use the Google Cloud Console or gcloud CLI to create a new PostgreSQL instance."
+            },
+            {
+              "subsection": 2,
+              "estimatedHours": 1,
+              "progress": 0,
+              "title": "Configure Database and User",
+              "content": "Create a database and a user with a secure password for your application to connect with."
+            },
+            {
+              "subsection": 3,
+              "estimatedHours": 2,
+              "progress": 0,
+              "title": "Set up Cloud SQL Auth Proxy",
+              "content": "For secure local development and connection from services like Cloud Run, configure the Cloud SQL Auth Proxy."
+            }
+          ]
+        },
+        {
+          "section": 2,
+          "progress": 0,
+          "demo": false,
+          "title": "Define Write-Model Schema",
+          "content": "Design the database schema that will act as the source of truth. This schema should be normalized and optimized for transactional consistency.",
+          "href": "/writeSideSetup/schema",
+          "substeps": [
+            {
+              "subsection": 1,
+              "estimatedHours": 4,
+              "progress": 0,
+              "title": "Design Relational Tables",
+              "content": "Model the application's domain entities into a normalized relational schema."
+            },
+            {
+              "subsection": 2,
+              "estimatedHours": 4,
+              "progress": 0,
+              "title": "Create Database Migrations",
+              "content": "Use a migration tool (e.g., Knex.js, Flyway) to script the schema changes for version control and repeatable deployments."
+            }
+          ]
+        },
+        {
+          "section": 3,
+          "progress": 0,
+          "demo": false,
+          "title": "Implement Command Handlers",
+          "content": "Develop the core business logic that processes incoming commands, validates data, and persists state changes to the Cloud SQL database.",
+          "href": "/writeSideSetup/handlers",
+          "substeps": [
+            {
+              "subsection": 1,
+              "estimatedHours": 16,
+              "progress": 0,
+              "title": "Code Business Logic",
+              "content": "Implement the services and logic that enforce business rules for each command (e.g., CreateUser, UpdateOrder)."
+            },
+            {
+              "subsection": 2,
+              "estimatedHours": 8,
+              "progress": 0,
+              "title": "Implement Data Validation",
+              "content": "Ensure all incoming data is valid and consistent before processing."
+            },
+            {
+              "subsection": 3,
+              "estimatedHours": 8,
+              "progress": 0,
+              "title": "Persist to Cloud SQL",
+              "content": "Write the data access layer code to perform transactional writes to the PostgreSQL database."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "feature": "Event Propagation with Cloud Pub/Sub",
+      "overview": {
+        "title": "Event Propagation",
+        "content": "To keep the read and write sides synchronized, we'll use an event-driven approach. After a successful state change on the write-side, an event will be published to a message broker, Cloud Pub/Sub.",
+        "href": "/eventPropagation",
+        "icon": "ArrowRightLeft"
+      },
+      "sections": [
+        {
+          "section": 1,
+          "progress": 0,
+          "demo": false,
+          "title": "Set up Cloud Pub/Sub",
+          "content": "Provision the necessary Pub/Sub topic and configure permissions for publishing and subscribing.",
+          "href": "/eventPropagation/setup",
+          "substeps": [
+            {
+              "subsection": 1,
+              "estimatedHours": 1,
+              "progress": 0,
+              "title": "Create a Pub/Sub Topic",
+              "content": "Create a topic that will carry the domain events (e.g., 'user-events')."
+            },
+            {
+              "subsection": 2,
+              "estimatedHours": 2,
+              "progress": 0,
+              "title": "Configure IAM Permissions",
+              "content": "Grant the write-side service account permission to publish to the topic, and the read-side service account permission to subscribe."
+            }
+          ]
+        },
+        {
+          "section": 2,
+          "progress": 0,
+          "demo": false,
+          "title": "Publish Events from Write-Side",
+          "content": "Integrate the Pub/Sub client into the command handling logic to publish an event upon successful database transactions.",
+          "href": "/eventPropagation/publish",
+          "substeps": [
+            {
+              "subsection": 1,
+              "estimatedHours": 4,
+              "progress": 0,
+              "title": "Integrate Pub/Sub Client Library",
+              "content": "Add the appropriate Google Cloud client library to the write-side application."
+            },
+            {
+              "subsection": 2,
+              "estimatedHours": 8,
+              "progress": 0,
+              "title": "Publish Event on Command Success",
+              "content": "After a command successfully commits its transaction to Cloud SQL, publish a corresponding event (e.g., UserCreated) to the Pub/Sub topic."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "feature": "Read-Side (Query) Setup with Firebase Firestore",
+      "overview": {
+        "title": "Read-Side (Query) Setup",
+        "content": "The read-side provides fast, denormalized views of the data, optimized for querying. We'll use Firebase Firestore for its scalability and real-time capabilities. A background process will listen for events and update the Firestore documents.",
+        "href": "/readSideSetup",
+        "icon": "BookOpen"
+      },
+      "sections": [
+        {
+          "section": 1,
+          "progress": 0,
+          "demo": false,
+          "title": "Configure Firestore and Event Subscriber",
+          "content": "Set up Firestore and a Cloud Function that will be triggered by new messages in the Pub/Sub topic.",
+          "href": "/readSideSetup/configure",
+          "substeps": [
+            {
+              "subsection": 1,
+              "estimatedHours": 1,
+              "progress": 0,
+              "title": "Create Firestore Database",
+              "content": "Initialize a Firestore database in your Firebase/GCP project."
+            },
+            {
+              "subsection": 2,
+              "estimatedHours": 8,
+              "progress": 0,
+              "title": "Define Firestore Security Rules",
+              "content": "Write security rules to control read access to the denormalized data."
+            },
+            {
+              "subsection": 3,
+              "estimatedHours": 3,
+              "progress": 0,
+              "title": "Create Pub/Sub-triggered Cloud Function",
+              "content": "Create a new Cloud Function that subscribes to the Pub/Sub topic created in the previous feature."
+            }
+          ]
+        },
+        {
+          "section": 2,
+          "progress": 0,
+          "demo": false,
+          "title": "Implement Event Projector Logic",
+          "content": "Develop the logic within the Cloud Function to process incoming events and create/update the denormalized read models in Firestore.",
+          "href": "/readSideSetup/projector",
+          "substeps": [
+            {
+              "subsection": 1,
+              "estimatedHours": 6,
+              "progress": 0,
+              "title": "Design Denormalized Read Models",
+              "content": "Define the structure of the documents in Firestore. This often involves duplicating data to optimize for specific query patterns."
+            },
+            {
+              "subsection": 2,
+              "estimatedHours": 16,
+              "progress": 0,
+              "title": "Code Event Processing Logic",
+              "content": "Write the core logic in the Cloud Function to transform the event payload into the desired Firestore document structure."
+            },
+            {
+              "subsection": 3,
+              "estimatedHours": 6,
+              "progress": 0,
+              "title": "Ensure Idempotency",
+              "content": "Implement checks to prevent processing the same event multiple times, which can happen in distributed systems."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "feature": "API Layer with FERN",
+      "overview": {
+        "title": "API Layer with FERN",
+        "content": "FERN allows us to define our API in a structured, language-agnostic way. We will define our Command and Query endpoints, and then generate server-side and client-side code to ensure type safety and consistency.",
+        "href": "/apiLayer",
+        "icon": "Code"
+      },
+      "sections": [
+        {
+          "section": 1,
+          "progress": 0,
+          "demo": false,
+          "title": "Define API Specification in FERN",
+          "content": "Write the OpenAPI (or Fern) specification that describes all endpoints, request/response models, and authentication schemes.",
+          "href": "/apiLayer/define",
+          "substeps": [
+            {
+              "subsection": 1,
+              "estimatedHours": 8,
+              "progress": 0,
+              "title": "Define Command Endpoints",
+              "content": "Specify the POST/PUT/DELETE endpoints for submitting commands."
+            },
+            {
+              "subsection": 2,
+              "estimatedHours": 8,
+              "progress": 0,
+              "title": "Define Query Endpoints",
+              "content": "Specify the GET endpoints for retrieving data from the read models."
+            },
+            {
+              "subsection": 3,
+              "estimatedHours": 6,
+              "progress": 0,
+              "title": "Define Data Models/Types",
+              "content": "Define all the shared data structures used in the API."
+            }
+          ]
+        },
+        {
+          "section": 2,
+          "progress": 0,
+          "demo": false,
+          "title": "Generate and Implement Server Code",
+          "content": "Use the FERN CLI to generate server-side code (e.g., for an Express.js server) and then implement the business logic for each endpoint.",
+          "href": "/apiLayer/implement",
+          "substeps": [
+            {
+              "subsection": 1,
+              "estimatedHours": 2,
+              "progress": 0,
+              "title": "Generate Server Scaffolding",
+              "content": "Run the FERN CLI to generate the boilerplate for your chosen server framework."
+            },
+            {
+              "subsection": 2,
+              "estimatedHours": 8,
+              "progress": 0,
+              "title": "Wire Command Endpoints",
+              "content": "Connect the generated command endpoint handlers to the command processing logic from the write-side feature."
+            },
+            {
+              "subsection": 3,
+              "estimatedHours": 12,
+              "progress": 0,
+              "title": "Wire Query Endpoints",
+              "content": "Connect the generated query endpoint handlers to fetch data directly from the Firestore read models."
+            },
+            {
+              "subsection": 4,
+              "estimatedHours": 16,
+              "progress": 0,
+              "title": "Implement Authentication",
+              "content": "Integrate Firebase Authentication or another auth provider to secure the API endpoints."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

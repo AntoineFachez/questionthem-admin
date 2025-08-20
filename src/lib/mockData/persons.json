@@ -1,5 +1,13 @@
 [
   {
+    "fix": [
+      {
+        "issue": "New Undeclared Attributes: The mock data introduces attributes not defined in the blueprint. For example, in socialMediaProfiles, it adds a 'name' field and a nested 'lastPost' object."
+      },
+      {
+        "issue": "Polymorphic Association (entityId, entityType): Recommendation: For your controversies section, where the 'messenger' could be a 'person,' 'company,' or 'organization' your second approach—{'entityId': 'someid', 'entityType': 'person'}—is an excellent choice. It's flexible and perfectly suited for that kind of variable relationship."
+      }
+    ],
     "personId": "d54ffc3a-332f-498e-9aca-9aafb5bf780e",
     "firstName": "Donald",
     "lastName": "Trump",

@@ -17,22 +17,23 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <ThemeProvider theme={darkTheme}>
-        <Box
-          component="body"
-          sx={{
-            width: "100vw",
-            height: "100vh",
-            bgcolor: "background.default",
-            m: 0,
-            p: 0,
-            boxSizing: "border-box",
-            color: "text.primary",
-            fontFamily: "sans-serif",
-          }}
-        >
-          <UIProvider>
-            <UserProvider>
-              <DataBaseProvider>
+        <UIProvider>
+          <UserProvider>
+            <DataBaseProvider>
+              <Box
+                component="body"
+                sx={{
+                  width: "100vw",
+                  height: "100vh",
+                  bgcolor: "background.default",
+                  m: 0,
+                  p: 0,
+                  boxSizing: "border-box",
+                  color: "text.primary",
+                  fontFamily: "sans-serif",
+                  overflow: "hidden",
+                }}
+              >
                 <Navbar />
                 <Box
                   component="main"
@@ -40,15 +41,15 @@ export default function RootLayout({ children }) {
                   sx={{ width: "100%", height: "100%" }}
                 >
                   {" "}
-                  <DynamicBreadcrumbs steps={steps} />
+                  {/* <DynamicBreadcrumbs steps={steps} /> */}
                   {children}
                 </Box>{" "}
                 <ToastContainer />
                 <ScrollDialog />
-              </DataBaseProvider>
-            </UserProvider>
-          </UIProvider>
-        </Box>
+              </Box>
+            </DataBaseProvider>
+          </UserProvider>
+        </UIProvider>
       </ThemeProvider>
     </html>
   );

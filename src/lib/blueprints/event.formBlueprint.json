@@ -55,45 +55,45 @@
           "name": "startDate",
           "label": "Start Date",
           "type": "date-time",
-          "halfWidth": true,
+          "fullWidth": false,
           "required": true
         },
         {
           "name": "endDate",
           "label": "End Date",
           "type": "date-time",
-          "halfWidth": true,
+          "fullWidth": false,
           "required": true
         },
         {
           "name": "startTime",
           "label": "Start Time",
-          "halfWidth": true,
+          "fullWidth": false,
           "type": "time"
         },
         {
           "name": "endTime",
           "label": "End Time",
-          "halfWidth": true,
+          "fullWidth": false,
           "type": "time"
         },
         {
           "name": "duration",
           "label": "Duration",
-          "halfWidth": true,
+          "fullWidth": false,
           "type": "string"
         },
         {
           "name": "timeZone",
           "label": "Time Zone",
           "type": "string",
-          "halfWidth": true,
+          "fullWidth": false,
           "placeholder": "e.g., America/New_York"
         },
         {
           "name": "priority",
           "label": "Priority",
-          "halfWidth": true,
+          "fullWidth": false,
           "type": "string"
         },
         {
@@ -118,7 +118,7 @@
           "name": "categoryTags",
           "label": "Category Tags",
           "type": "array",
-          "halfWidth": true,
+          "fullWidth": false,
           "items": {
             "type": "string",
             "placeholder": "e.g., Political"
@@ -151,13 +151,13 @@
                   "name": "lat",
                   "label": "Latitude",
                   "type": "number",
-                  "halfWidth": true
+                  "fullWidth": false
                 },
                 {
                   "name": "lng",
                   "label": "Longitude",
                   "type": "number",
-                  "halfWidth": true
+                  "fullWidth": false
                 }
               ]
             },

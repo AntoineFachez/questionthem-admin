@@ -1,0 +1,255 @@
+{
+  "title": "Pitch Deck: Nexus: The AI-Powered Knowledge Companion for Content Creators",
+  "companyLogo": "[Your Company Logo URL]",
+  "myNameTeamName": "[Your Name/Team Name]",
+  "pitchDeckVersion": "2.0",
+  "pitchDeckDate": "August 19, 2025",
+  "sections": [
+    {
+      "section": 1,
+      "title": "Intro",
+      "subtitle": "Nexus: Your AI-Powered Knowledge Companion",
+      "content": "Real-time intelligence and deep research capabilities for journalists, live streamers, and all knowledge-based creators.",
+      "subsections": []
+    },
+    {
+      "section": 2,
+      "title": "The Problem",
+      "subtitle": "Knowledge creators face a fragmented and inefficient workflow:",
+      "content": "",
+      "subsections": [
+        {
+          "subtitle": "For Live Streamers: Information Recall Overload",
+          "content": "Juggling vast amounts of personal content (people, events, stories) while maintaining audience engagement is incredibly difficult, leading to missed opportunities and broken flow."
+        },
+        {
+          "subtitle": "For Journalists & Researchers: Disconnected Data",
+          "content": "Sifting through disparate pieces of information—people, events, timelines—and connecting the dots is a manual, inefficient process. Traditional tools fail to uncover the hidden story."
+        },
+        {
+          "subtitle": "For All Creators: Cognitive Strain & Manual Effort",
+          "content": "Constantly searching for facts, dates, or names—whether live on-air or during research—wastes time, breaks creative flow, and limits the depth of the content produced."
+        }
+      ]
+    },
+    {
+      "section": 3,
+      "title": "The Solution",
+      "subtitle": "Nexus: A unified platform for knowledge management, research, and real-time recall.",
+      "content": "Nexus is an intelligent co-pilot that helps you build a personal knowledge graph and leverage it seamlessly. It combines a powerful research webapp with a real-time content companion.",
+      "subsections": [
+        {
+          "subtitle": "Centralized Knowledge Hub:",
+          "content": "Organize your research—people, events, locations, stories, and sources—into a connected, intelligent library."
+        },
+        {
+          "subtitle": "Powerful Research & Querying:",
+          "content": "Go beyond keyword search. Ask complex questions across your entire knowledge base to uncover hidden connections and insights instantly."
+        },
+        {
+          "subtitle": "Live AI Co-Pilot:",
+          "content": "During live streams or presentations, our app listens and provides real-time, context-aware information and prompts directly on your screen."
+        },
+        {
+          "subtitle": "Data Visualization:",
+          "content": "Instantly see complex relationships with dynamic graphs and network visualizations, making your story clear."
+        }
+      ]
+    },
+    {
+      "section": 4,
+      "title": "How It Works",
+      "subtitle": "From Deep Research to Live Performance",
+      "content": "[Visual representation of the unified creator workflow]",
+      "subsections": [
+        {
+          "subtitle": "1. Build Your Knowledge Graph:",
+          "content": "Easily add and link entities: people, events, locations, and source materials. Nexus intelligently organizes the data in the background."
+        },
+        {
+          "subtitle": "2. Research & Uncover Insights (The Chronicle Hub):",
+          "content": "Use our webapp to run complex queries like, 'Show all people present at Event X near Location Y in the last 6 months.' Results are returned instantly and can be visualized as a network graph."
+        },
+        {
+          "subtitle": "3. Go Live with Confidence (The Elevate Co-Pilot):",
+          "content": "While streaming, our app captures your audio. As you speak, relevant hints from your knowledge graph (calendar entries, maps, contact info, story points) appear on your screen."
+        },
+        {
+          "subtitle": "4. The Engine: Robust Architecture",
+          "content": "Our system uses CQRS and Polyglot Persistence to ensure queries are blazingly fast and data integrity is always maintained, giving you the best of speed and reliability."
+        }
+      ]
+    },
+    {
+      "section": 5,
+      "title": "Core Technology: The Unified Knowledge Graph",
+      "subtitle": "Built on a modern, scalable, and robust architecture:",
+      "content": "Our unique approach to data management is what enables Nexus's powerful features.",
+      "subsections": [
+        {
+          "subtitle": "Polyglot Persistence:",
+          "content": "We combine the strengths of SQL for structured data integrity (ACID compliance) and NoSQL for the flexibility needed to handle the evolving nature of creative research."
+        },
+        {
+          "subtitle": "Polymorphic Relationships:",
+          "content": "A highly adaptable data model allows any piece of information (a note, a source) to be linked to any entity (a person, event, or location) without a complex structure, mirroring the way research actually works."
+        },
+        {
+          "subtitle": "CQRS (Command Query Responsibility Segregation):",
+          "content": "By separating the systems for writing data (Commands) and reading data (Queries), we ensure that complex searches don't slow down data entry. This results in a consistently fast and responsive user experience."
+        }
+      ]
+    },
+    {
+      "section": 6,
+      "title": "Key Features & Benefits",
+      "subtitle": "The ultimate tool for knowledge-based creation:",
+      "content": "",
+      "subsections": [
+        {
+          "subtitle": "Uncover Hidden Stories:",
+          "content": "Powerful querying and visualization tools help you find connections you would have otherwise missed."
+        },
+        {
+          "subtitle": "Enhance Professionalism:",
+          "content": "Seamless real-time access to information eliminates awkward pauses and on-the-fly searches during live streams."
+        },
+        {
+          "subtitle": "Deeper Engagement:",
+          "content": "Provide richer, more detailed, and accurate information to your audience, fostering deeper connections and authority."
+        },
+        {
+          "subtitle": "Intuitive & Collaborative:",
+          "content": "A user-friendly interface with real-time collaboration features designed for creative teams."
+        },
+        {
+          "subtitle": "Reduced Cognitive Load:",
+          "content": "Frees up your mental bandwidth to focus on storytelling, audience interaction, and creative flow."
+        },
+        {
+          "subtitle": "Time Savings:",
+          "content": "Drastically reduces time spent on manual research, pre-stream memorization, and in-stream searching."
+        }
+      ]
+    },
+    {
+      "section": 7,
+      "title": "Market Opportunity",
+      "subtitle": "Tapping into the entire Knowledge Creator Economy.",
+      "content": "",
+      "subsections": [
+        {
+          "subtitle": "Massive & Growing Market:",
+          "content": "From the multi-billion dollar creator economy (YouTube, Twitch, Podcasting) to the fields of investigative journalism, academia, and education."
+        },
+        {
+          "subtitle": "Untapped Problem Space:",
+          "content": "Current tools are siloed. They focus either on audience interaction (for streamers) or basic note-taking (for researchers). None unify the creator's personal knowledge base for both research and performance."
+        },
+        {
+          "subtitle": "Clear Value Proposition:",
+          "content": "We solve a clear, identifiable pain subtitle for any serious creator whose content is built on a foundation of information."
+        }
+      ]
+    },
+    {
+      "section": 8,
+      "title": "Business Model",
+      "subtitle": "A scalable SaaS model for individuals and teams.",
+      "content": "",
+      "subsections": [
+        {
+          "subtitle": "Freemium Model:",
+          "content": ""
+        },
+        {
+          "subtitle": "    * Free Tier:",
+          "content": "Basic knowledge graph management and a limited number of queries and live-assist events per month."
+        },
+        {
+          "subtitle": "    * Premium Subscription (Per User):",
+          "content": "Unlocks unlimited library size, advanced querying, data visualization, and full live co-pilot functionality."
+        },
+        {
+          "subtitle": "    * Teams/Enterprise Tier:",
+          "content": "Adds collaboration features, shared projects, advanced security, and administrative controls."
+        },
+        {
+          "subtitle": "Target Customers:",
+          "content": "Investigative journalists, data journalists, YouTubers, podcasters, educators, and public speakers."
+        }
+      ]
+    },
+    {
+      "section": 9,
+      "title": "Our Team",
+      "subtitle": "",
+      "content": "Highlight expertise in AI, database architecture, web development, content creation, and UX/UI.",
+      "subsections": [
+        {
+          "subtitle": "[Your Name/Team Member 1 Name]:",
+          "content": "[Role], [Relevant Experience/Expertise]"
+        },
+        {
+          "subtitle": "[Team Member 2 Name]:",
+          "content": "[Role], [Relevant Experience/Expertise]"
+        },
+        {
+          "subtitle": "[Team Member 3 Name]:",
+          "content": "[Role], [Relevant Experience/Expertise]"
+        }
+      ]
+    },
+    {
+      "section": 10,
+      "title": "Milestones & Vision",
+      "subtitle": "Our roadmap to becoming the essential tool for knowledge creators.",
+      "content": "",
+      "subsections": [
+        {
+          "subtitle": "Phase 1 (MVP):",
+          "content": "Launch the core research webapp with knowledge graph creation and powerful querying. Beta release of the live co-pilot for early adopters."
+        },
+        {
+          "subtitle": "Phase 2:",
+          "content": "Introduce advanced data visualization tools, team collaboration features, and deeper integration with streaming software (e.g., OBS)."
+        },
+        {
+          "subtitle": "Phase 3:",
+          "content": "Integrate with external data APIs (public records, news archives). Introduce ML/AI features for suggestive linking and automated entity extraction."
+        },
+        {
+          "subtitle": "Long-term Vision:",
+          "content": "To become the indispensable AI-powered operating system for knowledge creation, revolutionizing how creators research, connect, and present information."
+        }
+      ]
+    },
+    {
+      "section": 11,
+      "title": "The Ask",
+      "subtitle": "",
+      "content": "We are seeking [X amount] in seed funding to:",
+      "subsections": [
+        {
+          "content": "Finalize MVP development and accelerate our roadmap."
+        },
+        {
+          "content": "Expand our engineering team with expertise in AI and database architecture."
+        },
+        {
+          "content": "Conduct extensive user testing with both journalists and live creators."
+        },
+        {
+          "content": "Initiate strategic marketing and creator outreach programs."
+        }
+      ]
+    },
+    {
+      "section": 12,
+      "title": "Thank You & Contact",
+      "subtitle": "",
+      "content": "Thank you for your time and consideration.\n\nQuestions?\n\n[Your Name]\n[Your Email Address]\n[Your Phone Number]\n[Your Website/LinkedIn (Optional)]",
+      "subsections": []
+    }
+  ]
+}

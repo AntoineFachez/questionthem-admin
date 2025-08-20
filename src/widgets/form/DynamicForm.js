@@ -8,7 +8,6 @@ import { useFormData } from "./useFormData";
 
 import Accordion from "../../components/accordion/DynamicAccordion";
 import SimpleTree from "../../components/treeView/SimpleTree";
-import FormTreeView from "../../components/treeView/SimpleTree";
 
 import { renderFields } from "./renderFields";
 
@@ -87,7 +86,7 @@ const DynamicForm = ({ onSubmit }) => {
           justifyContent: "flex-start",
         }}
       >
-        <FormTreeView
+        <SimpleTree
           items={activeBlueprint.sections}
           handleClickItem={handleClickItem}
         />

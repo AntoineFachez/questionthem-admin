@@ -32,7 +32,12 @@ const FormField = ({ field, value, onChange, path }) => {
 
   if (field.type === "select") {
     return (
-      <FormControl margin="normal" key={field.name}>
+      <FormControl
+        margin="normal"
+        key={field.name}
+        size="small"
+        fullWidth="false"
+      >
         <InputLabel>{field.label}</InputLabel>
         <Component
           name={field.name}

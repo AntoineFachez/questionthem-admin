@@ -1,0 +1,355 @@
+{
+  "title": "Scrum Steps Knowledge Graph",
+  "features": [
+    {
+      "importance": 1,
+      "feature": "Knowledge Graph Management (Chronicle Hub)",
+      "widgetName": "knowledgeGraphManagement",
+      "overview": {
+        "header": "Knowledge Graph Management",
+        "text": "This is the foundational feature of Nexus, allowing creators to build their personal knowledge base. It involves creating, reading, updating, and deleting (CRUD) core entities like **people, events, locations, and sources**, and critically, establishing the **polymorphic relationships** between them. This feature forms the backbone of the 'Chronicle Hub' webapp.",
+        "href": "/knowledgeGraph",
+        "icon": "Share2"
+      },
+      "sections": [
+        {
+          "section": 1,
+          "progress": 0,
+          "demo": false,
+          "title": "Architect the Backend (CQRS & Polyglot Persistence)",
+          "content": "Set up the core architecture. This involves establishing the Command Query Responsibility Segregation (CQRS) pattern and configuring a polyglot persistence system (e.g., SQL for structured entity data, NoSQL/Graph DB for flexible relationships).",
+          "href": "/knowledgeGraph/architecture",
+          "subsections": [
+            {
+              "subsection": 1,
+              "progress": 0,
+              "subtitle": "Define Entity Schemas & SQL Database",
+              "content": "Define the strict schemas for core entities (People, Events, etc.) and set up the primary SQL database."
+            },
+            {
+              "subsection": 2,
+              "progress": 0,
+              "subtitle": "Set up NoSQL/Graph Database for Relationships",
+              "content": "Configure a graph database to manage the flexible, polymorphic relationships between entities."
+            },
+            {
+              "subsection": 3,
+              "progress": 0,
+              "subtitle": "Implement CQRS 'Command' Service",
+              "content": "Build the service responsible for writing and updating data to the databases, ensuring data integrity."
+            }
+          ]
+        },
+        {
+          "section": 2,
+          "progress": 0,
+          "demo": false,
+          "title": "Develop Entity Management APIs",
+          "content": "Create the secure API endpoints that the frontend will use to manage knowledge graph data. These APIs will interact with the CQRS 'Command' service.",
+          "href": "/knowledgeGraph/apis",
+          "subsections": [
+            {
+              "subsection": 1,
+              "progress": 0,
+              "subtitle": "Implement CRUD Endpoints for Entities",
+              "content": "Create API routes for creating, reading, updating, and deleting individual entities (e.g., `/api/entities/person`)."
+            },
+            {
+              "subsection": 2,
+              "progress": 0,
+              "subtitle": "Implement Endpoints for Relationships",
+              "content": "Create API routes to link and unlink any two entities within the knowledge graph."
+            }
+          ]
+        },
+        {
+          "section": 3,
+          "progress": 0,
+          "demo": true,
+          "title": "Build UI for Entity Creation and Management",
+          "content": "Develop the user interface within the 'Chronicle Hub' webapp for creators to add and manage their knowledge entities.",
+          "href": "/knowledgeGraph/ui",
+          "subsections": [
+            {
+              "subsection": 1,
+              "progress": 0,
+              "subtitle": "Create an Entity Dashboard",
+              "content": "Build a central view where users can see and filter all the entities in their knowledge graph."
+            },
+            {
+              "subsection": 2,
+              "progress": 0,
+              "subtitle": "Develop Entity Creation/Editing Forms",
+              "content": "Create intuitive forms for users to input details for people, events, locations, etc."
+            }
+          ]
+        },
+        {
+          "section": 4,
+          "progress": 0,
+          "demo": true,
+          "title": "Develop UI for Relationship Linking",
+          "content": "Design and build an interface that allows users to visually or manually connect two entities, defining their relationship.",
+          "href": "/knowledgeGraph/linking",
+          "subsections": [
+            {
+              "subsection": 1,
+              "progress": 0,
+              "subtitle": "Create a Linking Interface",
+              "content": "From an entity's detail view, allow the user to search for and select another entity to link to."
+            },
+            {
+              "subsection": 2,
+              "progress": 0,
+              "subtitle": "Visualize Immediate Connections",
+              "content": "On an entity's page, display a simple list or visual map of its direct connections."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "importance": 2,
+      "feature": "Advanced Querying & Visualization",
+      "widgetName": "advancedQuerying",
+      "overview": {
+        "header": "Advanced Querying & Visualization",
+        "text": "This feature allows creators to uncover hidden connections by asking complex questions across their entire knowledge base. It leverages the 'Query' side of the CQRS architecture for blazingly fast searches and includes a component for visualizing results as a dynamic network graph.",
+        "href": "/querying",
+        "icon": "Search"
+      },
+      "sections": [
+        {
+          "section": 1,
+          "progress": 0,
+          "demo": false,
+          "title": "Implement CQRS 'Query' Service",
+          "content": "Build the specialized, read-optimized service that handles complex queries. This service will aggregate data from our polyglot databases into a format that's easy to search.",
+          "href": "/querying/service",
+          "subsections": [
+            {
+              "subsection": 1,
+              "progress": 0,
+              "subtitle": "Develop a Read-Optimized Data Model",
+              "content": "Create a denormalized view of the data specifically for fast read access and complex queries."
+            },
+            {
+              "subsection": 2,
+              "progress": 0,
+              "subtitle": "Build the Query Parsing Engine",
+              "content": "Write the logic to interpret natural language or structured queries like 'Show all people at Event X'."
+            }
+          ]
+        },
+        {
+          "section": 2,
+          "progress": 0,
+          "demo": true,
+          "title": "Build the Query Interface and Results UI",
+          "content": "Develop the frontend components for the 'Chronicle Hub' that allow users to input queries and see the results.",
+          "href": "/querying/ui",
+          "subsections": [
+            {
+              "subsection": 1,
+              "progress": 0,
+              "subtitle": "Create the Search Input Component",
+              "content": "Build a powerful search bar with features like autocomplete for entities."
+            },
+            {
+              "subsection": 2,
+              "progress": 0,
+              "subtitle": "Develop the Results Display",
+              "content": "Create a UI to display query results in a clear list or table format, linking to the full entity pages."
+            }
+          ]
+        },
+        {
+          "section": 3,
+          "progress": 0,
+          "demo": true,
+          "title": "Implement Data Visualization (MVP)",
+          "content": "Integrate a graph visualization library to display query results as an interactive network graph, making complex relationships instantly clear.",
+          "href": "/querying/visualization",
+          "subsections": [
+            {
+              "subsection": 1,
+              "progress": 0,
+              "subtitle": "Integrate Graph Library (e.g., D3.js, Vis.js)",
+              "content": "Choose and implement a suitable JavaScript library for network graph visualization."
+            },
+            {
+              "subsection": 2,
+              "progress": 0,
+              "subtitle": "Format Query Results for Visualization",
+              "content": "Transform the data from the query API into the node/edge format required by the visualization library."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "importance": 3,
+      "feature": "Live AI Co-Pilot (Elevate Co-Pilot)",
+      "widgetName": "liveCoPilot",
+      "overview": {
+        "header": "Live AI Co-Pilot (Elevate Co-Pilot)",
+        "text": "The key differentiator for live creators. This desktop application **listens to the creator's speech** in real-time, identifies entities from their knowledge graph, and provides context-aware information and prompts as an on-screen overlay. The MVP will focus on core audio capture, entity matching, and displaying hints.",
+        "href": "/coPilot",
+        "icon": "Mic"
+      },
+      "sections": [
+        {
+          "section": 1,
+          "progress": 0,
+          "demo": false,
+          "title": "Develop Desktop App for Audio Capture",
+          "content": "Build a lightweight cross-platform desktop application (e.g., using Electron) that can capture microphone audio with user permission.",
+          "href": "/coPilot/audio",
+          "subsections": [
+            {
+              "subsection": 1,
+              "progress": 0,
+              "subtitle": "Setup Electron Shell",
+              "content": "Create the basic desktop application wrapper and configure permissions for audio access."
+            },
+            {
+              "subsection": 2,
+              "progress": 0,
+              "subtitle": "Implement Audio Streaming",
+              "content": "Write the logic to capture audio from the user's selected microphone and stream it."
+            }
+          ]
+        },
+        {
+          "section": 2,
+          "progress": 0,
+          "demo": false,
+          "title": "Integrate Real-Time Speech-to-Text",
+          "content": "Connect the captured audio stream to a real-time speech-to-text API to get a live transcript of what the creator is saying.",
+          "href": "/coPilot/stt",
+          "subsections": [
+            {
+              "subsection": 1,
+              "progress": 0,
+              "subtitle": "Select and Integrate STT Service",
+              "content": "Choose a provider (e.g., Google Speech-to-Text, AssemblyAI) and implement their real-time transcription API."
+            }
+          ]
+        },
+        {
+          "section": 3,
+          "progress": 0,
+          "demo": false,
+          "title": "Develop Real-Time Entity Matching Engine",
+          "content": "Create a service that processes the live transcript, identifies keywords, and matches them against entities in the user's knowledge graph using the Query API.",
+          "href": "/coPilot/matching",
+          "subsections": [
+            {
+              "subsection": 1,
+              "progress": 0,
+              "subtitle": "Implement Text Processing Logic",
+              "content": "Clean and parse the incoming transcript to identify potential entity names."
+            },
+            {
+              "subsection": 2,
+              "progress": 0,
+              "subtitle": "Connect to Query API",
+              "content": "Efficiently query the user's knowledge graph in real-time to check for matches."
+            }
+          ]
+        },
+        {
+          "section": 4,
+          "progress": 0,
+          "demo": true,
+          "title": "Build On-Screen Hint Overlay UI",
+          "content": "Design and develop the user interface that displays the contextual hints on the creator's screen. It must be non-intrusive and easy to read at a glance.",
+          "href": "/coPilot/overlay",
+          "subsections": [
+            {
+              "subsection": 1,
+              "progress": 0,
+              "subtitle": "Design the Hint Component",
+              "content": "Create the UI for displaying key information (e.g., dates, names, locations) from a matched entity."
+            },
+            {
+              "subsection": 2,
+              "progress": 0,
+              "subtitle": "Implement Overlay Window",
+              "content": "Code the overlay window to be 'always on top' and configurable by the user (position, opacity)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "importance": 4,
+      "feature": "User Authentication & Subscriptions",
+      "widgetName": "userAuthentication",
+      "overview": {
+        "header": "User Authentication & Subscriptions",
+        "text": "To support the SaaS business model, we need a robust system for user management. This includes **user sign-up, login, profile management, and a tiered subscription system** (Freemium, Premium, Teams). This ensures that each user has secure access to their own private knowledge graph.",
+        "href": "/authentication",
+        "icon": "User"
+      },
+      "sections": [
+        {
+          "section": 1,
+          "progress": 0,
+          "demo": false,
+          "title": "Implement User Authentication",
+          "content": "Integrate a secure, third-party authentication service to handle user registration and login, simplifying development and enhancing security.",
+          "href": "/authentication/auth",
+          "subsections": [
+            {
+              "subsection": 1,
+              "progress": 0,
+              "subtitle": "Integrate Auth Provider (e.g., Firebase Auth, Auth0)",
+              "content": "Set up the SDK and configure the chosen authentication provider."
+            },
+            {
+              "subsection": 2,
+              "progress": 0,
+              "subtitle": "Build Login/Sign-up UI",
+              "content": "Create the frontend pages and forms for users to create accounts and log in."
+            },
+            {
+              "subsection": 3,
+              "progress": 0,
+              "subtitle": "Secure API Endpoints",
+              "content": "Implement middleware to protect all data-related APIs, ensuring users can only access their own data."
+            }
+          ]
+        },
+        {
+          "section": 2,
+          "progress": 0,
+          "demo": false,
+          "title": "Implement Subscription Tiers (MVP)",
+          "content": "Integrate a payment provider and build the logic to manage different subscription levels and feature access based on the user's tier.",
+          "href": "/authentication/subscriptions",
+          "subsections": [
+            {
+              "subsection": 1,
+              "progress": 0,
+              "subtitle": "Integrate Payment Gateway (e.g., Stripe)",
+              "content": "Set up Stripe to handle subscription payments securely."
+            },
+            {
+              "subsection": 2,
+              "progress": 0,
+              "subtitle": "Develop Tier-based Feature Gating",
+              "content": "Write the backend logic to enable/disable features (e.g., unlimited queries, co-pilot access) based on the user's active subscription."
+            },
+            {
+              "subsection": 3,
+              "progress": 0,
+              "subtitle": "Build Subscription Management UI",
+              "content": "Create a page where users can choose a plan, enter payment details, and manage their subscription."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
