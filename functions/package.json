@@ -7,7 +7,6 @@
     "shell": "firebase functions:shell",
     "start": "npm run shell",
     "deploy": "firebase deploy --only functions",
-    "deploy:env": "firebase deploy --only functions --set-env-vars GOOGLE_GEN_AI_KEY=\"AIzaSyDifpYFdIeUX1YRaUV2K6Gwu0zMScl1fiQ\"",
     "logs": "firebase functions:log"
   },
   "engines": {
