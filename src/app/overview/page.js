@@ -21,7 +21,6 @@ export default function Page() {
   const handleSetUiContext = (item) => {
     setActiveStep(item);
   };
-  console.log("widgetData", widgetData);
 
   return (
     <Box
@@ -34,13 +33,22 @@ export default function Page() {
         color: "text.primary",
       }}
     >
-      <Title props={{ ...titleProps, string: header }} />
+      <Title props={{ ...titleProps, string: "header" }} />
 
-      <Widget
+      {/* <Widget
+        blueprintId="userDashboard"
+        context={{
+          user: {
+            firstName: "Alex",
+            lastName: "Johnson",
+            email: "alex.j@example.com",
+            role: "admin",
+          },
+        }}
         data={widgetData}
         activeStep={activeStep}
         handleSetUiContext={handleSetUiContext}
-      />
+      /> */}
     </Box>
   );
 }

@@ -1,4 +1,4 @@
-// functions/firestore/documentCountUpdater.js
+// functions/triggers/triggerDocCount.js
 
 const admin = require("firebase-admin");
 const { logger } = require("firebase-functions");

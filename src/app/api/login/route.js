@@ -23,7 +23,6 @@ if (!admin.apps.length && process.env.FIREBASE_SERVICE_ACCOUNT_KEY) {
  * Handles the secure login request for an admin user.
  */
 export async function POST(req) {
-  // If the Admin SDK failed to initialize, return an error.
   if (!admin.apps.length) {
     return NextResponse.json(
       { message: "Server configuration error." },
@@ -32,30 +31,39 @@ export async function POST(req) {
   }
 
   try {
-    const { email, password } = await req.json();
+    const { idToken } = await req.json();
 
-    if (!email || !password) {
+    if (!idToken) {
       return NextResponse.json(
-        { message: "Email and password are required." },
+        { message: "ID token is required." },
         { status: 400 }
       );
     }
 
-    const userRecord = await admin.auth().getUserByEmail(email);
-    const customToken = await admin.auth().createCustomToken(userRecord.uid);
+    // Verify the ID token. This is the crucial security step.
+    const decodedToken = await admin.auth().verifyIdToken(idToken);
 
-    return NextResponse.json({ customToken }, { status: 200 });
-  } catch (error) {
-    console.error("Login process failed:", error);
-
-    let errorMessage = "An error occurred during login.";
-    if (
-      error.code === "auth/user-not-found" ||
-      error.code === "auth/invalid-credential"
-    ) {
-      errorMessage = "Invalid email or password.";
+    // OPTIONAL BUT RECOMMENDED: Check for admin custom claim
+    // You would set this claim on the user via the Admin SDK at another time.
+    if (decodedToken.isAdmin !== true) {
+      return NextResponse.json(
+        { message: "User is not an admin." },
+        { status: 403 }
+      ); // 403 Forbidden
     }
 
-    return NextResponse.json({ message: errorMessage }, { status: 401 });
+    // At this point, the user is authenticated and authorized as an admin.
+    // You no longer need to create and send a custom token.
+    return NextResponse.json(
+      { status: "success", message: "Admin authenticated successfully." },
+      { status: 200 }
+    );
+  } catch (error) {
+    console.error("Login authorization failed:", error);
+    // The token might be expired, invalid, etc.
+    return NextResponse.json(
+      { message: "Authorization failed." },
+      { status: 401 }
+    );
   }
 }

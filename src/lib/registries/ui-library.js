@@ -1,5 +1,4 @@
-// Your Component Library
-// filename: components/ui-library.js
+// src/components/ui-library.js
 
 import React from "react";
 import { Box, Button, Typography, Link as MuiLink } from "@mui/material";

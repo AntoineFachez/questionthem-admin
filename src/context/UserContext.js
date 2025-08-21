@@ -1,13 +1,13 @@
-'use client';
+"use client";
 
-import React, { createContext, useContext, useState, useEffect } from 'react';
-import { initializeApp } from 'firebase/app';
+import React, { createContext, useContext, useState, useEffect } from "react";
+import { initializeApp } from "firebase/app";
 import {
   getAuth,
   onAuthStateChanged,
   signInWithCustomToken,
   signOut,
-} from 'firebase/auth';
+} from "firebase/auth";
 
 // Your public Firebase config variables from Next.js environment.
 const firebaseConfig = {
@@ -39,11 +39,11 @@ export function UserProvider({ children }) {
       if (auth) {
         await signInWithCustomToken(auth, customToken);
       } else {
-        throw new Error('Firebase Auth not initialized.');
+        throw new Error("Firebase Auth not initialized.");
       }
     } catch (e) {
-      console.error('Error signing in with custom token:', e);
-      setError(e.message || 'An error occurred during login.');
+      console.error("Error signing in with custom token:", e);
+      setError(e.message || "An error occurred during login.");
     } finally {
       setLoading(false);
     }
@@ -57,8 +57,8 @@ export function UserProvider({ children }) {
         await signOut(auth);
       }
     } catch (e) {
-      console.error('Error signing out:', e);
-      setError(e.message || 'An error occurred during sign out.');
+      console.error("Error signing out:", e);
+      setError(e.message || "An error occurred during sign out.");
     } finally {
       setLoading(false);
     }
@@ -76,13 +76,7 @@ export function UserProvider({ children }) {
     }
   }, []);
 
-  const contextValue = {
-    user,
-    loading,
-    error,
-    loginWithToken,
-    logout,
-  };
+  const contextValue = { app, user, loading, error, loginWithToken, logout };
 
   return (
     <UserContext.Provider value={contextValue}>{children}</UserContext.Provider>
@@ -92,7 +86,7 @@ export function UserProvider({ children }) {
 export function useUser() {
   const context = useContext(UserContext);
   if (context === null) {
-    throw new Error('useUser must be used within a UserProvider.');
+    throw new Error("useUser must be used within a UserProvider.");
   }
   return context;
 }

@@ -1,8 +1,9 @@
 "use client";
 import React from "react";
 import { Box, Button, Typography } from "@mui/material";
-import Overview from "./overview/Widget";
+
 import { useUser } from "../context/UserContext";
+import Overview from "./overview/Widget";
 
 import AdminLoginForm from "../components/auth/AdminLogIn";
 
@@ -47,7 +48,17 @@ export default function Home() {
           >
             Welcome {user.email || "Admin"}
           </Typography>
-          <Overview />{" "}
+          {/* <Overview
+            blueprintId="userDashboard"
+            context={{
+              user: {
+                firstName: "Alex",
+                lastName: "Johnson",
+                email: user.email,
+                role: "admin",
+              },
+            }}
+          />{" "} */}
         </>
       ) : (
         <AdminLoginForm />

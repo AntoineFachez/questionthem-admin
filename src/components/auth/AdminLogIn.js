@@ -1,8 +1,10 @@
+// src/components/auth/AdminLogin.js
 "use client";
 
 import React, { useState } from "react";
+import { getAuth, signInWithEmailAndPassword } from "firebase/auth";
+
 import { useUser } from "../../context/UserContext";
-import { post } from "../../app/api/api";
 
 // A complete React component for a secure admin login form.
 export default function AdminLoginForm() {
@@ -12,7 +14,7 @@ export default function AdminLoginForm() {
   const [error, setError] = useState(null);
 
   // Use the custom hook to get the login function from the context.
-  const { loginWithToken } = useUser();
+  const { app } = useUser();
 
   /**
    * Handles the form submission by sending user credentials to a backend API route.
@@ -24,28 +26,61 @@ export default function AdminLoginForm() {
     setError(null);
 
     try {
-      // The `post` function likely returns the parsed JSON data.
-      // Assuming a successful response returns a `customToken` and a failed one returns an error message.
-      const responseData = await post("login", { email, password });
+      // Step 1: Authenticate with Firebase on the client
+      const auth = getAuth(app);
+      const userCredential = await signInWithEmailAndPassword(
+        auth,
+        email,
+        password
+      );
+      const user = userCredential.user;
 
-      if (responseData && responseData.customToken) {
-        // Check for the existence of the token to determine success.
-        await loginWithToken(responseData.customToken);
-        console.log("Login successful, user state updated.");
-      } else {
-        // Handle the case where the API returns an error message in the data.
-        setError(
-          responseData.message || "Login failed. Please check your credentials."
-        );
+      // Step 2: Get the ID token for server-side verification
+      const idToken = await user.getIdToken();
+
+      // Step 3: Send the token to your API route using fetch
+      const response = await fetch("/api/login", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ idToken }),
+      });
+
+      const responseData = await response.json();
+
+      if (!response.ok) {
+        // If response is not 2xx, handle it as an error
+        throw new Error(responseData.message || "Authorization failed.");
       }
+
+      // If successful, the onAuthStateChanged listener in UserProvider
+      // has already updated the global user state.
+      // You can now redirect the user or update the UI.
+      console.log("Admin authorization successful!");
+      // Example: router.push('/admin/dashboard');
     } catch (e) {
       console.error("Error during login:", e);
-      // This `catch` block will handle network errors or server-side exceptions.
-      setError("An unexpected error occurred. Please try again.");
+      // Sign out the user if the server-side admin check fails
+      const auth = getAuth(app);
+      if (auth.currentUser) {
+        await auth.signOut();
+      }
+
+      // Handle specific Firebase auth errors
+      if (e.code === "auth/invalid-credential") {
+        setError("Invalid email or password.");
+      } else {
+        // Handle custom errors from your API or other exceptions
+        setError(
+          e.message || "An unexpected error occurred. Please try again."
+        );
+      }
     } finally {
       setLoading(false);
     }
   };
+
   return (
     <div className="min-h-screen flex items-center justify-center bg-gray-900 font-sans p-4">
       <div className="bg-gray-800 p-8 rounded-2xl shadow-2xl w-full max-w-md">

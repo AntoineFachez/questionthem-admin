@@ -11,7 +11,7 @@ exports.accountCleanup = onSchedule(
   {
     schedule: "0 0 * * *", // Runs at midnight every day
     timeoutSeconds: 540,
-    memory: "256MiB",
+    memory: "512MiB",
     maxInstances: 1,
   },
   async () => {

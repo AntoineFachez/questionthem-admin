@@ -9,7 +9,7 @@ import { getGenerativeModel, getVertexAI } from "firebase/vertexai";
 
 // Your Firebase project's configuration object.
 // This is not a secret and is safe to expose in client-side code.
-import { firebaseConfig } from "../../app/api/apiConfig";
+import { firebaseConfig } from "../../app/firebase/config";
 
 // Initialize the Firebase app
 const app = initializeApp(firebaseConfig);

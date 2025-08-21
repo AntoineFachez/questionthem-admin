@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import { Box, Typography, Paper, Button, IconButton } from "@mui/material";
 import { useTheme } from "@mui/material/styles";
 
-import { firebaseConfig } from "../../app/api/apiConfig";
+import { firebaseConfig } from "../../app/firebase/config";
 
 import { useFirestoreData } from "../../context/DataBaseContext";
 import { useUIContext } from "../../context/UIContext";

@@ -1,38 +1,18 @@
-// Refactored Widget.js
-// filename: app/overview/Widget.js
+"use client";
 
-"use client"; // This component needs to be a Client Component to fetch data
-
-import React, { useState, useEffect } from "react";
+import React from "react";
 import { Box, CircularProgress } from "@mui/material";
-import { renderComponent } from "../../components/Renderer"; // Adjust path
+import { renderComponent } from "../../core/Renderer";
+import { useSduiBlueprint } from "../../context/SduiContext";
 
-export default function Widget({}) {
-  const [uiBlueprint, setUiBlueprint] = useState(null);
-  const [loading, setLoading] = useState(true);
-  const [error, setError] = useState(null);
-
-  useEffect(() => {
-    // Fetch the UI blueprint from your Cloud Function endpoint
-    async function fetchUiBlueprint() {
-      try {
-        const response = await fetch(
-          "https://getoverviewwidget-kllcl4ciaa-ew.a.run.app"
-        );
-        if (!response.ok) {
-          throw new Error("Failed to fetch UI blueprint");
-        }
-        const data = await response.json();
-        setUiBlueprint(data);
-      } catch (err) {
-        setError(err.message);
-      } finally {
-        setLoading(false);
-      }
-    }
-
-    fetchUiBlueprint();
-  }, []);
+export default function Widget({
+  blueprintId,
+  context,
+  data,
+  activeStep,
+  handleSetUiContext,
+}) {
+  const { blueprint, loading, error } = useSduiBlueprint(blueprintId);
 
   if (loading) {
     return <CircularProgress />;
@@ -42,5 +22,12 @@ export default function Widget({}) {
     return <Box>Error: {error}</Box>;
   }
 
-  return renderComponent(uiBlueprint);
+  if (!blueprintId) {
+    return <Box>Please provide a Blueprint ID</Box>;
+  }
+  if (!blueprint) {
+    return <Box>Blueprint not found for ID: {blueprintId}</Box>;
+  }
+
+  return renderComponent(blueprint, context);
 }

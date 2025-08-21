@@ -1,32 +1,26 @@
-// functions/users/onCreate.js
+// functions/triggers/callableAuth.js
 
-const { onCreate } = require("firebase-functions/v2/auth"); // ✅ Corrected to onCreate
+const { onUserCreated } = require("firebase-functions/v2/identity");
+const admin = require("firebase-admin");
 const { logger } = require("firebase-functions");
-const { createUserProfile } = require("../services/userService");
-const { sendWelcomeEmail } = require("../services/emailService");
 
-/**
- * Background Function triggered when a new Firebase Auth user is created.
- * It creates a user profile and sends a welcome email.
- */
-exports.handleUserCreate = onCreate(
-  {
-    memory: "128MiB",
-  },
-  async (event) => {
-    const user = event.data;
-    logger.info(`New user signup: ${user.uid} (email: ${user.email || "N/A"})`);
+exports.handleUserCreate = onUserCreated(async (event) => {
+  const user = event.data;
+  const uid = user.uid;
 
-    try {
-      // We can run these tasks in parallel
-      await Promise.all([
-        createUserProfile({ logger, user }),
-        sendWelcomeEmail({ logger, user }),
-      ]);
-      logger.info(`Successfully processed new user ${user.uid}.`);
-    } catch (error) {
-      // The services will log the specifics, this is a top-level catch
-      logger.error(`Failed to process new user ${user.uid}:`, error.message);
-    }
-  },
-);
+  const userData = {
+    email: user.email || "",
+    displayName: user.displayName || "",
+    photoURL: user.photoURL || "",
+    createdAt: admin.firestore.FieldValue.serverTimestamp(),
+  };
+
+  try {
+    await admin.firestore().collection("users").doc(uid).set(userData);
+    logger.info(
+      `Successfully created user profile in Firestore for UID: ${uid}`,
+    );
+  } catch (error) {
+    logger.error(`Failed to create user profile for UID: ${uid}`, error);
+  }
+});
