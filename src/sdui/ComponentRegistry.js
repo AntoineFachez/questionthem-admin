@@ -20,11 +20,40 @@ import ConfirmDeletionDialog from "../components/dialog/ConfirmDeletionDialog";
 import DynamicList from "../components/list/DynamicList";
 import DynamicAccordion from "../components/accordion/DynamicAccordion";
 import ScrollDialog from "../components/dialog/ScrollDialog";
+import Header from "../components/title/Title";
 import Form from "./Form";
+import DetailView from "./DetailView";
+import SduiRenderer from "./SimpleRenderer";
+
+const Standin = ({ children }) => {
+  return <Box>{children}</Box>;
+};
+const Controls = ({ buttons = [] }) => {
+  return (
+    <Box sx={{ display: "flex", gap: 2, padding: 2 }}>
+      {buttons.map((buttonInfo, index) => (
+        <>
+          <SduiRenderer
+            key={index}
+            blueprint={{
+              type: "atom.button",
+              props: {
+                variant: "outlined",
+                sx: { textTransform: "capitalize", ...buttonInfo.sx },
+                children: buttonInfo.label,
+              },
+              action: buttonInfo.action,
+            }}
+          />
+        </>
+      ))}
+    </Box>
+  );
+};
 
 export const componentRegistry = {
   //* --- Atoms ---
-  "atom.box": ({ children, props }) => <Box {...props}>{children}</Box>,
+  "atom.box": ({ children, ...props }) => <Box {...props}>{children}</Box>,
   "atom.typography": ({ text, ...restOfProps }) => (
     <Typography {...restOfProps}>{text}</Typography>
   ),
@@ -59,6 +88,7 @@ export const componentRegistry = {
   ),
 
   "atom.paper": Paper,
+
   "atom.button": Button,
 
   //* --- Atoms --- Table
@@ -70,15 +100,30 @@ export const componentRegistry = {
   "atom.tableRow": TableRow,
   //* --- Molecules ---
   "molecule.searchBarGrouped": SearchBarGrouped,
-  "molecule.formField": TextField,
+  "molecule.formField": ({ ...props }) => <TextField {...props} />,
   "molecule.card": Card,
   //* --- Organisms ---
   "organism.navBar": Navbar,
+  "organism.controls": Controls,
   "organism.dynamicAccordion": DynamicAccordion,
   "organism.confirmDeletionDialog": ConfirmDeletionDialog,
-  "organism.dynamicList": DynamicList,
+  "organism.dynamicList": ({ data, itemInFocus, blueprint }) => (
+    <DynamicList data={data} itemInFocus={itemInFocus} blueprint={blueprint} />
+  ),
+  "organism.pagination": DynamicList,
   "organism.scrollDialog": ScrollDialog,
-  "organism.grid": ScrollDialog,
+  "organism.pageHeader": ({ title, ...restOfProps }) => {
+    const headerProps = {
+      string: title,
+      ...restOfProps,
+    };
+
+    return <Header props={headerProps} />;
+  },
   "organism.grid": Grid,
   "organism.form": Form,
+  "template.dashboard": Card,
+  "template.form": Card,
+  "template.detail": DetailView,
+  "template.listView": Standin,
 };

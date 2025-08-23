@@ -6,7 +6,12 @@ import { sharedComponents } from "./muiProps";
 export const darkTheme = createTheme({
   palette: {
     mode: "dark",
-    primary: { main: "#4fd1c5" }, // Teal
+    primary: {
+      main: "#5c6b73",
+      dark: "#0e1929",
+      light: "#9ccae9ff",
+    }, //["0e1929","c2dfe3","9db4c0","5c6b73","253237"]
+    secondary: { main: "#ffd400", dark: "#8F7700", light: "#d2ddab" }, //["ffd400","d2ddab","c2dfe3","95aeb5","0e1929"]
     background: {
       default: "#1f2937", // Dark gray
       paper: "#374151", // Slightly lighter dark gray

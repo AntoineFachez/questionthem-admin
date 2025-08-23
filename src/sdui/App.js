@@ -13,20 +13,21 @@ import statsDataMap from "./maps/stats.map.json";
 
 const viewConfigurations = {
   statsGrid: {
-    title: "Stats Dashboard",
+    title: "Stats",
     data: mockRawData.stats,
     dataMap: statsDataMap,
   },
   usersGrid: {
-    title: "User Management",
+    title: "Users",
     data: mockRawData.users,
     dataMap: usersDataMap,
   },
 };
 export default function App() {
+  const [uiTemplate, setUiTemplate] = useState(mockUiTemplate[4]);
   const [currentViewKey, setCurrentViewKey] = useState("statsGrid");
 
-  const [uiTemplate, setUiTemplate] = useState(mockUiTemplate[1]);
+  const [itemInFocus, setItemInFocus] = useState([mockRawData.stats[1]]);
   const [uiBlueprint, setUiBlueprint] = useState(null);
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState(null);
@@ -39,7 +40,7 @@ export default function App() {
       try {
         const finalBlueprint = generateBlueprint(
           uiTemplate,
-          mockRawData,
+          activeConfig.data,
           activeConfig.dataMap
         );
         setUiBlueprint(finalBlueprint);
@@ -52,7 +53,7 @@ export default function App() {
     }, 500);
     // Cleanup function for the timer
     return () => clearTimeout(timer);
-  }, [mockRawData, currentViewKey]);
+  }, [mockRawData, currentViewKey, mockUiTemplate]);
 
   const activeConfig = viewConfigurations[currentViewKey];
 
@@ -60,11 +61,13 @@ export default function App() {
     <>
       <Box
         sx={{
+          height: "100%",
           padding: 2,
           display: "flex",
           gap: 2,
           borderBottom: 1,
           borderColor: "divider",
+          overflow: "hidden",
         }}
       >
         <Button
@@ -97,7 +100,9 @@ export default function App() {
 
   return (
     <ScreenLayout
-      header={activeConfig?.title || "Dashboard"}
+      header={
+        `${activeConfig?.title + " as " + uiTemplate.type}` || "Dashboard"
+      }
       main={mainContent}
     />
   );

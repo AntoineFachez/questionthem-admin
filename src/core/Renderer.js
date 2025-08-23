@@ -4,7 +4,7 @@ import React from "react";
 import { atomicRegistry } from "../sdui/_firstTry/registries/atomic-library";
 import { moleculeRegistry } from "../sdui/_firstTry/registries/molecule-library";
 import { layoutRegistry } from "../sdui/_firstTry/registries/layout-library";
-import { screenRegistry } from "../sdui/_firstTry/registries/template-library";
+import { screenRegistry } from "../sdui/_firstTry/registries/templateRegistry";
 import { widgetRegistry } from "../sdui/_firstTry/registries/organisms-library";
 
 // Combine all registries into one for easier lookup.

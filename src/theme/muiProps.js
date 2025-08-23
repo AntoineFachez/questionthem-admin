@@ -1,7 +1,12 @@
 // src/configs/pageProps.js
 export const titleProps = {
   variant: "h2",
-  sx: { backgroundColor: "primary.dark", borderRadius: "1rem", m: 1, p: 1 },
+  sx: {
+    backgroundColor: "primary.dark",
+    borderRadius: "1rem",
+    m: 1,
+    p: 1,
+  },
 };
 export const containerProps = {
   sx: {
@@ -37,6 +42,7 @@ export const sharedComponents = {
         // fontWeight: "100",
         marginBottom: "1rem",
         textAlign: "center",
+        // color: "#ffd400",
       },
       h4: {
         fontWeight: "bold",

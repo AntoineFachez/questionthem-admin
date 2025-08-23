@@ -3,7 +3,7 @@
     "stats": [
       {
         "collection": "stories",
-        "documentCount": 12,
+        "documentCount": 1,
         "averageDocumentSizeBytes": 0,
         "topReadDocumentIds": [],
         "topTags": null,
@@ -12,7 +12,7 @@
 
       {
         "collection": "scripts",
-        "documentCount": 53,
+        "documentCount": 2,
         "averageDocumentSizeBytes": 0,
         "topReadDocumentIds": [{ "docId": "someId" }],
         "topTags": [{ "tag": "awesomeTag" }, { "tag": "awesomeTag" }],
@@ -20,6 +20,22 @@
       },
       {
         "collection": "persons",
+        "documentCount": 106,
+        "averageDocumentSizeBytes": 0,
+        "topReadDocumentIds": [{ "docId": "someId" }],
+        "topTags": [{ "tag": "awesomeTag" }],
+        "lastUpdated": "2025-06-11T15:13:19.932Z"
+      },
+      {
+        "collection": "groups",
+        "documentCount": 67,
+        "averageDocumentSizeBytes": 0,
+        "topReadDocumentIds": [{ "docId": "someId" }],
+        "topTags": [{ "tag": "awesomeTag" }],
+        "lastUpdated": "2025-06-11T15:13:19.932Z"
+      },
+      {
+        "collection": "events",
         "documentCount": 120,
         "averageDocumentSizeBytes": 0,
         "topReadDocumentIds": [{ "docId": "someId" }],

@@ -160,5 +160,262 @@
         ]
       }
     ]
+  },
+  {
+    "type": "template.detail",
+    "templateName": "Detail Template",
+    "description": "For displaying a single, focused piece of content like an article or product.",
+    "children": {
+      "__mapOver": "items",
+      "__template": {
+        "type": "atom.box",
+        "props": { "sx": { "padding": "1rem", "textAlign": "center" } },
+        "children": [
+          {
+            "type": "organism.pageHeader",
+            "props": {
+              "title": "{{header.title}}",
+              "subtitle": "{{header.subtitle}}"
+            }
+          },
+          {
+            "type": "atom.grid",
+            "props": {
+              "container": true,
+              "spacing": 4,
+              "sx": { "padding": 2 }
+            },
+            "children": [
+              {
+                "type": "atom.grid",
+                "props": { "item": true, "xs": 12, "md": 8 },
+                "children": [
+                  {
+                    "type": "organism.contentBlock",
+                    "props": {
+                      "body": "{{content.body}}"
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "atom.grid",
+                "props": { "item": true, "xs": 12, "md": 4 },
+                "children": [
+                  {
+                    "type": "organism.sidebar",
+                    "props": {
+                      "title": "Related Links"
+                    },
+                    "children": {
+                      "__mapOver": "items",
+                      "__template": {
+                        "type": "molecule.linkItem",
+                        "props": {
+                          "text": "{{item.title}}",
+                          "url": "{{item.url}}"
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "template.listView",
+    "templateName": "Listing/Grid Template",
+    "description": "For displaying a collection of similar items, like search results or products.",
+    "children": {
+      "__mapOver": "items",
+      "__template": {
+        "type": "atom.box",
+        "props": {
+          "sx": {
+            "padding": "1rem",
+            "textAlign": "center",
+            "overflow": "hidden"
+          }
+        },
+
+        "children": [
+          {
+            "type": "organism.pageHeader",
+            "props": {
+              "title": "{{header.title}}"
+            }
+          },
+
+          {
+            "type": "organism.controls",
+            "props": {
+              "buttons": [
+                {
+                  "label": "Name",
+                  "sx": { "padding": 2 },
+                  "action": {
+                    "type": "SORT_DATA",
+                    "payload": { "sortBy": "name" }
+                  }
+                },
+                {
+                  "label": "Date",
+                  "action": {
+                    "type": "SORT_DATA",
+                    "payload": { "sortBy": "date" }
+                  }
+                },
+                {
+                  "label": "Popularity",
+                  "action": {
+                    "type": "SORT_DATA",
+                    "payload": { "sortBy": "popularity" }
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "organism.grid",
+            "props": { "sx": { "padding": 2 } },
+            "children": {
+              "__mapOver": "items",
+              "__template": {
+                "type": "molecule.card",
+                "props": {
+                  "sx": {
+                    "padding": "1rem",
+                    "textAlign": "center",
+                    "overflow": "auto"
+                  }
+                },
+                "children": [
+                  {
+                    "type": "atom.typography",
+                    "props": { "variant": "h6", "text": "{{item.title}}" }
+                  },
+                  {
+                    "type": "atom.typography",
+                    "props": { "variant": "body2", "text": "{{item.subtitle}}" }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "type": "organism.pagination",
+            "props": {
+              "currentPage": "{{pagination.currentPage}}",
+              "totalPages": "{{pagination.totalPages}}"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "template.dashboard",
+    "templateName": "Dashboard Template",
+    "description": "A modular layout for displaying personalized user data and widgets.",
+    "children": {
+      "__mapOver": "items",
+      "__template": {
+        "type": "atom.box",
+        "props": { "sx": { "display": "flex" } },
+        "children": [
+          {
+            "type": "organism.sidebarNav",
+            "props": {
+              "navItems": [
+                { "label": "Dashboard", "icon": "dashboard" },
+                { "label": "Profile", "icon": "person" },
+                { "label": "Settings", "icon": "settings" }
+              ]
+            }
+          },
+          {
+            "type": "atom.box",
+            "props": { "component": "main", "sx": { "flexGrow": 1, "p": 3 } },
+            "children": [
+              {
+                "type": "organism.pageHeader",
+                "props": {
+                  "title": "Welcome, {{user.name}}!"
+                }
+              },
+              {
+                "type": "organism.grid",
+                "children": {
+                  "__mapOver": "items",
+                  "__template": {
+                    "type": "molecule.card",
+                    "props": { "sx": { "padding": "1rem" } },
+                    "children": [
+                      {
+                        "type": "atom.typography",
+                        "props": { "variant": "h6", "text": "{{item.title}}" }
+                      },
+                      {
+                        "type": "atom.typography",
+                        "props": {
+                          "variant": "h3",
+                          "text": "{{item.subtitle}}"
+                        }
+                      }
+                    ]
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "template.form",
+    "templateName": "Form Template",
+    "description": "A focused layout for user input, such as login or settings.",
+    "children": {
+      "__mapOver": "items",
+      "__template": {
+        "type": "atom.box",
+        "props": {
+          "sx": {
+            "display": "flex",
+            "flexDirection": "column",
+            "alignItems": "center",
+            "justifyContent": "center",
+            "minHeight": "80vh"
+          }
+        },
+        "children": [
+          {
+            "type": "organism.form",
+            "props": {
+              "title": "{{form.title}}",
+              "submitButtonText": "{{form.submitButtonText}}"
+            },
+            "children": {
+              "__mapOver": "items",
+              "__template": {
+                "type": "molecule.formField",
+                "props": {
+                  "value": "{{formData.value}}",
+                  "label": "{{item.label}}",
+                  "name": "{{item.name}}",
+                  "type": "{{item.type}}",
+                  "placeholder": "some placeholder"
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
   }
 ]

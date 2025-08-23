@@ -38,7 +38,8 @@ export function generateBlueprint(uiTemplate, rawData, dataMap) {
       return node;
     }
     if (node.__mapOver) {
-      const sourceArray = rawData[dataMap.source];
+      // const sourceArray = rawData[dataMap.source];
+      const sourceArray = rawData;
       // --- 2. Source Array Validation ---
       if (!Array.isArray(sourceArray)) {
         console.warn(

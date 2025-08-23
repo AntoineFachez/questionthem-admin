@@ -4,7 +4,7 @@ import React from "react";
 import { atomicRegistry } from "../registries/atomic-library";
 import { moleculeRegistry } from "../registries/molecule-library";
 import { layoutRegistry } from "../registries/layout-library";
-import { screenRegistry } from "../registries/template-library";
+import { screenRegistry } from "../registries/templateRegistry";
 import { widgetRegistry } from "../registries/organisms-library";
 
 // Combine all registries into one for easier lookup.

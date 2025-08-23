@@ -17,6 +17,7 @@ import Title from "../../../components/title/Title";
 import NextLink from "next/link";
 // This registry holds only the most basic, universal components.
 export const atomicRegistry = {
+  container: ({ children, props }) => <Box {...props}>{children}</Box>,
   Box: ({ children, props }) => <Box {...props}>{children}</Box>,
   Typography: ({ children, props }) => (
     <Typography {...props}>{children}</Typography>

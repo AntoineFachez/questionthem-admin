@@ -17,7 +17,7 @@ export function ScreenLayout({ header, main }) {
         height: "100%",
         display: "flex",
         flexDirection: "column",
-        backgroundColor: "primary",
+        // backgroundColor: "secondary.dark",
       }}
     >
       {/* Header Slot */}
@@ -29,9 +29,11 @@ export function ScreenLayout({ header, main }) {
       <Box
         component="main"
         sx={{
-          flexGrow: 1,
           width: "100%",
+          height: "100%",
+          flexGrow: 1,
           py: 4, // Add some vertical padding
+          overflow: "auto",
         }}
       >
         <Container maxWidth="lg">{main}</Container>
