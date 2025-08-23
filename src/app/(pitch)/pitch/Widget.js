@@ -3,7 +3,7 @@
 import React from "react";
 import { Box, Paper } from "@mui/material";
 
-import DynamicList from "../../../components/list/List";
+import DynamicList from "../../../components/list/DynamicList";
 import SimpleTree from "../../../components/treeView/SimpleTree";
 
 import { containerProps } from "../../../theme/muiProps";

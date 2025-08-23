@@ -1,5 +1,5 @@
 // src/lib/registries/data-actions.js
-import { get, post } from "../../app/api/api";
+import { get, post } from "../../../app/api/api";
 import {
   getFirestore,
   collection,

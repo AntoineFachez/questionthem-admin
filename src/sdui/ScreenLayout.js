@@ -1,5 +1,3 @@
-// filename: components/layouts/ScreenLayout.js
-
 import React from "react";
 import { Box, Container } from "@mui/material";
 
@@ -16,10 +14,10 @@ export function ScreenLayout({ header, main }) {
   return (
     <Box
       sx={{
+        height: "100%",
         display: "flex",
         flexDirection: "column",
-        minHeight: "100vh",
-        backgroundColor: "#f4f6f8", // A neutral background color for the page
+        backgroundColor: "primary",
       }}
     >
       {/* Header Slot */}
@@ -42,5 +40,4 @@ export function ScreenLayout({ header, main }) {
   );
 }
 
-// It's good practice to provide a default export
 export default ScreenLayout;

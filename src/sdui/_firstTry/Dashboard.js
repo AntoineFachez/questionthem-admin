@@ -4,11 +4,11 @@ import React, { useState, useEffect } from "react";
 import { Box } from "@mui/material";
 
 import { rawData, viewModel } from "./mockData.json";
-import {
-  transformStatsToBlueprint,
-} from "./transformers/dashboard-transformer";
+import fetchedBlueprint from "./blueprint.json";
+import { transformStatsToBlueprint } from "./transformers/dashboard-transformer";
 import { renderScreen } from "./mappers/renderer";
-import Renderer from "./Renderer";
+import Renderer from "../../core/Renderer";
+import ScreenLayout from "../ScreenLayout";
 
 export default function DashboardPage({ context }) {
   const [blueprint, setBlueprint] = useState(null);
@@ -58,10 +58,5 @@ export default function DashboardPage({ context }) {
   if (error) return <Box>Error: {error}</Box>;
 
   // Here's the magic: render the fetched blueprint!
-  return (
-    <main>
-      <h1>Dashboard Stats</h1>
-      <Renderer blueprint={blueprint} />
-    </main>
-  );
+  return <Renderer blueprint={blueprint} />;
 }

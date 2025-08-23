@@ -1,4 +1,3 @@
-// src/lib/registries/layout-library.js
 import React from "react";
 import { Box } from "@mui/material";
 

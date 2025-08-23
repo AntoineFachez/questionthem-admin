@@ -8,7 +8,7 @@ import React, {
   useCallback,
 } from "react";
 import { useUser } from "./UserContext";
-import { dataActionRegistry } from "../core/registries/data-actions";
+import { dataActionRegistry } from "../sdui/_firstTry/registries/data-actions";
 
 const DataBaseContext = createContext(null);
 

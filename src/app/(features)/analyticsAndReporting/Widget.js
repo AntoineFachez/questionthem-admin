@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import { Box, Typography } from "@mui/material";
 
-import DynamicList from "../../../components/list/List";
+import DynamicList from "../../../components/list/DynamicList";
 
 export default function Widget({
   data,

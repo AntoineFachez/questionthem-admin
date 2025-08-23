@@ -1,0 +1,8 @@
+{
+  "source": "users",
+  "bindings": {
+    "title": "name",
+    "subtitle": "email",
+    "detail": "role | capitalize"
+  }
+}

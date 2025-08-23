@@ -1,0 +1,164 @@
+[
+  {
+    "type": "organism.form",
+    "title": "",
+    "props": { "style": { "padding": 16 } },
+    "children": [
+      {
+        "type": "atom.typography",
+        "props": { "variant": "h4", "text": "Welcome Back" }
+      },
+      {
+        "type": "molecule.formField",
+        "props": { "label": "Email", "name": "email" }
+      },
+      {
+        "type": "molecule.formField",
+        "props": { "label": "Password", "name": "password", "type": "password" }
+      },
+      {
+        "type": "atom.button",
+        "props": { "label": "Log In", "variant": "contained" },
+        "action": {
+          "type": "SUBMIT_FORM",
+          "endpoint": "/api/auth/login"
+        }
+      }
+    ]
+  },
+  {
+    "type": "organism.grid",
+    "props": { "sx": { "padding": 2, "width": "100%" } },
+    "children": {
+      "__mapOver": "items",
+      "__template": {
+        "type": "molecule.card",
+        "props": { "sx": { "padding": "1rem", "textAlign": "center" } },
+        "children": [
+          {
+            "type": "atom.typography",
+            "props": {
+              "variant": "h6",
+              "color": "text.secondary",
+              "text": "{{item.title}}"
+            }
+          },
+          {
+            "type": "atom.typography",
+            "props": { "variant": "h3", "text": "{{item.subtitle}}" }
+          },
+          {
+            "type": "atom.typography",
+            "props": {
+              "variant": "body2",
+              "color": "text.secondary",
+              "text": "{{item.detail}}"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "atom.tableContainer",
+    "children": [
+      {
+        "type": "atom.table",
+        "props": { "sx": { "minWidth": "100%" } },
+        "children": [
+          {
+            "type": "atom.tableHead",
+            "children": [
+              {
+                "type": "atom.tableRow",
+                "children": [
+                  {
+                    "type": "atom.tableCell",
+                    "children": [
+                      { "type": "atom.typography", "props": { "text": "Name" } }
+                    ]
+                  },
+                  {
+                    "type": "atom.tableCell",
+                    "children": [
+                      {
+                        "type": "atom.typography",
+                        "props": { "text": "Email" }
+                      }
+                    ]
+                  },
+                  {
+                    "type": "atom.tableCell",
+                    "children": [
+                      { "type": "atom.typography", "props": { "text": "Role" } }
+                    ]
+                  },
+                  {
+                    "type": "atom.tableCell",
+                    "children": [
+                      {
+                        "type": "atom.typography",
+                        "props": { "text": "Actions" }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "atom.tableBody",
+            "children": {
+              "__mapOver": "users",
+              "__template": {
+                "type": "atom.tableRow",
+                "props": { "hover": true },
+                "children": [
+                  {
+                    "type": "atom.tableCell",
+                    "children": [
+                      {
+                        "type": "atom.typography",
+                        "props": { "text": "{{item.name}}" }
+                      }
+                    ]
+                  },
+                  {
+                    "type": "atom.tableCell",
+                    "children": [
+                      {
+                        "type": "atom.typography",
+                        "props": { "text": "{{item.email}}" }
+                      }
+                    ]
+                  },
+                  {
+                    "type": "atom.tableCell",
+                    "children": [
+                      {
+                        "type": "atom.typography",
+                        "props": { "text": "{{item.role | capitalize}}" }
+                      }
+                    ]
+                  },
+                  {
+                    "type": "atom.tableCell",
+                    "children": [
+                      {
+                        "type": "molecule.actionMenu",
+                        "props": {
+                          "userId": "{{item.id}}",
+                          "options": ["edit", "delete"]
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

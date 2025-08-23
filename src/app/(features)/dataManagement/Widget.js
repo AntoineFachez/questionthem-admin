@@ -4,7 +4,7 @@ import { Box, Typography } from "@mui/material";
 
 import { useUIContext } from "../../../context/UIContext";
 
-import DynamicList from "../../../components/list/List";
+import DynamicList from "../../../components/list/DynamicList";
 import DynamicForm from "../form/DynamicForm";
 import DataBaseOverview from "../dataBase/DataBaseOverview";
 

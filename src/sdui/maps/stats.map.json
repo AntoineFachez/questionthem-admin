@@ -1,0 +1,24 @@
+{
+  "source": "stats",
+  "bindings": {
+    "title": "collection | capitalize",
+
+    "subtitle": {
+      "__format": "{count} Docs",
+      "bindings": {
+        "count": "documentCount"
+      }
+    },
+
+    "detail": {
+      "__format": "Top Tags: {tags}",
+      "bindings": {
+        "tags": {
+          "__forEach": "topTags",
+          "template": "{{item.tag}}",
+          "__join": ", "
+        }
+      }
+    }
+  }
+}

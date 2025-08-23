@@ -6,7 +6,7 @@ import { useUser } from "../context/UserContext";
 import Widget from "./overview/Widget";
 
 import AdminLoginForm from "../components/auth/AdminLogIn";
-import App from "../core/App";
+import App from "../sdui/App";
 
 export default function Home() {
   const { user, loading } = useUser();

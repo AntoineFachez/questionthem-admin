@@ -1,5 +1,5 @@
 {
-  "rawData": {
+  "mockRawData": {
     "stats": [
       {
         "collection": "stories",
@@ -14,52 +14,41 @@
         "collection": "scripts",
         "documentCount": 53,
         "averageDocumentSizeBytes": 0,
-        "topReadDocumentIds": [],
-        "topTags": null,
+        "topReadDocumentIds": [{ "docId": "someId" }],
+        "topTags": [{ "tag": "awesomeTag" }, { "tag": "awesomeTag" }],
         "lastUpdated": "2025-08-21T07:13:19.932Z"
       },
       {
         "collection": "persons",
         "documentCount": 120,
         "averageDocumentSizeBytes": 0,
-        "topReadDocumentIds": [],
-        "topTags": null,
+        "topReadDocumentIds": [{ "docId": "someId" }],
+        "topTags": [{ "tag": "awesomeTag" }],
         "lastUpdated": "2025-06-11T15:13:19.932Z"
       }
-    ]
-  },
-  "viewModel": {
-    "viewId": "DatabaseStatsView",
-    "targetComponent": "Table",
-    "columns": [
-      { "id": "metric", "label": "Statistic" },
-      { "id": "value", "label": "Value", "align": "right" }
     ],
-    "mappings": [
+    "users": [
       {
-        "sourcePath": "lastUpdated",
-        "metricLabel": "Last Updated"
+        "id": "user-001",
+        "name": "Alice Johnson",
+        "email": "alice@example.com",
+        "role": "admin"
       },
       {
-        "sourcePath": "stats.stories.documentCount",
-        "metricLabel": "Document Count (Stories)"
+        "id": "user-002",
+        "name": "Bob Williams",
+        "email": "bob@example.com",
+        "role": "editor"
       },
       {
-        "sourcePath": "stats.stories.averageDocumentSizeBytes",
-        "metricLabel": "Avg. Document Size (Bytes)"
-      },
-      {
-        "sourcePath": "stats.stories.topReadDocumentIds",
-        "metricLabel": "Top Read Documents",
-        "formatIfEmpty": "N/A"
-      },
-      {
-        "sourcePath": "stats.stories.topTags",
-        "metricLabel": "Top Tags",
-        "formatIfEmpty": "N/A"
+        "id": "user-003",
+        "name": "Charlie Brown",
+        "email": "charlie@example.com",
+        "role": "viewer"
       }
     ]
   },
+
   "blueprint": {
     "metadata": {
       "id": "statistics-screen-v1",
