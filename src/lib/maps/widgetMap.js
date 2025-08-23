@@ -1,6 +1,6 @@
 // src/components/formComponents.js
-import DynamicForm from "../../widgets/form/DynamicForm";
-import DataBaseOverview from "../../widgets/dataBase/DataBaseOverview";
+import DynamicForm from "../../app/(features)/form/DynamicForm";
+import DataBaseOverview from "../../app/(features)/dataBase/DataBaseOverview";
 // import AnotherForm from "./form/AnotherForm";
 // import SomeOtherWidget from "./widgets/SomeOtherWidget";
 

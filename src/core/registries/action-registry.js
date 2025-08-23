@@ -1,11 +1,8 @@
-// src/actions/action-registry.js
-
-// Import necessary libraries or utilities
+// src/lib/registries/action-registry.js
 import { toast } from "react-toastify";
 import { userApi } from "../api/user-api";
 
 export const actionRegistry = {
-  // Now accepts 'router' as a parameter
   navigateTo: ({ router, path }) => {
     router.push(path);
   },

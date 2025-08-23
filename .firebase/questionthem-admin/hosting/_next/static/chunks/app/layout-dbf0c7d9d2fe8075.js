@@ -1,1 +1,300 @@
-(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[177],{1432:(e,r,n)=>{"use strict";n.r(r),n.d(r,{default:()=>g});var t=n(5155);n(2115);var o=n(9839),i=n(962),s=n(4581),a=n(7055),l=n(9788),c=n(4955),u=n(1534),d=n(6874),h=n.n(d);function m(){let{logout:e,loading:r}=(0,a.J)(),n=async()=>{await e()};return(0,t.jsx)("div",{className:"p-4",children:(0,t.jsx)("button",{onClick:n,disabled:r,className:"w-full sm:w-auto bg-red-600 text-white font-bold py-2 px-4 rounded-lg shadow-md hover:bg-red-700 transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-opacity-50",children:r?"Logging out...":"Log Out"})})}function f(){let{user:e,loading:r}=(0,a.J)();return(0,t.jsx)(s.A,{component:"nav",sx:{bgcolor:"grey.800",color:"white",p:2,boxShadow:3},children:(0,t.jsxs)(s.A,{sx:{width:"100%",maxWidth:"lg",mx:"auto",display:"flex",justifyContent:"space-between",alignItems:"center"},children:[(0,t.jsx)(c.A,{variant:"h6",color:"primary",sx:{fontWeight:"bold"},children:(0,t.jsx)(u.A,{component:h(),href:"/",color:"inherit",underline:"none",sx:{transition:"color 0.3s ease-in-out","&:hover":{color:"primary.main"}},children:"Admin Dashboard"})}),e&&(0,t.jsxs)(s.A,{sx:{display:"flex",gap:4},children:[(0,t.jsx)(u.A,{component:h(),href:"/dashboard",color:"inherit",underline:"none",sx:{transition:"color 0.3s ease-in-out","&:hover":{color:"primary.main"}},children:"Dashboard"}),(0,t.jsx)(u.A,{component:h(),href:"/user",color:"inherit",underline:"none",sx:{transition:"color 0.3s ease-in-out","&:hover":{color:"primary.main"}},children:"Users"}),(0,t.jsx)(u.A,{component:h(),href:"/settings",color:"inherit",underline:"none",sx:{transition:"color 0.3s ease-in-out","&:hover":{color:"primary.main"}},children:"Settings"}),(0,t.jsx)(m,{})]})]})})}let p=(0,o.A)({palette:{mode:"dark",primary:{main:"#4fd1c5"},background:{default:"#1f2937",paper:"#374151"},text:{primary:"#e5e7eb",secondary:"#9ca3af"}},typography:{fontFamily:"sans-serif"}});function g(e){let{children:r}=e;return(0,t.jsx)("html",{lang:"en",children:(0,t.jsx)(i.A,{theme:p,children:(0,t.jsx)(s.A,{component:"body",sx:{height:"100%",bgcolor:"background.default",m:0,p:0,boxSizing:"border-box",color:"text.primary",fontFamily:"sans-serif"},children:(0,t.jsx)(a.v,{children:(0,t.jsxs)(l.n,{children:[(0,t.jsx)(f,{}),(0,t.jsx)(s.A,{component:"main",children:r})]})})})})})}},5289:(e,r,n)=>{Promise.resolve().then(n.bind(n,1432))},7055:(e,r,n)=>{"use strict";n.d(r,{J:()=>h,v:()=>d});var t=n(5155),o=n(2115),i=n(3915),s=n(5404);let a={apiKey:"AIzaSyDHaDT8V1oHWE5qnKXX1bn2C0kjxhI06pI",authDomain:"questionthem-90ccf.firebaseapp.com",projectId:"questionthem-90ccf",storageBucket:"questionthem-90ccf.appspot.com",messagingSenderId:"575809602490",appId:"1:575809602490:web:c90f1a128b592a162fd383"},l=a.apiKey?(0,i.Wp)(a):null,c=l?(0,s.xI)(l):null,u=(0,o.createContext)(null);function d(e){let{children:r}=e,[n,i]=(0,o.useState)(null),[a,l]=(0,o.useState)(!0),[d,h]=(0,o.useState)(null),m=async e=>{l(!0),h(null);try{if(c)await (0,s.p)(c,e);else throw Error("Firebase Auth not initialized.")}catch(e){console.error("Error signing in with custom token:",e),h(e.message||"An error occurred during login.")}finally{l(!1)}},f=async()=>{l(!0),h(null);try{c&&await (0,s.CI)(c)}catch(e){console.error("Error signing out:",e),h(e.message||"An error occurred during sign out.")}finally{l(!1)}};return(0,o.useEffect)(()=>{if(c){let e=(0,s.hg)(c,e=>{i(e),l(!1)});return()=>e()}l(!1)},[]),(0,t.jsx)(u.Provider,{value:{user:n,loading:a,error:d,loginWithToken:m,logout:f},children:r})}function h(){let e=(0,o.useContext)(u);if(null===e)throw Error("useUser must be used within a UserProvider.");return e}},9788:(e,r,n)=>{"use strict";n.d(r,{G:()=>c,n:()=>l});var t=n(5155),o=n(2115),i=n(5317),s=n(7055);let a=(0,o.createContext)(null);function l(e){let{children:r}=e,{user:n,loading:l}=(0,s.J)(),[c,u]=(0,o.useState)([]),[d,h]=(0,o.useState)(!0),[m,f]=(0,o.useState)(null),p=["_meta_dataBlueprint","_meta_schemas","_meta_uiConfig","administrations","agencies","companies","events","legislative_bodies","locations","organizations","persons","relationships","scripts","stories","trumpcryptoworld","videos"];return(0,o.useEffect)(()=>{!l&&n&&(async()=>{try{h(!0),f(null);let e=(0,i.aU)(),r=[];for(let n of p){let t=await (0,i.GG)((0,i.rJ)(e,n));r.push({name:n,docCount:t.size})}u(r)}catch(e){console.error("Error fetching database overview: ",e),f(e.message)}finally{h(!1)}})()},[n,l]),(0,t.jsx)(a.Provider,{value:{dbOverview:c,loading:d,error:m},children:r})}function c(){let e=(0,o.useContext)(a);if(null===e)throw Error("useFirestoreData must be used within a FirestoreDataProvider.");return e}}},e=>{e.O(0,[965,135,84,140,836,441,964,358],()=>e(e.s=5289)),_N_E=e.O()}]);
+(self.webpackChunk_N_E = self.webpackChunk_N_E || []).push([
+  [177],
+  {
+    1432: (e, r, n) => {
+      "use strict";
+      n.r(r), n.d(r, { default: () => g });
+      var t = n(5155);
+      n(2115);
+      var o = n(9839),
+        i = n(962),
+        s = n(4581),
+        a = n(7055),
+        l = n(9788),
+        c = n(4955),
+        u = n(1534),
+        d = n(6874),
+        h = n.n(d);
+      function m() {
+        let { logout: e, loading: r } = (0, a.J)(),
+          n = async () => {
+            await e();
+          };
+        return (0, t.jsx)("div", {
+          className: "p-4",
+          children: (0, t.jsx)("button", {
+            onClick: n,
+            disabled: r,
+            className:
+              "w-full sm:w-auto bg-red-600 text-white font-bold py-2 px-4 rounded-lg shadow-md hover:bg-red-700 transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-opacity-50",
+            children: r ? "Logging out..." : "Log Out",
+          }),
+        });
+      }
+      function f() {
+        let { user: e, loading: r } = (0, a.J)();
+        return (0, t.jsx)(s.A, {
+          component: "nav",
+          sx: { bgcolor: "grey.800", color: "white", p: 2, boxShadow: 3 },
+          children: (0, t.jsxs)(s.A, {
+            sx: {
+              width: "100%",
+              maxWidth: "lg",
+              mx: "auto",
+              display: "flex",
+              justifyContent: "space-between",
+              alignItems: "center",
+            },
+            children: [
+              (0, t.jsx)(c.A, {
+                variant: "h6",
+                color: "primary",
+                sx: { fontWeight: "bold" },
+                children: (0, t.jsx)(u.A, {
+                  component: h(),
+                  href: "/",
+                  color: "inherit",
+                  underline: "none",
+                  sx: {
+                    transition: "color 0.3s ease-in-out",
+                    "&:hover": { color: "primary.main" },
+                  },
+                  children: "Admin Dashboard",
+                }),
+              }),
+              e &&
+                (0, t.jsxs)(s.A, {
+                  sx: { display: "flex", gap: 4 },
+                  children: [
+                    (0, t.jsx)(u.A, {
+                      component: h(),
+                      href: "/dashboard",
+                      color: "inherit",
+                      underline: "none",
+                      sx: {
+                        transition: "color 0.3s ease-in-out",
+                        "&:hover": { color: "primary.main" },
+                      },
+                      children: "Dashboard",
+                    }),
+                    (0, t.jsx)(u.A, {
+                      component: h(),
+                      href: "/user",
+                      color: "inherit",
+                      underline: "none",
+                      sx: {
+                        transition: "color 0.3s ease-in-out",
+                        "&:hover": { color: "primary.main" },
+                      },
+                      children: "Users",
+                    }),
+                    (0, t.jsx)(u.A, {
+                      component: h(),
+                      href: "/settings",
+                      color: "inherit",
+                      underline: "none",
+                      sx: {
+                        transition: "color 0.3s ease-in-out",
+                        "&:hover": { color: "primary.main" },
+                      },
+                      children: "Settings",
+                    }),
+                    (0, t.jsx)(m, {}),
+                  ],
+                }),
+            ],
+          }),
+        });
+      }
+      let p = (0, o.A)({
+        palette: {
+          mode: "dark",
+          primary: { main: "#4fd1c5" },
+          background: { default: "#1f2937", paper: "#374151" },
+          text: { primary: "#e5e7eb", secondary: "#9ca3af" },
+        },
+        typography: { fontFamily: "sans-serif" },
+      });
+      function g(e) {
+        let { children: r } = e;
+        return (0, t.jsx)("html", {
+          lang: "en",
+          children: (0, t.jsx)(i.A, {
+            theme: p,
+            children: (0, t.jsx)(s.A, {
+              component: "body",
+              sx: {
+                height: "100%",
+                bgcolor: "background.default",
+                m: 0,
+                p: 0,
+                boxSizing: "border-box",
+                color: "text.primary",
+                fontFamily: "sans-serif",
+              },
+              children: (0, t.jsx)(a.v, {
+                children: (0, t.jsxs)(l.n, {
+                  children: [
+                    (0, t.jsx)(f, {}),
+                    (0, t.jsx)(s.A, { component: "main", children: r }),
+                  ],
+                }),
+              }),
+            }),
+          }),
+        });
+      }
+    },
+    5289: (e, r, n) => {
+      Promise.resolve().then(n.bind(n, 1432));
+    },
+    7055: (e, r, n) => {
+      "use strict";
+      n.d(r, { J: () => h, v: () => d });
+      var t = n(5155),
+        o = n(2115),
+        i = n(3915),
+        s = n(5404);
+      let a = {
+          apiKey: "AIzaSyDHaDT8V1oHWE5qnKXX1bn2C0kjxhI06pI",
+          authDomain: "questionthem-90ccf.firebaseapp.com",
+          projectId: "questionthem-90ccf",
+          storageBucket: "questionthem-90ccf.appspot.com",
+          messagingSenderId: "575809602490",
+          appId: "1:575809602490:web:c90f1a128b592a162fd383",
+        },
+        l = a.apiKey ? (0, i.Wp)(a) : null,
+        c = l ? (0, s.xI)(l) : null,
+        u = (0, o.createContext)(null);
+      function d(e) {
+        let { children: r } = e,
+          [n, i] = (0, o.useState)(null),
+          [a, l] = (0, o.useState)(!0),
+          [d, h] = (0, o.useState)(null),
+          m = async (e) => {
+            l(!0), h(null);
+            try {
+              if (c) await (0, s.p)(c, e);
+              else throw Error("Firebase Auth not initialized.");
+            } catch (e) {
+              console.error("Error signing in with custom token:", e),
+                h(e.message || "An error occurred during login.");
+            } finally {
+              l(!1);
+            }
+          },
+          f = async () => {
+            l(!0), h(null);
+            try {
+              c && (await (0, s.CI)(c));
+            } catch (e) {
+              console.error("Error signing out:", e),
+                h(e.message || "An error occurred during sign out.");
+            } finally {
+              l(!1);
+            }
+          };
+        return (
+          (0, o.useEffect)(() => {
+            if (c) {
+              let e = (0, s.hg)(c, (e) => {
+                i(e), l(!1);
+              });
+              return () => e();
+            }
+            l(!1);
+          }, []),
+          (0, t.jsx)(u.Provider, {
+            value: {
+              user: n,
+              loading: a,
+              error: d,
+              loginWithToken: m,
+              logout: f,
+            },
+            children: r,
+          })
+        );
+      }
+      function h() {
+        let e = (0, o.useContext)(u);
+        if (null === e)
+          throw Error("useUser must be used within a UserProvider.");
+        return e;
+      }
+    },
+    9788: (e, r, n) => {
+      "use strict";
+      n.d(r, { G: () => c, n: () => l });
+      var t = n(5155),
+        o = n(2115),
+        i = n(5317),
+        s = n(7055);
+      let a = (0, o.createContext)(null);
+      function l(e) {
+        let { children: r } = e,
+          { user: n, loading: l } = (0, s.J)(),
+          [c, u] = (0, o.useState)([]),
+          [d, h] = (0, o.useState)(!0),
+          [m, f] = (0, o.useState)(null),
+          p = [
+            "_meta_dataBlueprint",
+            "_meta_schemas",
+            "_meta_uiConfig",
+            "administrations",
+            "agencies",
+            "companies",
+            "events",
+            "legislative_bodies",
+            "locations",
+            "organizations",
+            "persons",
+            "relationships",
+            "scripts",
+            "stories",
+            "trumpcryptoworld",
+            "videos",
+          ];
+        return (
+          (0, o.useEffect)(() => {
+            !l &&
+              n &&
+              (async () => {
+                try {
+                  h(!0), f(null);
+                  let e = (0, i.aU)(),
+                    r = [];
+                  for (let n of p) {
+                    let t = await (0, i.GG)((0, i.rJ)(e, n));
+                    r.push({ name: n, docCount: t.size });
+                  }
+                  u(r);
+                } catch (e) {
+                  console.error("Error fetching database overview: ", e),
+                    f(e.message);
+                } finally {
+                  h(!1);
+                }
+              })();
+          }, [n, l]),
+          (0, t.jsx)(a.Provider, {
+            value: { dbOverview: c, loading: d, error: m },
+            children: r,
+          })
+        );
+      }
+      function c() {
+        let e = (0, o.useContext)(a);
+        if (null === e)
+          throw Error(
+            "useDataBase must be used within a FirestoreDataProvider."
+          );
+        return e;
+      }
+    },
+  },
+  (e) => {
+    e.O(0, [965, 135, 84, 140, 836, 441, 964, 358], () => e((e.s = 5289))),
+      (_N_E = e.O());
+  },
+]);

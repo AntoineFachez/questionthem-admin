@@ -3,7 +3,7 @@
 import React from "react";
 import { Button, IconButton } from "@mui/material";
 import { useRouter } from "next/navigation";
-import { actionRegistry } from "../../lib/registries/action-library";
+import { actionRegistry } from "../../core/registries/action-registry";
 import { iconMap } from "../../lib/maps/iconMap";
 
 export function ActionButton({ action, params, iconName }) {

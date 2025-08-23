@@ -1,7 +1,7 @@
 "use client";
 
 import React, { createContext, useContext, useState, useEffect } from "react";
-import { blueprintMap } from "../lib/maps/blueprintMap";
+import { writeBlueprintMap } from "../lib/maps/writeBlueprintMap";
 import { mockDataMap } from "../lib/maps/mockDataMap";
 
 const UIContext = createContext(null);
@@ -35,7 +35,7 @@ export function UIProvider({ children }) {
     setOpenDialog(false);
   };
   const handleOpenForm = (collectionName) => {
-    const blueprint = blueprintMap[collectionName];
+    const blueprint = writeBlueprintMap[collectionName];
     handleOpenDialog("paper")();
 
     setFormDataContext(collectionName);

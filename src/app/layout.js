@@ -15,10 +15,11 @@ import DynamicBreadcrumbs from "../components/breadcrumbs/DynamicBreadcrumbs";
 import { darkTheme } from "../theme/theme";
 export default function RootLayout({ children }) {
   const steps = [{ step: 1 }];
+  const uiBlueprintIds = ["userDashboard", "projectHub", "launchPad"];
   return (
     <html lang="en">
       <ThemeProvider theme={darkTheme}>
-        <SduiProvider widgetIds={["userDashboard"]}>
+        <SduiProvider uiBlueprintIds={uiBlueprintIds}>
           <UIProvider>
             <UserProvider>
               <DataBaseProvider>
@@ -36,7 +37,7 @@ export default function RootLayout({ children }) {
                     overflow: "hidden",
                   }}
                 >
-                  <Navbar />
+                  <Navbar selectData={uiBlueprintIds} />
                   <Box
                     component="main"
                     // sx={{ maxWidth: "lg", height: "100%", mx: "auto", p: 4 }}

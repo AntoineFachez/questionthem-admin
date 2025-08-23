@@ -23,6 +23,7 @@ const {
 
 //* Scheduled Triggers
 const { accountCleanup } = require("./scheduler/accountCleanup");
+const { batchUpdateStats } = require("./scheduler/batchUpdate");
 
 //* Callable Triggers (Client-invoked functions)
 const { backfillEmbeddings } = require("./triggers/callableEmbeddingsGen");
@@ -41,6 +42,7 @@ exports.api = onRequest({ memory: "1GiB" }, app);
 exports.incrementCollectionCounter = incrementCollectionCounter;
 exports.decrementCollectionCounter = decrementCollectionCounter;
 exports.accountCleanup = accountCleanup;
+exports.batchUpdateStats = batchUpdateStats;
 exports.backfillEmbeddings = backfillEmbeddings;
 exports.fetchContent = fetchContent;
 exports.getYouTubeTranscript = getYouTubeTranscript;

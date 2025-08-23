@@ -3,9 +3,10 @@ import React from "react";
 import { Box, Button, Typography } from "@mui/material";
 
 import { useUser } from "../context/UserContext";
-import Overview from "./overview/Widget";
+import Widget from "./overview/Widget";
 
 import AdminLoginForm from "../components/auth/AdminLogIn";
+import App from "../core/App";
 
 export default function Home() {
   const { user, loading } = useUser();
@@ -48,8 +49,18 @@ export default function Home() {
           >
             Welcome {user.email || "Admin"}
           </Typography>
-          {/* <Overview
-            blueprintId="userDashboard"
+          <App
+            context={{
+              user: {
+                firstName: "Alex",
+                lastName: "Johnson",
+                email: user.email,
+                role: "admin",
+              },
+            }}
+          />{" "}
+          {/* <Widget
+            uiBlueprintId="userDashboard"
             context={{
               user: {
                 firstName: "Alex",

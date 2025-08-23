@@ -4,28 +4,28 @@ import React, { useState } from "react";
 import { Box, Typography, Paper, Button, IconButton } from "@mui/material";
 import { useTheme } from "@mui/material/styles";
 
-import { firebaseConfig } from "../../app/firebase/config";
+import { firebaseConfig } from "../../firebase/config";
 
-import { useFirestoreData } from "../../context/DataBaseContext";
-import { useUIContext } from "../../context/UIContext";
-import { useUser } from "../../context/UserContext";
+import { useDataBase } from "../../../context/DataBaseContext";
+import { useUIContext } from "../../../context/UIContext";
+import { useUser } from "../../../context/UserContext";
 
-import { blueprintMap } from "../../lib/maps/blueprintMap";
-
-import DynamicTable from "../../components/table/DynamicTable";
-import KebabMenu from "../../components/menus/KebabMenu";
-import ConfirmDeletionDialog from "../../components/dialog/ConfirmDeletionDialog";
+import DynamicTable from "../../../components/table/DynamicTable";
+import KebabMenu from "../../../components/menus/KebabMenu";
+import ConfirmDeletionDialog from "../../../components/dialog/ConfirmDeletionDialog";
 
 export default function DataBaseOverview() {
   const theme = useTheme();
   const {
-    dbOverview,
+    stats,
     loading,
     error,
     setError,
     setRefetchTrigger,
     handleDeleteCollection,
-  } = useFirestoreData();
+  } = useDataBase();
+  console.log("stats", stats);
+
   const { handleOpenForm } = useUIContext();
   const { user } = useUser();
   const [isConfirming, setIsConfirming] = useState(false);
@@ -148,7 +148,7 @@ export default function DataBaseOverview() {
           Firestore Database Overview
         </Typography>
         <DynamicTable
-          data={dbOverview}
+          data={stats.dataBaseStats}
           columns={columns}
           rowActions={rowActions}
         />

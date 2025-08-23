@@ -5,8 +5,8 @@ import { Box, Typography } from "@mui/material";
 import { useUIContext } from "../../../context/UIContext";
 
 import DynamicList from "../../../components/list/List";
-import DynamicForm from "../../../widgets/form/DynamicForm";
-import DataBaseOverview from "../../../widgets/dataBase/DataBaseOverview";
+import DynamicForm from "../form/DynamicForm";
+import DataBaseOverview from "../dataBase/DataBaseOverview";
 
 export default function Widget({
   data,

@@ -1,6 +1,7 @@
 [
   {
     "entity": "event",
+    "label": "Event",
     "fields": [
       {
         "field": "event_name",
@@ -260,7 +261,7 @@
       }
     ]
   },
- {
+  {
     "entity": "person",
     "label": "Person",
     "fields": [
@@ -1108,7 +1109,8 @@
         ]
       }
     ]
-  },{
+  },
+  {
     "entity": "agency",
     "label": "Agency",
     "fields": [
@@ -1314,7 +1316,7 @@
         ]
       }
     ]
-  }, 
+  },
   {
     "entity": "story",
     "label": "Story",
@@ -1375,7 +1377,8 @@
         ]
       }
     ]
-  },{
+  },
+  {
     "entity": "script",
     "label": "Script",
     "fields": [
@@ -1506,7 +1509,8 @@
         ]
       }
     ]
-  },{
+  },
+  {
     "entity": "video",
     "label": "Video",
     "fields": [
@@ -1691,7 +1695,8 @@
         ]
       }
     ]
-  },{
+  },
+  {
     "entity": "location",
     "label": "Location",
     "fields": [
@@ -1791,7 +1796,8 @@
         ]
       }
     ]
-  },{
+  },
+  {
     "entity": "user",
     "label": "User",
     "fields": [
@@ -1930,7 +1936,8 @@
         ]
       }
     ]
-  }, {
+  },
+  {
     "entity": "source",
     "label": "Source",
     "fields": [
@@ -2038,7 +2045,8 @@
         ]
       }
     ]
-  },{
+  },
+  {
     "entity": "asset",
     "label": "Asset",
     "fields": [
@@ -2158,7 +2166,8 @@
         ]
       }
     ]
-  }, {
+  },
+  {
     "entity": "concept",
     "label": "Concept",
     "fields": [
@@ -2222,7 +2231,8 @@
         ]
       }
     ]
-  }, {
+  },
+  {
     "entity": "article",
     "label": "Article",
     "fields": [
@@ -2308,7 +2318,14 @@
         "label": "Mentioned Entities (General)",
         "ui_role": "section_header",
         "type": "array_of_polymorphic_references",
-        "target_entities": ["Person", "Event", "Company", "Agency", "Organization", "Location"],
+        "target_entities": [
+          "Person",
+          "Event",
+          "Company",
+          "Agency",
+          "Organization",
+          "Location"
+        ],
         "is_editable": true
       },
       {
@@ -2349,7 +2366,13 @@
             "field": "entities_involved",
             "label": "Entities Involved",
             "type": "array_of_polymorphic_references",
-            "target_entities": ["Person", "Company", "Agency", "Organization", "Location"],
+            "target_entities": [
+              "Person",
+              "Company",
+              "Agency",
+              "Organization",
+              "Location"
+            ],
             "is_editable": true
           },
           {

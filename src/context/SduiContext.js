@@ -4,51 +4,73 @@ import React, { createContext, useContext, useState, useEffect } from "react";
 
 const SduiContext = createContext();
 
-export function SduiProvider({ children, widgetIds }) {
-  const [blueprints, setBlueprints] = useState({});
+export function SduiProvider({ children, uiBlueprintIds, readBlueprintIds }) {
+  const [uiBlueprints, setUiBlueprints] = useState({});
+  const [readBlueprints, setReadBlueprints] = useState({});
+  const [writeBlueprints, setWriteBlueprints] = useState({});
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
-  console.log(widgetIds);
+  const partUrl = {
+    baseUrl: "https://europe-west1-questionthem-90ccf.cloudfunctions.net",
+  };
 
+  const fetchBlueprints = async (ids) => {
+    try {
+      const promises = ids.map((id) =>
+        fetch(`${partUrl.baseUrl}/api/sdui/ui/${id}`).then((res) => {
+          if (!res.ok) {
+            throw new Error(`Failed to fetch blueprint for ID: ${id}`);
+          }
+          return res.json();
+        })
+      );
+      const results = await Promise.all(promises);
+      const newBlueprints = results.reduce((acc, curr, index) => {
+        acc[ids[index]] = curr.data;
+        return acc;
+      }, {});
+      return newBlueprints;
+    } catch (err) {
+      setError(err.message);
+    } finally {
+      setLoading(false);
+    }
+  };
   useEffect(() => {
-    async function fetchBlueprints() {
+    const loadBlueprints = async (blueprintType, ids, setter) => {
+      if (!ids || ids.length === 0) {
+        setLoading(false);
+        return;
+      }
+
+      const cachedBlueprints = localStorage.getItem(blueprintType);
+      if (cachedBlueprints) {
+        setter(JSON.parse(cachedBlueprints));
+        setLoading(false);
+        return;
+      }
+
       try {
-        const promises = widgetIds.map((id) =>
-          fetch(
-            // `https://europe-west1-questionthem-90ccf.cloudfunctions.net/api/sdui/widgets/${id}`
-            // `https://europe-west1-questionthem-90ccf.cloudfunctions.net/api/sdui/widgets/${"userDashboard"}`
-            `https://europe-west1-questionthem-90ccf.cloudfunctions.net/api/sdui/widgets/userDashboard`
-          ).then((res) => {
-            if (!res.ok) {
-              throw new Error(`Failed to fetch blueprint for ID: ${id}`);
-            }
-            return res.json();
-          })
-        );
-        const results = await Promise.all(promises);
-        const newBlueprints = results.reduce((acc, curr, index) => {
-          acc[widgetIds[index]] = curr.data;
-          return acc;
-        }, {});
-        setBlueprints(newBlueprints);
-      } catch (err) {
-        setError(err.message);
+        setLoading(true);
+
+        const fetchedBlueprints = await fetchBlueprints(ids);
+
+        setter(fetchedBlueprints);
+
+        localStorage.setItem(blueprintType, JSON.stringify(fetchedBlueprints));
+      } catch (error) {
+        console.error("Failed to fetch blueprints:", error);
       } finally {
         setLoading(false);
       }
-    }
+    };
 
-    if (widgetIds && widgetIds.length > 0) {
-      fetchBlueprints();
-    } else {
-      setLoading(false);
-    }
-  }, [widgetIds]);
+    loadBlueprints("uiBlueprints", uiBlueprintIds, setUiBlueprints);
+  }, [uiBlueprintIds, readBlueprintIds]);
 
+  const contextValue = { uiBlueprints, readBlueprints, loading, error };
   return (
-    <SduiContext.Provider value={{ blueprints, loading, error }}>
-      {children}
-    </SduiContext.Provider>
+    <SduiContext.Provider value={contextValue}>{children}</SduiContext.Provider>
   );
 }
 
@@ -58,7 +80,8 @@ export function useSduiBlueprint(id) {
     throw new Error("useSduiBlueprint must be used within an SduiProvider");
   }
   return {
-    blueprint: context.blueprints[id],
+    uiBlueprint: context.uiBlueprints[id],
+    readBlueprint: context.readBlueprints[id],
     loading: context.loading,
     error: context.error,
   };

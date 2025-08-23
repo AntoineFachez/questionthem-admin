@@ -3,8 +3,8 @@ import { Box, Typography, IconButton } from "@mui/material";
 import AddIcon from "@mui/icons-material/Add";
 import RemoveIcon from "@mui/icons-material/Remove";
 import MemoizedFormField from "./MemoizedFormField";
-import DynamicAccordion from "../../components/accordion/DynamicAccordion";
-import { iconMap } from "../../lib/maps/iconMap";
+import DynamicAccordion from "../../../components/accordion/DynamicAccordion";
+import { iconMap } from "../../../lib/maps/iconMap";
 
 // Helper function to dynamically get and render the icon
 const getIconComponent = (iconName) => {

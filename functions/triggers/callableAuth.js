@@ -4,6 +4,7 @@ const { onUserCreated } = require("firebase-functions/v2/identity");
 const admin = require("firebase-admin");
 const { logger } = require("firebase-functions");
 
+const db = admin.firestore();
 exports.handleUserCreate = onUserCreated(async (event) => {
   const user = event.data;
   const uid = user.uid;
@@ -16,7 +17,7 @@ exports.handleUserCreate = onUserCreated(async (event) => {
   };
 
   try {
-    await admin.firestore().collection("users").doc(uid).set(userData);
+    await db.collection("users").doc(uid).set(userData);
     logger.info(
       `Successfully created user profile in Firestore for UID: ${uid}`,
     );

@@ -1,120 +1,88 @@
 "use client";
 
-import React, { createContext, useContext, useState, useEffect } from "react";
-import { getFirestore, collection, getDocs } from "firebase/firestore";
+import React, {
+  createContext,
+  useContext,
+  useState,
+  useEffect,
+  useCallback,
+} from "react";
 import { useUser } from "./UserContext";
-import { get, post } from "../app/api/api";
+import { dataActionRegistry } from "../core/registries/data-actions";
 
 const DataBaseContext = createContext(null);
 
 export function DataBaseProvider({ children }) {
   const { user, loading: userLoading } = useUser();
-  const [dbOverview, setDbOverview] = useState([]);
-  const [refetchTrigger, setRefetchTrigger] = useState(0);
 
+  // State is now the single stats object, not an array.
+  const [stats, setStats] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
+  // Use useCallback to memoize the fetch function.
+  const fetchStats = useCallback(async () => {
+    if (userLoading || !user) return;
+
+    setLoading(true);
+    setError(null);
+    try {
+      // Use the new, fast 'get' action.
+      const results = await dataActionRegistry.stats.getDbStats();
+
+      setStats(results);
+    } catch (e) {
+      console.error("Error fetching database stats: ", e);
+      setError(e.message);
+    } finally {
+      setLoading(false);
+    }
+  }, [user, userLoading]);
+
+  // Initial fetch when the user is available.
+  useEffect(() => {
+    fetchStats();
+  }, [fetchStats]);
+
+  // Handler for the heavy "recalculate" action.
+  const handleRecalculateStats = async () => {
+    setLoading(true);
+    setError(null);
+    try {
+      // Call the new 'recalculate' action.
+      await dataActionRegistry.stats.recalculate();
+      // After recalculating, fetch the fresh stats to update the UI.
+      await fetchStats();
+    } catch (e) {
+      console.error("Error recalculating stats: ", e);
+      setError(e.message);
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  // Handler for deleting a collection.
   const handleDeleteCollection = async (collectionName) => {
     try {
-      const response = await post(
-        {
-          feature: "datamanagement",
-          action: "deleteCollection",
-          collection: collectionName,
-        },
-        ""
-      ); // Pass data first, then an empty string for the endpoint
-
-      if (response.error) {
-        throw new Error(response.error);
-      }
-
-      setDbOverview((prev) =>
-        prev.filter((item) => item.name !== collectionName)
-      );
-      // Update local storage after deletion
-      localStorage.setItem(
-        "dbOverviewCache",
-        JSON.stringify(
-          dbOverview.filter((item) => item.name !== collectionName)
-        )
-      );
-      console.log(`Collection ${collectionName} deleted successfully.`);
+      // Use the new, cleaner 'delete' action.
+      await dataActionRegistry.collections.delete(collectionName);
+      // After a successful delete, the counts are stale, so we must recalculate.
+      await handleRecalculateStats();
     } catch (e) {
       console.error("Error deleting collection: ", e);
       setError(e.message);
     }
   };
 
-  useEffect(() => {
-    if (!userLoading && user) {
-      const CACHE_KEY = "dbOverviewCache";
-
-      const fetchDatabaseOverview = async () => {
-        setLoading(true);
-        setError(null);
-        try {
-          const listResponse = await get("?action=listCollections");
-          if (listResponse.error) {
-            throw new Error(listResponse.error);
-          }
-          const { collections } = listResponse;
-          const db = getFirestore();
-          const results = [];
-
-          for (const collectionName of collections) {
-            const querySnapshot = await getDocs(collection(db, collectionName));
-            results.push({
-              name: collectionName,
-              docCount: querySnapshot.size,
-            });
-          }
-
-          setDbOverview(results);
-          // 💡 Successfully fetched data, so save it to localStorage
-          localStorage.setItem(CACHE_KEY, JSON.stringify(results));
-        } catch (e) {
-          console.error("Error fetching database overview: ", e);
-          setError(e.message);
-          // Set a trigger to try refetching on the next effect cycle
-          setRefetchTrigger((prev) => prev + 1);
-        } finally {
-          setLoading(false);
-        }
-      };
-
-      try {
-        // 💡 Check if data exists in localStorage
-        const cachedData = localStorage.getItem(CACHE_KEY);
-        if (cachedData) {
-          const parsedData = JSON.parse(cachedData);
-          setDbOverview(parsedData);
-          setLoading(false); // Data is ready, so stop loading
-          console.log("Using cached data from localStorage.");
-        } else {
-          // 💡 No cached data, so fetch it
-          console.log("No cache found. Fetching data...");
-          fetchDatabaseOverview();
-        }
-      } catch (e) {
-        // Handle potential parsing errors if localStorage data is corrupted
-        console.error("Error parsing localStorage data:", e);
-        // Force a fresh fetch if the cached data is invalid
-        localStorage.removeItem(CACHE_KEY);
-        fetchDatabaseOverview();
-      }
-    }
-  }, [user, userLoading, refetchTrigger]); // `refetchTrigger` is now used to force a new fetch
-
   const contextValue = {
-    dbOverview,
+    stats, // The main stats object.
     loading,
     error,
     setError,
     handleDeleteCollection,
-    setRefetchTrigger,
+    handleRecalculateStats, // Provide the new handler to the UI.
   };
+
   return (
     <DataBaseContext.Provider value={contextValue}>
       {children}
@@ -122,12 +90,10 @@ export function DataBaseProvider({ children }) {
   );
 }
 
-export function useFirestoreData() {
+export function useDataBase() {
   const context = useContext(DataBaseContext);
   if (context === null) {
-    throw new Error(
-      "useFirestoreData must be used within a FirestoreDataProvider."
-    );
+    throw new Error("useDataBase must be used within a DataBaseProvider.");
   }
   return context;
 }

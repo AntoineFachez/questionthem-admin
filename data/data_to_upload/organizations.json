@@ -1,11 +1,11 @@
-[{
-  "organization_id": "org_catholic_church",
-  "name": "Catholic Church",
-  "type": "Religious Organization",
-  "description": "The largest Christian church, with over 1.3 billion baptized Catholics worldwide as of 2019.",
-  "wikipedia": "https://en.wikipedia.org/wiki/Catholic_Church"
-},
-
+[
+  {
+    "organization_id": "org_catholic_church",
+    "name": "Catholic Church",
+    "type": "Religious Organization",
+    "description": "The largest Christian church, with over 1.3 billion baptized Catholics worldwide as of 2019.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Catholic_Church"
+  },
 
   {
     "organization_id": "org-crew-01",
@@ -158,10 +158,8 @@
     "organization_name": "Casino Association of Atlantic City",
     "role": "Source of commentary",
     "current_status": [
-     
       { "state": "Active", "start_Date": null },
       { "state": "Rebranded", "start_Date": null }
     ]
   }
-
 ]

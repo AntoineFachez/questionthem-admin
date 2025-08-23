@@ -1,0 +1,146 @@
+{
+  "rawData": {
+    "stats": [
+      {
+        "collection": "stories",
+        "documentCount": 12,
+        "averageDocumentSizeBytes": 0,
+        "topReadDocumentIds": [],
+        "topTags": null,
+        "lastUpdated": "2025-08-22T09:13:19.932Z"
+      },
+
+      {
+        "collection": "scripts",
+        "documentCount": 53,
+        "averageDocumentSizeBytes": 0,
+        "topReadDocumentIds": [],
+        "topTags": null,
+        "lastUpdated": "2025-08-21T07:13:19.932Z"
+      },
+      {
+        "collection": "persons",
+        "documentCount": 120,
+        "averageDocumentSizeBytes": 0,
+        "topReadDocumentIds": [],
+        "topTags": null,
+        "lastUpdated": "2025-06-11T15:13:19.932Z"
+      }
+    ]
+  },
+  "viewModel": {
+    "viewId": "DatabaseStatsView",
+    "targetComponent": "Table",
+    "columns": [
+      { "id": "metric", "label": "Statistic" },
+      { "id": "value", "label": "Value", "align": "right" }
+    ],
+    "mappings": [
+      {
+        "sourcePath": "lastUpdated",
+        "metricLabel": "Last Updated"
+      },
+      {
+        "sourcePath": "stats.stories.documentCount",
+        "metricLabel": "Document Count (Stories)"
+      },
+      {
+        "sourcePath": "stats.stories.averageDocumentSizeBytes",
+        "metricLabel": "Avg. Document Size (Bytes)"
+      },
+      {
+        "sourcePath": "stats.stories.topReadDocumentIds",
+        "metricLabel": "Top Read Documents",
+        "formatIfEmpty": "N/A"
+      },
+      {
+        "sourcePath": "stats.stories.topTags",
+        "metricLabel": "Top Tags",
+        "formatIfEmpty": "N/A"
+      }
+    ]
+  },
+  "blueprint": {
+    "metadata": {
+      "id": "statistics-screen-v1",
+      "version": "1.0",
+      "name": "Statistics Screen Template",
+      "auth": {
+        "required": true,
+        "roles": ["admin"]
+      }
+    },
+    "dataSource": {
+      "stats": {
+        "url": "/api/database/statistics",
+        "method": "GET"
+      }
+    },
+    "layout": {
+      "component": "ScreenLayout",
+      "slots": {
+        "header": {
+          "component": "Header",
+          "props": {
+            "title": "{dataSource.stats.title}"
+          }
+        },
+        "main": {
+          "component": "TableContainer",
+          "props": {
+            "component": "Paper",
+            "sx": { "borderRadius": 2, "boxShadow": 3 }
+          },
+          "children": [
+            {
+              "component": "Table",
+              "children": [
+                {
+                  "component": "TableHead",
+                  "children": [
+                    {
+                      "component": "TableRow",
+                      "props": {
+                        "sx": { "backgroundColor": "theme.palette.grey[100]" }
+                      },
+                      "children": [
+                        { "component": "TableCell", "children": ["Statistic"] },
+                        {
+                          "component": "TableCell",
+                          "props": { "align": "right" },
+                          "children": ["Value"]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "component": "TableBody",
+
+                  "map": {
+                    "data": "{dataSource.stats.rows}",
+                    "template": {
+                      "component": "TableRow",
+                      "props": { "hover": true },
+                      "children": [
+                        {
+                          "component": "TableCell",
+                          "children": ["{item.label}"]
+                        },
+                        {
+                          "component": "TableCell",
+                          "props": { "align": "right" },
+                          "children": ["{item.value}"]
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  }
+}

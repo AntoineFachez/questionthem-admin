@@ -1,12 +1,26 @@
-// src/components/ui-library.js
-
+// src/lib/registries/atomic-library.js
 import React from "react";
-import { Box, Button, Typography, Link as MuiLink } from "@mui/material";
-import NextLink from "next/link";
+import {
+  Box,
+  Paper,
+  Typography,
+  Table,
+  TableBody,
+  TableCell,
+  TableContainer,
+  TableHead,
+  TableRow,
+  Link as MuiLink,
+} from "@mui/material";
+import Title from "../../components/title/Title";
 
-// A registry that maps component names from the server to their React components
-export const componentRegistry = {
-  container: ({ children, props }) => <Box {...props}>{children}</Box>,
+import NextLink from "next/link";
+// This registry holds only the most basic, universal components.
+export const atomicRegistry = {
+  Box: ({ children, props }) => <Box {...props}>{children}</Box>,
+  Typography: ({ children, props }) => (
+    <Typography {...props}>{children}</Typography>
+  ),
   typography: ({ children, props }) => (
     <Typography {...props}>{children}</Typography>
   ),
@@ -38,4 +52,13 @@ export const componentRegistry = {
       <Typography variant="h5">{title}</Typography>
     </MuiLink>
   ),
+  Box: Box,
+  Paper: Paper,
+  Typography: Typography,
+  Table: Table,
+  TableBody: TableBody,
+  TableCell: TableCell,
+  TableContainer: TableContainer,
+  TableHead: TableHead,
+  TableRow: TableRow,
 };

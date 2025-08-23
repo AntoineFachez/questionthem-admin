@@ -30,8 +30,8 @@ export default function DynamicTable({ data, columns, rowActions }) {
           </TableRow>
         </TableHead>
         <TableBody>
-          {data.length > 0 ? (
-            data.map((row, index) => (
+          {data?.length > 0 ? (
+            data?.map((row, index) => (
               <TableRow key={index}>
                 {columns.map((column) => (
                   <TableCell

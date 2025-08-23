@@ -3,11 +3,11 @@ import React, { useMemo, useCallback, useState } from "react";
 import { Box, Typography, Button, Stack } from "@mui/material";
 import { Masonry } from "@mui/lab";
 
-import { useUIContext } from "../../context/UIContext";
+import { useUIContext } from "../../../context/UIContext";
 import { useFormData } from "./useFormData";
 
-import Accordion from "../../components/accordion/DynamicAccordion";
-import SimpleTree from "../../components/treeView/SimpleTree";
+import Accordion from "../../../components/accordion/DynamicAccordion";
+import SimpleTree from "../../../components/treeView/SimpleTree";
 
 import { renderFields } from "./renderFields";
 

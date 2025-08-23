@@ -1,7 +1,7 @@
 // app/notificationsAndAlert/Widget.js
 import React, { useState } from "react";
 import { Box, Typography } from "@mui/material";
-import DynamicForm from "../../../widgets/form/DynamicForm";
+import DynamicForm from "../../(features)/form/DynamicForm";
 import { useUIContext } from "../../../context/UIContext";
 
 export default function Widget({}) {

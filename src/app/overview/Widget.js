@@ -2,17 +2,17 @@
 
 import React from "react";
 import { Box, CircularProgress } from "@mui/material";
-import { renderComponent } from "../../core/Renderer";
+// import { renderComponent } from "../../core/Renderer";
 import { useSduiBlueprint } from "../../context/SduiContext";
 
 export default function Widget({
-  blueprintId,
+  uiBlueprintId,
   context,
   data,
   activeStep,
   handleSetUiContext,
 }) {
-  const { blueprint, loading, error } = useSduiBlueprint(blueprintId);
+  const { uiBlueprint, loading, error } = useSduiBlueprint(uiBlueprintId);
 
   if (loading) {
     return <CircularProgress />;
@@ -22,12 +22,12 @@ export default function Widget({
     return <Box>Error: {error}</Box>;
   }
 
-  if (!blueprintId) {
+  if (!uiBlueprintId) {
     return <Box>Please provide a Blueprint ID</Box>;
   }
-  if (!blueprint) {
-    return <Box>Blueprint not found for ID: {blueprintId}</Box>;
+  if (!uiBlueprint) {
+    return <Box>Blueprint not found for ID: {uiBlueprintId}</Box>;
   }
 
-  return renderComponent(blueprint, context);
+  // return renderComponent(uiBlueprint, context);
 }

@@ -7,7 +7,7 @@ import {
   Select,
   FormControlLabel,
 } from "@mui/material";
-import { componentMap } from "../../lib/maps/componentMap";
+import { componentMap } from "../../../lib/maps/componentMap";
 
 const FormField = ({ field, value, onChange, path }) => {
   const Component = componentMap[field.type];

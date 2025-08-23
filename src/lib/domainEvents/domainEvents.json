@@ -1,0 +1,11 @@
+[
+  {
+    "eventId": "uuid-08062025-oval-office-briefing",
+    "eventType": "EventCreated",
+    "timestamp": "2025-08-22T09:30:00Z",
+    "data": {
+      "name": "Donald Trump Oval Office Press Briefing...",
+      "createdBy": "uuid-ai-assistant"
+    }
+  }
+]
