@@ -1,6 +1,11 @@
 {
   "source": "users",
   "bindings": {
+    "id": "id",
+    "dataObject": ".",
+    "cardType": "'userCard'",
+    "devNotes": "👆// Note the single quotes to indicate a literal string",
+
     "title": "name",
     "subtitle": "email",
     "detail": "role | capitalize"

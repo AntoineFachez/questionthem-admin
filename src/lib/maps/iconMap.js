@@ -20,6 +20,7 @@ import {
   YouTube,
   Instagram,
   Public,
+  Share,
 } from "@mui/icons-material";
 
 // A single mapping object for all icons
@@ -36,6 +37,7 @@ export const iconMap = {
   Group: Group,
   Notifications: Notifications,
   Remove: Remove,
+  Share: Share,
   Settings: Settings,
   Warning: Warning,
 

@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Box, Button, CircularProgress, Typography } from "@mui/material";
 
-import SduiRenderer from "./SimpleRenderer";
+import SduiRenderer from "./SduiRenderer";
 
 import ScreenLayout from "./ScreenLayout";
 import { generateBlueprint } from "./transformer";
@@ -10,7 +10,7 @@ import mockUiTemplate from "./uiTemplates.json";
 import { mockRawData } from "./mockData.json";
 import usersDataMap from "./maps/users.map.json";
 import statsDataMap from "./maps/stats.map.json";
-
+import { initActions } from "./actionRegistry";
 const viewConfigurations = {
   statsGrid: {
     title: "Stats",
@@ -24,14 +24,17 @@ const viewConfigurations = {
   },
 };
 export default function App() {
-  const [uiTemplate, setUiTemplate] = useState(mockUiTemplate[4]);
+  const [uiTemplate, setUiTemplate] = useState(mockUiTemplate[1]);
   const [currentViewKey, setCurrentViewKey] = useState("statsGrid");
 
-  const [itemInFocus, setItemInFocus] = useState([mockRawData.stats[1]]);
+  const [itemInFocus, setItemInFocus] = useState(null);
   const [uiBlueprint, setUiBlueprint] = useState(null);
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState(null);
-
+  // console.log("itemInFocus", itemInFocus);
+  useEffect(() => {
+    initActions({ setItemInFocus });
+  }, []);
   useEffect(() => {
     const activeConfig = viewConfigurations[currentViewKey];
 
@@ -41,7 +44,8 @@ export default function App() {
         const finalBlueprint = generateBlueprint(
           uiTemplate,
           activeConfig.data,
-          activeConfig.dataMap
+          activeConfig.dataMap,
+          itemInFocus
         );
         setUiBlueprint(finalBlueprint);
       } catch (err) {
@@ -53,7 +57,7 @@ export default function App() {
     }, 500);
     // Cleanup function for the timer
     return () => clearTimeout(timer);
-  }, [mockRawData, currentViewKey, mockUiTemplate]);
+  }, [mockRawData, currentViewKey, mockUiTemplate, itemInFocus]);
 
   const activeConfig = viewConfigurations[currentViewKey];
 
@@ -83,7 +87,6 @@ export default function App() {
           Users Grid
         </Button>
       </Box>
-
       {isLoading ? (
         <Box sx={{ display: "flex", justifyContent: "center", padding: 4 }}>
           <CircularProgress />

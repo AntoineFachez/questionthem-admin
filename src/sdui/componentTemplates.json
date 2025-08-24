@@ -1,0 +1,108 @@
+{
+  "statsCard": {
+    "type": "organism.card",
+    "props": {
+      "data": "{{item.dataObject}}",
+      "sx": {
+        "__if_selected": {
+          "then": {
+            "boxShadow": "0 8px 20px -5px #1976d2",
+            "border": "2px solid #1976d2",
+            "backgroundColor": "primary.dark"
+          },
+          "else": {
+            "boxShadow": "0 2px 5px -1px rgba(0,0,0,0.2)",
+            "border": "1px solid #ccc"
+          }
+        }
+      }
+    },
+    "children": [
+      {
+        "type": "molecule.cardHeader",
+        "props": {
+          "title": "{{item.title}}",
+          "subheader": "{{item.subtitle}}"
+        }
+      },
+
+      {
+        "type": "molecule.cardContent",
+        "props": { "sx": { "backgroundColor": "#bbb" } },
+        "children": [
+          {
+            "type": "atom.typography",
+            "props": {
+              "variant": "body2",
+              "color": "text.secondary",
+              "text": "{{item.detail}}"
+            }
+          }
+        ]
+      },
+
+      {
+        "type": "atom.button",
+        "props": { "children": "Select" },
+        "action": {
+          "type": "SELECT_ITEM",
+          "payload": { "selectedId": "{{item.id}}" }
+        }
+      },
+      {
+        "type": "atom.collapse",
+        "props": {
+          "in": "{{item.isExpanded}}",
+          "timeout": "auto"
+        },
+        "children": [
+          {
+            "type": "molecule.cardContent",
+            "children": [
+              {
+                "type": "atom.typography",
+                "props": {
+                  "paragraph": true,
+                  "text": "{{item.methodDetails}}"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "userCard": {
+    "type": "molecule.card",
+    "props": {
+      "data": "{{item.dataObject}}",
+      "sx": {
+        "__if_selected": {
+          "then": {
+            "border": "2px solid #1976d2",
+            "backgroundColor": "#e3f2fd"
+          },
+          "else": { "border": "1px solid #000" }
+        }
+      }
+    },
+    "children": [
+      {
+        "type": "atom.typography",
+        "props": { "variant": "h6", "text": "{{item.title}}" }
+      },
+      {
+        "type": "atom.typography",
+        "props": { "variant": "h3", "text": "{{item.subtitle}}" }
+      },
+      {
+        "type": "atom.button",
+        "props": { "children": "Select" },
+        "action": {
+          "type": "SELECT_ITEM",
+          "payload": { "selectedId": "{{item.id}}" }
+        }
+      }
+    ]
+  }
+}

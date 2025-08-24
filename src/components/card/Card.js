@@ -1,21 +1,46 @@
-import { Card } from "@mui/material";
+import * as React from "react";
+import { styled } from "@mui/material/styles";
+import Card from "@mui/material/Card";
+import IconButton from "@mui/material/IconButton";
 
-// A generic Card "shell" that can render any content.
-export default function DynamicCard({ children, style }) {
+const ExpandMore = styled((props) => {
+  const { expand, ...other } = props;
+  return <IconButton {...other} />;
+})(({ theme }) => ({
+  marginLeft: "auto",
+  transition: theme.transitions.create("transform", {
+    duration: theme.transitions.duration.shortest,
+  }),
+  variants: [
+    {
+      props: ({ expand }) => !expand,
+      style: {
+        transform: "rotate(0deg)",
+      },
+    },
+    {
+      props: ({ expand }) => !!expand,
+      style: {
+        transform: "rotate(180deg)",
+      },
+    },
+  ],
+}));
+export default function DynamicCard({ children, sx, data }) {
+  const [expanded, setExpanded] = React.useState(false);
+  const handleExpandClick = () => {
+    setExpanded(!expanded);
+  };
   const baseStyles = {
     border: "1px solid #ccc",
     borderRadius: "8px",
-    padding: "16px",
-    margin: "8px",
-    minWidth: "200px",
   };
-
-  // Combine the component's base styles with styles sent from the server.
-  const combinedStyles = { ...baseStyles, ...style };
+  const combinedStyles = { ...baseStyles, ...sx };
 
   return (
     <>
-      <Card style={combinedStyles}>{children}</Card>
+      {" "}
+      <Card sx={{ ...combinedStyles, maxWidth: "25rem" }}>{children}</Card>
     </>
   );
 }

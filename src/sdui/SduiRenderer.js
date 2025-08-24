@@ -25,7 +25,7 @@ const SduiRenderer = ({ blueprint }) => {
   if (action && action.type) {
     const actionHandler = actionRegistry[action.type];
     if (actionHandler) {
-      finalProps.onClick = (e) => actionHandler(e, action.payload);
+      finalProps.onClick = (e) => actionHandler(action.payload);
     } else {
       console.warn(`Action type "${action.type}" not found in registry.`);
     }

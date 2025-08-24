@@ -484,6 +484,7 @@
     "first_name": "Marie",
     "last_Name": "Trump"
   },
+
   {
     "person_id": "5f94281b-426d-fda6-b911-a28d5650814c",
     "name": "Ivana Trump",
@@ -857,6 +858,20 @@
     "last_Name": "Bush"
   },
   {
+    "person_id": "pers_trevor_milton",
+    "name": "Trevor Milton",
+    "initials": "TM",
+    "first_name": "Trevor",
+    "last_Name": "Milton"
+  },
+  {
+    "person_id": "pers_elon_musk",
+    "name": "Elon Musk",
+    "initials": "EM",
+    "first_name": "Elon",
+    "last_Name": "Musk"
+  },
+  {
     "person_id": "59f6bfd8-ee6e-495a-83a0-ef8da81bdc79",
     "name": "E Jean Carroll",
     "initials": "EJC",
@@ -941,7 +956,7 @@
     "first_name": "Brad",
     "last_Name": "Raffensberger"
   },
- {
+  {
     "person_id": "8a1a7f4e-2e4a-4b9e-8c6d-1f3a2b5c8d7e",
     "name": "Daniel Bouaziz",
     "initials": "DB",
@@ -1189,7 +1204,6 @@
     "last_Name": "Rolnick",
     "wikipedia_url": ""
   },
- 
 
   {
     "person_id": "1a2b3c4d-5e6f-4a7b-8c9d-0e1f2a3b4c5d",
@@ -1350,9 +1364,8 @@
     "first_name": "Roberta",
     "last_Name": "Brudner",
     "wikipedia_url": ""
-  }
- ,
- {
+  },
+  {
     "person_id": "a1b2c3d4-e5f6-4a7b-8c9d-0e1f2a3b4c5d",
     "name": "Frank Foti",
     "initials": "FF",

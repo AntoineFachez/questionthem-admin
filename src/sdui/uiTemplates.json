@@ -32,30 +32,7 @@
     "children": {
       "__mapOver": "items",
       "__template": {
-        "type": "molecule.card",
-        "props": { "sx": { "padding": "1rem", "textAlign": "center" } },
-        "children": [
-          {
-            "type": "atom.typography",
-            "props": {
-              "variant": "h6",
-              "color": "text.secondary",
-              "text": "{{item.title}}"
-            }
-          },
-          {
-            "type": "atom.typography",
-            "props": { "variant": "h3", "text": "{{item.subtitle}}" }
-          },
-          {
-            "type": "atom.typography",
-            "props": {
-              "variant": "body2",
-              "color": "text.secondary",
-              "text": "{{item.detail}}"
-            }
-          }
-        ]
+        "__includeTemplate": "{{item.cardType}}"
       }
     }
   },
@@ -179,6 +156,10 @@
             }
           },
           {
+            "type": "organism.controls",
+            "props": { "context": "detail" }
+          },
+          {
             "type": "atom.grid",
             "props": {
               "container": true,
@@ -252,32 +233,7 @@
 
           {
             "type": "organism.controls",
-            "props": {
-              "buttons": [
-                {
-                  "label": "Name",
-                  "sx": { "padding": 2 },
-                  "action": {
-                    "type": "SORT_DATA",
-                    "payload": { "sortBy": "name" }
-                  }
-                },
-                {
-                  "label": "Date",
-                  "action": {
-                    "type": "SORT_DATA",
-                    "payload": { "sortBy": "date" }
-                  }
-                },
-                {
-                  "label": "Popularity",
-                  "action": {
-                    "type": "SORT_DATA",
-                    "payload": { "sortBy": "popularity" }
-                  }
-                }
-              ]
-            }
+            "props": { "context": "listView" }
           },
           {
             "type": "organism.grid",
@@ -336,6 +292,10 @@
                 { "label": "Settings", "icon": "settings" }
               ]
             }
+          },
+          {
+            "type": "organism.controls",
+            "props": { "context": "dashboard" }
           },
           {
             "type": "atom.box",

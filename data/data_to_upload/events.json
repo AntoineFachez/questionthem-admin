@@ -3,8 +3,7 @@
     "event_id": "evt_council_of_constance",
     "event_name": "Council of Constance",
     "event_type": "Ecumenical Council",
-    "event_summary":
-      "A 15th-century ecumenical council recognized by the Catholic Church.",
+    "event_summary": "A 15th-century ecumenical council recognized by the Catholic Church.",
     "start_date": "1414-11-05T00:00:00Z",
     "end_date": "1418-04-22T00:00:00Z",
     "date_context": {
@@ -23,16 +22,62 @@
     "category_tags": ["Religious", "Political", "Historical"]
   },
   {
+    "event_id": "evt_pardon_of_trevor_milton",
+    "event_name": "Trump pardons Trevor Milton",
+    "event_type": "",
+    "event_summary": "",
+    "start_date": "2025-03-27",
+    "end_date": "2025-03-27",
+    "date_context": {
+      "display_text": "",
+      "precision": "day"
+    },
+    "primary_location": {
+      "location_id": ""
+    },
+    "organizations_involved": [
+      {
+        "organization_id": "",
+        "role": ""
+      }
+    ],
+    "company_involved": [
+      {
+        "company_id": "",
+        "role": "Law firm of Brad Bondi"
+      }
+    ],
+    "agencies_involved": [
+      {
+        "agency_id": "agen_doj",
+        "role": "receipient of pardon of Trevor Milton"
+      }
+    ],
+    "persons_involved": [
+      {
+        "person_id": "pers_trevor_milton",
+        "role": "person to be pardoned by 47th Potus"
+      },
+      {
+        "person_id": "pers_brad_bondi",
+        "role": "person to achieve pardon of Trevor Milton by 47th Potus"
+      },
+      {
+        "person_id": "d54ffc3a-332f-498e-9aca-9aafb5bf780e",
+        "role": "pardoning 47th Potus"
+      }
+    ],
+    "category_tags": ["Legal", "Political", "Criminal", "Administration"]
+  },
+  {
     "event_id": "79a7fb63-72ee-4243-ad5f-a06caa69bd05",
     "event_name": "Friedrich Trump leaves, Kallstadt",
     "start_date": "1885",
     "end_date": "1918",
     "priority": "High",
     "coords": { "lat": 49.490556, "lng": 8.175833 },
-    "description":
-      "Friedrich Trump, grandfather of 45th U.S. President Donald Trump, immigrated from Bremen, Germany, to New York aboard SS Eider in 1885 at the age of 16. Friedrich Trump, Bremen, Germany",
-    "image_url":
-      "https://upload.wikimedia.org/wikipedia/commons/b/ba/Frederick_Trump_1887.jpg",
+    "description": "Friedrich Trump, grandfather of 45th U.S. President Donald Trump, immigrated from Bremen, Germany, to New York aboard SS Eider in 1885 at the age of 16. Friedrich Trump, Bremen, Germany",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Frederick_Trump_1887.jpg",
     "people": [
       {
         "person_id": "a164ca85-671f-422b-8493-a61898882bfb",
@@ -51,8 +96,7 @@
     "priority": "High",
     "coords": { "lat": 60.054559, "lng": -134.87915 },
     "description": "Gold Rush, Fred Trump, Yukon",
-    "image_url":
-      "https://upload.wikimedia.org/wikipedia/commons/3/3b/Bennett_June_1st_1898.jpg",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Bennett_June_1st_1898.jpg",
 
     "people": [
       {
@@ -70,10 +114,8 @@
     "end_date": "1901",
     "priority": "High",
     "coords": { "lat": 49.490556, "lng": 8.175833 },
-    "description":
-      "he was greeted as a draft-dodger for being away and becoming a U.S. citizen during his military years",
-    "image_url":
-      "https://upload.wikimedia.org/wikipedia/commons/8/80/Kallstadt_Hauptstrasse.jpg",
+    "description": "he was greeted as a draft-dodger for being away and becoming a U.S. citizen during his military years",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/80/Kallstadt_Hauptstrasse.jpg",
     "people": [
       {
         "person_id": "a164ca85-671f-422b-8493-a61898882bfb",
@@ -90,10 +132,8 @@
     "end_date": "1901",
     "priority": "High",
     "coords": { "lat": 40.8, "lng": -73.3 },
-    "description":
-      "He boarded a ship for New York, his wife pregnant with Donald's dad.",
-    "image_url":
-      "https://upload.wikimedia.org/wikipedia/commons/c/c1/Castle_Garden_aerial_view_ca1880.jpg",
+    "description": "He boarded a ship for New York, his wife pregnant with Donald's dad.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Castle_Garden_aerial_view_ca1880.jpg",
     "people": [
       {
         "person_id": "a164ca85-671f-422b-8493-a61898882bfb",
@@ -106,12 +146,10 @@
 
   {
     "event_id": "ev_ftrump_arctic_s1_establish",
-    "event_name":
-      "Friedrich Trump's Arctic Hotel: Stage 1 - Klondike Establishment & Rapid Growth",
+    "event_name": "Friedrich Trump's Arctic Hotel: Stage 1 - Klondike Establishment & Rapid Growth",
     "start_date": "1899-04",
     "end_date": "1899-12",
-    "description":
-      "Amidst the Klondike Gold Rush frenzy, Friedrich Trump arrived in Bennett, BC, a key transit point, in April 1899. Instead of prospecting, he shrewdly catered to the miners' needs, opening the Arctic Restaurant and Hotel in May. Initially a tent on the main street, demand fueled rapid expansion into a two-story wooden building by late 1899. It quickly gained renown as one of the region's largest and most decadent establishments, offering luxuries like fresh fruit and ptarmigan amidst the rugged conditions. Notably, Trump advertised 'excellent accommodations' for men but warned 'respectable women' against overnight stays due to potential 'repugnant' language from other female patrons, highlighting the unique social dynamics.",
+    "description": "Amidst the Klondike Gold Rush frenzy, Friedrich Trump arrived in Bennett, BC, a key transit point, in April 1899. Instead of prospecting, he shrewdly catered to the miners' needs, opening the Arctic Restaurant and Hotel in May. Initially a tent on the main street, demand fueled rapid expansion into a two-story wooden building by late 1899. It quickly gained renown as one of the region's largest and most decadent establishments, offering luxuries like fresh fruit and ptarmigan amidst the rugged conditions. Notably, Trump advertised 'excellent accommodations' for men but warned 'respectable women' against overnight stays due to potential 'repugnant' language from other female patrons, highlighting the unique social dynamics.",
     "people": [
       {
         "person_id": "a164ca85-671f-422b-8493-a61898882bfb",
@@ -136,7 +174,10 @@
         "location_id": "loc_bennett_bc",
         "description": "Bennett, British Columbia (Initial Location)"
       },
-      { "location_id": "loc_klondike", "description": "Klondike Gold Rush Region" }
+      {
+        "location_id": "loc_klondike",
+        "description": "Klondike Gold Rush Region"
+      }
     ],
     "causes": [
       {
@@ -151,13 +192,11 @@
     "effects": [
       {
         "effect_id": "effect_arctic_success",
-        "effect_name":
-          "Rapid establishment of a successful, large hotel/restaurant"
+        "effect_name": "Rapid establishment of a successful, large hotel/restaurant"
       },
       {
         "effect_id": "effect_arctic_reputation",
-        "effect_name":
-          "Reputation for relative luxury and specific clientele focus"
+        "effect_name": "Reputation for relative luxury and specific clientele focus"
       }
     ],
     "sources": [
@@ -169,12 +208,10 @@
   },
   {
     "event_id": "ev_ftrump_arctic_s2_peak_move",
-    "event_name":
-      "Friedrich Trump's Arctic Hotel: Stage 2 - Peak Operation, Relocation & Departure",
+    "event_name": "Friedrich Trump's Arctic Hotel: Stage 2 - Peak Operation, Relocation & Departure",
     "start_date": "1899-12",
     "end_date": "1900",
-    "description":
-      "Operating from its impressive two-story building, the Arctic Hotel reached its peak decadence by December 1899, advertising 'Fresh Oysters in Every Style' and 'Elegantly Furnished Private Boxes for Ladies'. However, the Gold Rush landscape shifted as the White Pass & Yukon Route railway neared completion, set to bypass Bennett. Demonstrating extraordinary adaptability (and the transient nature of boomtowns), the entire building was floated to a new site near the railway in Summer 1900. Friedrich Trump, having likely maximized his profits during Bennett's peak, is presumed to have sold his interest or departed around this time, concluding his direct involvement.",
+    "description": "Operating from its impressive two-story building, the Arctic Hotel reached its peak decadence by December 1899, advertising 'Fresh Oysters in Every Style' and 'Elegantly Furnished Private Boxes for Ladies'. However, the Gold Rush landscape shifted as the White Pass & Yukon Route railway neared completion, set to bypass Bennett. Demonstrating extraordinary adaptability (and the transient nature of boomtowns), the entire building was floated to a new site near the railway in Summer 1900. Friedrich Trump, having likely maximized his profits during Bennett's peak, is presumed to have sold his interest or departed around this time, concluding his direct involvement.",
     "people": [
       {
         "person_id": "a164ca85-671f-422b-8493-a61898882bfb",
@@ -198,8 +235,7 @@
       },
       {
         "location_id": "loc_arctic_newsite",
-        "description":
-          "New Site near WP&YR Railway (Likely near Whitehorse area)"
+        "description": "New Site near WP&YR Railway (Likely near Whitehorse area)"
       }
     ],
     "causes": [
@@ -235,12 +271,10 @@
   },
   {
     "event_id": "ev_ftrump_arctic_s3_legacy",
-    "event_name":
-      "Friedrich Trump's Arctic Hotel: Stage 3 - Continued Operation & Legacy",
+    "event_name": "Friedrich Trump's Arctic Hotel: Stage 3 - Continued Operation & Legacy",
     "start_date": "1901-01",
     "end_date": "1902-03",
-    "description":
-      "After its relocation and Friedrich Trump's departure, the Arctic Restaurant and Hotel continued operation under new management. J.L. Gage was proprietor by January 1901. The establishment, now likely serving railway clientele, maintained a reputation for hospitality – Mrs. Gage was complimented for caring for passengers stranded by snow (Jan 1901). Its confirmed operation as late as March 1902 shows the business possessed a degree of resilience, outlasting the Bennett boom peak and its founder's tenure.",
+    "description": "After its relocation and Friedrich Trump's departure, the Arctic Restaurant and Hotel continued operation under new management. J.L. Gage was proprietor by January 1901. The establishment, now likely serving railway clientele, maintained a reputation for hospitality – Mrs. Gage was complimented for caring for passengers stranded by snow (Jan 1901). Its confirmed operation as late as March 1902 shows the business possessed a degree of resilience, outlasting the Bennett boom peak and its founder's tenure.",
     "people": [
       {
         "person_id": "a164ca85-671f-422b-8493-a61898882bfb",
@@ -252,7 +286,6 @@
         "name": "J. L. Gage",
         "role": "Proprietor (Successor)",
         "current_status": [
-         
           { "state": "Born", "start_Date": null },
           { "state": "Deceased", "start_Date": null }
         ]
@@ -262,7 +295,6 @@
         "name": "Mrs. Gage",
         "role": "Hostess/Manager",
         "current_status": [
-         
           { "state": "Born", "start_Date": null },
           { "state": "Deceased", "start_Date": null }
         ]
@@ -280,8 +312,7 @@
     "locations": [
       {
         "location_id": "loc_arctic_newsite",
-        "description":
-          "New Site near WP&YR Railway (Likely near Whitehorse area)"
+        "description": "New Site near WP&YR Railway (Likely near Whitehorse area)"
       },
       {
         "location_id": "loc_whitehorse_area",
@@ -328,8 +359,7 @@
     "priority": "High",
     "coords": { "lat": 40.76314490272164, "lng": -73.97420516579415 },
     "description": "",
-    "image_url":
-      "https://loveincorporated.blob.core.windows.net/contentimages/gallery/9c3737d7-b293-4c91-861f-c7f9017b2524-18-how-donald-trumps-father-fred-built-a-billiondollar-property-empire.jpg",
+    "image_url": "https://loveincorporated.blob.core.windows.net/contentimages/gallery/9c3737d7-b293-4c91-861f-c7f9017b2524-18-how-donald-trumps-father-fred-built-a-billiondollar-property-empire.jpg",
     "people": [{ "person_id": "25ac2b23-573e-4b84-807e-32af48d4d06c" }]
   },
   {
@@ -340,8 +370,7 @@
     "priority": "High",
     "coords": { "lat": 58.243849963961004, "lng": -6.348096703965186 },
     "description": "Tong, Scotland",
-    "image_url":
-      "https://upload.wikimedia.org/wikipedia/en/0/0e/Mary_Anne_Trump.jpg",
+    "image_url": "https://upload.wikimedia.org/wikipedia/en/0/0e/Mary_Anne_Trump.jpg",
     "people": [{ "person_id": "dcb481e5-49d4-4f38-b1b3-87a4034d0092" }],
     "wikipedia": "https://en.wikipedia.org/wiki/Mary_Anne_MacLeod_Trump"
   },
@@ -364,8 +393,7 @@
     "priority": "High",
     "coords": { "lat": 40.7127, "lng": -74.0059 },
     "description": "moves to New York",
-    "image_url":
-      "https://upload.wikimedia.org/wikipedia/commons/6/67/Mulberry_Street_NYC_c1900_LOC_3g04637u_edit.jpg",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/67/Mulberry_Street_NYC_c1900_LOC_3g04637u_edit.jpg",
     "people": [{ "person_id": "25ac2b23-573e-4b84-807e-32af48d4d06c" }],
     "wikipedia": ""
   },
@@ -377,11 +405,11 @@
     "priority": "High",
     "coords": { "lat": 43.96798230530681, "lng": -72.74528568177647 },
     "description": "Queens, Warham Place",
-    "image_url":
-      "https://upload.wikimedia.org/wikipedia/commons/6/67/Mulberry_Street_NYC_c1900_LOC_3g04637u_edit.jpg",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/67/Mulberry_Street_NYC_c1900_LOC_3g04637u_edit.jpg",
     "people": [
       { "person_id": "d54ffc3a-332f-498e-9aca-9aafb5bf780e" },
-      { "person_id": "0bd24586-e2cf-4df9-93f1-561e460868b1" }    ]
+      { "person_id": "0bd24586-e2cf-4df9-93f1-561e460868b1" }
+    ]
   },
   {
     "event_id": "6360093c-9351-4a52-8917-9cd5df467305",
@@ -390,17 +418,18 @@
     "end_date": "1984",
     "priority": "High",
     "coords": { "lat": 40.7625, "lng": -73.974167 },
-    "description":
-      "Trump Tower, 5th Ave. Construction began 1979, completed 1984. Architect: Der Scutt. Developer: Donald Trump (The Trump Organization) & Equitable Life Assurance Company. Notable tenants include Bruce Willis, Juan Beckmann Vidal, Hillel Nahmad, Vincent Gallo, Guido Lombardi, Steven Spielberg, and Michael Jackson.",
-    "image_url":
-      "https://upload.wikimedia.org/wikipedia/commons/8/8a/Trump_Tower_%287181836700%29_%28cropped%29.jpg",
+    "description": "Trump Tower, 5th Ave. Construction began 1979, completed 1984. Architect: Der Scutt. Developer: Donald Trump (The Trump Organization) & Equitable Life Assurance Company. Notable tenants include Bruce Willis, Juan Beckmann Vidal, Hillel Nahmad, Vincent Gallo, Guido Lombardi, Steven Spielberg, and Michael Jackson.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Trump_Tower_%287181836700%29_%28cropped%29.jpg",
     "people": [
       { "person_id": "d54ffc3a-332f-498e-9aca-9aafb5bf780e" },
       {
         "person_id": "d54ffc3a-332f-498e-9aca-9aafb5bf780e",
         "role": "Developer / Tenant"
       },
-      { "person_id": "b2c3d4e5-f6a7-8901-2345-67890abcdef0", "role": "Architect" },
+      {
+        "person_id": "b2c3d4e5-f6a7-8901-2345-67890abcdef0",
+        "role": "Architect"
+      },
       { "person_id": "c3d4e5f6-a7b8-9012-3456-7890abcdef01", "role": "Tenant" },
       { "person_id": "d4e5f6a7-b8c9-0123-4567-890abcdef012", "role": "Tenant" },
       { "person_id": "e5f6a7b8-c9d0-1234-5678-90abcdef0123", "role": "Tenant" },
@@ -417,8 +446,7 @@
     "end_date": "1979",
     "priority": "High",
     "coords": { "lat": 40.7625, "lng": -73.974167 },
-    "description":
-      "Donald Trump identified the Bonwit Teller building site on Fifth Avenue next to Tiffany's as a prime location in the mid-1970s. He persistently pursued the owners, finally acquiring the site in 1979 when they needed cash. His vision was to build a landmark tower to elevate his profile.",
+    "description": "Donald Trump identified the Bonwit Teller building site on Fifth Avenue next to Tiffany's as a prime location in the mid-1970s. He persistently pursued the owners, finally acquiring the site in 1979 when they needed cash. His vision was to build a landmark tower to elevate his profile.",
     "image_url": "",
     "people": [
       {
@@ -434,11 +462,13 @@
     "end_date": "1983",
     "priority": "Medium",
     "coords": { "lat": 40.7625, "lng": -73.974167 },
-    "description":
-      "During development, Trump secured tax breaks via court action, destroyed Art Deco sculptures promised to the Met to save costs, and purchased air rights over Tiffany's to ensure unobstructed views for Trump Tower.",
+    "description": "During development, Trump secured tax breaks via court action, destroyed Art Deco sculptures promised to the Met to save costs, and purchased air rights over Tiffany's to ensure unobstructed views for Trump Tower.",
     "image_url": "",
     "people": [
-      { "person_id": "d54ffc3a-332f-498e-9aca-9aafb5bf780e", "role": "Developer" }
+      {
+        "person_id": "d54ffc3a-332f-498e-9aca-9aafb5bf780e",
+        "role": "Developer"
+      }
     ]
   },
   {
@@ -448,11 +478,13 @@
     "end_date": "1983",
     "priority": "High",
     "coords": { "lat": 40.7625, "lng": -73.974167 },
-    "description":
-      "Trump Tower opened in 1983 amid significant public attention ('hoopla'). Architecture critic Paul Goldberger offered a mixed review, noting its unique design breaking from simple boxes but embodying 'happy, if self-satisfied, affluence'. The building initially attracted large crowds and high-end tenants.",
+    "description": "Trump Tower opened in 1983 amid significant public attention ('hoopla'). Architecture critic Paul Goldberger offered a mixed review, noting its unique design breaking from simple boxes but embodying 'happy, if self-satisfied, affluence'. The building initially attracted large crowds and high-end tenants.",
     "image_url": "",
     "people": [
-      { "person_id": "d54ffc3a-332f-498e-9aca-9aafb5bf780e", "role": "Developer" },
+      {
+        "person_id": "d54ffc3a-332f-498e-9aca-9aafb5bf780e",
+        "role": "Developer"
+      },
       {
         "person_id": "1a2b3c4d-5e6f-7a8b-9c0d-e1f2a3b4c5d6",
         "role": "Architecture Critic"
@@ -466,8 +498,7 @@
     "end_date": "1983",
     "priority": "Medium",
     "coords": { "lat": 40.7625, "lng": -73.974167 },
-    "description":
-      "Trump used the under-construction Trump Tower to inflate his net worth to $100M for the first Forbes Rich List in 1982, concealing shared ownership and exaggerating potential revenue. Researcher Jonathan Greenberg later found Trump's actual worth was around $5M. Trump also allegedly used an alias 'John Barron' to feed false info and spread rumors about potential buyers like Prince Charles and Princess Diana.",
+    "description": "Trump used the under-construction Trump Tower to inflate his net worth to $100M for the first Forbes Rich List in 1982, concealing shared ownership and exaggerating potential revenue. Researcher Jonathan Greenberg later found Trump's actual worth was around $5M. Trump also allegedly used an alias 'John Barron' to feed false info and spread rumors about potential buyers like Prince Charles and Princess Diana.",
     "image_url": "",
     "people": [
       {
@@ -495,8 +526,7 @@
     "end_date": "2000",
     "priority": "Medium",
     "coords": { "lat": 40.7625, "lng": -73.974167 },
-    "description":
-      "Through the 1990s, initial high-profile tenants like Johnny Carson and Sophia Loren departed, partly due to high rents and dated unit quality. Journalist Wayne Barrett noted a shift towards controversial figures ('Medicaid cheats, coke dealers, mobsters'). The building's luxury status was challenged by newer developments.",
+    "description": "Through the 1990s, initial high-profile tenants like Johnny Carson and Sophia Loren departed, partly due to high rents and dated unit quality. Journalist Wayne Barrett noted a shift towards controversial figures ('Medicaid cheats, coke dealers, mobsters'). The building's luxury status was challenged by newer developments.",
     "image_url": "",
     "people": [
       {
@@ -511,7 +541,10 @@
         "person_id": "7a8b9c0d-1e2f-3a4b-5c6d-e7f8a9b0c1d2",
         "role": "Former Tenant"
       },
-      { "person_id": "8b9c0d1e-2f3a-4b5c-6d7e-f8a9b0c1d2e3", "role": "Journalist" }
+      {
+        "person_id": "8b9c0d1e-2f3a-4b5c-6d7e-f8a9b0c1d2e3",
+        "role": "Journalist"
+      }
     ]
   },
   {
@@ -521,8 +554,7 @@
     "end_date": "2015",
     "priority": "High",
     "coords": { "lat": 40.7625, "lng": -73.974167 },
-    "description":
-      "Trump Tower served as the central set for the reality TV show 'The Apprentice', significantly boosting Trump's fame. Contestant Jose Felix Diaz described the building's imposing atmosphere and its importance to Trump's image during the show.",
+    "description": "Trump Tower served as the central set for the reality TV show 'The Apprentice', significantly boosting Trump's fame. Contestant Jose Felix Diaz described the building's imposing atmosphere and its importance to Trump's image during the show.",
     "image_url": "",
     "people": [
       {
@@ -542,11 +574,14 @@
     "end_date": "2015-06-16",
     "priority": "High",
     "coords": { "lat": 40.7625, "lng": -73.974167 },
-    "description":
-      "Donald Trump announced his bid for the US presidency, riding down the golden escalator in the Trump Tower atrium.",
+    "description": "Donald Trump announced his bid for the US presidency, riding down the golden escalator in the Trump Tower atrium.",
     "image_url": "",
     "people": [
-      { "person_id": "d54ffc3a-332f-498e-9aca-9aafb5bf780e", "role": "Candidate" }    ]
+      {
+        "person_id": "d54ffc3a-332f-498e-9aca-9aafb5bf780e",
+        "role": "Candidate"
+      }
+    ]
   },
   {
     "event_id": "a8b9c0d1-e2f3-4567-8901-123456789012",
@@ -555,8 +590,7 @@
     "end_date": "2021",
     "priority": "Medium",
     "coords": { "lat": 40.7625, "lng": -73.974167 },
-    "description":
-      "Trump Tower served as the de facto presidential transition office. Trump expressed desire to spend time there during his presidency and hosted diplomatic talks, such as with Japan's Prime Minister Shinzo Abe.",
+    "description": "Trump Tower served as the de facto presidential transition office. Trump expressed desire to spend time there during his presidency and hosted diplomatic talks, such as with Japan's Prime Minister Shinzo Abe.",
     "image_url": "",
     "people": [
       {
@@ -576,8 +610,7 @@
     "end_date": "",
     "priority": "High",
     "coords": { "lat": 40.7625, "lng": -73.974167 },
-    "description":
-      "Following the presidency and Jan 6 events, the Trump brand became 'toxic' in NYC (a city strongly favoring Joe Biden). Real estate broker Wendy Maitland noted difficulty selling units. Trump faces legal challenges in NY, including findings of inflating property values (like the penthouse size), potentially leading to loss of control over Trump Tower. Friend Steve Witkoff commented on Trump's resilience.",
+    "description": "Following the presidency and Jan 6 events, the Trump brand became 'toxic' in NYC (a city strongly favoring Joe Biden). Real estate broker Wendy Maitland noted difficulty selling units. Trump faces legal challenges in NY, including findings of inflating property values (like the penthouse size), potentially leading to loss of control over Trump Tower. Friend Steve Witkoff commented on Trump's resilience.",
     "image_url": "",
     "people": [
       {
@@ -600,14 +633,12 @@
   },
   {
     "event_id": "e8a7f0b1-c2d3-4e5f-6a7b-8c9d0e1f2a3b",
-    "event_name":
-      "Trump Tower Penthouse Initial Design & Redecoration Inspiration",
+    "event_name": "Trump Tower Penthouse Initial Design & Redecoration Inspiration",
     "start_date": "1983",
     "end_date": "",
     "priority": "Medium",
     "coords": { "lat": 40.7625, "lng": -73.974167 },
-    "description":
-      "Donald Trump occupied the 11,000 sq ft, three-floor penthouse. The initial design featured chocolate lacquered walls and a gold-leaf ceiling. He reportedly decided to redecorate after being inspired by a visit to the nearby penthouse of Saudi billionaire Adnan Khashoggi.",
+    "description": "Donald Trump occupied the 11,000 sq ft, three-floor penthouse. The initial design featured chocolate lacquered walls and a gold-leaf ceiling. He reportedly decided to redecorate after being inspired by a visit to the nearby penthouse of Saudi billionaire Adnan Khashoggi.",
     "image_url": "",
     "people": [
       {
@@ -627,11 +658,11 @@
     "end_date": "1990",
     "priority": "High",
     "coords": { "lat": 40.74555506117509, "lng": -73.98743524338562 },
-    "description":
-      "Ivana was in New York City with a group of models in 1976 when she met Donald Trump. On April 9, 1977, the couple married at Marble Collegiate Church in a wedding officiated by Norman Vincent Peale.",
+    "description": "Ivana was in New York City with a group of models in 1976 when she met Donald Trump. On April 9, 1977, the couple married at Marble Collegiate Church in a wedding officiated by Norman Vincent Peale.",
     "people": [
       { "person_id": "d54ffc3a-332f-498e-9aca-9aafb5bf780e" },
-      { "person_id": "5f94281b-fda6-426d-b911-a28d5650814c" }    ]
+      { "person_id": "5f94281b-fda6-426d-b911-a28d5650814c" }
+    ]
   },
   {
     "event_id": "d92b41c9-f948-4b3a-8afe-27b163108e1c",
@@ -640,11 +671,11 @@
     "end_date": "1990",
     "priority": "High",
     "coords": { "lat": 43.96798230530681, "lng": -72.74528568177647 },
-    "description":
-      "According to Maples, the 1993 Long Island Rail Road shooting, on December 7, caused Trump to reevaluate his life and propose to her. The couple married on December 20, 1993, at New York City's Plaza Hotel, in a ceremony reportedly attended by 1,000 guests, including Rosie O'Donnell and O. J. Simpson.",
+    "description": "According to Maples, the 1993 Long Island Rail Road shooting, on December 7, caused Trump to reevaluate his life and propose to her. The couple married on December 20, 1993, at New York City's Plaza Hotel, in a ceremony reportedly attended by 1,000 guests, including Rosie O'Donnell and O. J. Simpson.",
     "people": [
       { "person_id": "d54ffc3a-332f-498e-9aca-9aafb5bf780e" },
-      { "person_id": "cbd48421-5966-4f0f-af7a-c2a58e5a7c92" }    ]
+      { "person_id": "cbd48421-5966-4f0f-af7a-c2a58e5a7c92" }
+    ]
   },
   {
     "event_id": "fd8f494b-5ce0-48af-873a-c79233c96c98",
@@ -663,8 +694,7 @@
     "end_date": "",
     "priority": "High",
     "coords": { "lat": 40.76778867162581, "lng": -73.97442360619547 },
-    "description":
-      "The Trump Organization won concessions for the rinks in 1987.",
+    "description": "The Trump Organization won concessions for the rinks in 1987.",
     "people": [{ "person_id": "d54ffc3a-332f-498e-9aca-9aafb5bf780e" }],
     "wikipedia": "https://en.wikipedia.org/wiki/Wollman_Rink"
   },
@@ -675,8 +705,7 @@
     "end_date": "2019-10",
     "priority": "High",
     "coords": { "lat": 40.7625, "lng": -73.974167 },
-    "description":
-      "China's state-owned Industrial & Commercial Bank of China (ICBC) holds a major lease (~$2M/yr) on the 20th floor of Trump Tower, expiring Oct 2019. The lease, potentially renewed by Trump himself around Sep 2015, creates potential conflicts of interest given his presidency and retained ownership of the Trump Organization, managed by his sons.",
+    "description": "China's state-owned Industrial & Commercial Bank of China (ICBC) holds a major lease (~$2M/yr) on the 20th floor of Trump Tower, expiring Oct 2019. The lease, potentially renewed by Trump himself around Sep 2015, creates potential conflicts of interest given his presidency and retained ownership of the Trump Organization, managed by his sons.",
     "image_url": "",
     "people": [
       {
@@ -703,8 +732,7 @@
     "end_date": "",
     "priority": "High",
     "coords": null,
-    "description":
-      "Following Trump's election, significant debate arose whether his business income from foreign entities (hotels, licensing, tenants) violated the Constitution's Foreign Emoluments Clause, intended to prevent foreign influence. Nearly 200 congressional Democrats sued Trump in June 2017 over alleged violations.",
+    "description": "Following Trump's election, significant debate arose whether his business income from foreign entities (hotels, licensing, tenants) violated the Constitution's Foreign Emoluments Clause, intended to prevent foreign influence. Nearly 200 congressional Democrats sued Trump in June 2017 over alleged violations.",
     "image_url": "",
     "people": [
       {
@@ -730,8 +758,7 @@
     "end_date": "",
     "priority": "Medium",
     "coords": null,
-    "description":
-      "Critics, including former federal ethics chief Walter Shaub, highlighted the lack of public knowledge about who was paying rent to President Trump via his commercial properties. Despite federal disclosure forms listing shell companies, the specific tenants and amounts were not disclosed. The Trump Organization, via lawyer Alan Garten, cited internal vetting but did not provide rent rolls to government ethics officials.",
+    "description": "Critics, including former federal ethics chief Walter Shaub, highlighted the lack of public knowledge about who was paying rent to President Trump via his commercial properties. Despite federal disclosure forms listing shell companies, the specific tenants and amounts were not disclosed. The Trump Organization, via lawyer Alan Garten, cited internal vetting but did not provide rent rolls to government ethics officials.",
     "image_url": "",
     "people": [
       {
@@ -761,8 +788,7 @@
     "end_date": "2011-05-31",
     "priority": "Medium",
     "coords": null,
-    "description":
-      "Over three years, the Florida Office of the Attorney General (OAG) received at least 22 consumer complaints regarding Trump University, the Trump Institute, and related entities.",
+    "description": "Over three years, the Florida Office of the Attorney General (OAG) received at least 22 consumer complaints regarding Trump University, the Trump Institute, and related entities.",
     "image_url": "",
     "people": [],
     "companies": [
@@ -780,20 +806,18 @@
     "end_date": "2013-08-01",
     "priority": "High",
     "coords": null,
-    "description":
-      "New York Attorney General Eric Schneiderman filed a lawsuit against Donald Trump and Trump University, alleging persistent fraudulent, illegal, and deceptive conduct.",
+    "description": "New York Attorney General Eric Schneiderman filed a lawsuit against Donald Trump and Trump University, alleging persistent fraudulent, illegal, and deceptive conduct.",
     "image_url": "",
     "people": [
-      { "person_id": "a1b2c3d4-e5f6-7890-1234-567890abcdef", "role": "Defendant" },
+      {
+        "person_id": "a1b2c3d4-e5f6-7890-1234-567890abcdef",
+        "role": "Defendant"
+      },
       { "person_id": "pers-es-01", "role": "Prosecutor / Filer of Lawsuit" }
     ],
-    "companies": [
-      { "company_id": "comp-tu-01", "role": "Defendant Entity" }
-    ],
+    "companies": [{ "company_id": "comp-tu-01", "role": "Defendant Entity" }],
     "organizations": [],
-    "agencies": [
-      { "agency_id": "agcy-ny-ag", "role": "Prosecuting Agency" }
-    ]
+    "agencies": [{ "agency_id": "agcy-ny-ag", "role": "Prosecuting Agency" }]
   },
   {
     "event_id": "evt-tf-03",
@@ -802,15 +826,12 @@
     "end_date": "2013-09-16",
     "priority": "Medium",
     "coords": null,
-    "description":
-      "Following the NY lawsuit, the Florida OAG confirmed to the Orlando Sentinel and Palm Beach Post that they were reviewing the allegations.",
+    "description": "Following the NY lawsuit, the Florida OAG confirmed to the Orlando Sentinel and Palm Beach Post that they were reviewing the allegations.",
     "image_url": "",
     "people": [],
     "companies": [],
     "organizations": [],
-    "agencies": [
-      { "agency_id": "agcy-fl-oag", "role": "Reviewing Agency" }
-    ]
+    "agencies": [{ "agency_id": "agcy-fl-oag", "role": "Reviewing Agency" }]
   },
   {
     "event_id": "evt-tf-04",
@@ -819,15 +840,17 @@
     "end_date": "2013-09-17",
     "priority": "High",
     "coords": null,
-    "description":
-      "The Donald J. Trump Foundation made a $25,000 contribution to 'And Justice for All,' a political group supporting Florida AG Pam Bondi. This donation was illegal for a 501(c)(3) foundation and was personally solicited by Bondi from Trump, while her office was potentially considering action related to Trump University.",
+    "description": "The Donald J. Trump Foundation made a $25,000 contribution to 'And Justice for All,' a political group supporting Florida AG Pam Bondi. This donation was illegal for a 501(c)(3) foundation and was personally solicited by Bondi from Trump, while her office was potentially considering action related to Trump University.",
     "image_url": "",
     "people": [
       {
         "person_id": "a1b2c3d4-e5f6-7890-1234-567890abcdef",
         "role": "Donor (via Foundation)"
       },
-      { "person_id": "pers-pb-01", "role": "Solicitor / Beneficiary Politician" }
+      {
+        "person_id": "pers-pb-01",
+        "role": "Solicitor / Beneficiary Politician"
+      }
     ],
     "companies": [],
     "organizations": [
@@ -835,7 +858,10 @@
       { "organization_id": "org-ajfa-01", "role": "Recipient Political Group" }
     ],
     "agencies": [
-      { "agency_id": "agcy-fl-oag", "role": "Associated Agency (Bondi's Office)" }
+      {
+        "agency_id": "agcy-fl-oag",
+        "role": "Associated Agency (Bondi's Office)"
+      }
     ]
   },
   {
@@ -845,15 +871,12 @@
     "end_date": "2013-10-15",
     "priority": "High",
     "coords": null,
-    "description":
-      "The Florida OAG informed reporters that joining the New York lawsuit against Trump University was not considered and, citing only one complaint from 2.5 years prior, stated no investigation was currently underway.",
+    "description": "The Florida OAG informed reporters that joining the New York lawsuit against Trump University was not considered and, citing only one complaint from 2.5 years prior, stated no investigation was currently underway.",
     "image_url": "",
     "people": [],
     "companies": [],
     "organizations": [],
-    "agencies": [
-      { "agency_id": "agcy-fl-oag", "role": "Declaring Agency" }
-    ]
+    "agencies": [{ "agency_id": "agcy-fl-oag", "role": "Declaring Agency" }]
   },
   {
     "event_id": "evt-tf-06",
@@ -862,8 +885,7 @@
     "end_date": "2013-10-18",
     "priority": "Medium",
     "coords": null,
-    "description":
-      "Internal emails show Florida OAG employees actively worked to exclude complaints related to the Trump Institute to support the claim that only one complaint existed against Trump University, despite previously acknowledging 22+ complaints.",
+    "description": "Internal emails show Florida OAG employees actively worked to exclude complaints related to the Trump Institute to support the claim that only one complaint existed against Trump University, despite previously acknowledging 22+ complaints.",
     "image_url": "",
     "people": [],
     "companies": [],
@@ -879,8 +901,7 @@
     "end_date": "2014-12-31",
     "priority": "High",
     "coords": null,
-    "description":
-      "On its 2013 tax return (Form 990), the Trump Foundation falsely claimed it made no political donations and substituted the illegal donation recipient 'And Justice for All' with a legitimate, similarly named Kansas charity.",
+    "description": "On its 2013 tax return (Form 990), the Trump Foundation falsely claimed it made no political donations and substituted the illegal donation recipient 'And Justice for All' with a legitimate, similarly named Kansas charity.",
     "image_url": "",
     "people": [],
     "companies": [],
@@ -899,8 +920,7 @@
     "end_date": "2016-03-21",
     "priority": "High",
     "coords": null,
-    "description":
-      "Citizens for Responsibility and Ethics in Washington (CREW) filed a complaint with the IRS against the Trump Foundation regarding the illegal $25,000 donation to the Pam Bondi-supporting political group.",
+    "description": "Citizens for Responsibility and Ethics in Washington (CREW) filed a complaint with the IRS against the Trump Foundation regarding the illegal $25,000 donation to the Pam Bondi-supporting political group.",
     "image_url": "",
     "people": [],
     "companies": [],
@@ -920,8 +940,7 @@
     "end_date": "2016-03-22",
     "priority": "High",
     "coords": null,
-    "description":
-      "Representatives for Donald Trump admitted the illegal donation occurred, attributing it to clerical errors.",
+    "description": "Representatives for Donald Trump admitted the illegal donation occurred, attributing it to clerical errors.",
     "image_url": "",
     "people": [
       {
@@ -942,17 +961,14 @@
     "end_date": "2016-06-07",
     "priority": "High",
     "coords": null,
-    "description":
-      "Pam Bondi's spokesperson claimed she was unaware of the numerous complaints against Trump entities when soliciting the donation. Bondi herself stated her office was never investigating Trump and denied wrongdoing.",
+    "description": "Pam Bondi's spokesperson claimed she was unaware of the numerous complaints against Trump entities when soliciting the donation. Bondi herself stated her office was never investigating Trump and denied wrongdoing.",
     "image_url": "",
     "people": [
       { "person_id": "pers-pb-01", "role": "Official Denying Investigation" }
     ],
     "companies": [],
     "organizations": [],
-    "agencies": [
-      { "agency_id": "agcy-fl-oag", "role": "Associated Agency" }
-    ]
+    "agencies": [{ "agency_id": "agcy-fl-oag", "role": "Associated Agency" }]
   },
   {
     "event_id": "evt-tf-11",
@@ -961,12 +977,9 @@
     "end_date": "2016-07-06",
     "priority": "High",
     "coords": null,
-    "description":
-      "CREW filed complaints against Pam Bondi with the Florida OAG Inspector General and the Florida Commission on Ethics, alleging potential legal violations for failing to investigate Trump University after her political group received the foundation's donation.",
+    "description": "CREW filed complaints against Pam Bondi with the Florida OAG Inspector General and the Florida Commission on Ethics, alleging potential legal violations for failing to investigate Trump University after her political group received the foundation's donation.",
     "image_url": "",
-    "people": [
-      { "person_id": "pers-pb-01", "role": "Subject of Complaints" }
-    ],
+    "people": [{ "person_id": "pers-pb-01", "role": "Subject of Complaints" }],
     "companies": [],
     "organizations": [
       { "organization_id": "org-crew-01", "role": "Complainant" }
@@ -978,14 +991,12 @@
   },
   {
     "event_id": "evt-tf-12",
-    "event_name":
-      "CREW Files IRS Complaint re: Foundation Supporting Trump Campaign",
+    "event_name": "CREW Files IRS Complaint re: Foundation Supporting Trump Campaign",
     "start_date": "2016-08-08",
     "end_date": "2016-08-08",
     "priority": "Medium",
     "coords": null,
-    "description":
-      "CREW filed another IRS complaint against the Trump Foundation, alleging it illegally supported the Trump presidential campaign through involvement in campaign events and payments to groups present at rallies.",
+    "description": "CREW filed another IRS complaint against the Trump Foundation, alleging it illegally supported the Trump presidential campaign through involvement in campaign events and payments to groups present at rallies.",
     "image_url": "",
     "people": [
       {
@@ -998,9 +1009,7 @@
       { "organization_id": "org-crew-01", "role": "Complainant" },
       { "organization_id": "org-tf-01", "role": "Subject Organization" }
     ],
-    "agencies": [
-      { "agency_id": "agcy-irs-01", "role": "Recipient Agency" }
-    ]
+    "agencies": [{ "agency_id": "agcy-irs-01", "role": "Recipient Agency" }]
   },
   {
     "event_id": "evt-tf-13",
@@ -1009,28 +1018,23 @@
     "end_date": "2016-09-01",
     "priority": "High",
     "coords": null,
-    "description":
-      "Following CREW's inquiries about updated tax forms, the Washington Post discovered and reported that the Trump Foundation had paid a $2,500 IRS penalty for the illegal 2013 donation to the Bondi-supporting group.",
+    "description": "Following CREW's inquiries about updated tax forms, the Washington Post discovered and reported that the Trump Foundation had paid a $2,500 IRS penalty for the illegal 2013 donation to the Bondi-supporting group.",
     "image_url": "",
     "people": [],
     "companies": [],
     "organizations": [
       { "organization_id": "org-tf-01", "role": "Penalized Organization" }
     ],
-    "agencies": [
-      { "agency_id": "agcy-irs-01", "role": "Penalizing Agency" }
-    ]
+    "agencies": [{ "agency_id": "agcy-irs-01", "role": "Penalizing Agency" }]
   },
   {
     "event_id": "evt-tf-14",
-    "event_name":
-      "CREW Files Second IRS Complaint re: Bondi Donation/Self-Dealing",
+    "event_name": "CREW Files Second IRS Complaint re: Bondi Donation/Self-Dealing",
     "start_date": "2016-09-07",
     "end_date": "2016-09-07",
     "priority": "High",
     "coords": null,
-    "description":
-      "CREW filed another IRS complaint against Donald Trump and the Trump Foundation concerning the Bondi donation, calling for investigation into whether it constituted prohibited self-dealing by benefiting Trump's business interests (avoiding Trump University investigation).",
+    "description": "CREW filed another IRS complaint against Donald Trump and the Trump Foundation concerning the Bondi donation, calling for investigation into whether it constituted prohibited self-dealing by benefiting Trump's business interests (avoiding Trump University investigation).",
     "image_url": "",
     "people": [
       {
@@ -1044,9 +1048,7 @@
       { "organization_id": "org-crew-01", "role": "Complainant" },
       { "organization_id": "org-tf-01", "role": "Subject Organization" }
     ],
-    "agencies": [
-      { "agency_id": "agcy-irs-01", "role": "Recipient Agency" }
-    ]
+    "agencies": [{ "agency_id": "agcy-irs-01", "role": "Recipient Agency" }]
   },
   {
     "event_id": "evt-tf-15",
@@ -1055,8 +1057,7 @@
     "end_date": "2016-09-13",
     "priority": "High",
     "coords": null,
-    "description":
-      "CREW filed criminal bribery complaints against both Donald Trump and Pam Bondi with the Department of Justice, also requesting investigation into potential criminal false reporting by the Trump Foundation to the IRS.",
+    "description": "CREW filed criminal bribery complaints against both Donald Trump and Pam Bondi with the Department of Justice, also requesting investigation into potential criminal false reporting by the Trump Foundation to the IRS.",
     "image_url": "",
     "people": [
       {
@@ -1073,9 +1074,7 @@
         "role": "Subject Organization (False Reporting)"
       }
     ],
-    "agencies": [
-      { "agency_id": "agcy-doj-01", "role": "Recipient Agency" }
-    ]
+    "agencies": [{ "agency_id": "agcy-doj-01", "role": "Recipient Agency" }]
   },
   {
     "event_id": "evt-tf-16",
@@ -1084,8 +1083,7 @@
     "end_date": "2016-09-14",
     "priority": "Medium",
     "coords": null,
-    "description":
-      "CREW submitted a Freedom of Information Law (FOIL) request to the New York Attorney General's office seeking tax documents and investigation records related to the Trump Foundation.",
+    "description": "CREW submitted a Freedom of Information Law (FOIL) request to the New York Attorney General's office seeking tax documents and investigation records related to the Trump Foundation.",
     "image_url": "",
     "people": [],
     "companies": [],
@@ -1093,9 +1091,7 @@
       { "organization_id": "org-crew-01", "role": "Requestor" },
       { "organization_id": "org-tf-01", "role": "Subject Organization" }
     ],
-    "agencies": [
-      { "agency_id": "agcy-ny-ag", "role": "Recipient Agency" }
-    ]
+    "agencies": [{ "agency_id": "agcy-ny-ag", "role": "Recipient Agency" }]
   },
   {
     "event_id": "evt-tf-17",
@@ -1104,8 +1100,7 @@
     "end_date": "2016-09-21",
     "priority": "High",
     "coords": null,
-    "description":
-      "CREW filed its third IRS complaint against Donald Trump, alleging multiple instances of illegal self-dealing where Trump Foundation funds were used for his personal benefit or the benefit of his business interests.",
+    "description": "CREW filed its third IRS complaint against Donald Trump, alleging multiple instances of illegal self-dealing where Trump Foundation funds were used for his personal benefit or the benefit of his business interests.",
     "image_url": "",
     "people": [
       {
@@ -1118,9 +1113,7 @@
       { "organization_id": "org-crew-01", "role": "Complainant" },
       { "organization_id": "org-tf-01", "role": "Subject Organization" }
     ],
-    "agencies": [
-      { "agency_id": "agcy-irs-01", "role": "Recipient Agency" }
-    ]
+    "agencies": [{ "agency_id": "agcy-irs-01", "role": "Recipient Agency" }]
   },
   {
     "event_id": "evt-tf-18",
@@ -1129,8 +1122,7 @@
     "end_date": "2016-10-19",
     "priority": "Medium",
     "coords": null,
-    "description":
-      "The New York Attorney General's office responded to CREW's FOIL request. The documents revealed serious errors in the Trump Foundation's attempts to correct its tax issues related to the Bondi donation and raised further questions about its operations and claims.",
+    "description": "The New York Attorney General's office responded to CREW's FOIL request. The documents revealed serious errors in the Trump Foundation's attempts to correct its tax issues related to the Bondi donation and raised further questions about its operations and claims.",
     "image_url": "",
     "people": [],
     "companies": [],
@@ -1138,9 +1130,7 @@
       { "organization_id": "org-crew-01", "role": "Recipient of Response" },
       { "organization_id": "org-tf-01", "role": "Subject Organization" }
     ],
-    "agencies": [
-      { "agency_id": "agcy-ny-ag", "role": "Responding Agency" }
-    ]
+    "agencies": [{ "agency_id": "agcy-ny-ag", "role": "Responding Agency" }]
   },
   {
     "event_id": "evt-tf-19",
@@ -1149,8 +1139,7 @@
     "end_date": "2016-12-24",
     "priority": "High",
     "coords": null,
-    "description":
-      "Facing growing scrutiny and multiple investigations stemming from CREW's complaints and reporting, Donald Trump announced he would shut down the Donald J. Trump Foundation.",
+    "description": "Facing growing scrutiny and multiple investigations stemming from CREW's complaints and reporting, Donald Trump announced he would shut down the Donald J. Trump Foundation.",
     "image_url": "",
     "people": [
       {
@@ -1171,11 +1160,13 @@
     "end_date": "2017-09",
     "priority": "Medium",
     "coords": null,
-    "description":
-      "Walgreens Boots Alliance (tenant in Trump's 40 Wall St via Duane Reade) sought approval for its merger with Rite Aid. After lobbying the Trump White House, a revised $4.4B deal was approved by the FTC in Sep 2017. The approval process and subsequent nomination of approving FTC Commissioner Maureen Ohlhausen for a judgeship raised conflict of interest concerns.",
+    "description": "Walgreens Boots Alliance (tenant in Trump's 40 Wall St via Duane Reade) sought approval for its merger with Rite Aid. After lobbying the Trump White House, a revised $4.4B deal was approved by the FTC in Sep 2017. The approval process and subsequent nomination of approving FTC Commissioner Maureen Ohlhausen for a judgeship raised conflict of interest concerns.",
     "image_url": "",
     "people": [
-      { "person_id": "54ffc3a-332f-498e-9aca-9aafb5bf780e", "role": "President" },
+      {
+        "person_id": "54ffc3a-332f-498e-9aca-9aafb5bf780e",
+        "role": "President"
+      },
       {
         "person_id": "8d9e0f1a-2b3c-4d5e-6f7a-b8c9d0e1f2a3",
         "role": "FTC Commissioner"
@@ -1203,8 +1194,7 @@
     "end_date": "",
     "priority": "Medium",
     "coords": null,
-    "description":
-      "Several major banks leasing space in Trump properties faced federal scrutiny. Capital One was investigated for its anti-money-laundering program. Bank of America had a large prior settlement. UBS, Barclays, JPMorgan, and Trump lender Deutsche Bank received regulatory waivers from the Dept. of Labor related to past misconduct.",
+    "description": "Several major banks leasing space in Trump properties faced federal scrutiny. Capital One was investigated for its anti-money-laundering program. Bank of America had a large prior settlement. UBS, Barclays, JPMorgan, and Trump lender Deutsche Bank received regulatory waivers from the Dept. of Labor related to past misconduct.",
     "image_url": "",
     "people": [
       {
@@ -1246,8 +1236,7 @@
     "end_date": "",
     "priority": "Low",
     "coords": null,
-    "description":
-      "Numerous corporate tenants in Trump properties actively lobbied the federal government on various policy issues during his presidency, including GNC, Nike, Starbucks, Microsoft, and Columbia University. Additionally, three tenant law firms with lobbying arms operated while paying rent to the President.",
+    "description": "Numerous corporate tenants in Trump properties actively lobbied the federal government on various policy issues during his presidency, including GNC, Nike, Starbucks, Microsoft, and Columbia University. Additionally, three tenant law firms with lobbying arms operated while paying rent to the President.",
     "image_url": "",
     "people": [
       {
@@ -1283,8 +1272,7 @@
     "event_name": "Examination of Nikola Tesla's Papers by John G. Trump",
     "start_date": "1943-01",
     "end_date": null,
-    "description":
-      "Following Nikola Tesla's death, John G. Trump examined his papers, notes, and artifacts over three days at the request of the U.S. Office of Alien Property Custodian.",
+    "description": "Following Nikola Tesla's death, John G. Trump examined his papers, notes, and artifacts over three days at the request of the U.S. Office of Alien Property Custodian.",
     "people": [
       {
         "person_id": "p1a2b3c4-d5e6-7f8a-9b0c-1d2e3f4a5b6d",
@@ -1294,8 +1282,7 @@
       {
         "person_id": "p7e8f9a0-b1c2-3d4e-5f6a-7b8c9d0e1f2a",
         "name": "Nikola Tesla",
-        "reason_of_involvement":
-          "Subject whose papers and effects were examined post-mortem"
+        "reason_of_involvement": "Subject whose papers and effects were examined post-mortem"
       }
     ],
     "companies": [],
@@ -1311,28 +1298,24 @@
       {
         "cause_id": "c1a1b1c1-d1e1-f1a1-b1c1-d1e1f1a1b1c1",
         "cause_name": "Death of Nikola Tesla",
-        "description":
-          "Nikola Tesla died two days prior to the request for examination."
+        "description": "Nikola Tesla died two days prior to the request for examination."
       },
       {
         "cause_id": "c2d2e2f2-a2b2-c2d2-e2f2-a2b2c2d2e2f2",
         "cause_name": "National Security Concerns",
-        "description":
-          "U.S. officials feared Tesla's papers might contain designs for high-voltage weapons and were reluctant to let them fall into potentially unfriendly hands (German-occupied Yugoslavia)."
+        "description": "U.S. officials feared Tesla's papers might contain designs for high-voltage weapons and were reluctant to let them fall into potentially unfriendly hands (German-occupied Yugoslavia)."
       }
     ],
     "effects": [
       {
         "effect_id": "f1a9b8c7-d6e5-f4a3-b2c1-d0e9f8a7b6c5",
         "effect_name": "Trump's Assessment Report",
-        "description":
-          "John G. Trump reported after a three-day investigation that the materials had no significant value to the U.S. and would not constitute a hazard in unfriendly hands."
+        "description": "John G. Trump reported after a three-day investigation that the materials had no significant value to the U.S. and would not constitute a hazard in unfriendly hands."
       },
       {
         "effect_id": "f2b1c2d3-e4f5-a6b7-c8d9-e0f1a2b3c4d5",
         "effect_name": "Evaluation of Tesla's Later Work",
-        "description":
-          "Trump concluded that Tesla's late-career projects did not include new sound workable principles or methods and were primarily promotional."
+        "description": "Trump concluded that Tesla's late-career projects did not include new sound workable principles or methods and were primarily promotional."
       }
     ],
     "sources": [
@@ -1349,8 +1332,7 @@
     "end_date": "",
     "priority": "Medium",
     "coords": null,
-    "description":
-      "Three months after Trump's inauguration, the U.S. Postal Service began a new lease in a Brooklyn property where Trump held a 4% stake (reportedly being sold). This raised potential issues under the Constitution's clauses against presidents receiving compensation from the government beyond their salary.",
+    "description": "Three months after Trump's inauguration, the U.S. Postal Service began a new lease in a Brooklyn property where Trump held a 4% stake (reportedly being sold). This raised potential issues under the Constitution's clauses against presidents receiving compensation from the government beyond their salary.",
     "image_url": "",
     "people": [
       {
@@ -1372,8 +1354,7 @@
     "end_date": "",
     "priority": "Medium",
     "coords": null,
-    "description":
-      "Leases held by major foreign companies in Trump properties created potential diplomatic or regulatory conflicts. Gucci (Italy) faced a significant tax probe in its home country. AXA (France) had potential exposure related to business with Iran, which could trigger U.S. sanctions reviewable by the President, their landlord.",
+    "description": "Leases held by major foreign companies in Trump properties created potential diplomatic or regulatory conflicts. Gucci (Italy) faced a significant tax probe in its home country. AXA (France) had potential exposure related to business with Iran, which could trigger U.S. sanctions reviewable by the President, their landlord.",
     "image_url": "",
     "people": [
       {
@@ -1399,8 +1380,7 @@
     "end_date": "",
     "priority": "Low",
     "coords": null,
-    "description":
-      "Despite lawyer Sheri Dillon's pledge against 'new foreign deals' (interpreted as projects outside US soil), the Trump Organization signed new leases with foreign-based retailers Lululemon (Canada) and Pret A Manger (UK) after Trump became president.",
+    "description": "Despite lawyer Sheri Dillon's pledge against 'new foreign deals' (interpreted as projects outside US soil), the Trump Organization signed new leases with foreign-based retailers Lululemon (Canada) and Pret A Manger (UK) after Trump became president.",
     "image_url": "",
     "people": [
       {
@@ -1430,8 +1410,7 @@
     "end_date": "2018",
     "priority": "Medium",
     "coords": { "lat": 40.763, "lng": -73.9745 },
-    "description":
-      "Nike announced it was vacating its large Niketown store in a Trump-owned building near Trump Tower in Spring 2018, despite having years left on its lease. This created a prime ~65,000 sq ft vacancy with potential annual rent of ~$13M, raising questions about who would fill it and at what rate paid to the President.",
+    "description": "Nike announced it was vacating its large Niketown store in a Trump-owned building near Trump Tower in Spring 2018, despite having years left on its lease. This created a prime ~65,000 sq ft vacancy with potential annual rent of ~$13M, raising questions about who would fill it and at what rate paid to the President.",
     "image_url": "",
     "people": [
       {
@@ -1453,8 +1432,7 @@
     "end_date": "2022",
     "priority": "High",
     "coords": { "lat": 40.76778867162581, "lng": -73.97442360619547 },
-    "description":
-      "The full-page advertisement was taken out by Donald Trump in the May 1, 1989, issue of the Daily News.",
+    "description": "The full-page advertisement was taken out by Donald Trump in the May 1, 1989, issue of the Daily News.",
     "people": [{ "person_id": "d54ffc3a-332f-498e-9aca-9aafb5bf780e" }],
     "wikipedia": "https://en.wikipedia.org/wiki/Central_Park_jogger_case"
   },
@@ -1478,7 +1456,8 @@
     "description": "Queens, Warham Place",
     "people": [
       { "person_id": "d54ffc3a-332f-498e-9aca-9aafb5bf780e" },
-      { "person_id": "cbd48421-5966-4f0f-af7a-c2a58e5a7c92" }    ]
+      { "person_id": "cbd48421-5966-4f0f-af7a-c2a58e5a7c92" }
+    ]
   },
   {
     "event_id": "39b1cc36-464d-3f71-8533-d91195d7de65",
@@ -1507,11 +1486,11 @@
     "end_date": "2019",
     "priority": "High",
     "coords": { "lat": 18.3, "lng": -64.825 },
-    "description":
-      "It was owned by American financier and sex offender Jeffrey Epstein from 1998 until his death in 2019.",
+    "description": "It was owned by American financier and sex offender Jeffrey Epstein from 1998 until his death in 2019.",
     "people": [
       { "person_id": "d54ffc3a-332f-498e-9aca-9aafb5bf780e" },
-      { "person_id": "d1de71e0-542d-494d-a2b1-00860e6c8d0a" }    ]
+      { "person_id": "d1de71e0-542d-494d-a2b1-00860e6c8d0a" }
+    ]
   },
 
   {
@@ -1521,14 +1500,12 @@
     "end_date": "1992-11",
     "priority": "High",
     "coords": { "lat": 26.677023, "lng": -80.037037 },
-    "description":
-      "November 1992 tape in the NBC archives shows Donald Trump partying with Jeffrey Epstein at Trump’s Mar-a-Lago",
+    "description": "November 1992 tape in the NBC archives shows Donald Trump partying with Jeffrey Epstein at Trump’s Mar-a-Lago",
     "people": [
       { "person_id": "d54ffc3a-332f-498e-9aca-9aafb5bf780e" },
       { "person_id": "d1de71e0-542d-494d-a2b1-00860e6c8d0a" }
     ],
-    "wikipedia":
-      "https://en.wikipedia.org/wiki/Donald_Trump_sexual_misconduct_allegations"
+    "wikipedia": "https://en.wikipedia.org/wiki/Donald_Trump_sexual_misconduct_allegations"
   },
 
   {
@@ -1551,7 +1528,8 @@
     "description": "Epstein Island",
     "people": [
       { "person_id": "d54ffc3a-332f-498e-9aca-9aafb5bf780e" },
-      { "person_id": "d1de71e0-542d-494d-a2b1-00860e6c8d0a" }    ]
+      { "person_id": "d1de71e0-542d-494d-a2b1-00860e6c8d0a" }
+    ]
   },
   {
     "event_id": "df594683-a835-4683-b38d-4b333c3cad33",
@@ -1563,7 +1541,8 @@
     "description": "Bergdorf Goodman",
     "people": [
       { "person_id": "d54ffc3a-332f-498e-9aca-9aafb5bf780e" },
-      { "person_id": "59f6bfd8-ee6e-495a-83a0-ef8da81bdc79" }    ]
+      { "person_id": "59f6bfd8-ee6e-495a-83a0-ef8da81bdc79" }
+    ]
   },
   {
     "event_id": "e0cace6e-393a-4050-af8a-2722cb29a6d6",
@@ -1572,10 +1551,8 @@
     "end_date": "2013-12-31",
     "priority": null,
     "coords": { "lat": 40.759011, "lng": -73.984472 },
-    "image_url":
-      "https://static01.nyt.com/images/2024/11/22/us/politics/22DC-TRUMPU/22DC-TRUMPU-articleLarge.jpg?quality=75&auto=webp&disable=upscale",
-    "description":
-      "Trump University was a for-profit education company founded by Donald Trump in 2005. It offered a variety of courses in real estate, entrepreneurship, and personal finance. The university was accused of fraud and was eventually shut down in 2013. Allegations of deceptive practices and fraud were reported in multiple states, including Florida, for several years prior to its closure. In 2013, the New York Attorney General's office sued Trump and Trump University for engaging in persistent fraudulent, illegal and deceptive conduct.",
+    "image_url": "https://static01.nyt.com/images/2024/11/22/us/politics/22DC-TRUMPU/22DC-TRUMPU-articleLarge.jpg?quality=75&auto=webp&disable=upscale",
+    "description": "Trump University was a for-profit education company founded by Donald Trump in 2005. It offered a variety of courses in real estate, entrepreneurship, and personal finance. The university was accused of fraud and was eventually shut down in 2013. Allegations of deceptive practices and fraud were reported in multiple states, including Florida, for several years prior to its closure. In 2013, the New York Attorney General's office sued Trump and Trump University for engaging in persistent fraudulent, illegal and deceptive conduct.",
     "people": [
       {
         "person_id": "d54ffc3a-332f-498e-9aca-9aafb5bf780e",
@@ -1596,8 +1573,7 @@
       {
         "name": "Ivanka Trump",
         "middle_name": null,
-        "reason_of_involvement":
-          "Executive vice president of Trump University for Development and Acquisitions."
+        "reason_of_involvement": "Executive vice president of Trump University for Development and Acquisitions."
       },
       {
         "name": "Eric Trump",
@@ -1607,8 +1583,7 @@
       {
         "name": "Pam Bondi",
         "middle_name": null,
-        "reason_of_involvement":
-          "Florida Attorney General whose office declined to investigate allegations of fraud against Trump University."
+        "reason_of_involvement": "Florida Attorney General whose office declined to investigate allegations of fraud against Trump University."
       }
     ],
     "causes": [
@@ -1617,8 +1592,7 @@
         "cause_name": "Allegations of fraud",
         "start_date": "2010-01-01",
         "end_date": "2013-12-31",
-        "description":
-          "In 2010, the New York Attorney General's Office began investigating Trump University for fraud. The investigation found that the university had made false promises to students about the quality of its courses and the potential for success in real estate. Reports of deceptive practices and fraud were also made in other states, including Florida."
+        "description": "In 2010, the New York Attorney General's Office began investigating Trump University for fraud. The investigation found that the university had made false promises to students about the quality of its courses and the potential for success in real estate. Reports of deceptive practices and fraud were also made in other states, including Florida."
       }
     ],
     "effects": [
@@ -1627,24 +1601,21 @@
         "effect_name": "Settlement with New York Attorney General's Office",
         "start_date": "2013-11-25",
         "end_date": "2013-11-25",
-        "description":
-          "In November 2013, Trump University settled with the New York Attorney General's Office for $25 million. The settlement required Trump University to shut down and refund students who had been misled."
+        "description": "In November 2013, Trump University settled with the New York Attorney General's Office for $25 million. The settlement required Trump University to shut down and refund students who had been misled."
       },
       {
         "effect_id": "e2cace6e-393a-4050-af8a-2722cb29a6d6",
         "effect_name": "Damage to Trump's reputation",
         "start_date": "2013-11-25",
         "end_date": null,
-        "description":
-          "The Trump University scandal damaged Trump's reputation and made him a target of criticism from his political opponents."
+        "description": "The Trump University scandal damaged Trump's reputation and made him a target of criticism from his political opponents."
       },
       {
         "effect_id": "e3cace6e-393a-4050-af8a-2722cb29a6d6",
         "effect_name": "Florida Attorney General's inaction",
         "start_date": "2011",
         "end_date": "2013",
-        "description":
-          "While allegations of fraud were present, the Florida Attorney General's office, under Pam Bondi, did not pursue an investigation. This inaction followed a $25,000 donation to Bondi's PAC from Donald Trump."
+        "description": "While allegations of fraud were present, the Florida Attorney General's office, under Pam Bondi, did not pursue an investigation. This inaction followed a $25,000 donation to Bondi's PAC from Donald Trump."
       }
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/Trump_University"
@@ -1686,8 +1657,7 @@
         "reason_of_involvement": ""
       }
     ],
-    "wikipedia":
-      "https://en.wikipedia.org/wiki/Donald_Trump_Access_Hollywood_tape"
+    "wikipedia": "https://en.wikipedia.org/wiki/Donald_Trump_Access_Hollywood_tape"
   },
   {
     "event_id": "6e51f9d4-0708-4007-aa4c-685e67c7ae5d",
@@ -1701,8 +1671,7 @@
       { "person_id": "d54ffc3a-332f-498e-9aca-9aafb5bf780e" },
       { "person_id": "f92389c9-65d4-4a7b-a3fa-c4a2f47a1653" }
     ],
-    "wikipedia":
-      "https://en.wikipedia.org/wiki/Stormy_Daniels%E2%80%93Donald_Trump_scandal"
+    "wikipedia": "https://en.wikipedia.org/wiki/Stormy_Daniels%E2%80%93Donald_Trump_scandal"
   },
   {
     "event_id": "4483bdd6-e433-4082-b9d7-83dbc499f27b",
@@ -1716,8 +1685,7 @@
       { "person_id": "d54ffc3a-332f-498e-9aca-9aafb5bf780e" },
       { "person_id": "d1de71e0-542d-494d-a2b1-00860e6c8d0a" }
     ],
-    "wikipedia":
-      "https://en.wikipedia.org/wiki/Little_Saint_James,_U.S._Virgin_Islands"
+    "wikipedia": "https://en.wikipedia.org/wiki/Little_Saint_James,_U.S._Virgin_Islands"
   },
   {
     "event_id": "ba4038a0-1cdf-4ffb-b6e0-4b729178d895",
@@ -1729,7 +1697,8 @@
     "description": "Washington DC",
     "people": [
       { "person_id": "d54ffc3a-332f-498e-9aca-9aafb5bf780e" },
-      { "person_id": "230d78ae-73c6-4609-ac77-d676ff8d6d03" }    ]
+      { "person_id": "230d78ae-73c6-4609-ac77-d676ff8d6d03" }
+    ]
   },
   {
     "event_id": "27f0e019-cafd-47c6-8d9b-61cd1fb3ae47",
@@ -1741,7 +1710,8 @@
     "description": "Presidential Palace, Helsinki",
     "people": [
       { "person_id": "d54ffc3a-332f-498e-9aca-9aafb5bf780e" },
-      { "person_id": "addf23fe-3f24-4a05-b740-6f6133cd3ff5" }    ]
+      { "person_id": "addf23fe-3f24-4a05-b740-6f6133cd3ff5" }
+    ]
   },
   {
     "event_id": "226bfbd2-2179-49a1-9a06-9f1a85fac912",
@@ -1760,8 +1730,7 @@
     "end_date": "2019-10-23.",
     "priority": "High",
     "coords": { "lat": 40.76778867162581, "lng": -73.97442360619547 },
-    "description":
-      "In 2019, the Trump Organization removed the Trump name from most signs and logos at both Wollman and Lasker Rinks without giving a reason.",
+    "description": "In 2019, the Trump Organization removed the Trump name from most signs and logos at both Wollman and Lasker Rinks without giving a reason.",
     "people": [{ "person_id": "" }],
     "wikipedia": "https://en.wikipedia.org/wiki/Wollman_Rink"
   },
@@ -1775,7 +1744,8 @@
     "description": "Hôtel Métropole, Hanoi",
     "people": [
       { "person_id": "d54ffc3a-332f-498e-9aca-9aafb5bf780e" },
-      { "person_id": "fd0ec94f-f96f-4559-ba26-9c85ab088fc4" }    ]
+      { "person_id": "fd0ec94f-f96f-4559-ba26-9c85ab088fc4" }
+    ]
   },
   {
     "event_id": "956194b5-a16c-4506-88d9-fdb78e8b2b43",
@@ -1787,7 +1757,8 @@
     "description": "Freedom House, Panmunjom, Demilitarized Zone",
     "people": [
       { "person_id": "d54ffc3a-332f-498e-9aca-9aafb5bf780e" },
-      { "person_id": "fd0ec94f-f96f-4559-ba26-9c85ab088fc4" }    ]
+      { "person_id": "fd0ec94f-f96f-4559-ba26-9c85ab088fc4" }
+    ]
   },
   {
     "event_id": "d64336f0-907d-4422-98aa-46552ba98a6f",
@@ -1801,8 +1772,7 @@
       { "person_id": "d54ffc3a-332f-498e-9aca-9aafb5bf780e" },
       { "person_id": "4138e7e4-1368-4bc3-a0ca-011c0022d447" }
     ],
-    "wikipedia":
-      "https://en.wikipedia.org/wiki/Trump%E2%80%93Raffensperger_phone_call"
+    "wikipedia": "https://en.wikipedia.org/wiki/Trump%E2%80%93Raffensperger_phone_call"
   },
   {
     "event_id": "d712f294-5614-43e1-9d4d-125ddabf1520",
@@ -1842,8 +1812,7 @@
     "end_date": "",
     "priority": "High",
     "coords": { "lat": 40.71410017278047, "lng": -74.0005125986079 },
-    "description":
-      "Judge Lewis Kaplan, who presided over the trial, wrote that the evidence demonstrated Trump 'raped' Carroll in the plain sense of the word as “many people” understand it.",
+    "description": "Judge Lewis Kaplan, who presided over the trial, wrote that the evidence demonstrated Trump 'raped' Carroll in the plain sense of the word as “many people” understand it.",
     "people": [{ "person_id": "" }]
   },
   {
@@ -1863,8 +1832,7 @@
     "end_date": "",
     "priority": "High",
     "coords": { "lat": 39.71369279068866, "lng": -75.60345001349167 },
-    "description":
-      "World Liberty Financial is a cryptocurrency exchange founded by Donald Trump Jr and Eric Trump in 2024.[1][2][3] ",
+    "description": "World Liberty Financial is a cryptocurrency exchange founded by Donald Trump Jr and Eric Trump in 2024.[1][2][3] ",
     "people": [{ "person_id": "" }],
     "wikipedia": "https://en.wikipedia.org/wiki/World_Liberty_Financial"
   },
@@ -1876,15 +1844,13 @@
     "priority": "High",
     "coords": null,
     "image_url": null,
-    "description":
-      "Following the start of the 47th presidency, widespread protests occurred on university campuses across the US in response to administration policies targeting immigrants, international students, and the revocation of student visas. Protests mentioned took place recently at UConn, UNLV, Syracuse University, Columbia University, University of Delaware, Harvard University, Kennesaw State University, Indiana University, and Arizona State University.",
+    "description": "Following the start of the 47th presidency, widespread protests occurred on university campuses across the US in response to administration policies targeting immigrants, international students, and the revocation of student visas. Protests mentioned took place recently at UConn, UNLV, Syracuse University, Columbia University, University of Delaware, Harvard University, Kennesaw State University, Indiana University, and Arizona State University.",
     "people": [
       {
         "person_id": "a1b2c3d4-e5f6-7890-1234-567890abcdef",
         "name": "Donald Trump",
         "middle_name": null,
-        "reason_of_involvement":
-          "Subject of protests due to administration's immigration and visa policies."
+        "reason_of_involvement": "Subject of protests due to administration's immigration and visa policies."
       }
     ],
     "companies": [],
@@ -1933,15 +1899,13 @@
     "priority": "High",
     "coords": null,
     "image_url": null,
-    "description":
-      "Widespread student protests erupted across numerous US university campuses (including UConn, UNLV, Syracuse, Columbia, U. Delaware, Harvard, Kennesaw State, Indiana U., ASU) in early 2025 following Trump administration policies targeting immigrants, international students, and revoking student visas. Students voiced opposition to detentions and deportations.",
+    "description": "Widespread student protests erupted across numerous US university campuses (including UConn, UNLV, Syracuse, Columbia, U. Delaware, Harvard, Kennesaw State, Indiana U., ASU) in early 2025 following Trump administration policies targeting immigrants, international students, and revoking student visas. Students voiced opposition to detentions and deportations.",
     "people": [
       {
         "person_id": "a1b2c3d4-e5f6-7890-1234-567890abcdef",
         "name": "Donald Trump",
         "middle_name": null,
-        "reason_of_involvement":
-          "President whose administration's policies targeting students sparked protests."
+        "reason_of_involvement": "President whose administration's policies targeting students sparked protests."
       }
     ],
     "companies": [],
@@ -1969,23 +1933,19 @@
     "causes": [
       {
         "cause_id": "cause-protest-01",
-        "cause_name":
-          "Trump Administration Immigration/Visa Policies Targeting Students",
+        "cause_name": "Trump Administration Immigration/Visa Policies Targeting Students",
         "start_date": "2025-01-20",
         "end_date": "2025-04-26",
-        "description":
-          "Policies enacted by the Trump administration perceived as targeting immigrants and international students, including revoking visas and increasing detentions/deportations of students by ICE under DHS."
+        "description": "Policies enacted by the Trump administration perceived as targeting immigrants and international students, including revoking visas and increasing detentions/deportations of students by ICE under DHS."
       }
     ],
     "effects": [
       {
         "effect_id": "effect-protest-01",
-        "effect_name":
-          "Increased Public Awareness and Pressure on Administration",
+        "effect_name": "Increased Public Awareness and Pressure on Administration",
         "start_date": "2025-02-01",
         "end_date": "2025-04-26",
-        "description":
-          "The widespread protests raised public awareness of the administration's actions and contributed to pressure leading to legal challenges and eventual policy reversal."
+        "description": "The widespread protests raised public awareness of the administration's actions and contributed to pressure leading to legal challenges and eventual policy reversal."
       }
     ],
     "sources": [
@@ -2007,22 +1967,23 @@
     "priority": "High",
     "coords": null,
     "image_url": null,
-    "description":
-      "Following the Trump administration's actions revoking student visas in early 2025, numerous lawsuits were filed across the US. These included individual student suits from universities like WVU, U Iowa, Rutgers, UW Madison, UT Rio Grande Valley, Gannon, Purdue, and UC Berkeley; cases by ACLU chapters (WV, CT); a class-action suit in New Hampshire; a major suit by 19 Democratic State Attorneys General; and efforts by groups like the American Immigration Lawyers Association (AILA) representing hundreds of students. The suits alleged due process violations and challenged the legality of the visa revocations targeting international students.",
+    "description": "Following the Trump administration's actions revoking student visas in early 2025, numerous lawsuits were filed across the US. These included individual student suits from universities like WVU, U Iowa, Rutgers, UW Madison, UT Rio Grande Valley, Gannon, Purdue, and UC Berkeley; cases by ACLU chapters (WV, CT); a class-action suit in New Hampshire; a major suit by 19 Democratic State Attorneys General; and efforts by groups like the American Immigration Lawyers Association (AILA) representing hundreds of students. The suits alleged due process violations and challenged the legality of the visa revocations targeting international students.",
     "people": [
       {
         "person_id": "a1b2c3d4-e5f6-7890-1234-567890abcdef",
         "name": "Donald Trump",
         "middle_name": null,
-        "reason_of_involvement":
-          "Head of the administration whose policies were challenged legally."
+        "reason_of_involvement": "Head of the administration whose policies were challenged legally."
       }
     ],
     "companies": [],
     "organizations": [
       { "organization_id": "org-aclu-wv-01", "role": "Plaintiff Organization" },
       { "organization_id": "org-aclu-ct-01", "role": "Plaintiff Organization" },
-      { "organization_id": "org-aila-01", "role": "Legal Advocacy Organization" },
+      {
+        "organization_id": "org-aila-01",
+        "role": "Legal Advocacy Organization"
+      },
       {
         "organization_id": "org-wvu-01",
         "role": "Source of Plaintiffs (Students)"
@@ -2065,12 +2026,10 @@
     "causes": [
       {
         "cause_id": "cause-legal-01",
-        "cause_name":
-          "Implementation of Trump Admin Policies Revoking Student Visas",
+        "cause_name": "Implementation of Trump Admin Policies Revoking Student Visas",
         "start_date": "2025-02-01",
         "end_date": "2025-04-26",
-        "description":
-          "Enforcement actions by DHS/ICE, stemming from Trump administration policies, leading to visa revocations and deportations prompted numerous legal challenges alleging due process violations."
+        "description": "Enforcement actions by DHS/ICE, stemming from Trump administration policies, leading to visa revocations and deportations prompted numerous legal challenges alleging due process violations."
       }
     ],
     "effects": [
@@ -2079,8 +2038,7 @@
         "effect_name": "Intensified Legal Pressure Leading to Policy Reversal",
         "start_date": "2025-03-01",
         "end_date": "2025-04-26",
-        "description":
-          "The barrage of lawsuits from various parties significantly increased legal pressure on the administration, playing a key role in the eventual reversal of the student visa policy."
+        "description": "The barrage of lawsuits from various parties significantly increased legal pressure on the administration, playing a key role in the eventual reversal of the student visa policy."
       }
     ],
     "sources": [
@@ -2102,15 +2060,13 @@
     "priority": "High",
     "coords": null,
     "image_url": null,
-    "description":
-      "Following weeks of nationwide student protests and numerous legal challenges, the Trump administration announced on April 26, 2025, that it was reversing its policy regarding the cancellation of visas for international students. The government stated that students who had lost their immigration status under the policy would have it restored.",
+    "description": "Following weeks of nationwide student protests and numerous legal challenges, the Trump administration announced on April 26, 2025, that it was reversing its policy regarding the cancellation of visas for international students. The government stated that students who had lost their immigration status under the policy would have it restored.",
     "people": [
       {
         "person_id": "a1b2c3d4-e5f6-7890-1234-567890abcdef",
         "name": "Donald Trump",
         "middle_name": null,
-        "reason_of_involvement":
-          "Head of the administration enacting the policy reversal."
+        "reason_of_involvement": "Head of the administration enacting the policy reversal."
       }
     ],
     "companies": [],
@@ -2125,8 +2081,7 @@
         "cause_name": "Sustained Public Protests and Legal Pressure",
         "start_date": "2025-02-01",
         "end_date": "2025-04-26",
-        "description":
-          "Intense and sustained pressure from widespread student protests (evt-protest-01) and numerous lawsuits (evt-legal-01) filed by students, advocacy groups, and state attorneys general forced the administration to reconsider its visa revocation policy."
+        "description": "Intense and sustained pressure from widespread student protests (evt-protest-01) and numerous lawsuits (evt-legal-01) filed by students, advocacy groups, and state attorneys general forced the administration to reconsider its visa revocation policy."
       }
     ],
     "effects": [
@@ -2135,8 +2090,7 @@
         "effect_name": "Restoration of Immigration Status for Affected Students",
         "start_date": "2025-04-26",
         "end_date": null,
-        "description":
-          "The policy reversal meant that international students whose visas were revoked under the rescinded policy would have their legal immigration status restored by DHS/ICE."
+        "description": "The policy reversal meant that international students whose visas were revoked under the rescinded policy would have their legal immigration status restored by DHS/ICE."
       }
     ],
     "sources": [
@@ -2158,15 +2112,13 @@
     "priority": "Medium",
     "coords": null,
     "image_url": null,
-    "description":
-      "On April 26, 2025, the Trump administration reversed its earlier decision to eliminate the Crime Victims Hotline operated by the US Department of Justice (DOJ). The reversal followed public backlash against the cut, which had occurred earlier in the administration.",
+    "description": "On April 26, 2025, the Trump administration reversed its earlier decision to eliminate the Crime Victims Hotline operated by the US Department of Justice (DOJ). The reversal followed public backlash against the cut, which had occurred earlier in the administration.",
     "people": [
       {
         "person_id": "a1b2c3d4-e5f6-7890-1234-567890abcdef",
         "name": "Donald Trump",
         "middle_name": null,
-        "reason_of_involvement":
-          "Head of the administration enacting the policy reversal."
+        "reason_of_involvement": "Head of the administration enacting the policy reversal."
       }
     ],
     "companies": [],
@@ -2183,8 +2135,7 @@
         "cause_name": "Public Backlash to Hotline Elimination",
         "start_date": "2025-02-01",
         "end_date": "2025-04-26",
-        "description":
-          "Public criticism and pressure arose after the Trump administration moved to eliminate the Department of Justice's Crime Victims Hotline sometime after January 20, 2025."
+        "description": "Public criticism and pressure arose after the Trump administration moved to eliminate the Department of Justice's Crime Victims Hotline sometime after January 20, 2025."
       }
     ],
     "effects": [
@@ -2193,8 +2144,7 @@
         "effect_name": "Reinstatement of DOJ Crime Victims Hotline",
         "start_date": "2025-04-26",
         "end_date": null,
-        "description":
-          "The Department of Justice was directed to reinstate the Crime Victims Hotline service following the administration's policy reversal."
+        "description": "The Department of Justice was directed to reinstate the Crime Victims Hotline service following the administration's policy reversal."
       }
     ],
     "sources": [
@@ -2216,15 +2166,13 @@
     "priority": "Medium",
     "coords": null,
     "image_url": null,
-    "description":
-      "Following public criticism, the Trump administration reversed its earlier decision (made sometime after Jan 20, 2025) to eliminate non-English translations for National Weather Service forecasts and emergency warnings.",
+    "description": "Following public criticism, the Trump administration reversed its earlier decision (made sometime after Jan 20, 2025) to eliminate non-English translations for National Weather Service forecasts and emergency warnings.",
     "people": [
       {
         "person_id": "a1b2c3d4-e5f6-7890-1234-567890abcdef",
         "name": "Donald Trump",
         "middle_name": null,
-        "reason_of_involvement":
-          "Head of the administration enacting the policy reversal."
+        "reason_of_involvement": "Head of the administration enacting the policy reversal."
       }
     ],
     "companies": [],
@@ -2239,8 +2187,7 @@
         "cause_name": "Public Backlash to Elimination of Weather Translations",
         "start_date": "2025-02-01",
         "end_date": "2025-04-26",
-        "description":
-          "Criticism arose regarding the elimination of non-English weather alerts, potentially endangering non-English speaking populations during emergencies."
+        "description": "Criticism arose regarding the elimination of non-English weather alerts, potentially endangering non-English speaking populations during emergencies."
       }
     ],
     "effects": [
@@ -2249,8 +2196,7 @@
         "effect_name": "Reinstatement of Multilingual Weather Communications",
         "start_date": "2025-04-26",
         "end_date": null,
-        "description":
-          "The National Weather Service was directed to reinstate multilingual translations for forecasts and warnings."
+        "description": "The National Weather Service was directed to reinstate multilingual translations for forecasts and warnings."
       }
     ],
     "sources": [
@@ -2266,22 +2212,19 @@
   },
   {
     "event_id": "evt-whsrev-01",
-    "event_name":
-      "Trump Admin Reverses Funding Cut for Major Women's Health Study",
+    "event_name": "Trump Admin Reverses Funding Cut for Major Women's Health Study",
     "start_date": "2025-04-20",
     "end_date": "2025-04-26",
     "priority": "High",
     "coords": null,
     "image_url": null,
-    "description":
-      "The Trump administration restored federal funding (likely via HHS/NIH) for the long-running Women's Health Initiative study after facing significant backlash for abruptly cutting its funding earlier in the term.",
+    "description": "The Trump administration restored federal funding (likely via HHS/NIH) for the long-running Women's Health Initiative study after facing significant backlash for abruptly cutting its funding earlier in the term.",
     "people": [
       {
         "person_id": "a1b2c3d4-e5f6-7890-1234-567890abcdef",
         "name": "Donald Trump",
         "middle_name": null,
-        "reason_of_involvement":
-          "Head of the administration enacting the funding reversal."
+        "reason_of_involvement": "Head of the administration enacting the funding reversal."
       }
     ],
     "companies": [],
@@ -2296,8 +2239,7 @@
         "cause_name": "Backlash Against Women's Health Study Funding Cut",
         "start_date": "2025-02-01",
         "end_date": "2025-04-26",
-        "description":
-          "Public and scientific community outcry followed the administration's sudden cut to the major, long-term Women's Health Initiative study."
+        "description": "Public and scientific community outcry followed the administration's sudden cut to the major, long-term Women's Health Initiative study."
       }
     ],
     "effects": [
@@ -2306,8 +2248,7 @@
         "effect_name": "Restoration of Funding for Women's Health Study",
         "start_date": "2025-04-26",
         "end_date": null,
-        "description":
-          "Federal funding was reinstated, allowing the critical Women's Health Initiative study to continue its research."
+        "description": "Federal funding was reinstated, allowing the critical Women's Health Initiative study to continue its research."
       }
     ],
     "sources": [
@@ -2329,22 +2270,19 @@
     "priority": "Medium",
     "coords": null,
     "image_url": null,
-    "description":
-      "The Trump administration abandoned a controversial plan to create a national government registry of individuals with autism diagnoses. The plan, associated in the monologue with HHS Secretary Robert F. Kennedy Jr. (though this appointment is factually inaccurate in the source), faced significant public criticism over privacy and ethical concerns.",
+    "description": "The Trump administration abandoned a controversial plan to create a national government registry of individuals with autism diagnoses. The plan, associated in the monologue with HHS Secretary Robert F. Kennedy Jr. (though this appointment is factually inaccurate in the source), faced significant public criticism over privacy and ethical concerns.",
     "people": [
       {
         "person_id": "a1b2c3d4-e5f6-7890-1234-567890abcdef",
         "name": "Donald Trump",
         "middle_name": null,
-        "reason_of_involvement":
-          "Head of the administration cancelling the plan."
+        "reason_of_involvement": "Head of the administration cancelling the plan."
       },
       {
         "person_id": "pers-rfkjr-01",
         "name": "Robert F. Kennedy Jr.",
         "middle_name": null,
-        "reason_of_involvement":
-          "Associated with the registry plan in the monologue (as HHS Secretary, contextually inaccurate)."
+        "reason_of_involvement": "Associated with the registry plan in the monologue (as HHS Secretary, contextually inaccurate)."
       }
     ],
     "companies": [],
@@ -2358,8 +2296,7 @@
         "cause_name": "Public Backlash Against Proposed Autism Registry",
         "start_date": "2025-03-01",
         "end_date": "2025-04-26",
-        "description":
-          "Significant public criticism regarding privacy implications and ethical concerns arose over the proposed plan for a national autism registry under HHS."
+        "description": "Significant public criticism regarding privacy implications and ethical concerns arose over the proposed plan for a national autism registry under HHS."
       }
     ],
     "effects": [
@@ -2368,8 +2305,7 @@
         "effect_name": "Abandonment of National Autism Registry Plan",
         "start_date": "2025-04-26",
         "end_date": "2025-04-26",
-        "description":
-          "The controversial plan to create a national registry for individuals with autism was officially cancelled by the administration."
+        "description": "The controversial plan to create a national registry for individuals with autism was officially cancelled by the administration."
       }
     ],
     "sources": [
@@ -2391,15 +2327,13 @@
     "priority": "Medium",
     "coords": null,
     "image_url": null,
-    "description":
-      "The Trump administration began quietly reinstating FDA food safety scientists and inspectors who were previously fired, including personnel working on bird flu. This followed denials of the cuts by the new FDA Commissioner and public criticism.",
+    "description": "The Trump administration began quietly reinstating FDA food safety scientists and inspectors who were previously fired, including personnel working on bird flu. This followed denials of the cuts by the new FDA Commissioner and public criticism.",
     "people": [
       {
         "person_id": "a1b2c3d4-e5f6-7890-1234-567890abcdef",
         "name": "Donald Trump",
         "middle_name": null,
-        "reason_of_involvement":
-          "Head of the administration enacting the reversal."
+        "reason_of_involvement": "Head of the administration enacting the reversal."
       },
       {
         "person_id": "pers-fdacomm-01",
@@ -2422,8 +2356,7 @@
         "cause_name": "Criticism of FDA Scientist Firings and Denials",
         "start_date": "2025-03-01",
         "end_date": "2025-04-26",
-        "description":
-          "Public and internal criticism followed the firing of FDA scientists/inspectors, amplified by public denials of the cuts by the agency's leadership."
+        "description": "Public and internal criticism followed the firing of FDA scientists/inspectors, amplified by public denials of the cuts by the agency's leadership."
       }
     ],
     "effects": [
@@ -2432,8 +2365,7 @@
         "effect_name": "Reinstatement of Fired FDA Personnel",
         "start_date": "2025-04-20",
         "end_date": null,
-        "description":
-          "The FDA began reinstating the scientists and inspectors previously cut from food safety labs."
+        "description": "The FDA began reinstating the scientists and inspectors previously cut from food safety labs."
       }
     ],
     "sources": [
@@ -2449,35 +2381,33 @@
   },
   {
     "event_id": "evt-narcan-cut-01",
-    "event_name":
-      "Trump Admin Allegedly Cuts Funding for Narcan and Opioid Programs",
+    "event_name": "Trump Admin Allegedly Cuts Funding for Narcan and Opioid Programs",
     "start_date": "2025-04-26",
     "end_date": "2025-04-26",
     "priority": "High",
     "coords": null,
     "image_url": null,
-    "description":
-      "The monologue alleges that on or around April 26, 2025, the Trump administration is eliminating federal funding for Narcan (naloxone) distribution and programs combating opioid addiction, a reversal of stated support from Trump's prior term.",
+    "description": "The monologue alleges that on or around April 26, 2025, the Trump administration is eliminating federal funding for Narcan (naloxone) distribution and programs combating opioid addiction, a reversal of stated support from Trump's prior term.",
     "people": [
       {
         "person_id": "a1b2c3d4-e5f6-7890-1234-567890abcdef",
         "name": "Donald Trump",
         "middle_name": null,
-        "reason_of_involvement":
-          "Head of the administration allegedly making the cuts."
+        "reason_of_involvement": "Head of the administration allegedly making the cuts."
       }
     ],
     "companies": [],
     "organizations": [],
-    "agencies": [{ "agency_id": "agcy-hhs-01", "role": "Likely Overseeing Agency" }],
+    "agencies": [
+      { "agency_id": "agcy-hhs-01", "role": "Likely Overseeing Agency" }
+    ],
     "causes": [
       {
         "cause_id": "cause-narcan-cut-01",
         "cause_name": "Trump Administration Budget/Policy Decisions",
         "start_date": "2025-04-26",
         "end_date": "2025-04-26",
-        "description":
-          "Alleged policy decision by the Trump administration to eliminate funding for opioid overdose prevention (Narcan) and addiction programs."
+        "description": "Alleged policy decision by the Trump administration to eliminate funding for opioid overdose prevention (Narcan) and addiction programs."
       }
     ],
     "effects": [
@@ -2486,8 +2416,7 @@
         "effect_name": "Potential Reduction in Overdose Prevention/Treatment",
         "start_date": "2025-04-26",
         "end_date": null,
-        "description":
-          "The alleged cuts could lead to reduced availability of Narcan and fewer resources for opioid addiction treatment programs nationwide."
+        "description": "The alleged cuts could lead to reduced availability of Narcan and fewer resources for opioid addiction treatment programs nationwide."
       }
     ],
     "sources": [
@@ -2509,28 +2438,27 @@
     "priority": "High",
     "coords": null,
     "image_url": null,
-    "description":
-      "The monologue claims the Trump administration is completely eliminating the federal Head Start preschool program, which has operated for 60 years, as of April 2025.",
+    "description": "The monologue claims the Trump administration is completely eliminating the federal Head Start preschool program, which has operated for 60 years, as of April 2025.",
     "people": [
       {
         "person_id": "a1b2c3d4-e5f6-7890-1234-567890abcdef",
         "name": "Donald Trump",
         "middle_name": null,
-        "reason_of_involvement":
-          "Head of the administration allegedly eliminating the program."
+        "reason_of_involvement": "Head of the administration allegedly eliminating the program."
       }
     ],
     "companies": [],
     "organizations": [],
-    "agencies": [{ "agency_id": "agcy-hhs-01", "role": "Administering Agency" }],
+    "agencies": [
+      { "agency_id": "agcy-hhs-01", "role": "Administering Agency" }
+    ],
     "causes": [
       {
         "cause_id": "cause-headstart-cut-01",
         "cause_name": "Trump Administration Budget/Policy Decisions",
         "start_date": "2025-04-26",
         "end_date": "2025-04-26",
-        "description":
-          "Alleged policy decision by the Trump administration to completely defund and eliminate the federal Head Start program."
+        "description": "Alleged policy decision by the Trump administration to completely defund and eliminate the federal Head Start program."
       }
     ],
     "effects": [
@@ -2539,8 +2467,7 @@
         "effect_name": "Elimination of Federal Preschool Services",
         "start_date": "2025-04-26",
         "end_date": null,
-        "description":
-          "The alleged elimination would end federally funded preschool and related services for eligible low-income children nationwide."
+        "description": "The alleged elimination would end federally funded preschool and related services for eligible low-income children nationwide."
       }
     ],
     "sources": [
@@ -2562,15 +2489,13 @@
     "priority": "High",
     "coords": null,
     "image_url": null,
-    "description":
-      "The monologue alleges the Trump administration is actively dismantling the Meals on Wheels program in April 2025 by firing significant staff (half the agency) and closing all ten regional offices of the administering agency (likely the Administration for Community Living within HHS).",
+    "description": "The monologue alleges the Trump administration is actively dismantling the Meals on Wheels program in April 2025 by firing significant staff (half the agency) and closing all ten regional offices of the administering agency (likely the Administration for Community Living within HHS).",
     "people": [
       {
         "person_id": "a1b2c3d4-e5f6-7890-1234-567890abcdef",
         "name": "Donald Trump",
         "middle_name": null,
-        "reason_of_involvement":
-          "Head of the administration allegedly making the cuts."
+        "reason_of_involvement": "Head of the administration allegedly making the cuts."
       }
     ],
     "companies": [],
@@ -2585,12 +2510,10 @@
     "causes": [
       {
         "cause_id": "cause-mow-cut-01",
-        "cause_name":
-          "Trump Administration Budget/Policy/Restructuring Decisions",
+        "cause_name": "Trump Administration Budget/Policy/Restructuring Decisions",
         "start_date": "2025-04-01",
         "end_date": "2025-04-26",
-        "description":
-          "Alleged actions by the Trump administration involving budget cuts, firing personnel, and closing regional offices for the agency overseeing Meals on Wheels."
+        "description": "Alleged actions by the Trump administration involving budget cuts, firing personnel, and closing regional offices for the agency overseeing Meals on Wheels."
       }
     ],
     "effects": [
@@ -2599,8 +2522,7 @@
         "effect_name": "Reduction/Elimination of Meal Delivery Services",
         "start_date": "2025-04-01",
         "end_date": null,
-        "description":
-          "The alleged dismantling would severely impact or eliminate meal delivery and check-in services for vulnerable seniors and individuals with disabilities."
+        "description": "The alleged dismantling would severely impact or eliminate meal delivery and check-in services for vulnerable seniors and individuals with disabilities."
       }
     ],
     "sources": [
@@ -2622,15 +2544,13 @@
     "priority": "Medium",
     "coords": null,
     "image_url": null,
-    "description":
-      "The monologue claims the Trump administration has severely cut funding and staff (firing 85% at NIOSH) for mine safety agencies NIOSH and MSHA around late April 2025, sparking protests by concerned citizens and workers, particularly in West Virginia.",
+    "description": "The monologue claims the Trump administration has severely cut funding and staff (firing 85% at NIOSH) for mine safety agencies NIOSH and MSHA around late April 2025, sparking protests by concerned citizens and workers, particularly in West Virginia.",
     "people": [
       {
         "person_id": "a1b2c3d4-e5f6-7890-1234-567890abcdef",
         "name": "Donald Trump",
         "middle_name": null,
-        "reason_of_involvement":
-          "Head of the administration allegedly making the cuts."
+        "reason_of_involvement": "Head of the administration allegedly making the cuts."
       }
     ],
     "companies": [],
@@ -2642,12 +2562,10 @@
     "causes": [
       {
         "cause_id": "cause-minesafety-cut-01",
-        "cause_name":
-          "Trump Administration Budget/Staffing Cuts to Mine Safety Agencies",
+        "cause_name": "Trump Administration Budget/Staffing Cuts to Mine Safety Agencies",
         "start_date": "2025-04-01",
         "end_date": "2025-04-26",
-        "description":
-          "Alleged significant budget reductions and personnel firings impacting federal agencies responsible for mine safety and health research and regulation."
+        "description": "Alleged significant budget reductions and personnel firings impacting federal agencies responsible for mine safety and health research and regulation."
       }
     ],
     "effects": [
@@ -2656,8 +2574,7 @@
         "effect_name": "Reduced Mine Safety Oversight and Public Protests",
         "start_date": "2025-04-24",
         "end_date": null,
-        "description":
-          "The alleged cuts led to diminished capacity for mine safety oversight and prompted public protests, notably in coal-mining regions like West Virginia."
+        "description": "The alleged cuts led to diminished capacity for mine safety oversight and prompted public protests, notably in coal-mining regions like West Virginia."
       }
     ],
     "sources": [
@@ -2679,15 +2596,13 @@
     "priority": "High",
     "coords": null,
     "image_url": null,
-    "description":
-      "The monologue speaker claimed, without providing details, that the Trump administration had a judge arrested on April 26, 2025.",
+    "description": "The monologue speaker claimed, without providing details, that the Trump administration had a judge arrested on April 26, 2025.",
     "people": [
       {
         "person_id": "a1b2c3d4-e5f6-7890-1234-567890abcdef",
         "name": "Donald Trump",
         "middle_name": null,
-        "reason_of_involvement":
-          "Head of the administration allegedly ordering the arrest."
+        "reason_of_involvement": "Head of the administration allegedly ordering the arrest."
       },
       {
         "person_id": "pers-judge-unnamed-01",
@@ -2707,8 +2622,7 @@
         "cause_name": "Unspecified Actions by Trump Administration",
         "start_date": "2025-04-26",
         "end_date": "2025-04-26",
-        "description":
-          "The reason for the alleged arrest order by the Trump administration was not specified in the source."
+        "description": "The reason for the alleged arrest order by the Trump administration was not specified in the source."
       }
     ],
     "effects": [
@@ -2717,8 +2631,7 @@
         "effect_name": "Arrest of a Judge (Alleged)",
         "start_date": "2025-04-26",
         "end_date": "2025-04-26",
-        "description":
-          "A judge was allegedly arrested under orders from the Trump administration."
+        "description": "A judge was allegedly arrested under orders from the Trump administration."
       }
     ],
     "sources": [
@@ -2737,8 +2650,7 @@
     "event_name": "Helicopter Crash Killing Trump Casino Executives",
     "start_date": "1989-10-10",
     "end_date": "1989-10-10",
-    "description":
-      "An Agusta 109A helicopter, leased from Paramount Aviation, crashed in a wooded median of the Garden State Parkway near Forked River, NJ, at 1:35 PM on October 10, 1989. The crash killed three senior executives from Donald J. Trump's casino organization (Stephen Hyde, Mark Grossinger Etess, Jonathan Benanav) and two crew members (pilot and co-pilot). The executives were returning to Atlantic City from Manhattan, NY, where they had been promoting an upcoming boxing match. An NTSB investigation concluded that a main rotor blade failed mid-flight due to pre-existing fatigue cracks.",
+    "description": "An Agusta 109A helicopter, leased from Paramount Aviation, crashed in a wooded median of the Garden State Parkway near Forked River, NJ, at 1:35 PM on October 10, 1989. The crash killed three senior executives from Donald J. Trump's casino organization (Stephen Hyde, Mark Grossinger Etess, Jonathan Benanav) and two crew members (pilot and co-pilot). The executives were returning to Atlantic City from Manhattan, NY, where they had been promoting an upcoming boxing match. An NTSB investigation concluded that a main rotor blade failed mid-flight due to pre-existing fatigue cracks.",
     "people": [
       {
         "person_id": "p_shyde_exec",
@@ -2786,8 +2698,7 @@
       {
         "person_id": "p_dgardener_assoc",
         "name": "David Gardener",
-        "reason_of_involvement":
-          "Commentator (VP, Casino Assn. of Atlantic City)"
+        "reason_of_involvement": "Commentator (VP, Casino Assn. of Atlantic City)"
       },
       {
         "person_id": "p_mrumbolz_comment",
@@ -2881,16 +2792,14 @@
       {
         "cause_id": "cause_rotor_failure",
         "cause_name": "In-flight Rotor Blade Failure",
-        "description":
-          "One of the four main overhead rotor blades broke mid-flight due to pre-existing fatigue cracks in the hollow interior of the leading edge spar, which were not detectable by visual inspection. (Source: NTSB Investigation / F. Ghiorsi)",
+        "description": "One of the four main overhead rotor blades broke mid-flight due to pre-existing fatigue cracks in the hollow interior of the leading edge spar, which were not detectable by visual inspection. (Source: NTSB Investigation / F. Ghiorsi)",
         "start_date": "1989-10-10T13:35:00Z",
         "end_date": "1989-10-10T13:35:00Z"
       },
       {
         "cause_id": "cause_breakup",
         "cause_name": "Mid-Air Breakup",
-        "description":
-          "The failure of the main rotor led to the helicopter breaking up in the air before crashing. (Inferred / Witness T. Murray)",
+        "description": "The failure of the main rotor led to the helicopter breaking up in the air before crashing. (Inferred / Witness T. Murray)",
         "start_date": "1989-10-10T13:35:00Z",
         "end_date": "1989-10-10T13:35:00Z"
       }
@@ -2899,8 +2808,7 @@
       {
         "effect_id": "effect_fatalities",
         "effect_name": "Fatalities",
-        "description":
-          "Death of all 5 occupants: Stephen Hyde, Mark Grossinger Etess, Jonathan Benanav, and two unidentified crew members (pilot, co-pilot).",
+        "description": "Death of all 5 occupants: Stephen Hyde, Mark Grossinger Etess, Jonathan Benanav, and two unidentified crew members (pilot, co-pilot).",
         "start_date": "1989-10-10",
         "end_date": "1989-10-10"
       },
@@ -2914,29 +2822,25 @@
       {
         "effect_id": "effect_investigation",
         "effect_name": "NTSB Investigation",
-        "description":
-          "The National Transportation Safety Board launched an investigation to determine the cause of the crash.",
+        "description": "The National Transportation Safety Board launched an investigation to determine the cause of the crash.",
         "start_date": "1989-10-10",
         "end_date": null
       },
       {
         "effect_id": "effect_mourning",
         "effect_name": "Public Statements and Mourning",
-        "description":
-          "Statements expressing grief were issued by Donald J. Trump, and industry peers mourned the loss.",
+        "description": "Statements expressing grief were issued by Donald J. Trump, and industry peers mourned the loss.",
         "start_date": "1989-10-10",
         "end_date": null
       }
     ],
     "sources": [
       {
-        "source_description":
-          "User-provided text snippet 1 (Short notice/news summary)",
+        "source_description": "User-provided text snippet 1 (Short notice/news summary)",
         "url": null
       },
       {
-        "source_description":
-          "User-provided text snippet 2 (Longer article, likely LA Times or similar)",
+        "source_description": "User-provided text snippet 2 (Longer article, likely LA Times or similar)",
         "url": "https://www.latimes.com/archives/la-xpm-1989-10-11-fi-229-story.html"
       },
       {
@@ -2955,8 +2859,7 @@
     "event_name": "Roy Cohn: Stage 1 - Early Life and Rise to Prominence",
     "start_date": "1927",
     "end_date": "1953",
-    "description":
-      "Covers Roy Cohn's birth in NYC into an influential family, his education (Columbia Law School), early career as an Assistant U.S. Attorney, and his rapid rise to national prominence through his aggressive role in prosecuting espionage cases, most notably the trial of Julius and Ethel Rosenberg. He also cultivated relationships with figures like J. Edgar Hoover and joined Senator Joseph McCarthy's staff near the end of this period.",
+    "description": "Covers Roy Cohn's birth in NYC into an influential family, his education (Columbia Law School), early career as an Assistant U.S. Attorney, and his rapid rise to national prominence through his aggressive role in prosecuting espionage cases, most notably the trial of Julius and Ethel Rosenberg. He also cultivated relationships with figures like J. Edgar Hoover and joined Senator Joseph McCarthy's staff near the end of this period.",
     "people": [
       {
         "person_id": "25ac2b23-e2cf-498e-93f1-a61898882bfb",
@@ -3049,8 +2952,7 @@
     "event_name": "Roy Cohn: Stage 2 - McCarthy Era Association",
     "start_date": "1953",
     "end_date": "1954",
-    "description":
-      "This stage focuses on Cohn's intense period as chief counsel to Senator Joseph McCarthy's Permanent Subcommittee on Investigations. He played a central, aggressive role in McCarthy's investigations into alleged communist infiltration, culminating in the televised Army-McCarthy hearings. Controversy surrounding his efforts for his friend G. David Schine contributed to the hearings and Cohn's eventual resignation.",
+    "description": "This stage focuses on Cohn's intense period as chief counsel to Senator Joseph McCarthy's Permanent Subcommittee on Investigations. He played a central, aggressive role in McCarthy's investigations into alleged communist infiltration, culminating in the televised Army-McCarthy hearings. Controversy surrounding his efforts for his friend G. David Schine contributed to the hearings and Cohn's eventual resignation.",
     "people": [
       {
         "person_id": "25ac2b23-e2cf-498e-93f1-a61898882bfb",
@@ -3134,8 +3036,7 @@
     "event_name": "Roy Cohn: Stage 3 - New York Power Broker",
     "start_date": "1954",
     "end_date": "1980",
-    "description":
-      "Following his departure from Washington, Cohn established a highly successful and controversial private law practice in New York City. He became a major power broker, known for his connections, aggressive tactics, and high-profile client list, which included Mafia figures (Genovese, Gambino families), the Catholic Archdiocese, George Steinbrenner, and a young Donald Trump. He was also a prominent socialite (e.g., Studio 54) and political influencer, notably aiding Ronald Reagan.",
+    "description": "Following his departure from Washington, Cohn established a highly successful and controversial private law practice in New York City. He became a major power broker, known for his connections, aggressive tactics, and high-profile client list, which included Mafia figures (Genovese, Gambino families), the Catholic Archdiocese, George Steinbrenner, and a young Donald Trump. He was also a prominent socialite (e.g., Studio 54) and political influencer, notably aiding Ronald Reagan.",
     "people": [
       {
         "person_id": "25ac2b23-e2cf-498e-93f1-a61898882bfb",
@@ -3176,7 +3077,11 @@
         "name": "Barbara Walters",
         "role": "Friend/Associate"
       },
-      { "person_id": "p_rreagan", "name": "Ronald Reagan", "role": "Political Ally" }
+      {
+        "person_id": "p_rreagan",
+        "name": "Ronald Reagan",
+        "role": "Political Ally"
+      }
     ],
     "companies": [
       {
@@ -3210,7 +3115,10 @@
       }
     ],
     "causes": [
-      { "cause_id": "cause_s3_return", "cause_name": "Return to Private Practice" },
+      {
+        "cause_id": "cause_s3_return",
+        "cause_name": "Return to Private Practice"
+      },
       {
         "cause_id": "cause_s3_connections",
         "cause_name": "Leveraging D.C. Notoriety & Connections"
@@ -3246,8 +3154,7 @@
     "event_name": "Roy Cohn: Stage 4 - Investigations, Disbarment, and Decline",
     "start_date": "1980",
     "end_date": "1986",
-    "description":
-      "This period saw Cohn facing mounting legal and ethical challenges. He was subjected to numerous investigations for professional misconduct, financial impropriety, perjury, and obstruction of justice. Despite avoiding criminal indictment, his unethical behavior, including misappropriating client funds and lying on his bar application, led to disbarment proceedings. He was disbarred by the New York Supreme Court, Appellate Division in June 1986, shortly before his death.",
+    "description": "This period saw Cohn facing mounting legal and ethical challenges. He was subjected to numerous investigations for professional misconduct, financial impropriety, perjury, and obstruction of justice. Despite avoiding criminal indictment, his unethical behavior, including misappropriating client funds and lying on his bar application, led to disbarment proceedings. He was disbarred by the New York Supreme Court, Appellate Division in June 1986, shortly before his death.",
     "people": [
       {
         "person_id": "25ac2b23-e2cf-498e-93f1-a61898882bfb",
@@ -3325,8 +3232,7 @@
     "event_name": "Roy Cohn: Stage 5 - Illness and Death",
     "start_date": "1984",
     "end_date": "1986-08-02",
-    "description":
-      "In his final years, while fighting disbarment, Cohn was also secretly battling AIDS, having been diagnosed around 1984. He publicly claimed he had liver cancer and vehemently denied having AIDS. He participated in clinical trials for experimental drugs like AZT. His health declined rapidly, and he died on August 2, 1986, at the National Institutes of Health Clinical Center in Bethesda, Maryland. His cause of death was officially recorded as complications from AIDS.",
+    "description": "In his final years, while fighting disbarment, Cohn was also secretly battling AIDS, having been diagnosed around 1984. He publicly claimed he had liver cancer and vehemently denied having AIDS. He participated in clinical trials for experimental drugs like AZT. His health declined rapidly, and he died on August 2, 1986, at the National Institutes of Health Clinical Center in Bethesda, Maryland. His cause of death was officially recorded as complications from AIDS.",
     "people": [
       {
         "person_id": "25ac2b23-e2cf-498e-93f1-a61898882bfb",
@@ -3393,15 +3299,13 @@
   },
   {
     "event_id": "uuid-08062025-oval-office-briefing",
-    "event_name":
-      "Donald Trump Oval Office Press Briefing on Tariffs and Epstein Questions",
+    "event_name": "Donald Trump Oval Office Press Briefing on Tariffs and Epstein Questions",
     "event_type": "Political",
     "alternative_names": [
       "The Epstein Situation Press Conference",
       "Trump Computer Chip Tariff Announcement"
     ],
-    "event_summary":
-      "During a press availability in the Oval Office, President Donald Trump announced a planned 100% tariff on foreign-made computer chips. [1, 2, 4, 5] The event, attended by the White House press corps, was framed by critics as a strategic distraction from the ongoing controversy regarding Trump's relationship with the late convicted sex offender Jeffrey Epstein. During the briefing, Vice President JD Vance denied that a separate meeting was planned to discuss the Epstein situation. [11, 12] Out of 33 questions asked by reporters, only four, by Kateryn Lacy of Bloomberg and Nancy Cordes of CBS, addressed the Epstein and Ghislaine Maxwell cases. The speaker in the provided transcript heavily criticized the press corps for not pressing the issue further.",
+    "event_summary": "During a press availability in the Oval Office, President Donald Trump announced a planned 100% tariff on foreign-made computer chips. [1, 2, 4, 5] The event, attended by the White House press corps, was framed by critics as a strategic distraction from the ongoing controversy regarding Trump's relationship with the late convicted sex offender Jeffrey Epstein. During the briefing, Vice President JD Vance denied that a separate meeting was planned to discuss the Epstein situation. [11, 12] Out of 33 questions asked by reporters, only four, by Kateryn Lacy of Bloomberg and Nancy Cordes of CBS, addressed the Epstein and Ghislaine Maxwell cases. The speaker in the provided transcript heavily criticized the press corps for not pressing the issue further.",
     "start_date": "2025-08-06",
     "end_date": "2025-08-06",
     "start_time": null,
@@ -3422,8 +3326,7 @@
         "zip_code": "20500",
         "country": "USA"
       },
-      "description":
-        "The official office of the President of the United States, where Donald Trump made the tariff announcement and took questions from the press."
+      "description": "The official office of the President of the United States, where Donald Trump made the tariff announcement and took questions from the press."
     },
     "involved_locations": [
       {
@@ -3440,8 +3343,7 @@
           "zip_code": "20392",
           "country": "USA"
         },
-        "description":
-          "Location of a planned but denied meeting of top advisers, which was rumored to be about the Epstein situation. [12, 13, 14]",
+        "description": "Location of a planned but denied meeting of top advisers, which was rumored to be about the Epstein situation. [12, 13, 14]",
         "role_in_event": "Related Meeting Point"
       },
       {
@@ -3458,18 +3360,14 @@
           "zip_code": "",
           "country": "USA"
         },
-        "description":
-          "The minimum-security federal prison in Texas where Ghislaine Maxwell was transferred to around August 1, 2025, a move criticized as overly lenient. [6, 7, 8, 9] This transfer was a topic of one of the questions during the press briefing.",
+        "description": "The minimum-security federal prison in Texas where Ghislaine Maxwell was transferred to around August 1, 2025, a move criticized as overly lenient. [6, 7, 8, 9] This transfer was a topic of one of the questions during the press briefing.",
         "role_in_event": "Subject of Inquiry"
       }
     ],
     "priority": "High",
-    "description":
-      "This event centered on a press conference held by President Donald Trump in the Oval Office on August 6, 2025. [1, 4] While the official topic included a major economic announcement—a 100% tariff on imported computer chips—the underlying tension, as described in the source transcript, was the administration's handling of the Jeffrey Epstein scandal. The speaker contends that the tariff announcement was a deliberate tactic to divert media attention. This was substantiated by the fact that only two reporters, Kateryn Lacy and Nancy Cordes, pursued the Epstein line of questioning, while 28 other questions were on different topics. The event also featured a direct denial from Vice President JD Vance regarding a rumored strategy meeting about the Epstein case. [11]",
-    "background_context":
-      "The event occurred amidst intense media scrutiny and public interest in President Trump's past association with Jeffrey Epstein and the legal case of Epstein's accomplice, Ghislaine Maxwell. Maxwell had recently been transferred to a lower-security prison, and her lawyers had met with Justice Department officials, fueling speculation and controversy. [7, 8, 10] The Trump administration was reportedly struggling to form a coherent communications strategy to deal with the fallout. [13, 14]",
-    "consequences_impact":
-      "The immediate impact was the widespread reporting on the proposed 100% computer chip tariff, which critics noted would likely increase costs for consumers on a wide range of electronic goods. [1, 2] According to the provided transcript, a secondary and perhaps intended consequence was the successful diversion of most of the White House press corps' attention away from the Epstein controversy, leading to public criticism of the media's performance.",
+    "description": "This event centered on a press conference held by President Donald Trump in the Oval Office on August 6, 2025. [1, 4] While the official topic included a major economic announcement—a 100% tariff on imported computer chips—the underlying tension, as described in the source transcript, was the administration's handling of the Jeffrey Epstein scandal. The speaker contends that the tariff announcement was a deliberate tactic to divert media attention. This was substantiated by the fact that only two reporters, Kateryn Lacy and Nancy Cordes, pursued the Epstein line of questioning, while 28 other questions were on different topics. The event also featured a direct denial from Vice President JD Vance regarding a rumored strategy meeting about the Epstein case. [11]",
+    "background_context": "The event occurred amidst intense media scrutiny and public interest in President Trump's past association with Jeffrey Epstein and the legal case of Epstein's accomplice, Ghislaine Maxwell. Maxwell had recently been transferred to a lower-security prison, and her lawyers had met with Justice Department officials, fueling speculation and controversy. [7, 8, 10] The Trump administration was reportedly struggling to form a coherent communications strategy to deal with the fallout. [13, 14]",
+    "consequences_impact": "The immediate impact was the widespread reporting on the proposed 100% computer chip tariff, which critics noted would likely increase costs for consumers on a wide range of electronic goods. [1, 2] According to the provided transcript, a secondary and perhaps intended consequence was the successful diversion of most of the White House press corps' attention away from the Epstein controversy, leading to public criticism of the media's performance.",
     "category_tags": [
       "Political",
       "Press Conference",
@@ -3487,15 +3385,12 @@
         ],
         "involvement_start_date": "2025-08-06",
         "involvement_end_date": "2025-08-06",
-        "impact_on_person":
-          "Faced questions about his connection to Jeffrey Epstein but largely succeeded in redirecting the press conference to his economic agenda.",
+        "impact_on_person": "Faced questions about his connection to Jeffrey Epstein but largely succeeded in redirecting the press conference to his economic agenda.",
         "relationship_to_event": {
           "type": "Key Figure",
-          "description":
-            "Presided over the event and was the primary subject of all inquiries."
+          "description": "Presided over the event and was the primary subject of all inquiries."
         },
-        "notes":
-          "The event is framed as being entirely about managing his public image in relation to Epstein."
+        "notes": "The event is framed as being entirely about managing his public image in relation to Epstein."
       },
       {
         "person_id": "uuid-person-vance",
@@ -3505,12 +3400,10 @@
         ],
         "involvement_start_date": "2025-08-06",
         "involvement_end_date": "2025-08-06",
-        "impact_on_person":
-          "Became a central figure in the controversy surrounding the administration's strategy on the Epstein issue.",
+        "impact_on_person": "Became a central figure in the controversy surrounding the administration's strategy on the Epstein issue.",
         "relationship_to_event": {
           "type": "Key Figure",
-          "description":
-            "Directly addressed and denied a key rumor related to the event's subtext."
+          "description": "Directly addressed and denied a key rumor related to the event's subtext."
         },
         "notes": ""
       },
@@ -3522,15 +3415,12 @@
         ],
         "involvement_start_date": "2025-08-06",
         "involvement_end_date": "2025-08-06",
-        "impact_on_person":
-          "Praised by the transcript's speaker for asking a relevant and tough question.",
+        "impact_on_person": "Praised by the transcript's speaker for asking a relevant and tough question.",
         "relationship_to_event": {
           "type": "Questioner",
-          "description":
-            "One of only two reporters to question the president on the Epstein topic."
+          "description": "One of only two reporters to question the president on the Epstein topic."
         },
-        "notes":
-          "The transcript spells her name as both 'Katherine Lucy' and 'Kateryn Lacy'."
+        "notes": "The transcript spells her name as both 'Katherine Lucy' and 'Kateryn Lacy'."
       },
       {
         "person_id": "uuid-person-cordes",
@@ -3540,12 +3430,10 @@
         ],
         "involvement_start_date": "2025-08-06",
         "involvement_end_date": "2025-08-06",
-        "impact_on_person":
-          "Praised by the transcript's speaker for asking a relevant and tough question.",
+        "impact_on_person": "Praised by the transcript's speaker for asking a relevant and tough question.",
         "relationship_to_event": {
           "type": "Questioner",
-          "description":
-            "One of only two reporters to question the president on the Epstein/Maxwell topic."
+          "description": "One of only two reporters to question the president on the Epstein/Maxwell topic."
         },
         "notes": ""
       },
@@ -3555,12 +3443,10 @@
         "specific_actions": [],
         "involvement_start_date": null,
         "involvement_end_date": null,
-        "impact_on_person":
-          "Deceased, but his past actions and relationships continue to cause political controversy.",
+        "impact_on_person": "Deceased, but his past actions and relationships continue to cause political controversy.",
         "relationship_to_event": {
           "type": "Indirect Figure",
-          "description":
-            "His past relationship with Donald Trump was the underlying subject of the event's controversy."
+          "description": "His past relationship with Donald Trump was the underlying subject of the event's controversy."
         },
         "notes": ""
       },
@@ -3570,12 +3456,10 @@
         "specific_actions": [],
         "involvement_start_date": null,
         "involvement_end_date": null,
-        "impact_on_person":
-          "Her recent prison transfer was the subject of a question at the press conference. [8]",
+        "impact_on_person": "Her recent prison transfer was the subject of a question at the press conference. [8]",
         "relationship_to_event": {
           "type": "Indirect Figure",
-          "description":
-            "Her case and recent transfer to a low-security prison were topics of inquiry."
+          "description": "Her case and recent transfer to a low-security prison were topics of inquiry."
         },
         "notes": ""
       },
@@ -3590,8 +3474,7 @@
         "impact_on_person": "",
         "relationship_to_event": {
           "type": "External Commentator",
-          "description":
-            "His expert opinion was cited in the transcript to give context to the Ghislaine Maxwell question."
+          "description": "His expert opinion was cited in the transcript to give context to the Ghislaine Maxwell question."
         },
         "notes": "Former Bureau of Prisons chief of internal affairs."
       }
@@ -3607,10 +3490,8 @@
           "Majority of reporters changed the subject away from Epstein after it was raised."
         ],
         "involved_branches": [],
-        "impact_on_organization":
-          "Heavily criticized by the transcript's speaker as 'weak' and being manipulated by the President.",
-        "notes":
-          "A collective of journalists from various media outlets assigned to cover the White House."
+        "impact_on_organization": "Heavily criticized by the transcript's speaker as 'weak' and being manipulated by the President.",
+        "notes": "A collective of journalists from various media outlets assigned to cover the White House."
       }
     ],
     "companies_involved": [
@@ -3622,8 +3503,7 @@
           "Fielded a question to the President via its reporter, Kateryn Lacy."
         ],
         "involved_branches": [],
-        "impact_on_company":
-          "Portrayed positively in the transcript for addressing the Epstein topic.",
+        "impact_on_company": "Portrayed positively in the transcript for addressing the Epstein topic.",
         "notes": ""
       },
       {
@@ -3634,8 +3514,7 @@
           "Fielded a question to the President via its reporter, Nancy Cordes."
         ],
         "involved_branches": [],
-        "impact_on_company":
-          "Portrayed positively in the transcript for addressing the Maxwell topic.",
+        "impact_on_company": "Portrayed positively in the transcript for addressing the Maxwell topic.",
         "notes": ""
       },
       {
@@ -3660,8 +3539,7 @@
           "Carried out the transfer of Ghislaine Maxwell to a minimum-security facility in Bryan, Texas. [6, 9]"
         ],
         "involved_branches": [],
-        "impact_on_agency":
-          "Actions were criticized as unjust by a former official and victims' families. [9]",
+        "impact_on_agency": "Actions were criticized as unjust by a former official and victims' families. [9]",
         "notes": ""
       },
       {
@@ -3673,35 +3551,30 @@
         ],
         "involved_branches": [],
         "impact_on_agency": "",
-        "notes":
-          "The transcript notes that Trump 'owns and operates' the department."
+        "notes": "The transcript notes that Trump 'owns and operates' the department."
       }
     ],
     "related_events": [
       {
         "event_id": "uuid-event-vance-meeting",
         "relation_type": "Concurrent",
-        "description":
-          "A rumored and then denied meeting at the Vice President's residence, reportedly to strategize on the Epstein situation, scheduled for the evening of August 6, 2025. [11, 13, 14]"
+        "description": "A rumored and then denied meeting at the Vice President's residence, reportedly to strategize on the Epstein situation, scheduled for the evening of August 6, 2025. [11, 13, 14]"
       },
       {
         "event_id": "uuid-event-maxwell-transfer",
         "relation_type": "Precursor",
-        "description":
-          "The transfer of Ghislaine Maxwell to a lower-security prison in Texas on or around August 1, 2025, which prompted public outrage and a question at the press conference. [6, 7, 8]"
+        "description": "The transfer of Ghislaine Maxwell to a lower-security prison in Texas on or around August 1, 2025, which prompted public outrage and a question at the press conference. [6, 7, 8]"
       }
     ],
     "sources": [
       {
         "source_id": "uuid-source-youtube-tCfM9BDsKWk",
         "type": "Secondary",
-        "title":
-          "Transcript of a commentary video regarding the Oval Office press briefing",
+        "title": "Transcript of a commentary video regarding the Oval Office press briefing",
         "author_editor": "The speaker in the video",
         "publication_date": "2025-08-06",
         "url": "https://www.youtube.com/watch?v=tCfM9BDsKWk",
-        "notes":
-          "The primary source text for this event model is a transcript from this video. The video's publication date helped establish the event date."
+        "notes": "The primary source text for this event model is a transcript from this video. The video's publication date helped establish the event date."
       }
     ],
     "media_gallery": {
@@ -3715,8 +3588,7 @@
           "upload_date": "2025-08-06",
           "channel_creator": "Unknown from transcript",
           "duration_seconds": null,
-          "description":
-            "We're not meeting to talk about the Epstein situation. Those are the actual words of the least believable vice president in history today in the Oval Office..."
+          "description": "We're not meeting to talk about the Epstein situation. Those are the actual words of the least believable vice president in history today in the Oval Office..."
         }
       ],
       "images": [],
@@ -3727,8 +3599,7 @@
         "phase_name": "Tariff Announcement and Distraction",
         "start_date": "2025-08-06",
         "end_date": "2025-08-06",
-        "description":
-          "President Trump begins the press availability by announcing a 100% tariff on computer chips, which the source transcript alleges was a move to distract from the Epstein topic.",
+        "description": "President Trump begins the press availability by announcing a 100% tariff on computer chips, which the source transcript alleges was a move to distract from the Epstein topic.",
         "key_developments": [
           "100% tariff on foreign computer chips announced. [1]"
         ],
@@ -3739,8 +3610,7 @@
         "phase_name": "Question and Answer Session",
         "start_date": "2025-08-06",
         "end_date": "2025-08-06",
-        "description":
-          "The White House press corps asks a total of 33 questions. Only four questions, from two reporters, focus on the Epstein and Maxwell cases. The other 28 are on different subjects.",
+        "description": "The White House press corps asks a total of 33 questions. Only four questions, from two reporters, focus on the Epstein and Maxwell cases. The other 28 are on different subjects.",
         "key_developments": [
           "Kateryn Lacy asks about Epstein.",
           "Nancy Cordes asks about Ghislaine Maxwell.",
@@ -3759,15 +3629,13 @@
     "outcomes": [
       {
         "outcome_type": "Media Narrative Control",
-        "description":
-          "According to the source transcript, President Trump successfully manipulated the majority of the press corps into focusing on his tariff announcement rather than the politically damaging Epstein story.",
+        "description": "According to the source transcript, President Trump successfully manipulated the majority of the press corps into focusing on his tariff announcement rather than the politically damaging Epstein story.",
         "date_achieved": "2025-08-06",
         "key_figures_involved_ids": ["uuid-person-trump", "uuid-org-whpc"]
       },
       {
         "outcome_type": "Economic Policy Announcement",
-        "description":
-          "A new, significant trade policy of imposing a 100% tariff on foreign-made computer chips was announced to the public. [1, 2, 3, 4, 5]",
+        "description": "A new, significant trade policy of imposing a 100% tariff on foreign-made computer chips was announced to the public. [1, 2, 3, 4, 5]",
         "date_achieved": "2025-08-06",
         "key_figures_involved_ids": ["uuid-person-trump"]
       }
@@ -3776,8 +3644,7 @@
       "domain": "Politics",
       "sub_domain": "Media Relations",
       "confidence_level": "Verified",
-      "notes":
-        "Details of the press conference (date, location, topics) are verified by multiple news sources. The analysis of it being a 'distraction' is the opinion of the transcript's speaker."
+      "notes": "Details of the press conference (date, location, topics) are verified by multiple news sources. The analysis of it being a 'distraction' is the opinion of the transcript's speaker."
     },
     "creation_metadata": {
       "created_by_person_id": "uuid-ai-assistant",
@@ -3785,18 +3652,16 @@
       "last_modified_by_person_id": "uuid-ai-assistant",
       "last_modified_date": "2025-08-07 08:48:44"
     }
-  }
- , {
+  },
+  {
     "event_id": "uuid-08062025-oval-office-briefing",
-    "event_name":
-      "Donald Trump Oval Office Press Briefing on Tariffs and Epstein Questions",
+    "event_name": "Donald Trump Oval Office Press Briefing on Tariffs and Epstein Questions",
     "event_type": "Political",
     "alternative_names": [
       "The Epstein Situation Press Conference",
       "Trump Computer Chip Tariff Announcement"
     ],
-    "event_summary":
-      "During a press availability in the Oval Office, President Donald Trump announced a planned 100% tariff on foreign-made computer chips. [1, 2, 4, 5] The event, attended by the White House press corps, was framed by critics as a strategic distraction from the ongoing controversy regarding Trump's relationship with the late convicted sex offender Jeffrey Epstein. During the briefing, Vice President JD Vance denied that a separate meeting was planned to discuss the Epstein situation. [11, 12] Out of 33 questions asked by reporters, only four, by Kateryn Lacy of Bloomberg and Nancy Cordes of CBS, addressed the Epstein and Ghislaine Maxwell cases. The speaker in the provided transcript heavily criticized the press corps for not pressing the issue further.",
+    "event_summary": "During a press availability in the Oval Office, President Donald Trump announced a planned 100% tariff on foreign-made computer chips. [1, 2, 4, 5] The event, attended by the White House press corps, was framed by critics as a strategic distraction from the ongoing controversy regarding Trump's relationship with the late convicted sex offender Jeffrey Epstein. During the briefing, Vice President JD Vance denied that a separate meeting was planned to discuss the Epstein situation. [11, 12] Out of 33 questions asked by reporters, only four, by Kateryn Lacy of Bloomberg and Nancy Cordes of CBS, addressed the Epstein and Ghislaine Maxwell cases. The speaker in the provided transcript heavily criticized the press corps for not pressing the issue further.",
     "start_date": "2025-08-06",
     "end_date": "2025-08-06",
     "start_time": null,
@@ -3817,8 +3682,7 @@
         "zip_code": "20500",
         "country": "USA"
       },
-      "description":
-        "The official office of the President of the United States, where Donald Trump made the tariff announcement and took questions from the press."
+      "description": "The official office of the President of the United States, where Donald Trump made the tariff announcement and took questions from the press."
     },
     "involved_locations": [
       {
@@ -3835,8 +3699,7 @@
           "zip_code": "20392",
           "country": "USA"
         },
-        "description":
-          "Location of a planned but denied meeting of top advisers, which was rumored to be about the Epstein situation. [12, 13, 14]",
+        "description": "Location of a planned but denied meeting of top advisers, which was rumored to be about the Epstein situation. [12, 13, 14]",
         "role_in_event": "Related Meeting Point"
       },
       {
@@ -3853,18 +3716,14 @@
           "zip_code": "",
           "country": "USA"
         },
-        "description":
-          "The minimum-security federal prison in Texas where Ghislaine Maxwell was transferred to around August 1, 2025, a move criticized as overly lenient. [6, 7, 8, 9] This transfer was a topic of one of the questions during the press briefing.",
+        "description": "The minimum-security federal prison in Texas where Ghislaine Maxwell was transferred to around August 1, 2025, a move criticized as overly lenient. [6, 7, 8, 9] This transfer was a topic of one of the questions during the press briefing.",
         "role_in_event": "Subject of Inquiry"
       }
     ],
     "priority": "High",
-    "description":
-      "This event centered on a press conference held by President Donald Trump in the Oval Office on August 6, 2025. [1, 4] While the official topic included a major economic announcement—a 100% tariff on imported computer chips—the underlying tension, as described in the source transcript, was the administration's handling of the Jeffrey Epstein scandal. The speaker contends that the tariff announcement was a deliberate tactic to divert media attention. This was substantiated by the fact that only two reporters, Kateryn Lacy and Nancy Cordes, pursued the Epstein line of questioning, while 28 other questions were on different topics. The event also featured a direct denial from Vice President JD Vance regarding a rumored strategy meeting about the Epstein case. [11]",
-    "background_context":
-      "The event occurred amidst intense media scrutiny and public interest in President Trump's past association with Jeffrey Epstein and the legal case of Epstein's accomplice, Ghislaine Maxwell. Maxwell had recently been transferred to a lower-security prison, and her lawyers had met with Justice Department officials, fueling speculation and controversy. [7, 8, 10] The Trump administration was reportedly struggling to form a coherent communications strategy to deal with the fallout. [13, 14]",
-    "consequences_impact":
-      "The immediate impact was the widespread reporting on the proposed 100% computer chip tariff, which critics noted would likely increase costs for consumers on a wide range of electronic goods. [1, 2] According to the provided transcript, a secondary and perhaps intended consequence was the successful diversion of most of the White House press corps' attention away from the Epstein controversy, leading to public criticism of the media's performance.",
+    "description": "This event centered on a press conference held by President Donald Trump in the Oval Office on August 6, 2025. [1, 4] While the official topic included a major economic announcement—a 100% tariff on imported computer chips—the underlying tension, as described in the source transcript, was the administration's handling of the Jeffrey Epstein scandal. The speaker contends that the tariff announcement was a deliberate tactic to divert media attention. This was substantiated by the fact that only two reporters, Kateryn Lacy and Nancy Cordes, pursued the Epstein line of questioning, while 28 other questions were on different topics. The event also featured a direct denial from Vice President JD Vance regarding a rumored strategy meeting about the Epstein case. [11]",
+    "background_context": "The event occurred amidst intense media scrutiny and public interest in President Trump's past association with Jeffrey Epstein and the legal case of Epstein's accomplice, Ghislaine Maxwell. Maxwell had recently been transferred to a lower-security prison, and her lawyers had met with Justice Department officials, fueling speculation and controversy. [7, 8, 10] The Trump administration was reportedly struggling to form a coherent communications strategy to deal with the fallout. [13, 14]",
+    "consequences_impact": "The immediate impact was the widespread reporting on the proposed 100% computer chip tariff, which critics noted would likely increase costs for consumers on a wide range of electronic goods. [1, 2] According to the provided transcript, a secondary and perhaps intended consequence was the successful diversion of most of the White House press corps' attention away from the Epstein controversy, leading to public criticism of the media's performance.",
     "category_tags": [
       "Political",
       "Press Conference",
@@ -3882,15 +3741,12 @@
         ],
         "involvement_start_date": "2025-08-06",
         "involvement_end_date": "2025-08-06",
-        "impact_on_person":
-          "Faced questions about his connection to Jeffrey Epstein but largely succeeded in redirecting the press conference to his economic agenda.",
+        "impact_on_person": "Faced questions about his connection to Jeffrey Epstein but largely succeeded in redirecting the press conference to his economic agenda.",
         "relationship_to_event": {
           "type": "Key Figure",
-          "description":
-            "Presided over the event and was the primary subject of all inquiries."
+          "description": "Presided over the event and was the primary subject of all inquiries."
         },
-        "notes":
-          "The event is framed as being entirely about managing his public image in relation to Epstein."
+        "notes": "The event is framed as being entirely about managing his public image in relation to Epstein."
       },
       {
         "person_id": "uuid-person-vance",
@@ -3900,12 +3756,10 @@
         ],
         "involvement_start_date": "2025-08-06",
         "involvement_end_date": "2025-08-06",
-        "impact_on_person":
-          "Became a central figure in the controversy surrounding the administration's strategy on the Epstein issue.",
+        "impact_on_person": "Became a central figure in the controversy surrounding the administration's strategy on the Epstein issue.",
         "relationship_to_event": {
           "type": "Key Figure",
-          "description":
-            "Directly addressed and denied a key rumor related to the event's subtext."
+          "description": "Directly addressed and denied a key rumor related to the event's subtext."
         },
         "notes": ""
       },
@@ -3917,15 +3771,12 @@
         ],
         "involvement_start_date": "2025-08-06",
         "involvement_end_date": "2025-08-06",
-        "impact_on_person":
-          "Praised by the transcript's speaker for asking a relevant and tough question.",
+        "impact_on_person": "Praised by the transcript's speaker for asking a relevant and tough question.",
         "relationship_to_event": {
           "type": "Questioner",
-          "description":
-            "One of only two reporters to question the president on the Epstein topic."
+          "description": "One of only two reporters to question the president on the Epstein topic."
         },
-        "notes":
-          "The transcript spells her name as both 'Katherine Lucy' and 'Kateryn Lacy'."
+        "notes": "The transcript spells her name as both 'Katherine Lucy' and 'Kateryn Lacy'."
       },
       {
         "person_id": "uuid-person-cordes",
@@ -3935,12 +3786,10 @@
         ],
         "involvement_start_date": "2025-08-06",
         "involvement_end_date": "2025-08-06",
-        "impact_on_person":
-          "Praised by the transcript's speaker for asking a relevant and tough question.",
+        "impact_on_person": "Praised by the transcript's speaker for asking a relevant and tough question.",
         "relationship_to_event": {
           "type": "Questioner",
-          "description":
-            "One of only two reporters to question the president on the Epstein/Maxwell topic."
+          "description": "One of only two reporters to question the president on the Epstein/Maxwell topic."
         },
         "notes": ""
       },
@@ -3950,12 +3799,10 @@
         "specific_actions": [],
         "involvement_start_date": null,
         "involvement_end_date": null,
-        "impact_on_person":
-          "Deceased, but his past actions and relationships continue to cause political controversy.",
+        "impact_on_person": "Deceased, but his past actions and relationships continue to cause political controversy.",
         "relationship_to_event": {
           "type": "Indirect Figure",
-          "description":
-            "His past relationship with Donald Trump was the underlying subject of the event's controversy."
+          "description": "His past relationship with Donald Trump was the underlying subject of the event's controversy."
         },
         "notes": ""
       },
@@ -3965,12 +3812,10 @@
         "specific_actions": [],
         "involvement_start_date": null,
         "involvement_end_date": null,
-        "impact_on_person":
-          "Her recent prison transfer was the subject of a question at the press conference. [8]",
+        "impact_on_person": "Her recent prison transfer was the subject of a question at the press conference. [8]",
         "relationship_to_event": {
           "type": "Indirect Figure",
-          "description":
-            "Her case and recent transfer to a low-security prison were topics of inquiry."
+          "description": "Her case and recent transfer to a low-security prison were topics of inquiry."
         },
         "notes": ""
       },
@@ -3985,8 +3830,7 @@
         "impact_on_person": "",
         "relationship_to_event": {
           "type": "External Commentator",
-          "description":
-            "His expert opinion was cited in the transcript to give context to the Ghislaine Maxwell question."
+          "description": "His expert opinion was cited in the transcript to give context to the Ghislaine Maxwell question."
         },
         "notes": "Former Bureau of Prisons chief of internal affairs."
       }
@@ -4002,10 +3846,8 @@
           "Majority of reporters changed the subject away from Epstein after it was raised."
         ],
         "involved_branches": [],
-        "impact_on_organization":
-          "Heavily criticized by the transcript's speaker as 'weak' and being manipulated by the President.",
-        "notes":
-          "A collective of journalists from various media outlets assigned to cover the White House."
+        "impact_on_organization": "Heavily criticized by the transcript's speaker as 'weak' and being manipulated by the President.",
+        "notes": "A collective of journalists from various media outlets assigned to cover the White House."
       }
     ],
     "companies_involved": [
@@ -4017,8 +3859,7 @@
           "Fielded a question to the President via its reporter, Kateryn Lacy."
         ],
         "involved_branches": [],
-        "impact_on_company":
-          "Portrayed positively in the transcript for addressing the Epstein topic.",
+        "impact_on_company": "Portrayed positively in the transcript for addressing the Epstein topic.",
         "notes": ""
       },
       {
@@ -4029,8 +3870,7 @@
           "Fielded a question to the President via its reporter, Nancy Cordes."
         ],
         "involved_branches": [],
-        "impact_on_company":
-          "Portrayed positively in the transcript for addressing the Maxwell topic.",
+        "impact_on_company": "Portrayed positively in the transcript for addressing the Maxwell topic.",
         "notes": ""
       },
       {
@@ -4055,8 +3895,7 @@
           "Carried out the transfer of Ghislaine Maxwell to a minimum-security facility in Bryan, Texas. [6, 9]"
         ],
         "involved_branches": [],
-        "impact_on_agency":
-          "Actions were criticized as unjust by a former official and victims' families. [9]",
+        "impact_on_agency": "Actions were criticized as unjust by a former official and victims' families. [9]",
         "notes": ""
       },
       {
@@ -4068,35 +3907,30 @@
         ],
         "involved_branches": [],
         "impact_on_agency": "",
-        "notes":
-          "The transcript notes that Trump 'owns and operates' the department."
+        "notes": "The transcript notes that Trump 'owns and operates' the department."
       }
     ],
     "related_events": [
       {
         "event_id": "uuid-event-vance-meeting",
         "relation_type": "Concurrent",
-        "description":
-          "A rumored and then denied meeting at the Vice President's residence, reportedly to strategize on the Epstein situation, scheduled for the evening of August 6, 2025. [11, 13, 14]"
+        "description": "A rumored and then denied meeting at the Vice President's residence, reportedly to strategize on the Epstein situation, scheduled for the evening of August 6, 2025. [11, 13, 14]"
       },
       {
         "event_id": "uuid-event-maxwell-transfer",
         "relation_type": "Precursor",
-        "description":
-          "The transfer of Ghislaine Maxwell to a lower-security prison in Texas on or around August 1, 2025, which prompted public outrage and a question at the press conference. [6, 7, 8]"
+        "description": "The transfer of Ghislaine Maxwell to a lower-security prison in Texas on or around August 1, 2025, which prompted public outrage and a question at the press conference. [6, 7, 8]"
       }
     ],
     "sources": [
       {
         "source_id": "uuid-source-youtube-tCfM9BDsKWk",
         "type": "Secondary",
-        "title":
-          "Transcript of a commentary video regarding the Oval Office press briefing",
+        "title": "Transcript of a commentary video regarding the Oval Office press briefing",
         "author_editor": "The speaker in the video",
         "publication_date": "2025-08-06",
         "url": "https://www.youtube.com/watch?v=tCfM9BDsKWk",
-        "notes":
-          "The primary source text for this event model is a transcript from this video. The video's publication date helped establish the event date."
+        "notes": "The primary source text for this event model is a transcript from this video. The video's publication date helped establish the event date."
       }
     ],
     "media_gallery": {
@@ -4110,8 +3944,7 @@
           "upload_date": "2025-08-06",
           "channel_creator": "Unknown from transcript",
           "duration_seconds": null,
-          "description":
-            "We're not meeting to talk about the Epstein situation. Those are the actual words of the least believable vice president in history today in the Oval Office..."
+          "description": "We're not meeting to talk about the Epstein situation. Those are the actual words of the least believable vice president in history today in the Oval Office..."
         }
       ],
       "images": [],
@@ -4122,8 +3955,7 @@
         "phase_name": "Tariff Announcement and Distraction",
         "start_date": "2025-08-06",
         "end_date": "2025-08-06",
-        "description":
-          "President Trump begins the press availability by announcing a 100% tariff on computer chips, which the source transcript alleges was a move to distract from the Epstein topic.",
+        "description": "President Trump begins the press availability by announcing a 100% tariff on computer chips, which the source transcript alleges was a move to distract from the Epstein topic.",
         "key_developments": [
           "100% tariff on foreign computer chips announced. [1]"
         ],
@@ -4134,8 +3966,7 @@
         "phase_name": "Question and Answer Session",
         "start_date": "2025-08-06",
         "end_date": "2025-08-06",
-        "description":
-          "The White House press corps asks a total of 33 questions. Only four questions, from two reporters, focus on the Epstein and Maxwell cases. The other 28 are on different subjects.",
+        "description": "The White House press corps asks a total of 33 questions. Only four questions, from two reporters, focus on the Epstein and Maxwell cases. The other 28 are on different subjects.",
         "key_developments": [
           "Kateryn Lacy asks about Epstein.",
           "Nancy Cordes asks about Ghislaine Maxwell.",
@@ -4154,15 +3985,13 @@
     "outcomes": [
       {
         "outcome_type": "Media Narrative Control",
-        "description":
-          "According to the source transcript, President Trump successfully manipulated the majority of the press corps into focusing on his tariff announcement rather than the politically damaging Epstein story.",
+        "description": "According to the source transcript, President Trump successfully manipulated the majority of the press corps into focusing on his tariff announcement rather than the politically damaging Epstein story.",
         "date_achieved": "2025-08-06",
         "key_figures_involved_ids": ["uuid-person-trump", "uuid-org-whpc"]
       },
       {
         "outcome_type": "Economic Policy Announcement",
-        "description":
-          "A new, significant trade policy of imposing a 100% tariff on foreign-made computer chips was announced to the public. [1, 2, 3, 4, 5]",
+        "description": "A new, significant trade policy of imposing a 100% tariff on foreign-made computer chips was announced to the public. [1, 2, 3, 4, 5]",
         "date_achieved": "2025-08-06",
         "key_figures_involved_ids": ["uuid-person-trump"]
       }
@@ -4171,8 +4000,7 @@
       "domain": "Politics",
       "sub_domain": "Media Relations",
       "confidence_level": "Verified",
-      "notes":
-        "Details of the press conference (date, location, topics) are verified by multiple news sources. The analysis of it being a 'distraction' is the opinion of the transcript's speaker."
+      "notes": "Details of the press conference (date, location, topics) are verified by multiple news sources. The analysis of it being a 'distraction' is the opinion of the transcript's speaker."
     },
     "creation_metadata": {
       "created_by_person_id": "uuid-ai-assistant",

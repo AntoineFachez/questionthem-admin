@@ -16,5 +16,20 @@
         "script_id": "439bfa5a-b8bd-4fc0-b429-100adcf55661"
       }
     ]
+  },
+  {
+    "story_id": "79a706ca-4243-72ee-ad5f-a69afb63bd05",
+    "story_name": "The Bondi Siblings",
+    "start_date": "",
+    "end_date": "",
+    "status": "wip",
+    "coords": { "lat": 0, "lng": 0 },
+    "story_description": "Pam Bondi has a brother. He achieved that the Fraudster Trevor Milton got pardoned by the 47th Potus",
+    "image_url": "",
+    "scripts": [
+      {
+        "script_id": "815c4489-8ca9-a5d0-86e4-dd9ea0da9438"
+      }
+    ]
   }
 ]

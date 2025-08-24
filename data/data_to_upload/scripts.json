@@ -38,6 +38,20 @@
     ]
   },
   {
+    "script_id": "815c4489-8ca9-a5d0-86e4-dd9ea0da9438",
+    "script_name": "Brad Bondi achieves the pardon of his client Trevor Milton",
+    "status": "",
+    "level_no": 0,
+    "intro_film_yt_id": "",
+    "locations_routes": [],
+    "used_in_stories": [{ "story_id": "79a706ca-4243-72ee-ad5f-a69afb63bd05" }],
+    "events": [
+      {
+        "event_id": "evt_pardon_of_trevor_milton"
+      }
+    ]
+  },
+  {
     "script_id": "439bfa5a-b8bd-4fc0-b429-100adcf55661",
     "script_name": "The Donaldo",
     "status": "",

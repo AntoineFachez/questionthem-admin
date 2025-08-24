@@ -1,5 +1,10 @@
 import {
   Box,
+  CardActions,
+  CardHeader,
+  CardContent,
+  CardMedia,
+  Collapse,
   Paper,
   Typography,
   Table,
@@ -23,32 +28,10 @@ import ScrollDialog from "../components/dialog/ScrollDialog";
 import Header from "../components/title/Title";
 import Form from "./Form";
 import DetailView from "./DetailView";
-import SduiRenderer from "./SimpleRenderer";
+import Controls from "./Controls";
 
 const Standin = ({ children }) => {
   return <Box>{children}</Box>;
-};
-const Controls = ({ buttons = [] }) => {
-  return (
-    <Box sx={{ display: "flex", gap: 2, padding: 2 }}>
-      {buttons.map((buttonInfo, index) => (
-        <>
-          <SduiRenderer
-            key={index}
-            blueprint={{
-              type: "atom.button",
-              props: {
-                variant: "outlined",
-                sx: { textTransform: "capitalize", ...buttonInfo.sx },
-                children: buttonInfo.label,
-              },
-              action: buttonInfo.action,
-            }}
-          />
-        </>
-      ))}
-    </Box>
-  );
 };
 
 export const componentRegistry = {
@@ -98,11 +81,19 @@ export const componentRegistry = {
   "atom.tableContainer": TableContainer,
   "atom.tableHead": TableHead,
   "atom.tableRow": TableRow,
+  //* --- Atoms --- Card
+  "atom.cardMedia": CardMedia,
+  "atom.collapse": Collapse,
   //* --- Molecules ---
+  //* --- Molecules --- Card
+  "molecule.cardActions": CardActions,
+  "molecule.cardContent": CardContent,
+  "molecule.cardHeader": CardHeader,
+  //* --- Molecules --- Misc
   "molecule.searchBarGrouped": SearchBarGrouped,
   "molecule.formField": ({ ...props }) => <TextField {...props} />,
-  "molecule.card": Card,
   //* --- Organisms ---
+  "organism.card": Card,
   "organism.navBar": Navbar,
   "organism.controls": Controls,
   "organism.dynamicAccordion": DynamicAccordion,
