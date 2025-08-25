@@ -1,11 +1,11 @@
 // "use server"; // This can be a server component since it just renders
 
 import React from "react";
-import { atomicRegistry } from "../sdui/_firstTry/registries/atomic-library";
-import { moleculeRegistry } from "../sdui/_firstTry/registries/molecule-library";
-import { layoutRegistry } from "../sdui/_firstTry/registries/layout-library";
-import { screenRegistry } from "../sdui/_firstTry/registries/templateRegistry";
-import { widgetRegistry } from "../sdui/_firstTry/registries/organisms-library";
+import { atomicRegistry } from "../_sdui_firstTry/registries/atomic-library";
+import { moleculeRegistry } from "../_sdui_firstTry/registries/molecule-library";
+import { layoutRegistry } from "../_sdui_firstTry/registries/layout-library";
+import { screenRegistry } from "../_sdui_firstTry/registries/templateRegistry";
+import { widgetRegistry } from "../_sdui_firstTry/registries/organisms-library";
 
 // Combine all registries into one for easier lookup.
 

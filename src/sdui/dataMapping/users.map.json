@@ -4,6 +4,8 @@
     "id": "id",
     "dataObject": ".",
     "cardType": "'userCard'",
+    "tableHeadType": "'userTableHead'",
+    "tableBodyType": "'userTableRowItem'",
     "devNotes": "👆// Note the single quotes to indicate a literal string",
 
     "title": "name",

@@ -47,11 +47,11 @@ const handleToggleMenu = (e, payload) => {
 };
 const handleEditItem = (e, payload) => {
   e.stopPropagation();
-  console.log("clicked handleEditItem");
+  console.log("clicked handleEditItem", payload);
 };
 const handleDeleteItem = (e, payload) => {
   e.stopPropagation();
-  console.log("clicked handleDeleteItem");
+  console.log("clicked handleDeleteItem", payload);
 };
 
 export const actionRegistry = {
@@ -60,8 +60,6 @@ export const actionRegistry = {
   SHOW_ALERT: handleShowAlert,
   TOGGLE_EXPAND: handleToggleExpand,
   TOGGLE_MENU: handleToggleMenu,
-  // EDIT_ITEM: handleEditItem,
-  // DELETE_ITEM: handleDeleteItem,
-
-  // Add more client-side actions here as your app grows
+  EDIT_ITEM: handleEditItem,
+  DELETE_ITEM: handleDeleteItem,
 };

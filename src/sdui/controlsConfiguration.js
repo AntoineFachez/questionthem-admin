@@ -1,4 +1,4 @@
-import { iconMap } from "../../lib/maps/iconMap";
+import { iconMap } from "../lib/maps/iconMap";
 
 export const buttonConfigurations = {
   listView: [

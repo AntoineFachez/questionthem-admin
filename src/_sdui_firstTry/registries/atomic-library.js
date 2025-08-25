@@ -12,7 +12,7 @@ import {
   TableRow,
   Link as MuiLink,
 } from "@mui/material";
-import Title from "../../../components/title/Title";
+import Title from "../../components/title/Title";
 
 import NextLink from "next/link";
 // This registry holds only the most basic, universal components.

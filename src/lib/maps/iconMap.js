@@ -8,6 +8,8 @@ import {
   Chat,
   CheckCircleOutline,
   ContentCopy,
+  Delete,
+  Edit,
   Favorite,
   Gavel,
   Group,
@@ -24,6 +26,7 @@ import {
   Share,
   MoreVert,
 } from "@mui/icons-material";
+import { IconButton } from "@mui/material";
 
 // A single mapping object for all icons
 export const iconMap = {
@@ -35,6 +38,8 @@ export const iconMap = {
   CheckCircleOutline: CheckCircleOutline,
   ContentCopy: ContentCopy,
   Database: Storage,
+  Delete: Delete,
+  Edit: Edit,
   Favorite: Favorite,
   Group: Gavel,
   Group: Group,
@@ -50,4 +55,12 @@ export const iconMap = {
   instagram: Instagram,
   youtube: YouTube,
   truth_social: Public,
+};
+export const getIconComponent = (iconName, onClick, sx) => {
+  const IconComponent = iconName ? iconMap[iconName] : null;
+  return IconComponent ? (
+    <IconButton onClick={onClick}>
+      <IconComponent sx={sx} />
+    </IconButton>
+  ) : null;
 };

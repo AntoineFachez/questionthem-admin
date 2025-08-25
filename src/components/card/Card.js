@@ -12,7 +12,7 @@ export default function DynamicCard({
   onClick,
   parentProps,
 }) {
-  console.log("parentProps", parentProps);
+  console.log("parentProps", data);
 
   // const [randomDeg] = useState(() => Math.random() * 360 * (index + 1));
   // const gradient = darkTheme.palette.randomeRainbow;

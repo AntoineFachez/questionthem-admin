@@ -27,7 +27,7 @@
     ]
   },
   {
-    "type": "organism.grid",
+    "type": "template.grid",
     "props": { "sx": {} },
     "children": {
       "__mapOver": "items",
@@ -36,101 +36,28 @@
       }
     }
   },
+
   {
-    "type": "atom.tableContainer",
+    "type": "template.table",
     "children": [
       {
-        "type": "atom.table",
+        "type": "organism.table",
         "props": { "sx": { "minWidth": "100%" } },
         "children": [
           {
-            "type": "atom.tableHead",
+            "type": "organism.tableHead",
             "children": [
               {
-                "type": "atom.tableRow",
-                "children": [
-                  {
-                    "type": "atom.tableCell",
-                    "children": [
-                      { "type": "atom.typography", "props": { "text": "Name" } }
-                    ]
-                  },
-                  {
-                    "type": "atom.tableCell",
-                    "children": [
-                      {
-                        "type": "atom.typography",
-                        "props": { "text": "Email" }
-                      }
-                    ]
-                  },
-                  {
-                    "type": "atom.tableCell",
-                    "children": [
-                      { "type": "atom.typography", "props": { "text": "Role" } }
-                    ]
-                  },
-                  {
-                    "type": "atom.tableCell",
-                    "children": [
-                      {
-                        "type": "atom.typography",
-                        "props": { "text": "Actions" }
-                      }
-                    ]
-                  }
-                ]
+                "__includeTemplate": "{{widget.tableHeader}}"
               }
             ]
           },
           {
-            "type": "atom.tableBody",
+            "type": "organism.tableBody",
             "children": {
-              "__mapOver": "users",
+              "__mapOver": "items",
               "__template": {
-                "type": "atom.tableRow",
-                "props": { "hover": true },
-                "children": [
-                  {
-                    "type": "atom.tableCell",
-                    "children": [
-                      {
-                        "type": "atom.typography",
-                        "props": { "text": "{{item.name}}" }
-                      }
-                    ]
-                  },
-                  {
-                    "type": "atom.tableCell",
-                    "children": [
-                      {
-                        "type": "atom.typography",
-                        "props": { "text": "{{item.email}}" }
-                      }
-                    ]
-                  },
-                  {
-                    "type": "atom.tableCell",
-                    "children": [
-                      {
-                        "type": "atom.typography",
-                        "props": { "text": "{{item.role | capitalize}}" }
-                      }
-                    ]
-                  },
-                  {
-                    "type": "atom.tableCell",
-                    "children": [
-                      {
-                        "type": "molecule.actionMenu",
-                        "props": {
-                          "userId": "{{item.id}}",
-                          "options": ["edit", "delete"]
-                        }
-                      }
-                    ]
-                  }
-                ]
+                "__includeTemplate": "{{item.tableBodyType}}"
               }
             }
           }
@@ -285,68 +212,61 @@
     "type": "template.dashboard",
     "templateName": "Dashboard Template",
     "description": "A modular layout for displaying personalized user data and widgets.",
-    "children": {
-      "__mapOver": "items",
-      "__template": {
+    "children": [
+      {
+        "type": "organism.sidebarNav",
+        "props": {
+          "navItems": [
+            { "label": "Dashboard", "icon": "dashboard" },
+            { "label": "Profile", "icon": "person" },
+            { "label": "Settings", "icon": "settings" }
+          ]
+        }
+      },
+      {
+        "type": "organism.controls",
+        "context": "dashboard",
+        "props": {
+          "context": "dashboard",
+          "widgetProps": "{{widget.widgetProps}}"
+        }
+      },
+      {
         "type": "atom.box",
-        "props": { "sx": { "display": "flex" } },
+        "props": { "component": "main", "sx": { "flexGrow": 1, "p": 3 } },
         "children": [
           {
-            "type": "organism.sidebarNav",
+            "type": "organism.pageHeader",
             "props": {
-              "navItems": [
-                { "label": "Dashboard", "icon": "dashboard" },
-                { "label": "Profile", "icon": "person" },
-                { "label": "Settings", "icon": "settings" }
-              ]
+              "title": "Welcome, {{user.name}}!"
             }
           },
           {
-            "type": "organism.controls",
-            "context": "dashboard",
-            "props": {
-              "context": "dashboard",
-              "widgetProps": "{{widget.widgetProps}}"
-            }
-          },
-          {
-            "type": "atom.box",
-            "props": { "component": "main", "sx": { "flexGrow": 1, "p": 3 } },
-            "children": [
-              {
-                "type": "organism.pageHeader",
-                "props": {
-                  "title": "Welcome, {{user.name}}!"
-                }
-              },
-              {
-                "type": "organism.grid",
-                "children": {
-                  "__mapOver": "items",
-                  "__template": {
-                    "type": "molecule.card",
-                    "props": { "sx": { "padding": "1rem" } },
-                    "children": [
-                      {
-                        "type": "atom.typography",
-                        "props": { "variant": "h6", "text": "{{item.title}}" }
-                      },
-                      {
-                        "type": "atom.typography",
-                        "props": {
-                          "variant": "h3",
-                          "text": "{{item.subtitle}}"
-                        }
-                      }
-                    ]
+            "type": "organism.grid",
+            "children": {
+              "__mapOver": "items",
+              "__template": {
+                "type": "molecule.card",
+                "props": { "sx": { "padding": "1rem" } },
+                "children": [
+                  {
+                    "type": "atom.typography",
+                    "props": { "variant": "h6", "text": "{{item.title}}" }
+                  },
+                  {
+                    "type": "atom.typography",
+                    "props": {
+                      "variant": "h3",
+                      "text": "{{item.subtitle}}"
+                    }
                   }
-                }
+                ]
               }
-            ]
+            }
           }
         ]
       }
-    }
+    ]
   },
   {
     "type": "template.form",
@@ -387,6 +307,95 @@
             }
           }
         ]
+      }
+    }
+  },
+  {
+    "devNotes": "refactor this by splitting concerns",
+    "metadata": {
+      "id": "statistics-screen-v1",
+      "version": "1.0",
+      "name": "Statistics Screen Template",
+      "auth": {
+        "required": true,
+        "roles": ["admin"]
+      }
+    },
+    "dataSource": {
+      "stats": {
+        "url": "/api/database/statistics",
+        "method": "GET"
+      }
+    },
+    "layout": {
+      "component": "ScreenLayout",
+      "type": "template.dashboard",
+      "props": { "sx": {} },
+      "slots": {
+        "header": {
+          "component": "Header",
+          "props": {
+            "title": "{dataSource.stats.title}"
+          }
+        },
+        "main": {
+          "component": "TableContainer",
+          "props": {
+            "component": "Paper",
+            "sx": { "borderRadius": 2, "boxShadow": 3 }
+          },
+          "children": [
+            {
+              "component": "Table",
+              "children": [
+                {
+                  "component": "TableHead",
+                  "children": [
+                    {
+                      "component": "TableRow",
+                      "props": {
+                        "sx": { "backgroundColor": "theme.palette.grey[100]" }
+                      },
+                      "children": [
+                        {
+                          "component": "TableCell",
+                          "children": ["Statistic"]
+                        },
+                        {
+                          "component": "TableCell",
+                          "props": { "align": "right" },
+                          "children": ["Value"]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "component": "TableBody",
+
+                  "map": {
+                    "data": "{dataSource.stats.rows}",
+                    "template": {
+                      "component": "TableRow",
+                      "props": { "hover": true },
+                      "children": [
+                        {
+                          "component": "TableCell",
+                          "children": ["{item.label}"]
+                        },
+                        {
+                          "component": "TableCell",
+                          "props": { "align": "right" },
+                          "children": ["{item.value}"]
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
       }
     }
   }

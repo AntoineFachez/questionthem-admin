@@ -1,15 +1,23 @@
 import React, { useEffect, useState } from "react";
-import { Box, Button, CircularProgress, Typography } from "@mui/material";
+import {
+  Box,
+  Button,
+  CircularProgress,
+  Menu,
+  MenuItem,
+  MenuList,
+  Typography,
+} from "@mui/material";
 
-import SduiRenderer from "../../sdui/SduiRenderer";
+import SduiRenderer from "./SduiRenderer";
 
-import ScreenLayout from "../../components/screenLayout/ScreenLayout";
+import ScreenLayout from "../components/screenLayout/ScreenLayout";
 import { generateBlueprint } from "./transformer";
 
-import mockUiTemplate from "./uiTemplates.json";
+import mockUiTemplate from "./templates/templates.json";
 import { mockRawData } from "./mockData.json";
-import usersDataMap from "./maps/users.map.json";
-import statsDataMap from "./maps/stats.map.json";
+import usersDataMap from "./dataMapping/users.map.json";
+import statsDataMap from "./dataMapping/stats.map.json";
 import { initActions } from "./actionRegistry";
 import { buttonConfigurations } from "./controlsConfiguration";
 const viewConfigurations = {
@@ -25,7 +33,9 @@ const viewConfigurations = {
   },
 };
 const GridCards = () => {
-  const [uiTemplate, setUiTemplate] = useState(mockUiTemplate[1]);
+  const [uiTemplate, setUiTemplate] = useState(
+    mockUiTemplate.filter((item) => item.type === "template.grid")[0]
+  );
   const [currentViewKey, setCurrentViewKey] = useState("statsGrid");
 
   const [itemInFocus, setItemInFocus] = useState(null);
@@ -42,7 +52,15 @@ const GridCards = () => {
   }, []);
   useEffect(() => {
     const activeConfig = viewConfigurations[currentViewKey];
-
+    const options = {
+      uiTemplate: uiTemplate,
+      rawData: activeConfig.data,
+      dataMap: activeConfig.dataMap,
+      itemInFocus: itemInFocus,
+      expandedItems: expandedItems,
+      menuAnchor: menuAnchor,
+      widgetProps: widgetProps,
+    };
     // Simulate a fetch; this makes the loading state feel real
     const timer = setTimeout(() => {
       try {
@@ -53,7 +71,8 @@ const GridCards = () => {
           itemInFocus,
           expandedItems,
           menuAnchor,
-          widgetProps
+          widgetProps,
+          options
         );
         setUiBlueprint(finalBlueprint);
       } catch (err) {
@@ -63,23 +82,40 @@ const GridCards = () => {
         setIsLoading(false);
       }
     }, 500);
-    // Cleanup function for the timer
     return () => clearTimeout(timer);
   }, [
     mockRawData,
     currentViewKey,
-    mockUiTemplate,
+    uiTemplate,
     itemInFocus,
     expandedItems,
     menuAnchor,
   ]);
 
   const activeConfig = viewConfigurations[currentViewKey];
-
+  const sideBar = (
+    <MenuList>
+      {mockUiTemplate.map((template, i) => {
+        console.log("mockUiTemplate map", template.type);
+        return (
+          <MenuItem
+            key={i}
+            onClick={(e) => {
+              e.stopPropagation();
+              return setUiTemplate(template);
+            }}
+          >
+            {template.type}
+          </MenuItem>
+        );
+      })}
+    </MenuList>
+  );
   const mainContent = (
     <>
       <Box
         sx={{
+          width: "100%",
           height: "100%",
           padding: 2,
           display: "flex",
@@ -102,6 +138,7 @@ const GridCards = () => {
           Users Grid
         </Button>
       </Box>
+
       {isLoading ? (
         <Box sx={{ display: "flex", justifyContent: "center", padding: 4 }}>
           <CircularProgress />
@@ -121,6 +158,7 @@ const GridCards = () => {
       header={
         `${activeConfig?.title + " as " + uiTemplate.type}` || "Dashboard"
       }
+      sideBar={sideBar}
       main={mainContent}
     />
   );

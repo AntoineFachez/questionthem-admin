@@ -21,32 +21,31 @@ import {
   Avatar,
   MenuItem,
 } from "@mui/material";
-import SearchBarGrouped from "../../components/searchBar/SearchBarGrouped";
-import Navbar from "../../components/navbar/Navbar";
-import Card from "../../components/card/Card";
-import ConfirmDeletionDialog from "../../components/dialog/ConfirmDeletionDialog";
-import DynamicList from "../../components/list/DynamicList";
-import DynamicAccordion from "../../components/accordion/DynamicAccordion";
-import ScrollDialog from "../../components/dialog/ScrollDialog";
-import Header from "../../components/title/Title";
-import Form from "../../components/form/Form";
-import DetailView from "../../components/detailView/DetailView";
-import Controls from "../../components/controls/Controls";
-import ExpandMore from "../../components/button/ExpandMore";
-import CustomIconButton from "../../components/button/CustomIconButton";
-import KebabMenu from "../../components/menus/KebabMenu";
+import Card from "../components/card/Card";
+import ConfirmDeletionDialog from "../components/dialog/ConfirmDeletionDialog";
+import Controls from "../components/controls/Controls";
+import CustomIconButton from "../components/button/CustomIconButton";
+import DetailView from "../components/detailView/DetailView";
+import DynamicAccordion from "../components/accordion/DynamicAccordion";
+import DynamicList from "../components/list/DynamicList";
+import DynamicTable from "../components/table/DynamicTable";
+import ExpandMore from "../components/button/ExpandMore";
+import Form from "../components/form/Form";
+import Header from "../components/title/Title";
+import KebabMenu from "../components/menus/KebabMenu";
+import Navbar from "../components/navbar/Navbar";
+import SearchBarGrouped from "../components/searchBar/SearchBarGrouped";
+import ScrollDialog from "../components/dialog/ScrollDialog";
 
 const Standin = ({ children }) => {
   return <Box>{children}</Box>;
 };
 
 export const componentRegistry = {
-  //* --- Atoms ---
+  //* --- ATOMS ---
+  "atom.avatar": Avatar,
   "atom.box": ({ children, ...props }) => <Box {...props}>{children}</Box>,
-  "atom.typography": ({ text, ...restOfProps }) => (
-    <Typography {...restOfProps}>{text}</Typography>
-  ),
-
+  "atom.button": Button,
   "atom.linkButton": ({ props: { title, navigateTo } }) => (
     <MuiLink
       component={NextLink}
@@ -75,44 +74,44 @@ export const componentRegistry = {
       <Typography variant="h5">{title}</Typography>
     </MuiLink>
   ),
-
-  "atom.avatar": Avatar,
-  "atom.paper": Paper,
-
   "atom.expandMoreButton": ExpandMore,
-  "atom.button": Button,
   "atom.iconButton": CustomIconButton,
   "atom.menuItem": MenuItem,
-  //* --- Atoms --- Table
-  "atom.table": Table,
-  "atom.tableBody": TableBody,
+  "atom.paper": Paper,
+  "atom.typography": ({ text, ...restOfProps }) => (
+    <Typography {...restOfProps}>{text}</Typography>
+  ),
+  // --- Table ---
   "atom.tableCell": TableCell,
   "atom.tableContainer": TableContainer,
-  "atom.tableHead": TableHead,
-  "atom.tableRow": TableRow,
-  //* --- Atoms --- Card
+  // --- Card ---
   "atom.cardMedia": CardMedia,
   "atom.collapse": Collapse,
-  //* --- Molecules ---
-  //* --- Molecules --- Card
+
+  //* --- MOLECULES ---
+  // --- Card ---
   "molecule.cardActions": CardActions,
   "molecule.cardContent": CardContent,
   "molecule.cardHeader": CardHeader,
-  //* --- Molecules --- Misc
-  "molecule.searchBarGrouped": SearchBarGrouped,
+  // --- Table ---
+  "molecule.tableRow": TableRow,
+  // --- Grid ---
+  "molecule.grid": Grid,
+  // --- Misc ---
   "molecule.formField": ({ ...props }) => <TextField {...props} />,
-  //* --- Organisms ---
+  "molecule.searchBarGrouped": SearchBarGrouped,
+
+  //* --- ORGANISMS ---
   "organism.card": Card,
-  "organism.navBar": Navbar,
+  "organism.confirmDeletionDialog": ConfirmDeletionDialog,
   "organism.controls": Controls,
   "organism.dynamicAccordion": DynamicAccordion,
-  "organism.confirmDeletionDialog": ConfirmDeletionDialog,
   "organism.dynamicList": ({ data, itemInFocus, blueprint }) => (
     <DynamicList data={data} itemInFocus={itemInFocus} blueprint={blueprint} />
   ),
-  "organism.pagination": DynamicList,
+  "organism.form": Form,
   "organism.kebabMenu": KebabMenu,
-  "organism.scrollDialog": ScrollDialog,
+  "organism.navBar": Navbar,
   "organism.pageHeader": ({ title, ...restOfProps }) => {
     const headerProps = {
       string: title,
@@ -121,10 +120,17 @@ export const componentRegistry = {
 
     return <Header props={headerProps} />;
   },
-  "organism.grid": Grid,
-  "organism.form": Form,
+  "organism.pagination": DynamicList,
+  "organism.scrollDialog": ScrollDialog,
+  "organism.table": Table,
+  "organism.tableBody": TableBody,
+  "organism.tableHead": TableHead,
+
+  //* --- TEMPLATES ---
   "template.dashboard": Card,
-  "template.form": Card,
   "template.detail": DetailView,
+  // "template.form": Card,
+  "template.grid": Grid,
   "template.listView": Standin,
+  "template.table": DynamicTable,
 };

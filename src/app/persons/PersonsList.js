@@ -1,4 +1,4 @@
-// filename: app/posts/PostList.js
+// filename: app/persons/PersonsList.js
 
 "use client";
 
@@ -7,14 +7,14 @@ import { Box, Button, CircularProgress, Typography } from "@mui/material";
 import { useInView } from "react-intersection-observer"; // Import the hook
 
 export default function PersonsList() {
-  const [posts, setPosts] = useState([]);
+  const [persons, setPersons] = useState([]);
   const [loading, setLoading] = useState(false);
   const [lastVisibleId, setLastVisibleId] = useState(null); // This is our cursor
   const [hasMore, setHasMore] = useState(true); // Is there more data to fetch?
   const { ref, inView } = useInView({ threshold: 0 }); // Setup the observer
 
-  // Function to fetch a page of posts
-  const fetchPosts = async () => {
+  // Function to fetch a page of persons
+  const fetchPersons = async () => {
     if (loading) return;
     setLoading(true);
 
@@ -28,33 +28,33 @@ export default function PersonsList() {
       const response = await fetch(url);
       const data = await response.json();
 
-      // Append new posts to the existing list
-      setPosts((prevPosts) => [...prevPosts, ...data.data.docs]);
+      // Append new persons to the existing list
+      setPersons((prevPersons) => [...prevPersons, ...data.data.docs]);
       // Update the cursor for the next fetch
       setLastVisibleId(data.data.lastVisibleId);
       // If the API returns no new cursor, we've reached the end
       setHasMore(data.data.lastVisibleId !== null);
     } catch (error) {
-      console.error("Failed to fetch posts:", error);
+      console.error("Failed to fetch persons:", error);
     } finally {
       setLoading(false);
     }
   };
 
-  // Fetch the initial batch of posts when the component mounts
+  // Fetch the initial batch of persons when the component mounts
   useEffect(() => {
     // Only fetch if not already loading and if there is more data
     if (inView && !loading && hasMore) {
-      fetchPosts();
+      fetchPersons();
     }
   }, [inView, loading, hasMore]);
 
   return (
     <Box>
-      {posts.map((post) => (
-        <Box key={post.id} p={2} borderBottom="1px solid #ccc">
-          <Typography variant="h6">{post.title}</Typography>
-          <Typography>{post.content}</Typography>
+      {persons.map((person) => (
+        <Box key={person.id} p={2} borderBottom="1px solid #ccc">
+          <Typography variant="h6">{person.title}</Typography>
+          <Typography>{person.content}</Typography>
         </Box>
       ))}
       <div ref={ref} />
@@ -63,7 +63,7 @@ export default function PersonsList() {
       )}
 
       {hasMore && !loading && (
-        <Button onClick={fetchPosts} variant="contained" sx={{ mt: 2 }}>
+        <Button onClick={fetchPersons} variant="contained" sx={{ mt: 2 }}>
           Load More
         </Button>
       )}

@@ -10,13 +10,14 @@ import { Box, Container } from "@mui/material";
  * @param {React.ReactNode} props.main - The component to render in the main content area.
  * @returns {React.Component} The rendered layout.
  */
-export function ScreenLayout({ header, main }) {
+export function ScreenLayout({ header, sideBar, main }) {
   return (
     <Box
       sx={{
+        width: "100%",
         height: "100%",
         display: "flex",
-        flexDirection: "column",
+        flexFlow: "column nowrap",
         // backgroundColor: "secondary.dark",
       }}
     >
@@ -24,19 +25,32 @@ export function ScreenLayout({ header, main }) {
       <Box component="header" sx={{ width: "100%", zIndex: 1 }}>
         {header}
       </Box>
-
-      {/* Main Content Slot */}
       <Box
-        component="main"
         sx={{
           width: "100%",
           height: "100%",
-          flexGrow: 1,
-          py: 4, // Add some vertical padding
-          overflow: "auto",
+          display: "flex",
+          flexFlow: "row nowrap",
+          // backgroundColor: "secondary.dark",
         }}
       >
-        <Container maxWidth="lg">{main}</Container>
+        <Box component="" sx={{ width: "fit-content", zIndex: 1 }}>
+          {sideBar}
+        </Box>
+
+        {/* Main Content Slot */}
+        <Box
+          component="main"
+          sx={{
+            width: "100%",
+            height: "100%",
+            flexGrow: 1,
+            py: 4, // Add some vertical padding
+            overflow: "auto",
+          }}
+        >
+          <Container maxWidth="lg">{main}</Container>
+        </Box>
       </Box>
     </Box>
   );

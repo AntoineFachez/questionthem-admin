@@ -2,18 +2,20 @@
   "source": "stats",
   "bindings": {
     "id": "collection",
-    "title": "collection | capitalize",
     "dataObject": ".",
     "cardType": "'statsCard'",
     "controlsType": "'controls'",
+    "tableHeadType": "'statsTableHead'",
+    "tableBodyType": "'statsTableRowItem'",
     "devNotes": "👆// Note the single quotes to indicate a literal string",
-    "avatarInitial": "collection | firstLetter",
+    "title": "collection | capitalize",
     "subtitle": {
       "__format": "{count} Docs",
       "bindings": {
         "count": "documentCount"
       }
     },
+    "avatarInitial": "collection | firstLetter",
     "methodDetails": "Some text to be in the expanded Collapse Component",
     "detail": {
       "__format": "Top Tags: {tags}",

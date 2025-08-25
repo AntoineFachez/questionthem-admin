@@ -1,4 +1,4 @@
-import componentTemplates from "./componentTemplates.json";
+import componentTemplates from "./templates/organisms.json";
 
 /**
  * Generates a final, renderable UI blueprint by hydrating a generic template with raw data,
@@ -16,8 +16,20 @@ export function generateBlueprint(
   itemInFocus,
   expandedItems,
   menuAnchor,
-  widgetProps
+  widgetProps,
+  options
 ) {
+  const generationContext = {
+    uiTemplate: options.uiTemplate,
+    rawData: options.rawData,
+    dataMap: options.dataMap,
+    clientState: {
+      itemInFocus: options.itemInFocus,
+      expandedItems: options.expandedItems,
+      menuAnchor: options.menuAnchor,
+    },
+    widgetProps: options.widgetProps,
+  };
   // --- Block 1: Initial Input Validation & Error Helper ---
   // Ensures that all necessary inputs are provided and valid before processing begins.
   if (!uiTemplate || typeof uiTemplate !== "object") {
@@ -240,8 +252,13 @@ export function generateBlueprint(
       if (prop === "widgetProps") {
         return widgetProps;
       }
+      if (prop === "tableHeader") {
+        // Use the 'tableHeadType' from the dataMap to find the template name
+        const templateName = dataMap.bindings.tableHeadType.slice(1, -1); // Removes single quotes
+        return templateName;
+      }
       // You could add more app-level props here later if needed.
-      return `[Unknown app prop: ${prop}]`;
+      return `[Unknown widget prop: ${prop}]`;
     }
     if (prop === "isMenuOpen") {
       // The menu is open if the anchor is not null
@@ -316,8 +333,10 @@ export function generateBlueprint(
 
     return placeholder;
   }
+  console.log("generationContext", rawData === generationContext.rawData);
 
   // --- Start the process ---
   // Kick off the recursion with the top-level template and the global rawData object.
-  return hydrateNode(uiTemplate, rawData);
+  // return hydrateNode(uiTemplate, rawData);
+  return hydrateNode(generationContext.uiTemplate, generationContext.rawData);
 }

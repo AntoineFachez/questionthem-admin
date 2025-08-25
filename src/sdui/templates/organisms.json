@@ -153,6 +153,124 @@
       "widgetProps": "{{widget.widgetProps}}"
     }
   },
+  "statsTableHead": {
+    "type": "organism.tableHead",
+    "props": {
+      "data": "{{item.dataObject}}",
+      "index": "{{context.index}}",
+      "sx": {
+        "width": "100%",
+        "boxShadow": "0 2px 5px -1px rgba(0,0,0,0.2)",
+        "border": "1px solid #ccc"
+      }
+    },
+    "action": {
+      "type": "SOME_FILTER_SORT_ACTION",
+      "payload": { "actionType": "" }
+    },
+
+    "children": [
+      {
+        "type": "molecule.tableRow",
+        "children": [
+          {
+            "type": "atom.tableCell",
+            "children": [
+              { "type": "atom.typography", "props": { "text": "Collection" } }
+            ]
+          },
+          {
+            "type": "atom.tableCell",
+            "children": [
+              {
+                "type": "atom.typography",
+                "props": { "text": "Doc Count" }
+              }
+            ]
+          },
+          {
+            "type": "atom.tableCell",
+            "children": [
+              {
+                "type": "atom.typography",
+                "props": { "text": "Actions" }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "statsTableRowItem": {
+    "type": "molecule.tableRow",
+    "props": {
+      "data": "{{item.dataObject}}",
+      "index": "{{context.index}}",
+      "sx": {
+        "__if_selected": {
+          "then": {
+            "boxShadow": "0 8px 20px -5px #1976d2",
+            "border": "2px solid #1976d2",
+            "backgroundColor": "primary.dark"
+          },
+          "else": {
+            "boxShadow": "0 2px 5px -1px rgba(0,0,0,0.2)",
+            "border": "1px solid #ccc"
+          }
+        }
+      }
+    },
+    "action": {
+      "type": "SELECT_ITEM",
+      "payload": { "selectedId": "{{item.id}}" }
+    },
+
+    "children": [
+      {
+        "type": "atom.tableCell",
+        "children": [
+          {
+            "type": "atom.typography",
+            "props": { "text": "{{item.title}}" }
+          }
+        ]
+      },
+      {
+        "type": "atom.tableCell",
+        "children": [
+          {
+            "type": "atom.typography",
+            "props": { "text": "{{item.subtitle}}" }
+          }
+        ]
+      },
+      {
+        "type": "atom.tableCell",
+        "children": [
+          {
+            "type": "atom.typography",
+            "props": { "text": "{{item.role | capitalize}}" }
+          }
+        ]
+      },
+
+      {
+        "type": "atom.tableCell",
+        "children": [
+          {
+            "type": "organism.kebabMenu",
+            "props": {
+              "id": "{{item.id}}",
+              "options": [
+                { "icon": "Edit", "label": "edit", "action": "EDIT_ITEM" },
+                { "icon": "Delete", "label": "delete", "action": "DELETE_ITEM" }
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
   "userCard": {
     "type": "organism.card",
     "props": {
@@ -251,6 +369,67 @@
                 }
               }
             ]
+          }
+        ]
+      }
+    ]
+  },
+  "userTableRowItem": {
+    "type": "molecule.tableRow",
+    "props": {
+      "data": "{{item.dataObject}}",
+      "index": "{{context.index}}",
+      "sx": {
+        "__if_selected": {
+          "then": {
+            "boxShadow": "0 8px 20px -5px #1976d2",
+            "border": "2px solid #1976d2",
+            "backgroundColor": "primary.dark"
+          },
+          "else": {
+            "boxShadow": "0 2px 5px -1px rgba(0,0,0,0.2)",
+            "border": "1px solid #ccc"
+          }
+        }
+      }
+    },
+    "action": {
+      "type": "SELECT_ITEM",
+      "payload": { "selectedId": "{{item.id}}" }
+    },
+
+    "children": [
+      {
+        "type": "atom.tableCell",
+        "children": [
+          {
+            "type": "atom.typography",
+            "props": { "text": "{{item.title}}" }
+          }
+        ]
+      },
+      {
+        "type": "atom.tableCell",
+        "children": [
+          {
+            "type": "atom.typography",
+            "props": { "text": "{{item.subtitle}}" }
+          }
+        ]
+      },
+
+      {
+        "type": "atom.tableCell",
+        "children": [
+          {
+            "type": "organism.kebabMenu",
+            "props": {
+              "id": "{{item.id}}",
+              "options": [
+                { "icon": "Edit", "label": "edit", "action": "EDIT_ITEM" },
+                { "icon": "Delete", "label": "delete", "action": "DELETE_ITEM" }
+              ]
+            }
           }
         ]
       }

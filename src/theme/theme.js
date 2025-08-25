@@ -10,6 +10,7 @@ export const darkTheme = createTheme({
       main: "#5c6b73",
       dark: "#0e1929",
       light: "#9ccae9ff",
+      alpha: "#0e1929cc",
     }, //["0e1929","c2dfe3","9db4c0","5c6b73","253237"]
     secondary: { main: "#ffd400", dark: "#8F7700", light: "#d2ddab" }, //["ffd400","d2ddab","c2dfe3","95aeb5","0e1929"]
     randomeRainbow:

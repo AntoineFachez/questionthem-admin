@@ -6,7 +6,7 @@ import { useUser } from "../context/UserContext";
 import Widget from "./overview/Widget";
 
 import AdminLoginForm from "../components/auth/AdminLogIn";
-import App from "./(dynamic)/GridCards";
+import App from "../sdui/GridCards";
 
 export default function Home() {
   const { user, loading } = useUser();

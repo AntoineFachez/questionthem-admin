@@ -83,6 +83,41 @@ export const sharedComponents = {
       subtitle1: { fontWeight: "100", lineHeight: 1.6, padding: "8px" },
     },
   },
+  MuiMenu: {
+    styleOverrides: {
+      root: {
+        // padding: 0,
+        // margin: 0,
+        display: "flex",
+        flexFlow: "row nowrap",
+        "& >*": {
+          display: "flex",
+          flexFlow: "row nowrap",
+          borderRadius: "5px",
+          // border: "1px blue solid",
+          padding: 0,
+          margin: 0,
+          backgroundColor: "transparent",
+        },
+      },
+    },
+  },
+  MuiMenuItem: {
+    styleOverrides: {
+      root: ({ theme }) => ({
+        backgroundColor: theme.palette.primary.alpha,
+        // backgroundColor: "#333433cc",
+      }),
+    },
+  },
+  MuiListItemText: {
+    styleOverrides: {
+      root: ({ theme }) => ({
+        // backgroundColor: theme.palette.primary.alpha,
+        // backgroundColor: "#333433cc",
+      }),
+    },
+  },
   MuiTableContainer: {
     styleOverrides: {
       root: {
