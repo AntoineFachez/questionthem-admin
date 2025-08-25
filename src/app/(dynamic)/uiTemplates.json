@@ -28,7 +28,7 @@
   },
   {
     "type": "organism.grid",
-    "props": { "sx": { "padding": 2, "width": "100%" } },
+    "props": { "sx": {} },
     "children": {
       "__mapOver": "items",
       "__template": {
@@ -157,7 +157,11 @@
           },
           {
             "type": "organism.controls",
-            "props": { "context": "detail" }
+            "context": "detail",
+            "props": {
+              "context": "detail",
+              "widgetProps": "{{widget.widgetProps}}"
+            }
           },
           {
             "type": "atom.grid",
@@ -233,7 +237,11 @@
 
           {
             "type": "organism.controls",
-            "props": { "context": "listView" }
+            "context": "listView",
+            "props": {
+              "context": "listView",
+              "widgetProps": "{{widget.widgetProps}}"
+            }
           },
           {
             "type": "organism.grid",
@@ -295,7 +303,11 @@
           },
           {
             "type": "organism.controls",
-            "props": { "context": "dashboard" }
+            "context": "dashboard",
+            "props": {
+              "context": "dashboard",
+              "widgetProps": "{{widget.widgetProps}}"
+            }
           },
           {
             "type": "atom.box",

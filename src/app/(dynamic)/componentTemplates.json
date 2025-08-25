@@ -1,0 +1,259 @@
+{
+  "statsCard": {
+    "type": "organism.card",
+    "props": {
+      "data": "{{item.dataObject}}",
+      "index": "{{context.index}}",
+      "sx": {
+        "__if_selected": {
+          "then": {
+            "boxShadow": "0 8px 20px -5px #1976d2",
+            "border": "2px solid #1976d2",
+            "backgroundColor": "primary.dark"
+          },
+          "else": {
+            "boxShadow": "0 2px 5px -1px rgba(0,0,0,0.2)",
+            "border": "1px solid #ccc"
+          }
+        }
+      }
+    },
+    "action": {
+      "type": "SELECT_ITEM",
+      "payload": { "selectedId": "{{item.id}}" }
+    },
+    "children": [
+      {
+        "__includeTemplate": "{{item.controlsType}}"
+      },
+      {
+        "type": "molecule.cardHeader",
+        "props": {
+          "title": "{{item.title}}",
+          "subheader": "{{item.subtitle}}",
+          "avatar": {
+            "type": "atom.avatar",
+            "props": {
+              "sx": { "backgroundColor": "#f44336" },
+              "children": "{{item.avatarInitial}}"
+            }
+          },
+          "action": {
+            "type": "organism.kebabMenu",
+            "props": {
+              "menuItems": [
+                {
+                  "type": "atom.menuItem",
+                  "props": { "children": "Edit" },
+                  "action": {
+                    "type": "EDIT_ITEM",
+                    "payload": { "id": "{{item.id}}" }
+                  }
+                },
+                {
+                  "type": "atom.menuItem",
+                  "props": { "children": "Delete" },
+                  "action": {
+                    "type": "DELETE_ITEM",
+                    "payload": { "id": "{{item.id}}" }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      },
+
+      {
+        "type": "atom.collapse",
+        "props": {
+          "in": "{{item.isExpanded}}",
+          "timeout": "auto"
+        },
+        "children": [
+          {
+            "type": "molecule.cardContent",
+            "props": {
+              "sx": {
+                "backgroundColor": "#222",
+                "borderRadius": "5px",
+                "boxShadow": "inset 0px 0px 15px 5px rgba(20, 20, 20, 0.2)"
+              }
+            },
+            "children": [
+              {
+                "type": "atom.box",
+                "props": { "sx": { "backgroundColor": "#33343320" } },
+                "children": [
+                  {
+                    "type": "atom.typography",
+                    "props": {
+                      "variant": "body2",
+                      "color": "text.secondary",
+                      "text": "{{item.detail}}"
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "atom.typography",
+                "props": {
+                  "paragraph": true,
+                  "text": "{{item.methodDetails}}",
+                  "sx": { "backgroundColor": "#444" }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "molecule.cardActions",
+        "props": {
+          "disableSpacing": true
+        },
+        "children": [
+          {
+            "type": "atom.iconButton",
+            "props": {
+              "aria-label": "add to favorites",
+              "icon": "Favorite",
+              "sx": { "position": "", "zIndex": "10" }
+            }
+          },
+          {
+            "type": "atom.iconButton",
+            "props": {
+              "aria-label": "share",
+              "icon": "Share",
+              "sx": { "position": "", "zIndex": "10" }
+            }
+          },
+          {
+            "type": "atom.expandMoreButton",
+            "props": {
+              "expand": "{{item.isExpanded}}",
+              "aria-label": "show more",
+              "sx": { "position": "", "zIndex": "10" }
+            },
+            "action": {
+              "type": "TOGGLE_EXPAND",
+              "payload": { "id": "{{item.id}}" }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "controls": {
+    "type": "organism.controls",
+    "context": "card",
+    "props": {
+      "context": "card",
+      "widgetProps": "{{widget.widgetProps}}"
+    }
+  },
+  "userCard": {
+    "type": "organism.card",
+    "props": {
+      "data": "{{item.dataObject}}",
+      "index": "{{context.index}}",
+      "sx": {
+        "__if_selected": {
+          "then": {
+            "boxShadow": "0 8px 20px -5px #1976d2",
+            "border": "2px solid #1976d2",
+            "backgroundColor": "primary.dark"
+          },
+          "else": {
+            "boxShadow": "0 2px 5px -1px rgba(0,0,0,0.2)",
+            "border": "1px solid #ccc"
+          }
+        }
+      }
+    },
+    "action": {
+      "type": "SELECT_ITEM",
+      "payload": { "selectedId": "{{item.id}}" }
+    },
+    "children": [
+      {
+        "type": "molecule.cardHeader",
+        "props": {
+          "title": "{{item.title}}",
+          "subheader": "{{item.subtitle}}"
+        }
+      },
+
+      {
+        "type": "molecule.cardContent",
+        "props": { "sx": { "backgroundColor": "#bbb" } },
+        "children": [
+          {
+            "type": "atom.typography",
+            "props": {
+              "variant": "body2",
+              "color": "text.secondary",
+              "text": "{{item.detail}}"
+            }
+          }
+        ]
+      },
+
+      {
+        "type": "atom.button",
+        "props": { "children": "Select" },
+        "action": {
+          "type": "SELECT_ITEM",
+          "payload": { "selectedId": "{{item.id}}" }
+        }
+      },
+      {
+        "type": "molecule.cardActions",
+        "props": { "disableSpacing": true },
+        "children": [
+          {
+            "type": "atom.iconButton",
+            "props": { "aria-label": "add to favorites", "icon": "Favorite" }
+          },
+          {
+            "type": "atom.iconButton",
+            "props": { "aria-label": "share", "icon": "Share" }
+          },
+          {
+            "type": "atom.expandMoreButton",
+            "props": {
+              "expand": "{{item.isExpanded}}",
+              "aria-label": "show more"
+            },
+            "action": {
+              "type": "TOGGLE_EXPAND",
+              "payload": { "id": "{{item.id}}" }
+            }
+          }
+        ]
+      },
+      {
+        "type": "atom.collapse",
+        "props": {
+          "in": "{{item.isExpanded}}",
+          "timeout": "auto"
+        },
+        "children": [
+          {
+            "type": "molecule.cardContent",
+            "children": [
+              {
+                "type": "atom.typography",
+                "props": {
+                  "paragraph": true,
+                  "text": "{{item.methodDetails}}"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

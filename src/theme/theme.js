@@ -12,6 +12,8 @@ export const darkTheme = createTheme({
       light: "#9ccae9ff",
     }, //["0e1929","c2dfe3","9db4c0","5c6b73","253237"]
     secondary: { main: "#ffd400", dark: "#8F7700", light: "#d2ddab" }, //["ffd400","d2ddab","c2dfe3","95aeb5","0e1929"]
+    randomeRainbow:
+      "#ff0000 0%, #ff9a00 10%, #d0de21 20%, #4fdc4a 30%, #3fdad8 40%, #2fc9e2 50%, #1c7fee 60%, #5f15f2 70%, #ba0cf8 80%, #fb07d9 90%, #ff0000 100%",
     background: {
       default: "#1f2937", // Dark gray
       paper: "#374151", // Slightly lighter dark gray

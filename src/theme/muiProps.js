@@ -21,7 +21,32 @@ export const containerProps = {
   },
 };
 
+const randomDeg = Math.random() * 360;
 export const sharedComponents = {
+  MuiGrid: {
+    styleOverrides: {
+      root: ({ theme }) => ({
+        width: "100%",
+        height: "100%",
+        display: "flex",
+        flexFlow: "row wrap",
+        justifyContent: "center",
+        alignItems: "center",
+        gap: "1rem",
+        padding: "2rem",
+        backgroundColor: theme.palette.primary.dark,
+      }),
+    },
+  },
+
+  MuiCard: {
+    styleOverrides: {
+      root: {
+        "&:hover": { backgroundColor: "#33343320" },
+      },
+    },
+  },
+
   MuiPaper: {
     styleOverrides: {
       root: {

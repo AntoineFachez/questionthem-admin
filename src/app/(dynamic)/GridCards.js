@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react";
 import { Box, Button, CircularProgress, Typography } from "@mui/material";
 
-import SduiRenderer from "./SduiRenderer";
+import SduiRenderer from "../../sdui/SduiRenderer";
 
-import ScreenLayout from "./ScreenLayout";
+import ScreenLayout from "../../components/screenLayout/ScreenLayout";
 import { generateBlueprint } from "./transformer";
 
 import mockUiTemplate from "./uiTemplates.json";
@@ -11,6 +11,7 @@ import { mockRawData } from "./mockData.json";
 import usersDataMap from "./maps/users.map.json";
 import statsDataMap from "./maps/stats.map.json";
 import { initActions } from "./actionRegistry";
+import { buttonConfigurations } from "./controlsConfiguration";
 const viewConfigurations = {
   statsGrid: {
     title: "Stats",
@@ -23,17 +24,21 @@ const viewConfigurations = {
     dataMap: usersDataMap,
   },
 };
-export default function App() {
+const GridCards = () => {
   const [uiTemplate, setUiTemplate] = useState(mockUiTemplate[1]);
   const [currentViewKey, setCurrentViewKey] = useState("statsGrid");
 
   const [itemInFocus, setItemInFocus] = useState(null);
   const [uiBlueprint, setUiBlueprint] = useState(null);
+  const [expandedItems, setExpandedItems] = useState({});
+  const [menuAnchor, setMenuAnchor] = useState(null);
+
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState(null);
-  // console.log("itemInFocus", itemInFocus);
+  const widgetProps = { buttonConfigurations };
+
   useEffect(() => {
-    initActions({ setItemInFocus });
+    initActions({ setItemInFocus, setExpandedItems, setMenuAnchor });
   }, []);
   useEffect(() => {
     const activeConfig = viewConfigurations[currentViewKey];
@@ -45,7 +50,10 @@ export default function App() {
           uiTemplate,
           activeConfig.data,
           activeConfig.dataMap,
-          itemInFocus
+          itemInFocus,
+          expandedItems,
+          menuAnchor,
+          widgetProps
         );
         setUiBlueprint(finalBlueprint);
       } catch (err) {
@@ -57,7 +65,14 @@ export default function App() {
     }, 500);
     // Cleanup function for the timer
     return () => clearTimeout(timer);
-  }, [mockRawData, currentViewKey, mockUiTemplate, itemInFocus]);
+  }, [
+    mockRawData,
+    currentViewKey,
+    mockUiTemplate,
+    itemInFocus,
+    expandedItems,
+    menuAnchor,
+  ]);
 
   const activeConfig = viewConfigurations[currentViewKey];
 
@@ -109,4 +124,5 @@ export default function App() {
       main={mainContent}
     />
   );
-}
+};
+export default GridCards;

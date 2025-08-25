@@ -14,7 +14,9 @@ export function generateBlueprint(
   rawData,
   dataMap,
   itemInFocus,
-  expandedItems
+  expandedItems,
+  menuAnchor,
+  widgetProps
 ) {
   // --- Block 1: Initial Input Validation & Error Helper ---
   // Ensures that all necessary inputs are provided and valid before processing begins.
@@ -83,7 +85,9 @@ export function generateBlueprint(
       const templateName = resolvePlaceholder(
         placeholder,
         contextData.item,
-        dataMap.bindings
+        dataMap.bindings,
+        contextData,
+        widgetProps
       );
       const templateToInclude = componentTemplates[templateName];
 
@@ -108,8 +112,8 @@ export function generateBlueprint(
       }
       const itemTemplate = node.__template;
       // Map over the source array, hydrating the item template for each item.
-      return rawData.map((item) =>
-        hydrateNode(itemTemplate, { ...contextData, item })
+      return rawData.map((item, index) =>
+        hydrateNode(itemTemplate, { ...contextData, item, index: index })
       );
     },
 
@@ -119,7 +123,13 @@ export function generateBlueprint(
      */
     __if_selected: (node, contextData) => {
       const currentItemId = contextData.item
-        ? resolvePlaceholder("item.id", contextData.item, dataMap.bindings)
+        ? resolvePlaceholder(
+            "item.id",
+            contextData.item,
+            dataMap.bindings,
+            contextData,
+            widgetProps
+          )
         : null;
       const selectedItemId = itemInFocus ? itemInFocus.selectedId : null;
 
@@ -168,7 +178,9 @@ export function generateBlueprint(
           result[key] = resolvePlaceholder(
             match[1],
             contextData.item,
-            dataMap.bindings
+            dataMap.bindings,
+            contextData,
+            widgetProps
           );
         } else {
           // Otherwise, it's a string with embedded placeholders; use .replace().
@@ -178,7 +190,9 @@ export function generateBlueprint(
               return resolvePlaceholder(
                 placeholder,
                 contextData.item,
-                dataMap.bindings
+                dataMap.bindings,
+                contextData,
+                widgetProps
               );
             }
           );
@@ -200,19 +214,55 @@ export function generateBlueprint(
    * @param {object} bindingsContext - The set of binding rules to use for resolution.
    * @returns {*} The final resolved value (can be a string, object, etc.).
    */
-  function resolvePlaceholder(placeholder, item, bindingsContext) {
+  function resolvePlaceholder(
+    placeholder,
+    item,
+    bindingsContext,
+    contextData,
+    widgetProps
+  ) {
     if (!item) return placeholder;
     const [context, prop] = placeholder.split(".");
-    const bindingRule = bindingsContext[prop];
-    if (context !== "item" || !bindingRule) return placeholder;
 
     // Case 1: The rule is a client-side state placeholders.
     if (prop === "isExpanded") {
-      // Resolve the item's ID first
-      const itemId = resolvePlaceholder("item.id", item, bindingsContext);
-      // Return true if the item's ID is a key in the expandedItems map
+      const itemId = resolvePlaceholder(
+        "item.id",
+        item,
+        bindingsContext,
+        contextData,
+        widgetProps
+      );
       return !!expandedItems[itemId];
     }
+    if (context === "widget") {
+      // If the placeholder is asking for 'widgetProps', return the whole object.
+      if (prop === "widgetProps") {
+        return widgetProps;
+      }
+      // You could add more app-level props here later if needed.
+      return `[Unknown app prop: ${prop}]`;
+    }
+    if (prop === "isMenuOpen") {
+      // The menu is open if the anchor is not null
+      return !!menuAnchor;
+    }
+    if (prop === "menuAnchor") {
+      // Pass the anchor element object directly
+      return menuAnchor;
+    }
+    if (prop === "closeMenuAction") {
+      // Return a blueprint for the onClose action
+      return { type: "TOGGLE_MENU", payload: {} };
+    }
+    if (context === "context") {
+      if (contextData && contextData.hasOwnProperty(prop)) {
+        return contextData[prop]; // Returns the index from the context
+      }
+      return `[Unknown context: ${prop}]`;
+    }
+    const bindingRule = bindingsContext[prop];
+    if (context !== "item" || !bindingRule) return placeholder;
 
     // Case 2: The rule is a simple string.
     if (typeof bindingRule === "string") {
@@ -242,7 +292,9 @@ export function generateBlueprint(
           const resolvedValue = resolvePlaceholder(
             nestedPlaceholder,
             item,
-            bindingRule.bindings
+            bindingRule.bindings,
+            contextData,
+            widgetProps
           );
           formattedString = formattedString.replace(`{${key}}`, resolvedValue);
         }
@@ -261,6 +313,7 @@ export function generateBlueprint(
         return mappedArray.join(bindingRule.__join || "");
       }
     }
+
     return placeholder;
   }
 

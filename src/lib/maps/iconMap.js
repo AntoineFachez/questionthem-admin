@@ -8,12 +8,13 @@ import {
   Chat,
   CheckCircleOutline,
   ContentCopy,
-  Storage,
+  Favorite,
   Gavel,
   Group,
   Notifications,
   Remove,
   Settings,
+  Storage,
   Warning,
   Facebook,
   Twitter,
@@ -21,6 +22,7 @@ import {
   Instagram,
   Public,
   Share,
+  MoreVert,
 } from "@mui/icons-material";
 
 // A single mapping object for all icons
@@ -33,8 +35,10 @@ export const iconMap = {
   CheckCircleOutline: CheckCircleOutline,
   ContentCopy: ContentCopy,
   Database: Storage,
+  Favorite: Favorite,
   Group: Gavel,
   Group: Group,
+  MoreVert: MoreVert,
   Notifications: Notifications,
   Remove: Remove,
   Share: Share,

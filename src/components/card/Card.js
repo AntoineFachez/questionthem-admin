@@ -1,46 +1,64 @@
-import * as React from "react";
-import { styled } from "@mui/material/styles";
-import Card from "@mui/material/Card";
-import IconButton from "@mui/material/IconButton";
+import { useState } from "react";
+import { Box, Card, CardActionArea } from "@mui/material";
 
-const ExpandMore = styled((props) => {
-  const { expand, ...other } = props;
-  return <IconButton {...other} />;
-})(({ theme }) => ({
-  marginLeft: "auto",
-  transition: theme.transitions.create("transform", {
-    duration: theme.transitions.duration.shortest,
-  }),
-  variants: [
-    {
-      props: ({ expand }) => !expand,
-      style: {
-        transform: "rotate(0deg)",
-      },
-    },
-    {
-      props: ({ expand }) => !!expand,
-      style: {
-        transform: "rotate(180deg)",
-      },
-    },
-  ],
-}));
-export default function DynamicCard({ children, sx, data }) {
-  const [expanded, setExpanded] = React.useState(false);
-  const handleExpandClick = () => {
-    setExpanded(!expanded);
-  };
+import { darkTheme } from "../../theme/theme";
+
+// The card is now a "dumb" component with no internal state.
+export default function DynamicCard({
+  index,
+  children,
+  sx,
+  data,
+  onClick,
+  parentProps,
+}) {
+  console.log("parentProps", parentProps);
+
+  // const [randomDeg] = useState(() => Math.random() * 360 * (index + 1));
+  // const gradient = darkTheme.palette.randomeRainbow;
   const baseStyles = {
     border: "1px solid #ccc",
     borderRadius: "8px",
+    cursor: onClick ? "pointer" : "default",
   };
   const combinedStyles = { ...baseStyles, ...sx };
 
   return (
-    <>
-      {" "}
-      <Card sx={{ ...combinedStyles, maxWidth: "25rem" }}>{children}</Card>
-    </>
+    <Box
+      sx={{
+        // background: `linear-gradient(${randomDeg}deg, ${gradient})`,
+        backgroundSize: "200% 200%",
+        animation: "gradient-animation 8s ease infinite",
+        borderRadius: "8px",
+        padding: "1px",
+      }}
+    >
+      <Card
+        sx={{
+          ...combinedStyles,
+          maxWidth: "20rem",
+        }}
+        onClick={onClick}
+      >
+        {children}
+      </Card>{" "}
+      {/* </Box> */}
+      {/* CSS for the animation */}
+      <style>
+        {`
+        @keyframes gradient-animation {
+          0% {
+            background-position: 0% 50%;
+          }
+          50% {
+            background-position: 100% 50%;
+          }
+          100% {
+            background-position: 0% 50%;
+          }
+        }
+        `}
+      </style>
+    </Box>
   );
 }

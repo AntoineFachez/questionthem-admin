@@ -8,7 +8,7 @@ import fetchedBlueprint from "./blueprint.json";
 import { transformStatsToBlueprint } from "./transformers/dashboard-transformer";
 import { renderScreen } from "./mappers/renderer";
 import Renderer from "../../core/Renderer";
-import ScreenLayout from "../ScreenLayout";
+import ScreenLayout from "../../components/screenLayout/ScreenLayout";
 
 export default function DashboardPage({ context }) {
   const [blueprint, setBlueprint] = useState(null);

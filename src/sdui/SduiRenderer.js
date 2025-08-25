@@ -1,7 +1,7 @@
 // src/sdui/SduiRenderer.jsx
 import React from "react";
-import { componentRegistry } from "./ComponentRegistry";
-import { actionRegistry } from "./actionRegistry";
+import { componentRegistry } from "../app/(dynamic)/ComponentRegistry";
+import { actionRegistry } from "../app/(dynamic)/actionRegistry";
 const SduiRenderer = ({ blueprint }) => {
   if (!blueprint || !blueprint.type) {
     return null;
@@ -21,11 +21,21 @@ const SduiRenderer = ({ blueprint }) => {
   const { children: propChildren, ...restOfProps } = props || {};
   const finalProps = { ...props };
 
+  // Iterate over the props to find and render nested component blueprints.
+  for (const key in finalProps) {
+    const propValue = finalProps[key];
+    // Check if a prop's value is a blueprint (an object with a 'type' key).
+    if (typeof propValue === "object" && propValue !== null && propValue.type) {
+      // If it is, replace the blueprint object with a rendered component.
+      finalProps[key] = <SduiRenderer blueprint={propValue} />;
+    }
+  }
+
   // If an action object exists, create an onClick handler for it
   if (action && action.type) {
     const actionHandler = actionRegistry[action.type];
     if (actionHandler) {
-      finalProps.onClick = (e) => actionHandler(action.payload);
+      finalProps.onClick = (e) => actionHandler(e, action.payload);
     } else {
       console.warn(`Action type "${action.type}" not found in registry.`);
     }
