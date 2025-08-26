@@ -1,27 +1,12 @@
 "use client";
-
 import React from "react";
-import {
-  Table,
-  TableBody,
-  TableCell,
-  TableContainer,
-  TableHead,
-  TableRow,
-  Typography,
-} from "@mui/material";
-
-export default function DynamicTable({
-  children,
-  parentProps,
-  data,
-  columns,
-  rowActions,
-}) {
-  console.log("DynamicTabledata", data);
-  return (
-    <TableContainer sx={{ width: "100%", height: "100%", backgroundColor: "" }}>
-      {children}
-    </TableContainer>
+import { Table, TableContainer } from "@mui/material";
+export default function DynamicTable(props) {
+  const { children } = props;
+  console.log(
+    "organism.tableHead",
+    props.children[0].props.blueprint.children[0]
   );
+
+  return <TableContainer>{children}</TableContainer>;
 }

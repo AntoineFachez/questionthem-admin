@@ -153,49 +153,50 @@
       "widgetProps": "{{widget.widgetProps}}"
     }
   },
-  "statsTableHead": {
-    "type": "organism.tableHead",
+  "statsTableHeader": {
+    "type": "molecule.tableRow",
     "props": {
       "data": "{{item.dataObject}}",
       "index": "{{context.index}}",
       "sx": {
         "width": "100%",
-        "boxShadow": "0 2px 5px -1px rgba(0,0,0,0.2)",
-        "border": "1px solid #ccc"
+        "height": "3rem",
+        "backgroundColor": "primary.dark"
       }
     },
     "action": {
       "type": "SOME_FILTER_SORT_ACTION",
       "payload": { "actionType": "" }
     },
-
     "children": [
       {
-        "type": "molecule.tableRow",
+        "type": "atom.tableCell",
+        "props": {
+          "sx": {}
+        },
+        "action": {
+          "type": "SOME_FILTER_SORT_ACTION",
+          "payload": { "actionType": "" }
+        },
+        "children": [
+          { "type": "atom.typography", "props": { "text": "Collection" } }
+        ]
+      },
+      {
+        "type": "atom.tableCell",
         "children": [
           {
-            "type": "atom.tableCell",
-            "children": [
-              { "type": "atom.typography", "props": { "text": "Collection" } }
-            ]
-          },
+            "type": "atom.typography",
+            "props": { "text": "Doc Count" }
+          }
+        ]
+      },
+      {
+        "type": "atom.tableCell",
+        "children": [
           {
-            "type": "atom.tableCell",
-            "children": [
-              {
-                "type": "atom.typography",
-                "props": { "text": "Doc Count" }
-              }
-            ]
-          },
-          {
-            "type": "atom.tableCell",
-            "children": [
-              {
-                "type": "atom.typography",
-                "props": { "text": "Actions" }
-              }
-            ]
+            "type": "atom.typography",
+            "props": { "text": "Actions" }
           }
         ]
       }

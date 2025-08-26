@@ -1,7 +1,7 @@
 [
   {
     "type": "organism.form",
-    "title": "",
+    "title": "Log in",
     "props": { "style": { "padding": 16 } },
     "children": [
       {
@@ -28,6 +28,7 @@
   },
   {
     "type": "template.grid",
+    "title": "Card View",
     "props": { "sx": {} },
     "children": {
       "__mapOver": "items",
@@ -36,28 +37,28 @@
       }
     }
   },
-
   {
     "type": "template.table",
+    "title": "Table View",
+    "props": {
+      "sx": { "minWidth": "100%" }
+    },
     "children": [
       {
         "type": "organism.table",
-        "props": { "sx": { "minWidth": "100%" } },
+        "props": {
+          "sx": { "minWidth": "100%" }
+        },
         "children": [
           {
-            "type": "organism.tableHead",
-            "children": [
-              {
-                "__includeTemplate": "{{widget.tableHeader}}"
-              }
-            ]
+            "__includeTemplate": "{{template.tableHeaderTemplate}}"
           },
           {
             "type": "organism.tableBody",
             "children": {
               "__mapOver": "items",
               "__template": {
-                "__includeTemplate": "{{item.tableBodyType}}"
+                "__includeTemplate": "{{item.tableBodyTemplate}}"
               }
             }
           }
@@ -67,11 +68,11 @@
   },
   {
     "type": "template.detail",
+    "title": "Detail View",
     "templateName": "Detail Template",
     "description": "For displaying a single, focused piece of content like an article or product.",
-    "children": {
-      "__mapOver": "items",
-      "__template": {
+    "children": [
+      {
         "type": "atom.box",
         "props": { "sx": { "padding": "1rem", "textAlign": "center" } },
         "children": [
@@ -136,10 +137,11 @@
           }
         ]
       }
-    }
+    ]
   },
   {
     "type": "template.listView",
+    "title": "List View",
     "templateName": "Listing/Grid Template",
     "description": "For displaying a collection of similar items, like search results or products.",
     "children": {
@@ -210,6 +212,7 @@
   },
   {
     "type": "template.dashboard",
+    "title": "Dashboard",
     "templateName": "Dashboard Template",
     "description": "A modular layout for displaying personalized user data and widgets.",
     "children": [
@@ -269,49 +272,36 @@
     ]
   },
   {
-    "type": "template.form",
+    "type": "organism.form",
+    "title": "WIP Form View",
     "templateName": "Form Template",
     "description": "A focused layout for user input, such as login or settings.",
-    "children": {
-      "__mapOver": "items",
-      "__template": {
-        "type": "atom.box",
+    "children": [
+      {
+        "type": "organism.form",
         "props": {
-          "sx": {
-            "display": "flex",
-            "flexDirection": "column",
-            "alignItems": "center",
-            "justifyContent": "center",
-            "minHeight": "80vh"
-          }
+          "title": "{{form.title}}",
+          "submitButtonText": "{{form.submitButtonText}}"
         },
-        "children": [
-          {
-            "type": "organism.form",
+        "children": {
+          "__mapOver": "items",
+          "__template": {
+            "type": "molecule.formField",
             "props": {
-              "title": "{{form.title}}",
-              "submitButtonText": "{{form.submitButtonText}}"
-            },
-            "children": {
-              "__mapOver": "items",
-              "__template": {
-                "type": "molecule.formField",
-                "props": {
-                  "value": "{{formData.value}}",
-                  "label": "{{item.label}}",
-                  "name": "{{item.name}}",
-                  "type": "{{item.type}}",
-                  "placeholder": "some placeholder"
-                }
-              }
+              "value": "{{formData.value}}",
+              "label": "{{item.label}}",
+              "name": "{{item.name}}",
+              "type": "{{item.type}}",
+              "placeholder": "some placeholder"
             }
           }
-        ]
+        }
       }
-    }
+    ]
   },
   {
     "devNotes": "refactor this by splitting concerns",
+    "title": "WIP Screen Layout",
     "metadata": {
       "id": "statistics-screen-v1",
       "version": "1.0",

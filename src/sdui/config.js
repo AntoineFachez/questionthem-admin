@@ -1,5 +1,8 @@
 import { iconMap } from "../lib/maps/iconMap";
 
+import usersDataMap from "./definitions/dataMapping/users.map.json";
+import statsDataMap from "./definitions/dataMapping/stats.map.json";
+import { mockRawData } from "./mockData.json";
 export const buttonConfigurations = {
   listView: [
     {
@@ -34,4 +37,16 @@ export const buttonConfigurations = {
       action: { type: "DEFAULT", payload: {} },
     },
   ],
+};
+export const viewConfigurations = {
+  statsGrid: {
+    title: "Stats",
+    data: mockRawData.stats,
+    dataMap: statsDataMap,
+  },
+  usersGrid: {
+    title: "Users",
+    data: mockRawData.users,
+    dataMap: usersDataMap,
+  },
 };

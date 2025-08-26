@@ -1,5 +1,5 @@
 import { Box } from "@mui/material";
-import SduiRenderer from "../../sdui/SduiRenderer";
+import SduiRenderer from "../../sdui/core/Renderer";
 
 const Controls = (props) => {
   const { context, widgetProps } = props;

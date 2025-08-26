@@ -5,8 +5,8 @@
     "dataObject": ".",
     "cardType": "'statsCard'",
     "controlsType": "'controls'",
-    "tableHeadType": "'statsTableHead'",
-    "tableBodyType": "'statsTableRowItem'",
+    "tableHeaderTemplate": "'statsTableHeader'",
+    "tableBodyTemplate": "'statsTableRowItem'",
     "devNotes": "👆// Note the single quotes to indicate a literal string",
     "title": "collection | capitalize",
     "subtitle": {

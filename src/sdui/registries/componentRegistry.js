@@ -21,21 +21,22 @@ import {
   Avatar,
   MenuItem,
 } from "@mui/material";
-import Card from "../components/card/Card";
-import ConfirmDeletionDialog from "../components/dialog/ConfirmDeletionDialog";
-import Controls from "../components/controls/Controls";
-import CustomIconButton from "../components/button/CustomIconButton";
-import DetailView from "../components/detailView/DetailView";
-import DynamicAccordion from "../components/accordion/DynamicAccordion";
-import DynamicList from "../components/list/DynamicList";
-import DynamicTable from "../components/table/DynamicTable";
-import ExpandMore from "../components/button/ExpandMore";
-import Form from "../components/form/Form";
-import Header from "../components/title/Title";
-import KebabMenu from "../components/menus/KebabMenu";
-import Navbar from "../components/navbar/Navbar";
-import SearchBarGrouped from "../components/searchBar/SearchBarGrouped";
-import ScrollDialog from "../components/dialog/ScrollDialog";
+import Card from "../../components/card/Card";
+import ConfirmDeletionDialog from "../../components/dialog/ConfirmDeletionDialog";
+import Controls from "../../components/controls/Controls";
+import CustomIconButton from "../../components/button/CustomIconButton";
+import DetailView from "../../components/detailView/DetailView";
+import DynamicAccordion from "../../components/accordion/DynamicAccordion";
+import DynamicList from "../../components/list/DynamicList";
+import DynamicTable from "../../components/table/DynamicTable";
+import ExpandMore from "../../components/button/ExpandMore";
+import Form from "../../components/form/Form";
+import Header from "../../components/title/Title";
+import KebabMenu from "../../components/menus/KebabMenu";
+import Navbar from "../../components/navbar/Navbar";
+import ScrollDialog from "../../components/dialog/ScrollDialog";
+import SearchBarGrouped from "../../components/searchBar/SearchBarGrouped";
+import SimpleTree from "../../components/treeView/SimpleTree";
 
 const Standin = ({ children }) => {
   return <Box>{children}</Box>;
@@ -122,6 +123,7 @@ export const componentRegistry = {
   },
   "organism.pagination": DynamicList,
   "organism.scrollDialog": ScrollDialog,
+  "organism.sidebarNav": SimpleTree,
   "organism.table": Table,
   "organism.tableBody": TableBody,
   "organism.tableHead": TableHead,

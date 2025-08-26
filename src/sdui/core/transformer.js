@@ -1,4 +1,5 @@
-import componentTemplates from "./templates/organisms.json";
+import componentTemplates from "../definitions/templates/organisms.json";
+import { resolvePlaceholder } from "./resolvePlaceholder";
 
 /**
  * Generates a final, renderable UI blueprint by hydrating a generic template with raw data,
@@ -9,27 +10,13 @@ import componentTemplates from "./templates/organisms.json";
  * @param {object | null} itemInFocus - The currently selected item's data, used for conditional styling.
  * @returns {object} The final, hydrated UI blueprint ready for the client-side renderer.
  */
-export function generateBlueprint(
-  uiTemplate,
-  rawData,
-  dataMap,
-  itemInFocus,
-  expandedItems,
-  menuAnchor,
-  widgetProps,
-  options
-) {
-  const generationContext = {
-    uiTemplate: options.uiTemplate,
-    rawData: options.rawData,
-    dataMap: options.dataMap,
-    clientState: {
-      itemInFocus: options.itemInFocus,
-      expandedItems: options.expandedItems,
-      menuAnchor: options.menuAnchor,
-    },
-    widgetProps: options.widgetProps,
-  };
+export function transformer(options) {
+  const uiTemplate = options.uiTemplate;
+  const rawData = options.rawData;
+  const dataMap = options.dataMap;
+  const itemInFocus = options.itemInFocus;
+  const widgetProps = options.widgetProps;
+
   // --- Block 1: Initial Input Validation & Error Helper ---
   // Ensures that all necessary inputs are provided and valid before processing begins.
   if (!uiTemplate || typeof uiTemplate !== "object") {
@@ -87,27 +74,61 @@ export function generateBlueprint(
      */
     __includeTemplate: (node, contextData) => {
       const placeholderString = node.__includeTemplate;
-      const placeholder = placeholderString.match(/\{\{(\w+\.\w+)\}\}/)?.[1];
+      const placeholderMatch = placeholderString.match(/\{\{(\w+\.\w+)\}\}/);
 
-      if (!placeholder) {
-        console.warn("Invalid __includeTemplate format:", placeholderString);
+      if (!placeholderMatch) {
+        // If there's no placeholder, treat it as a literal template name
+        const templateToInclude = componentTemplates[placeholderString];
+        if (!templateToInclude) {
+          console.warn(`Template "${placeholderString}" not found.`);
+          return null;
+        }
+        return hydrateNode(templateToInclude, contextData);
+      }
+
+      const placeholder = placeholderMatch[1];
+      const [context, prop] = placeholder.split(".");
+
+      let templateName;
+      // Resolve the placeholder based on its context
+      if (context === "widget") {
+        templateName = resolvePlaceholder(
+          placeholder,
+          null,
+          null,
+          contextData,
+          widgetProps,
+          options
+        );
+      } else if (context === "template") {
+        templateName = resolvePlaceholder(
+          placeholder,
+          null,
+          null,
+          contextData,
+          widgetProps,
+          options
+        );
+      } else if (context === "item" && contextData.item) {
+        templateName = resolvePlaceholder(
+          placeholder,
+          contextData.item,
+          dataMap.bindings,
+          contextData,
+          widgetProps,
+          options
+        );
+      } else {
+        console.warn(`Invalid context "${context}" for __includeTemplate.`);
         return null;
       }
 
-      const templateName = resolvePlaceholder(
-        placeholder,
-        contextData.item,
-        dataMap.bindings,
-        contextData,
-        widgetProps
-      );
       const templateToInclude = componentTemplates[templateName];
-
       if (!templateToInclude) {
         console.warn(`Template "${templateName}" not found.`);
         return null;
       }
-      // Recursively hydrate the included template with the same data context.
+
       return hydrateNode(templateToInclude, contextData);
     },
 
@@ -140,7 +161,8 @@ export function generateBlueprint(
             contextData.item,
             dataMap.bindings,
             contextData,
-            widgetProps
+            widgetProps,
+            options
           )
         : null;
       const selectedItemId = itemInFocus ? itemInFocus.selectedId : null;
@@ -192,7 +214,8 @@ export function generateBlueprint(
             contextData.item,
             dataMap.bindings,
             contextData,
-            widgetProps
+            widgetProps,
+            options
           );
         } else {
           // Otherwise, it's a string with embedded placeholders; use .replace().
@@ -204,7 +227,8 @@ export function generateBlueprint(
                 contextData.item,
                 dataMap.bindings,
                 contextData,
-                widgetProps
+                widgetProps,
+                options
               );
             }
           );
@@ -217,126 +241,7 @@ export function generateBlueprint(
     return result;
   }
 
-  // --- Block 4: Placeholder Resolver ---
-  /**
-   * Resolves a single placeholder string (e.g., "item.title") into its final value
-   * by using the rules defined in the dataMap's bindings.
-   * @param {string} placeholder - The placeholder to resolve (e.g., "item.title").
-   * @param {object} item - The specific data item for the current context.
-   * @param {object} bindingsContext - The set of binding rules to use for resolution.
-   * @returns {*} The final resolved value (can be a string, object, etc.).
-   */
-  function resolvePlaceholder(
-    placeholder,
-    item,
-    bindingsContext,
-    contextData,
-    widgetProps
-  ) {
-    if (!item) return placeholder;
-    const [context, prop] = placeholder.split(".");
-
-    // Case 1: The rule is a client-side state placeholders.
-    if (prop === "isExpanded") {
-      const itemId = resolvePlaceholder(
-        "item.id",
-        item,
-        bindingsContext,
-        contextData,
-        widgetProps
-      );
-      return !!expandedItems[itemId];
-    }
-    if (context === "widget") {
-      // If the placeholder is asking for 'widgetProps', return the whole object.
-      if (prop === "widgetProps") {
-        return widgetProps;
-      }
-      if (prop === "tableHeader") {
-        // Use the 'tableHeadType' from the dataMap to find the template name
-        const templateName = dataMap.bindings.tableHeadType.slice(1, -1); // Removes single quotes
-        return templateName;
-      }
-      // You could add more app-level props here later if needed.
-      return `[Unknown widget prop: ${prop}]`;
-    }
-    if (prop === "isMenuOpen") {
-      // The menu is open if the anchor is not null
-      return !!menuAnchor;
-    }
-    if (prop === "menuAnchor") {
-      // Pass the anchor element object directly
-      return menuAnchor;
-    }
-    if (prop === "closeMenuAction") {
-      // Return a blueprint for the onClose action
-      return { type: "TOGGLE_MENU", payload: {} };
-    }
-    if (context === "context") {
-      if (contextData && contextData.hasOwnProperty(prop)) {
-        return contextData[prop]; // Returns the index from the context
-      }
-      return `[Unknown context: ${prop}]`;
-    }
-    const bindingRule = bindingsContext[prop];
-    if (context !== "item" || !bindingRule) return placeholder;
-
-    // Case 2: The rule is a simple string.
-    if (typeof bindingRule === "string") {
-      // Handle literal strings (e.g., "'statsCard'").
-      if (bindingRule.startsWith("'") && bindingRule.endsWith("'"))
-        return bindingRule.slice(1, -1);
-      // Handle "self" binding (e.g., ".").
-      if (bindingRule === ".") return item;
-      // Handle standard data field lookups with optional filters.
-      let [dataField, filter] = bindingRule.split(/\s*\|\s*/);
-      if (!item.hasOwnProperty(dataField)) return `[Missing ${dataField}]`;
-      let value = item[dataField];
-      if (filter === "capitalize")
-        return String(value).charAt(0).toUpperCase() + String(value).slice(1);
-      if (filter === "toLocaleDateString")
-        return new Date(value).toLocaleDateString();
-      return value;
-    }
-
-    // Case 3: The rule is a complex object with its own directives.
-    if (typeof bindingRule === "object" && bindingRule !== null) {
-      // Handle formatted strings.
-      if (bindingRule.__format) {
-        let formattedString = bindingRule.__format;
-        for (const key in bindingRule.bindings) {
-          const nestedPlaceholder = `item.${key}`;
-          const resolvedValue = resolvePlaceholder(
-            nestedPlaceholder,
-            item,
-            bindingRule.bindings,
-            contextData,
-            widgetProps
-          );
-          formattedString = formattedString.replace(`{${key}}`, resolvedValue);
-        }
-        return formattedString;
-      }
-      // Handle nested array mapping.
-      if (bindingRule.__forEach) {
-        const sourceArray = item[bindingRule.__forEach];
-        if (!Array.isArray(sourceArray)) return "";
-        const mappedArray = sourceArray.map((subItem) =>
-          bindingRule.template.replace(
-            /\{\{item\.(\w+)\}\}/g,
-            (match, prop) => subItem[prop] || ""
-          )
-        );
-        return mappedArray.join(bindingRule.__join || "");
-      }
-    }
-
-    return placeholder;
-  }
-  console.log("generationContext", rawData === generationContext.rawData);
-
   // --- Start the process ---
   // Kick off the recursion with the top-level template and the global rawData object.
-  // return hydrateNode(uiTemplate, rawData);
-  return hydrateNode(generationContext.uiTemplate, generationContext.rawData);
+  return hydrateNode(uiTemplate, rawData);
 }

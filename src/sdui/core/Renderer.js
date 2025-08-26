@@ -1,7 +1,8 @@
 // src/sdui/SduiRenderer.jsx
 import React from "react";
-import { componentRegistry } from "./ComponentRegistry";
-import { actionRegistry } from "./actionRegistry";
+import { actionRegistry } from "../registries/actionRegistry";
+import { componentRegistry } from "../registries/componentRegistry";
+
 const SduiRenderer = ({ blueprint }) => {
   if (!blueprint || !blueprint.type) {
     return null;

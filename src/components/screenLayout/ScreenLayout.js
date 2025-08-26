@@ -10,7 +10,7 @@ import { Box, Container } from "@mui/material";
  * @param {React.ReactNode} props.main - The component to render in the main content area.
  * @returns {React.Component} The rendered layout.
  */
-export function ScreenLayout({ header, sideBar, main }) {
+export function ScreenLayout({ header, sideBar, menu, main }) {
   return (
     <Box
       sx={{
@@ -34,6 +34,7 @@ export function ScreenLayout({ header, sideBar, main }) {
           // backgroundColor: "secondary.dark",
         }}
       >
+        {/* Sidebar Content Slot */}
         <Box component="" sx={{ width: "fit-content", zIndex: 1 }}>
           {sideBar}
         </Box>
@@ -49,6 +50,21 @@ export function ScreenLayout({ header, sideBar, main }) {
             overflow: "auto",
           }}
         >
+          <Box
+            component=""
+            sx={{
+              width: "100%",
+              height: "fit-content",
+              padding: 2,
+              display: "flex",
+              gap: 2,
+              borderBottom: 1,
+              borderColor: "divider",
+              overflow: "hidden",
+            }}
+          >
+            {menu}
+          </Box>
           <Container maxWidth="lg">{main}</Container>
         </Box>
       </Box>

@@ -3,7 +3,7 @@
 import React, { useState } from "react";
 import { IconButton, ListItemText, Menu, MenuItem } from "@mui/material";
 import MoreVertIcon from "@mui/icons-material/MoreVert";
-import { actionRegistry } from "../../sdui/actionRegistry";
+import { actionRegistry } from "../../sdui/registries/actionRegistry";
 import { getIconComponent } from "../../lib/maps/iconMap";
 
 /**
