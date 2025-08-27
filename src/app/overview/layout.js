@@ -41,6 +41,7 @@ export default function Alerts({ children }) {
       <Box
         sx={{
           width: "100%",
+          height: "100%",
           display: "flex",
           flexFlow: "column nowrap",
           justifyContent: "center",

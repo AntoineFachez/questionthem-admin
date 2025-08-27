@@ -24,7 +24,7 @@ export default function DynamicAccordion({ summary, detail }) {
       onChange={handleExpansion}
     >
       <AccordionSummary expandIcon={<ExpandMore />}>
-        <Typography variant="h6" component="h3" gutterBottom>
+        <Typography variant="body1" component="h3" gutterBottom>
           {summary}
         </Typography>
       </AccordionSummary>{" "}

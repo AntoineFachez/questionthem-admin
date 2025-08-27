@@ -12,9 +12,9 @@ import { getComponent } from "./renderComponent";
 import { containerProps } from "../../theme/muiProps";
 
 export default function DynamicList({ data, itemInFocus, blueprint, onClick }) {
-  if (!blueprint) {
-    return <Typography>Error: Blueprint not provided.</Typography>;
-  }
+  // if (!blueprint) {
+  //   return <Typography>Error: Blueprint not provided.</Typography>;
+  // }
 
   return (
     <List

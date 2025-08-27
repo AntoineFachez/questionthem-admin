@@ -2,10 +2,12 @@
 export const titleProps = {
   variant: "h2",
   sx: {
+    width: "100%",
+    // borderRadius: "1rem",
+    // m: 1,
+    // p: 1,
+    textAlign: "center",
     backgroundColor: "primary.dark",
-    borderRadius: "1rem",
-    m: 1,
-    p: 1,
   },
 };
 export const containerProps = {
@@ -110,14 +112,7 @@ export const sharedComponents = {
       }),
     },
   },
-  MuiListItemText: {
-    styleOverrides: {
-      root: ({ theme }) => ({
-        // backgroundColor: theme.palette.primary.alpha,
-        // backgroundColor: "#333433cc",
-      }),
-    },
-  },
+
   MuiTableContainer: {
     styleOverrides: {
       root: {
@@ -161,6 +156,14 @@ export const sharedComponents = {
       },
     },
   },
+  MuiList: {
+    styleOverrides: {
+      root: {
+        height: "100%",
+        overflow: "scroll",
+      },
+    },
+  },
   MuiListItem: {
     styleOverrides: {
       root: {
@@ -173,6 +176,14 @@ export const sharedComponents = {
           backgroundColor: "rgba(255, 0, 0, 0.1)",
         },
       },
+    },
+  },
+  MuiListItemText: {
+    styleOverrides: {
+      root: ({ theme }) => ({
+        // backgroundColor: theme.palette.primary.alpha,
+        // backgroundColor: "#333433cc",
+      }),
     },
   },
   MuiDialog: {

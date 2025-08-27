@@ -38,10 +38,10 @@ export default function Page() {
         color: "text.primary",
       }}
     >
-      <Title props={{ ...titleProps, string: header }} />
+      <Title props={{ ...titleProps, string: title }} />
       <WidgetMenu activeUiContext={activeUiContext} />
       <Widget
-        data={widgetData.steps}
+        data={widgetData.sections}
         activeUiContext={activeUiContext}
         setActiveUiContext={setActiveUiContext}
         activeStep={activeStep}

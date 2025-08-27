@@ -40,7 +40,7 @@ export default function Widget({
             <Typography>{data.header}</Typography>
             {data && (
               <DynamicList
-                data={activeStep.substeps}
+                data={activeStep.subsection}
                 onClick={handleSetSubStep}
                 itemInFocus={activeSubStep}
               />

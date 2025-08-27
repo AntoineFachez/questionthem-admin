@@ -8,7 +8,7 @@ import React, {
   useCallback,
 } from "react";
 import { useUser } from "./UserContext";
-import { dataActionRegistry } from "../_sdui_firstTry/registries/data-actions";
+import { dbActions } from "../lib/registries/dbActions";
 
 const DataBaseContext = createContext(null);
 
@@ -19,6 +19,7 @@ export function DataBaseProvider({ children }) {
   const [stats, setStats] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
+  // console.log("stats", stats);
 
   // Use useCallback to memoize the fetch function.
   const fetchStats = useCallback(async () => {
@@ -28,7 +29,7 @@ export function DataBaseProvider({ children }) {
     setError(null);
     try {
       // Use the new, fast 'get' action.
-      const results = await dataActionRegistry.stats.getDbStats();
+      const results = await dbActions.stats.getDbStats();
 
       setStats(results);
     } catch (e) {
@@ -50,7 +51,7 @@ export function DataBaseProvider({ children }) {
     setError(null);
     try {
       // Call the new 'recalculate' action.
-      await dataActionRegistry.stats.recalculate();
+      await dbActions.stats.recalculate();
       // After recalculating, fetch the fresh stats to update the UI.
       await fetchStats();
     } catch (e) {
@@ -65,7 +66,7 @@ export function DataBaseProvider({ children }) {
   const handleDeleteCollection = async (collectionName) => {
     try {
       // Use the new, cleaner 'delete' action.
-      await dataActionRegistry.collections.delete(collectionName);
+      await dbActions.collections.delete(collectionName);
       // After a successful delete, the counts are stale, so we must recalculate.
       await handleRecalculateStats();
     } catch (e) {

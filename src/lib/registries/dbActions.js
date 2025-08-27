@@ -115,7 +115,7 @@ const collectionActions = {
 };
 
 // Main export, grouping actions by the resource they manage.
-export const dataActionRegistry = {
+export const dbActions = {
   stats: statsActions,
   collections: collectionActions,
 };

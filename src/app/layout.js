@@ -19,8 +19,8 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <ThemeProvider theme={darkTheme}>
-        <SduiProvider uiBlueprintIds={uiBlueprintIds}>
-          <UIProvider>
+        <UIProvider>
+          <SduiProvider viewConfig={uiBlueprintIds}>
             <UserProvider>
               <DataBaseProvider>
                 <Box
@@ -51,8 +51,8 @@ export default function RootLayout({ children }) {
                 </Box>
               </DataBaseProvider>
             </UserProvider>
-          </UIProvider>
-        </SduiProvider>
+          </SduiProvider>
+        </UIProvider>
       </ThemeProvider>
     </html>
   );

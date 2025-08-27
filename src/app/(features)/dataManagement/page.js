@@ -31,6 +31,7 @@ export default function Page() {
     <Box
       sx={{
         width: "100%",
+        height: "100%",
         display: "flex",
         flexDirection: "column",
         justifyContent: "center",
@@ -42,7 +43,7 @@ export default function Page() {
       <Title props={{ ...titleProps, string: title }} />
       {/* <WidgetMenu activeUiContext={activeUiContext} /> */}
       <Widget
-        data={widgetData.steps}
+        data={widgetData.sections}
         activeUiContext={activeUiContext}
         setActiveUiContext={setActiveUiContext}
         activeStep={activeStep}

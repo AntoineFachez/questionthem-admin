@@ -26,6 +26,7 @@ export default function Page() {
     <Box
       sx={{
         width: "100%",
+        height: "100%",
         display: "flex",
         flexDirection: "column",
         alignItems: "center",
@@ -33,22 +34,8 @@ export default function Page() {
         color: "text.primary",
       }}
     >
-      <Title props={{ ...titleProps, string: "header" }} />
-
-      {/* <Widget
-        blueprintId="userDashboard"
-        context={{
-          user: {
-            firstName: "Alex",
-            lastName: "Johnson",
-            email: "alex.j@example.com",
-            role: "admin",
-          },
-        }}
-        data={widgetData}
-        activeStep={activeStep}
-        handleSetUiContext={handleSetUiContext}
-      /> */}
+      <Title props={{ ...titleProps, string: "Overview" }} />
+      <Widget />
     </Box>
   );
 }

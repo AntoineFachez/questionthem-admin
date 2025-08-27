@@ -25,7 +25,7 @@ export default function Overview({ data }) {
     return totalProgress / steps.length;
   };
   return (
-    <Paper sx={{ maxWidth: "90ch", width: "100%" }}>
+    <Paper sx={{ maxWidth: "90ch", width: "100%", height: "100%" }}>
       <Typography variant="body1">
         Common topics for an admin-facing web app extend far beyond a basic
         collection overview. They generally focus on giving administrators
@@ -34,12 +34,14 @@ export default function Overview({ data }) {
         <br />
         Here the core features to build:
       </Typography>
+      {/* <Button onClick={handleRecalculateStats}>Recalculate Stats</Button> */}
+      {/* <SduiApp /> */}
       <List dense={true} disablePadding={true}>
         {data
           ?.sort((a, b) => a.importance - b.importance)
           .map((item, i) => {
             const IconComponent = iconMap[item.overview.icon];
-            const overallProgress = calculateOverallProgress(item.steps);
+            const overallProgress = calculateOverallProgress(item.sections);
             const progressPercentage = Math.round(overallProgress * 100);
             return (
               <ListItem
@@ -80,7 +82,7 @@ export default function Overview({ data }) {
                         alignItems: "center",
                       }}
                     >
-                      {item.overview.header}
+                      {item.overview.title}
                     </Typography>{" "}
                     {IconComponent && (
                       <IconButton size="small" sx={{ color: "inherit" }}>
@@ -88,7 +90,9 @@ export default function Overview({ data }) {
                       </IconButton>
                     )}
                   </Box>
-                  <Typography variant="body1">{item.overview.text}</Typography>
+                  <Typography variant="body1">
+                    {item.overview.content}
+                  </Typography>
                 </MuiLink>
                 <Box sx={{ width: "100%" }}>
                   <LinearProgress

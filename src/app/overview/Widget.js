@@ -1,33 +1,18 @@
 "use client";
-
+import scrumBackendBuldPlan from "../../lib/pitchScrumData/srumBackend.json";
 import React from "react";
-import { Box, CircularProgress } from "@mui/material";
-// import { renderComponent } from "../../core/Renderer";
-import { useSduiBlueprint } from "../../context/SduiContext";
+import { Box, Button, CircularProgress } from "@mui/material";
+import { useDataBase } from "../../context/DataBaseContext";
 
-export default function Widget({
-  uiBlueprintId,
-  context,
-  data,
-  activeStep,
-  handleSetUiContext,
-}) {
-  const { uiBlueprint, loading, error } = useSduiBlueprint(uiBlueprintId);
+import SduiApp from "../../sdui/SduiApp";
+import Overview from "./Overview";
 
-  if (loading) {
-    return <CircularProgress />;
-  }
+export default function Widget({}) {
+  const { handleRecalculateStats } = useDataBase();
 
-  if (error) {
-    return <Box>Error: {error}</Box>;
-  }
-
-  if (!uiBlueprintId) {
-    return <Box>Please provide a Blueprint ID</Box>;
-  }
-  if (!uiBlueprint) {
-    return <Box>Blueprint not found for ID: {uiBlueprintId}</Box>;
-  }
-
-  // return renderComponent(uiBlueprint, context);
+  return (
+    <>
+      <Overview data={scrumBackendBuldPlan.features} />{" "}
+    </>
+  );
 }

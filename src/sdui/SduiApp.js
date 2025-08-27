@@ -6,66 +6,24 @@ import SduiRenderer from "./core/Renderer";
 import ScreenLayout from "../components/screenLayout/ScreenLayout";
 import SideBar from "../components/sideBar/SideBar";
 
-import mockUiTemplates from "./definitions/templates/templates.json";
-
-import { initActions } from "./registries/actionRegistry";
-import { transformer } from "./core/transformer";
-import { buttonConfigurations, viewConfigurations } from "./config";
 import Menu from "./Menu";
+import { useSdui } from "../context/SduiContext";
+import { useUIContext } from "../context/UIContext";
 
 const SduiApp = () => {
-  const [uiTemplate, setUiTemplate] = useState(
-    mockUiTemplates.filter((item) => item.type === "template.table")[0]
-  );
-  const [currentViewKey, setCurrentViewKey] = useState("statsGrid");
-
-  const [itemInFocus, setItemInFocus] = useState(null);
-  const [uiBlueprint, setUiBlueprint] = useState(null);
-  const [expandedItems, setExpandedItems] = useState({});
-  const [menuAnchor, setMenuAnchor] = useState(null);
-
-  const [isLoading, setIsLoading] = useState(true);
-  const [error, setError] = useState(null);
-  const widgetProps = { buttonConfigurations };
-
-  useEffect(() => {
-    initActions({ setItemInFocus, setExpandedItems, setMenuAnchor });
-  }, []);
-  useEffect(() => {
-    const activeConfig = viewConfigurations[currentViewKey];
-    const options = {
-      uiTemplate: uiTemplate,
-      rawData: activeConfig.data,
-      dataMap: activeConfig.dataMap,
-      itemInFocus: itemInFocus,
-      expandedItems: expandedItems,
-      menuAnchor: menuAnchor,
-      widgetProps: widgetProps,
-    };
-    // Simulate a fetch; this makes the loading state feel real
-    const timer = setTimeout(() => {
-      try {
-        const finalBlueprint = transformer(options);
-        setUiBlueprint(finalBlueprint);
-      } catch (err) {
-        console.error("Failed to generate blueprint:", err);
-        setError("Could not generate the UI layout.");
-      } finally {
-        setIsLoading(false);
-      }
-    }, 500);
-    return () => clearTimeout(timer);
-  }, [
-    buttonConfigurations,
-    viewConfigurations,
-    currentViewKey,
+  const {
+    avialableTemplates,
     uiTemplate,
-    itemInFocus,
-    expandedItems,
-    menuAnchor,
-  ]);
+    setUiTemplate,
+    currentViewKey,
+    setCurrentViewKey,
+    activeConfig,
+    uiBlueprint,
 
-  const activeConfig = viewConfigurations[currentViewKey];
+    isLoading,
+    error,
+  } = useSdui();
+  const {} = useUIContext();
 
   const mainContent = (
     <>
@@ -107,7 +65,7 @@ const SduiApp = () => {
       header={
         `${activeConfig?.title + " as " + uiTemplate.type}` || "Dashboard"
       }
-      sideBar={<SideBar elements={mockUiTemplates} setter={setUiTemplate} />}
+      sideBar={<SideBar elements={avialableTemplates} setter={setUiTemplate} />}
       menu={menu}
       main={mainContent}
     />

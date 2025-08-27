@@ -24,6 +24,9 @@ export function UIProvider({ children }) {
     mockDataMap[formDataContext]?.[0]
   );
 
+  // const [expandedItems, setExpandedItems] = useState({});
+  // const [menuAnchor, setMenuAnchor] = useState(null);
+
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
@@ -69,6 +72,11 @@ export function UIProvider({ children }) {
 
     activeWidget,
     setActiveWidget,
+
+    // expandedItems,
+    // setExpandedItems,
+    // menuAnchor,
+    // setMenuAnchor,
 
     handleOpenDialog,
     handleCloseDialog,

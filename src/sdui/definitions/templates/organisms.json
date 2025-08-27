@@ -375,6 +375,53 @@
       }
     ]
   },
+  "userTableHeader": {
+    "type": "molecule.tableRow",
+    "props": {
+      "data": "{{item.dataObject}}",
+      "index": "{{context.index}}",
+      "sx": {
+        "width": "100%",
+        "height": "3rem",
+        "backgroundColor": "primary.dark"
+      }
+    },
+    "action": {
+      "type": "SOME_FILTER_SORT_ACTION",
+      "payload": { "actionType": "" }
+    },
+    "children": [
+      {
+        "type": "atom.tableCell",
+        "props": {
+          "sx": {}
+        },
+        "action": {
+          "type": "SOME_FILTER_SORT_ACTION",
+          "payload": { "actionType": "" }
+        },
+        "children": [{ "type": "atom.typography", "props": { "text": "Name" } }]
+      },
+      {
+        "type": "atom.tableCell",
+        "children": [
+          {
+            "type": "atom.typography",
+            "props": { "text": "Role" }
+          }
+        ]
+      },
+      {
+        "type": "atom.tableCell",
+        "children": [
+          {
+            "type": "atom.typography",
+            "props": { "text": "Email" }
+          }
+        ]
+      }
+    ]
+  },
   "userTableRowItem": {
     "type": "molecule.tableRow",
     "props": {

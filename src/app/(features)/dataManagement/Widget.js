@@ -1,12 +1,13 @@
 // app/notificationsAndAlert/Widget.js
 import React, { useState } from "react";
-import { Box, Typography } from "@mui/material";
+import { Box, List, ListItem, Typography } from "@mui/material";
 
 import { useUIContext } from "../../../context/UIContext";
 
 import DynamicList from "../../../components/list/DynamicList";
 import DynamicForm from "../form/DynamicForm";
 import DataBaseOverview from "../dataBase/DataBaseOverview";
+import ListScrum from "../../ListScrum";
 
 export default function Widget({
   data,
@@ -52,35 +53,7 @@ export default function Widget({
           </Box>
         );
       default:
-        return (
-          <Box
-            sx={{
-              width: "100%",
-              height: "100%",
-              display: "flex",
-              flexFlow: "row nowrap",
-              // justifyContent: "center",
-              // alignItems: "center",
-              gap: 2,
-            }}
-          >
-            {uiContext && (
-              <DynamicList
-                data={data}
-                onClick={handleSetUiContext}
-                itemInFocus={activeStep}
-              />
-            )}
-            {/* <Typography>{data.header}</Typography> */}
-            {data && (
-              <DynamicList
-                data={activeStep.substeps}
-                onClick={handleSetSubStep}
-                itemInFocus={activeSubStep}
-              />
-            )}
-          </Box>
-        );
+        return <ListScrum data={data} />;
     }
   };
 

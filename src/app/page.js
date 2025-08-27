@@ -3,13 +3,15 @@ import React from "react";
 import { Box, Button, Typography } from "@mui/material";
 
 import { useUser } from "../context/UserContext";
-import Widget from "./overview/Widget";
+import { useDataBase } from "../context/DataBaseContext";
 
 import AdminLoginForm from "../components/auth/AdminLogIn";
-import App from "../sdui/SduiApp";
+
+import DynamicLink from "../components/link/DynamicLink";
 
 export default function Home() {
   const { user, loading } = useUser();
+  const { handleRecalculateStats } = useDataBase();
 
   if (loading) {
     return (
@@ -48,28 +50,8 @@ export default function Home() {
             sx={{ height: "fit-content", textAlign: "center", mt: 4 }}
           >
             Welcome {user.email || "Admin"}
-          </Typography>
-          <App
-            context={{
-              user: {
-                firstName: "Alex",
-                lastName: "Johnson",
-                email: user.email,
-                role: "admin",
-              },
-            }}
-          />{" "}
-          {/* <Widget
-            uiBlueprintId="userDashboard"
-            context={{
-              user: {
-                firstName: "Alex",
-                lastName: "Johnson",
-                email: user.email,
-                role: "admin",
-              },
-            }}
-          />{" "} */}
+          </Typography>{" "}
+          <DynamicLink href={"overview"} buttonText={"Overview"} />
         </>
       ) : (
         <AdminLoginForm />
