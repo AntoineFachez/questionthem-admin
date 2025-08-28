@@ -22,6 +22,8 @@
 /build
 /data
 /node_scripts
+firebase-debug.log
+
 
 # misc
 .DS_Store

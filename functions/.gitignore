@@ -3,3 +3,4 @@ node_modules/
 **/serviceAccountKey.json
 functions/serviceAccountKey.json
 functions/*serviceAccountKey*
+firebase-debug.log
