@@ -26,7 +26,14 @@ export default function KebabMenu({ id, options }) {
 
   return (
     <>
-      <IconButton aria-label="settings" onClick={handleClick}>
+      <IconButton
+        aria-label="settings"
+        onClick={handleClick}
+        sx={{
+          width: "2rem",
+          height: "2rem",
+        }}
+      >
         <MoreVertIcon />
       </IconButton>
       <Menu
@@ -41,31 +48,20 @@ export default function KebabMenu({ id, options }) {
           vertical: "center",
           horizontal: "left",
         }}
-        sx={{
-          // width: "100%",
-          // height: "100%",
-          padding: 0,
-          margin: 0,
-          // display: "flex",
-          // flexFlow: "row nowrap",
-
-          "& .MuiList-root": {
-            display: "flex",
-            flexFlow: "row nowrap",
-            padding: 0,
-            margin: 0,
-          },
-        }}
+        // sx={{ display: "flex", gap: 2, p: 1 }}
       >
-        {options?.map((option) => {
-          const actionHandler = actionRegistry[option.action];
+        {options?.map((option, i) => {
+          const actionHandler = option.action;
           const onClickHandler = (e) => {
             e.stopPropagation();
 
             actionHandler(e, { id });
             handleClose(e);
           };
-          return getIconComponent(option.icon, onClickHandler, { mr: 1 });
+          return getIconComponent(option.icon, onClickHandler, {
+            width: "2rem",
+            height: "2rem",
+          });
         })}
       </Menu>
     </>

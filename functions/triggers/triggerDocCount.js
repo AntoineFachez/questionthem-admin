@@ -6,12 +6,22 @@ const {
   onDocumentCreated,
   onDocumentDeleted,
 } = require("firebase-functions/v2/firestore");
+const { onCall } = require("firebase-functions/v2/https");
 
 const db = admin.firestore();
 
 // --- Configuration ---
-const STATS_DOCUMENT_PATH = "_internal/statistics";
+const STATS_DOCUMENT_PATH = "_internal/dbStatistics";
 
+const updateStatsDocument = async (statsDocRef, statsObject, merge) => {
+  try {
+    await statsDocRef.set({ collectionStats: statsObject }, { merge: merge });
+    logger.info(`Database stats document updated. Merge mode: ${merge}`);
+  } catch (error) {
+    logger.error("Error updating stats document:", error);
+    throw error;
+  }
+}; // Refactored function for incremental updates
 const updateDataBaseStats = async (collectionName, incrementValue) => {
   if (collectionName === "_internal") {
     logger.info("Skipping counter update for internal collection.");
@@ -22,32 +32,78 @@ const updateDataBaseStats = async (collectionName, incrementValue) => {
 
   try {
     await db.runTransaction(async (transaction) => {
-      const payload = {
-        dataBaseStats: {
-          [collectionName]: {
-            docCount: admin.firestore.FieldValue.increment(incrementValue),
-            lastUpdated: admin.firestore.FieldValue.serverTimestamp(),
-            avgDocSizeBytes: 0,
-            topTags: [],
-            topReadDocIds: [],
-          },
+      // READ the document first within the transaction
+      const statsDoc = await transaction.get(statsDocRef);
+
+      // Create a payload that only increments the counter for the specific collection
+      const newPayload = {
+        [collectionName]: {
+          docCount: admin.firestore.FieldValue.increment(incrementValue),
+          lastUpdated: admin.firestore.FieldValue.serverTimestamp(),
         },
       };
 
-      transaction.set(statsDocRef, payload, { merge: true });
+      // Use a nested update to ensure atomicity and a clean merge
+      transaction.set(
+        statsDocRef,
+        { collectionStats: newPayload },
+        { merge: true },
+      );
     });
 
     logger.info(
-      `Counter for collection '${collectionName}' in stats doc updated by ${incrementValue}.`,
+      `Counter for '${collectionName}' updated by ${incrementValue}.`,
     );
   } catch (error) {
-    logger.error(
-      `Error updating counter for collection '${collectionName}':`,
-      error,
-    );
+    logger.error(`Error updating '${collectionName}' counter:`, error);
   }
 };
+exports.recalculateDatabaseStats = onCall(async (request) => {
+  try {
+    const collections = await getCollectionNames();
 
+    const countPromises = collections.map(async (collectionName) => {
+      const querySnapshot = await db.collection(collectionName).count().get();
+      return {
+        name: collectionName,
+        docCount: querySnapshot.data().count,
+      };
+    });
+
+    const results = await Promise.all(countPromises);
+
+    const collectionStatsPayload = results.reduce((acc, { name, docCount }) => {
+      acc[name] = {
+        docCount: docCount,
+        lastUpdated: admin.firestore.FieldValue.serverTimestamp(),
+      };
+      return acc;
+    }, {});
+
+    const statsDocRef = db.doc("_internal/dbStatistics");
+    await statsDocRef.set(
+      { collectionStats: collectionStatsPayload },
+      { merge: false },
+    );
+
+    // Return a success object instead of sending a response
+    return { status: "success", message: "Recalculation successful." };
+  } catch (error) {
+    logger.error("Error during recalculation:", error);
+    // Throw an error to be handled by the client
+    throw new Error("Recalculation failed.");
+  }
+});
+const getCollectionNames = async () => {
+  try {
+    const collections = await db.listCollections();
+    const collectionNames = collections.map((collection) => collection.id);
+    return collectionNames;
+  } catch (error) {
+    console.error("Error listing collections:", error);
+    return [];
+  }
+};
 /**
  * Cloud Function that increments a counter when a new document is created
  * in any top-level collection.

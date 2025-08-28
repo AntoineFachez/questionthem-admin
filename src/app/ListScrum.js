@@ -17,8 +17,15 @@ import {
 
 import { iconMap } from "../lib/maps/iconMap";
 import DynamicAccordion from "../components/accordion/DynamicAccordion";
+import DynamicLink from "../components/link/DynamicLink";
+import CustomIconButton from "../components/button/CustomIconButton";
 
-export default function ListScrum({ data, onUpdateProgress }) {
+export default function ListScrum({
+  data,
+  itemInFocus,
+  handleSetItem,
+  onUpdateProgress,
+}) {
   const [sections, setSections] = useState(data);
 
   const calculateOverallProgress = (steps) => {
@@ -76,16 +83,27 @@ export default function ListScrum({ data, onUpdateProgress }) {
         width: "100%",
         maxWidth: "90ch",
         height: "100%",
+
         overflow: "hidden",
       }}
     >
       {/* <Button onClick={handleRecalculateStats}>Recalculate Stats</Button> */}
       {/* <SduiApp /> */}
-      <List dense={true} disablePadding={true}>
+      <List
+        dense={true}
+        disablePadding={true}
+        // sx={{
+        //   height: "100%",
+        //   display: "flex",
+        //   flexFlow: "column nowrap",
+        //   gap: "0rem",
+        // }}
+      >
         {sections
           ?.sort((a, b) => a.importance - b.importance)
           .map((item, i) => {
             const IconComponent = iconMap[item?.icon];
+
             const overallProgress = calculateOverallProgress(item.subsections);
             const progressPercentage = Math.round(overallProgress * 100);
             return (
@@ -96,37 +114,54 @@ export default function ListScrum({ data, onUpdateProgress }) {
                 sx={{
                   display: "flex",
                   flexFlow: "column nowrap",
-                  "&:hover": { backgroundColor: "transparent" },
+                  "&:hover": {
+                    backgroundColor:
+                      itemInFocus === item ? "secondary.dark" : "primary.main",
+                  },
+                  border: "3px solid",
+                  borderColor: itemInFocus === item ? "green" : "transparent",
                 }}
               >
                 {i < data.length - 1 && <Divider sx={{ my: 2 }} />}{" "}
                 <Box
+                  onClick={() => handleSetItem(item)}
                   sx={{
-                    display: "flex",
-                    flexFlow: "row nowrap",
-                    justifyContent: "space-between",
-                    alignItems: "center",
-                    paddingRight: "2rem",
+                    cursor: "pointer",
                   }}
                 >
-                  <Typography
-                    variant="h5"
+                  <Box
                     sx={{
                       display: "flex",
                       flexFlow: "row nowrap",
                       justifyContent: "space-between",
                       alignItems: "center",
+                      paddingRight: "2rem",
                     }}
                   >
-                    {item?.title}
-                  </Typography>{" "}
-                  {IconComponent && (
-                    <IconButton size="small" sx={{ color: "inherit" }}>
-                      <IconComponent />
-                    </IconButton>
-                  )}
+                    <Typography
+                      variant="h5"
+                      sx={{
+                        display: "flex",
+                        flexFlow: "row nowrap",
+                        justifyContent: "space-between",
+                        alignItems: "center",
+                      }}
+                    >
+                      {item?.title}
+                    </Typography>{" "}
+                    {IconComponent ? (
+                      <IconButton size="small" sx={{ color: "inherit" }}>
+                        <IconComponent />
+                      </IconButton>
+                    ) : (
+                      <CustomIconButton
+                        // onClick={() => handleSetItem(item)}
+                        icon="Forward"
+                      />
+                    )}
+                  </Box>
+                  <Typography variant="body1">{item?.content}</Typography>
                 </Box>
-                <Typography variant="body1">{item?.content}</Typography>
                 <Grid sx={{}}>
                   {item.subsections.map((subsection, i) => (
                     <Card

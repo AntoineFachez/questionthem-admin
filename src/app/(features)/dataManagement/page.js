@@ -38,6 +38,7 @@ export default function Page() {
         alignItems: "center",
         bgcolor: "background.default",
         color: "text.primary",
+        p: 0,
       }}
     >
       <Title props={{ ...titleProps, string: title }} />

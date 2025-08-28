@@ -1,48 +1,14 @@
 {
   "mockRawData": {
-    "stats": [
-      {
-        "collection": "stories",
-        "documentCount": 1,
-        "averageDocumentSizeBytes": 0,
-        "topReadDocumentIds": [],
-        "topTags": null,
-        "lastUpdated": "2025-08-22T09:13:19.932Z"
-      },
-
-      {
-        "collection": "scripts",
-        "documentCount": 2,
-        "averageDocumentSizeBytes": 0,
-        "topReadDocumentIds": [{ "docId": "someId" }],
-        "topTags": [{ "tag": "awesomeTag" }, { "tag": "awesomeTag" }],
-        "lastUpdated": "2025-08-21T07:13:19.932Z"
-      },
-      {
-        "collection": "persons",
-        "documentCount": 106,
-        "averageDocumentSizeBytes": 0,
-        "topReadDocumentIds": [{ "docId": "someId" }],
-        "topTags": [{ "tag": "awesomeTag" }],
-        "lastUpdated": "2025-06-11T15:13:19.932Z"
-      },
-      {
-        "collection": "groups",
-        "documentCount": 67,
-        "averageDocumentSizeBytes": 0,
-        "topReadDocumentIds": [{ "docId": "someId" }],
-        "topTags": [{ "tag": "awesomeTag" }],
-        "lastUpdated": "2025-06-11T15:13:19.932Z"
-      },
-      {
-        "collection": "events",
-        "documentCount": 120,
-        "averageDocumentSizeBytes": 0,
-        "topReadDocumentIds": [{ "docId": "someId" }],
-        "topTags": [{ "tag": "awesomeTag" }],
-        "lastUpdated": "2025-06-11T15:13:19.932Z"
+    "dataBaseStats": {
+      "stories": {
+        "docCount": 2,
+        "lastUpdated": "2025-08-22T09:13:19.932Z",
+        "avgDocSizeBytes": 0,
+        "topTags": [],
+        "topReadDocIds": []
       }
-    ],
+    },
     "users": [
       {
         "id": "user-001",

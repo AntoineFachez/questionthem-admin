@@ -14,7 +14,7 @@
       "sections": [
         {
           "section": 1,
-          "progress": 0.5,
+          "progress": 0,
           "demo": false,
           "title": "Setup Firestore Client and API Routes",
           "content": "This involves installing the Firebase SDK and initializing it with your project credentials. Then, you create Next.js API routes that handle all the data interaction logic.",
@@ -70,7 +70,7 @@
         },
         {
           "section": 3,
-          "progress": 0.4,
+          "progress": 0,
           "demo": true,
           "title": "Build the Data Table Component",
           "content": "Create a UI component that fetches data from your API routes and renders it in a table with action buttons for editing and deleting.",
@@ -78,7 +78,7 @@
           "subsections": [
             {
               "subsection": 1,
-              "progress": 0.4,
+              "progress": 1,
               "title": "Develop Table UI",
               "content": "Create the visual structure of a table using a component like MUI's `Table`."
             },

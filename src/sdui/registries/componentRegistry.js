@@ -28,7 +28,7 @@ import CustomIconButton from "../../components/button/CustomIconButton";
 import DetailView from "../../components/detailView/DetailView";
 import DynamicAccordion from "../../components/accordion/DynamicAccordion";
 import DynamicList from "../../components/list/DynamicList";
-import DynamicTable from "../../components/table/DynamicTable";
+import SduiTable from "../../components/table/SduiTable";
 import ExpandMore from "../../components/button/ExpandMore";
 import Form from "../../components/form/Form";
 import Header from "../../components/title/Title";
@@ -134,5 +134,5 @@ export const componentRegistry = {
   // "template.form": Card,
   "template.grid": Grid,
   "template.listView": Standin,
-  "template.table": DynamicTable,
+  "template.table": SduiTable,
 };

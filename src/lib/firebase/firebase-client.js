@@ -1,30 +1,45 @@
 // src/lib/firebase-client.js
-
-import { initializeApp } from "firebase/app";
+"use client";
+import { initializeApp, getApps, getApp } from "firebase/app";
 import { getAuth } from "firebase/auth";
 import { getFirestore } from "firebase/firestore";
 import { getStorage } from "firebase/storage";
 import { getFunctions } from "firebase/functions";
-import { getGenerativeModel, getVertexAI } from "firebase/vertexai";
+// import { getGenerativeModel, getVertexAI } from "firebase/vertexai";
 
 // Your Firebase project's configuration object.
 // This is not a secret and is safe to expose in client-side code.
 import { firebaseConfig } from "../../app/firebase/config";
 
 // Initialize the Firebase app
-const app = initializeApp(firebaseConfig);
+let app;
+// Check if a Firebase app has already been initialized
+if (getApps().length === 0) {
+  // If no app exists, initialize the new app
+  app = initializeApp(firebaseConfig);
+} else {
+  // If an app already exists, get the existing default app
+  app = getApp();
+}
 
 // Initialize all the Firebase services you need for the frontend
 const db = getFirestore(app);
 const auth = getAuth(app);
 const storage = getStorage(app);
 const functions = getFunctions(app, "europe-west1");
-const vertexAI = getVertexAI(app);
+// const vertexAI = getVertexAI(app);
 
 // Get the generative model for AI features (used on the client)
-const model = getGenerativeModel(vertexAI, {
-  model: "gemini-2.5-pro",
-});
+// const model = getGenerativeModel(vertexAI, {
+//   model: "gemini-2.5-pro",
+// });
 
 // Export all the initialized services for use in client components
-export { app, db, auth, storage, functions, model };
+export {
+  app,
+  db,
+  auth,
+  storage,
+  functions,
+  // model
+};

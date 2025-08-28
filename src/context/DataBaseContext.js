@@ -7,16 +7,25 @@ import React, {
   useEffect,
   useCallback,
 } from "react";
+
 import { useUser } from "./UserContext";
 import { dbActions } from "../lib/registries/dbActions";
-
+import {
+  app,
+  db,
+  auth,
+  storage,
+  functions,
+  model,
+} from "../lib/firebase/firebase-client";
+import { doc, onSnapshot } from "firebase/firestore";
 const DataBaseContext = createContext(null);
 
 export function DataBaseProvider({ children }) {
   const { user, loading: userLoading } = useUser();
 
   // State is now the single stats object, not an array.
-  const [stats, setStats] = useState(null);
+  const [dbStats, setDbStats] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
   // console.log("stats", stats);
@@ -31,7 +40,7 @@ export function DataBaseProvider({ children }) {
       // Use the new, fast 'get' action.
       const results = await dbActions.stats.getDbStats();
 
-      setStats(results);
+      setDbStats(results);
     } catch (e) {
       console.error("Error fetching database stats: ", e);
       setError(e.message);
@@ -74,9 +83,39 @@ export function DataBaseProvider({ children }) {
       setError(e.message);
     }
   };
+  useEffect(() => {
+    const statsDocRef = doc(db, "_internal", "dbStatistics");
+
+    // Set up the real-time listener
+    const unsubscribe = onSnapshot(
+      statsDocRef,
+      (docSnapshot) => {
+        if (docSnapshot.exists()) {
+          // Document exists, update state with its data
+          setDbStats(docSnapshot.data());
+          setLoading(false);
+          setError(null);
+        } else {
+          // Document does not exist
+          setDbStats({});
+          setLoading(false);
+          setError("Document does not exist.");
+        }
+      },
+      (err) => {
+        // Handle any errors with the listener
+        console.error("Error fetching db stats:", err);
+        setError("Failed to load data.");
+        setLoading(false);
+      }
+    );
+
+    // Clean up the listener on component unmount
+    return () => unsubscribe();
+  }, []); // The empty dependency array ensures this runs only once
 
   const contextValue = {
-    stats, // The main stats object.
+    dbStats, // The main stats object.
     loading,
     error,
     setError,

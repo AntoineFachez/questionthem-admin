@@ -20,38 +20,38 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <ThemeProvider theme={darkTheme}>
         <UIProvider>
-          <SduiProvider viewConfig={uiBlueprintIds}>
-            <UserProvider>
-              <DataBaseProvider>
+          <UserProvider>
+            <DataBaseProvider>
+              {/* <SduiProvider viewConfig={uiBlueprintIds}> */}
+              <Box
+                component="body"
+                sx={{
+                  width: "100vw",
+                  height: "100vh",
+                  bgcolor: "background.default",
+                  m: 0,
+                  p: 0,
+                  boxSizing: "border-box",
+                  color: "text.primary",
+                  fontFamily: "sans-serif",
+                  overflow: "hidden",
+                }}
+              >
+                <Navbar selectData={uiBlueprintIds} />
                 <Box
-                  component="body"
-                  sx={{
-                    width: "100vw",
-                    height: "100vh",
-                    bgcolor: "background.default",
-                    m: 0,
-                    p: 0,
-                    boxSizing: "border-box",
-                    color: "text.primary",
-                    fontFamily: "sans-serif",
-                    overflow: "hidden",
-                  }}
+                  component="main"
+                  // sx={{ maxWidth: "lg", height: "100%", mx: "auto", p: 4 }}
+                  sx={{ width: "100%", height: "100%" }}
                 >
-                  <Navbar selectData={uiBlueprintIds} />
-                  <Box
-                    component="main"
-                    // sx={{ maxWidth: "lg", height: "100%", mx: "auto", p: 4 }}
-                    sx={{ width: "100%", height: "100%" }}
-                  >
-                    {/* <DynamicBreadcrumbs steps={steps} /> */}
-                    {children}
-                  </Box>
-                  <ToastContainer />
-                  <ScrollDialog />
+                  {/* <DynamicBreadcrumbs steps={steps} /> */}
+                  {children}
                 </Box>
-              </DataBaseProvider>
-            </UserProvider>
-          </SduiProvider>
+                <ToastContainer />
+                <ScrollDialog />
+              </Box>
+              {/* </SduiProvider> */}
+            </DataBaseProvider>
+          </UserProvider>
         </UIProvider>
       </ThemeProvider>
     </html>

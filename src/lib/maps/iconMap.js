@@ -5,12 +5,16 @@ import {
   Add,
   Analytics,
   Apps,
+  ArrowForward,
   Chat,
   CheckCircleOutline,
   ContentCopy,
   Delete,
+  DensityLarge,
+  DensityMedium,
   Edit,
   Favorite,
+  Forward,
   Gavel,
   Group,
   Notifications,
@@ -25,6 +29,7 @@ import {
   Public,
   Share,
   MoreVert,
+  DensitySmall,
 } from "@mui/icons-material";
 import { IconButton } from "@mui/material";
 
@@ -39,8 +44,12 @@ export const iconMap = {
   ContentCopy: ContentCopy,
   Database: Storage,
   Delete: Delete,
+  DensityLarge: DensityLarge,
+  DensityMedium: DensityMedium,
+  DensitySmall: DensitySmall,
   Edit: Edit,
   Favorite: Favorite,
+  Forward: ArrowForward,
   Group: Gavel,
   Group: Group,
   MoreVert: MoreVert,
@@ -56,11 +65,11 @@ export const iconMap = {
   youtube: YouTube,
   truth_social: Public,
 };
-export const getIconComponent = (iconName, onClick, sx) => {
+export const getIconComponent = (iconName, onClick, sx = {}) => {
   const IconComponent = iconName ? iconMap[iconName] : null;
   return IconComponent ? (
-    <IconButton onClick={onClick}>
-      <IconComponent sx={sx} />
+    <IconButton onClick={onClick} sx={sx}>
+      <IconComponent />
     </IconButton>
   ) : null;
 };

@@ -1,4 +1,5 @@
 // src/lib/registries/data-actions.js
+import { getFunctions, httpsCallable } from "firebase/functions";
 import { get, post } from "../../app/api/api";
 import {
   getFirestore,
@@ -9,9 +10,24 @@ import {
   setDoc,
   serverTimestamp,
 } from "firebase/firestore";
+import { app, db, auth, storage, functions } from "../firebase/firebase-client";
 
-const db = getFirestore();
+export const callBackendFunction = async (functionName, data) => {
+  // Use httpsCallable to create a reference to the backend function
+  const callable = httpsCallable(functions, functionName);
 
+  try {
+    // Call the function and await the result
+    const result = await callable(data);
+
+    // The result.data property contains the data returned from the backend function
+    return result;
+  } catch (error) {
+    // Handle errors from the function call
+    console.error("Error calling backend function:", error);
+    throw error;
+  }
+};
 /**
  * A registry of actions for interacting with database statistics.
  */
@@ -23,7 +39,7 @@ const statsActions = {
    */
   getDbStats: async () => {
     try {
-      const docRef = doc(db, "_internal", "statistics");
+      const docRef = doc(db, "_internal", "dbStatistics");
       const docSnap = await getDoc(docRef);
 
       if (docSnap.exists()) {
@@ -45,49 +61,15 @@ const statsActions = {
    * @returns {Promise<Array<{name: string, docCount: number}>>} An array of the newly calculated counts.
    */
   recalculate: async () => {
-    // 1. Get the list of all collection names from our backend API.
-    const listResponse = await get("?action=listCollections");
-    if (listResponse.error) {
-      throw new Error(listResponse.error);
-    }
-    const { collections } = listResponse;
-
-    // 2. Concurrently fetch the document count for each collection.
-    const countPromises = collections.map(async (collectionName) => {
-      const querySnapshot = await getDocs(collection(db, collectionName));
-      return {
-        name: collectionName,
-        docCount: querySnapshot.size,
-      };
-    });
-
-    const results = await Promise.all(countPromises);
-
-    // 3. Build the payload for the single statistics document.
-    const collectionStatsPayload = results.reduce((acc, { name, docCount }) => {
-      acc[name] = {
-        docCount: docCount,
-        lastUpdated: serverTimestamp(),
-      };
-      return acc;
-    }, {});
-
-    // 4. Write the updated stats to the central document.
     try {
-      const statsDocRef = doc(db, "_internal", "statistics");
-      await setDoc(
-        statsDocRef,
-        { collectionStats: collectionStatsPayload },
-        { merge: true }
-      );
-      console.log("Successfully refreshed the database overview document.");
+      // Call the new backend Cloud Function to trigger the recalculation
+      const response = await callBackendFunction("recalculateDatabaseStats");
+      console.log("Recalculation successfully triggered.", response);
+      return response.data; // Return the new stats if the function returns them
     } catch (error) {
-      console.error("Error updating database overview document:", error);
-      throw error; // Re-throw so the UI can know the write failed.
+      console.error("Error triggering recalculation:", error);
+      throw error;
     }
-
-    // 5. Return the fresh data to the UI.
-    return results;
   },
 };
 

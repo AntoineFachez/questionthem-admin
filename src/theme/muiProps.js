@@ -49,15 +49,15 @@ export const sharedComponents = {
     },
   },
 
-  MuiPaper: {
-    styleOverrides: {
-      root: {
-        borderRadius: "16px",
-        padding: "24px",
-        boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1)", // Example shadow
-      },
-    },
-  },
+  // MuiPaper: {
+  //   styleOverrides: {
+  //     root: {
+  //       borderRadius: "16px",
+  //       padding: "24px",
+  //       boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1)", // Example shadow
+  //     },
+  //   },
+  // },
   MuiTypography: {
     styleOverrides: {
       h1: {
@@ -104,14 +104,14 @@ export const sharedComponents = {
       },
     },
   },
-  MuiMenuItem: {
-    styleOverrides: {
-      root: ({ theme }) => ({
-        backgroundColor: theme.palette.primary.alpha,
-        // backgroundColor: "#333433cc",
-      }),
-    },
-  },
+  // MuiMenuItem: {
+  //   styleOverrides: {
+  //     root: ({ theme }) => ({
+  //       backgroundColor: theme.palette.primary.alpha,
+  //       // backgroundColor: "#333433cc",
+  //     }),
+  //   },
+  // },
 
   MuiTableContainer: {
     styleOverrides: {
@@ -226,6 +226,142 @@ export const sharedComponents = {
   MuiIconButton: {
     styleOverrides: {
       root: { width: "3rem", height: "3rem" },
+    },
+  },
+  // MuiDataGrid: {
+  //   styleOverwrites: {
+  //     root: {
+  //       border: "none",
+  //       outline: "none",
+  //       borderRadius: 0,
+  //       borderTopLeftRadius: 0,
+  //       borderTopRightRadius: 0,
+  //       "& .activeRow": {
+  //         border: "none",
+  //         outline: "none",
+  //         backgroundColor: "steelblue",
+  //         "&:hover": {
+  //           /* Nest the hover pseudo-class here */
+  //           backgroundColor:
+  //             "steelblue" /* Change the hover color to dodgerblue */,
+  //         },
+  //         "& > *": {
+  //           outline: "none",
+  //           border: "none",
+  //         },
+  //       },
+  //       "& .inactiveRow": {
+  //         backgroundColor: "grey",
+  //         "&:hover": {
+  //           backgroundColor: "green" /* Change the hover color to dodgerblue */,
+  //         },
+  //         "& > *": {},
+  //       },
+  //     },
+  //   },
+  // },
+
+  MuiDataGrid: {
+    styleOverrides: {
+      root: {
+        "& .MuiDataGrid-toolbar": {
+          displa: "flex",
+          justifyContent: "space-between",
+          "&:hover": { backgroundColor: "#333433" },
+        },
+        //       border: "none",
+        //       "& .MuiDataGrid-topContainer": {
+        //         // height: "100%",
+        //         color: "#fff",
+        //         backgroundColor: "#333433",
+        //       },
+        //       "& .MuiDataGrid-main > *": {
+        //         // height: "100%",
+        //         borderTopLeftRadius: 0,
+        //         borderTopRightRadius: 0,
+        //         // backgroundColor: "red",
+        //       },
+        // "& .MuiDataGrid-virtualScroller": {
+        //   height: "100%",
+        //   scrollbarWidth: "auto",
+        // },
+        //       // "& .MuiDataGrid-virtualScroller > *": { height: "100%" },
+        // "& .MuiDataGrid-scrollbar": {
+        //   // height: "100%",
+        //   position: "relative",
+        //   scrollbarWidth: "auto",
+        // },
+        //       "& .MuiDataGrid-virtualScrollerContent": {
+        //         height: "100%",
+        //       },
+        //       "& .MuiDataGrid-root--densityComfortable": {
+        //         border: "none",
+        //         outline: "none",
+        //       },
+        //       "& .MuiDataGrid-withBorderColor > *": {
+        //         border: "none",
+        //         outline: "none",
+        //       },
+        //       "& .MuiDataGrid-columnHeader": {
+        //         // width: "100%",
+        //         color: "#fff",
+        //         backgroundColor: "#333433",
+        //       },
+        //       "& .MuiDataGrid-filler": {
+        //         // width: "100%",
+        //         // height: "1rem",
+        //         color: "#fff",
+        //         backgroundColor: "#fff",
+        //         "& >*": {
+        //           // height: "1rem",
+        //         },
+        //       },
+        //       "& .MuiDataGrid-columnSeparator > *": {
+        //         // width: "100%",
+        //         color: "#fff",
+        //         backgroundColor: "steelblue",
+        //       },
+        //       "& .MuiDataGrid-columnHeaderTitleContainer": {
+        //         display: "flex",
+        //         justifyContent: "space-between",
+        //         alignItems: "center",
+        //       },
+        //       "& .MuiDataGrid-columnHeaderTitleContainer > svg": {
+        //         // width: "100%",
+        //         color: "#fff",
+        //         backgroundColor: "#333433",
+        //         "&:hover": {
+        //           color: "white",
+        //           backgroundColor: "steelblue",
+        //         },
+        //       },
+        //       "& .MuiDataGrid-iconButtonContainer > *": {
+        //         width: "1rem",
+        //         height: "1rem",
+        //         color: "white",
+        //         backgroundColor: "steelblue",
+        //       },
+        //       "& .MuiDataGrid-menuIcon, & .MuiDataGrid-menuIcon > *": {
+        //         border: "none",
+        //         color: "#fff",
+        //         outline: "none",
+        //       },
+        //       "& .MuiDataGrid-cell": {
+        //         color: "#aaa",
+        //         outline: "none",
+        //         userSelect: "none",
+        //       },
+        //       "& .MuiDataGrid-cell:active": {
+        //         outline: "none",
+        //       },
+        //       "& .MuiDataGrid-cell:focus": {
+        //         color: "#fff",
+        //         outline: "none",
+        //       },
+        //       "& .MuiDataGrid-cell:hover": {
+        //         color: "#fff",
+        //       },
+      },
     },
   },
 };

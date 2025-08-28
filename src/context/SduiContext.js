@@ -1,7 +1,10 @@
 import React, { createContext, useContext, useState, useEffect } from "react";
 import { transformer } from "../sdui/core/transformer";
 import { initActions } from "../sdui/registries/actionRegistry";
-import { buttonConfigurations, viewConfigurations } from "../sdui/config";
+import {
+  buttonConfigurations,
+  // viewConfigurations
+} from "../sdui/config";
 
 // Assume these are now fetched or handled by a more dynamic lookup.
 // For this example, we'll keep them to show how they're used post-fetching.
@@ -9,17 +12,19 @@ import mockUiTemplates from "../sdui/definitions/templates/templates.json";
 import statsDataMap from "../sdui/definitions/dataMapping/stats.map.json";
 import usersDataMap from "../sdui/definitions/dataMapping/users.map.json";
 import { mockRawData } from "../sdui/mockData.json";
+import { useDataBase } from "./DataBaseContext";
 
 const SduiContext = createContext();
 
 export function SduiProvider({ children, viewConfig }) {
+  const { dbStats } = useDataBase();
   const avialableTemplates = mockUiTemplates;
   const widgetProps = { buttonConfigurations };
   // --- State Management ---
   const [uiTemplate, setUiTemplate] = useState(
     avialableTemplates.filter((item) => item.type === "template.table")[0]
   );
-  const [currentViewKey, setCurrentViewKey] = useState("statsGrid");
+  const [currentViewKey, setCurrentViewKey] = useState("dbStats");
   const [uiBlueprint, setUiBlueprint] = useState(null);
 
   // All client-side state remains managed here
@@ -51,7 +56,20 @@ export function SduiProvider({ children, viewConfig }) {
     const result = await res.json();
     return result.data;
   };
-
+  const viewConfigurations = {
+    dbStats: {
+      title: "Stats (Grid View)",
+      templateId: "grid", // The ID of the template to use
+      dataMap: statsDataMap, // The ID of the dataMap to use
+      dataSource: dbStats,
+    },
+    usersAsTable: {
+      title: "Users (Table View)",
+      templateId: "table",
+      dataMap: "users",
+      dataSource: "users",
+    },
+  };
   // Initialize the action registry with state setters
   useEffect(() => {
     initActions({ setItemInFocus, setExpandedItems, setMenuAnchor });
@@ -83,8 +101,8 @@ export function SduiProvider({ children, viewConfig }) {
   // --- Core Blueprint Generation Effect ---
   const options = {
     uiTemplate: uiTemplate,
-    rawData: activeConfig.data,
     dataMap: activeConfig.dataMap,
+    rawData: activeConfig.dataSource,
     itemInFocus: itemInFocus,
     expandedItems: expandedItems,
     menuAnchor: menuAnchor,

@@ -19,6 +19,7 @@ const app = require("./app");
 const {
   incrementCollectionCounter,
   decrementCollectionCounter,
+  recalculateDatabaseStats,
 } = require("./triggers/triggerDocCount");
 
 //* Scheduled Triggers
@@ -41,6 +42,7 @@ exports.api = onRequest({ memory: "1GiB" }, app);
 //* individual background and callable triggers
 exports.incrementCollectionCounter = incrementCollectionCounter;
 exports.decrementCollectionCounter = decrementCollectionCounter;
+exports.recalculateDatabaseStats = recalculateDatabaseStats;
 exports.accountCleanup = accountCleanup;
 exports.batchUpdateStats = batchUpdateStats;
 exports.backfillEmbeddings = backfillEmbeddings;
