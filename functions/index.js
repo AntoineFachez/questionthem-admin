@@ -17,8 +17,8 @@ const app = require("./app");
 // --- Import All Trigger Functions ---
 //* Firestore Triggers
 const {
-  incrementCollectionCounter,
-  decrementCollectionCounter,
+  handleDocumentCreation,
+  handleDocumentDeletion,
   recalculateDatabaseStats,
 } = require("./triggers/triggerDocCount");
 
@@ -40,8 +40,9 @@ const { getYouTubeTranscript } = require("./triggers/callableTransscript");
 //* app.js export
 exports.api = onRequest({ memory: "1GiB" }, app);
 //* individual background and callable triggers
-exports.incrementCollectionCounter = incrementCollectionCounter;
-exports.decrementCollectionCounter = decrementCollectionCounter;
+exports.handleDocumentCreation = handleDocumentCreation;
+exports.handleDocumentDeletion = handleDocumentDeletion;
+
 exports.recalculateDatabaseStats = recalculateDatabaseStats;
 exports.accountCleanup = accountCleanup;
 exports.batchUpdateStats = batchUpdateStats;

@@ -108,15 +108,55 @@ const getCollectionNames = async () => {
  * Cloud Function that increments a counter when a new document is created
  * in any top-level collection.
  */
-exports.incrementCollectionCounter = onDocumentCreated(
+exports.handleDocumentCreation = onDocumentCreated(
   {
-    // This wildcard captures any top-level collection.
+    // This wildcard still captures any top-level collection.
     document: "{collectionName}/{docId}",
     memory: "512MiB",
   },
-  (event) => {
-    const { collectionName } = event.params;
-    return updateDataBaseStats(collectionName, 1);
+  async (event) => {
+    try {
+      // --- Task 1: Increment the Collection Counter ---
+      const { collectionName } = event.params;
+      const counterPromise = updateDataBaseStats(collectionName, 1);
+      logger.info(`Incrementing counter for ${collectionName}.`);
+
+      // --- Task 2: Add the 'createdAt' Timestamp ---
+      // Get the document reference and its data from the event object.
+      const docRef = event.data.ref;
+      const data = event.data.data();
+
+      let timestampPromise;
+
+      // SAFETY CHECK: Only add the timestamp if it doesn't already exist.
+      // This makes the function idempotent and prevents accidental overwrites
+      // if the client ever starts sending its own `createdAt` field.
+      if (!data.createdAt) {
+        logger.info(`Adding 'createdAt' timestamp to ${event.params.docId}.`);
+        timestampPromise = docRef.update({
+          createdAt: admin.firestore.FieldValue.serverTimestamp(),
+        });
+      } else {
+        // If the field exists, do nothing. Resolve an empty promise.
+        logger.info(
+          `'createdAt' already exists on ${event.params.docId}. Skipping.`,
+        );
+        timestampPromise = Promise.resolve();
+      }
+
+      // --- Execute Both Tasks in Parallel ---
+      // Promise.all waits for both the counter and the timestamp update to complete.
+      // If either fails, it will throw an error and be caught by the catch block.
+      await Promise.all([counterPromise, timestampPromise]);
+
+      logger.info("Successfully handled document creation tasks.");
+      return null; // A successful function should return null or a resolved promise.
+    } catch (error) {
+      logger.error("Error in handleDocumentCreation trigger:", error);
+      // Depending on your needs, you might want to re-throw the error
+      // to signal a failure to the Cloud Functions environment.
+      throw error;
+    }
   },
 );
 
@@ -124,7 +164,7 @@ exports.incrementCollectionCounter = onDocumentCreated(
  * Cloud Function that decrements a counter when a document is deleted
  * from any top-level collection.
  */
-exports.decrementCollectionCounter = onDocumentDeleted(
+exports.handleDocumentDeletion = onDocumentDeleted(
   {
     document: "{collectionName}/{docId}",
     memory: "512MiB",

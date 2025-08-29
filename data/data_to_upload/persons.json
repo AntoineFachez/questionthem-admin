@@ -1,293 +1,321 @@
 [
   {
-    "person_id": "per_kaelen_voss",
+    "id": "per_kaelen_voss",
+    "collection": "persons",
     "name": "Kaelen Voss",
-    "first_name": "Kaelen",
-    "last_name": "Voss",
-    "biography_summary": "A reclusive but brilliant digital archivist known for his work in non-linear data sequencing and his advocacy for 'data-fossils'—encryption methods that are beautiful but obsolete.",
+    "firstName": "Kaelen",
+    "lastName": "Voss",
+    "biography": "A reclusive but brilliant digital archivist known for his work in non-linear data sequencing and his advocacy for 'data-fossils'—encryption methods that are beautiful but obsolete.",
     "birth_date": "1981-07-15T00:00:00Z",
     "contact_info": {
       "email": "kaelen.voss@cyphernet.org"
     }
   },
   {
-    "person_id": "a164ca85-671f-422b-8493-a61898882bfb",
+    "id": "a164ca85-671f-422b-8493-a61898882bfb",
+    "collection": "persons",
     "name": "Friedrich Trump",
     "initials": "FT",
-    "first_name": "Friedrich",
-    "last_Name": "Trump"
+    "firstName": "Friedrich",
+    "lastName": "Trump"
   },
   {
-    "person_id": "25ac2b23-573e-4b84-807e-32af48d4d06c",
+    "id": "25ac2b23-573e-4b84-807e-32af48d4d06c",
+    "collection": "persons",
     "name": "Elisabeth Christ Trump",
     "initials": "ECT",
-    "first_name": "Elisabeth",
-    "middle_name": "",
-    "last_Name": "Christ Trump"
+    "firstName": "Elisabeth",
+    "middleName": "",
+    "lastName": "Christ Trump"
   },
   {
-    "person_id": "dcb481e5-49d4-4f38-b1b3-87a4034d0092",
+    "id": "dcb481e5-49d4-4f38-b1b3-87a4034d0092",
+    "collection": "persons",
     "name": "Mary Anne MacLeod",
     "initials": "MAM",
-    "first_name": "Mary Anne",
-    "middle_name": "Anne",
-    "last_Name": "MacLeod"
+    "firstName": "Mary Anne",
+    "middleName": "Anne",
+    "lastName": "MacLeod"
   },
   {
-    "person_id": "0bd24586-e2cf-4df9-93f1-561e460868b1",
+    "id": "0bd24586-e2cf-4df9-93f1-561e460868b1",
+    "collection": "persons",
     "name": "Fred Trump",
     "initials": "FT",
-    "first_name": "Fred",
-    "last_Name": "Trump"
+    "firstName": "Fred",
+    "lastName": "Trump"
   },
   {
-    "person_id": "25ac2b23-e2cf-498e-93f1-a61898882bfb",
+    "id": "25ac2b23-e2cf-498e-93f1-a61898882bfb",
+    "collection": "persons",
     "name": "Roy Cohn",
     "initials": "RC",
-    "current_status": [
-      { "state": "Born", "start_Date": "1927-02-20" },
-      { "state": "Deceased", "start_Date": "1986-08-02" }
+    "status": [
+      { "state": "Born", "startDate": "1927-02-20" },
+      { "state": "Deceased", "startDate": "1986-08-02" }
     ],
-    "first_name": "Roy",
-    "last_Name": "Cohn"
+    "firstName": "Roy",
+    "lastName": "Cohn"
   },
   {
-    "person_id": "p_jlgage_prop",
+    "id": "p_jlgage_prop",
+    "collection": "persons",
     "name": "J. L. Gage",
     "initials": "JLG",
-    "current_status": [
-      { "state": "Born", "start_Date": null },
-      { "state": "Deceased", "start_Date": null }
+    "status": [
+      { "state": "Born", "startDate": null },
+      { "state": "Deceased", "startDate": null }
     ]
   },
   {
-    "person_id": "p_mrsgage_host",
+    "id": "p_mrsgage_host",
+    "collection": "persons",
     "name": "Mrs. Gage",
     "initials": "MrG",
-    "first_name": "Mr",
-    "middle_name": "",
-    "last_Name": "Gage",
-    "current_status": [
-      { "state": "Born", "start_Date": null },
-      { "state": "Deceased", "start_Date": null }
+    "firstName": "Mr",
+    "middleName": "",
+    "lastName": "Gage",
+    "status": [
+      { "state": "Born", "startDate": null },
+      { "state": "Deceased", "startDate": null }
     ]
   },
   {
-    "person_id": "p_albertcohn",
+    "id": "p_albertcohn",
+    "collection": "persons",
     "name": "Albert C. Cohn",
     "initials": "ACB",
-    "first_name": "Albert",
-    "middle_name": "C",
-    "last_Name": "Cohn",
-    "current_status": [
-      { "state": "Born", "start_Date": null },
-      { "state": "Deceased", "start_Date": null }
+    "firstName": "Albert",
+    "middleName": "C",
+    "lastName": "Cohn",
+    "status": [
+      { "state": "Born", "startDate": null },
+      { "state": "Deceased", "startDate": null }
     ]
   },
   {
-    "person_id": "p_doramarcus",
+    "id": "p_doramarcus",
+    "collection": "persons",
     "name": "Dora Marcus Cohn",
     "initials": "DMC",
-    "first_name": "Dora",
-    "middle_name": "Marcus",
-    "last_Name": "Cohn"
+    "firstName": "Dora",
+    "middleName": "Marcus",
+    "lastName": "Cohn"
   },
   {
-    "person_id": "p_jrosenberg",
+    "id": "p_jrosenberg",
+    "collection": "persons",
     "name": "Julius Rosenberg",
     "initials": "JR",
-    "first_name": "Julius",
-    "middle_name": "",
-    "last_Name": "Rosenberg"
+    "firstName": "Julius",
+    "middleName": "",
+    "lastName": "Rosenberg"
   },
   {
-    "person_id": "p_erosenberg",
+    "id": "p_erosenberg",
+    "collection": "persons",
     "name": "Ethel Rosenberg",
     "initials": "ER",
-    "first_name": "Ethel",
-    "middle_name": "",
-    "last_Name": "Rosenberg"
+    "firstName": "Ethel",
+    "middleName": "",
+    "lastName": "Rosenberg"
   },
   {
-    "person_id": "p_jedgarhoover",
+    "id": "p_jedgarhoover",
+    "collection": "persons",
     "name": "J. Edgar Hoover",
     "initials": "JEH",
-    "first_name": "J.",
-    "middle_name": "Edgar",
-    "last_Name": "Hoover"
+    "firstName": "J.",
+    "middleName": "Edgar",
+    "lastName": "Hoover"
   },
   {
-    "person_id": "p_jmccarthy",
+    "id": "p_jmccarthy",
+    "collection": "persons",
     "name": "Joseph McCarthy",
     "initials": "JM",
-    "first_name": "Joseph",
-    "middle_name": "",
-    "last_Name": "McCarthy"
+    "firstName": "Joseph",
+    "middleName": "",
+    "lastName": "McCarthy"
   },
   {
-    "person_id": "p_mobfigures",
+    "id": "p_mobfigures",
+    "collection": "persons",
     "name": "Various Mafia Figures (e.g., Genovese, Gambino families)",
     "initials": "VMF",
-    "first_name": "Various",
-    "middle_name": "Mafia",
-    "last_Name": "Figures"
+    "firstName": "Various",
+    "middleName": "Mafia",
+    "lastName": "Figures"
   },
   {
-    "person_id": "p_cardinalspellman",
+    "id": "p_cardinalspellman",
+    "collection": "persons",
     "name": "Cardinal Francis Spellman",
     "initials": "CFS",
-    "first_name": "Cardinal",
-    "middle_name": "Francis",
-    "last_Name": "Spellman"
+    "firstName": "Cardinal",
+    "middleName": "Francis",
+    "lastName": "Spellman"
   },
   {
-    "person_id": "p_gsteinbrenner",
+    "id": "p_gsteinbrenner",
+    "collection": "persons",
     "name": "George Steinbrenner",
     "initials": "GS",
-    "first_name": "George",
-    "middle_name": "",
-    "last_Name": "Steinbrenner"
+    "firstName": "George",
+    "middleName": "",
+    "lastName": "Steinbrenner"
   },
   {
-    "person_id": "p_awarhol",
+    "id": "p_awarhol",
+    "collection": "persons",
     "name": "Andy Warhol",
     "initials": "AW",
-    "first_name": "Andy",
-    "middle_name": "",
-    "last_Name": "Warhol"
+    "firstName": "Andy",
+    "middleName": "",
+    "lastName": "Warhol"
   },
   {
-    "person_id": "p_bwalters",
+    "id": "p_bwalters",
+    "collection": "persons",
     "name": "Barbara Walters",
     "initials": "BW",
-    "first_name": "Barbara",
-    "middle_name": "",
-    "last_Name": "Walters"
+    "firstName": "Barbara",
+    "middleName": "",
+    "lastName": "Walters"
   },
   {
-    "person_id": "p_rreagan",
+    "id": "p_rreagan",
+    "collection": "persons",
     "name": "Ronald Reagan",
     "initials": "RR",
-    "first_name": "Ronald",
-    "middle_name": "",
-    "last_Name": "Reagan"
+    "firstName": "Ronald",
+    "middleName": "",
+    "lastName": "Reagan"
   },
   {
-    "person_id": "p_gdschine",
+    "id": "p_gdschine",
+    "collection": "persons",
     "name": "G. David Schine",
     "initials": "GDS",
-    "first_name": "G.",
-    "middle_name": "David",
-    "last_Name": "Schine"
+    "firstName": "G.",
+    "middleName": "David",
+    "lastName": "Schine"
   },
   {
-    "person_id": "p_jwelch",
+    "id": "p_jwelch",
+    "collection": "persons",
     "name": "Joseph N. Welch",
     "initials": "JNW",
-    "first_name": "Joseph",
-    "middle_name": "N.",
-    "last_Name": "Welch"
+    "firstName": "Joseph",
+    "middleName": "N.",
+    "lastName": "Welch"
   },
   {
-    "person_id": "pers-pb-01",
+    "id": "pers-pb-01",
+    "collection": "persons",
     "name": "Pam Bondi",
     "initials": "PB",
-    "first_name": "Pam",
-    "last_Name": "Bondi"
+    "firstName": "Pam",
+    "lastName": "Bondi"
   },
   {
-    "person_id": "p1a2b3c4-d5e6-7f8a-9b0c-1d2e3f4a5b6d",
+    "id": "p1a2b3c4-d5e6-7f8a-9b0c-1d2e3f4a5b6d",
+    "collection": "persons",
     "name": "John G. Trump",
     "initials": "JGT",
-    "first_name": "John",
-    "last_Name": "Trump"
+    "firstName": "John",
+    "lastName": "Trump"
   },
   {
-    "person_id": "p7e8f9a0-b1c2-3d4e-5f6a-7b8c9d0e1f2a",
+    "id": "p7e8f9a0-b1c2-3d4e-5f6a-7b8c9d0e1f2a",
+    "collection": "persons",
     "name": "Nikola Tesla",
     "initials": "NT",
-    "first_name": "Nikola",
-    "last_Name": "Tesla"
+    "firstName": "Nikola",
+    "lastName": "Tesla"
   },
   {
-    "person_id": "pers-es-01",
+    "id": "pers-es-01",
+    "collection": "persons",
     "name": "Eric Schneiderman",
     "initials": "ES",
-    "first_name": "Eric",
-    "last_Name": "Schneiderman"
+    "firstName": "Eric",
+    "lastName": "Schneiderman"
   },
   {
-    "person_id": "pers-nb-01",
+    "id": "pers-nb-01",
+    "collection": "persons",
     "name": "Noah Bookbinder",
     "initials": "NB",
-    "first_name": "Noah",
-    "last_Name": "Bookbinder"
+    "firstName": "Noah",
+    "lastName": "Bookbinder"
   },
   {
-    "person_id": "d54ffc3a-332f-498e-9aca-9aafb5bf780e",
+    "id": "d54ffc3a-332f-498e-9aca-9aafb5bf780e",
+    "collection": "persons",
     "name": "Donald J. Trump",
     "person_name_long": "Donald John Trump",
     "person_name_short": "Donald Trump",
     "person_initials": "DJT",
-    "first_name": "Donald",
-    "middle_name": "John",
-    "nick_names": ["The Donald"],
-    "last_name": "Trump",
+    "firstName": "Donald",
+    "middleName": "John",
+    "nickNames": ["The Donald"],
+    "lastName": "Trump",
     "neé_name": null,
-    "current_status": [
+    "status": [
       {
         "state": "Born",
-        "start_Date": "1946-06-14"
+        "startDate": "1946-06-14"
       }
     ],
-    "biography_summary": "Donald John Trump is an American businessman, media personality, and politician who served as the 45th U.S. president from 2017 to 2021 and is currently serving as the 47th U.S. president since 2025. Born in Queens, New York, he followed in his father's footsteps into real estate development, eventually taking over the family business and renaming it the Trump Organization. He built a global brand that included hotels, casinos, and golf courses, and gained further fame as a television personality. He entered politics with his 2016 presidential campaign, winning the election as a Republican. He is the second president to serve non-consecutive terms.",
+    "biography": "Donald John Trump is an American businessman, media personality, and politician who served as the 45th U.S. president from 2017 to 2021 and is currently serving as the 47th U.S. president since 2025. Born in Queens, New York, he followed in his father's footsteps into real estate development, eventually taking over the family business and renaming it the Trump Organization. He built a global brand that included hotels, casinos, and golf courses, and gained further fame as a television personality. He entered politics with his 2016 presidential campaign, winning the election as a Republican. He is the second president to serve non-consecutive terms.",
     "spouses": [
       {
         "name": "Ivana Zelníčková",
-        "person_id": "5f94281b-426d-fda6-b911-a28d5650814c",
+        "personId": "5f94281b-426d-fda6-b911-a28d5650814c",
         "marriage_date": "1977-04-07",
         "divorce_date": "1992-03-22",
         "end_reason": "Divorce",
         "children_with_spouse": [
           {
             "name": "Donald Trump Jr.",
-            "person_id": "donald-trump-jr-uuid"
+            "personId": "donald-trump-jr-uuid"
           },
           {
             "name": "Ivanka Trump",
-            "person_id": "5f94281b-fda6-426d-b911-a28d5650814c"
+            "personId": "5f94281b-fda6-426d-b911-a28d5650814c"
           },
           {
             "name": "Eric Trump",
-            "person_id": "3e4f5a6b-7c8d-9e0f-a1b2c3d4e5f6a8"
+            "personId": "3e4f5a6b-7c8d-9e0f-a1b2c3d4e5f6a8"
           }
         ],
         "notes": null
       },
       {
         "name": "Marla Maples",
-        "person_id": "cbd48421-5966-4f0f-af7a-c2a58e5a7c92",
+        "personId": "cbd48421-5966-4f0f-af7a-c2a58e5a7c92",
         "marriage_date": "1993-12-19",
         "divorce_date": "1999-06-08",
         "end_reason": "Divorce",
         "children_with_spouse": [
           {
             "name": "Tiffany Trump",
-            "person_id": "tiffany-trump-uuid"
+            "personId": "tiffany-trump-uuid"
           }
         ],
         "notes": null
       },
       {
         "name": "Melania Knauss",
-        "person_id": "230d78ae-73c6-4609-ac77-d676ff8d6d03",
+        "personId": "230d78ae-73c6-4609-ac77-d676ff8d6d03",
         "marriage_date": "2005-01-22",
         "divorce_date": null,
         "end_reason": null,
         "children_with_spouse": [
           {
             "name": "Barron Trump",
-            "person_id": "barron-trump-uuid"
+            "personId": "barron-trump-uuid"
           }
         ],
         "notes": null
@@ -299,18 +327,18 @@
         "date": "1946-06-14",
         "location": {
           "city": "Queens",
-          "state_province": "New York",
+          "stateProvince": "New York",
           "country": "USA"
         },
         "description": "Born at Jamaica Hospital in Queens, New York."
       },
       {
         "type": "Childhood",
-        "start_date": "1946-06-14",
-        "end_date": "1959-09-01",
+        "startDate": "1946-06-14",
+        "endDate": "1959-09-01",
         "location": {
           "city": "Queens",
-          "state_province": "New York",
+          "stateProvince": "New York",
           "country": "USA"
         },
         "description": "Grew up in Jamaica Estates, Queens, in a wealthy family."
@@ -323,46 +351,46 @@
     ],
     "educations": [
       {
-        "institution_name": "New York Military Academy",
+        "institution": "New York Military Academy",
         "degree": null,
         "field_of_study": null,
-        "start_date": "1959",
-        "end_date": "1964",
+        "startDate": "1959",
+        "endDate": "1964",
         "graduation_date": null,
         "honors": null,
         "location": {
           "city": "Cornwall-on-Hudson",
-          "state_province": "New York",
+          "stateProvince": "New York",
           "country": "USA"
         },
         "notes": "Attended for secondary school."
       },
       {
-        "institution_name": "Fordham University",
+        "institution": "Fordham University",
         "degree": null,
         "field_of_study": null,
-        "start_date": "1964",
-        "end_date": "1966",
+        "startDate": "1964",
+        "endDate": "1966",
         "graduation_date": null,
         "honors": null,
         "location": {
           "city": "New York",
-          "state_province": "New York",
+          "stateProvince": "New York",
           "country": "USA"
         },
         "notes": "Attended for two years before transferring."
       },
       {
-        "institution_name": "The Wharton School of the University of Pennsylvania",
+        "institution": "The Wharton School of the University of Pennsylvania",
         "degree": "Bachelor of Science",
         "field_of_study": "Economics",
-        "start_date": "1966",
-        "end_date": "1968",
+        "startDate": "1966",
+        "endDate": "1968",
         "graduation_date": "1968",
         "honors": null,
         "location": {
           "city": "Philadelphia",
-          "state_province": "Pennsylvania",
+          "stateProvince": "Pennsylvania",
           "country": "USA"
         },
         "notes": "Graduated with a degree in economics."
@@ -374,12 +402,12 @@
       "addresses": [],
       "social_media_profiles": []
     },
-    "career_history": [
+    "career": [
       {
         "organization": "Elizabeth Trump & Son / The Trump Organization",
         "position": "President",
-        "start_date": "1968",
-        "end_date": "2017",
+        "startDate": "1968",
+        "endDate": "2017",
         "responsibilities": [
           "Led a major expansion of the family real estate business from middle-class housing into luxury projects in Manhattan and beyond",
           "Oversaw the construction and development of numerous high-profile properties, including Trump Tower and various hotels and golf courses"
@@ -390,8 +418,8 @@
       {
         "organization": "NBC",
         "position": "Host and Producer of The Apprentice",
-        "start_date": "2004",
-        "end_date": "2015",
+        "startDate": "2004",
+        "endDate": "2015",
         "responsibilities": [
           "Hosted the reality television series 'The Apprentice' and 'The Celebrity Apprentice'",
           "Gained widespread public recognition as a television personality"
@@ -402,8 +430,8 @@
       {
         "organization": "U.S. Federal Government",
         "position": "45th President of the United States",
-        "start_date": "2017-01-20",
-        "end_date": "2021-01-20",
+        "startDate": "2017-01-20",
+        "endDate": "2021-01-20",
         "responsibilities": [
           "Head of state and head of government of the United States",
           "Commander-in-chief of the U.S. Armed Forces"
@@ -414,8 +442,8 @@
       {
         "organization": "U.S. Federal Government",
         "position": "47th President of the United States",
-        "start_date": "2025-01-20",
-        "end_date": null,
+        "startDate": "2025-01-20",
+        "endDate": null,
         "responsibilities": [
           "Head of state and head of government of the United States",
           "Commander-in-chief of the U.S. Armed Forces"
@@ -429,1369 +457,1539 @@
     "parents": [
       {
         "name": "Fred C. Trump",
-        "person_id": "0bd24586-e2cf-4df9-93f1-561e460868b1"
+        "personId": "0bd24586-e2cf-4df9-93f1-561e460868b1"
       },
       {
         "name": "Mary Anne MacLeod Trump",
-        "person_id": "dcb481e5-49d4-4f38-b1b3-87a4034d0092"
+        "personId": "dcb481e5-49d4-4f38-b1b3-87a4034d0092"
       }
     ],
     "children": [
       {
         "name": "Donald Trump Jr.",
-        "person_id": "4f5a6b7c-8d9e-0f1a-b2c3d4e5f6a7b9"
+        "personId": "4f5a6b7c-8d9e-0f1a-b2c3d4e5f6a7b9"
       },
       {
         "name": "Ivanka Trump",
-        "person_id": "5f94281b-fda6-426d-b911-a28d5650814c"
+        "personId": "5f94281b-fda6-426d-b911-a28d5650814c"
       },
       {
         "name": "Eric Trump",
-        "person_id": "3e4f5a6b-7c8d-9e0f-a1b2c3d4e5f6a8"
+        "personId": "3e4f5a6b-7c8d-9e0f-a1b2c3d4e5f6a8"
       },
       {
         "name": "Tiffany Trump",
-        "person_id": "tiffany-trump-uuid"
+        "personId": "tiffany-trump-uuid"
       },
       {
         "name": "Barron Trump",
-        "person_id": "barron-trump-uuid"
+        "personId": "barron-trump-uuid"
       }
     ],
     "siblings": [
       {
         "name": "Maryanne Trump Barry",
-        "person_id": "maryanne-trump-barry-uuid"
+        "personId": "maryanne-trump-barry-uuid"
       },
       {
         "name": "Fred Trump Jr.",
-        "person_id": "fred-trump-jr-uuid"
+        "personId": "fred-trump-jr-uuid"
       },
       {
         "name": "Elizabeth Trump Grau",
-        "person_id": "elizabeth-trump-grau-uuid"
+        "personId": "elizabeth-trump-grau-uuid"
       },
       {
         "name": "Robert Trump",
-        "person_id": "robert-trump-uuid"
+        "personId": "robert-trump-uuid"
       }
     ]
   },
   {
-    "person_id": "fc3ad54f-498e-332f-9aca-9aafb5bf780e",
+    "id": "fc3ad54f-498e-332f-9aca-9aafb5bf780e",
+    "collection": "persons",
     "name": "Marie L. Trump",
     "initials": "MLT",
-    "first_name": "Marie",
-    "last_Name": "Trump"
+    "firstName": "Marie",
+    "lastName": "Trump"
   },
 
   {
-    "person_id": "5f94281b-426d-fda6-b911-a28d5650814c",
+    "id": "5f94281b-426d-fda6-b911-a28d5650814c",
+    "collection": "persons",
     "name": "Ivana Trump",
     "initials": "IT",
-    "first_name": "Ivana",
-    "last_Name": "Trump"
+    "firstName": "Ivana",
+    "lastName": "Trump"
   },
   {
-    "person_id": "5f94281b-fda6-426d-b911-a28d5650814c",
+    "id": "5f94281b-fda6-426d-b911-a28d5650814c",
+    "collection": "persons",
     "name": "Ivanka Trump",
     "initials": "IT",
-    "first_name": "Ivanka",
-    "last_Name": "Trump"
+    "firstName": "Ivanka",
+    "lastName": "Trump"
   },
   {
-    "person_id": "2ce4b1b9-33d0-443b-a7f3-93b543e8a35b",
+    "id": "2ce4b1b9-33d0-443b-a7f3-93b543e8a35b",
+    "collection": "persons",
     "name": "Michael Cohen",
     "initials": "MC",
-    "first_name": "Michael",
-    "last_Name": "Cohen"
+    "firstName": "Michael",
+    "lastName": "Cohen"
   },
   {
-    "person_id": "f92389c9-65d4-4a7b-a3fa-c4a2f47a1653",
+    "id": "f92389c9-65d4-4a7b-a3fa-c4a2f47a1653",
+    "collection": "persons",
     "name": "Stormy Daniels",
     "initials": "SGC",
-    "first_name": "Stephanie",
-    "last_Name": "Gregory Clifford"
+    "firstName": "Stephanie",
+    "lastName": "Gregory Clifford"
   },
   {
-    "person_id": "230d78ae-73c6-4609-ac77-d676ff8d6d03",
+    "id": "230d78ae-73c6-4609-ac77-d676ff8d6d03",
+    "collection": "persons",
     "name": "Melania Trump",
     "initials": "MT",
-    "first_name": "Melania",
-    "last_Name": "Trump"
+    "firstName": "Melania",
+    "lastName": "Trump"
   },
   {
-    "person_id": "cbd48421-5966-4f0f-af7a-c2a58e5a7c92",
+    "id": "cbd48421-5966-4f0f-af7a-c2a58e5a7c92",
+    "collection": "persons",
     "name": "Marla Maples",
     "initials": "MM",
-    "first_name": "Marla",
-    "last_Name": "Maples"
+    "firstName": "Marla",
+    "lastName": "Maples"
   },
   {
-    "person_id": "d1de71e0-542d-494d-a2b1-00860e6c8d0a",
+    "id": "d1de71e0-542d-494d-a2b1-00860e6c8d0a",
+    "collection": "persons",
     "name": "Jeffrey Epstein",
     "initials": "JE",
-    "first_name": "Jeffrey",
-    "last_Name": "Epstein"
+    "firstName": "Jeffrey",
+    "lastName": "Epstein"
   },
   {
-    "person_id": "e6bfe037-a681-405e-81ec-2b421075c09d",
+    "id": "e6bfe037-a681-405e-81ec-2b421075c09d",
+    "collection": "persons",
     "name": "Rudy Guiliani",
     "initials": "RG",
-    "first_name": "Rudy",
-    "last_Name": "Guiliani"
+    "firstName": "Rudy",
+    "lastName": "Guiliani"
   },
   {
-    "person_id": "4b5c6d7e-8f9a-0b1c-2d3e-f4a5b6c7d8e9",
+    "id": "4b5c6d7e-8f9a-0b1c-2d3e-f4a5b6c7d8e9",
+    "collection": "persons",
     "name": "David Nahmad",
     "initials": "DN",
-    "first_name": "David",
-    "last_Name": "Nahmad"
+    "firstName": "David",
+    "lastName": "Nahmad"
   },
   {
-    "person_id": "5c6d7e8f-9a0b-1c2d-3e4f-a5b6c7d8e9f0",
+    "id": "5c6d7e8f-9a0b-1c2d-3e4f-a5b6c7d8e9f0",
+    "collection": "persons",
     "name": "Ernie Garcia",
     "initials": "EG",
-    "first_name": "Ernie",
-    "last_Name": "Garcia"
+    "firstName": "Ernie",
+    "lastName": "Garcia"
   },
   {
-    "person_id": "6d7e8f9a-0b1c-2d3e-4f5a-b6c7d8e9f0a1",
+    "id": "6d7e8f9a-0b1c-2d3e-4f5a-b6c7d8e9f0a1",
+    "collection": "persons",
     "name": "Charles Keating",
     "initials": "CK",
-    "first_name": "Charles",
-    "last_Name": "Keating"
+    "firstName": "Charles",
+    "lastName": "Keating"
   },
   {
-    "person_id": "7e8f9a0b-1c2d-3e4f-5a6b-c7d8e9f0a1b2",
+    "id": "7e8f9a0b-1c2d-3e4f-5a6b-c7d8e9f0a1b2",
+    "collection": "persons",
     "name": "Paul Manafort",
     "initials": "PM",
-    "first_name": "Paul",
-    "last_Name": "Manafort"
+    "firstName": "Paul",
+    "lastName": "Manafort"
   },
   {
-    "person_id": "8f9a0b1c-2d3e-4f5a-6b7c-d8e9f0a1b2c3",
+    "id": "8f9a0b1c-2d3e-4f5a-6b7c-d8e9f0a1b2c3",
+    "collection": "persons",
     "name": "Jose Maria Marin",
     "initials": "JMM",
-    "first_name": "Jose Maria",
-    "last_Name": "Marin"
+    "firstName": "Jose Maria",
+    "lastName": "Marin"
   },
   {
-    "person_id": "9a0b1c2d-3e4f-5a6b-7c8d-e9f0a1b2c3d4",
+    "id": "9a0b1c2d-3e4f-5a6b-7c8d-e9f0a1b2c3d4",
+    "collection": "persons",
     "name": "Susetta Mion",
     "initials": "SM",
-    "first_name": "Susetta",
-    "last_Name": "Mion"
+    "firstName": "Susetta",
+    "lastName": "Mion"
   },
   {
-    "person_id": "1c2d3e4f-5a6b-7c8d-9e0f-a1b2c3d4e5f6",
+    "id": "1c2d3e4f-5a6b-7c8d-9e0f-a1b2c3d4e5f6",
+    "collection": "persons",
     "name": "Andrew Lloyd Webber",
     "initials": "ALW",
-    "first_name": "Andrew",
-    "last_Name": "Lloyd Webber"
+    "firstName": "Andrew",
+    "lastName": "Lloyd Webber"
   },
   {
-    "person_id": "2d3e4f5a-6b7c-8d9e-0f1a-b2c3d4e5f6a7",
+    "id": "2d3e4f5a-6b7c-8d9e-0f1a-b2c3d4e5f6a7",
+    "collection": "persons",
     "name": "Jean-Claude Duvalier",
     "initials": "JCD",
-    "first_name": "Jean-Claude",
-    "last_Name": "Duvalier"
+    "firstName": "Jean-Claude",
+    "lastName": "Duvalier"
   },
   {
-    "person_id": "6cb38473-520f-4b38-accb-905d0e52fdf3",
+    "id": "6cb38473-520f-4b38-accb-905d0e52fdf3",
+    "collection": "persons",
     "name": "Matt Gaetz",
     "initials": "MG",
-    "first_name": "Matt",
-    "last_Name": "Gaetz"
+    "firstName": "Matt",
+    "lastName": "Gaetz"
   },
   {
-    "person_id": "c78ae857-fed7-4c38-b38d-5b74a6395c7a",
+    "id": "c78ae857-fed7-4c38-b38d-5b74a6395c7a",
+    "collection": "persons",
     "name": "Steven Banon",
     "initials": "SB",
-    "first_name": "Steven",
-    "last_Name": "Banon"
+    "firstName": "Steven",
+    "lastName": "Banon"
   },
   {
-    "person_id": "b2c3d4e5-f6a7-8901-2345-67890abcdef0",
+    "id": "b2c3d4e5-f6a7-8901-2345-67890abcdef0",
+    "collection": "persons",
     "name": "Der Scutt",
     "initials": "DS",
-    "first_name": "Der",
-    "last_Name": "Scutt"
+    "firstName": "Der",
+    "lastName": "Scutt"
   },
   {
-    "person_id": "c3d4e5f6-a7b8-9012-3456-7890abcdef01",
+    "id": "c3d4e5f6-a7b8-9012-3456-7890abcdef01",
+    "collection": "persons",
     "name": "Bruce Willis",
     "initials": "BW",
-    "first_name": "Bruce",
-    "last_Name": "Willis"
+    "firstName": "Bruce",
+    "lastName": "Willis"
   },
   {
-    "person_id": "d4e5f6a7-b8c9-0123-4567-890abcdef012",
+    "id": "d4e5f6a7-b8c9-0123-4567-890abcdef012",
+    "collection": "persons",
     "name": "Juan Beckmann Vidal",
     "initials": "JBV",
-    "first_name": "Juan",
-    "last_Name": "Beckmann Vidal"
+    "firstName": "Juan",
+    "lastName": "Beckmann Vidal"
   },
   {
-    "person_id": "e5f6a7b8-c9d0-1234-5678-90abcdef0123",
+    "id": "e5f6a7b8-c9d0-1234-5678-90abcdef0123",
+    "collection": "persons",
     "name": "Hillel Nahmad",
     "initials": "HN",
-    "first_name": "Hillel",
-    "last_Name": "Nahmad"
+    "firstName": "Hillel",
+    "lastName": "Nahmad"
   },
   {
-    "person_id": "f6a7b8c9-d0e1-2345-6789-0abcdef01234",
+    "id": "f6a7b8c9-d0e1-2345-6789-0abcdef01234",
+    "collection": "persons",
     "name": "Vincent Gallo",
     "initials": "VG",
-    "first_name": "Vincent",
-    "last_Name": "Gallo"
+    "firstName": "Vincent",
+    "lastName": "Gallo"
   },
   {
-    "person_id": "1a2b3c4d-5e6f-7a8b-9c0d-e1f2a3b4c5d6",
+    "id": "1a2b3c4d-5e6f-7a8b-9c0d-e1f2a3b4c5d6",
+    "collection": "persons",
     "name": "Paul Goldberger",
     "initials": "PG",
-    "first_name": "Paul",
-    "last_Name": "Goldberger"
+    "firstName": "Paul",
+    "lastName": "Goldberger"
   },
   {
-    "person_id": "2b3c4d5e-6f7a-8b9c-0d1e-f2a3b4c5d6e7",
+    "id": "2b3c4d5e-6f7a-8b9c-0d1e-f2a3b4c5d6e7",
+    "collection": "persons",
     "name": "Jonathan Greenberg",
     "initials": "JF",
-    "first_name": "Jonathan",
-    "last_Name": "Greenberg"
+    "firstName": "Jonathan",
+    "lastName": "Greenberg"
   },
   {
-    "person_id": "4d5e6f7a-8b9c-0d1e-2f3a-b4c5d6e7f8a9",
+    "id": "4d5e6f7a-8b9c-0d1e-2f3a-b4c5d6e7f8a9",
+    "collection": "persons",
     "name": "Prince Charles",
     "initials": "PC",
-    "first_name": "Charles",
-    "last_Name": ""
+    "firstName": "Charles",
+    "lastName": ""
   },
   {
-    "person_id": "5e6f7a8b-9c0d-1e2f-3a4b-c5d6e7f8a9b0",
+    "id": "5e6f7a8b-9c0d-1e2f-3a4b-c5d6e7f8a9b0",
+    "collection": "persons",
     "name": "Princess Diana",
     "initials": "PD",
-    "first_name": "Diana",
-    "last_Name": ""
+    "firstName": "Diana",
+    "lastName": ""
   },
   {
-    "person_id": "6f7a8b9c-0d1e-2f3a-4b5c-d6e7f8a9b0c1",
+    "id": "6f7a8b9c-0d1e-2f3a-4b5c-d6e7f8a9b0c1",
+    "collection": "persons",
     "name": "Johnny Carson",
     "initials": "JC",
-    "first_name": "Johnny",
-    "last_Name": "Carson"
+    "firstName": "Johnny",
+    "lastName": "Carson"
   },
   {
-    "person_id": "7a8b9c0d-1e2f-3a4b-5c6d-e7f8a9b0c1d2",
+    "id": "7a8b9c0d-1e2f-3a4b-5c6d-e7f8a9b0c1d2",
+    "collection": "persons",
     "name": "Sophia Loren",
     "initials": "SL",
-    "first_name": "Sophia",
-    "last_Name": "Loren"
+    "firstName": "Sophia",
+    "lastName": "Loren"
   },
   {
-    "person_id": "8b9c0d1e-2f3a-4b5c-6d7e-f8a9b0c1d2e3",
+    "id": "8b9c0d1e-2f3a-4b5c-6d7e-f8a9b0c1d2e3",
+    "collection": "persons",
     "name": "Wayne Barrett",
     "initials": "WB",
-    "first_name": "Wayne",
-    "last_Name": "Barrett"
+    "firstName": "Wayne",
+    "lastName": "Barrett"
   },
   {
-    "person_id": "3e4f5a6b-7c8d-9e0f-a1b2c3d4e5f6a8",
+    "id": "3e4f5a6b-7c8d-9e0f-a1b2c3d4e5f6a8",
+    "collection": "persons",
     "name": "Eric Trump",
     "initials": "ET",
-    "first_name": "Eric",
-    "last_Name": "Trump"
+    "firstName": "Eric",
+    "lastName": "Trump"
   },
   {
-    "person_id": "4f5a6b7c-8d9e-0f1a-b2c3d4e5f6a7b9",
+    "id": "4f5a6b7c-8d9e-0f1a-b2c3d4e5f6a7b9",
+    "collection": "persons",
     "name": "Donald Trump Jr.",
     "initials": "DTJ",
-    "first_name": "Donald",
-    "last_Name": "Trump Jr."
+    "firstName": "Donald",
+    "lastName": "Trump Jr."
   },
   {
-    "person_id": "pers-rfkjr-01",
+    "id": "pers-rfkjr-01",
+    "collection": "persons",
     "name": "Robert F. Kennedy Jr.",
     "initials": "RFK",
-    "first_name": "Robert F.",
-    "middle_name": null,
-    "last_name": "Kennedy Jr."
+    "firstName": "Robert F.",
+    "middleName": null,
+    "lastName": "Kennedy Jr."
   },
   {
-    "person_id": "5a6b7c8d-9e0f-a1b2-c3d4-e5f6a7b8c9d0",
+    "id": "5a6b7c8d-9e0f-a1b2-c3d4-e5f6a7b8c9d0",
+    "collection": "persons",
     "name": "Alexander Hamilton",
     "initials": "AH",
-    "first_name": "Alexander",
-    "last_Name": "Hamilton"
+    "firstName": "Alexander",
+    "lastName": "Hamilton"
   },
   {
-    "person_id": "6b7c8d9e-0f1a-b2c3-d4e5-f6a7b8c9d0e1",
+    "id": "6b7c8d9e-0f1a-b2c3-d4e5-f6a7b8c9d0e1",
+    "collection": "persons",
     "name": "Walter Shaub",
     "initials": "WS",
-    "first_name": "Walter",
-    "last_Name": "Shaub"
+    "firstName": "Walter",
+    "lastName": "Shaub"
   },
   {
-    "person_id": "7c8d9e0f-1a2b-3c4d-5e6f-a7b8c9d0e1f2",
+    "id": "7c8d9e0f-1a2b-3c4d-5e6f-a7b8c9d0e1f2",
+    "collection": "persons",
     "name": "Alan Garten",
     "initials": "AG",
-    "first_name": "Alan",
-    "last_Name": "Garten"
+    "firstName": "Alan",
+    "lastName": "Garten"
   },
   {
-    "person_id": "8d9e0f1a-2b3c-4d5e-6f7a-b8c9d0e1f2a3",
+    "id": "8d9e0f1a-2b3c-4d5e-6f7a-b8c9d0e1f2a3",
+    "collection": "persons",
     "name": "Maureen Ohlhausen",
     "initials": "MO",
-    "first_name": "Maureen",
-    "last_Name": "Ohlhausen"
+    "firstName": "Maureen",
+    "lastName": "Ohlhausen"
   },
   {
-    "person_id": "9e0f1a2b-3c4d-5e6f-7a8b-c9d0e1f2a3b4",
+    "id": "9e0f1a2b-3c4d-5e6f-7a8b-c9d0e1f2a3b4",
+    "collection": "persons",
     "name": "Sheri Dillon",
     "initials": "SD",
-    "first_name": "Sheri",
-    "last_Name": "Dillon"
+    "firstName": "Sheri",
+    "lastName": "Dillon"
   },
   {
-    "person_id": "0f1a2b3c-4d5e-6f7a-8b9c-d0e1f2a3b4c5",
+    "id": "0f1a2b3c-4d5e-6f7a-8b9c-d0e1f2a3b4c5",
+    "collection": "persons",
     "name": "Emin Agalarov",
     "initials": "EA",
-    "first_name": "Emin",
-    "last_Name": "Agalarov"
+    "firstName": "Emin",
+    "lastName": "Agalarov"
   },
   {
-    "person_id": "1a2b3c4d-5e6f-7a8b-9c0d-e1f2a3b4c5d6e7",
+    "id": "1a2b3c4d-5e6f-7a8b-9c0d-e1f2a3b4c5d6e7",
+    "collection": "persons",
     "name": "Rupert Murdoch",
     "initials": "RM",
-    "first_name": "Rupert",
-    "last_Name": "Murdoch"
+    "firstName": "Rupert",
+    "lastName": "Murdoch"
   },
   {
-    "person_id": "9c0d1e2f-3a4b-5c6d-7e8f-a9b0c1d2e3f4",
+    "id": "9c0d1e2f-3a4b-5c6d-7e8f-a9b0c1d2e3f4",
+    "collection": "persons",
     "name": "Jose Felix Diaz",
     "initials": "JFD",
-    "first_name": "Jose Felix",
-    "last_Name": "Diaz"
+    "firstName": "Jose Felix",
+    "lastName": "Diaz"
   },
   {
-    "person_id": "0d1e2f3a-4b5c-6d7e-8f9a-b0c1d2e3f4a5",
+    "id": "0d1e2f3a-4b5c-6d7e-8f9a-b0c1d2e3f4a5",
+    "collection": "persons",
     "name": "Shinzo Abe",
     "initials": "SA",
-    "first_name": "Shinzo",
-    "last_Name": "Abe"
+    "firstName": "Shinzo",
+    "lastName": "Abe"
   },
   {
-    "person_id": "1e2f3a4b-5c6d-7e8f-9a0b-c1d2e3f4a5b6",
+    "id": "1e2f3a4b-5c6d-7e8f-9a0b-c1d2e3f4a5b6",
+    "collection": "persons",
     "name": "Joe Biden",
     "initials": "JB",
-    "first_name": "Joe",
-    "last_Name": "Biden"
+    "firstName": "Joe",
+    "lastName": "Biden"
   },
   {
-    "person_id": "2f3a4b5c-6d7e-8f9a-0b1c-d2e3f4a5b6c7",
+    "id": "2f3a4b5c-6d7e-8f9a-0b1c-d2e3f4a5b6c7",
+    "collection": "persons",
     "name": "Wendy Maitland",
     "initials": "WM",
-    "first_name": "Wendy",
-    "last_Name": "Maitland"
+    "firstName": "Wendy",
+    "lastName": "Maitland"
   },
   {
-    "person_id": "3a4b5c6d-7e8f-9a0b-1c2d-e3f4a5b6c7d8",
+    "id": "3a4b5c6d-7e8f-9a0b-1c2d-e3f4a5b6c7d8",
+    "collection": "persons",
     "name": "Steve Witkoff",
     "initials": "SW",
-    "first_name": "Steve",
-    "last_Name": "Witkoff"
+    "firstName": "Steve",
+    "lastName": "Witkoff"
   },
   {
-    "person_id": "a7b8c9d0-e1f2-3456-7890-bcdef0123456",
+    "id": "a7b8c9d0-e1f2-3456-7890-bcdef0123456",
+    "collection": "persons",
     "name": "Guido Lombardi",
     "initials": "GL",
-    "first_name": "Guido",
-    "last_Name": "Lombardi"
+    "firstName": "Guido",
+    "lastName": "Lombardi"
   },
   {
-    "person_id": "b8c9d0e1-f2a3-4567-8901-cdef01234567",
+    "id": "b8c9d0e1-f2a3-4567-8901-cdef01234567",
+    "collection": "persons",
     "name": "Steven Spielberg",
     "initials": "SS",
-    "first_name": "Steven",
-    "last_Name": "Spielberg"
+    "firstName": "Steven",
+    "lastName": "Spielberg"
   },
   {
-    "person_id": "c9d0e1f2-a3b4-5678-9012-def012345678",
+    "id": "c9d0e1f2-a3b4-5678-9012-def012345678",
+    "collection": "persons",
     "name": "Michael Jackson",
     "initials": "MJ",
-    "first_name": "Michael",
-    "last_Name": "Jackson"
+    "firstName": "Michael",
+    "lastName": "Jackson"
   },
   {
-    "person_id": "d0e1f2a3-b4c5-6d7e-8f9a-0b1c2d3e4f5a",
+    "id": "d0e1f2a3-b4c5-6d7e-8f9a-0b1c2d3e4f5a",
+    "collection": "persons",
     "name": "Adnan Khashoggi",
     "initials": "AK",
-    "first_name": "Adnan",
-    "last_Name": "Khashoggi"
+    "firstName": "Adnan",
+    "lastName": "Khashoggi"
   },
   {
-    "person_id": "0c436048-c4b9-4317-8d1e-1964c877433b",
+    "id": "0c436048-c4b9-4317-8d1e-1964c877433b",
+    "collection": "persons",
     "name": "Jack Smith",
     "initials": "JS",
-    "first_name": "Jack",
-    "last_Name": "Smith"
+    "firstName": "Jack",
+    "lastName": "Smith"
   },
   {
-    "person_id": "b694ad2e-f1cf-4524-a18e-dd1fa00f5651",
+    "id": "b694ad2e-f1cf-4524-a18e-dd1fa00f5651",
+    "collection": "persons",
     "name": "Fanni Willis",
     "initials": "FW",
-    "first_name": "Fanni",
-    "last_Name": "Willis"
+    "firstName": "Fanni",
+    "lastName": "Willis"
   },
   {
-    "person_id": "677caa0c-04f8-4371-a98f-4cbd0ea2a067",
+    "id": "677caa0c-04f8-4371-a98f-4cbd0ea2a067",
+    "collection": "persons",
     "name": "Alvin Bragg",
     "initials": "AB",
-    "first_name": "Alvin",
-    "last_Name": "Bragg"
+    "firstName": "Alvin",
+    "lastName": "Bragg"
   },
   {
-    "person_id": "c940103e-c0ea-422d-8467-3c58567ef8f1",
+    "id": "c940103e-c0ea-422d-8467-3c58567ef8f1",
+    "collection": "persons",
     "name": "Billy Bush",
     "initials": "BB",
-    "first_name": "Billy",
-    "last_Name": "Bush"
+    "firstName": "Billy",
+    "lastName": "Bush"
   },
   {
-    "person_id": "pers_trevor_milton",
+    "id": "pers_trevor_milton",
+    "collection": "persons",
     "name": "Trevor Milton",
     "initials": "TM",
-    "first_name": "Trevor",
-    "last_Name": "Milton"
+    "firstName": "Trevor",
+    "lastName": "Milton"
   },
   {
-    "person_id": "pers_elon_musk",
+    "id": "pers_elon_musk",
+    "collection": "persons",
     "name": "Elon Musk",
     "initials": "EM",
-    "first_name": "Elon",
-    "last_Name": "Musk"
+    "firstName": "Elon",
+    "lastName": "Musk"
   },
   {
-    "person_id": "59f6bfd8-ee6e-495a-83a0-ef8da81bdc79",
+    "id": "59f6bfd8-ee6e-495a-83a0-ef8da81bdc79",
+    "collection": "persons",
     "name": "E Jean Carroll",
     "initials": "EJC",
-    "first_name": "E Jean",
-    "last_Name": "Carroll"
+    "firstName": "E Jean",
+    "lastName": "Carroll"
   },
   {
-    "person_id": "cfef1717-762e-4b9b-bc3c-97a53581c2ef",
+    "id": "cfef1717-762e-4b9b-bc3c-97a53581c2ef",
+    "collection": "persons",
     "name": "Laeticia James",
     "initials": "LJ",
-    "first_name": "Laeticia",
-    "last_Name": "James"
+    "firstName": "Laeticia",
+    "lastName": "James"
   },
   {
-    "person_id": "5f42648d-4dae-4ead-9a34-e0360e03f464",
+    "id": "5f42648d-4dae-4ead-9a34-e0360e03f464",
+    "collection": "persons",
     "name": "Aileen Cannon",
     "initials": "AC",
-    "first_name": "Aileen",
-    "last_Name": "Cannon"
+    "firstName": "Aileen",
+    "lastName": "Cannon"
   },
   {
-    "person_id": "fd0ec94f-f96f-4559-ba26-9c85ab088fc4",
+    "id": "fd0ec94f-f96f-4559-ba26-9c85ab088fc4",
+    "collection": "persons",
     "name": "Kim Jong Un",
     "initials": "KJU",
-    "first_name": "Jong Un",
-    "last_Name": "Kim"
+    "firstName": "Jong Un",
+    "lastName": "Kim"
   },
   {
-    "person_id": "addf23fe-3f24-4a05-b740-6f6133cd3ff5",
+    "id": "addf23fe-3f24-4a05-b740-6f6133cd3ff5",
+    "collection": "persons",
     "name": "Wladimir Putin",
     "initials": "WP",
-    "first_name": "Wladimir",
-    "last_Name": "Putin"
+    "firstName": "Wladimir",
+    "lastName": "Putin"
   },
   {
-    "person_id": "cc04be5b-59b0-44db-8a18-9acf210c9dd6",
+    "id": "cc04be5b-59b0-44db-8a18-9acf210c9dd6",
+    "collection": "persons",
     "name": "Pete Hegseth",
     "initials": "PH",
-    "first_name": "Pete",
-    "last_Name": "Hegseth"
+    "firstName": "Pete",
+    "lastName": "Hegseth"
   },
   {
-    "person_id": "dffb877f-af07-4209-8ca1-5f58ba733529",
+    "id": "dffb877f-af07-4209-8ca1-5f58ba733529",
+    "collection": "persons",
     "name": "Alex Jones",
     "initials": "AJ",
-    "first_name": "Alex",
-    "last_Name": "Jones",
+    "firstName": "Alex",
+    "lastName": "Jones",
     "wikipedia_url": ""
   },
   {
-    "person_id": "affe6dea-ddea-4003-a1a8-d7ff76447b48",
+    "id": "affe6dea-ddea-4003-a1a8-d7ff76447b48",
+    "collection": "persons",
     "name": "Sean Hannity",
     "initials": "SH",
-    "first_name": "Sean",
-    "last_Name": "Hannity"
+    "firstName": "Sean",
+    "lastName": "Hannity"
   },
   {
-    "person_id": "c71efbfa-ff48-47ca-bb3a-114fb620c736",
+    "id": "c71efbfa-ff48-47ca-bb3a-114fb620c736",
+    "collection": "persons",
     "name": "Kash Patel",
     "initials": "KP",
-    "first_name": "Kash",
-    "last_Name": "Patel"
+    "firstName": "Kash",
+    "lastName": "Patel"
   },
   {
-    "person_id": "90945883-cca2-4fc6-9cd0-79e81b12e866",
+    "id": "90945883-cca2-4fc6-9cd0-79e81b12e866",
+    "collection": "persons",
     "name": "John Eastman",
     "initials": "JE",
-    "first_name": "John",
-    "last_Name": "Eastman"
+    "firstName": "John",
+    "lastName": "Eastman"
   },
   {
-    "person_id": "f9fc6ee9-4f78-4d58-941b-a1fbc611a00d",
+    "id": "f9fc6ee9-4f78-4d58-941b-a1fbc611a00d",
+    "collection": "persons",
     "name": "Sidney Powell",
     "initials": "SP",
-    "first_name": "Sidney",
-    "last_Name": "Powell"
+    "firstName": "Sidney",
+    "lastName": "Powell"
   },
   {
-    "person_id": "4138e7e4-1368-4bc3-a0ca-011c0022d447",
+    "id": "4138e7e4-1368-4bc3-a0ca-011c0022d447",
+    "collection": "persons",
     "name": "Brad Raffensberger",
     "initials": "BR",
-    "first_name": "Brad",
-    "last_Name": "Raffensberger"
+    "firstName": "Brad",
+    "lastName": "Raffensberger"
   },
   {
-    "person_id": "8a1a7f4e-2e4a-4b9e-8c6d-1f3a2b5c8d7e",
+    "id": "8a1a7f4e-2e4a-4b9e-8c6d-1f3a2b5c8d7e",
+    "collection": "persons",
     "name": "Daniel Bouaziz",
     "initials": "DB",
-    "first_name": "Daniel",
-    "last_Name": "Bouaziz",
+    "firstName": "Daniel",
+    "lastName": "Bouaziz",
     "wikipedia_url": ""
   },
   {
-    "person_id": "c3b2a1f0-9e8d-4c7b-a6f5-e4d3c2b1a0f9",
+    "id": "c3b2a1f0-9e8d-4c7b-a6f5-e4d3c2b1a0f9",
+    "collection": "persons",
     "name": "Sophia Baratashvili",
     "initials": "SB",
-    "first_name": "Sophia",
-    "last_Name": "Baratashvili",
+    "firstName": "Sophia",
+    "lastName": "Baratashvili",
     "wikipedia_url": ""
   },
   {
-    "person_id": "d1e0f9c8-7b6a-4e5d-9c8b-a0f9e8d7c6b5",
+    "id": "d1e0f9c8-7b6a-4e5d-9c8b-a0f9e8d7c6b5",
+    "collection": "persons",
     "name": "Howie Carr",
     "initials": "HC",
-    "first_name": "Howie",
-    "last_Name": "Carr",
+    "firstName": "Howie",
+    "lastName": "Carr",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Howie_Carr"
   },
   {
-    "person_id": "f9e8d7c6-b5a4-4d3c-8b2a-1f0e9d8c7b6a",
+    "id": "f9e8d7c6-b5a4-4d3c-8b2a-1f0e9d8c7b6a",
+    "collection": "persons",
     "name": "Kathy Carr",
     "initials": "KC",
-    "first_name": "Kathy",
-    "last_Name": "Carr",
+    "firstName": "Kathy",
+    "lastName": "Carr",
     "wikipedia_url": ""
   },
   {
-    "person_id": "a0f9e8d7-c6b5-4a4d-b3c2-a1f0e9d8c7b6",
+    "id": "a0f9e8d7-c6b5-4a4d-b3c2-a1f0e9d8c7b6",
+    "collection": "persons",
     "name": "Gil Cohen",
     "initials": "GC",
-    "first_name": "Gil",
-    "last_Name": "Cohen",
+    "firstName": "Gil",
+    "lastName": "Cohen",
     "wikipedia_url": ""
   },
   {
-    "person_id": "b1a0f9e8-d7c6-4b5a-a4d3-c2b1a0f9e8d7",
+    "id": "b1a0f9e8-d7c6-4b5a-a4d3-c2b1a0f9e8d7",
+    "collection": "persons",
     "name": "Paul Gervais",
     "initials": "PG",
-    "first_name": "Paul",
-    "last_Name": "Gervais",
+    "firstName": "Paul",
+    "lastName": "Gervais",
     "wikipedia_url": ""
   },
   {
-    "person_id": "e9d8c7b6-a5f4-4e3d-b2c1-a0f9e8d7c6b5",
+    "id": "e9d8c7b6-a5f4-4e3d-b2c1-a0f9e8d7c6b5",
+    "collection": "persons",
     "name": "Jean Doyen De Montaillou",
     "initials": "JDM",
-    "first_name": "Jean",
-    "last_Name": "Doyen De Montaillou",
+    "firstName": "Jean",
+    "lastName": "Doyen De Montaillou",
     "wikipedia_url": ""
   },
   {
-    "person_id": "f8e7d6c5-b4a3-4d2c-a1b0-f9e8d7c6b5a4",
+    "id": "f8e7d6c5-b4a3-4d2c-a1b0-f9e8d7c6b5a4",
+    "collection": "persons",
     "name": "Michel Kovner",
     "initials": "MK",
-    "first_name": "Michel",
-    "last_Name": "Kovner",
+    "firstName": "Michel",
+    "lastName": "Kovner",
     "wikipedia_url": ""
   },
   {
-    "person_id": "0d9c8b7a-6f5e-4d3c-b2a1-f0e9d8c7b6a5",
+    "id": "0d9c8b7a-6f5e-4d3c-b2a1-f0e9d8c7b6a5",
+    "collection": "persons",
     "name": "Robert Falk",
     "initials": "RF",
-    "first_name": "Robert",
-    "last_Name": "Falk",
+    "firstName": "Robert",
+    "lastName": "Falk",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Robert_Falk"
   },
   {
-    "person_id": "1c8b7a6f-5e4d-4c3b-a2b1-f0e9d8c7b6a5",
+    "id": "1c8b7a6f-5e4d-4c3b-a2b1-f0e9d8c7b6a5",
+    "collection": "persons",
     "name": "Susan Falk",
     "initials": "SF",
-    "first_name": "Susan",
-    "last_Name": "Falk",
+    "firstName": "Susan",
+    "lastName": "Falk",
     "wikipedia_url": ""
   },
   {
-    "person_id": "8b3f4c6e-1d5g-4h7j-8k9l-2m4n6p8r0t1u",
+    "id": "8b3f4c6e-1d5g-4h7j-8k9l-2m4n6p8r0t1u",
+    "collection": "persons",
     "name": "Diane Lokey Farb",
     "initials": "DLF",
-    "first_name": "Diane",
-    "last_Name": "Farb",
+    "firstName": "Diane",
+    "lastName": "Farb",
     "wikipedia_url": ""
   },
   {
-    "person_id": "a1b2c3d4-e5f6-4a7b-8c9d-0e1f2a3b4c5d",
+    "id": "a1b2c3d4-e5f6-4a7b-8c9d-0e1f2a3b4c5d",
+    "collection": "persons",
     "name": "Carol Glazer",
     "initials": "CG",
-    "first_name": "Carol",
-    "last_Name": "Glazer",
+    "firstName": "Carol",
+    "lastName": "Glazer",
     "wikipedia_url": ""
   },
   {
-    "person_id": "f0e9d8c7-b6a5-4f3e-a2b1-c0d9e8f7a6b5",
+    "id": "f0e9d8c7-b6a5-4f3e-a2b1-c0d9e8f7a6b5",
+    "collection": "persons",
     "name": "John Colamarino",
     "initials": "JC",
-    "first_name": "John",
-    "last_Name": "Colamarino",
+    "firstName": "John",
+    "lastName": "Colamarino",
     "wikipedia_url": ""
   },
   {
-    "person_id": "5a4b3c2d-1e0f-4d9c-8b7a-6f5e4d3c2b1a",
+    "id": "5a4b3c2d-1e0f-4d9c-8b7a-6f5e4d3c2b1a",
+    "collection": "persons",
     "name": "Andrew Greenbaum",
     "initials": "AG",
-    "first_name": "Andrew",
-    "last_Name": "Greenbaum",
+    "firstName": "Andrew",
+    "lastName": "Greenbaum",
     "wikipedia_url": ""
   },
   {
-    "person_id": "c9d8e7f6-a5b4-4c3d-b2a1-f0e9d8c7b6a5",
+    "id": "c9d8e7f6-a5b4-4c3d-b2a1-f0e9d8c7b6a5",
+    "collection": "persons",
     "name": "Myrna Haft",
     "initials": "MH",
-    "first_name": "Myrna",
-    "last_Name": "Haft",
+    "firstName": "Myrna",
+    "lastName": "Haft",
     "wikipedia_url": ""
   },
   {
-    "person_id": "4d3c2b1a-0f9e-4a8b-7c6d-5e4f3a2b1c0d",
+    "id": "4d3c2b1a-0f9e-4a8b-7c6d-5e4f3a2b1c0d",
+    "collection": "persons",
     "name": "Gerald Herz",
     "initials": "GH",
-    "first_name": "Gerald",
-    "last_Name": "Herz",
+    "firstName": "Gerald",
+    "lastName": "Herz",
     "wikipedia_url": ""
   },
   {
-    "person_id": "e7f6a5b4-c3d2-4e1f-a0b9-d8c7b6a5f4e3",
+    "id": "e7f6a5b4-c3d2-4e1f-a0b9-d8c7b6a5f4e3",
+    "collection": "persons",
     "name": "Isabelle Herz",
     "initials": "IH",
-    "first_name": "Isabelle",
-    "last_Name": "Herz",
+    "firstName": "Isabelle",
+    "lastName": "Herz",
     "wikipedia_url": ""
   },
   {
-    "person_id": "2b1a0f9e-8d7c-4b6a-5f4e-3d2c1b0a9f8e",
+    "id": "2b1a0f9e-8d7c-4b6a-5f4e-3d2c1b0a9f8e",
+    "collection": "persons",
     "name": "Thomas Hutchison",
     "initials": "TH",
-    "first_name": "Thomas",
-    "last_Name": "Hutchison",
+    "firstName": "Thomas",
+    "lastName": "Hutchison",
     "wikipedia_url": ""
   },
   {
-    "person_id": "a5b4c3d2-e1f0-4a9b-8c7d-6e5f4a3b2c1d",
+    "id": "a5b4c3d2-e1f0-4a9b-8c7d-6e5f4a3b2c1d",
+    "collection": "persons",
     "name": "Deanne Hutchison",
     "initials": "DH",
-    "first_name": "Deanne",
-    "last_Name": "Hutchison",
+    "firstName": "Deanne",
+    "lastName": "Hutchison",
     "wikipedia_url": ""
   },
   {
-    "person_id": "f9e8d7c6-b5a4-4d3c-b2a1-f0e9d8c7b6a5",
+    "id": "f9e8d7c6-b5a4-4d3c-b2a1-f0e9d8c7b6a5",
+    "collection": "persons",
     "name": "Simon Isaacs",
     "initials": "SI",
-    "first_name": "Simon",
-    "last_Name": "Isaacs",
+    "firstName": "Simon",
+    "lastName": "Isaacs",
     "wikipedia_url": ""
   },
   {
-    "person_id": "4c3b2a1f-0e9d-4c8b-7a6f-5e4d3c2b1a0f",
+    "id": "4c3b2a1f-0e9d-4c8b-7a6f-5e4d3c2b1a0f",
+    "collection": "persons",
     "name": "Tiffany Isaacs",
     "initials": "TI",
-    "first_name": "Tiffany",
-    "last_Name": "Isaacs",
+    "firstName": "Tiffany",
+    "lastName": "Isaacs",
     "wikipedia_url": ""
   },
   {
-    "person_id": "e7f6a5b4-c3d2-4e1f-a0b9-d8c7b6a5f4e3",
+    "id": "e7f6a5b4-c3d2-4e1f-a0b9-d8c7b6a5f4e3",
+    "collection": "persons",
     "name": "Paula Leed",
     "initials": "PL",
-    "first_name": "Paula",
-    "last_Name": "Leed",
+    "firstName": "Paula",
+    "lastName": "Leed",
     "wikipedia_url": ""
   },
   {
-    "person_id": "2b1a0f9e-8d7c-4b6a-5f4e-3d2c1b0a9f8e",
+    "id": "2b1a0f9e-8d7c-4b6a-5f4e-3d2c1b0a9f8e",
+    "collection": "persons",
     "name": "Richard Aron",
     "initials": "RA",
-    "first_name": "Richard",
-    "last_Name": "Aron",
+    "firstName": "Richard",
+    "lastName": "Aron",
     "wikipedia_url": ""
   },
   {
-    "person_id": "a5b4c3d2-e1f0-4a9b-8c7d-6e5f4a3b2c1d",
+    "id": "a5b4c3d2-e1f0-4a9b-8c7d-6e5f4a3b2c1d",
+    "collection": "persons",
     "name": "Arthur Levine",
     "initials": "AL",
-    "first_name": "Arthur",
-    "last_Name": "Levine",
+    "firstName": "Arthur",
+    "lastName": "Levine",
     "wikipedia_url": ""
   },
   {
-    "person_id": "f9e8d7c6-b5a4-4d3c-b2a1-f0e9d8c7b6a5",
+    "id": "f9e8d7c6-b5a4-4d3c-b2a1-f0e9d8c7b6a5",
+    "collection": "persons",
     "name": "Arlene Levine",
     "initials": "AL",
-    "first_name": "Arlene",
-    "last_Name": "Levine",
+    "firstName": "Arlene",
+    "lastName": "Levine",
     "wikipedia_url": ""
   },
   {
-    "person_id": "4c3b2a1f-0e9d-4c8b-7a6f-5e4d3c2b1a0f",
+    "id": "4c3b2a1f-0e9d-4c8b-7a6f-5e4d3c2b1a0f",
+    "collection": "persons",
     "name": "Steven Michael",
     "initials": "SM",
-    "first_name": "Steven",
-    "last_Name": "Michael",
+    "firstName": "Steven",
+    "lastName": "Michael",
     "wikipedia_url": ""
   },
   {
-    "person_id": "e7f6a5b4-c3d2-4e1f-a0b9-d8c7b6a5f4e3",
+    "id": "e7f6a5b4-c3d2-4e1f-a0b9-d8c7b6a5f4e3",
+    "collection": "persons",
     "name": "Anand Patel",
     "initials": "AP",
-    "first_name": "Anand",
-    "last_Name": "Patel",
+    "firstName": "Anand",
+    "lastName": "Patel",
     "wikipedia_url": ""
   },
   {
-    "person_id": "2b1a0f9e-8d7c-4b6a-5f4e-3d2c1b0a9f8e",
+    "id": "2b1a0f9e-8d7c-4b6a-5f4e-3d2c1b0a9f8e",
+    "collection": "persons",
     "name": "Mina Patel",
     "initials": "MP",
-    "first_name": "Mina",
-    "last_Name": "Patel",
+    "firstName": "Mina",
+    "lastName": "Patel",
     "wikipedia_url": ""
   },
   {
-    "person_id": "a5b4c3d2-e1f0-4a9b-8c7d-6e5f4a3b2c1d",
+    "id": "a5b4c3d2-e1f0-4a9b-8c7d-6e5f4a3b2c1d",
+    "collection": "persons",
     "name": "Mica Mosbacher",
     "initials": "MM",
-    "first_name": "Mica",
-    "last_Name": "Mosbacher",
+    "firstName": "Mica",
+    "lastName": "Mosbacher",
     "wikipedia_url": ""
   },
   {
-    "person_id": "f9e8d7c6-b5a4-4d3c-b2a1-f0e9d8c7b6a5",
+    "id": "f9e8d7c6-b5a4-4d3c-b2a1-f0e9d8c7b6a5",
+    "collection": "persons",
     "name": "Thomas Peterffy",
     "initials": "TP",
-    "first_name": "Thomas",
-    "last_Name": "Peterffy",
+    "firstName": "Thomas",
+    "lastName": "Peterffy",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Thomas_Peterffy"
   },
   {
-    "person_id": "4c3b2a1f-0e9d-4c8b-7a6f-5e4d3c2b1a0f",
+    "id": "4c3b2a1f-0e9d-4c8b-7a6f-5e4d3c2b1a0f",
+    "collection": "persons",
     "name": "Lawrence Rolnick",
     "initials": "LR",
-    "first_name": "Lawrence",
-    "last_Name": "Rolnick",
+    "firstName": "Lawrence",
+    "lastName": "Rolnick",
     "wikipedia_url": ""
   },
 
   {
-    "person_id": "1a2b3c4d-5e6f-4a7b-8c9d-0e1f2a3b4c5d",
+    "id": "1a2b3c4d-5e6f-4a7b-8c9d-0e1f2a3b4c5d",
+    "collection": "persons",
     "name": "Kimberly Sorrentino",
     "initials": "KS",
-    "first_name": "Kimberly",
-    "last_Name": "Sorrentino",
+    "firstName": "Kimberly",
+    "lastName": "Sorrentino",
     "wikipedia_url": ""
   },
   {
-    "person_id": "f0e9d8c7-b6a5-4f3e-a2b1-c0d9e8f7a6b5",
+    "id": "f0e9d8c7-b6a5-4f3e-a2b1-c0d9e8f7a6b5",
+    "collection": "persons",
     "name": "John Sites",
     "initials": "JS",
-    "first_name": "John",
-    "last_Name": "Sites",
+    "firstName": "John",
+    "lastName": "Sites",
     "wikipedia_url": ""
   },
   {
-    "person_id": "5a4b3c2d-1e0f-4d9c-8b7a-6f5e4d3c2b1a",
+    "id": "5a4b3c2d-1e0f-4d9c-8b7a-6f5e4d3c2b1a",
+    "collection": "persons",
     "name": "Cindy Sites",
     "initials": "CS",
-    "first_name": "Cindy",
-    "last_Name": "Sites",
+    "firstName": "Cindy",
+    "lastName": "Sites",
     "wikipedia_url": ""
   },
   {
-    "person_id": "c9d8e7f6-a5b4-4c3d-b2a1-f0e9d8c7b6a5",
+    "id": "c9d8e7f6-a5b4-4c3d-b2a1-f0e9d8c7b6a5",
+    "collection": "persons",
     "name": "Carolyn Sakolsky",
     "initials": "CS",
-    "first_name": "Carolyn",
-    "last_Name": "Sakolsky",
+    "firstName": "Carolyn",
+    "lastName": "Sakolsky",
     "wikipedia_url": ""
   },
   {
-    "person_id": "4d3c2b1a-0f9e-4a8b-7c6d-5e4f3a2b1c0d",
+    "id": "4d3c2b1a-0f9e-4a8b-7c6d-5e4f3a2b1c0d",
+    "collection": "persons",
     "name": "Frederick Rustmann",
     "initials": "FR",
-    "first_name": "Frederick",
-    "last_Name": "Rustmann",
+    "firstName": "Frederick",
+    "lastName": "Rustmann",
     "wikipedia_url": ""
   },
   {
-    "person_id": "e7f6a5b4-c3d2-4e1f-a0b9-d8c7b6a5f4e3",
+    "id": "e7f6a5b4-c3d2-4e1f-a0b9-d8c7b6a5f4e3",
+    "collection": "persons",
     "name": "Marc Solomon",
     "initials": "MS",
-    "first_name": "Marc",
-    "last_Name": "Solomon",
+    "firstName": "Marc",
+    "lastName": "Solomon",
     "wikipedia_url": ""
   },
   {
-    "person_id": "2b1a0f9e-8d7c-4b6a-5f4e-3d2c1b0a9f8e",
+    "id": "2b1a0f9e-8d7c-4b6a-5f4e-3d2c1b0a9f8e",
+    "collection": "persons",
     "name": "Cathy Solomon",
     "initials": "CS",
-    "first_name": "Cathy",
-    "last_Name": "Solomon",
+    "firstName": "Cathy",
+    "lastName": "Solomon",
     "wikipedia_url": ""
   },
   {
-    "person_id": "a5b4c3d2-e1f0-4a9b-8c7d-6e5f4a3b2c1d",
+    "id": "a5b4c3d2-e1f0-4a9b-8c7d-6e5f4a3b2c1d",
+    "collection": "persons",
     "name": "Robert Zelman",
     "initials": "RZ",
-    "first_name": "Robert",
-    "last_Name": "Zelman",
+    "firstName": "Robert",
+    "lastName": "Zelman",
     "wikipedia_url": ""
   },
   {
-    "person_id": "f9e8d7c6-b5a4-4d3c-b2a1-f0e9d8c7b6a5",
+    "id": "f9e8d7c6-b5a4-4d3c-b2a1-f0e9d8c7b6a5",
+    "collection": "persons",
     "name": "Jennifer Zelman",
     "initials": "JZ",
-    "first_name": "Jennifer",
-    "last_Name": "Zelman",
+    "firstName": "Jennifer",
+    "lastName": "Zelman",
     "wikipedia_url": ""
   },
   {
-    "person_id": "4c3b2a1f-0e9d-4c8b-7a6f-5e4d3c2b1a0f",
+    "id": "4c3b2a1f-0e9d-4c8b-7a6f-5e4d3c2b1a0f",
+    "collection": "persons",
     "name": "Carlos Arredondo",
     "initials": "CA",
-    "first_name": "Carlos",
-    "last_Name": "Arredondo",
+    "firstName": "Carlos",
+    "lastName": "Arredondo",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Carlos_Arredondo"
   },
   {
-    "person_id": "d2c1b0a9-f8e7-4b6a-5f4e-3d2c1b0a9f8e",
+    "id": "d2c1b0a9-f8e7-4b6a-5f4e-3d2c1b0a9f8e",
+    "collection": "persons",
     "name": "Mari Arredondo",
     "initials": "MA",
-    "first_name": "Mari",
-    "last_Name": "Arredondo",
+    "firstName": "Mari",
+    "lastName": "Arredondo",
     "wikipedia_url": ""
   },
   {
-    "person_id": "e1f0a9b8-c7d6-4e5f-a4b3-c2d1e0a9b8c7",
+    "id": "e1f0a9b8-c7d6-4e5f-a4b3-c2d1e0a9b8c7",
+    "collection": "persons",
     "name": "Carlin Axelrod",
     "initials": "CA",
-    "first_name": "Carlin",
-    "last_Name": "Axelrod",
+    "firstName": "Carlin",
+    "lastName": "Axelrod",
     "wikipedia_url": ""
   },
   {
-    "person_id": "b0a9f8e7-d6c5-4b4a-9f8e-7d6c5b4a3f2e",
+    "id": "b0a9f8e7-d6c5-4b4a-9f8e-7d6c5b4a3f2e",
+    "collection": "persons",
     "name": "Brenda Axelrod",
     "initials": "BA",
-    "first_name": "Brenda",
-    "last_Name": "Axelrod",
+    "firstName": "Brenda",
+    "lastName": "Axelrod",
     "wikipedia_url": ""
   },
   {
-    "person_id": "a9b8c7d6-e5f4-4a3b-8c7d-6e5f4a3b2c1d",
+    "id": "a9b8c7d6-e5f4-4a3b-8c7d-6e5f4a3b2c1d",
+    "collection": "persons",
     "name": "Robert Berg",
     "initials": "RB",
-    "first_name": "Robert",
-    "last_Name": "Berg",
+    "firstName": "Robert",
+    "lastName": "Berg",
     "wikipedia_url": ""
   },
   {
-    "person_id": "f8e7d6c5-b4a3-4d2c-a1b0-f9e8d7c6b5a4",
+    "id": "f8e7d6c5-b4a3-4d2c-a1b0-f9e8d7c6b5a4",
+    "collection": "persons",
     "name": "Theodore Berman",
     "initials": "TB",
-    "first_name": "Theodore",
-    "last_Name": "Berman",
+    "firstName": "Theodore",
+    "lastName": "Berman",
     "wikipedia_url": ""
   },
   {
-    "person_id": "0d9c8b7a-6f5e-4d3c-b2a1-f0e9d8c7b6a5",
+    "id": "0d9c8b7a-6f5e-4d3c-b2a1-f0e9d8c7b6a5",
+    "collection": "persons",
     "name": "Debbie Berman",
     "initials": "DB",
-    "first_name": "Debbie",
-    "last_Name": "Berman",
+    "firstName": "Debbie",
+    "lastName": "Berman",
     "wikipedia_url": ""
   },
   {
-    "person_id": "1c8b7a6f-5e4d-4c3b-a2b1-f0e9d8c7b6a5",
+    "id": "1c8b7a6f-5e4d-4c3b-a2b1-f0e9d8c7b6a5",
+    "collection": "persons",
     "name": "Raul Bernal-Mora",
     "initials": "RBM",
-    "first_name": "Raul",
-    "last_Name": "Bernal-Mora",
+    "firstName": "Raul",
+    "lastName": "Bernal-Mora",
     "wikipedia_url": ""
   },
   {
-    "person_id": "2b7a6f5e-4d3c-4b2a-91f0-e9d8c7b6a5f4",
+    "id": "2b7a6f5e-4d3c-4b2a-91f0-e9d8c7b6a5f4",
+    "collection": "persons",
     "name": "Julia Shen",
     "initials": "JS",
-    "first_name": "Julia",
-    "last_Name": "Shen",
+    "firstName": "Julia",
+    "lastName": "Shen",
     "wikipedia_url": ""
   },
   {
-    "person_id": "3a6f5e4d-3c2b-4a1f-8e7d-6c5b4a3f2e1d",
+    "id": "3a6f5e4d-3c2b-4a1f-8e7d-6c5b4a3f2e1d",
+    "collection": "persons",
     "name": "Richard Brudner",
     "initials": "RB",
-    "first_name": "Richard",
-    "last_Name": "Brudner",
+    "firstName": "Richard",
+    "lastName": "Brudner",
     "wikipedia_url": ""
   },
   {
-    "person_id": "4b5a4f3e-2d1c-4b0a-7f6e-5d4c3b2a1f0e",
+    "id": "4b5a4f3e-2d1c-4b0a-7f6e-5d4c3b2a1f0e",
+    "collection": "persons",
     "name": "Roberta Brudner",
     "initials": "RB",
-    "first_name": "Roberta",
-    "last_Name": "Brudner",
+    "firstName": "Roberta",
+    "lastName": "Brudner",
     "wikipedia_url": ""
   },
   {
-    "person_id": "a1b2c3d4-e5f6-4a7b-8c9d-0e1f2a3b4c5d",
+    "id": "a1b2c3d4-e5f6-4a7b-8c9d-0e1f2a3b4c5d",
+    "collection": "persons",
     "name": "Frank Foti",
     "initials": "FF",
-    "first_name": "Frank",
-    "last_Name": "Foti",
+    "firstName": "Frank",
+    "lastName": "Foti",
     "wikipedia_url": ""
   },
   {
-    "person_id": "f0e9d8c7-b6a5-4f3e-a2b1-c0d9e8f7a6b5",
+    "id": "f0e9d8c7-b6a5-4f3e-a2b1-c0d9e8f7a6b5",
+    "collection": "persons",
     "name": "Christine Foti",
     "initials": "CF",
-    "first_name": "Christine",
-    "last_Name": "Foti",
+    "firstName": "Christine",
+    "lastName": "Foti",
     "wikipedia_url": ""
   },
   {
-    "person_id": "5a4b3c2d-1e0f-4d9c-8b7a-6f5e4d3c2b1a",
+    "id": "5a4b3c2d-1e0f-4d9c-8b7a-6f5e4d3c2b1a",
+    "collection": "persons",
     "name": "Thomas Fuchs",
     "initials": "TF",
-    "first_name": "Thomas",
-    "last_Name": "Fuchs",
+    "firstName": "Thomas",
+    "lastName": "Fuchs",
     "wikipedia_url": ""
   },
   {
-    "person_id": "c9d8e7f6-a5b4-4c3d-b2a1-f0e9d8c7b6a5",
+    "id": "c9d8e7f6-a5b4-4c3d-b2a1-f0e9d8c7b6a5",
+    "collection": "persons",
     "name": "Kathleen Fuchs",
     "initials": "KF",
-    "first_name": "Kathleen",
-    "last_Name": "Fuchs",
+    "firstName": "Kathleen",
+    "lastName": "Fuchs",
     "wikipedia_url": ""
   },
   {
-    "person_id": "4d3c2b1a-0f9e-4a8b-7c6d-5e4f3a2b1c0d",
+    "id": "4d3c2b1a-0f9e-4a8b-7c6d-5e4f3a2b1c0d",
+    "collection": "persons",
     "name": "Joseph Hankin",
     "initials": "JH",
-    "first_name": "Joseph",
-    "last_Name": "Hankin",
+    "firstName": "Joseph",
+    "lastName": "Hankin",
     "wikipedia_url": ""
   },
   {
-    "person_id": "e7f6a5b4-c3d2-4e1f-a0b9-d8c7b6a5f4e3",
+    "id": "e7f6a5b4-c3d2-4e1f-a0b9-d8c7b6a5f4e3",
+    "collection": "persons",
     "name": "Carole Hankin",
     "initials": "CH",
-    "first_name": "Carole",
-    "last_Name": "Hankin",
+    "firstName": "Carole",
+    "lastName": "Hankin",
     "wikipedia_url": ""
   },
   {
-    "person_id": "2b1a0f9e-8d7c-4b6a-5f4e-3d2c1b0a9f8e",
+    "id": "2b1a0f9e-8d7c-4b6a-5f4e-3d2c1b0a9f8e",
+    "collection": "persons",
     "name": "Joel Hirsch",
     "initials": "JH",
-    "first_name": "Joel",
-    "last_Name": "Hirsch",
+    "firstName": "Joel",
+    "lastName": "Hirsch",
     "wikipedia_url": ""
   },
   {
-    "person_id": "a5b4c3d2-e1f0-4a9b-8c7d-6e5f4a3b2c1d",
+    "id": "a5b4c3d2-e1f0-4a9b-8c7d-6e5f4a3b2c1d",
+    "collection": "persons",
     "name": "Cynthia Hirsch",
     "initials": "CH",
-    "first_name": "Cynthia",
-    "last_Name": "Hirsch",
+    "firstName": "Cynthia",
+    "lastName": "Hirsch",
     "wikipedia_url": ""
   },
   {
-    "person_id": "f9e8d7c6-b5a4-4d3c-b2a1-f0e9d8c7b6a5",
+    "id": "f9e8d7c6-b5a4-4d3c-b2a1-f0e9d8c7b6a5",
+    "collection": "persons",
     "name": "Mark Holloway",
     "initials": "MH",
-    "first_name": "Mark",
-    "last_Name": "Holloway",
+    "firstName": "Mark",
+    "lastName": "Holloway",
     "wikipedia_url": ""
   },
   {
-    "person_id": "4c3b2a1f-0e9d-4c8b-7a6f-5e4d3c2b1a0f",
+    "id": "4c3b2a1f-0e9d-4c8b-7a6f-5e4d3c2b1a0f",
+    "collection": "persons",
     "name": "Tricia Holloway",
     "initials": "TH",
-    "first_name": "Tricia",
-    "last_Name": "Holloway",
+    "firstName": "Tricia",
+    "lastName": "Holloway",
     "wikipedia_url": ""
   },
   {
-    "person_id": "d2c1b0a9-f8e7-4b6a-5f4e-3d2c1b0a9f8e",
+    "id": "d2c1b0a9-f8e7-4b6a-5f4e-3d2c1b0a9f8e",
+    "collection": "persons",
     "name": "Richard Horowitz",
     "initials": "RH",
-    "first_name": "Richard",
-    "last_Name": "Horowitz",
+    "firstName": "Richard",
+    "lastName": "Horowitz",
     "wikipedia_url": ""
   },
   {
-    "person_id": "e1f0a9b8-c7d6-4e5f-a4b3-c2d1e0a9b8c7",
+    "id": "e1f0a9b8-c7d6-4e5f-a4b3-c2d1e0a9b8c7",
+    "collection": "persons",
     "name": "Heidi Horowitz",
     "initials": "HH",
-    "first_name": "Heidi",
-    "last_Name": "Horowitz",
+    "firstName": "Heidi",
+    "lastName": "Horowitz",
     "wikipedia_url": ""
   },
   {
-    "person_id": "b0a9f8e7-d6c5-4b4a-9f8e-7d6c5b4a3f2e",
+    "id": "b0a9f8e7-d6c5-4b4a-9f8e-7d6c5b4a3f2e",
+    "collection": "persons",
     "name": "Glenn Kaplan",
     "initials": "GK",
-    "first_name": "Glenn",
-    "last_Name": "Kaplan",
+    "firstName": "Glenn",
+    "lastName": "Kaplan",
     "wikipedia_url": ""
   },
   {
-    "person_id": "a9b8c7d6-e5f4-4a3b-8c7d-6e5f4a3b2c1d",
+    "id": "a9b8c7d6-e5f4-4a3b-8c7d-6e5f4a3b2c1d",
+    "collection": "persons",
     "name": "Susan Kaplan",
     "initials": "SK",
-    "first_name": "Susan",
-    "last_Name": "Kaplan",
+    "firstName": "Susan",
+    "lastName": "Kaplan",
     "wikipedia_url": ""
   },
   {
-    "person_id": "f8e7d6c5-b4a3-4d2c-a1b0-f9e8d7c6b5a4",
+    "id": "f8e7d6c5-b4a3-4d2c-a1b0-f9e8d7c6b5a4",
+    "collection": "persons",
     "name": "Harvey Kroiz",
     "initials": "HK",
-    "first_name": "Harvey",
-    "last_Name": "Kroiz",
+    "firstName": "Harvey",
+    "lastName": "Kroiz",
     "wikipedia_url": ""
   },
   {
-    "person_id": "0d9c8b7a-6f5e-4d3c-b2a1-f0e9d8c7b6a5",
+    "id": "0d9c8b7a-6f5e-4d3c-b2a1-f0e9d8c7b6a5",
+    "collection": "persons",
     "name": "Barbara Kroiz",
     "initials": "BK",
-    "first_name": "Barbara",
-    "last_Name": "Kroiz",
+    "firstName": "Barbara",
+    "lastName": "Kroiz",
     "wikipedia_url": ""
   },
   {
-    "person_id": "1c8b7a6f-5e4d-4c3b-a2b1-f0e9d8c7b6a5",
+    "id": "1c8b7a6f-5e4d-4c3b-a2b1-f0e9d8c7b6a5",
+    "collection": "persons",
     "name": "Laetitia Koch",
     "initials": "LK",
-    "first_name": "Laetitia",
-    "last_Name": "Koch",
+    "firstName": "Laetitia",
+    "lastName": "Koch",
     "wikipedia_url": ""
   },
   {
-    "person_id": "2b7a6f5e-4d3c-4b2a-91f0-e9d8c7b6a5f4",
+    "id": "2b7a6f5e-4d3c-4b2a-91f0-e9d8c7b6a5f4",
+    "collection": "persons",
     "name": "Clifford Lane",
     "initials": "CL",
-    "first_name": "Clifford",
-    "last_Name": "Lane",
+    "firstName": "Clifford",
+    "lastName": "Lane",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Clifford_Lane"
   },
   {
-    "person_id": "3a6f5e4d-3c2b-4a1f-8e7d-6c5b4a3f2e1d",
+    "id": "3a6f5e4d-3c2b-4a1f-8e7d-6c5b4a3f2e1d",
+    "collection": "persons",
     "name": "Randi Lane",
     "initials": "RL",
-    "first_name": "Randi",
-    "last_Name": "Lane",
+    "firstName": "Randi",
+    "lastName": "Lane",
     "wikipedia_url": ""
   },
   {
-    "person_id": "4b5a4f3e-2d1c-4b0a-7f6e-5d4c3b2a1f0e",
+    "id": "4b5a4f3e-2d1c-4b0a-7f6e-5d4c3b2a1f0e",
+    "collection": "persons",
     "name": "Urs Ledermann",
     "initials": "UL",
-    "first_name": "Urs",
-    "last_Name": "Ledermann",
+    "firstName": "Urs",
+    "lastName": "Ledermann",
     "wikipedia_url": ""
   },
   {
-    "person_id": "5c4d3e2f-1c0b-4c9a-6e5d-4c3b2a1f0e9d",
+    "id": "5c4d3e2f-1c0b-4c9a-6e5d-4c3b2a1f0e9d",
+    "collection": "persons",
     "name": "Anna Maria Ledermann",
     "initials": "AML",
-    "first_name": "Anna Maria",
-    "last_Name": "Ledermann",
+    "firstName": "Anna Maria",
+    "lastName": "Ledermann",
     "wikipedia_url": ""
   },
   {
-    "person_id": "6d3c2b1a-0f9e-4a8b-7c6d-5e4f3a2b1c0d",
+    "id": "6d3c2b1a-0f9e-4a8b-7c6d-5e4f3a2b1c0d",
+    "collection": "persons",
     "name": "Lloyd Miller",
     "initials": "LM",
-    "first_name": "Lloyd",
-    "last_Name": "Miller",
+    "firstName": "Lloyd",
+    "lastName": "Miller",
     "wikipedia_url": ""
   },
   {
-    "person_id": "7e2f1a0b-9e8d-4b7a-6f5e-4d3c2b1a0f9e",
+    "id": "7e2f1a0b-9e8d-4b7a-6f5e-4d3c2b1a0f9e",
+    "collection": "persons",
     "name": "Susan Miller",
     "initials": "SM",
-    "first_name": "Susan",
-    "last_Name": "Miller",
+    "firstName": "Susan",
+    "lastName": "Miller",
     "wikipedia_url": ""
   },
   {
-    "person_id": "8f1a0b9e-8d7c-4a6f-5e4d-3c2b1a0f9e8d",
+    "id": "8f1a0b9e-8d7c-4a6f-5e4d-3c2b1a0f9e8d",
+    "collection": "persons",
     "name": "Mitchell Ritten Quain",
     "initials": "MRQ",
-    "first_name": "Mitchell Ritten",
-    "last_Name": "Quain",
+    "firstName": "Mitchell Ritten",
+    "lastName": "Quain",
     "wikipedia_url": ""
   },
   {
-    "person_id": "9a0b9e8d-7c6b-4f5e-4d3c-2b1a0f9e8d7c",
+    "id": "9a0b9e8d-7c6b-4f5e-4d3c-2b1a0f9e8d7c",
+    "collection": "persons",
     "name": "Philip Nicozi",
     "initials": "PN",
-    "first_name": "Philip",
-    "last_Name": "Nicozi",
+    "firstName": "Philip",
+    "lastName": "Nicozi",
     "wikipedia_url": ""
   },
   {
-    "person_id": "a9b8c7d6-e5f4-4a3b-8c7d-6e5f4a3b2c1d",
+    "id": "a9b8c7d6-e5f4-4a3b-8c7d-6e5f4a3b2c1d",
+    "collection": "persons",
     "name": "Laetitia Ritten Quain",
     "initials": "LRQ",
-    "first_name": "Laetitia",
-    "last_Name": "Ritten Quain",
+    "firstName": "Laetitia",
+    "lastName": "Ritten Quain",
     "wikipedia_url": ""
   },
   {
-    "person_id": "b8c7d6e5-f4a3-4d2c-a1b0-f9e8d7c6b5a4",
+    "id": "b8c7d6e5-f4a3-4d2c-a1b0-f9e8d7c6b5a4",
+    "collection": "persons",
     "name": "Edward Robinson",
     "initials": "ER",
-    "first_name": "Edward",
-    "last_Name": "Robinson",
+    "firstName": "Edward",
+    "lastName": "Robinson",
     "wikipedia_url": ""
   },
   {
-    "person_id": "c7d6e5f4-a3b2-4c1b-b0a9-e8d7c6b5a4f3",
+    "id": "c7d6e5f4-a3b2-4c1b-b0a9-e8d7c6b5a4f3",
+    "collection": "persons",
     "name": "Deborah Robinson",
     "initials": "DR",
-    "first_name": "Deborah",
-    "last_Name": "Robinson",
+    "firstName": "Deborah",
+    "lastName": "Robinson",
     "wikipedia_url": ""
   },
   {
-    "person_id": "d6e5f4a3-b2a1-4b0a-a9f8-d7c6b5a4f3e2",
+    "id": "d6e5f4a3-b2a1-4b0a-a9f8-d7c6b5a4f3e2",
+    "collection": "persons",
     "name": "Martin Schlossberg",
     "initials": "MS",
-    "first_name": "Martin",
-    "last_Name": "Schlossberg",
+    "firstName": "Martin",
+    "lastName": "Schlossberg",
     "wikipedia_url": ""
   },
   {
-    "person_id": "e5f4a3b2-a1b0-4a9f-9e8d-7c6b5a4f3e2d",
+    "id": "e5f4a3b2-a1b0-4a9f-9e8d-7c6b5a4f3e2d",
+    "collection": "persons",
     "name": "Andrea Schlossberg",
     "initials": "AS",
-    "first_name": "Andrea",
-    "last_Name": "Schlossberg",
+    "firstName": "Andrea",
+    "lastName": "Schlossberg",
     "wikipedia_url": ""
   },
   {
-    "person_id": "f4a3b2a1-b0a9-49f8-e7d6-c5b4a3f2e1d0",
+    "id": "f4a3b2a1-b0a9-49f8-e7d6-c5b4a3f2e1d0",
+    "collection": "persons",
     "name": "Ira Schneider",
     "initials": "IS",
-    "first_name": "Ira",
-    "last_Name": "Schneider",
+    "firstName": "Ira",
+    "lastName": "Schneider",
     "wikipedia_url": ""
   },
   {
-    "person_id": "03b2a1b0-a9f8-48e7-d6c5-b4a3f2e1d0c9",
+    "id": "03b2a1b0-a9f8-48e7-d6c5-b4a3f2e1d0c9",
+    "collection": "persons",
     "name": "Whitney Schneider",
     "initials": "WS",
-    "first_name": "Whitney",
-    "last_Name": "Schneider",
+    "firstName": "Whitney",
+    "lastName": "Schneider",
     "wikipedia_url": ""
   },
   {
-    "person_id": "12a1b0a9-f8e7-47d6-c5b4-a3f2e1d0c9b8",
+    "id": "12a1b0a9-f8e7-47d6-c5b4-a3f2e1d0c9b8",
+    "collection": "persons",
     "name": "Martin Schneider",
     "initials": "MS",
-    "first_name": "Martin",
-    "last_Name": "Schneider",
+    "firstName": "Martin",
+    "lastName": "Schneider",
     "wikipedia_url": ""
   },
   {
-    "person_id": "21b0a9f8-e7d6-46c5-b4a3-f2e1d0c9b8a7",
+    "id": "21b0a9f8-e7d6-46c5-b4a3-f2e1d0c9b8a7",
+    "collection": "persons",
     "name": "Audrey Schneider",
     "initials": "AS",
-    "first_name": "Audrey",
-    "last_Name": "Schneider",
+    "firstName": "Audrey",
+    "lastName": "Schneider",
     "wikipedia_url": ""
   },
   {
-    "person_id": "30a9f8e7-d6c5-45b4-a3f2-e1d0c9b8a7b6",
+    "id": "30a9f8e7-d6c5-45b4-a3f2-e1d0c9b8a7b6",
+    "collection": "persons",
     "name": "Robert Shalam",
     "initials": "RS",
-    "first_name": "Robert",
-    "last_Name": "Shalam",
+    "firstName": "Robert",
+    "lastName": "Shalam",
     "wikipedia_url": ""
   },
   {
-    "person_id": "49f8e7d6-c5b4-44a3-f2e1-d0c9b8a7b6c5",
+    "id": "49f8e7d6-c5b4-44a3-f2e1-d0c9b8a7b6c5",
+    "collection": "persons",
     "name": "Jane Shalam",
     "initials": "JS",
-    "first_name": "Jane",
-    "last_Name": "Shalam",
+    "firstName": "Jane",
+    "lastName": "Shalam",
     "wikipedia_url": ""
   },
   {
-    "person_id": "58e7d6c5-b4a3-43f2-e1d0-c9b8a7b6c5d4",
+    "id": "58e7d6c5-b4a3-43f2-e1d0-c9b8a7b6c5d4",
+    "collection": "persons",
     "name": "Gary Talamico",
     "initials": "GT",
-    "first_name": "Gary",
-    "last_Name": "Talamico",
+    "firstName": "Gary",
+    "lastName": "Talamico",
     "wikipedia_url": ""
   },
   {
-    "person_id": "67d6c5b4-a3b2-42e1-d0c9-b8a7b6c5d4e3",
+    "id": "67d6c5b4-a3b2-42e1-d0c9-b8a7b6c5d4e3",
+    "collection": "persons",
     "name": "Linda Talamico",
     "initials": "LT",
-    "first_name": "Linda",
-    "last_Name": "Talamico",
+    "firstName": "Linda",
+    "lastName": "Talamico",
     "wikipedia_url": ""
   },
   {
-    "person_id": "76c5b4a3-b2a1-41d0-c9b8-a7b6c5d4e3f2",
+    "id": "76c5b4a3-b2a1-41d0-c9b8-a7b6c5d4e3f2",
+    "collection": "persons",
     "name": "Jeffrey Weiss",
     "initials": "JW",
-    "first_name": "Jeffrey",
-    "last_Name": "Weiss",
+    "firstName": "Jeffrey",
+    "lastName": "Weiss",
     "wikipedia_url": ""
   },
   {
-    "person_id": "85b4a3b2-a1b0-40c9-b8a7-b6c5d4e3f2a1",
+    "id": "85b4a3b2-a1b0-40c9-b8a7-b6c5d4e3f2a1",
+    "collection": "persons",
     "name": "Judith Weiss",
     "initials": "JW",
-    "first_name": "Judith",
-    "last_Name": "Weiss",
+    "firstName": "Judith",
+    "lastName": "Weiss",
     "wikipedia_url": ""
   },
   {
-    "person_id": "p_shyde_exec",
+    "id": "p_shyde_exec",
+    "collection": "persons",
     "name": "Stephen Hyde",
-    "first_name": "Stephen",
-    "last_name": "Hyde",
+    "firstName": "Stephen",
+    "lastName": "Hyde",
     "details": "Age 43. CEO of Trump Plaza and Trump Castle Hotel & Casino.",
-    "current_status": [
-      { "state": "Born", "start_Date": null },
-      { "state": "Deceased", "start_Date": "1989-10-10" }
+    "status": [
+      { "state": "Born", "startDate": null },
+      { "state": "Deceased", "startDate": "1989-10-10" }
     ]
   },
   {
-    "person_id": "p_metess_exec",
+    "id": "p_metess_exec",
+    "collection": "persons",
     "name": "Mark Grossinger Etess",
-    "first_name": "Mark",
-    "last_name": "Etess",
+    "firstName": "Mark",
+    "lastName": "Etess",
     "details": "Age 38. President and COO of the upcoming Trump Taj Mahal.",
-    "current_status": [
-      { "state": "Born", "start_Date": null },
-      { "state": "Deceased", "start_Date": "1989-10-10" }
+    "status": [
+      { "state": "Born", "startDate": null },
+      { "state": "Deceased", "startDate": "1989-10-10" }
     ]
   },
   {
-    "person_id": "p_jbenanav_exec",
+    "id": "p_jbenanav_exec",
+    "collection": "persons",
     "name": "Jonathan Benanav",
-    "first_name": "Jonathan",
-    "last_name": "Benanav",
+    "firstName": "Jonathan",
+    "lastName": "Benanav",
     "details": "Executive Vice President of Trump Plaza.",
-    "current_status": [
-      { "state": "Born", "start_Date": null },
-      { "state": "Deceased", "start_Date": "1989-10-10" }
+    "status": [
+      { "state": "Born", "startDate": null },
+      { "state": "Deceased", "startDate": "1989-10-10" }
     ]
   },
   {
-    "person_id": "p_pilot_unknown",
+    "id": "p_pilot_unknown",
+    "collection": "persons",
     "name": "Unknown Pilot",
-    "current_status": [
-      { "state": "Born", "start_Date": null },
-      { "state": "Deceased", "start_Date": "1989-10-10" }
+    "status": [
+      { "state": "Born", "startDate": null },
+      { "state": "Deceased", "startDate": "1989-10-10" }
     ]
   },
   {
-    "person_id": "p_copilot_unknown",
+    "id": "p_copilot_unknown",
+    "collection": "persons",
     "name": "Unknown Co-pilot",
-    "current_status": [
-      { "state": "Born", "start_Date": null },
-      { "state": "Deceased", "start_Date": "1989-10-10" }
+    "status": [
+      { "state": "Born", "startDate": null },
+      { "state": "Deceased", "startDate": "1989-10-10" }
     ]
   },
   {
-    "person_id": "p_fghiorsi_ntsb",
+    "id": "p_fghiorsi_ntsb",
+    "collection": "persons",
     "name": "Frank Ghiorsi",
-    "first_name": "Frank",
-    "last_name": "Ghiorsi",
-    "current_status": [
-      { "state": "Born", "start_Date": null },
-      { "state": "Deceased", "start_Date": "2017" }
+    "firstName": "Frank",
+    "lastName": "Ghiorsi",
+    "status": [
+      { "state": "Born", "startDate": null },
+      { "state": "Deceased", "startDate": "2017" }
     ]
   },
   {
-    "person_id": "p_tmurray_witness",
+    "id": "p_tmurray_witness",
+    "collection": "persons",
     "name": "Tom Murray",
-    "first_name": "Tom",
-    "last_name": "Murray",
-    "current_status": [
-      { "state": "Born", "start_Date": null },
-      { "state": "Living", "start_Date": null }
+    "firstName": "Tom",
+    "lastName": "Murray",
+    "status": [
+      { "state": "Born", "startDate": null },
+      { "state": "Living", "startDate": null }
     ]
   },
   {
-    "person_id": "p_dgardener_assoc",
+    "id": "p_dgardener_assoc",
+    "collection": "persons",
     "name": "David Gardener",
-    "first_name": "David",
-    "last_name": "Gardener",
-    "current_status": [
-      { "state": "Born", "start_Date": null },
-      { "state": "Living", "start_Date": null }
+    "firstName": "David",
+    "lastName": "Gardener",
+    "status": [
+      { "state": "Born", "startDate": null },
+      { "state": "Living", "startDate": null }
     ]
   },
   {
-    "person_id": "p_mrumbolz_comment",
+    "id": "p_mrumbolz_comment",
+    "collection": "persons",
     "name": "Michael Rumbolz",
-    "first_name": "Michael",
-    "last_name": "Rumbolz",
-    "current_status": [
-      { "state": "Born", "start_Date": null },
-      { "state": "Living", "start_Date": null }
+    "firstName": "Michael",
+    "lastName": "Rumbolz",
+    "status": [
+      { "state": "Born", "startDate": null },
+      { "state": "Living", "startDate": null }
     ]
   },
   {
-    "person_id": "p_hcamacho_boxer",
+    "id": "p_hcamacho_boxer",
+    "collection": "persons",
     "name": "Hector Camacho",
-    "first_name": "Hector",
-    "last_name": "Camacho",
-    "current_status": [
-      { "state": "Born", "start_Date": null },
-      { "state": "Deceased", "start_Date": "2012" }
+    "firstName": "Hector",
+    "lastName": "Camacho",
+    "status": [
+      { "state": "Born", "startDate": null },
+      { "state": "Deceased", "startDate": "2012" }
     ]
   },
   {
-    "person_id": "p_vpazienza_boxer",
+    "id": "p_vpazienza_boxer",
+    "collection": "persons",
     "name": "Vinny Pazienza",
-    "first_name": "Vinny",
-    "last_name": "Pazienza",
-    "current_status": [
-      { "state": "Born", "start_Date": null },
-      { "state": "Living", "start_Date": null }
+    "firstName": "Vinny",
+    "lastName": "Pazienza",
+    "status": [
+      { "state": "Born", "startDate": null },
+      { "state": "Living", "startDate": null }
     ]
   }
 ]
