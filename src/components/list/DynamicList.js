@@ -9,7 +9,7 @@ import {
 } from "@mui/material";
 import React from "react";
 import { getComponent } from "./renderComponent";
-import { containerProps } from "../../theme/muiProps";
+import { containerStyles } from "../../theme/muiProps";
 
 export default function DynamicList({ data, itemInFocus, blueprint, onClick }) {
   // if (!blueprint) {
@@ -21,7 +21,7 @@ export default function DynamicList({ data, itemInFocus, blueprint, onClick }) {
       className="dynamic-list"
       dense={true}
       disablePadding={true}
-      // {...containerProps}
+      // {...containerStyles}
       sx={{ height: "100%", overflow: "scroll" }}
     >
       {data?.map((item, i) => (

@@ -23,6 +23,7 @@ router.get("/stories", getPaginatedDocs("stories"));
 router.get("/scripts", getPaginatedDocs("scripts"));
 router.get("/events", getPaginatedDocs("events"));
 router.get("/entities", getPaginatedDocs("entities"));
+router.get("/locations", getPaginatedDocs("locations"));
 
 //* --- By docId ---
 router.get(
@@ -34,9 +35,10 @@ router.get(
   getDocFromCollection("event_entity_links"),
 );
 router.get("/stories/:docId", getDocFromCollection("stories"));
-router.get("/entities/:docId", getDocFromCollection("entities"));
 router.get("/scripts/:docId", getDocFromCollection("scripts"));
 router.get("/events/:docId", getDocFromCollection("events"));
+router.get("/entities/:docId", getDocFromCollection("entities"));
+router.get("/locations/:docId", getDocFromCollection("locations"));
 
 //* --- Misc ---
 router.post("/echo", echo);

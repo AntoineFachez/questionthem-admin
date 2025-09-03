@@ -10,7 +10,7 @@ export const titleProps = {
     backgroundColor: "primary.dark",
   },
 };
-export const containerProps = {
+export const containerStyles = {
   sx: {
     width: "100%",
     height: "100%",

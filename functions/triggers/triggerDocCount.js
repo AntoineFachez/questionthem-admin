@@ -49,42 +49,50 @@ const updateDataBaseStats = async (collectionName, incrementValue) => {
     logger.error(`Error updating '${collectionName}' counter:`, error);
   }
 };
-exports.recalculateDatabaseStats = onCall(async (request) => {
-  try {
-    const collections = await getCollectionNames();
+exports.recalculateDatabaseStats = onCall(
+  {
+    memory: "512MiB",
+  },
+  async (request) => {
+    try {
+      const collections = await getCollectionNames();
 
-    const countPromises = collections.map(async (collectionName) => {
-      const querySnapshot = await db.collection(collectionName).count().get();
-      return {
-        name: collectionName,
-        docCount: querySnapshot.data().count,
-      };
-    });
+      const countPromises = collections.map(async (collectionName) => {
+        const querySnapshot = await db.collection(collectionName).count().get();
+        return {
+          name: collectionName,
+          docCount: querySnapshot.data().count,
+        };
+      });
 
-    const results = await Promise.all(countPromises);
+      const results = await Promise.all(countPromises);
 
-    const collectionStatsPayload = results.reduce((acc, { name, docCount }) => {
-      acc[name] = {
-        docCount: docCount,
-        lastUpdated: admin.firestore.FieldValue.serverTimestamp(),
-      };
-      return acc;
-    }, {});
+      const collectionStatsPayload = results.reduce(
+        (acc, { name, docCount }) => {
+          acc[name] = {
+            docCount: docCount,
+            lastUpdated: admin.firestore.FieldValue.serverTimestamp(),
+          };
+          return acc;
+        },
+        {},
+      );
 
-    const statsDocRef = db.doc("_internal/dbStatistics");
-    await statsDocRef.set(
-      { collectionStats: collectionStatsPayload },
-      { merge: false },
-    );
+      const statsDocRef = db.doc("_internal/dbStatistics");
+      await statsDocRef.set(
+        { collectionStats: collectionStatsPayload },
+        { merge: false },
+      );
 
-    // Return a success object instead of sending a response
-    return { status: "success", message: "Recalculation successful." };
-  } catch (error) {
-    logger.error("Error during recalculation:", error);
-    // Throw an error to be handled by the client
-    throw new Error("Recalculation failed.");
-  }
-});
+      // Return a success object instead of sending a response
+      return { status: "success", message: "Recalculation successful." };
+    } catch (error) {
+      logger.error("Error during recalculation:", error);
+      // Throw an error to be handled by the client
+      throw new Error("Recalculation failed.");
+    }
+  },
+);
 const getCollectionNames = async () => {
   try {
     const collections = await db.listCollections();

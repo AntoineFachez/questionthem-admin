@@ -5,7 +5,7 @@ const {
   Box,
 } = require("@mui/material");
 
-import { containerProps } from "../../theme/muiProps";
+import { containerStyles } from "../../theme/muiProps";
 import { iconMap } from "../../lib/maps/iconMap";
 import { handleCopyToClipboard } from "../../lib/utils/clipboard";
 export const getComponent = (
@@ -54,7 +54,7 @@ export const getComponent = (
       if (Array.isArray(data) && data.length > 0) {
         return (
           <Box
-            {...containerProps}
+            {...containerStyles}
             sx={{ maxWidth: "60ch" }}
             className="dynamic-list-sublist-container"
           >

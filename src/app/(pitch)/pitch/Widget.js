@@ -6,7 +6,7 @@ import { Box, Paper } from "@mui/material";
 import DynamicList from "../../../components/list/DynamicList";
 import SimpleTree from "../../../components/treeView/SimpleTree";
 
-import { containerProps } from "../../../theme/muiProps";
+import { containerStyles } from "../../../theme/muiProps";
 
 import { widgetSpex } from "./widgetSpex.json";
 import { useWidgetContext } from "./Context";
