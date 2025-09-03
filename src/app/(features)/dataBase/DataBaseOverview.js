@@ -13,7 +13,7 @@ import {
 } from "@mui/material";
 import { useTheme } from "@mui/material/styles";
 
-import { useDataBase } from "../../../context/DataBaseContext";
+import { useMetaData } from "../../../context/MetaDataContext";
 import { useUIContext } from "../../../context/UIContext";
 import { useUser } from "../../../context/UserContext";
 
@@ -34,7 +34,9 @@ export default function DataBaseOverview() {
     setError,
     setRefetchTrigger,
     handleDeleteCollection,
-  } = useDataBase();
+    handleRecalculateStats,
+  } = useMetaData();
+  console.log("dbStats", dbStats);
 
   const [isConfirming, setIsConfirming] = useState(false);
   const [collectionToDelete, setCollectionToDelete] = useState("");
@@ -56,6 +58,7 @@ export default function DataBaseOverview() {
   const handleDismissError = () => {
     setError(null);
     setRefetchTrigger((prev) => prev + 1);
+    // handleRecalculateStats();
   };
 
   // if (loading) {
@@ -110,20 +113,20 @@ export default function DataBaseOverview() {
       field: "lastUpdated",
       headerName: "Last Update",
       align: "right",
-      width: 130,
+      width: 100,
     },
     {
       field: "avgDocSizeBytes",
       headerName: "avgDocSizeBytes",
       align: "right",
-      width: 130,
+      width: 80,
     },
-    { field: "topTags", headerName: "topTags", align: "right", width: 130 },
+    { field: "topTags", headerName: "topTags", align: "right", width: 80 },
     {
       field: "topReadDocIds",
       headerName: "topReadDocIds",
       align: "right",
-      width: 130,
+      width: 80,
     },
   ];
 

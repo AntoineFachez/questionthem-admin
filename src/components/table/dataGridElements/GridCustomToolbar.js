@@ -38,7 +38,7 @@ import {
   QuickFilterTrigger,
 } from "@mui/x-data-grid";
 import { getIconComponent } from "../../../lib/maps/iconMap";
-import { useDataBase } from "../../../context/DataBaseContext";
+import { useMetaData } from "../../../context/MetaDataContext";
 
 import InputAdornment from "@mui/material/InputAdornment";
 import CancelIcon from "@mui/icons-material/Cancel";
@@ -241,7 +241,7 @@ const GridCustomToolbar = ({
   isExpandedTable,
   setIsExpandedTable,
 }) => {
-  const { handleRecalculateStats } = useDataBase();
+  const { handleRecalculateStats } = useMetaData();
   const rootProps = useGridRootProps();
   const apiRef = useGridApiContext();
 

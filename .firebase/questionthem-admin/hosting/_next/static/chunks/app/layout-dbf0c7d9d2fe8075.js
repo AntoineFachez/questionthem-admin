@@ -287,7 +287,7 @@
         let e = (0, o.useContext)(a);
         if (null === e)
           throw Error(
-            "useDataBase must be used within a FirestoreDataProvider."
+            "useMetaData must be used within a FirestoreDataProvider."
           );
         return e;
       }

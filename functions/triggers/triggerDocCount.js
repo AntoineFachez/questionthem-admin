@@ -13,15 +13,6 @@ const db = admin.firestore();
 // --- Configuration ---
 const STATS_DOCUMENT_PATH = "_internal/dbStatistics";
 
-const updateStatsDocument = async (statsDocRef, statsObject, merge) => {
-  try {
-    await statsDocRef.set({ collectionStats: statsObject }, { merge: merge });
-    logger.info(`Database stats document updated. Merge mode: ${merge}`);
-  } catch (error) {
-    logger.error("Error updating stats document:", error);
-    throw error;
-  }
-}; // Refactored function for incremental updates
 const updateDataBaseStats = async (collectionName, incrementValue) => {
   if (collectionName === "_internal") {
     logger.info("Skipping counter update for internal collection.");
@@ -174,52 +165,63 @@ exports.handleDocumentDeletion = onDocumentDeleted(
     return updateDataBaseStats(collectionName, -1);
   },
 );
-const logStatEvent = (collectionName, incrementValue) => {
-  // Don't await this, just fire and forget.
-  return db.collection("_internal/stat-events").add({
-    collectionName: collectionName,
-    change: incrementValue, // Will be +1 or -1
-    timestamp: admin.firestore.FieldValue.serverTimestamp(),
-  });
-};
-// Centralize the path to make it easy to change later.
-const COUNTER_COLLECTION_PATH = "_internal/statistics/collection-counts";
 
-// Helper function to update the counter for a given collection.
-const updateCollectionStats = async (collectionName, incrementValue) => {
-  // This trigger is configured for top-level collections.
-  // We should ignore any collections that are not meant to be counted,
-  // especially our internal one.
-  if (collectionName === "_internal") {
-    logger.info("Skipping counter update for internal collection.");
-    return;
-  }
+// const updateStatsDocument = async (statsDocRef, statsObject, merge) => {
+//   try {
+//     await statsDocRef.set({ collectionStats: statsObject }, { merge: merge });
+//     logger.info(`Database stats document updated. Merge mode: ${merge}`);
+//   } catch (error) {
+//     logger.error("Error updating stats document:", error);
+//     throw error;
+//   }
+// }; // Refactored function for incremental updates
 
-  // Construct the reference to the specific counter document in the subcollection.
-  const counterRef = db.collection(COUNTER_COLLECTION_PATH).doc(collectionName);
+// const logStatEvent = (collectionName, incrementValue) => {
+//   // Don't await this, just fire and forget.
+//   return db.collection("_internal/stat-events").add({
+//     collectionName: collectionName,
+//     change: incrementValue, // Will be +1 or -1
+//     timestamp: admin.firestore.FieldValue.serverTimestamp(),
+//   });
+// };
+// // Centralize the path to make it easy to change later.
+// const COUNTER_COLLECTION_PATH = "_internal/statistics/collection-counts";
 
-  try {
-    // Use a transaction to safely increment the counter.
-    await db.runTransaction(async (transaction) => {
-      transaction.set(
-        counterRef,
-        {
-          count: admin.firestore.FieldValue.increment(incrementValue),
-          lastUpdated: admin.firestore.FieldValue.serverTimestamp(),
-          mostReadCollection: [],
-        },
-        { merge: true }, // Use merge to create the doc if it doesn't exist.
-      );
-    });
+// // Helper function to update the counter for a given collection.
+// const updateCollectionStats = async (collectionName, incrementValue) => {
+//   // This trigger is configured for top-level collections.
+//   // We should ignore any collections that are not meant to be counted,
+//   // especially our internal one.
+//   if (collectionName === "_internal") {
+//     logger.info("Skipping counter update for internal collection.");
+//     return;
+//   }
 
-    logger.info(
-      `Counter for collection '${collectionName}' updated by ${incrementValue}.`,
-    );
-    // updateDataBaseStats(collectionName, incrementValue);
-  } catch (error) {
-    logger.error(
-      `Error updating counter for collection '${collectionName}':`,
-      error,
-    );
-  }
-};
+//   // Construct the reference to the specific counter document in the subcollection.
+//   const counterRef = db.collection(COUNTER_COLLECTION_PATH).doc(collectionName);
+
+//   try {
+//     // Use a transaction to safely increment the counter.
+//     await db.runTransaction(async (transaction) => {
+//       transaction.set(
+//         counterRef,
+//         {
+//           count: admin.firestore.FieldValue.increment(incrementValue),
+//           lastUpdated: admin.firestore.FieldValue.serverTimestamp(),
+//           mostReadCollection: [],
+//         },
+//         { merge: true }, // Use merge to create the doc if it doesn't exist.
+//       );
+//     });
+
+//     logger.info(
+//       `Counter for collection '${collectionName}' updated by ${incrementValue}.`,
+//     );
+//     // updateDataBaseStats(collectionName, incrementValue);
+//   } catch (error) {
+//     logger.error(
+//       `Error updating counter for collection '${collectionName}':`,
+//       error,
+//     );
+//   }
+// };

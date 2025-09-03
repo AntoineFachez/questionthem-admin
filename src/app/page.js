@@ -3,7 +3,7 @@ import React from "react";
 import { Box, Button, Typography } from "@mui/material";
 
 import { useUser } from "../context/UserContext";
-import { useDataBase } from "../context/DataBaseContext";
+import { useMetaData } from "../context/MetaDataContext";
 
 import AdminLoginForm from "../components/auth/AdminLogIn";
 
@@ -11,7 +11,7 @@ import DynamicLink from "../components/link/DynamicLink";
 
 export default function Home() {
   const { user, loading } = useUser();
-  const { handleRecalculateStats } = useDataBase();
+  const { handleRecalculateStats } = useMetaData();
 
   if (loading) {
     return (

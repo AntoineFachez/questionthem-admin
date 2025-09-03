@@ -1,4 +1,5 @@
 // functions/index.js
+require("@google-cloud/trace-agent").start();
 require("dotenv").config({ path: "../.env" });
 const admin = require("firebase-admin");
 const { setGlobalOptions } = require("firebase-functions/v2");
@@ -23,14 +24,14 @@ const {
 } = require("./triggers/triggerDocCount");
 
 //* Scheduled Triggers
-const { accountCleanup } = require("./scheduler/accountCleanup");
-const { batchUpdateStats } = require("./scheduler/batchUpdate");
+// const { accountCleanup } = require("./scheduler/accountCleanup");
+// const { batchUpdateStats } = require("./scheduler/batchUpdate");
 
 //* Callable Triggers (Client-invoked functions)
-const { backfillEmbeddings } = require("./triggers/callableEmbeddingsGen");
-const { secureDataExtractor } = require("./auth/secureAi");
+// const { backfillEmbeddings } = require("./triggers/callableEmbeddingsGen");
+// const { secureDataExtractor } = require("./auth/secureAi");
 const { fetchContent } = require("./triggers/callableScraper");
-const { getYouTubeTranscript } = require("./triggers/callableTransscript");
+// const { getYouTubeTranscript } = require("./triggers/callableTransscript");
 
 //* Auth Triggers
 //! not in firebase SDK /v2 yet
@@ -42,13 +43,13 @@ exports.api = onRequest({ memory: "1GiB" }, app);
 //* individual background and callable triggers
 exports.handleDocumentCreation = handleDocumentCreation;
 exports.handleDocumentDeletion = handleDocumentDeletion;
-
 exports.recalculateDatabaseStats = recalculateDatabaseStats;
-exports.accountCleanup = accountCleanup;
-exports.batchUpdateStats = batchUpdateStats;
-exports.backfillEmbeddings = backfillEmbeddings;
+
+// exports.accountCleanup = accountCleanup;
+// exports.batchUpdateStats = batchUpdateStats;
+// exports.backfillEmbeddings = backfillEmbeddings;
 exports.fetchContent = fetchContent;
-exports.getYouTubeTranscript = getYouTubeTranscript;
-exports.secureDataExtractor = secureDataExtractor;
+// exports.getYouTubeTranscript = getYouTubeTranscript;
+// exports.secureDataExtractor = secureDataExtractor;
 //! not in firebase SDK /v2 yet
 // exports.handleUserCreate = handleUserCreate;

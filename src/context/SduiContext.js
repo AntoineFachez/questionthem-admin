@@ -12,12 +12,12 @@ import mockUiTemplates from "../sdui/definitions/templates/templates.json";
 import statsDataMap from "../sdui/definitions/dataMapping/stats.map.json";
 import usersDataMap from "../sdui/definitions/dataMapping/users.map.json";
 import { mockRawData } from "../sdui/mockData.json";
-import { useDataBase } from "./DataBaseContext";
+import { useMetaData } from "./MetaDataContext";
 
 const SduiContext = createContext();
 
 export function SduiProvider({ children, viewConfig }) {
-  const { dbStats } = useDataBase();
+  const { dbStats } = useMetaData();
   const avialableTemplates = mockUiTemplates;
   const widgetProps = { buttonConfigurations };
   // --- State Management ---

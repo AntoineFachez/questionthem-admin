@@ -4,7 +4,7 @@ import { Box, Button, ThemeProvider } from "@mui/material";
 import { ToastContainer } from "react-toastify";
 
 import { UserProvider } from "../context/UserContext";
-import { DataBaseProvider } from "../context/DataBaseContext";
+import { MetaDataProvider } from "../context/MetaDataContext";
 import { UIProvider, useUIContext } from "../context/UIContext";
 import { SduiProvider } from "../context/SduiContext";
 
@@ -21,7 +21,7 @@ export default function RootLayout({ children }) {
       <ThemeProvider theme={darkTheme}>
         <UIProvider>
           <UserProvider>
-            <DataBaseProvider>
+            <MetaDataProvider>
               {/* <SduiProvider viewConfig={uiBlueprintIds}> */}
               <Box
                 component="body"
@@ -50,7 +50,7 @@ export default function RootLayout({ children }) {
                 <ScrollDialog />
               </Box>
               {/* </SduiProvider> */}
-            </DataBaseProvider>
+            </MetaDataProvider>
           </UserProvider>
         </UIProvider>
       </ThemeProvider>

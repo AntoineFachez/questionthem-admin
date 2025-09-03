@@ -4,6 +4,7 @@ const express = require("express");
 const { logger } = require("firebase-functions");
 const { runAgentQuery } = require("../services/agentService");
 const { sendSuccess, sendError } = require("../utils/responseFormatter");
+const { writeLog, writeErrorLog } = require("../utils/cloudLog");
 
 const app = express();
 app.use(express.json());
@@ -22,9 +23,38 @@ const agentHandler = async (req, res) => {
   }
 
   try {
+    const metadata = {
+      resource: {
+        type: "cloud_function",
+        labels: { function_name: "agentHandler" },
+      },
+      labels: { user_id: req.user.id },
+    };
+
+    const logEntryData = {
+      message: "Gemini API agent call initiated",
+      prompt: query,
+      originatingEndpoint: "/api/agent",
+    };
+
+    // Log the successful call before the API request
+    writeLog("agent_query_success", metadata, logEntryData);
+
     const answer = await runAgentQuery({ logger, userQuery: query });
     sendSuccess(res, { answer });
   } catch (error) {
+    // Define and use error-specific metadata for detailed tracing
+    const errorMetadata = {
+      resource: {
+        type: "cloud_function",
+        labels: { function_name: "agentHandler" },
+      },
+      labels: { user_id: req.user.id, originatingEndpoint: "/api/agent" },
+    };
+
+    // Log the error with specific details
+    writeErrorLog("agent_query_errors", errorMetadata, error);
+
     logger.error("The agentic query failed:", error);
     sendError(
       res,
@@ -37,6 +67,4 @@ const agentHandler = async (req, res) => {
 
 app.post("/query", agentHandler);
 
-// We no longer need to export the whole app.
-// Instead, we integrate this router into our main `app.js`.
 module.exports = app;

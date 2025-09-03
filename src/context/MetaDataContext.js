@@ -19,9 +19,9 @@ import {
   model,
 } from "../lib/firebase/firebase-client";
 import { doc, onSnapshot } from "firebase/firestore";
-const DataBaseContext = createContext(null);
+const MetaDataContext = createContext(null);
 
-export function DataBaseProvider({ children }) {
+export function MetaDataProvider({ children }) {
   const { user, loading: userLoading } = useUser();
 
   // State is now the single stats object, not an array.
@@ -124,16 +124,16 @@ export function DataBaseProvider({ children }) {
   };
 
   return (
-    <DataBaseContext.Provider value={contextValue}>
+    <MetaDataContext.Provider value={contextValue}>
       {children}
-    </DataBaseContext.Provider>
+    </MetaDataContext.Provider>
   );
 }
 
-export function useDataBase() {
-  const context = useContext(DataBaseContext);
+export function useMetaData() {
+  const context = useContext(MetaDataContext);
   if (context === null) {
-    throw new Error("useDataBase must be used within a DataBaseProvider.");
+    throw new Error("useMetaData must be used within a MetaDataProvider.");
   }
   return context;
 }
