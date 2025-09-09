@@ -5,9 +5,8 @@ import { useEffect } from "react";
 import { useRouter } from "next/navigation";
 import { Box, Typography } from "@mui/material";
 
-import { useUser } from "@/context/UserContext";
+import { useUser } from "../../../context/UserContext";
 import { WidgetContext } from "./Context";
-
 export default function Alerts({ children }) {
   const { user, loading } = useUser();
   const router = useRouter();

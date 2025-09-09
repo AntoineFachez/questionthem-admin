@@ -1,6 +1,6 @@
 // src/app/api/listcollections/route.js
 import { NextResponse } from "next/server";
-import { db } from "../../../lib/firebase-admin"; // Your server-side Admin SDK instance
+import { db } from "../../../lib/firebase/firebase-admin"; // Your server-side Admin SDK instance
 
 export async function GET() {
   try {

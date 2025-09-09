@@ -10,32 +10,23 @@
         "firebase-debug.*.log",
         "*.local"
       ],
-      "predeploy": [
-        "npm --prefix \"$RESOURCE_DIR\" run lint"
-      ]
+      "predeploy": ["npm --prefix \"$RESOURCE_DIR\" run lint"]
     }
   ],
+  "hosting": {
+    "site": "questionthem-admin",
+    "source": ".",
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"]
+  },
   "apphosting": {
-    "backendId": "questionthem-backend",
+    "backendId": "questionthem-backend-admin",
+    "location": "europe-west1",
     "rootDir": "/",
     "ignore": [
       "node_modules",
       ".git",
       "firebase-debug.log",
-      "firebase-debug.*.log",
-      "functions"
+      "firebase-debug.*.log"
     ]
-  },
-  "hosting": {
-    "source": ".",
-    "site": "questionthem-admin",
-    "ignore": [
-      "firebase.json",
-      "**/.*",
-      "**/node_modules/**"
-    ],
-    "frameworksBackend": {
-      "region": "europe-west1"
-    }
   }
 }

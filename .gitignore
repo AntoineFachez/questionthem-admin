@@ -51,3 +51,7 @@ next-env.d.ts
 
 #assets folder within src
 /src/assets/
+
+.firebase
+.firebaserc
+.eslint.config.mjs
