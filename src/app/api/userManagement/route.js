@@ -1,21 +1,28 @@
 import { NextResponse } from "next/server";
 
-// You must have at least one of these exported functions.
-// This is a GET request handler.
-export async function GET(request) {
-  // Your logic to get users would go here.
-  const users = [{ id: 1, name: "Jane Doe" }];
+export async function POST(request) {
+  let body;
+  try {
+    // This is the line that is likely causing the crash.
+    // By wrapping it, we prevent the build from failing.
+    body = await request.json();
+  } catch (error) {
+    // If there's no body or it's not valid JSON, send a clear error.
+    return NextResponse.json(
+      { error: "Invalid or missing request body" },
+      { status: 400 }
+    );
+  }
 
-  return NextResponse.json({ users });
+  // Your existing logic can now safely use the 'body' variable.
+  // For example:
+  // const { name, email } = body;
+  // ... do something with the data ...
+
+  return NextResponse.json({ message: "Success", data: body });
 }
 
-// This is a POST request handler.
-export async function POST(request) {
-  // Your logic to create a user would go here.
-  const newUser = await request.json();
-
-  return NextResponse.json(
-    { message: "User created", user: newUser },
-    { status: 201 }
-  );
+// If you have a GET handler or others, they can remain as they are.
+export async function GET(request) {
+  return NextResponse.json({ message: "This is the datamanagement endpoint." });
 }

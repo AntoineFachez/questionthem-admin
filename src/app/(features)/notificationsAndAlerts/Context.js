@@ -2,7 +2,7 @@
 "use client";
 import React, { createContext, useContext, useState, useEffect } from "react";
 import { widgetSpex } from "./widgetSpex.json";
-import { features } from "../../../lib/pitchScrumData/srumBackend.json";
+import scrumData from "../../../lib/pitchScrumData/srumBackend.json";
 
 const Context = createContext(null);
 
@@ -11,6 +11,8 @@ const Context = createContext(null);
  * @param {object} children - The child components that will have access to this context.
  */
 export function WidgetContext({ children }) {
+  const features = scrumData.features;
+
   const data = features.find(
     (item) => item.widgetName === widgetSpex.widgetName
   );
