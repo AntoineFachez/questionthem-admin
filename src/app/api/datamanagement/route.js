@@ -1,4 +1,4 @@
-// src/api/datamanagement/route.js
+// src/app/api/datamanagement/route.js
 import { NextResponse } from "next/server";
 import { db } from "../../../lib/firebase/firebase-admin";
 
@@ -19,24 +19,28 @@ const deleteCollection = async (collectionRef) => {
 };
 export async function POST(request) {
   try {
+    const contentType = request.headers.get("content-type");
+    if (!contentType || !contentType.includes("application/json")) {
+      return NextResponse.json(
+        { message: "Build-time analysis or non-JSON request." },
+        { status: 200 }
+      );
+    }
+
     const { action, collection, id, data } = await request.json();
 
     let result;
     switch (action) {
       case "create":
-        // Logic for creating a document
         result = await createFirestoreDocument(collection, data);
         break;
       case "update":
-        // Logic for updating a document
         result = await updateFirestoreDocument(collection, id, data);
         break;
       case "delete":
-        // Logic for deleting a single document
         result = await deleteFirestoreDocument(collection, id);
         break;
       case "deleteCollection":
-        // New case to handle deleting an entire collection
         if (!collection) {
           return NextResponse.json(
             { error: "Collection name is required" },
@@ -52,6 +56,7 @@ export async function POST(request) {
 
     return NextResponse.json(result, { status: 200 });
   } catch (error) {
+    // Your original catch block is still useful for other types of server errors.
     console.error("Error in API route:", error);
     return NextResponse.json(
       { error: "Failed to process request" },
