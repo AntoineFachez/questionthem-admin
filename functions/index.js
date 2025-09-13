@@ -26,6 +26,7 @@ const {
 //* Scheduled Triggers
 // const { accountCleanup } = require("./scheduler/accountCleanup");
 // const { batchUpdateStats } = require("./scheduler/batchUpdate");
+const { blueskyFirehoseListener } = require("./scheduler/blueskyListener"); // <-- ADD THIS
 
 //* Callable Triggers (Client-invoked functions)
 // const { backfillEmbeddings } = require("./triggers/callableEmbeddingsGen");
@@ -39,12 +40,12 @@ const { fetchContent } = require("./triggers/callableScraper");
 
 // --- Export All Functions ---
 //* app.js export
+exports.blueskyFirehoseListener = blueskyFirehoseListener;
 exports.api = onRequest({ memory: "1GiB" }, app);
 //* individual background and callable triggers
 exports.handleDocumentCreation = handleDocumentCreation;
 exports.handleDocumentDeletion = handleDocumentDeletion;
 exports.recalculateDatabaseStats = recalculateDatabaseStats;
-
 // exports.accountCleanup = accountCleanup;
 // exports.batchUpdateStats = batchUpdateStats;
 // exports.backfillEmbeddings = backfillEmbeddings;

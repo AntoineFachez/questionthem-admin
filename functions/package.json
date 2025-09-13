@@ -22,6 +22,7 @@
     "@google-cloud/trace-agent": "^8.0.0",
     "@google-cloud/vertexai": "^1.10.0",
     "@google/generative-ai": "^0.24.1",
+    "atproto-firehose": "^0.2.2",
     "cors": "^2.8.5",
     "dotenv": "^17.2.1",
     "email-sender": "^1.0.4",
