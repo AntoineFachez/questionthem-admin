@@ -21,8 +21,8 @@ router.post("/sentiment", validateMessage, analyzeSentimentHandler);
 router.post("/syntax", validateMessage, analyzingSyntaxHandler);
 
 // Generative AI
-router.post("/chat", validateMessage, chatbotHandler);
-router.post("/generate-image", validatePrompt, generateImageHandler);
-router.post("/generate-text", validatePrompt, textGenerationHandler);
+// router.post("/chat", validateMessage, chatbotHandler);
+// router.post("/generate-image", validatePrompt, generateImageHandler);
+// router.post("/generate-text", validatePrompt, textGenerationHandler);
 
 module.exports = router;

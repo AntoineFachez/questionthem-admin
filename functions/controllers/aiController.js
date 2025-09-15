@@ -6,7 +6,7 @@ const { sendSuccess, sendError } = require("../utils/responseFormatter");
 const { writeLog, writeErrorLog } = require("../utils/cloudLog");
 
 // --- Service Imports ---
-const { generateChatResponse } = require("../services/geminiService");
+const { generateChatResponse } = require("../services/conversationalService");
 const { generateImage } = require("../services/imagenService");
 const { generateText } = require("../services/textBisonService");
 

@@ -40,8 +40,9 @@ const agentHandler = async (req, res) => {
     // Log the successful call before the API request
     writeLog("agent_query_success", metadata, logEntryData);
 
-    const answer = await runAgentQuery({ logger, userQuery: query });
-    sendSuccess(res, { answer });
+    //FIX: uncomment for Agent
+    // const answer = await runAgentQuery({ logger, userQuery: query });
+    // sendSuccess(res, { answer });
   } catch (error) {
     // Define and use error-specific metadata for detailed tracing
     const errorMetadata = {
