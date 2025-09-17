@@ -15,8 +15,6 @@ setGlobalOptions({ region: "europe-west1" });
 // --- Import the Main API ---
 const app = require("./app");
 
-const firehosePublisher = require("./firehosePublisher/firehosePublisher");
-
 // --- Import All Trigger Functions ---
 //* Firestore Triggers
 const {
@@ -28,11 +26,12 @@ const {
 //* Scheduled Triggers
 // const { accountCleanup } = require("./scheduler/accountCleanup");
 // const { batchUpdateStats } = require("./scheduler/batchUpdate");
-
+const { firehosePublisher } = require("./firehosePublisher/firehosePublisher");
 //* Callable Triggers (Client-invoked functions)
 // const { backfillEmbeddings } = require("./triggers/callableEmbeddingsGen");
 // const { secureDataExtractor } = require("./auth/secureAi");
 const { fetchContent } = require("./triggers/callableScraper");
+
 // const { getYouTubeTranscript } = require("./triggers/callableTransscript");
 
 //* Auth Triggers
@@ -44,15 +43,16 @@ const { fetchContent } = require("./triggers/callableScraper");
 
 exports.api = onRequest({ memory: "1GiB" }, app);
 //* individual background and callable triggers
-exports.firehosePublisher = firehosePublisher;
-exports.handleDocumentCreation = handleDocumentCreation;
-exports.handleDocumentDeletion = handleDocumentDeletion;
-exports.recalculateDatabaseStats = recalculateDatabaseStats;
 // exports.accountCleanup = accountCleanup;
 // exports.batchUpdateStats = batchUpdateStats;
 // exports.backfillEmbeddings = backfillEmbeddings;
 exports.fetchContent = fetchContent;
+exports.firehosePublisher = firehosePublisher;
+// exports.handleUserCreate = handleUserCreate;
+exports.handleDocumentCreation = handleDocumentCreation;
+exports.handleDocumentDeletion = handleDocumentDeletion;
+
 // exports.getYouTubeTranscript = getYouTubeTranscript;
+exports.recalculateDatabaseStats = recalculateDatabaseStats;
 // exports.secureDataExtractor = secureDataExtractor;
 //! not in firebase SDK /v2 yet
-// exports.handleUserCreate = handleUserCreate;

@@ -105,6 +105,23 @@ export default function Navbar() {
                 </MuiLink>
               );
             })}
+            <MuiLink
+              key={"gcloud"}
+              component={Link}
+              href={"gcloud"}
+              color="inherit"
+              underline="none"
+              sx={{
+                transition: "color 0.3s ease-in-out",
+                "&:hover": {
+                  color: "primary.main",
+                },
+                display: "flex",
+                alignItems: "center",
+              }}
+            >
+              gcloud
+            </MuiLink>
             <AdminLogout />
           </Box>
         )}

@@ -2,7 +2,7 @@
 
 import { initializeApp, getApps, cert } from "firebase-admin/app";
 import { getFirestore } from "firebase-admin/firestore";
-
+import { getAuth } from "firebase-admin/auth";
 // The service account key is a JSON object that contains your credentials.
 // It is critical to store this securely. The best practice is to
 // store it in an environment variable or a secrets manager.
@@ -18,7 +18,7 @@ const app = !getApps().length
   : getApps()[0];
 
 // Get the Firestore instance. You can add other services here.
+const adminAuth = getAuth(app);
 const db = getFirestore(app);
-
 // Export the initialized services for use in server-side code.
-export { db };
+export { db, adminAuth };
